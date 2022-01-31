@@ -2,7 +2,7 @@
 permalink: data-protection/reference_relationship_all_relationships_view.html 
 sidebar: sidebar 
 keywords: volume, relationships 
-summary: 관계: 모든 관계 보기에는 스토리지 시스템의 보호 관계에 대한 정보가 표시됩니다. 
+summary: '관계: 모든 관계 보기에는 스토리지 시스템의 보호 관계에 대한 정보가 표시됩니다.' 
 ---
 = 관계: 모든 관계 보기
 :icons: font

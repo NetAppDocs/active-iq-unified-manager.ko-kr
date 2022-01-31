@@ -2,7 +2,7 @@
 permalink: data-protection/task_view_volume_protection_relationships.html 
 sidebar: sidebar 
 keywords: view, volume, protection relationships 
-summary: 관계: 모든 관계 보기 및 볼륨 관계 페이지에서 기존 볼륨 SnapMirror 및 SnapVault 관계의 상태를 볼 수 있습니다. 전송 및 지연 상태, 소스 및 대상 세부 정보, 스케줄 및 정책 정보 등의 보호 관계에 대한 세부 정보를 검토할 수도 있습니다. 
+summary: '관계: 모든 관계 보기 및 볼륨 관계 페이지에서 기존 볼륨 SnapMirror 및 SnapVault 관계의 상태를 볼 수 있습니다. 전송 및 지연 상태, 소스 및 대상 세부 정보, 스케줄 및 정책 정보 등의 보호 관계에 대한 세부 정보를 검토할 수도 있습니다.' 
 ---
 = 볼륨 보호 관계 보기
 :icons: font

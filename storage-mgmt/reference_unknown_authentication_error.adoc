@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_unknown_authentication_error.html 
 sidebar: sidebar 
 keywords: unknown, authentication, error 
-summary: 문제 해결: 알 수 없는 인증 오류입니다 
+summary: '문제 해결: 알 수 없는 인증 오류입니다' 
 ---
 = 알 수 없는 인증 오류입니다
 :icons: font

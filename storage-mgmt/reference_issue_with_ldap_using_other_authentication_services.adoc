@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_issue_with_ldap_using_other_authentication_services.html 
 sidebar: sidebar 
 keywords: issue, addi, ldap, use, other, authentication, services 
-summary: 문제 해결: 다른 인증 서비스를 사용하여 LDAP를 추가하는 데 문제가 있습니다 
+summary: '문제 해결: 다른 인증 서비스를 사용하여 LDAP를 추가하는 데 문제가 있습니다' 
 ---
 = 다른 인증 서비스를 사용하여 LDAP를 추가하는 데 문제가 있습니다
 :icons: font

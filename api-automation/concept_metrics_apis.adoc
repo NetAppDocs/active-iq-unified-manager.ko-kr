@@ -2,7 +2,7 @@
 permalink: api-automation/concept_metrics_apis.html 
 sidebar: sidebar 
 keywords: view, performance, metrics 
-summary: Active IQ Unified Manager는 데이터 센터에서 클러스터의 성능 데이터와 스토리지 객체를 볼 수 있도록 /datacenter 범주 아래에 API 세트를 제공합니다. 이러한 API는 클러스터, 노드, LUN, 볼륨 등 다양한 스토리지 오브젝트의 성능 데이터를 애그리게이트 및 스토리지 VM: 
+summary: 'Active IQ Unified Manager는 데이터 센터에서 클러스터의 성능 데이터와 스토리지 객체를 볼 수 있도록 /datacenter 범주 아래에 API 세트를 제공합니다. 이러한 API는 클러스터, 노드, LUN, 볼륨 등 다양한 스토리지 오브젝트의 성능 데이터를 애그리게이트 및 스토리지 VM:' 
 ---
 = 성능 메트릭 보기
 :icons: font
