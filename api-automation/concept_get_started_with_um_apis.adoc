@@ -1,0 +1,17 @@
+---
+permalink: api-automation/concept_get_started_with_um_apis.html 
+sidebar: sidebar 
+keywords: active iq, unified manager 
+summary: Active IQ Unified Manager은 타사 통합을 위해 RESTful 웹 서비스 인터페이스를 통해 지원되는 스토리지 시스템에서 스토리지 리소스를 관리하는 일련의 API를 제공합니다. 
+---
+= Active IQ Unified Manager 시작하기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager은 타사 통합을 위해 RESTful 웹 서비스 인터페이스를 통해 지원되는 스토리지 시스템에서 스토리지 리소스를 관리하는 일련의 API를 제공합니다.
+
+Unified Manager API 개발자 가이드 _ 에서는 API 및 샘플 코드에 대한 정보를 제공합니다. 이 가이드에 포함된 정보를 사용하여 NetApp 시스템 관리를 위한 NetApp 관리 효율 소프트웨어 솔루션의 RESTful 클라이언트를 작성할 수 있습니다. API는 REST(Representational State Transfer) 아키텍처 스타일을 기반으로 합니다.
+
+Unified Manager는 NetApp 환경에서 스토리지 관리를 위한 API 오퍼링을 제공합니다. CRUD라고도 하는 4개의 REST 작업 모두 생성, 읽기, 업데이트 및 삭제가 지원됩니다.

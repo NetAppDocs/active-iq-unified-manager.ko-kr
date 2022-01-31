@@ -1,0 +1,13 @@
+---
+permalink: reporting/concept_customize_qtree_capacity_reports.html 
+sidebar: sidebar 
+keywords: customize, qtree, capacity, reports 
+summary: 이러한 샘플 사용자 지정 보고서는 Qtree 용량과 관련된 잠재적인 문제를 식별하고 이에 대응하는 데 사용됩니다. 
+---
+= Qtree 용량 보고서 사용자 지정
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이러한 샘플 사용자 지정 보고서는 Qtree 용량과 관련된 잠재적인 문제를 식별하고 이에 대응하는 데 사용됩니다.

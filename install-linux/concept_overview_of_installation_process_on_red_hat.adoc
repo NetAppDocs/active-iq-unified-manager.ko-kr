@@ -1,0 +1,15 @@
+---
+permalink: install-linux/concept_overview_of_installation_process_on_red_hat.html 
+sidebar: sidebar 
+keywords: overview, installation process 
+summary: 설치 워크플로우에서 Unified Manager를 사용하기 전에 수행해야 하는 작업에 대해 설명합니다. 
+---
+= 설치 프로세스 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+설치 워크플로우에서 Unified Manager를 사용하기 전에 수행해야 하는 작업에 대해 설명합니다.
+
+image::../media/install_flow_on_rhel.gif[rhel에 플로우를 설치합니다]

@@ -1,0 +1,31 @@
+---
+permalink: health-checker/task_view_encryption_status_of_all_volumes.html 
+sidebar: sidebar 
+keywords: view, encryption status, volumes 
+summary: 모든 볼륨의 목록과 현재 암호화 상태를 볼 수 있으므로 볼륨의 데이터가 무단 사용자가 액세스하지 못하도록 적절하게 보호되는지 여부를 확인할 수 있습니다. 
+---
+= 모든 볼륨의 암호화 상태 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+모든 볼륨의 목록과 현재 암호화 상태를 볼 수 있으므로 볼륨의 데이터가 무단 사용자가 액세스하지 못하도록 적절하게 보호되는지 여부를 확인할 수 있습니다.
+
+* 필요한 것 *
+
+운영자, 애플리케이션 관리자 또는 스토리지 관리자 역할이 있어야 합니다.
+
+볼륨에 적용할 수 있는 암호화 유형은 다음과 같습니다.
+
+* 소프트웨어 - NVE(NetApp Volume Encryption) 또는 NetApp NAE(Aggregate Encryption) 소프트웨어 암호화 솔루션을 사용하여 보호되는 볼륨
+* Hardware - NSE(NetApp Storage Encryption) 하드웨어 암호화를 사용하여 보호되는 볼륨입니다.
+* 소프트웨어 및 하드웨어 - 소프트웨어 및 하드웨어 암호화로 보호되는 볼륨입니다.
+* 없음 - 암호화되지 않은 볼륨입니다.
+
+
+.단계
+. 왼쪽 탐색 창에서 * 스토리지 * > * 볼륨 * 을 클릭합니다.
+. 보기 메뉴에서 * 상태 * > * 볼륨 암호화 * 를 선택합니다
+. 상태: 볼륨 암호화 * 보기에서 * 암호화 유형 * 필드를 기준으로 정렬하거나 필터를 사용하여 특정 암호화 유형이 있거나 암호화되지 않은 볼륨(암호화 유형 ""없음")을 표시합니다.
+

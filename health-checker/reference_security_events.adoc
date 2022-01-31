@@ -1,0 +1,15 @@
+---
+permalink: health-checker/reference_security_events.html 
+sidebar: sidebar 
+keywords: security events 
+summary: '보안 이벤트에서는 ONTAP 9에 대한 NetApp 보안 강화 가이드에 정의된 매개 변수를 기반으로 ONTAP 클러스터, SVM(스토리지 가상 머신) 및 볼륨의 보안 상태에 대한 정보를 제공합니다. 이러한 이벤트는 잠재적 문제를 사용자에게 알려주기 때문에 심각도를 평가하고 필요한 경우 문제를 해결할 수 있습니다.' 
+---
+= 보안 이벤트
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+보안 이벤트는 ONTAP 9_에 대한_NetApp 보안 강화 가이드에 정의된 매개 변수를 기반으로 ONTAP 클러스터, SVM(스토리지 가상 머신) 및 볼륨의 보안 상태에 대한 정보를 제공합니다. 이러한 이벤트는 잠재적 문제를 사용자에게 알려주기 때문에 심각도를 평가하고 필요한 경우 문제를 해결할 수 있습니다.
+
+보안 이벤트는 소스 유형별로 그룹화되며 이벤트 및 트랩 이름, 영향 수준 및 심각도를 포함합니다. 이러한 이벤트는 클러스터 및 스토리지 VM 이벤트 범주에 표시됩니다.

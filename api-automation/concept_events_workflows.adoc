@@ -1,0 +1,40 @@
+---
+permalink: api-automation/concept_events_workflows.html 
+sidebar: sidebar 
+keywords: determine, issues, storage, objects, events 
+summary: 데이터 센터의 스토리지 객체가 임계값을 넘어가면 해당 이벤트에 대한 알림을 받습니다. 이 알림을 사용하여 문제를 분석하고 이벤트 API를 사용하여 수정 조치를 취할 수 있습니다. 
+---
+= 이벤트를 사용하여 스토리지 개체의 문제 확인
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+데이터 센터의 스토리지 객체가 임계값을 넘어가면 해당 이벤트에 대한 알림을 받습니다. 이 알림을 통해 문제를 분석하고 "이벤트" API를 사용하여 수정 조치를 취할 수 있습니다.
+
+이 워크플로우에서는 볼륨의 예를 리소스 객체로 사용합니다. '이벤트' API를 사용하여 볼륨과 관련된 이벤트 목록을 검색하고 해당 볼륨에 대한 중요 문제를 분석한 다음 수정 조치를 수행하여 문제를 해결할 수 있습니다.
+
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[스토리지 객체 흐름도의 이벤트 관련 문제 처리]
+
+개선 단계를 수행하기 전에 볼륨의 문제를 확인하려면 다음 단계를 수행하십시오.
+
+.단계
+. 데이터 센터의 볼륨에 대한 중요 Active IQ Unified Manager 이벤트 알림을 분석합니다.
+. /management-server/events API:" * resource_type":"volume *""" * severity":"critical *""에서 다음 매개 변수를 사용하여 볼륨에 대한 모든 이벤트를 쿼리합니다
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+관리 - 서버
+ a| 
+가져오기
+ a| 
+/management - 서버/이벤트입니다
+
+|===
+. 출력을 보고 특정 볼륨의 문제를 분석합니다.
+. Unified Manager REST API 또는 웹 UI를 사용하여 필요한 작업을 수행하여 문제를 해결할 수 있습니다.
+

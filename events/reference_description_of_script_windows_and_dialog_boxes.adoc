@@ -1,0 +1,13 @@
+---
+permalink: events/reference_description_of_script_windows_and_dialog_boxes.html 
+sidebar: sidebar 
+keywords: description, script, windows, dialog boxes 
+summary: 스크립트 페이지에서는 Unified Manager에 스크립트를 추가할 수 있습니다. 
+---
+= 스크립트 창 및 대화 상자에 대한 설명입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스크립트 페이지에서는 Unified Manager에 스크립트를 추가할 수 있습니다.

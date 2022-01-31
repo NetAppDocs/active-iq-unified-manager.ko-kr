@@ -1,0 +1,25 @@
+---
+permalink: events/task_fix_issues_using_um_automatic_remediations.html 
+sidebar: sidebar 
+keywords: fix, issues, use, unified manager, automatic, remediations 
+summary: Unified Manager에서 철저히 진단하고 Fix it 버튼을 사용하여 단일 해결책을 제공할 수 있는 특정 이벤트가 있습니다. 사용 가능한 경우 이러한 해결 방법은 Dashboard, Event Details 페이지 및 왼쪽 탐색 메뉴의 Workload Analysis 선택 항목에 표시됩니다. 
+---
+= Unified Manager 자동 조정을 사용하여 문제 해결
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager에서 철저히 진단하고 * Fix it * 버튼을 사용하여 단일 해결책을 제공할 수 있는 특정 이벤트가 있습니다. 사용 가능한 경우 이러한 해결 방법은 Dashboard, Event Details 페이지 및 왼쪽 탐색 메뉴의 Workload Analysis 선택 항목에 표시됩니다.
+
+대부분의 이벤트는 이벤트 세부 정보 페이지에 표시될 수 있는 다양한 해결 방법이 있으므로 ONTAP System Manager 또는 ONTAP CLI를 사용하여 최상의 솔루션을 구현할 수 있습니다. Unified Manager에서 문제를 해결할 수 있는 단일 해결책이 있다고 판단하여 ONTAP CLI 명령을 사용하여 해결할 수 있다고 판단한 경우 * Fix it * 작업을 사용할 수 있습니다.
+
+.단계
+. 대시보드 * 에서 수정할 수 있는 이벤트를 보려면 * 대시보드 * 를 클릭합니다.
++
+image::../media/management_actions.png[관리 작업]
+
+. Unified Manager로 해결할 수 있는 문제를 해결하려면 * Fix it * 버튼을 클릭합니다. 여러 개체에 존재하는 문제를 해결하려면 * 모두 수정 * 버튼을 클릭합니다.
+
+
+자동 수정 기능으로 해결할 수 있는 문제에 대한 자세한 내용은 을 참조하십시오 link:..//storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Unified Manager로 해결할 수 있는 문제"]

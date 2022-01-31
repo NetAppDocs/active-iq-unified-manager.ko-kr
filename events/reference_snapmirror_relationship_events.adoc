@@ -1,0 +1,138 @@
+---
+permalink: events/reference_snapmirror_relationship_events.html 
+sidebar: sidebar 
+keywords: snapmirror, relationship, events, impact area, protection 
+summary: SnapMirror 관계 이벤트는 비동기식 및 동기식 SnapMirror 관계의 상태에 대한 정보를 제공하여 잠재적 문제를 모니터링할 수 있습니다. 비동기식 SnapMirror 관계 이벤트는 스토리지 VM 및 볼륨 모두에 대해 생성되지만 동기식 SnapMirror 관계 이벤트는 볼륨 관계에 대해서만 생성됩니다. 스토리지 VM 재해 복구 관계의 일부인 구성요소 볼륨에 대해 생성된 이벤트가 없습니다. 이벤트는 영향 영역별로 그룹화되며 이벤트 및 트랩 이름, 영향 수준, 소스 유형 및 심각도를 포함합니다. 
+---
+= SnapMirror 관계 이벤트입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapMirror 관계 이벤트는 비동기식 및 동기식 SnapMirror 관계의 상태에 대한 정보를 제공하여 잠재적 문제를 모니터링할 수 있습니다. 비동기식 SnapMirror 관계 이벤트는 스토리지 VM 및 볼륨 모두에 대해 생성되지만 동기식 SnapMirror 관계 이벤트는 볼륨 관계에 대해서만 생성됩니다. 스토리지 VM 재해 복구 관계의 일부인 구성요소 볼륨에 대해 생성된 이벤트가 없습니다. 이벤트는 영향 영역별로 그룹화되며 이벤트 및 트랩 이름, 영향 수준, 소스 유형 및 심각도를 포함합니다.
+
+
+
+== 충격 영역: 보호
+
+별표(*)는 Unified Manager 이벤트로 변환된 EMS 이벤트를 나타냅니다.
+
+[NOTE]
+====
+SnapMirror 관계 이벤트는 스토리지 VM 재해 복구로 보호되는 스토리지 VM에 대해 생성되지만 구성요소 개체 관계에는 생성되지 않습니다.
+
+====
+|===
+| 이벤트 이름(트랩 이름) | 충격 수준 | 소스 유형 | 심각도입니다 
+
+
+ a| 
+미러 복제 비정상(문서 Snap미러로RelationshipUnHealthy)
+ a| 
+위험입니다
+ a| 
+SnapMirror 관계
+ a| 
+경고
+
+
+
+ a| 
+미러 복제 부분 해제(ocumEvtSnap미러로RelationshipStateBrokenoff)
+ a| 
+위험입니다
+ a| 
+SnapMirror 관계
+ a| 
+오류
+
+
+
+ a| 
+미러 복제 초기화 실패(ocumEvtSnap미러로RelationshipInitializeFailed)
+ a| 
+위험입니다
+ a| 
+SnapMirror 관계
+ a| 
+오류
+
+
+
+ a| 
+미러 복제 업데이트 실패(ocumEvtSnap미러로RelationshipUpdateFailed)
+ a| 
+위험입니다
+ a| 
+SnapMirror 관계
+ a| 
+오류
+
+
+
+ a| 
+미러 복제 지연 오류(문서1 SnapMirror RelationshipLagError)
+ a| 
+위험입니다
+ a| 
+SnapMirror 관계
+ a| 
+오류
+
+
+
+ a| 
+미러 복제 지연 경고(문서 SnapMirror RelationshipLagWarning)
+ a| 
+위험입니다
+ a| 
+SnapMirror 관계
+ a| 
+경고
+
+
+
+ a| 
+미러 복제 재동기화 실패(문서 Snap미러란RelationshipResyncFailed)
+ a| 
+위험입니다
+ a| 
+SnapMirror 관계
+ a| 
+오류
+
+
+
+ a| 
+동기식 복제 동기화 중단 * (syncSnap미러로RelationshipOutofsync)
+ a| 
+위험입니다
+ a| 
+SnapMirror 관계
+ a| 
+경고
+
+
+
+ a| 
+동기식 복제 복구 * (syncSnap미러로RelationshipInSync)
+ a| 
+이벤트
+ a| 
+SnapMirror 관계
+ a| 
+정보
+
+
+
+ a| 
+동기 복제 자동 재동기화 실패 * (syncSnap미러로RelationshipAutoSyncRetryFailed)
+ a| 
+위험입니다
+ a| 
+SnapMirror 관계
+ a| 
+오류
+
+|===

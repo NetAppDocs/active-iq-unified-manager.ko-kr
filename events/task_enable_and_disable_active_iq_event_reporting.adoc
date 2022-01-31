@@ -1,0 +1,44 @@
+---
+permalink: events/task_enable_and_disable_active_iq_event_reporting.html 
+sidebar: sidebar 
+keywords: enable, disable, active iq, event, report 
+summary: 'Active IQ 플랫폼 이벤트는 기본적으로 Unified Manager 사용자 인터페이스에 생성되고 표시됩니다. 이러한 이벤트가 너무 "노이즈"이거나 Unified Manager에서 이러한 이벤트를 표시하지 않으려는 경우 이러한 이벤트가 생성되지 않도록 설정할 수 있습니다. 이러한 알림 수신을 다시 시작하려면 나중에 해당 알림을 사용하도록 설정할 수 있습니다.' 
+---
+= Active IQ 이벤트 보고 활성화 및 비활성화
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ 플랫폼 이벤트는 기본적으로 Unified Manager 사용자 인터페이스에 생성되고 표시됩니다. 이러한 이벤트가 너무 "노이즈"이거나 Unified Manager에서 이러한 이벤트를 보고 싶지 않은 경우, 이러한 이벤트가 생성되지 않도록 설정할 수 있습니다. 이러한 알림 수신을 다시 시작하려면 나중에 해당 알림을 사용하도록 설정할 수 있습니다.
+
+* 필요한 것 *
+
+애플리케이션 관리자 역할이 있어야 합니다.
+
+이 기능을 사용하지 않도록 설정하면 Unified Manager에서 Active IQ 플랫폼 이벤트 수신을 즉시 중지합니다.
+
+이 기능을 사용하도록 설정하면 Unified Manager가 클러스터 시간대를 기준으로 자정 직후 Active IQ 플랫폼 이벤트를 수신하기 시작합니다. 시작 시간은 Unified Manager가 각 클러스터에서 AutoSupport 메시지를 수신하는 시점을 기준으로 합니다.
+
+.단계
+. 왼쪽 탐색 창에서 * 일반 * > * 기능 설정 * 을 클릭합니다.
+. 기능 설정 * 페이지에서 다음 옵션 중 하나를 선택하여 Active IQ 플랫폼 이벤트를 비활성화하거나 활성화합니다.
++
+|===
+| 원하는 작업 | 다음을 수행하십시오. 
+
+
+ a| 
+Active IQ 플랫폼 이벤트를 비활성화합니다
+ a| 
+Active IQ 포털 이벤트 * 패널에서 슬라이더 버튼을 왼쪽으로 이동합니다.
+
+
+
+ a| 
+Active IQ 플랫폼 이벤트를 활성화합니다
+ a| 
+Active IQ 포털 이벤트 * 패널에서 슬라이더 버튼을 오른쪽으로 이동합니다.
+
+|===
+

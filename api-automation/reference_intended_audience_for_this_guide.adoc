@@ -1,0 +1,23 @@
+---
+permalink: api-automation/reference_intended_audience_for_this_guide.html 
+sidebar: sidebar 
+keywords: audience, guide 
+summary: 이 가이드는 REST API를 통해 Active IQ Unified Manager 소프트웨어와 상호 작용하는 응용 프로그램을 만드는 개발자를 위한 것입니다. 
+---
+= 이 가이드의 대상
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 가이드는 REST API를 통해 Active IQ Unified Manager 소프트웨어와 상호 작용하는 응용 프로그램을 만드는 개발자를 위한 것입니다.
+
+또한 Unified Manager에서 제공되는 REST API를 사용하여 클라이언트 애플리케이션을 구축하고 NetApp 스토리지 시스템을 관리 및 모니터링할 수 있는 방법을 기본적으로 알고 싶은 스토리지 관리자 및 설계자를 대상으로 합니다.
+
+스토리지 공급자, ONTAP 클러스터 및 관리 관리 관리 API를 사용하여 스토리지를 관리하려면 이 가이드를 사용해야 합니다.
+
+[NOTE]
+====
+운영자, 스토리지 관리자 또는 애플리케이션 관리자 역할 중 하나가 있어야 합니다. REST API를 실행할 Unified Manager 서버의 IP 주소 또는 정규화된 도메인 이름을 알아야 합니다.
+
+====

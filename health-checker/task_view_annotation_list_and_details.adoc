@@ -1,0 +1,18 @@
+---
+permalink: health-checker/task_view_annotation_list_and_details.html 
+sidebar: sidebar 
+keywords: view, annotation list, details 
+summary: '클러스터, 볼륨 및 SVM(스토리지 가상 머신)과 동적으로 연결되는 주석 목록을 볼 수 있습니다. 설명, 만든 사용자, 만든 날짜, 값, 규칙 등의 세부 정보를 볼 수도 있습니다. 및 주석과 연관된 개체.' 
+---
+= 주석 목록 및 세부 정보 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+클러스터, 볼륨 및 SVM(스토리지 가상 머신)과 동적으로 연결되는 주석 목록을 볼 수 있습니다. 설명, 만든 사용자, 만든 날짜, 값, 규칙 등의 세부 정보를 볼 수도 있습니다. 및 주석과 연관된 개체.
+
+.단계
+. 왼쪽 탐색 창에서 * 스토리지 관리 * > * 주석 * 을 클릭합니다.
+. Annotations * (주석 *) 탭에서 주석 이름을 클릭하여 관련 세부 정보를 봅니다.
+

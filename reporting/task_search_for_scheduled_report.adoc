@@ -1,0 +1,51 @@
+---
+permalink: reporting/task_search_for_scheduled_report.html 
+sidebar: sidebar 
+keywords: search, schedule, report 
+summary: 이름, 보기 이름, 개체 유형 또는 수신자별로 예약된 보고서를 검색할 수 있습니다. 
+---
+= 예약된 보고서를 검색하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이름, 보기 이름, 개체 유형 또는 수신자별로 예약된 보고서를 검색할 수 있습니다.
+
+. 왼쪽 탐색 창에서 * Storage Management * > * Report Schedules * 를 클릭합니다.
+. 예약된 보고서 검색 * 텍스트 필드를 사용합니다.
++
+[cols="2*"]
+|===
+| 보고서 검색 기준 | 시도... 
+
+
+ a| 
+스케줄 이름
+ a| 
+보고서 일정 이름의 일부를 입력합니다.
+
+
+
+ a| 
+뷰 이름
+ a| 
+보고서 보기 이름의 일부를 입력합니다. 기본 보기 및 사용자 정의 보기가 보기 목록에 나타납니다.
+
+
+
+ a| 
+받는 사람
+ a| 
+이메일 주소의 일부를 입력합니다.
+
+
+
+ a| 
+파일 형식
+ a| 
+"PDF", "CSV" 또는 "XLSX"를 입력합니다.
+
+|===
+. 열 머리글을 클릭하여 일정 이름 또는 형식과 같이 해당 열을 기준으로 오름차순 또는 내림차순으로 보고서를 정렬할 수 있습니다.
+

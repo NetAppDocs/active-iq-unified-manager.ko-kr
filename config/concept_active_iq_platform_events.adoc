@@ -1,0 +1,19 @@
+---
+permalink: config/concept_active_iq_platform_events.html 
+sidebar: sidebar 
+keywords: feature settings, active iq, portal, events 
+summary: Active IQ 포털 이벤트 활성화 또는 비활성화 여부를 지정할 수 있습니다. 이 설정을 사용하면 Active IQ 포털에서 시스템 구성, 케이블 연결 등에 대한 추가 이벤트를 검색하고 표시할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다. 
+---
+= Active IQ 포털 이벤트 활성화
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ 포털 이벤트 활성화 또는 비활성화 여부를 지정할 수 있습니다. 이 설정을 사용하면 Active IQ 포털에서 시스템 구성, 케이블 연결 등에 대한 추가 이벤트를 검색하고 표시할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다.
+
+이 기능을 활성화하면 Active IQ Unified Manager는 Active IQ 포털에서 검색된 이벤트를 표시합니다. 이러한 이벤트는 모니터링되는 모든 스토리지 시스템에서 생성되는 AutoSupport 메시지에 대해 일련의 규칙을 실행하여 생성됩니다. 이러한 이벤트는 다른 Unified Manager 이벤트와 다르며, 시스템 구성, 케이블 연결, 모범 사례 및 가용성 문제와 관련된 사고 또는 위험을 식별합니다.
+
+이 기능은 * 일반 * > * 기능 설정 * > * Active IQ 포털 이벤트 * 에서 활성화 또는 비활성화할 수 있습니다. 외부 네트워크에 액세스할 수 없는 사이트에서는 * 스토리지 관리 * > * 이벤트 설정 * > * 업로드 규칙 * 에서 수동으로 규칙을 업로드해야 합니다.
+
+이 기능은 기본적으로 활성화되어 있습니다. 이 기능을 사용하지 않도록 설정하면 Active IQ 이벤트가 검색되지 않고 Unified Manager에 표시되지 않습니다. 이 기능을 비활성화하면 Unified Manager가 해당 클러스터 시간대의 사전 정의된 시간 00:15에서 클러스터에서 Active IQ 이벤트를 수신할 수 있습니다.

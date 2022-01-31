@@ -1,0 +1,15 @@
+---
+permalink: config/concept_login_banner.html 
+sidebar: sidebar 
+keywords: login banner, feature settings 
+summary: 이 기능을 사용하면 조직에서 시스템에 대한 액세스가 허용된 사용자 및 로그인 및 로그아웃 시 사용 약관 등의 정보를 표시할 수 있습니다. 
+---
+= 로그인 배너 추가 중
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+로그인 배너를 추가하면 조직에서 시스템에 액세스할 수 있는 사용자, 로그인 및 로그아웃 시 사용 약관 등의 정보를 표시할 수 있습니다.
+
+스토리지 운영자 또는 관리자와 같은 모든 사용자는 로그인, 로그아웃 및 세션 시간 초과 중에 이 로그인 배너 팝업을 볼 수 있습니다.

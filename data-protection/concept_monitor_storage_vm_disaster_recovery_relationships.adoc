@@ -1,0 +1,17 @@
+---
+permalink: data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html 
+sidebar: sidebar 
+keywords: disaster recovery, monitor, storage vm protection, relationships 
+summary: Active IQ Unified Manager는 스토리지 VM 재해 복구 관계 모니터링을 지원하여 스토리지 VM 레벨의 세분화 수준으로 재해 복구를 제공합니다. 스토리지 VM 재해 복구를 사용하면 스토리지 VM의 구성 볼륨에 있는 데이터를 복구하고 스토리지 VM 구성을 복구할 수 있습니다. 
+---
+= 스토리지 VM 재해 복구 보호 관계 모니터링
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager는 스토리지 VM 재해 복구 관계 모니터링을 지원하여 스토리지 VM 레벨의 세분화 수준으로 재해 복구를 제공합니다. 스토리지 VM 재해 복구를 사용하면 스토리지 VM의 구성 볼륨에 있는 데이터를 복구하고 스토리지 VM 구성을 복구할 수 있습니다.
+
+스토리지 VM DR 관계는 소스 스토리지 VM에서 대상 스토리지 VM으로 생성되어 비동기식 재해 복구를 제공합니다. 클러스터 설정에 따라 데이터 볼륨과 함께 스토리지 VM 구성(네트워크 및 프로토콜 구성 제외)의 전체 또는 일부를 복제하도록 선택할 수 있습니다.
+
+스토리지 VM 재해 복구 관계가 구성된 후 하드웨어 장애 또는 환경 재해로 인해 소스 스토리지 VM을 사용할 수 없게 되면 대상 스토리지 VM이 시작되어 운영 중단 없이 데이터에 액세스할 수 있습니다. 마찬가지로, 소스 스토리지 VM을 사용할 수 있게 되면 대상 스토리지 VM과 다시 동기화되고 소스가 다시 시작되어 데이터를 제공합니다. SnapMirror 명령을 사용하여 스토리지 VM 재해 복구 관계를 구성하고 관리할 수 있습니다.

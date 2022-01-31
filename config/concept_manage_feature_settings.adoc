@@ -1,0 +1,20 @@
+---
+permalink: config/concept_manage_feature_settings.html 
+sidebar: sidebar 
+keywords: uploading scripts, api gateway, slo or policy-based storage management, timeout, active iq platform events 
+summary: 기능 설정 페이지에서 Active IQ Unified Manager의 특정 기능을 활성화 및 비활성화할 수 있습니다. 여기에는 정책에 따라 스토리지 객체 생성 및 관리, API 게이트웨이 활성화, 알림 관리를 위한 스크립트 업로드, 비활성 시간에 따른 웹 UI 세션 시간 초과, Active IQ 플랫폼 이벤트 수신 비활성화 등이 포함됩니다. 
+---
+= 기능 설정 관리
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+기능 설정 페이지에서 Active IQ Unified Manager의 특정 기능을 활성화 및 비활성화할 수 있습니다. 여기에는 정책에 따라 스토리지 객체 생성 및 관리, API 게이트웨이 및 로그인 배너 활성화, 알림 관리를 위한 스크립트 업로드, 비활성 시간에 따른 웹 UI 세션 시간 초과, Active IQ 플랫폼 이벤트 수신 비활성화 등이 포함됩니다.
+
+[NOTE]
+====
+기능 설정 페이지는 응용 프로그램 관리자 역할을 가진 사용자만 사용할 수 있습니다.
+
+====
+스크립트 업로드에 대한 자세한 내용은 을 참조하십시오 link:task_enable_and_disable_ability_to_upload_scripts.html["스크립트 업로드 활성화 및 비활성화"].

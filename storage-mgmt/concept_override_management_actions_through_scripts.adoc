@@ -1,0 +1,15 @@
+---
+permalink: storage-mgmt/concept_override_management_actions_through_scripts.html 
+sidebar: sidebar 
+keywords: override, management, actions, scripts 
+summary: 맞춤형 스크립트를 생성하여 알림에 연결하면 특정 이벤트에 대한 특정 작업을 수행할 수 있으며, 관리 작업 페이지 또는 Unified Manager 대시보드에서 사용할 수 있는 기본 관리 작업을 선택하지 않습니다. 
+---
+= 스크립트를 통해 관리 작업 재정의
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+맞춤형 스크립트를 생성하여 알림에 연결하면 특정 이벤트에 대한 특정 작업을 수행할 수 있으며, 관리 작업 페이지 또는 Unified Manager 대시보드에서 사용할 수 있는 기본 관리 작업을 선택하지 않습니다.
+
+이벤트 유형에 대한 특정 작업을 수행하고 Unified Manager에서 제공하는 관리 작업 기능의 일부로 수정하지 않도록 선택하면 특정 작업에 대한 사용자 지정 스크립트를 구성할 수 있습니다. 그런 다음 스크립트를 해당 이벤트 유형에 대한 알림과 연결하고 이러한 이벤트를 개별적으로 처리할 수 있습니다. 이 경우 관리 작업 페이지 또는 Unified Manager 대시보드에서 특정 이벤트 유형에 대한 관리 작업이 생성되지 않습니다.

@@ -1,0 +1,28 @@
+---
+permalink: api-automation/reference_recommendations_to_use_um_apis.html 
+sidebar: sidebar 
+keywords: recommendations, apis, active iq, unified, manager 
+summary: Active IQ Unified Manager에서 API를 사용하는 경우 특정 권장 방법을 따라야 합니다. 
+---
+= Active IQ Unified Manager용 API 사용을 위한 권장 사항
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager에서 API를 사용하는 경우 특정 권장 방법을 따라야 합니다.
+
+* 유효한 실행을 위해서는 모든 응답 콘텐츠 형식이 다음 형식이어야 합니다.
++
+[listing]
+----
+application/json
+----
+* API 버전 번호가 제품 버전 번호와 관련이 없습니다. Unified Manager 인스턴스에 사용할 수 있는 최신 버전의 API를 사용해야 합니다. Unified Manager API 버전에 대한 자세한 내용은 "Active IQ Unified Manager의 'reST API vers버전 관리' 섹션을 참조하십시오.
+* Unified Manager API를 사용하여 어레이 값을 업데이트하는 동안 값의 전체 문자열을 업데이트해야 합니다. 배열에 값을 추가할 수 없습니다. 기존 어레이만 교체할 수 있습니다.
+* 메트릭 API의 IOPS 및 성능 등 이중 값을 제외한 모든 쿼리 매개 변수에 파이프(|) 및 와일드 카드(+ *+)와 같은 필터 연산자를 사용할 수 있습니다.
+* 필터 연산자 와일드 카드(+ *+)와 파이프(|)를 함께 사용하여 개체를 쿼리하지 마십시오. 잘못된 개체 수를 검색할 수 있습니다.
+* 필터 값을 사용할 때 값에 '?'가 포함되어 있지 않은지 확인합니다 문자. 이는 SQL 주입의 위험을 완화하기 위한 것입니다.
+* 모든 API에 대한 'Get'(All) 요청은 최대 1000개의 레코드를 반환합니다. max_records' 매개 변수를 1000보다 큰 값으로 설정하여 쿼리를 실행해도 1000개의 레코드만 반환됩니다.
+* 관리 기능을 수행하려면 Unified Manager UI를 사용하는 것이 좋습니다.
+

@@ -1,0 +1,25 @@
+---
+permalink: config/task_edit_authentication_servers.html 
+sidebar: sidebar 
+keywords: edit, authentication servers 
+summary: Unified Manager 서버가 인증 서버와 통신하는 데 사용하는 포트를 변경할 수 있습니다. 
+---
+= 인증 서버 편집
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager 서버가 인증 서버와 통신하는 데 사용하는 포트를 변경할 수 있습니다.
+
+* 필요한 것 *
+
+애플리케이션 관리자 역할이 있어야 합니다.
+
+.단계
+. 왼쪽 탐색 창에서 * 일반 * > * 원격 인증 * 을 클릭합니다.
+. 중첩된 그룹 조회 사용 안 함 * 상자를 선택합니다.
+. Authentication Servers * 영역에서 편집할 인증 서버를 선택한 다음 * Edit * 를 클릭합니다.
+. 인증 서버 편집 * 대화 상자에서 포트 세부 정보를 편집합니다.
+. 저장 * 을 클릭합니다.
+

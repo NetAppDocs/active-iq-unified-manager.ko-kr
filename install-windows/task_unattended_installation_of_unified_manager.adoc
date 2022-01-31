@@ -1,0 +1,55 @@
+---
+permalink: install-windows/task_unattended_installation_of_unified_manager.html 
+sidebar: sidebar 
+keywords: perform, unattended, installation, unified manager 
+summary: 명령줄 인터페이스를 사용하여 사용자 개입 없이 Unified Manager를 설치할 수 있습니다. 키 값 쌍의 매개 변수를 전달하여 무인 설치를 완료할 수 있습니다. 
+---
+= Unified Manager의 자동 설치 수행
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+명령줄 인터페이스를 사용하여 사용자 개입 없이 Unified Manager를 설치할 수 있습니다. 키 값 쌍의 매개 변수를 전달하여 무인 설치를 완료할 수 있습니다.
+
+.단계
+. 기본 로컬 관리자 계정을 사용하여 Windows 명령줄 인터페이스에 로그인합니다.
+. Unified Manager를 설치할 위치로 이동하고 다음 옵션 중 하나를 선택합니다.
++
+[cols="4a,4a"]
+|===
+| 옵션을 선택합니다 | 지침 
+
+
+ a| 
+타사 패키지가 사전 설치된 경우
+ a| 
+'ActiveIQUnifiedManager-x.y.exe /V" mysql_password=mysql_password INSTALLDIR=\"설치 디렉토리\" mysql_data_DIR=\"mysql 데이터 디렉토리\" maintenance_password=maintenance_password maintenance_username=maintenance_username/qn/l * v CompletePathForLogFile"
+
+* 예: *
+
+' ActiveIQUnifiedManager.exe /s/v " mysql_password = netapp21! INSTALLDIR=\"C:\Program Files\NetApp\"MySQL_DATA_DIR=\"C:\ProgramData\MySQL\MySQLServer\" maintenance_password=***** maintenance_username=admin/qn/l * v C:\install.log""
+
+
+
+ a| 
+타사 패키지가 설치되지 않은 경우
+ a| 
+'ActiveIQUnifiedManager-x.y.exe /V" mysql_password=mysql_password INSTALLDIR=\"설치 디렉터리\" mysql_data_DIR=\"mysql 데이터 디렉터리\" maintenance_password=maintenance_password maintenance_username=maintenance_username/QR/l * v CompletePathForLogFile"
+
+* 예: *
+
+' ActiveIQUnifiedManager.exe /s/v " mysql_password = netapp21! INSTALLDIR=\"C:\Program Files\NetApp\"MySQL_DATA_DIR=\"C:\ProgramData\MySQL\MySQLServer\" maintenance_password=***** maintenance_username=admin/QR/l * v C:\install.log""
+
+|===
++
+'/QR' 옵션은 사용자 인터페이스 감소로 자동 모드를 활성화합니다. 기본 사용자 인터페이스가 표시되어 설치 진행률을 보여 줍니다. 입력 메시지가 표시되지 않습니다. JRE, MySQL, 7zip 등의 타사 패키지가 사전 설치되지 않은 경우 '/QR' 옵션을 사용해야 합니다. 타사 패키지가 설치되지 않은 서버에서 '/qn' 옵션을 사용하면 설치가 실패합니다.
+
++
+'/qn' 옵션은 사용자 인터페이스 없이 자동 모드를 활성화합니다. 설치 중에 사용자 인터페이스 또는 세부 정보가 표시되지 않습니다. 타사 패키지가 설치되지 않은 경우 '/qn' 옵션을 사용하면 안 됩니다.
+
+. 다음 URL을 사용하여 Unified Manager 웹 사용자 인터페이스에 로그인합니다.
++
+'\https://IP 주소'
+
+

@@ -1,0 +1,77 @@
+---
+permalink: install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html 
+sidebar: sidebar 
+keywords: upgrade, unified manager 
+summary: Windows 플랫폼에서 설치 파일을 다운로드하여 실행하여 Unified Manager를 업그레이드할 수 있습니다. 
+---
+= Unified Manager 업그레이드
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Windows 플랫폼에서 설치 파일을 다운로드하여 실행하여 Unified Manager 9.8 또는 9.9를 9.10으로 업그레이드할 수 있습니다.
+
+* 필요한 것 *
+
+* Unified Manager를 업그레이드하는 시스템은 시스템 및 소프트웨어 요구사항을 충족해야 합니다.
++
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html["하드웨어 시스템 요구 사항"]
+
++
+link:reference_windows_software_and_installation_requirements.html["Windows 소프트웨어 및 설치 요구 사항"]
+
++
+[NOTE]
+====
+Unified Manager 9.5부터 OpenJDK는 설치 패키지에 제공되어 자동으로 설치됩니다. Oracle Java는 Unified Manager 9.5부터 지원되지 않습니다.
+
+====
++
+[NOTE]
+====
+업그레이드를 시작하기 전에 시스템에 Microsoft .NET 4.5.2 이상이 설치되어 있는지 확인하십시오.
+
+====
+* MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.0.27 이전인 경우 Unified Manager 업그레이드 프로세스에서 MySQL을 8.0.27로 자동 업그레이드합니다. 이전 버전의 MySQL의 독립 실행형 업그레이드를 8.0.27로 실행하면 안 됩니다.
+* Windows 관리자 권한이 있어야 합니다. 사용자 이름이 느낌표 ""!""로 시작하지 않는지 확인합니다. 설치를 실행 중인 사용자의 이름이 ""!"(으로)로 시작하는 경우 Unified Manager 설치가 실패할 수 있습니다.
+* NetApp Support 사이트에 로그인하려면 유효한 자격 증명이 있어야 합니다.
+* 업그레이드 중에 문제가 발생할 경우 데이터 손실을 방지하려면 Unified Manager 시스템의 백업을 생성해야 합니다.
+* 업그레이드를 수행할 수 있는 충분한 디스크 공간이 있어야 합니다.
++
+설치 드라이브의 사용 가능한 공간은 데이터 디렉토리의 크기보다 2.5GB가 커야 합니다. 사용 가능한 공간이 충분하지 않은 경우 업그레이드를 중지하고 추가할 공간의 양을 나타내는 오류 메시지를 표시합니다.
+
+* 업그레이드하는 동안 성능 데이터를 13개월 동안 유지하기 위한 이전 기본 설정을 유지할지 아니면 6개월로 변경할지 묻는 메시지가 표시될 수 있습니다. 확인 시 6개월 후의 성능 기록 데이터가 삭제됩니다.
+* 업그레이드하기 전에 _<InstallDir>\JDK_and_MySQL Data Directory_에서 열려 있는 파일이나 폴더를 닫아야 합니다.
+
+
+업그레이드 프로세스 중에는 Unified Manager를 사용할 수 없습니다. Unified Manager를 업그레이드하기 전에 실행 중인 작업을 완료해야 합니다.
+
+Unified Manager가 OnCommand Workflow Automation 인스턴스와 페어링되어 있고 두 제품 모두에 사용할 수 있는 새로운 소프트웨어 버전이 있는 경우 두 제품의 연결을 끊고 업그레이드를 수행한 후 새 Workflow Automation 연결을 설정해야 합니다. 제품 중 하나로 업그레이드하는 경우, 업그레이드 후에 Workflow Automation에 로그인하여 Unified Manager에서 데이터를 아직 취득하고 있는지 확인해야 합니다.
+
+.단계
+. NetApp Support 사이트에 로그인하고 Unified Manager의 다운로드 페이지로 이동합니다.
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp Support 사이트"]
+
+. Unified Manager의 필수 버전을 선택하고 최종 사용자 라이센스 계약(EULA)에 동의합니다.
+. Unified Manager Windows 설치 파일을 Windows 시스템의 대상 디렉토리에 다운로드합니다.
+. 마우스 오른쪽 단추를 클릭하고 Unified Manager 설치 관리자 실행 파일(.exe) 파일을 관리자로 실행합니다.
++
+Unified Manager에 다음 메시지가 표시됩니다.
+
++
+[listing]
+----
+This setup will perform an upgrade of Unified Manager. Do you want to continue?
+----
+. 예 * 를 클릭한 후 * 다음 * 을 클릭합니다.
+. 설치 중에 설정된 MySQL8 루트 암호를 입력하고 * 다음 * 을 클릭합니다.
+. Unified Manager 웹 UI에 로그인하고 버전 번호를 확인합니다.
+
+
+[NOTE]
+====
+Unified Manager의 자동 업그레이드를 수행하려면 'ActiveIQUnifiedManager-<version\>.exe/s/v "MySQL_PASSWORD=<PASSWORD>/qn/l * v <system_drive>:\install.log" 명령을 실행합니다
+
+====

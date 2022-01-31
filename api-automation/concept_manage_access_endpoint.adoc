@@ -1,0 +1,97 @@
+---
+permalink: api-automation/concept_manage_access_endpoint.html 
+sidebar: sidebar 
+keywords: manage, endpoints, access 
+summary: 'SVM(Storage Virtual Machine), LUN 및 파일 공유를 프로비저닝하는 데 필요한 액세스 엔드포인트 또는 논리 인터페이스(LIF)를 생성해야 합니다. Active IQ Unified Manager 환경에서 SVM, LUN 또는 파일 공유에 대한 액세스 엔드포인트를 확인, 생성, 수정 및 삭제할 수 있습니다.' 
+---
+= 액세스 엔드포인트 관리
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SVM(Storage Virtual Machine), LUN 및 파일 공유를 프로비저닝하는 데 필요한 액세스 엔드포인트 또는 논리 인터페이스(LIF)를 생성해야 합니다. Active IQ Unified Manager 환경에서 SVM, LUN 또는 파일 공유에 대한 액세스 엔드포인트를 확인, 생성, 수정 및 삭제할 수 있습니다.
+
+
+
+== 액세스 끝점을 봅니다
+
+다음 방법을 사용하여 Unified Manager 환경의 액세스 끝점 목록을 볼 수 있습니다. 특정 SVM, LUN 또는 파일 공유의 액세스 끝점 목록을 쿼리하려면 SVM, LUN 또는 파일 공유에 대한 고유 식별자를 입력해야 합니다. 고유한 액세스 끝점 키를 입력하여 특정 액세스 끝점의 세부 정보를 검색할 수도 있습니다.
+
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/storage-provider/access-endpoints'
+
+'/storage-provider/access-endpoints/\{key}'
+
+|===
+
+
+== 액세스 끝점을 추가합니다
+
+사용자 정의 액세스 끝점을 만들고 필요한 속성을 할당할 수 있습니다. 입력 매개 변수로 생성하려는 액세스 끝점의 세부 정보를 입력해야 합니다. 이 API 또는 System Manager 또는 ONTAP CLI를 사용하여 각 노드에 액세스 엔드포인트를 생성할 수 있습니다. IPv4 및 IPv6 주소가 모두 액세스 엔드포인트 생성에 지원됩니다.
+
+[NOTE]
+====
+LUN 및 파일 공유를 성공적으로 프로비저닝하려면 노드당 최소 액세스 엔드포인트 수로 SVM을 구성해야 합니다. 노드당 두 개 이상의 액세스 엔드포인트, CIFS 및/또는 NFS 프로토콜을 지원하는 프로토콜, iSCSI 또는 FCP 프로토콜을 사용하여 SVM을 구성해야 합니다.
+
+====
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+게시
+ a| 
+'/storage-provider/access-endpoints'
+
+|===
+
+
+== 액세스 끝점을 삭제합니다
+
+다음 방법을 사용하여 특정 액세스 끝점을 삭제할 수 있습니다. 액세스 끝점 키를 입력 매개 변수로 제공하여 특정 액세스 끝점을 삭제해야 합니다.
+
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+삭제
+ a| 
+'/storage-provider/access-endpoints/\{key}'
+
+|===
+
+
+== 액세스 끝점을 수정합니다
+
+다음 메서드를 사용하여 액세스 끝점을 수정하고 해당 속성을 업데이트할 수 있습니다. 특정 액세스 끝점을 수정하려면 액세스 끝점 키를 제공해야 합니다. 또한 업데이트할 속성과 해당 값을 입력해야 합니다.
+
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+패치
+ a| 
+'/storage-provider/access-endpoints/\{key}'
+
+|===

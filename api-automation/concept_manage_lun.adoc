@@ -1,0 +1,110 @@
+---
+permalink: api-automation/concept_manage_lun.html 
+sidebar: sidebar 
+keywords: manage, lun 
+summary: /storage-provider/LUNs API를 사용하여 데이터 센터 환경에서 LUN을 확인, 추가, 수정 및 삭제할 수 있습니다. 
+---
+= LUN 관리
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+'/storage-provider/LUNs' API를 사용하여 데이터 센터 환경에서 LUN을 확인, 추가, 수정 및 삭제할 수 있습니다.
+
+LUN을 프로비저닝하기 전에 SVM이 지원되는 프로토콜을 사용하여 생성되고 프로비저닝되었는지 확인합니다. 프로비저닝 중에 PSL(Performance Service Levels) 또는 CDP(Storage Efficiency Policies)를 할당하는 경우 LUN을 생성하기 전에 PSL 또는 SRP를 생성해야 합니다.
+
+
+
+== LUN을 봅니다
+
+다음 방법을 사용하여 Unified Manager 환경에서 LUN을 볼 수 있습니다. ONTAP 클러스터를 Active IQ Unified Manager의 데이터 소스로 추가하면 해당 클러스터의 스토리지 워크로드가 Unified Manager 인스턴스에 자동으로 추가됩니다. 이 API는 모든 LUN을 자동으로 검색하고 Unified Manager 인스턴스에 수동으로 추가합니다. 이 API를 LUN 키와 함께 실행하여 특정 LUN의 세부 정보를 볼 수 있습니다.
+
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/스토리지 공급자/LUN'
+
+'/storage-provider/LUNs/\{key}'
+
+|===
+
+
+== LUN을 추가합니다
+
+다음 방법을 사용하여 SVM에 LUN을 추가할 수 있습니다.
+
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+게시
+ a| 
+'/스토리지 공급자/LUN'
+
+|===
+[NOTE]
+====
+curl 요청에서 입력에 선택적 매개 변수 volume_name_tag 값을 제공하면 LUN 생성 중에 볼륨의 이름을 지정하는 동안 해당 값이 사용됩니다. 이 태그를 사용하면 볼륨을 쉽게 검색할 수 있습니다. 요청에 볼륨 키를 제공하면 태그 지정이 생략됩니다.
+
+====
+
+
+== LUN을 삭제합니다
+
+다음 방법을 사용하여 특정 LUN을 삭제할 수 있습니다. 특정 LUN을 삭제하려면 LUN 키를 제공해야 합니다.
+
+[NOTE]
+====
+ONTAP에서 볼륨을 생성한 다음 해당 볼륨의 Unified Manager를 통해 LUN을 프로비저닝한 경우 이 API를 사용하여 모든 LUN을 삭제하면 볼륨도 ONTAP 클러스터에서 삭제됩니다.
+
+====
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+삭제
+ a| 
+'/storage-provider/LUNs/\{key}'
+
+|===
+
+
+== LUN을 수정합니다
+
+다음 방법을 사용하여 LUN을 수정하고 해당 속성을 업데이트할 수 있습니다. 특정 LUN을 수정하려면 LUN 키를 제공해야 합니다. 업데이트할 LUN 속성과 해당 값도 입력해야 합니다. 이 API를 사용하여 LUN 어레이를 업데이트하려면 "'API 사용 권장 사항'"의 권장 사항을 검토해야 합니다.
+
+[NOTE]
+====
+이 API를 한 번 호출할 때 하나의 속성만 업데이트할 수 있습니다. 여러 업데이트를 하려면 이 API를 여러 번 실행해야 합니다.
+
+====
+|===
+
+
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+패치
+ a| 
+'/storage-provider/LUNs/\{key}'
+
+|===

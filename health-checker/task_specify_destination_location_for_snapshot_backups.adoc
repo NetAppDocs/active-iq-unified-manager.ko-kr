@@ -1,0 +1,43 @@
+---
+permalink: health-checker/task_specify_destination_location_for_snapshot_backups.html 
+sidebar: sidebar 
+keywords: specify, destination location, snapshot backups 
+summary: ONTAP 클러스터 중 하나에 이미 구성한 볼륨에서 Active IQ Unified Manager 스냅샷 백업의 대상 위치를 구성합니다. Active IQ Unified Manager 유지보수 콘솔에서 위치를 정의합니다. 
+---
+= 스냅샷 백업의 대상 위치 지정
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ONTAP 클러스터 중 하나에 이미 구성한 볼륨에서 Active IQ Unified Manager 스냅샷 백업의 대상 위치를 구성합니다. Active IQ Unified Manager 유지보수 콘솔에서 위치를 정의합니다.
+
+* Active IQ Unified Manager가 설치된 Linux 호스트에 대한 루트 사용자 자격 증명이 있어야 합니다.
+* Unified Manager 서버의 유지보수 콘솔에 로그인하려면 사용자 ID와 암호가 필요합니다.
+* 클러스터 관리 IP 주소, 스토리지 VM 이름, 볼륨 이름 및 스토리지 시스템 사용자 이름과 암호가 있어야 합니다.
+* Active IQ Unified Manager 호스트에 볼륨을 마운트해야 하며 마운트 경로가 있어야 합니다.
+
+
+.단계
+. 보안 셸을 사용하여 Active IQ Unified Manager 시스템의 IP 주소 또는 FQDN에 연결합니다.
+. 유지보수 사용자(umadmin) 이름 및 암호를 사용하여 시스템에 로그인합니다.
+. mainf유지보수_console 명령을 입력하고 Enter 키를 누릅니다.
+. 유지보수 콘솔 * 메인 메뉴 * 에서 * 백업 복원 * 옵션의 번호를 입력합니다.
+. Configure NetApp Snapshot Backup * 의 번호를 입력합니다.
+. NFS를 구성할 번호를 입력합니다.
+. 제공해야 할 정보를 검토한 다음 * 백업 구성 세부 정보 입력 * 에 대한 번호를 입력합니다.
+. 스냅샷을 기록할 볼륨을 식별하려면 클러스터 관리 인터페이스의 IP 주소, 스토리지 VM 이름, 볼륨 이름, LUN 이름, 스토리지 시스템 사용자 이름 및 암호, 마운트 경로를 입력합니다.
+. 이 정보를 확인하고 y를 입력합니다.
++
+시스템은 다음 작업을 수행합니다.
+
++
+** 클러스터에 대한 연결을 설정합니다
+** 모든 서비스를 중지합니다
+** 볼륨에 새 디렉토리를 생성하고 Active IQ Unified Manager 데이터베이스 구성 파일을 복사합니다
+** Active IQ Unified Manager에서 파일을 삭제하고 새 데이터베이스 디렉터리에 대한 symlink를 만듭니다
+** 모든 서비스를 다시 시작합니다
+
+
+. 아직 스냅샷 백업 일정을 생성하지 않은 경우 유지보수 콘솔을 종료하고 Active IQ Unified Manager 인터페이스를 실행하여 스냅샷 백업 일정을 생성합니다.
+

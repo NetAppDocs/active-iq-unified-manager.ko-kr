@@ -1,0 +1,35 @@
+---
+permalink: performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html 
+sidebar: sidebar 
+keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group 
+summary: 동일한 QoS 정책 그룹에 속한 볼륨 및 LUN을 확인한 다음 단일 IOPS, MB/s 또는 IOPS/TB 차트의 성능을 비교하여 문제를 식별할 수 있습니다. 
+---
+= 성능 차트를 확인하여 동일한 QoS 정책 그룹에 있는 볼륨 또는 LUN을 비교합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+동일한 QoS 정책 그룹에 속한 볼륨 및 LUN을 확인한 다음 단일 IOPS, MB/s 또는 IOPS/TB 차트의 성능을 비교하여 문제를 식별할 수 있습니다.
+
+동일한 QoS 정책 그룹에서 볼륨의 성능을 비교하는 단계는 아래에 나와 있습니다. LUN에 대해 이 정보를 확인하는 단계도 비슷합니다.
+
+.단계
+. 왼쪽 탐색 창에서 * 스토리지 * > * 볼륨 * 을 클릭합니다.
++
+Health: All Volumes(상태: 모든 볼륨) 보기가 기본적으로 표시됩니다.
+
+. 보기 메뉴에서 * 성능:QoS 정책 그룹의 볼륨 * 을 선택합니다.
+. 검토할 볼륨의 이름을 클릭합니다.
++
+볼륨에 대한 성능 탐색기 페이지가 표시됩니다.
+
+. 보기 및 비교 메뉴에서 * 동일한 QoS 정책 그룹의 볼륨 * 을 선택합니다.
++
+동일한 QoS 정책을 공유하는 다른 볼륨은 아래 표에 나와 있습니다.
+
+. 차트에서 선택한 모든 볼륨의 IOPS, MB/s, IOPS/TB 및 기타 성능 카운터를 비교할 수 있도록 해당 볼륨을 차트에 추가하려면 * 추가 * 버튼을 클릭합니다.
++
+시간 범위를 변경하여 기본 72시간이 아닌 다른 시간 간격에 대한 성능을 볼 수 있습니다.
+
+

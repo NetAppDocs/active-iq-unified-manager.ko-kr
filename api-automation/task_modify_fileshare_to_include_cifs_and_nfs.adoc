@@ -1,0 +1,159 @@
+---
+permalink: api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html 
+sidebar: sidebar 
+keywords: modify, nfs, file, share, support, cifs 
+summary: 'CIFS 프로토콜을 지원하도록 NFS 파일 공유를 수정할 수 있습니다. 파일 공유를 생성하는 동안 동일한 파일 공유에 대한 ACL(액세스 제어 목록) 매개 변수와 엑스포트 정책 규칙을 모두 지정할 수 있습니다. 그러나 NFS 파일 공유를 생성한 볼륨에서 CIFS를 설정하려면 해당 파일 공유에서 CIFS를 지원하도록 ACL 매개 변수를 업데이트할 수 있습니다.' 
+---
+= CIFS를 지원하도록 NFS 파일 공유를 수정합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+CIFS 프로토콜을 지원하도록 NFS 파일 공유를 수정할 수 있습니다. 파일 공유를 생성하는 동안 동일한 파일 공유에 대한 ACL(액세스 제어 목록) 매개 변수와 엑스포트 정책 규칙을 모두 지정할 수 있습니다. 그러나 NFS 파일 공유를 생성한 볼륨에서 CIFS를 설정하려면 해당 파일 공유에서 CIFS를 지원하도록 ACL 매개 변수를 업데이트할 수 있습니다.
+
+* 필요한 것 *
+
+. NFS 파일 공유는 엑스포트 정책 세부 정보만 사용하여 생성해야 합니다. 자세한 내용은 _ 파일 공유 관리 _ 및 _ 스토리지 워크로드 수정 _ 을(를) 참조하십시오.
+. 이 작업을 실행하려면 파일 공유 키가 있어야 합니다. 파일 공유 세부 정보를 보고 작업 ID를 사용하여 파일 공유 키를 검색하는 방법에 대한 자세한 내용은 _ CIFS 및 NFS 파일 공유 _ 을(를) 참조하십시오.
+
+
+이는 ACL 매개 변수가 아닌 엑스포트 정책 규칙만 추가하여 생성한 NFS 파일 공유에 적용할 수 있습니다. ACL 매개 변수를 포함하도록 NFS 파일 공유를 수정합니다.
+
+.단계
+. NFS 파일 공유에서 CIFS 액세스를 허용하기 위한 ACL 세부 정보로 '패치' 작업을 수행합니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+패치
+ a| 
+'/storage-provider/file-공유'
+
+|===
++
+* 샘플 컬 *
+
++
+다음 샘플에 표시된 것처럼 사용자 그룹에 할당한 액세스 권한에 따라 ACL이 생성되고 파일 공유에 할당됩니다.
+
++
+[listing]
+----
+{
+  "access_control": {
+    "acl": [
+      {
+        "permission": "read",
+        "user_or_group": "everyone"
+      }
+    ],
+    "active_directory_mapping": {
+      "key": "3b648c1b-d965-03b7-20da-61b791a6263c"
+    }
+----
++
+* JSON 출력 샘플 *
+
++
+이 작업은 업데이트를 실행하는 작업의 작업 ID를 반환합니다.
+
+. 동일한 파일 공유에 대한 파일 공유 세부 정보를 쿼리하여 매개 변수가 올바르게 추가되었는지 확인합니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/storage-provider/file-공유/\{key}'
+
+|===
++
+* JSON 출력 샘플 *
+
++
+[listing]
+----
+"access_control": {
+        "acl": [
+            {
+                "user_or_group": "everyone",
+                "permission": "read"
+            }
+        ],
+        "export_policy": {
+            "id": 1460288880641,
+            "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641",
+            "name": "default",
+            "rules": [
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 1,
+                    "protocols": [
+                        "nfs3",
+                        "nfs4"
+                    ],
+                    "ro_rule": [
+                        "sys"
+                    ],
+                    "rw_rule": [
+                        "sys"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                },
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 2,
+                    "protocols": [
+                        "cifs"
+                    ],
+                    "ro_rule": [
+                        "ntlm"
+                    ],
+                    "rw_rule": [
+                        "ntlm"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "/api/datacenter/protocols/nfs/export-policies/7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641"
+                }
+            }
+        }
+    },
+    "_links": {
+        "self": {
+            "href": "/api/storage-provider/file-shares/7d5a59b3-953a-11e8-8857-00a098dcc959:type=volume,uuid=e581c23a-1037-11ea-ac5a-00a098dcc6b6"
+        }
+    }
+----
++
+동일한 파일 공유에 대한 내보내기 정책과 함께 할당된 ACL을 볼 수 있습니다.
+
+

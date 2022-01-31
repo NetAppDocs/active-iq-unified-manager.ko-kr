@@ -1,0 +1,639 @@
+---
+permalink: events/reference_cluster_events.html 
+sidebar: sidebar 
+keywords: cluster events, impact, area, availability, capacity, configuration, performance, security 
+summary: 클러스터 이벤트는 클러스터의 상태에 대한 정보를 제공하므로 클러스터에서 잠재적인 문제가 있는지 모니터링할 수 있습니다. 이벤트는 영향 영역별로 그룹화되며 이벤트 이름, 트랩 이름, 영향 수준, 소스 유형 및 심각도를 포함합니다. 
+---
+= 클러스터 이벤트입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+클러스터 이벤트는 클러스터의 상태에 대한 정보를 제공하므로 클러스터에서 잠재적인 문제가 있는지 모니터링할 수 있습니다. 이벤트는 영향 영역별로 그룹화되며 이벤트 이름, 트랩 이름, 영향 수준, 소스 유형 및 심각도를 포함합니다.
+
+
+
+== 영향 영역: 가용성
+
+별표(*)는 Unified Manager 이벤트로 변환된 EMS 이벤트를 나타냅니다.
+
+|===
+| 이벤트 이름(트랩 이름) | 충격 수준 | 소스 유형 | 심각도입니다 
+
+
+ a| 
+클러스터에 스페어 디스크 부족(문서 DisksNot예비품)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+클러스터에 연결할 수 없음(문서 클러스터연결할 수 없음)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+오류
+
+
+
+ a| 
+클러스터 모니터링 실패(문서 클러스터 모니터링 실패)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+클러스터 FabricPool 라이센스 용량 제한 위반(문서 ExternalCapacityTierSpaceFull)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+NVMe - 유예 기간 시작됨 * (nvmfGracePeriodStart)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+NVMe-of Grace Period Active * (nvmfGracePeriodActive)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+NVMe - 유예 기간 만료 * (nvmfGracePeriodExpired)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+개체 유지 관리 창 시작됨(objectMaintenanceWindowStarted)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+심각
+
+
+
+ a| 
+개체 유지 관리 창 종료됨(objectMaintenanceWindowEnded)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+정보
+
+
+
+ a| 
+MetroCluster 스페어 디스크 남음(document.SpareDiskLeftBehind)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+오류
+
+
+
+ a| 
+MetroCluster 자동 비계획 전환 비활성화(문서 MccAutomaticUnplanneSwitchOverDisabled)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+클러스터 사용자 암호가 변경되었습니다. * (cluster.passwd.changed)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+정보
+
+|===
+
+
+== 충격 영역: 용량
+
+|===
+| 이벤트 이름(트랩 이름) | 충격 수준 | 소스 유형 | 심각도입니다 
+
+
+ a| 
+클러스터 용량 불균형 임계값 위반(문서 ConformanceNodeImbalanceWarning)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+클러스터 클라우드 계층 계획(클러스터CloudTierPlanningWarning)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+FabricPool 미러 복제 재동기화 완료 * (awflCaResyncComplete)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+FabricPool 공간 거의 다 찼음 * (faboolNearlyFull)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+오류
+
+|===
+
+
+== 충격 영역: 구성
+
+|===
+| 이벤트 이름(트랩 이름) | 충격 수준 | 소스 유형 | 심각도입니다 
+
+
+ a| 
+추가된 노드(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+정보
+
+
+
+ a| 
+제거된 노드(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+정보
+
+
+
+ a| 
+클러스터 제거됨(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+정보
+
+
+
+ a| 
+클러스터 추가 실패(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+오류
+
+
+
+ a| 
+클러스터 이름이 변경됨(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+정보
+
+
+
+ a| 
+비상 EMS 수신(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+심각
+
+
+
+ a| 
+Critical EMS 수신 (해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+심각
+
+
+
+ a| 
+경고 EMS 수신(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+오류
+
+
+
+ a| 
+오류 EMS 수신(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+경고 EMS 수신(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+디버그 EMS 수신(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+EMS 수신 통지(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+정보 EMS 수신(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+경고
+
+|===
+ONTAP EMS 이벤트는 세 가지 Unified Manager 이벤트 심각도 수준으로 분류됩니다.
+
+|===
+
+
+| Unified Manager 이벤트 심각도 레벨 | ONTAP EMS 이벤트 심각도 수준 
+
+
+ a| 
+심각
+ a| 
+비상 상황
+
+심각
+
+
+
+ a| 
+오류
+ a| 
+경고
+
+
+
+ a| 
+경고
+ a| 
+오류
+
+경고
+
+디버그
+
+주의
+
+정보 제공
+
+|===
+
+
+== 충격 영역: 성능
+
+|===
+| 이벤트 이름(트랩 이름) | 충격 수준 | 소스 유형 | 심각도입니다 
+
+
+ a| 
+클러스터 로드 불균형 임계값 위반()
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+클러스터 IOPS 중요 임계값 위반(문서 클러스터사고)
+ a| 
+사고
+ a| 
+클러스터
+ a| 
+심각
+
+
+
+ a| 
+클러스터 IOPS 경고 임계값 위반(문서 클러스터경고)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+클러스터 MB/s 심각한 임계값 위반(문서 클러스터인시던트)
+ a| 
+사고
+ a| 
+클러스터
+ a| 
+심각
+
+
+
+ a| 
+클러스터 MB/s 경고 임계값 위반(문서 클러스터 MbpsWarning)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+클러스터 동적 임계값 위반(문서 ClusterDynamicEventWarning)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+|===
+
+
+== 충격 영역: 보안
+
+|===
+| 이벤트 이름(트랩 이름) | 충격 수준 | 소스 유형 | 심각도입니다 
+
+
+ a| 
+AutoSupport HTTPS 전송 비활성화됨(ocumClusterASUPHttpsConfiguredDisabled)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+로그 전달 암호화되지 않음(ocumClusterAuditLogUnencrypted)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+기본 로컬 관리자 사용(문서 클러스터 기본 관리자 사용)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+FIPS 모드 비활성화(ocumClusterFipsDisabled)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+로그인 배너 사용 안 함(ocumClusterLoginBannerDisabled)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+로그인 배너 변경됨(ocumClusterLoginBannerChanged)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+로그 전달 대상 변경됨(문서 LogForwardinationsChanged)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+NTP 서버 이름이 변경되었습니다(ocntpServerNamesChanged).
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+NTP 서버 개수가 낮음(securityConfigNTPServerCountLowRisk)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+클러스터 피어 통신이 암호화되지 않음(ocumClusterPeerEncryptionDisabled)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+SSH가 안전하지 않은 암호(ClusterSSHInsecure)를 사용 중
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+텔넷 프로토콜 사용(ocumClusterTelnetEnabled)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+일부 ONTAP 사용자 계정의 암호는 덜 안전한 MD5 해시 기능(ocument ClusterMD5PasswordHashUsed)을 사용합니다.
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+클러스터가 자체 서명된 인증서(ocumClusterSelfSignedCertificate)를 사용합니다.
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+클러스터 원격 셸이 활성화됨(문서 클러스터 비활성화됨)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+|===

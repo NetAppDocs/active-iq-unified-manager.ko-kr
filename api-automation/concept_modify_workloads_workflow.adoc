@@ -1,0 +1,345 @@
+---
+permalink: api-automation/concept_modify_workloads_workflow.html 
+sidebar: sidebar 
+keywords: modify, storage, workloads 
+summary: 스토리지 워크로드 수정은 누락된 매개 변수를 사용하여 LUN 또는 파일 공유를 업데이트하거나 기존 매개 변수를 변경하는 작업으로 구성됩니다. 
+---
+= 스토리지 워크로드 수정
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 워크로드 수정은 누락된 매개 변수를 사용하여 LUN 또는 파일 공유를 업데이트하거나 기존 매개 변수를 변경하는 작업으로 구성됩니다.
+
+이 워크플로우에서는 LUN 및 파일 공유에 대한 성능 서비스 수준을 업데이트하는 예제를 제공합니다.
+
+[NOTE]
+====
+워크플로우에서는 LUN 또는 파일 공유가 성능 서비스 수준으로 프로비저닝되었다고 가정합니다.
+
+====
+
+
+== 파일 공유를 수정하는 중입니다
+
+파일 공유를 수정하는 동안 다음 매개 변수를 업데이트할 수 있습니다.
+
+* 용량 또는 크기입니다.
+* 온라인 또는 오프라인 설정.
+* 스토리지 효율성 정책:
+* 성능 서비스 수준.
+* ACL(액세스 제어 목록) 설정
+* 정책 설정을 내보냅니다. 또한 내보내기 정책 매개 변수를 삭제하고 파일 공유에서 기본(비어 있음) 엑스포트 정책 규칙을 되돌릴 수도 있습니다.
+
+
+[NOTE]
+====
+단일 API를 실행하는 동안 매개 변수를 하나만 업데이트할 수 있습니다.
+
+====
+이 절차에서는 파일 공유에 성능 서비스 수준을 추가하는 방법에 대해 설명합니다. 다른 파일 공유 속성을 업데이트하는 경우에도 동일한 절차를 사용할 수 있습니다.
+
+. 업데이트할 파일 공유의 CIFS 공유 또는 NFS 파일 공유 키를 가져옵니다. 이 API는 데이터 센터의 모든 파일 공유를 쿼리합니다. 파일 공유 키를 이미 알고 있는 경우 이 단계를 건너뜁니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/storage-provider/file-공유'
+
+|===
+. 가져온 파일 공유 키와 다음 API를 실행하여 파일 공유의 세부 정보를 봅니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/storage-provider/file-공유/\{key}'
+
+|===
++
+출력에서 파일 공유의 세부 정보를 봅니다.
+
++
+[listing]
+----
+"assigned_performance_service_level": {
+        "key": null,
+        "name": "Unassigned",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+      },
+----
+. 이 파일 공유에 할당할 성능 서비스 수준의 키를 얻습니다. 현재 할당된 정책이 없습니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+성능 서비스 레벨
+ a| 
+가져오기
+ a| 
+'/스토리지 공급자/성능 서비스 수준'
+
+|===
++
+[NOTE]
+====
+System_Defined 입력 파라미터를 true로 설정하여 시스템 정의 Performance Service 레벨의 세부 정보를 조회할 수 있다. 출력에서 파일 공유에 적용할 성능 서비스 수준의 키를 가져옵니다.
+
+====
+. 파일 공유에 성능 서비스 수준을 적용합니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+스토리지 공급자
+ a| 
+패치
+ a| 
+'/storage-provider/file-공유/\{key}'
+
+|===
++
+입력에서 업데이트할 매개 변수만 파일 공유 키와 함께 지정해야 합니다. 이 경우 성능 서비스 수준의 핵심입니다.
+
++
+* 샘플 컬 *
+
++
+[listing]
+----
+curl -X POST "https://<hostname>/api/storage-provider/file-shares"`-H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" -d
+"{
+\"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" },
+}"
+----
++
+JSON 출력에는 홈 및 파트너 노드의 액세스 끝점이 성공적으로 생성되었는지 확인하는 데 사용할 수 있는 작업 객체가 표시됩니다.
+
+. 출력에 표시된 작업 객체 키를 사용하여 성능 서비스 수준이 파일 공유에 추가되었는지 확인합니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+관리 서버
+ a| 
+가져오기
+ a| 
+'/management-server/jobs/\{key}'
+
+|===
++
+작업 객체의 ID로 쿼리하면 파일 공유가 성공적으로 업데이트되었는지 여부를 확인할 수 있습니다. 장애가 발생한 경우, 장애 해결 후 API를 다시 실행한다. 성공적으로 생성되면 파일 공유를 쿼리하여 수정된 객체를 확인합니다.
+
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/storage-provider/file-공유/\{key}'
+
+|===
++
+출력에서 파일 공유의 세부 정보를 봅니다.
+
++
+[listing]
+----
+"assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+        }
+----
+
+
+
+
+== LUN을 업데이트하는 중입니다
+
+LUN을 업데이트하는 동안 다음 매개 변수를 수정할 수 있습니다.
+
+* 용량 또는 크기입니다
+* 온라인 또는 오프라인 설정
+* 스토리지 효율성 정책
+* 성능 서비스 수준
+* LUN 매핑
+
+
+[NOTE]
+====
+단일 API를 실행하는 동안 매개 변수를 하나만 업데이트할 수 있습니다.
+
+====
+이 절차에서는 LUN에 성능 서비스 수준을 추가하는 방법에 대해 설명합니다. 다른 LUN 속성을 업데이트하는 경우에도 동일한 절차를 사용할 수 있습니다.
+
+. 업데이트할 LUN의 LUN 키를 가져옵니다. 이 API는 데이터 센터의 모든 LUN에 대한 세부 정보를 반환합니다. LUN 키를 이미 알고 있는 경우 이 단계를 건너뜁니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+스토리지 공급자
+ a| 
+가져오기
+ a| 
+'/스토리지 공급자/LUN'
+
+|===
+. 가져온 LUN 키와 함께 다음 API를 실행하여 LUN의 세부 정보를 봅니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+스토리지 공급자
+ a| 
+가져오기
+ a| 
+'/storage-provider/LUNs/\{key}'
+
+|===
++
+출력에서 LUN의 세부 정보를 봅니다. 이 LUN에 성능 서비스 수준이 할당되지 않은 것을 확인할 수 있습니다.
+
++
+* JSON 출력 샘플 *
+
++
+[listing]
+----
+
+  "assigned_performance_service_level": {
+        "key": null,
+        "name": "Unassigned",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+      },
+----
+. LUN에 할당할 성능 서비스 수준의 키를 얻습니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+성능 서비스 레벨
+ a| 
+가져오기
+ a| 
+'/스토리지 공급자/성능 서비스 수준'
+
+|===
++
+[NOTE]
+====
+System_Defined 입력 파라미터를 true로 설정하여 시스템 정의 Performance Service 레벨의 세부 정보를 조회할 수 있다. 출력에서 LUN에 적용할 성능 서비스 수준의 키를 얻습니다.
+
+====
+. LUN에 성능 서비스 수준을 적용합니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+스토리지 공급자
+ a| 
+패치
+ a| 
+'/storage-provider/lun/\{key}'
+
+|===
++
+입력에서 LUN 키와 함께 업데이트할 매개 변수만 지정해야 합니다. 이 경우 성능 서비스 수준의 핵심입니다.
+
++
+* 샘플 컬 *
+
++
+[listing]
+----
+curl -X PATCH "https://<hostname>/api/storage-provider/luns/7d5a59b3-953a-11e8-8857-00a098dcc959" -H "accept: application/json" -H "Content-Type: application/json" H "Authorization: Basic <Base64EncodedCredentials>" -d
+"{ \"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" }"
+----
++
+JSON 출력에는 업데이트된 LUN을 확인하는 데 사용할 수 있는 작업 오브젝트 키가 표시됩니다.
+
+. 가져온 LUN 키와 함께 다음 API를 실행하여 LUN의 세부 정보를 봅니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+스토리지 공급자
+ a| 
+가져오기
+ a| 
+'/storage-provider/LUNs/\{key}'
+
+|===
++
+출력에서 LUN의 세부 정보를 봅니다. 이 LUN에 성능 서비스 수준이 할당된 것을 확인할 수 있습니다.
+
++
+* JSON 출력 샘플 *
+
++
+[listing]
+----
+
+     "assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+----
+

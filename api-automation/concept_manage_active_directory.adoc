@@ -1,0 +1,54 @@
+---
+permalink: api-automation/concept_manage_active_directory.html 
+sidebar: sidebar 
+keywords: manage, active, directory, mapping 
+summary: 여기에 나열된 API를 사용하여 SVM에서 CIFS 공유를 프로비저닝하는 데 필요한 SVM에서 Active Directory 매핑을 관리할 수 있습니다. SVM을 ONTAP에 매핑하기 위해 Active Directory 매핑을 구성해야 합니다. 
+---
+= Active Directory 매핑 관리
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+여기에 나열된 API를 사용하여 SVM에서 CIFS 공유를 프로비저닝하는 데 필요한 SVM에서 Active Directory 매핑을 관리할 수 있습니다. SVM을 ONTAP에 매핑하기 위해 Active Directory 매핑을 구성해야 합니다.
+
+
+
+== Active Directory 매핑을 봅니다
+
+다음 방법을 사용하여 SVM에 대한 Active Directory 매핑의 구성 세부 정보를 볼 수 있습니다. SVM에서 Active Directory 매핑을 보려면 SVM 키를 입력해야 합니다. 특정 매핑의 세부 정보를 쿼리하려면 매핑 키를 입력해야 합니다.
+
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/storage-provider/active-directories-mappings'
+
+'/storage-provider/active-directories-mappings/\{key}'
+
+|===
+
+
+== Active Directory 매핑을 추가합니다
+
+다음 방법을 사용하여 SVM에 Active Directory 매핑을 생성할 수 있습니다. 입력 매개 변수로 매핑 세부 정보를 입력해야 합니다.
+
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+게시
+ a| 
+'/storage-provider/active-directories-mappings'
+
+|===

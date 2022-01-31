@@ -1,0 +1,58 @@
+---
+permalink: storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html 
+sidebar: sidebar 
+keywords: monitor, vmware, virtual, infrastructure, not, supported 
+summary: 'Active IQ Unified Manager는 가상 인프라의 가상 머신(VM)에 대한 가시성을 제공하며, 가상 환경에서 스토리지 및 성능 문제를 모니터링하고 문제를 해결할 수 있도록 지원합니다. 이 기능을 사용하여 스토리지 환경에서 지연 시간 문제가 있는지 또는 vCenter Server에 보고된 성능 이벤트가 있는지 확인할 수 있습니다.' 
+---
+= VMware 가상 인프라스트럭처 모니터링
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager는 가상 인프라의 가상 머신(VM)에 대한 가시성을 제공하며, 가상 환경에서 스토리지 및 성능 문제를 모니터링하고 문제를 해결할 수 있도록 지원합니다. 이 기능을 사용하여 스토리지 환경에서 지연 시간 문제가 있는지 또는 vCenter Server에 보고된 성능 이벤트가 있는지 확인할 수 있습니다.
+
+ONTAP 기반의 일반적인 가상 인프라 구축에는 컴퓨팅, 네트워크 및 스토리지 계층 전체에 분산된 다양한 구성 요소가 있습니다. VM 애플리케이션의 성능 지연은 각 계층의 다양한 구성 요소에 의해 발생하는 지연 시간의 조합으로 인해 발생할 수 있습니다. 이 기능은 가상 환경에서 성능 문제를 분석하고 문제가 발생한 구성 요소를 파악해야 하는 스토리지 및 vCenter Server 관리자와 일반 IT 사용자에게 유용합니다.
+
+이제 VMware 섹션의 vCenter 메뉴에서 vCenter Server에 액세스할 수 있습니다. 나열된 각 가상 머신의 PEEK 뷰에는 새 브라우저에서 vCenter Server를 실행하는 토폴로지 뷰에 * vCenter Server * 링크가 있습니다. 또한 * Expand Topology * 버튼을 사용하여 vCenter Server를 시작하고 * View in vCenter * 버튼을 클릭하여 vCenter Server에서 데이터 저장소를 볼 수도 있습니다.
+
+Unified Manager는 가상 환경의 기본 하위 시스템을 토폴로지 뷰에서 제공하므로 컴퓨팅 노드, 네트워크 또는 스토리지에서 지연 시간 문제가 발생했는지 여부를 확인할 수 있습니다. 또한 개선 단계를 수행하고 기본 문제를 해결하는 데 성능 지연이 발생하는 특정 개체를 중점적으로 보여 줍니다.
+
+ONTAP 스토리지에 구축된 가상 인프라스트럭처에는 다음과 같은 객체가 포함됩니다.
+
+* vCenter Server: 가상 환경에서 VMware VM, ESXi 호스트 및 모든 관련 구성 요소를 관리하기 위한 중앙 집중식 컨트롤 플레인 vCenter Server에 대한 자세한 내용은 VMware 설명서를 참조하십시오.
+* 호스트: ESXi를 실행하는 물리적 또는 가상 시스템, VMware의 가상화 소프트웨어 및 VM을 호스팅합니다.
+* 데이터 저장소: 데이터 저장소는 ESXi 호스트에 접속된 가상 스토리지 객체입니다. 데이터 저장소는 로그 파일, 스크립트, 구성 파일 및 가상 디스크와 같은 VM 파일의 저장소로 사용되는 LUN 또는 볼륨과 같은 ONTAP의 관리 가능한 스토리지 엔터티입니다. SAN 또는 IP 네트워크 연결을 통해 환경의 호스트에 연결됩니다. vCenter Server에 매핑된 ONTAP 외부의 데이터 저장소는 Unified Manager에서 지원되지 않거나 표시되지 않습니다.
+* VM: VMware 가상 머신
+* 가상 디스크: VMDK로 확장하는 VM에 속한 데이터 저장소의 가상 디스크 가상 디스크의 데이터는 해당 VMDK에 저장됩니다.
+* VMDK: 가상 디스크에 대한 스토리지 공간을 제공하는 데이터 저장소의 가상 머신 디스크입니다. 각 가상 디스크에 해당하는 VMDK가 있습니다.
+
+
+이러한 객체는 VM 토폴로지 뷰로 표시됩니다.
+
+* ONTAP * 기반 VMware 가상화
+
+image::../media/vm_deployment.gif[VM 배포]
+
+* 사용자 워크플로 *
+
+다음 다이어그램에서는 VM 토폴로지 뷰를 사용하는 일반적인 사용 사례를 보여 줍니다.
+
+image::../media/vm_workflow.gif[VM 워크플로]
+
+
+
+== 지원되지 않는 것은 무엇입니까
+
+* ONTAP 외부에 있고 vCenter Server 인스턴스에 매핑된 데이터 저장소는 Unified Manager에서 지원되지 않습니다. 이러한 데이터 저장소에 가상 디스크가 있는 VM도 지원되지 않습니다.
+* 여러 LUN에 걸쳐 있는 데이터 저장소는 지원되지 않습니다.
+* 데이터 LIF(액세스 엔드포인트)를 매핑하기 위해 NAT(Network Address Translation)를 사용하는 데이터 저장소는 지원되지 않습니다.
+* 여러 LIF 구성에서 IP 주소가 동일한 여러 클러스터에서 볼륨 또는 LUN을 데이터 저장소로 내보내는 기능은 UM이 어떤 데이터 저장소가 어떤 클러스터에 속해 있는지 식별할 수 없기 때문에 지원되지 않습니다.
++
+예: 클러스터 A에 데이터 저장소 A가 있다고 가정합니다 데이터 저장소 A는 IP 주소가 동일한 데이터 LIF를 통해 내보내지며 VM A는 이 데이터 저장소에 생성됩니다. 마찬가지로 클러스터 B에도 데이터 저장소 B가 있습니다 데이터 저장소 B는 IP 주소 x.x.x.x 및 VM B가 동일한 데이터 LIF를 통해 데이터 저장소 B에서 내보내집니다 UM은 VM A 토폴로지의 데이터 저장소 A를 해당 ONTAP 볼륨/LUN에 매핑하거나 VM B를 매핑할 수 없습니다
+
+* NAS 및 SAN 볼륨(VMFS의 경우 iSCSI 및 FCP)만 데이터 저장소로 지원되며, 가상 볼륨(VVol)은 지원되지 않습니다.
+* iSCSI 가상 디스크만 지원됩니다. NVMe 및 SATA 유형의 가상 디스크는 지원되지 않습니다.
+* 뷰를 사용하면 다양한 부품의 성능을 분석하기 위한 보고서를 생성할 수 없습니다.
+* Unified Manager의 가상 인프라에만 지원되는 스토리지 가상 머신(스토리지 VM) DR(재해 복구) 설정의 경우, 전환 및 스위치백 시나리오에서 활성 LUN을 가리키도록 vCenter Server에서 구성을 수동으로 변경해야 합니다. 수동 개입 없이 해당 데이터 저장소에 액세스할 수 없게 됩니다.
+

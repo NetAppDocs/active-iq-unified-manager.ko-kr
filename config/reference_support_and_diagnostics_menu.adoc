@@ -1,0 +1,28 @@
+---
+permalink: config/reference_support_and_diagnostics_menu.html 
+sidebar: sidebar 
+keywords: support and diagnostics, menu 
+summary: 지원 및 진단 메뉴를 사용하면 문제 해결 지원을 위해 기술 지원 부서에 보낼 수 있는 지원 번들을 생성할 수 있습니다. 
+---
+= 지원 및 진단 메뉴
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+지원 및 진단 메뉴를 사용하면 문제 해결 지원을 위해 기술 지원 부서에 보낼 수 있는 지원 번들을 생성할 수 있습니다.
+
+다음 메뉴 옵션을 사용할 수 있습니다.
+
+* * Light Support Bundle * 생성
++
+에서는 30일 동안의 로그 및 구성 데이터베이스 레코드를 포함하는 경량 지원 번들을 생성할 수 있습니다. 성능 데이터, 획득 기록 파일 및 서버 힙 덤프는 제외됩니다.
+
+* * 지원 번들 생성 *
++
+진단 사용자의 홈 디렉토리에 진단 정보가 포함된 전체 지원 번들(7-Zip 파일)을 생성할 수 있습니다. 시스템이 인터넷에 연결되어 있는 경우 지원 번들을 NetApp에 업로드할 수도 있습니다.
+
++
+이 파일에는 AutoSupport 메시지에서 생성된 정보, Unified Manager 데이터베이스의 콘텐츠, Unified Manager 서버 내부 구성 요소에 대한 자세한 데이터, 일반적으로 AutoSupport 메시지 또는 경량 지원 번들에 포함되지 않은 자세한 레벨의 로그가 포함됩니다.
+
+

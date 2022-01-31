@@ -1,0 +1,77 @@
+---
+permalink: config/task_enable_and_disable_policy_based_storage_management.html 
+sidebar: sidebar 
+keywords: provisioning, performance service levels, storage management, enable, disable, policy-based 
+summary: 'Unified Manager 9.7부터 ONTAP 클러스터에 스토리지 워크로드(볼륨 및 LUN)를 프로비저닝하고 지정된 성능 서비스 수준에 따라 해당 워크로드를 관리할 수 있습니다. 이 기능은 ONTAP System Manager에서 워크로드를 생성하고 QoS 정책을 연결하는 것과 비슷하지만, Unified Manager를 사용하여 적용할 경우 Unified Manager 인스턴스가 모니터링하는 모든 클러스터에서 워크로드를 프로비저닝하고 관리할 수 있습니다.' 
+---
+= 정책 기반 스토리지 관리 설정 및 해제
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager 9.7부터 ONTAP 클러스터에 스토리지 워크로드(볼륨 및 LUN)를 프로비저닝하고 지정된 성능 서비스 수준에 따라 해당 워크로드를 관리할 수 있습니다. 이 기능은 ONTAP System Manager에서 워크로드를 생성하고 QoS 정책을 연결하는 것과 비슷하지만, Unified Manager를 사용하여 적용할 경우 Unified Manager 인스턴스가 모니터링하는 모든 클러스터에서 워크로드를 프로비저닝하고 관리할 수 있습니다.
+
+애플리케이션 관리자 역할이 있어야 합니다.
+
+이 옵션은 기본적으로 활성화되어 있지만 Unified Manager를 사용하여 워크로드를 프로비저닝하고 관리하지 않으려는 경우 비활성화할 수 있습니다.
+
+이 옵션을 활성화하면 사용자 인터페이스에 많은 새 항목이 제공됩니다.
+
+[cols="2*"]
+|===
+| 새 콘텐츠 | 위치 
+
+
+ a| 
+새로운 워크로드를 프로비저닝하는 데 필요한 페이지입니다
+ a| 
+일반 작업 * > * 프로비저닝 * 에서 사용할 수 있습니다
+
+
+
+ a| 
+성능 서비스 수준 정책을 생성하는 페이지입니다
+ a| 
+설정 * > * 정책 * > * 성능 서비스 수준 * 에서 사용할 수 있습니다
+
+
+
+ a| 
+성능 스토리지 효율성 정책을 생성하는 페이지입니다
+ a| 
+설정 * > * 정책 * > * 스토리지 효율성 * 에서 사용할 수 있습니다
+
+
+
+ a| 
+현재 워크로드 성능 및 워크로드 IOPS를 설명하는 패널
+ a| 
+대시보드에서 사용할 수 있습니다
+
+|===
+이러한 페이지 및 이 기능에 대한 자세한 내용은 제품의 온라인 도움말을 참조하십시오.
+
+.단계
+. 왼쪽 탐색 창에서 * 일반 * > * 기능 설정 * 을 클릭합니다.
+. 기능 설정 * 페이지에서 다음 옵션 중 하나를 선택하여 정책 기반 스토리지 관리를 비활성화하거나 활성화합니다.
++
+[cols="2*"]
+|===
+| 원하는 작업 | 다음을 수행하십시오. 
+
+
+ a| 
+정책 기반 스토리지 관리를 해제합니다
+ a| 
+Policy-based storage management * (정책 기반 저장소 관리 *) 패널에서 슬라이더 버튼을 왼쪽으로 이동합니다.
+
+
+
+ a| 
+정책 기반 스토리지 관리 설정
+ a| 
+Policy-based storage management * (정책 기반 저장소 관리 *) 패널에서 슬라이더 버튼을 오른쪽으로 이동합니다.
+
+|===
+

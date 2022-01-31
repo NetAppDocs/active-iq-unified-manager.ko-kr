@@ -1,0 +1,24 @@
+---
+permalink: events/task_configure_event_retention_settings.html 
+sidebar: sidebar 
+keywords: configure, event, retention, settings 
+summary: '이벤트가 자동으로 삭제되기 전에 Unified Manager 서버에 유지되는 기간(월)을 지정할 수 있습니다.' 
+---
+= 이벤트 보존 설정을 구성하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이벤트가 자동으로 삭제되기 전에 Unified Manager 서버에 유지되는 기간(월)을 지정할 수 있습니다.
+
+* 필요한 것 *
+
+애플리케이션 관리자 역할이 있어야 합니다.
+
+6개월 이상 이벤트를 보존하면 서버 성능에 영향을 줄 수 있으며 권장하지 않습니다.
+
+.단계
+. 왼쪽 탐색 창에서 * 일반 * > * 데이터 보존 * 을 클릭합니다.
+. Data Retention * 페이지의 Event Retention 영역에서 슬라이더를 선택하고 이벤트를 보존할 개월 수로 이동한 다음 * Save * 를 클릭합니다.
+

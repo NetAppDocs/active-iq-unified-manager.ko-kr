@@ -1,0 +1,25 @@
+---
+permalink: health-checker/task_add_annotations_dynamically.html 
+sidebar: sidebar 
+keywords: add, annotations, dynamically 
+summary: '맞춤형 주석을 생성할 때 Unified Manager는 규칙에 따라 클러스터, SVM(스토리지 가상 머신), 볼륨을 주석과 동적으로 연결합니다. 이 규칙은 스토리지 객체에 주석을 자동으로 할당합니다.' 
+---
+= 동적으로 주석 추가
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+맞춤형 주석을 생성할 때 Unified Manager는 규칙에 따라 클러스터, SVM(스토리지 가상 머신), 볼륨을 주석과 동적으로 연결합니다. 이 규칙은 스토리지 객체에 주석을 자동으로 할당합니다.
+
+* 필요한 것 *
+
+애플리케이션 관리자 또는 스토리지 관리자 역할이 있어야 합니다.
+
+.단계
+. 왼쪽 탐색 창에서 * 스토리지 관리 * > * 주석 * 을 클릭합니다.
+. 주석 * 페이지에서 * 주석 추가 * 를 클릭합니다.
+. 주석 추가 * 대화 상자에서 주석에 대한 이름과 설명을 입력합니다.
+. 옵션: * 주석 값 * 섹션에서 * 추가 * 를 클릭하여 주석에 값을 추가합니다.
+. 저장 * 을 클릭합니다.
+

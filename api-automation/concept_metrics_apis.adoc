@@ -1,0 +1,375 @@
+---
+permalink: api-automation/concept_metrics_apis.html 
+sidebar: sidebar 
+keywords: view, performance, metrics 
+summary: Active IQ Unified Manager는 데이터 센터에서 클러스터의 성능 데이터와 스토리지 객체를 볼 수 있도록 /datacenter 범주 아래에 API 세트를 제공합니다. 이러한 API는 클러스터, 노드, LUN, 볼륨 등 다양한 스토리지 오브젝트의 성능 데이터를 애그리게이트 및 스토리지 VM: 
+---
+= 성능 메트릭 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager는 데이터 센터에서 클러스터의 성능 데이터와 스토리지 객체를 볼 수 있도록 하는 '/datacenter' 범주 아래에 API 세트를 제공합니다. 이들 API는 클러스터, 노드, LUN, 볼륨, 애그리게이트, 데이터 저장소, 데이터 저장소, 데이터 저장소, 스토리지 VM, FC 인터페이스, FC 포트, 이더넷 포트 및 IP 인터페이스.
+
+'/metrics' 및 '/analytics' API는 성능 메트릭에 대한 다양한 뷰를 제공하므로 데이터 센터에서 다음과 같은 스토리지 객체에 대한 세부 정보를 다양한 수준으로 드릴다운할 수 있습니다.
+
+* 클러스터
+* 노드
+* 스토리지 VM
+* 애그리게이트
+* 볼륨
+* LUN을 클릭합니다
+* FC 인터페이스
+* FC 포트
+* 이더넷 포트
+* IP 인터페이스
+
+
+다음 표는 검색된 성능 데이터의 세부 사항을 기준으로 '/metrics'와 '/analytics' API를 비교한 것입니다.
+
+[cols="2*"]
+|===
+| 메트릭 | 분석 
+
+
+ a| 
+단일 객체에 대한 성능 세부 정보입니다. 예를 들어, "/datacenter/cluster/clusters/\{key}/metrics" API를 사용하려면 해당 클러스터의 메트릭을 검색하기 위한 경로 매개 변수로 클러스터 키를 입력해야 합니다.
+ a| 
+데이터 센터에서 동일한 유형의 여러 객체에 대한 성능 세부 정보입니다. 예를 들어, '/datacenter/cluster/clusters/analytics' API는 데이터 센터에 있는 모든 클러스터의 집합적 메트릭을 검색합니다.
+
+
+
+ a| 
+검색할 시간 간격 매개 변수를 기반으로 스토리지 객체에 대한 성능 메트릭 샘플
+ a| 
+특정 기간(72시간 이상) 동안 특정 유형의 스토리지 객체에 대한 높은 수준의 누적 성능 값입니다.
+
+
+
+ a| 
+노드나 클러스터의 세부 정보와 같이 개체의 기본 세부 정보가 검색됩니다.
+ a| 
+특정 세부 정보가 검색되지 않습니다.
+
+
+
+ a| 
+최소, 최대, 95번째 백분위수 및 특정 기간 동안의 평균 성능 값과 같은 누적 카운터는 읽기, 쓰기, 합계 및 기타 카운터 등의 단일 개체에 대해 검색됩니다. 예를 들어, '/datacenter/cluster/nodes/\{key}/metrics' API는 노드에 대해 다음과 같은 세부 정보를 검색합니다.
+
+
+NOTE: 요약 값의 95 백분위수는 해당 기간 동안 수집된 샘플의 95%가 95 백분위수로 지정된 값보다 작은 카운터 값을 가졌음을 나타냅니다.
+
+[listing]
+----
+{
+     "iops": {
+       "local": {
+         "other": 100.53,
+         "read": 100.53,
+         "total": 100.53,
+         "write": 100.53
+       },
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "latency": {
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "performance_capacity": {
+       "available_iops_percent": 0,
+       "free_percent": 0,
+       "system_workload_percent": 0,
+       "used_percent": 0,
+       "user_workload_percent": 0
+     },
+     "throughput": {
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "timestamp": "2018-01-01T12:00:00-04:00",
+     "utilization_percent": 0
+   }
+ ],
+ "start_time": "2018-01-01T12:00:00-04:00",
+ "summary": {
+   "iops": {
+     "local_iops": {
+       "other": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "read": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "total": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "write": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       }
+     },
+---- a| 
+동일한 형식의 모든 개체에 대해 집계된 단일 값이 표시됩니다. 예를 들어, '/datacenter/cluster/nodes/analytics' API는 모든 노드에 대해 다음 값(다른 값 중)을 검색합니다.
+
+[listing]
+----
+{
+     "iops": 1.7471,
+     "latency": 60.0933,
+     "throughput": 5548.4678,
+     "utilization_percent": 4.8569,
+     "period": 72,
+     "performance_capacity": {
+       "used_percent": 5.475,
+       "available_iops_percent": 168350
+     },
+     "node": {
+       "key": "37387241-8b57-11e9-8974-00a098e0219a:type=cluster_node,uuid=95f94e8d-8b4e-11e9-8974-00a098e0219a",
+       "uuid": "95f94e8d-8b4e-11e9-8974-00a098e0219a",
+       "name": "ocum-infinity-01",
+       "_links": {
+         "self": {
+           "href": "/api/datacenter/cluster/nodes/37387241-8b57-11e9-8974-00a098e0219a:type=cluster_node,uuid=95f94e8d-8b4e-11e9-8974-00a098e0219a"
+         }
+       }
+     },
+     "cluster": {
+       "key": "37387241-8b57-11e9-8974-00a098e0219a:type=cluster,uuid=37387241-8b57-11e9-8974-00a098e0219a",
+       "uuid": "37387241-8b57-11e9-8974-00a098e0219a",
+       "name": "ocum-infinity",
+       "_links": {
+         "self": {
+           "href": "/api/datacenter/cluster/clusters/37387241-8b57-11e9-8974-00a098e0219a:type=cluster,uuid=37387241-8b57-11e9-8974-00a098e0219a"
+         }
+       }
+     },
+     "_links": {
+       "self": {
+         "href": "/api/datacenter/cluster/nodes/analytics"
+       }
+     }
+   },
+----
+
+
+ a| 
+시간 범위 및 예제 데이터는 데이터의 시간 범위인 다음 일정을 기반으로 합니다. 예: 1h, 12h, 1d, 2D, 3D, 15d, 1W, 1m, 2m, 3m, 6개월 범위가 3일(72시간)을 초과하는 경우 1시간 샘플이 수집되고, 그렇지 않은 경우 5분 샘플이 제공됩니다. 각 시간 범위의 기간은 다음과 같습니다.
+
+* 1시간: 5분 동안 샘플링한 최근 시간에 대한 메트릭입니다.
+* 12h: 5분 동안 샘플링한 최근 12시간 동안의 메트릭입니다.
+* 1D: 5분 동안 샘플링한 가장 최근 날짜의 메트릭
+* 2D: 5분 동안 샘플링한 최근 2일간의 메트릭
+* 3D: 5분 동안 가장 최근 3일간 샘플링한 메트릭스.
+* 15d: 1시간 동안 샘플링한 최근 15일간의 지표.
+* 1W: 1시간 동안 샘플링한 가장 최근 주에 대한 메트릭입니다.
+* 1m: 1시간 이상 샘플링한 가장 최근 달의 측정 지표입니다.
+* 2M: 1시간 동안 샘플링한 최근 2개월 동안의 메트릭
+* 3M: 1시간 동안 샘플링한 최근 3개월 동안의 지표.
+* 6M: 1시간 동안 가장 최근 6개월 동안 샘플링한 수치.
++
+사용 가능한 값: 1h, 12h, 1d, 2D, 3D, 15d, 1W, 1m, 2m, 3m, 6개월
+
++
+기본값: 1h
+
+
+ a| 
+72시간 이상. 이 샘플이 계산되는 기간은 ISO-8601 표준 형식으로 표시됩니다.
+
+|===
+다음 표에는 '/metrics'와 '/analytics' API가 자세히 나와 있습니다.
+
+[NOTE]
+====
+이러한 API에서 반환되는 IOPS와 성능 메트릭은 100.53과 같이 두 배의 값입니다. 파이프(|)와 와일드카드(*) 문자로 이러한 부동 값 필터링은 지원되지 않습니다.
+
+====
+[cols="3*"]
+|===
+| HTTP 동사 | 경로 | 설명 
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/cluster/clusters/\{key}/metrics'
+ a| 
+이 명령어는 cluster key의 input 매개 변수로 지정한 cluster의 성능 데이터(샘플 및 요약)를 조회한다. 클러스터 키 및 UUID, 시간 범위, IOPS, 처리량, 샘플 수와 같은 정보가 반환됩니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/cluster/cluster/analytics'
+ a| 
+이 명령어는 데이터 센터의 모든 클러스터에 대한 고성능 메트릭을 조회한다. 필요한 기준에 따라 결과를 필터링할 수 있습니다. 집계된 IOPS, 처리량 및 수집 기간(시간)과 같은 값이 반환됩니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/cluster/nodes/\{key}/metrics'
+ a| 
+노드 키의 input 매개 변수로 지정된 노드의 성능 데이터(샘플 및 요약)를 검색합니다. 노드 UUID, 시간 범위, IOPS 요약, 처리량, 지연 시간 및 성능, 수집된 샘플 수, 활용도와 같은 정보가 반환됩니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/cluster/nodes/analytics'
+ a| 
+이 명령어는 데이터 센터 내 모든 노드에 대해 높은 수준의 성능 지표를 조회한다. 필요한 기준에 따라 결과를 필터링할 수 있습니다. 노드 및 클러스터 키와 같은 정보와 집계된 IOPS, 처리량 및 수집 기간(시간)과 같은 값이 반환됩니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/storage/aggregate/\{key}/metrics'
+ a| 
+이 명령어는 aggregate key의 input parameter로 지정된 aggregate에 대한 성능 데이터(sample, summary)를 조회한다. 시간 범위, IOPS 요약, 지연 시간, 처리량 및 성능 용량, 각 카운터에 대해 수집된 샘플 수, 사용된 비율 등의 정보가 반환됩니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/storage/aggregate/analytics'
+ a| 
+이 명령어는 데이터 센터의 모든 애그리게이트를 위한 높은 수준의 성능 메트릭을 조회한다. 필요한 기준에 따라 결과를 필터링할 수 있습니다. 집계 및 클러스터 키와 같은 정보와 집계 IOPS, 처리량 및 수집 기간(시간)과 같은 값이 반환됩니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/storage/LUNs/\{key}/metrics'
+
+'/datacenter/storage/volumes/\{key}/metrics'
+ a| 
+LUN 또는 볼륨 키의 입력 매개 변수로 지정한 LUN 또는 파일 공유(볼륨)의 성능 데이터(샘플 및 요약)를 검색합니다. 읽기, 쓰기 및 총 IOPS, 지연 시간, 처리량의 최소, 최대 및 평균에 대한 요약과 같은 정보 각 카운터에 대해 수집된 샘플의 수가 반환됩니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/storage/LUNs/analytics'
+
+'/datacenter/storage/volumes/analytics'
+ a| 
+이 명령어는 데이터 센터의 모든 LUN 또는 볼륨에 대해 높은 수준의 성능 메트릭을 조회한다. 필요한 기준에 따라 결과를 필터링할 수 있습니다. 스토리지 VM 및 클러스터 키와 같은 정보와 집계 IOPS, 처리량 및 수집 기간(시간)과 같은 값이 반환됩니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/svm/sSVM/{key}/metrics'
+ a| 
+스토리지 VM 키의 입력 매개 변수로 지정한 스토리지 VM의 성능 데이터(샘플 및 요약)를 검색합니다. nvmf, fcp, iscsi, NFS, 처리량 등 지원되는 각 프로토콜을 기반으로 한 IOPS 요약 지연 시간 및 수집된 샘플의 수가 반환됩니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/svm/sSVM/analytics'
+ a| 
+이 명령어는 데이터 센터에 있는 모든 스토리지 VM에 대한 높은 수준의 성능 메트릭을 조회한다. 필요한 기준에 따라 결과를 필터링할 수 있습니다. 스토리지 VM UUID, 집계된 IOPS, 지연 시간, 처리량 및 수집 기간(시간)과 같은 정보가 반환됩니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/network/ethernet/ports/{key}/metrics'
+ a| 
+이 명령어는 Port Key의 INPUT 파라미터로 지정된 특정 Ethernet Port에 대한 성능 메트릭을 조회한다. 지원되는 범위에서 간격(시간 범위)을 제공하면 API는 시간 동안 누적된 카운터(예: 최소값, 최대값 및 평균 성능 값)를 반환합니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/network/ethernet/ports/analytics'
+ a| 
+이 명령어는 데이터 센터 환경의 모든 이더넷 포트에 대한 고성능 지표를 조회한다. 클러스터 및 노드 키 및 UUID, 처리량, 수집 기간, 포트의 사용률 등의 정보가 반환됩니다. 포트 키, 사용률, 클러스터 및 노드 이름, UUID 등과 같은 사용 가능한 매개 변수를 사용하여 결과를 필터링할 수 있습니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/network/fc/interface/{key}/metrics'
+ a| 
+이 명령어는 interface key의 input parameter로 지정된 특정 network FC interface에 대한 성능 메트릭을 조회한다. 지원되는 범위에서 간격(시간 범위)을 제공하면 API는 시간 동안 누적된 카운터(예: 최소값, 최대값 및 평균 성능 값)를 반환합니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/network/fc/interface/analytics'
+ a| 
+이 명령어는 데이터 센터 환경의 모든 이더넷 포트에 대한 고성능 지표를 조회한다. 클러스터 및 FC 인터페이스 키와 UUID, 처리량, IOPS, 지연 시간, 스토리지 VM 등의 정보가 반환됩니다. 클러스터 및 FC 인터페이스 이름 및 UUID, 스토리지 VM, 처리량 등과 같은 사용 가능한 매개 변수를 사용하여 결과를 필터링할 수 있습니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/network/fc/ports/{key}/metrics'
+ a| 
+이 명령어는 포트 키의 입력 매개 변수로 지정한 특정 FC 포트의 성능 메트릭을 조회한다. 지원되는 범위에서 간격(시간 범위)을 제공하면 API는 시간 동안 누적된 카운터(예: 최소값, 최대값 및 평균 성능 값)를 반환합니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/network/fc/ports/analytics'
+ a| 
+이 명령어는 데이터 센터 환경의 모든 FC 포트에 대한 개략적인 성능 메트릭을 조회한다. 클러스터 및 노드 키 및 UUID, 처리량, 수집 기간, 포트의 사용률 등의 정보가 반환됩니다. 포트 키, 사용률, 클러스터 및 노드 이름, UUID 등과 같은 사용 가능한 매개 변수를 사용하여 결과를 필터링할 수 있습니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/network/ip/interface/{key}/metrics'
+ a| 
+이 명령어는 interface key의 input parameter에 의해 지정된 네트워크 IP interface에 대한 성능 메트릭을 조회한다. 지원 범위에서 간격(시간 범위)이 제공된 경우 API는 샘플 수, 누적 카운터, 처리량 및 송수신 패킷 수와 같은 정보를 반환합니다.
+
+
+
+ a| 
+"내려가세요
+ a| 
+'/datacenter/network/ip/interfaces/analytics'
+ a| 
+이 명령어는 데이터 센터 환경의 모든 네트워크 IP 인터페이스에 대한 높은 수준의 성능 지표를 조회한다. 클러스터 및 IP 인터페이스 키와 UUID, 처리량, IOPS, 지연 시간 등의 정보가 반환됩니다. 클러스터 및 IP 인터페이스 이름 및 UUID, IOPS, 지연 시간, 처리량 등과 같은 사용 가능한 매개 변수를 사용하여 결과를 필터링할 수 있습니다.
+
+|===

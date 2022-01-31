@@ -1,0 +1,451 @@
+---
+permalink: events/reference_storage_vm_events.html 
+sidebar: sidebar 
+keywords: storage, vm events, impact area, availability, configuration, performance, security 
+summary: '스토리지 VM 이벤트를 통해 SVM(스토리지 VM) 상태에 대한 정보를 제공하여 잠재적 문제를 모니터링할 수 있습니다. 이벤트는 영향 영역별로 그룹화되며 이벤트 및 트랩 이름, 영향 수준, 소스 유형 및 심각도를 포함합니다.' 
+---
+= 스토리지 VM 이벤트입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 VM(SVM이라고도 함) 이벤트는 스토리지 VM(SVM)의 상태에 대한 정보를 제공하여 잠재적인 문제를 모니터링할 수 있습니다. 이벤트는 영향 영역별로 그룹화되며 이벤트 및 트랩 이름, 영향 수준, 소스 유형 및 심각도를 포함합니다.
+
+별표(*)는 Unified Manager 이벤트로 변환된 EMS 이벤트를 나타냅니다.
+
+
+
+== 영향 영역: 가용성
+
+|===
+| 이벤트 이름(트랩 이름) | 충격 수준 | 소스 유형 | 심각도입니다 
+
+
+ a| 
+SVM CIFS 서비스 중단(문서 VserverCifsServiceStatusDown)
+ a| 
+사고
+ a| 
+SVM
+ a| 
+심각
+
+
+
+ a| 
+SVM CIFS 서비스가 구성되지 않음(해당 없음)
+ a| 
+이벤트
+ a| 
+SVM
+ a| 
+정보
+
+
+
+ a| 
+존재하지 않는 CIFS 공유 * 연결 시도(nbladeCifsNoPrivShare)
+ a| 
+사고
+ a| 
+SVM
+ a| 
+심각
+
+
+
+ a| 
+CIFS NetBIOS 이름 충돌 * (nbladeCifsNbNameConflict)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+오류
+
+
+
+ a| 
+CIFS 섀도우 복제본 작업 실패 * (cifsShadowCopyFailure)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+오류
+
+
+
+ a| 
+많은 CIFS 연결 * (nbladeCifsManyAuhs)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+오류
+
+
+
+ a| 
+최대 CIFS 연결이 초과되었습니다 * (nbladeCifsMaxOpenSameFile)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+오류
+
+
+
+ a| 
+사용자당 최대 CIFS 연결 수 초과 * (nbladeCifsMaxSessPerUsrConn)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+오류
+
+
+
+ a| 
+SVM FC/FCoE 서비스 중단(문서 VserverFcServiceStatusDown)
+ a| 
+사고
+ a| 
+SVM
+ a| 
+심각
+
+
+
+ a| 
+SVM iSCSI 서비스 중단(문서 VserverIscsiServiceStatusDown)
+ a| 
+사고
+ a| 
+SVM
+ a| 
+심각
+
+
+
+ a| 
+SVM NFS 서비스 중지(ocumEvtVserverNfsServiceStatusDown)
+ a| 
+사고
+ a| 
+SVM
+ a| 
+심각
+
+
+
+ a| 
+SVM FC/FCoE 서비스가 구성되지 않음(해당 없음)
+ a| 
+이벤트
+ a| 
+SVM
+ a| 
+정보
+
+
+
+ a| 
+SVM iSCSI 서비스가 구성되지 않음(해당 없음)
+ a| 
+이벤트
+ a| 
+SVM
+ a| 
+정보
+
+
+
+ a| 
+SVM NFS 서비스가 구성되지 않음(해당 없음)
+ a| 
+이벤트
+ a| 
+SVM
+ a| 
+정보
+
+
+
+ a| 
+SVM 중지됨(ocumvserverDown)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+경고
+
+
+
+ a| 
+AV 서버 사용 중(Too Busy to Accept New Scan Request) * (nbladvscanConnBackPressure)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+오류
+
+
+
+ a| 
+바이러스 검사를 위한 AV 서버 연결 없음 * (nbladeVscanNoScannerConn)
+ a| 
+사고
+ a| 
+SVM
+ a| 
+심각
+
+
+
+ a| 
+등록된 AV 서버 없음 * (nbladeVscanNoRegdScanner)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+오류
+
+
+
+ a| 
+무응답 AV 서버 연결 * (nbladeVscanConnInactive)
+ a| 
+이벤트
+ a| 
+SVM
+ a| 
+정보
+
+
+
+ a| 
+AV 서버 무단 사용자 시도 * (nbladvscanBadUserPrivAccess)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+오류
+
+
+
+ a| 
+AV 서버에서 바이러스 발견 * (nbladvscanVirusDetected)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+오류
+
+|===
+
+
+== 충격 영역: 구성
+
+|===
+| 이벤트 이름(트랩 이름) | 충격 수준 | 소스 유형 | 심각도입니다 
+
+
+ a| 
+SVM 발견됨(해당 없음)
+ a| 
+이벤트
+ a| 
+SVM
+ a| 
+정보
+
+
+
+ a| 
+SVM 삭제됨(해당 없음)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+정보
+
+
+
+ a| 
+이름이 바뀐 SVM(해당 없음)
+ a| 
+이벤트
+ a| 
+SVM
+ a| 
+정보
+
+|===
+
+
+== 충격 영역: 성능
+
+|===
+| 이벤트 이름(트랩 이름) | 충격 수준 | 소스 유형 | 심각도입니다 
+
+
+ a| 
+SVM IOPS 중요 임계값 위반(문서 vmIopsIncident)
+ a| 
+사고
+ a| 
+SVM
+ a| 
+심각
+
+
+
+ a| 
+SVM IOPS 경고 임계값 위반(문서 vmIopsWarning)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+경고
+
+
+
+ a| 
+SVM MB/s 심각한 임계값 위반(문서 vmMbpsIncident)
+ a| 
+사고
+ a| 
+SVM
+ a| 
+심각
+
+
+
+ a| 
+SVM MB/s 경고 임계값 위반(문서 vmMbpsWarning)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+경고
+
+
+
+ a| 
+SVM 지연 시간 중요 임계값 위반(문서 vmLatencyIncident)
+ a| 
+사고
+ a| 
+SVM
+ a| 
+심각
+
+
+
+ a| 
+SVM 지연 경고 임계값 위반(문서 SSmLatencyWarning)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+경고
+
+|===
+
+
+== 충격 영역: 보안
+
+|===
+| 이벤트 이름(트랩 이름) | 충격 수준 | 소스 유형 | 심각도입니다 
+
+
+ a| 
+감사 로그 비활성화(ocumVserverAuditLogDisabled)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+경고
+
+
+
+ a| 
+로그인 배너 비활성화됨(ocumVserverLoginBannerDisabled)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+경고
+
+
+
+ a| 
+SSH가 안전하지 않은 암호화(ocumVserverSSHInsecure)를 사용 중
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+경고
+
+
+
+ a| 
+로그인 배너 변경됨(ocumVserverLoginBannerChanged)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+경고
+
+
+
+ a| 
+스토리지 VM의 랜섬웨어 방지 모니터링이 비활성화됨(AntansomwareSvmStateDisabled)
+ a| 
+위험입니다
+ a| 
+SVM
+ a| 
+경고
+
+
+
+ a| 
+스토리지 VM의 랜섬웨어 방지 모니터링이 활성화됨(학습 모드)(antiRansomwareSvmStateDryrun)
+ a| 
+이벤트
+ a| 
+SVM
+ a| 
+정보
+
+
+
+ a| 
+랜섬웨어 방지 모니터링에 적합한 스토리지 VM(학습 모드)(ocumEvtSvmArwCaniddate)
+ a| 
+이벤트
+ a| 
+SVM
+ a| 
+정보
+
+|===

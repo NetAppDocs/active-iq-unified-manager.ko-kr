@@ -1,0 +1,44 @@
+---
+permalink: install-linux/task_manually_configure_mysql_repository.html 
+sidebar: sidebar 
+keywords: data center manager, manually, configure, mysql repository 
+summary: Unified Manager를 설치하는 시스템에 MySQL Community Edition 저장소에 대한 액세스 권한이 없는 경우, 설치를 성공적으로 수행하려면 리포지토리를 수동으로 다운로드하여 구성해야 합니다. 
+---
+= MySQL 리포지토리를 수동으로 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager를 설치하는 시스템에 MySQL Community Edition 저장소에 대한 액세스 권한이 없는 경우, 설치를 성공적으로 수행하려면 리포지토리를 수동으로 다운로드하여 구성해야 합니다.
+
+MySQL 리포지토리는 시스템에 설치해야 하는 필수 MySQL 소프트웨어에 대한 액세스를 제공합니다.
+
+[NOTE]
+====
+시스템에 인터넷이 연결되어 있지 않으면 이 작업이 실패할 수 있습니다. Unified Manager를 설치하는 시스템에 인터넷에 액세스할 수 없는 경우 MySQL 설명서를 참조하십시오.
+
+====
+.단계
+. 설치를 위해 적절한 MySQL 리포지토리를 다운로드합니다. Red Hat Enterprise Linux 7의 경우 다음 위치에서 다운로드하십시오.
++
+"+와우와 http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+`[]
+
++
+버전 8의 경우 다음에서 다운로드하십시오.
+
++
+"+와우와 http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`[]
+
+. MySQL 리포지토리 구성:
++
+'yum install mysql80 -community-release-<version>.nocarch.rpm'
+
+
+
+Red Hat Enterprise Linux 8 시스템의 경우, Java-11-openjdk, p7zip 및 AppStream 리포지토리에서 제공하는 기타 소프트웨어 패키지가 있는 내부 저장소가 있는 경우 AppStream 리포지토리를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령을 실행합니다.
+
+[listing]
+----
+# sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
+----

@@ -1,0 +1,187 @@
+---
+section: config
+title: 구성 및 관리 작업을 수행합니다
+entries:
+- title: Active IQ Unified Manager 구성
+  url: "/config/concept_configure_unified_manager.html"
+  entries:
+  - title: 구성 시퀀스의 개요
+    url: "/config/concept_overview_of_configuration_sequence.html"
+  - title: Unified Manager 웹 UI에 액세스
+    url: "/config/task_access_unified_manager_web_ui.html"
+  - title: Unified Manager 웹 UI의 초기 설정 수행
+    url: "/config/task_perform_initial_setup_of_unified_manager_web_ui.html"
+  - title: 클러스터 추가
+    url: "/config/task_add_clusters.html"
+  - title: 경고 알림을 보내도록 Unified Manager 구성
+    url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
+    entries:
+    - title: 이벤트 알림 설정을 구성하는 중입니다
+      url: "/config/task_configure_event_notification_settings.html"
+    - title: 원격 인증 활성화 중
+      url: "/config/task_enable_remote_authentication.html"
+    - title: 원격 인증에서 중첩 그룹을 해제합니다
+      url: "/config/task_disable_nested_groups_from_remote_authentication.html"
+    - title: 인증 서비스 설정 중
+      url: "/config/task_set_up_authentication_services.html"
+    - title: 인증 서버 추가
+      url: "/config/task_add_authentication_servers.html"
+    - title: 인증 서버의 구성을 테스트하는 중입니다
+      url: "/config/task_test_configuration_of_authentication_servers_um_6_0.html"
+    - title: 알림 추가
+      url: "/config/task_add_alerts.html"
+  - title: 로컬 사용자 암호 변경
+    url: "/config/task_change_local_user_password.html"
+  - title: 세션 비활성 시간 초과 설정
+    url: "/config/task_set_session_inactivity_timeout.html"
+  - title: Unified Manager 호스트 이름을 변경하는 중입니다
+    url: "/config/concept_change_unified_manager_host_name.html"
+    entries:
+    - title: Unified Manager 가상 어플라이언스 호스트 이름을 변경하는 중입니다
+      url: "/config/task_change_unified_manager_host_name_on_vmware.html"
+      entries:
+      - title: HTTPS 보안 인증서를 생성하는 중입니다
+        url: "/config/task_generate_an_https_security_certificate_ocf.html"
+      - title: Unified Manager 가상 머신을 재시작합니다
+        url: "/config/task_restart_unified_manager_virtual_machine.html"
+    - title: Linux 시스템에서 Unified Manager 호스트 이름 변경
+      url: "/config/task_change_um_host_name_on_rhel_or_centos.html"
+  - title: 정책 기반 스토리지 관리 설정 및 해제
+    url: "/config/task_enable_and_disable_policy_based_storage_management.html"
+- title: Unified Manager 백업 구성
+  url: "/config/concept_configure_um_backup.html"
+- title: 기능 설정 관리
+  url: "/config/concept_manage_feature_settings.html"
+  entries:
+  - title: 정책 기반 스토리지 관리 설정
+    url: "/config/concept_policy_based_storage_management.html"
+  - title: API 게이트웨이 활성화 중
+    url: "/config/concept_api_gateway.html"
+  - title: 비활성 시간 초과 지정
+    url: "/config/concept_inactivity_timeout.html"
+  - title: Active IQ 포털 이벤트 활성화
+    url: "/config/concept_active_iq_platform_events.html"
+  - title: 규정 준수를 위한 보안 설정 활성화 및 비활성화
+    url: "/config/concept_security_dashboard.html"
+  - title: 스크립트 업로드 활성화 및 비활성화
+    url: "/config/task_enable_and_disable_ability_to_upload_scripts.html"
+  - title: 로그인 배너 추가 중
+    url: "/config/concept_login_banner.html"
+- title: 유지보수 콘솔 사용
+  url: "/config/task_use_maintenance_console.html"
+  entries:
+  - title: 유지보수 콘솔에서 제공하는 기능은 무엇입니까
+    url: "/config/concept_what_functionality_maintenance_console_provides.html"
+  - title: 유지 관리 사용자가 수행하는 작업
+    url: "/config/concept_what_maintenance_user_does.html"
+  - title: 진단 사용자 기능
+    url: "/config/concept_what_diagnostic_user_does.html"
+  - title: 유지보수 콘솔 액세스
+    url: "/config/task_access_maintenance_console.html"
+  - title: vSphere VM 콘솔을 사용하여 유지 관리 콘솔 액세스
+    url: "/config/task_access_maintenance_console_using_vsphere.html"
+  - title: 유지보수 콘솔 메뉴
+    url: "/config/concept_maintenance_console_menu.html"
+    entries:
+    - title: 네트워크 구성 메뉴
+      url: "/config/reference_network_configuration_menu.html"
+    - title: System Configuration(시스템 구성) 메뉴
+      url: "/config/reference_system_configuration_menu.html"
+    - title: 지원 및 진단 메뉴
+      url: "/config/reference_support_and_diagnostics_menu.html"
+    - title: 추가 메뉴 옵션
+      url: "/config/reference_additional_menu_options.html"
+  - title: Windows에서 유지 관리 사용자 암호 변경
+    url: "/config/task_change_maintenance_user_password_on_windows.html"
+  - title: Linux 시스템에서 umadmin 암호 변경
+    url: "/config/task_change_umadmin_password_on_rhel.html"
+  - title: Unified Manager가 HTTP 및 HTTPS 프로토콜에 사용하는 포트를 변경합니다
+    url: "/config/task_change_ports_um_uses_for_http_and_https_protocols.html"
+  - title: 네트워크 인터페이스를 추가하는 중입니다
+    url: "/config/task_add_additional_network_interfaces.html"
+  - title: Unified Manager 데이터베이스 디렉토리에 디스크 공간 추가
+    url: "/config/concept_add_disk_space_to_um_database_directory.html"
+    entries:
+    - title: Linux 호스트의 데이터 디렉토리에 공간을 추가합니다
+      url: "/config/task_add_space_to_data_directory_of_um_linux_host.html"
+    - title: VMware 가상 머신의 데이터 디스크에 공간 추가
+      url: "/config/task_add_space_to_data_disk_of_vmware_virtual_machine.html"
+    - title: Microsoft Windows 서버의 논리 드라이브에 공간 추가
+      url: "/config/task_add_space_to_data_disk_of_windows_server.html"
+- title: 사용자 액세스 관리
+  url: "/config/concept_manage_user_access.html"
+  entries:
+  - title: 사용자 추가
+    url: "/config/task_add_users.html"
+    entries:
+    - title: 데이터베이스 사용자 생성
+      url: "/config/task_create_database_user.html"
+  - title: 사용자 설정 편집
+    url: "/config/task_edit_user_setts.html"
+  - title: 사용자 보기
+    url: "/config/task_view_users.html"
+  - title: 사용자 또는 그룹을 삭제하는 중입니다
+    url: "/config/task_delete_users_or_groups.html"
+  - title: RBAC란 무엇입니까
+    url: "/config/concept_what_rbac_is.html"
+  - title: 역할 기반 액세스 제어의 역할
+    url: "/config/concept_what_role_based_access_control_does.html"
+  - title: 사용자 유형 정의
+    url: "/config/reference_definitions_of_user_types.html"
+  - title: 사용자 역할의 정의
+    url: "/config/reference_definitions_of_user_roles.html"
+  - title: Unified Manager 사용자 역할 및 기능
+    url: "/config/reference_unified_manager_roles_and_capabilities.html"
+- title: SAML 인증 설정 관리
+  url: "/config/concept_manage_saml_authentication_settings_um.html"
+  entries:
+  - title: ID 공급자 요구 사항
+    url: "/config/reference_identity_provider_requirements_um.html"
+  - title: SAML 인증을 사용하도록 설정합니다
+    url: "/config/task_enable_saml_authentication_um.html"
+  - title: SAML 인증에 사용되는 ID 공급자를 변경합니다
+    url: "/config/task_change_identity_provider_idp_used_for_saml_authentication.html"
+  - title: Unified Manager 보안 인증서 변경 후 SAML 인증 설정을 업데이트하는 중입니다
+    url: "/config/task_update_saml_authentication_after_um_certificate_change.html"
+  - title: SAML 인증을 사용하지 않도록 설정합니다
+    url: "/config/task_disable_saml_authentication_um.html"
+  - title: 유지 관리 콘솔에서 SAML 인증을 사용하지 않도록 설정합니다
+    url: "/config/task_disable_saml_authentication_from_maintenance_console_um.html"
+  - title: SAML 인증 페이지
+    url: "/config/reference_saml_authentication_page_um.html"
+- title: 인증 관리
+  url: "/config/concept_manage_authentication.html"
+  entries:
+  - title: 인증 서버 편집
+    url: "/config/task_edit_authentication_servers.html"
+  - title: 인증 서버를 삭제하는 중입니다
+    url: "/config/task_delete_authentication_servers.html"
+  - title: Active Directory 또는 OpenLDAP를 사용한 인증
+    url: "/config/concept_authentication_with_active_directory_or_openldap.html"
+  - title: 로깅 감사
+    url: "/config/concept_audit_logging.html"
+    entries:
+    - title: 감사 로그 구성
+      url: "/config/task_configure_audit_logs.html"
+    - title: 감사 로그의 원격 로깅을 사용하도록 설정합니다
+      url: "/config/task_enable_remote_logging_of_audit_logs.html"
+  - title: 원격 인증 페이지
+    url: "/config/reference_remote_authentication_page.html"
+- title: 보안 인증서 관리
+  url: "/config/concept_manage_security_certificates_ocf.html"
+  entries:
+  - title: HTTPS 보안 인증서 보기
+    url: "/config/task_view_https_security_certificate_ocf.html"
+  - title: HTTPS 인증서 서명 요청을 다운로드하는 중입니다
+    url: "/config/task_download_an_https_certificate_sign_request_ocf.html"
+  - title: 서명되고 반환된 HTTPS 인증서를 설치하는 중입니다
+    url: "/config/task_install_ca_signed_and_returned_https_certificate.html"
+  - title: 외부 도구를 사용하여 생성된 HTTPS 인증서 설치
+    url: "/config/concept_install_https_certificate_generated_using_external_tools.html"
+  - title: 인증서 관리에 대한 페이지 설명입니다
+    url: "/config/concept_page_descriptions_for_certificate_management.html"
+    entries:
+    - title: HTTPS 인증서 페이지
+      url: "/config/reference_https_dialog_box_ocf.html"
+    - title: HTTPS 인증서 재생성 대화 상자
+      url: "/config/reference_regenerate_https_certificate_dialog_box.html"

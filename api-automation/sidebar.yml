@@ -1,0 +1,87 @@
+---
+section: api-automation
+title: REST API를 사용하여 스토리지 관리
+entries:
+- title: Active IQ Unified Manager 시작하기
+  url: "/api-automation/concept_get_started_with_um_apis.html"
+  entries:
+  - title: 이 가이드의 대상
+    url: "/api-automation/reference_intended_audience_for_this_guide.html"
+  - title: Active IQ Unified Manager API 액세스 및 범주
+    url: "/api-automation/concept_api_url_and_categories.html"
+  - title: Active IQ Unified Manager에서 제공되는 REST 서비스
+    url: "/api-automation/concept_rest_services_offered_in_unified_manager_apis.html"
+  - title: Active IQ Unified Manager의 API 버전입니다
+    url: "/api-automation/concept_rest_api_versioning_in_unified_manager_apis.html"
+  - title: ONTAP의 스토리지 리소스
+    url: "/api-automation/concept_storage_resource_model.html"
+- title: Active IQ Unified Manager에서 REST API 액세스 및 인증
+  url: "/api-automation/concept_rest_api_access_and_authentication_in_um_apis.html"
+  entries:
+  - title: Active IQ Unified Manager에서 사용되는 HTTP 상태 코드입니다
+    url: "/api-automation/reference_authentication_errors.html"
+  - title: Active IQ Unified Manager용 API 사용을 위한 권장 사항
+    url: "/api-automation/reference_recommendations_to_use_um_apis.html"
+  - title: 문제 해결을 위한 로그
+    url: "/api-automation/concept_api_logs.html"
+  - title: 작업 객체 비동기 프로세스
+    url: "/api-automation/concept_async_run.html"
+  - title: Hello API 서버
+    url: "/api-automation/concept_hello_api_server.html"
+- title: Unified Manager REST API
+  url: "/api-automation/concept_um_apis_list_intro.html"
+  entries:
+  - title: 데이터 센터의 스토리지 오브젝트 관리
+    url: "/api-automation/concept_data_center_apis.html"
+  - title: 프록시 액세스를 통해 ONTAP API 액세스
+    url: "/api-automation/concept_gateway_apis.html"
+  - title: 관리 작업을 수행합니다
+    url: "/api-automation/concept_administration_apis.html"
+  - title: 사용자 관리
+    url: "/api-automation/concept_security_apis.html"
+  - title: 성능 메트릭 보기
+    url: "/api-automation/concept_metrics_apis.html"
+  - title: 작업 및 시스템 세부 정보 보기
+    url: "/api-automation/concept_job_api.html"
+  - title: 이벤트 및 경고 관리
+    url: "/api-automation/concept_events_api.html"
+  - title: 워크로드 관리
+    url: "/api-automation/concept_manage_storage_workloads.html"
+    entries:
+    - title: 스토리지 워크로드 보기
+      url: "/api-automation/concept_view_workloads.html"
+    - title: 액세스 엔드포인트 관리
+      url: "/api-automation/concept_manage_access_endpoint.html"
+    - title: Active Directory 매핑 관리
+      url: "/api-automation/concept_manage_active_directory.html"
+    - title: 파일 공유 관리
+      url: "/api-automation/concept_manage_fileshares_api.html"
+    - title: LUN 관리
+      url: "/api-automation/concept_manage_lun.html"
+    - title: 성능 서비스 수준 관리
+      url: "/api-automation/concept_manage_psl.html"
+    - title: 스토리지 효율성 정책 관리
+      url: "/api-automation/concept_manage_sep.html"
+- title: 스토리지 관리를 위한 공통 워크플로우
+  url: "/api-automation/concept_workflow_intro.html"
+  entries:
+  - title: 애그리게이트에서 공간 문제를 확인하는 중입니다
+    url: "/api-automation/concept_workflow_space_issue.html"
+  - title: 이벤트를 사용하여 스토리지 개체의 문제 확인
+    url: "/api-automation/concept_events_workflows.html"
+  - title: 게이트웨이 API를 사용하여 ONTAP 볼륨 문제 해결
+    url: "/api-automation/concept_ontap_troubleshooting_workflow.html"
+  - title: 워크로드 관리를 위한 워크플로우
+    url: "/api-automation/concept_provision_workflow.html"
+    entries:
+    - title: 클러스터에서 SVM 확인
+      url: "/api-automation/concept_verify_svm_workflow.html"
+    - title: CIFS 및 NFS 파일 공유를 프로비저닝합니다
+      url: "/api-automation/concept_provision_file_share.html"
+    - title: LUN 프로비저닝
+      url: "/api-automation/concept_provision_luns.html"
+    - title: 스토리지 워크로드 수정
+      url: "/api-automation/concept_modify_workloads_workflow.html"
+      entries:
+      - title: CIFS를 지원하도록 NFS 파일 공유를 수정합니다
+        url: "/api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html"

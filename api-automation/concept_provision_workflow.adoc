@@ -1,0 +1,36 @@
+---
+permalink: api-automation/concept_provision_workflow.html 
+sidebar: sidebar 
+keywords: workflow, workload, management 
+summary: 'Active IQ Unified Manager를 사용하면 스토리지 워크로드(LUN, NFS 파일 공유, CIFS 공유)를 프로비저닝하고 수정할 수 있습니다. 프로비저닝은 SVM(Storage Virtual Machine) 생성부터 스토리지 워크로드에 성능 서비스 수준 및 스토리지 효율성 정책을 적용하는 단계에 이르기까지 여러 단계로 구성됩니다. 워크로드 수정은 특정 매개 변수를 수정하고 추가 기능을 사용하기 위한 단계로 구성됩니다.' 
+---
+= 워크로드 관리를 위한 워크플로우
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager를 사용하면 스토리지 워크로드(LUN, NFS 파일 공유, CIFS 공유)를 프로비저닝하고 수정할 수 있습니다. 프로비저닝은 SVM(Storage Virtual Machine) 생성부터 스토리지 워크로드에 성능 서비스 수준 및 스토리지 효율성 정책을 적용하는 단계에 이르기까지 여러 단계로 구성됩니다. 워크로드 수정은 특정 매개 변수를 수정하고 추가 기능을 사용하기 위한 단계로 구성됩니다.
+
+다음 워크플로에 대해 설명합니다.
+
+* Unified Manager에서 SVM(Storage Virtual Machine)을 프로비저닝할 수 있는 워크플로우
++
+[NOTE]
+====
+Unified Manager에서 LUN 또는 파일 공유를 프로비저닝하기 전에 이 워크플로우를 수행해야 합니다.
+
+====
+* 파일 공유를 프로비저닝 중입니다.
+* LUN 프로비저닝
+* LUN 및 파일 공유 수정(예: 스토리지 워크로드에 대한 성능 서비스 레벨 매개 변수 업데이트)
+* CIFS 프로토콜을 지원하도록 NFS 파일 공유를 수정합니다
+* QoS를 AQoS로 업그레이드하기 위해 워크로드 수정
+
+
+[NOTE]
+====
+각 프로비저닝 워크플로우(LUN 및 파일 공유)에 대해 클러스터에서 SVM을 확인하기 위한 워크플로우를 완료해야 합니다.
+
+====
+또한 워크플로우에서 각 API를 사용하기 전에 권장 사항 및 제한 사항을 읽어야 합니다. API의 관련 세부 정보는 관련 개념 및 참조에 나열된 각 섹션에서 확인할 수 있습니다.

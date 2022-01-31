@@ -1,0 +1,21 @@
+---
+permalink: config/concept_inactivity_timeout.html 
+sidebar: sidebar 
+keywords: inactivity timeout, feature settings 
+summary: Active IQ Unified Manager에 대한 비활성 시간 초과 값을 지정할 수 있습니다. 지정된 시간 동안 사용하지 않으면 응용 프로그램이 자동으로 로그아웃됩니다. 이 옵션은 기본적으로 활성화되어 있습니다. 
+---
+= 비활성 시간 초과 지정
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager에 대한 비활성 시간 초과 값을 지정할 수 있습니다. 지정된 시간 동안 사용하지 않으면 응용 프로그램이 자동으로 로그아웃됩니다. 이 옵션은 기본적으로 활성화되어 있습니다.
+
+이 기능을 비활성화하거나 * 일반 * > * 기능 설정 * > * 비활성 시간 제한 * 에서 시간을 수정할 수 있습니다. 이 기능을 활성화하면 * 로그아웃 후 * 필드에 비활성 시간 제한(분 단위)을 지정해야 합니다. 이 시간 이후에는 시스템이 자동으로 로그아웃됩니다. 기본값은 4320분(72시간)입니다.
+
+[NOTE]
+====
+SAML(Security Assertion Markup Language) 인증을 활성화한 경우에는 이 옵션을 사용할 수 없습니다.
+
+====

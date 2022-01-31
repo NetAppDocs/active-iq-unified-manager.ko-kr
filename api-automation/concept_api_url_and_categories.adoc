@@ -1,0 +1,71 @@
+---
+permalink: api-automation/concept_api_url_and_categories.html 
+sidebar: sidebar 
+keywords: active iq, unified manager, api, access, categories 
+summary: Active IQ Unified Manager API를 사용하면 사용자 환경에서 스토리지 객체를 관리 및 프로비저닝할 수 있습니다. 또한 Unified Manager 웹 UI에 액세스하여 이러한 기능 중 일부를 수행할 수도 있습니다. 
+---
+= Active IQ Unified Manager API 액세스 및 범주
+:icons: font
+:imagesdir: ../media/
+:pp: &#43;&#43;
+
+
+[role="lead"]
+Active IQ Unified Manager API를 사용하면 사용자 환경에서 스토리지 객체를 관리 및 프로비저닝할 수 있습니다. 또한 Unified Manager 웹 UI에 액세스하여 이러한 기능 중 일부를 수행할 수도 있습니다.
+
+
+
+== REST API에 직접 액세스하기 위한 URL을 생성하는 중입니다
+
+Python, C#, C{pp}, JavaScript 등 프로그래밍 언어를 통해 REST API에 직접 액세스할 수 있습니다. 기타 REST API에 액세스할 호스트 이름 또는 IP 주소와 URL을 형식으로 입력합니다
+
+https://<hostname>/api+ 를 참조하십시오
+
+[NOTE]
+====
+기본 포트는 443입니다. 사용자 환경에서 필요에 따라 포트를 구성할 수 있습니다.
+
+====
+
+
+== 온라인 API 설명서 페이지 액세스
+
+제품과 함께 제공되는 _API Documentation_reference 콘텐츠 페이지에 액세스하여 API 설명서를 표시하고 인터페이스(예: Swagger)에서 API 호출을 수동으로 실행할 수 있습니다. 이 설명서는 * 메뉴 모음 * > * 도움말 버튼 * > * API 문서 * 를 클릭하여 액세스할 수 있습니다
+
+또는 호스트 이름 또는 IP 주소와 URL을 입력하여 REST API 페이지에 액세스합니다
+
+https://<hostname>/docs/api/+ 를 참조하십시오
+
+
+
+== 범주
+
+API 호출은 영역 또는 범주를 기반으로 기능적으로 구성됩니다. 특정 API를 찾으려면 해당 API 범주를 클릭합니다.
+
+Unified Manager와 함께 제공되는 REST API를 사용하여 관리, 모니터링 및 프로비저닝 기능을 수행할 수 있습니다. API는 다음 범주로 그룹화됩니다.
+
+* * 데이터 센터 *
++
+이 범주에는 Work Flow Automation 및 Ansible과 같은 툴을 사용하여 데이터 센터 스토리지 관리 및 분석에 도움이 되는 API가 포함됩니다. 이 범주의 REST API는 클러스터, 노드, 애그리게이트, 볼륨, LUN, 데이터 센터의 파일 공유, 네임스페이스 및 기타 요소
+
+* * 관리 - 서버 *
++
+관리-서버* 범주의 API에는 작업, 시스템, 이벤트 API가 포함됩니다. 작업은 Unified Manager에서 스토리지 오브젝트 또는 워크로드를 관리하는 것과 관련하여 비동기식 실행을 위해 예약된 작업입니다. 'events' API는 데이터 센터의 이벤트를 반환하고, 'system' API는 Unified Manager 인스턴스 세부 정보를 반환합니다.
+
+* 스토리지 공급자 *
++
+이 범주에는 파일 공유, LUN, 성능 서비스 레벨 및 스토리지 효율성 정책을 관리 및 프로비저닝하는 데 필요한 모든 프로비저닝 API가 포함됩니다. 또한 API를 사용하면 액세스 엔드포인트, Active Directory를 구성할 수 있을 뿐 아니라 스토리지 워크로드에 성능 서비스 수준 및 스토리지 효율성 정책을 할당할 수 있습니다.
+
+* * 관리 *
++
+이 범주에는 백업 설정 유지 관리, Unified Manager 데이터 소스의 신뢰 저장소 인증서 보기, ONTAP 클러스터를 Unified Manager의 데이터 소스로 관리하는 등 관리 작업을 실행하는 데 사용되는 API가 포함됩니다.
+
+* * 게이트웨이 *
++
+Unified Manager를 사용하면 게이트웨이 범주의 API를 통해 ONTAP REST API를 호출하고 데이터 센터의 스토리지 객체를 관리할 수 있습니다.
+
+* 보안 *
++
+이 범주에는 Unified Manager 사용자 관리를 위한 API가 포함됩니다.
+
+

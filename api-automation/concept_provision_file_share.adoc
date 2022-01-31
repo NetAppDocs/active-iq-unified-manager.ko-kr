@@ -1,0 +1,450 @@
+---
+permalink: api-automation/concept_provision_file_share.html 
+sidebar: sidebar 
+keywords: provision, cifs, nfs, file, shares 
+summary: 'Active IQ Unified Manager의 일부로 제공되는 프로비저닝 API를 사용하여 SVM(스토리지 가상 머신)에서 CIFS 공유 및 NFS 파일 공유를 프로비저닝할 수 있습니다. 이 프로비저닝 워크플로에서는 파일 공유를 생성하기 전에 SVM의 키, 성능 서비스 수준 및 스토리지 효율성 정책을 검색하는 단계에 대해 자세히 설명합니다.' 
+---
+= CIFS 및 NFS 파일 공유를 프로비저닝합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager의 일부로 제공되는 프로비저닝 API를 사용하여 SVM(스토리지 가상 머신)에서 CIFS 공유 및 NFS 파일 공유를 프로비저닝할 수 있습니다. 이 프로비저닝 워크플로에서는 파일 공유를 생성하기 전에 SVM의 키, 성능 서비스 수준 및 스토리지 효율성 정책을 검색하는 단계에 대해 자세히 설명합니다.
+
+다음 다이어그램은 파일 공유 프로비저닝 워크플로우의 각 단계를 보여 줍니다. CIFS 공유와 NFS 파일 공유를 모두 프로비저닝합니다.
+
+image::../media/create_fileshares.gif[파일 표시 작성]
+
+[NOTE]
+====
+다음을 확인합니다.
+
+* ONTAP 클러스터가 Unified Manager에 추가되고 클러스터 키가 확보되었습니다.
+* SVM이 클러스터에 생성되었습니다.
+* SVM은 CIFS 및 NFS 서비스를 지원합니다. SVM이 필요한 서비스를 지원하지 않으면 파일 공유 프로비저닝이 실패할 수 있습니다.
+* 포트 프로비저닝을 위해 FCP 포트가 온라인 상태입니다.
+
+
+====
+. CIFS 공유를 생성하려는 SVM에서 Data LIF 또는 액세스 엔드포인트를 사용할 수 있는지 확인합니다. SVM에서 사용 가능한 액세스 엔드포인트 목록을 확인하십시오.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/storage-provider/access-endpoints'/ 스토리지-provider/access-endpoints/\{key}'
+
+|===
++
+* 샘플 컬 *
+
++
+[listing]
+----
+curl -X GET "https://<hostname>/api/storage-provider/access-endpoints?resource.key=7d5a59b3-953a-11e8-8857-00a098dcc959" -H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+. 액세스 끝점을 목록에서 사용할 수 있는 경우 액세스 끝점 키를 가져옵니다. 그렇지 않으면 액세스 끝점을 만듭니다.
++
+[NOTE]
+====
+CIFS 프로토콜이 설정된 액세스 엔드포인트를 생성해야 합니다. CIFS 프로토콜이 설정된 액세스 엔드포인트를 생성하지 않으면 CIFS 공유 프로비저닝이 실패합니다.
+
+====
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+게시
+ a| 
+'/storage-provider/access-endpoints'
+
+|===
++
+* 샘플 컬 *
+
++
+생성하려는 액세스 끝점의 세부 정보를 입력 매개 변수로 입력해야 합니다.
+
++
+[listing]
+----
+curl -X POST "https://<hostname>/api/storage-provider/access-endpoints" -H "accept: application/json" -H "Content-Type: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+{ \"data_protocols\": \"nfs\",
+\"fileshare\": { \"key\": \"cbd1757b-0580-11e8-bd9d-00a098d39e12:type=volume,uuid=f3063d27-2c71-44e5-9a69-a3927c19c8fc\" },
+\"gateway\": \"10.132.72.12\",
+\"ip\": { \"address\": \"10.162.83.26\",
+\"ha_address\": \"10.142.83.26\",
+\"netmask\": \"255.255.0.0\" },
+\"lun\": { \"key\": \"cbd1757b-0580-11e8-bd9d-00a098d39e12:type=lun,uuid=d208cc7d-80a3-4755-93d4-5db2c38f55a6\" },
+\"mtu\": 15000, \"name\": \"aep1\",
+\"svm\": { \"key\": \"cbd1757b-0580-11e8-bd9d-00a178d39e12:type=vserver,uuid=1d1c3198-fc57-11e8-99ca-00a098d38e12\" },
+\"vlan\": 10}"
+----
++
+JSON 출력에는 사용자가 생성한 액세스 엔드포인트를 확인하는 데 사용할 수 있는 작업 객체 키가 표시됩니다.
+
+. 액세스 엔드포인트 확인:
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+관리 - 서버
+ a| 
+가져오기
+ a| 
+'/management-server/jobs/\{key}'
+
+|===
+. CIFS 공유를 생성해야 하는지 또는 NFS 파일 공유를 생성해야 하는지 확인합니다. CIFS 공유를 생성하려면 다음 하위 단계를 수행하십시오.
++
+.. SVM에 CIFS 서버가 구성되어 있는지 확인합니다. 그런 다음 Active Directory 매핑이 SVM에 생성되는지 여부를 확인합니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/storage-provider/active-directories-mappings'
+
+|===
+.. Active Directory 매핑이 생성된 경우 키를 사용하고, 그렇지 않으면 SVM에서 Active Directory 매핑을 생성합니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+게시
+ a| 
+'/storage-provider/active-directories-mappings'
+
+|===
++
+* 샘플 컬 *
+
++
+입력 매개 변수로 Active Directory 매핑을 만들기 위한 세부 정보를 입력해야 합니다.
+
++
+[listing]
+----
+curl -X POST "https://<hostname>/api/storage-provider/active-directories-mappings" -H "accept: application/json" -H "Content-Type: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+{ \"_links\": {},
+\"dns\": \"10.000.000.000\",
+\"domain\": \"example.com\",
+\"password\": \"string\",
+\"svm\": { \"key\": \"9f4ddea-e395-11e9-b660-005056a71be9:type=vserver,uuid=191a554a-f0ce-11e9-b660-005056a71be9\" },
+\"username\": \"string\"}"
+----
++
+이 호출은 동기 호출이며 출력에서 Active Directory 매핑이 생성되었는지 확인할 수 있습니다. 오류가 발생하면 문제를 해결하고 요청을 다시 실행할 수 있는 오류 메시지가 표시됩니다.
+
+
+
+. cifs 공유 또는 NFS 파일 공유를 생성하려는 SVM을 위한 SVM 키를 얻습니다. 자세한 내용은 _Verifying SVM on clusters_workflow 항목을 참조하십시오.
+. 다음 API를 실행하고 응답에서 키를 검색하여 성능 서비스 수준의 키를 얻습니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/스토리지 공급자/성능 서비스 수준'
+
+|===
++
+[NOTE]
+====
+System_Defined 입력 파라미터를 true로 설정하여 시스템 정의 Performance Service 레벨의 세부 정보를 조회할 수 있다. 출력에서 파일 공유에 적용할 성능 서비스 수준의 키를 가져옵니다.
+
+====
+. 필요한 경우 다음 API를 실행하고 응답에서 키를 검색하여 파일 공유에 적용할 스토리지 효율성 정책에 대한 스토리지 효율성 정책 키를 가져옵니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/스토리지 공급자/스토리지 효율성 - 정책'
+
+|===
+. 파일 공유를 생성합니다. 액세스 제어 목록 및 엑스포트 정책을 지정하여 CIFS와 NFS를 모두 지원하는 파일 공유를 생성할 수 있습니다. 다음 하위 단계는 볼륨에서 프로토콜 중 하나만 지원하기 위해 파일 공유를 생성하려는 경우에 정보를 제공합니다. NFS 공유를 생성한 후 액세스 제어 목록을 포함하도록 NFS 파일 공유를 업데이트할 수도 있습니다. 자세한 내용은 _스토리지 워크로드 수정_항목을 참조하십시오.
++
+.. CIFS 공유만 생성하려면 ACL(액세스 제어 목록)에 대한 정보를 수집합니다. CIFS 공유를 생성하려면 다음 입력 매개 변수에 유효한 값을 제공하십시오. 할당한 각 사용자 그룹에 대해 CIFS/SMB 공유가 프로비저닝될 때 ACL이 생성됩니다. ACL 및 Active Directory 매핑에 대해 입력한 값에 따라 CIFS 공유가 생성될 때 액세스 제어 및 매핑이 결정됩니다.
++
+* 예제 값이 있는 curl 명령 *
+
++
+[listing]
+----
+{
+  "access_control": {
+    "acl": [
+      {
+        "permission": "read",
+        "user_or_group": "everyone"
+      }
+    ],
+    "active_directory_mapping": {
+      "key": "3b648c1b-d965-03b7-20da-61b791a6263c"
+    },
+----
+.. NFS 파일 공유만 생성하려면 엑스포트 정책에 대한 정보를 수집합니다. NFS 파일 공유를 생성하려면 다음 입력 매개 변수에 유효한 값을 제공하십시오. 값에 따라 내보내기 정책은 생성될 때 NFS 파일 공유에 첨부됩니다.
++
+[NOTE]
+====
+NFS 공유를 프로비저닝하는 동안 필요한 모든 값을 제공하여 엑스포트 정책을 생성하거나 엑스포트 정책 키를 제공하고 기존 엑스포트 정책을 재사용할 수 있습니다. 스토리지 VM에 대한 엑스포트 정책을 재사용하려면 엑스포트 정책 키를 추가해야 합니다. 키를 모르는 경우 '/datacenter/protocols/nfs/export-policies' API를 사용하여 내보내기 정책 키를 검색할 수 있습니다. 새 정책을 만들려면 다음 샘플에 표시된 대로 규칙을 입력해야 합니다. 입력한 규칙의 경우 API는 호스트, 스토리지 VM 및 규칙을 일치시켜 기존 엑스포트 정책을 검색합니다. 기존 엑스포트 정책이 있는 경우 사용 그렇지 않으면 새 엑스포트 정책이 생성됩니다.
+
+====
++
+* 예제 값이 있는 curl 명령 *
+
++
+[listing]
+----
+"export_policy": {
+      "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641",
+      "name_tag": "ExportPolicyNameTag",
+      "rules": [
+        {
+          "clients": [
+            {
+              "match": "0.0.0.0/0"
+            }
+----
+
+
++
+액세스 제어 목록 및 엑스포트 정책을 구성한 후 CIFS 및 NFS 파일 공유에 대한 필수 입력 매개 변수의 유효한 값을 제공합니다.
+
+
+
+[NOTE]
+====
+스토리지 효율성 정책은 파일 공유를 생성하는 선택적 매개 변수입니다.
+
+====
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+게시
+ a| 
+'/storage-provider/file-공유'
+
+|===
+JSON 출력에는 사용자가 생성한 파일 공유를 확인하는 데 사용할 수 있는 작업 객체 키가 표시됩니다. . 작업 쿼리에 반환된 작업 객체 키를 사용하여 파일 공유 생성을 확인합니다.
+
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+관리 - 서버
+ a| 
+가져오기
+ a| 
+'/management-server/jobs/\{key}'
+
+|===
+응답이 끝나면 생성된 파일 공유의 키가 표시됩니다.
+
+[listing]
+----
+
+    ],
+    "job_results": [
+        {
+            "name": "fileshareKey",
+            "value": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=volume,uuid=e581c23a-1037-11ea-ac5a-00a098dcc6b6"
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "/api/management-server/jobs/06a6148bf9e862df:-2611856e:16e8d47e722:-7f87"
+        }
+    }
+}
+----
+. 반환된 키를 사용하여 다음 API를 실행하여 파일 공유가 생성되었는지 확인합니다.
++
+[cols="3*"]
+|===
+| 범주 | HTTP 동사 | 경로 
+
+
+ a| 
+제공합니다
+ a| 
+가져오기
+ a| 
+'/storage-provider/file-공유/\{key}'
+
+|===
++
+* JSON 출력 샘플 *
+
++
+'/storage-provider/file-공유'의 POST 메서드가 내부적으로 각 함수에 필요한 모든 API를 호출하고 객체를 생성하는 것을 알 수 있습니다. 예를 들어 파일 공유에 성능 서비스 수준을 할당하기 위해 '/storage-provider/performance-service-level/' API를 호출합니다.
+
++
+[listing]
+----
+{
+    "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=volume,uuid=e581c23a-1037-11ea-ac5a-00a098dcc6b6",
+    "name": "FileShare_377",
+    "cluster": {
+        "uuid": "7d5a59b3-953a-11e8-8857-00a098dcc959",
+        "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=cluster,uuid=7d5a59b3-953a-11e8-8857-00a098dcc959",
+        "name": "AFFA300-206-68-70-72-74",
+        "_links": {
+            "self": {
+                "href": "/api/datacenter/cluster/clusters/7d5a59b3-953a-11e8-8857-00a098dcc959:type=cluster,uuid=7d5a59b3-953a-11e8-8857-00a098dcc959"
+            }
+        }
+    },
+    "svm": {
+        "uuid": "b106d7b1-51e9-11e9-8857-00a098dcc959",
+        "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=vserver,uuid=b106d7b1-51e9-11e9-8857-00a098dcc959",
+        "name": "RRT_ritu_vs1",
+        "_links": {
+            "self": {
+                "href": "/api/datacenter/svm/svms/7d5a59b3-953a-11e8-8857-00a098dcc959:type=vserver,uuid=b106d7b1-51e9-11e9-8857-00a098dcc959"
+            }
+        }
+    },
+    "assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+        }
+    },
+    "recommended_performance_service_level": {
+        "key": null,
+        "name": "Idle",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+    },
+    "space": {
+        "size": 104857600
+    },
+    "assigned_storage_efficiency_policy": {
+        "key": null,
+        "name": "Unassigned",
+        "_links": {}
+    },
+    "access_control": {
+        "acl": [
+            {
+                "user_or_group": "everyone",
+                "permission": "read"
+            }
+        ],
+        "export_policy": {
+            "id": 1460288880641,
+            "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641",
+            "name": "default",
+            "rules": [
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 1,
+                    "protocols": [
+                        "nfs3",
+                        "nfs4"
+                    ],
+                    "ro_rule": [
+                        "sys"
+                    ],
+                    "rw_rule": [
+                        "sys"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                },
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 2,
+                    "protocols": [
+                        "cifs"
+                    ],
+                    "ro_rule": [
+                        "ntlm"
+                    ],
+                    "rw_rule": [
+                        "ntlm"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "/api/datacenter/protocols/nfs/export-policies/7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641"
+                }
+            }
+        }
+    },
+    "_links": {
+        "self": {
+            "href": "/api/storage-provider/file-shares/7d5a59b3-953a-11e8-8857-00a098dcc959:type=volume,uuid=e581c23a-1037-11ea-ac5a-00a098dcc6b6"
+        }
+    }
+}
+----
+

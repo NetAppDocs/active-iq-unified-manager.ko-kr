@@ -1,0 +1,64 @@
+---
+permalink: health-checker/concept_manage_backup_and_restore_operations.html 
+sidebar: sidebar 
+keywords: backup, types, manage, restore, operations 
+summary: 'Active IQ Unified Manager의 백업을 생성하고 복원 기능을 사용하여 시스템 장애 또는 데이터 손실 발생 시 동일한(로컬) 시스템이나 새(원격) 시스템에 백업을 복원할 수 있습니다.' 
+---
+= 백업 및 복원 작업 관리
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager의 백업을 생성하고 복원 기능을 사용하여 시스템 장애 또는 데이터 손실 발생 시 동일한(로컬) 시스템이나 새(원격) 시스템에 백업을 복원할 수 있습니다.
+
+Unified Manager를 설치한 운영 체제와 관리되는 클러스터 및 노드 수에 따라 세 가지 백업 및 복원 방법이 있습니다.
+
+[cols="3*"]
+|===
+| 운영 체제 | 배포 규모 | 권장 백업 방법 
+
+
+ a| 
+VMware vSphere를 참조하십시오
+ a| 
+모두
+ a| 
+Unified Manager 가상 어플라이언스의 VMware 스냅샷
+
+
+
+ a| 
+Red Hat Enterprise Linux 또는 CentOS Linux
+ a| 
+작은 크기
+ a| 
+Unified Manager MySQL 데이터베이스 덤프
+
+
+
+ a| 
+ a| 
+대형
+ a| 
+Unified Manager 데이터베이스의 NetApp Snapshot
+
+
+
+ a| 
+Microsoft Windows
+ a| 
+작은 크기
+ a| 
+Unified Manager MySQL 데이터베이스 덤프
+
+
+
+ a| 
+ a| 
+대형
+ a| 
+iSCSI 프로토콜을 사용하는 Unified Manager 데이터베이스의 NetApp Snapshot
+
+|===
+이러한 여러 가지 방법은 다음 섹션에서 설명합니다.

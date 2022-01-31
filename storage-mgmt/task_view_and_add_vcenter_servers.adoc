@@ -1,0 +1,83 @@
+---
+permalink: storage-mgmt/task_view_and_add_vcenter_servers.html 
+sidebar: sidebar 
+keywords: view, add, vcenter, server 
+summary: 'VM(가상 머신)의 성능을 확인하고 문제를 해결하려면 관련 vCenter Server를 Active IQ Unified Manager 인스턴스에 추가해야 합니다.' 
+---
+= vCenter Server 보기 및 추가
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+VM(가상 머신)의 성능을 확인하고 문제를 해결하려면 관련 vCenter Server를 Active IQ Unified Manager 인스턴스에 추가해야 합니다.
+
+* 필요한 것 *
+
+vCenter Server를 추가하거나 보기 전에 다음을 확인하십시오.
+
+* vCenter Server 이름을 알고 있습니다.
+* vCenter Server의 IP 주소를 알고 있고 필요한 자격 증명을 가지고 있습니다. 자격 증명은 vCenter Server 관리자 또는 vCenter Server에 대한 읽기 전용 액세스 권한이 있는 루트 사용자여야 합니다.
+* 추가하려는 vCenter Server는 vSphere 6.5 이상을 실행합니다.
+* vCenter Server의 데이터 수집 설정은 모니터링되는 모든 객체에 대해 필요한 메트릭 수집 수준을 보장하기 위해 통계 수준 '_Level 3_'로 설정됩니다. 간격은 '_5분 _'이어야 하며 저장 기간은 '_1일 _'이어야 합니다.
++
+자세한 내용은 VMware 설명서의 _ vSphere 모니터링 및 성능 가이드 _ 의 "데이터 수집 수준" 섹션을 참조하십시오.
+
+* 지연 시간 값을 성공적으로 계산할 수 있도록 vCenter Server의 지연 시간 값은 마이크로초 단위가 아니라 밀리초 단위로 구성됩니다.
+* vCenter Server에 데이터 저장소를 추가하는 동안 호스트의 IP 주소 또는 FQDN(정규화된 도메인 이름)을 모두 사용할 수 있습니다. FQDN을 추가하는 경우 Unified Manager 서버에서 도메인 이름을 확인할 수 있는지 확인합니다. 예를 들어, Linux 설치의 경우 도메인 이름이 ''/etc/resolv.conf' 파일에 추가되었는지 확인합니다.
+* vCenter Server의 현재 시간이 vCenter Server 시간대와 동기화되어 있습니다.
+* 성공적인 검색을 위해 vCenter Server에 연결할 수 있습니다.
+* vCenter Server를 Unified Manager에 추가할 때 VMware SDK에 대한 읽기 액세스 권한이 있습니다. 이는 구성 폴링에 필요합니다.
+
+
+추가 및 검색된 모든 vCenter Server에 대해 Unified Manager는 vCenter Server 및 ESXi Server 세부 정보, ONTAP 매핑, 데이터 저장소 세부 정보 및 호스팅되는 VM 수와 같은 구성 데이터를 수집합니다. 또한 구성 요소의 성능 메트릭을 수집합니다.
+
+.단계
+. VMware * > * vCenter * 로 이동하여 목록에서 vCenter Server를 사용할 수 있는지 확인합니다.
++
+[NOTE]
+====
+vCenter Server를 사용할 수 없는 경우 vCenter Server를 추가해야 합니다.
+
+====
++
+.. 추가 * 를 클릭합니다.
+.. vCenter Server에 대한 올바른 IP 주소를 추가하고 디바이스에 연결할 수 있는지 확인합니다.
+.. vCenter Server에 대한 읽기 전용 액세스 권한이 있는 관리자 또는 루트 사용자의 사용자 이름 및 암호를 추가합니다.
+.. 기본 443 이외의 포트를 사용하는 경우 사용자 지정 포트 번호를 추가합니다.
+.. 저장 * 을 클릭합니다.
++
+검색이 완료되면 서버 인증서가 표시되어 수락됩니다.
+
++
+인증서를 수락하면 vCenter Server가 사용 가능한 vCenter Server 목록에 추가됩니다. 장치를 추가해도 연결된 VM의 데이터 수집은 되지 않으며 예약된 간격으로 수집이 수행됩니다.
+
+
+
+. vCenter Server가 * vCenters * 페이지에서 사용 가능한 경우 * Status * 필드 위로 마우스를 가져가 vCenter Server가 예상대로 수행되는지 또는 경고 또는 오류가 있는지 여부를 표시하여 해당 상태를 확인합니다.
++
+[NOTE]
+====
+vCenter Server를 추가하면 다음 상태를 볼 수 있습니다. 그러나 vCenter Server를 추가하여 정확하게 반영되려면 해당 VM의 성능 및 지연 시간 데이터가 1시간 정도 걸릴 수 있습니다.
+
+====
++
+** 녹색: "Normal" - vCenter Server가 검색되었으며 성능 메트릭이 성공적으로 수집되었음을 나타냅니다
+** 노란색: "Warning"(예: vCenter Server의 통계 수준이 각 객체에 대한 통계를 얻기 위해 3 이상으로 설정되지 않은 경우)
+** 주황색: "오류"(예외, 구성 데이터 수집 실패 또는 vCenter Server에 연결할 수 없음 등의 내부 오류 표시) 열 표시 아이콘(* 표시/숨기기*)을 클릭하여 vCenter Server 상태에 대한 상태 메시지를 보고 문제를 해결할 수 있습니다.
+
+
+. vCenter Server에 연결할 수 없거나 자격 증명이 변경된 경우 * vCenter * > * Edit * 를 선택하여 vCenter Server 세부 정보를 편집합니다.
+. VMware vCenter Server * 편집 페이지에서 필요한 내용을 변경합니다.
+. 저장 * 을 클릭합니다.
+
+
+* vCenter Server 데이터 수집이 시작됩니다 *
+
+vCenter Server는 20초 간의 실시간 성능 데이터 샘플을 수집하여 최대 5분 분량의 샘플을 취합합니다. Unified Manager의 성능 데이터 수집 일정은 vCenter Server의 기본 설정을 기반으로 합니다. Unified Manager는 vCenter Server에서 얻은 5분 샘플을 처리하고, 가상 디스크, VM 및 호스트에 대한 IOPS 및 지연 시간의 시간별 평균을 계산합니다. 데이터 저장소의 경우 Unified Manager는 ONTAP에서 얻은 샘플에서 IOPS 및 지연 시간의 시간별 평균을 계산합니다. 이러한 값은 시간 맨 위에 표시됩니다. vCenter Server를 추가한 직후에 성능 메트릭을 사용할 수 없으며 다음 시간이 시작될 때만 사용할 수 있습니다. 성능 데이터 폴링은 구성 데이터 수집 주기를 완료하는 데 시작됩니다.
+
+vCenter Server 구성 데이터를 폴링하기 위해 Unified Manager는 클러스터 구성 데이터를 수집하는 것과 동일한 스케줄을 따릅니다. vCenter Server 구성 및 성능 데이터 수집 스케줄에 대한 자세한 내용은 "클러스터 구성 및 성능 데이터 수집 작업"을 참조하십시오.
+
+* 관련 정보 *
+
+link:../performance-checker/concept_cluster_configuration_and_performance_data_collection_activity.html["클러스터 구성 및 성능 데이터 수집 작업"]

@@ -1,0 +1,48 @@
+---
+permalink: health-checker/reference_volume_compliance_categories.html 
+sidebar: sidebar 
+keywords: volume, encryption, compliance, categories 
+summary: 이 표에서는 Unified Manager에서 볼륨 암호화 매개 변수를 평가하여, 볼륨의 데이터가 무단 사용자에 의해 액세스되지 않도록 적절히 보호되는지 여부를 확인합니다. 
+---
+= 볼륨 규정 준수 범주
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 표에서는 Unified Manager에서 볼륨 암호화 매개 변수를 평가하여, 볼륨의 데이터가 무단 사용자에 의해 액세스되지 않도록 적절히 보호되는지 여부를 확인합니다.
+
+볼륨 암호화 매개 변수는 클러스터 또는 스토리지 VM의 규정 준수 여부에 영향을 주지 않습니다.
+
+[cols="2*"]
+|===
+| 매개 변수 | 설명 
+
+
+ a| 
+소프트웨어가 암호화되었습니다
+ a| 
+NVE(NetApp Volume Encryption) 또는 NAE(NetApp Aggregate Encryption) 소프트웨어 암호화 솔루션을 사용하여 보호되는 볼륨 수를 표시합니다.
+
+
+
+ a| 
+하드웨어가 암호화되었습니다
+ a| 
+NSE(NetApp Storage Encryption) 하드웨어 암호화를 사용하여 보호되는 볼륨 수를 표시합니다.
+
+
+
+ a| 
+소프트웨어 및 하드웨어가 암호화되었습니다
+ a| 
+소프트웨어 및 하드웨어 암호화로 보호되는 볼륨의 수를 표시합니다.
+
+
+
+ a| 
+암호화되지 않았습니다
+ a| 
+암호화되지 않은 볼륨의 수를 표시합니다.
+
+|===

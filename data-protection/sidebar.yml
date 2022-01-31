@@ -1,0 +1,195 @@
+---
+section: data-protection
+title: 데이터 보호 및 복원
+entries:
+- title: 보호 관계 생성 및 문제 해결
+  url: "/data-protection/concept_create_and_monitor_protection_relationships.html"
+  entries:
+  - title: SnapMirror 보호 유형입니다
+    url: "/data-protection/concept_types_of_snapmirror_protection.html"
+  - title: Unified Manager에서 보호 관계 설정
+    url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
+    entries:
+    - title: Workflow Automation과 Unified Manager 간 연결 구성
+      url: "/data-protection/task_configure_connection_between_workflow_automation_um.html"
+    - title: Workflow Automation에서 Unified Manager 데이터 소스 캐싱 검증
+      url: "/data-protection/task_verify_um_data_source_caching_in_workflow_automation.html"
+    - title: OnCommand Workflow Automation를 재설치하거나 업그레이드하면 어떻게 됩니까
+      url: "/data-protection/concept_what_happens_when_wfa_is_reinstalled_or_upgraded.html"
+    - title: Unified Manager에서 OnCommand Workflow Automation 설정을 제거하는 중입니다
+      url: "/data-protection/task_remove_workflow_automation.html"
+  - title: 보호 관계 페일오버 및 페일백 수행
+    url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
+    entries:
+    - title: 볼륨/상태 세부 정보 페이지에서 SnapMirror 관계 분리
+      url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
+    - title: 볼륨/상태 세부 정보 페이지에서 보호 관계를 반대로 설정합니다
+      url: "/data-protection/task_reverse_protection_relationships_from_health_volume_details.html"
+    - title: 볼륨/상태 세부 정보 페이지에서 보호 관계를 제거합니다
+      url: "/data-protection/task_remove_protection_relationship_voldtls.html"
+    - title: 볼륨/상태 세부 정보 페이지에서 보호 관계를 재동기화합니다
+      url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
+  - title: 보호 작업 실패 해결
+    url: "/data-protection/task_resolve_protection_job_failure.html"
+    entries:
+    - title: 문제 식별 및 실패한 보호 작업에 대한 수정 조치 수행
+      url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
+  - title: 지연 문제 해결
+    url: "/data-protection/task_resolve_lag_issues.html"
+- title: 보호 관계 관리 및 모니터링
+  url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
+  entries:
+  - title: 볼륨 보호 상태 보기
+    url: "/data-protection/view-protection-status.html"
+  - title: 볼륨 보호 관계 보기
+    url: "/data-protection/task_view_volume_protection_relationships.html"
+  - title: 정합성 보장 그룹 관계에서 LUN 모니터링
+    url: "/data-protection/view-lun-relationships.html"
+  - title: 상태/모든 볼륨 보기에서 SnapVault 보호 관계 생성
+    url: "/data-protection/task_create_snapvault_protection_relationship.html"
+  - title: 볼륨/상태 세부 정보 페이지에서 SnapVault 보호 관계 생성
+    url: "/data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html"
+  - title: 상태/모든 볼륨 보기에서 SnapMirror 보호 관계 생성
+    url: "/data-protection/task_create_snapmirror_relationship_from_health_volumes.html"
+  - title: 볼륨/상태 세부 정보 페이지에서 SnapMirror 보호 관계 생성
+    url: "/data-protection/task_create_snapmirror_relationship_from_health_volume.html"
+  - title: 버전에 상관없이 유연하게 복제 가능한 SnapMirror 관계 생성
+    url: "/data-protection/task_create_snapmirror_relationship_with_version_flexible_replication.html"
+  - title: 버전에 상관없이 유연하게 복제 가능한 백업 옵션을 사용하여 SnapMirror 관계 생성
+    url: "/data-protection/task_create_snapmirror_relationships_with_version_flexible_replication.html"
+  - title: 대상 효율성 설정을 구성하는 중입니다
+    url: "/data-protection/task_configure_protection_destination_settings.html"
+  - title: SnapMirror 및 SnapVault 일정 생성
+    url: "/data-protection/task_create_snapmirror_and_snapvault_schedules.html"
+  - title: 계단식 또는 팬아웃 관계를 생성하여 기존 보호 관계로부터 보호를 확장합니다
+    url: "/data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html"
+  - title: 볼륨 관계 페이지에서 보호 관계 편집
+    url: "/data-protection/task_edit_protection_relationships_from_protection_volume.html"
+  - title: 볼륨/상태 세부 정보 페이지에서 보호 관계 편집
+    url: "/data-protection/task_edit_protection_relationships_from_health_volume.html"
+  - title: 전송 효율성을 최대화할 수 있도록 SnapMirror 정책 생성
+    url: "/data-protection/task_create_snapmirror_policy_to_maximize_transfer_efficiency.html"
+  - title: 전송 효율성을 극대화하기 위한 SnapVault 정책 생성
+    url: "/data-protection/task_create_snapvault_policy_to_maximize_transfer_efficiency.html"
+  - title: 볼륨 관계 페이지에서 활성 데이터 보호 전송을 중단합니다
+    url: "/data-protection/task_abort_an_active_data_protection_transfer.html"
+  - title: 볼륨/상태 세부 정보 페이지에서 활성 데이터 보호 전송을 중단합니다
+    url: "/data-protection/task_abort_active_data_protection_transfer_from_health_volume.html"
+  - title: 볼륨 관계 페이지에서 보호 관계를 중지합니다
+    url: "/data-protection/task_quiesce_protection_relationship_from_volume_relationships.html"
+  - title: 볼륨/상태 세부 정보 페이지에서 보호 관계를 중지합니다
+    url: "/data-protection/task_quiesce_protection_relationship_from_health_volume_details.html"
+  - title: 볼륨 관계 페이지에서 SnapMirror 관계 분리
+    url: "/data-protection/task_break_snapmirror_relationship.html"
+  - title: 볼륨 관계 페이지에서 보호 관계를 제거합니다
+    url: "/data-protection/task_remove_protection_relationship.html"
+  - title: 볼륨 관계 페이지에서 중지된 관계에서 예약된 전송을 다시 시작합니다
+    url: "/data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html"
+  - title: 볼륨/상태 세부 정보 페이지에서 중지된 관계에서 예약된 전송을 재개합니다
+    url: "/data-protection/task_resume_scheduled_transfers_voldtls_page.html"
+  - title: 볼륨 관계 페이지에서 보호 관계를 초기화 또는 업데이트합니다
+    url: "/data-protection/task_initialize_or_update_protection_relationships.html"
+  - title: 볼륨/상태 세부 정보 페이지에서 보호 관계를 초기화 또는 업데이트합니다
+    url: "/data-protection/task_update_protection_voldtls_page.html"
+  - title: 볼륨 관계 페이지에서 보호 관계를 재동기화합니다
+    url: "/data-protection/task_resynchronize_protection_relationships.html"
+  - title: 볼륨 관계 페이지에서 보호 관계를 반대로 설정합니다
+    url: "/data-protection/task_reverse_protection_relationships.html"
+  - title: 상태/모든 볼륨 보기를 사용하여 데이터를 복원합니다
+    url: "/data-protection/task_restore_data_use_health_volumes_page.html"
+  - title: 볼륨/상태 세부 정보 페이지를 사용하여 데이터를 복원합니다
+    url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
+  - title: 리소스 풀이란 무엇입니까
+    url: "/data-protection/concept_what_resource_pools_are.html"
+  - title: 리소스 풀 생성
+    url: "/data-protection/task_create_resource_pools.html"
+  - title: 리소스 풀 편집
+    url: "/data-protection/task_edit_resource_pools.html"
+  - title: 리소스 풀 인벤토리 보기
+    url: "/data-protection/task_view_resource_pool_inventory.html"
+  - title: 리소스 풀 구성원을 추가하는 중입니다
+    url: "/data-protection/task_add_resource_pool_members.html"
+  - title: 리소스 풀에서 애그리게이트를 제거합니다
+    url: "/data-protection/task_remove_aggregates_from_resource_pools.html"
+  - title: 리소스 풀을 삭제하는 중입니다
+    url: "/data-protection/task_delete_resource_pools.html"
+  - title: 스토리지 VM 재해 복구 보호 관계 모니터링
+    url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
+    entries:
+    - title: 관계 페이지를 사용하여 스토리지 VM 모니터링
+      url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
+    - title: 스토리지 VM 페이지에서 보호 관계 보기
+      url: "/data-protection/task_view_protection_relationships_from_storage_vms_page.html"
+    - title: 보호 상태에 따라 스토리지 VM 보기
+      url: "/data-protection/task_view_storage_vms_based_on_protection_status.html"
+  - title: 스토리지 VM 피어 이해
+    url: "/data-protection/concept_understand_svm_associations.html"
+  - title: 스토리지 서비스를 지원하기 위한 SVM 및 리소스 풀 요구사항
+    url: "/data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html"
+  - title: 스토리지 VM 피어 생성
+    url: "/data-protection/task_create_storage_virtual_machine_svm_associations.html"
+  - title: 스토리지 VM 피어 보기
+    url: "/data-protection/task_view_svm_associations.html"
+  - title: 스토리지 VM 피어를 삭제하는 중입니다
+    url: "/data-protection/task_delete_svm_associations.html"
+  - title: 어떤 작업인지
+    url: "/data-protection/concept_what_jobs_are.html"
+  - title: 작업 모니터링
+    url: "/data-protection/task_monitor_jobs.html"
+  - title: 작업 세부 정보 보기
+    url: "/data-protection/task_view_job_details.html"
+  - title: 작업을 중단합니다
+    url: "/data-protection/task_abort_jobs.html"
+  - title: 실패한 보호 작업을 다시 시도합니다
+    url: "/data-protection/task_retry_failed_protection_job.html"
+  - title: 보호 관계 창 및 대화 상자에 대한 설명입니다
+    url: "/data-protection/reference_description_of_protection_relationships_window.html"
+    entries:
+    - title: 리소스 풀 페이지를 참조하십시오
+      url: "/data-protection/reference_resource_pools_page.html"
+    - title: 리소스 풀 생성 대화 상자
+      url: "/data-protection/reference_create_resource_pool_dialog_box.html"
+    - title: 리소스 풀 편집 대화 상자
+      url: "/data-protection/reference_edit_resource_pool_dialog_box.html"
+    - title: 애그리게이트 대화 상자
+      url: "/data-protection/reference_aggregates_dialog_box.html"
+    - title: SVM 피어 페이지 를 참조하십시오
+      url: "/data-protection/reference_protection_storage_virtual_machine_associations_page.html"
+    - title: 스토리지 가상 시스템 피어 생성 마법사
+      url: "/data-protection/reference_create_storage_virtual_machine_associations_wizard.html"
+    - title: 작업 페이지
+      url: "/data-protection/reference_protection_jobs_page.html"
+    - title: 작업 세부 정보 페이지
+      url: "/data-protection/reference_job_details_page.html"
+    - title: 고급 보조 설정 대화 상자
+      url: "/data-protection/reference_advanced_secondary_setting_dialog_box.html"
+    - title: 고급 대상 설정 대화 상자
+      url: "/data-protection/reference_advanced_destination_settings_dialog_box.html"
+    - title: 복원 대화 상자
+      url: "/data-protection/reference_restore_dialog_box.html"
+    - title: 디렉터리 찾아보기 대화 상자
+      url: "/data-protection/reference_browse_directories_dialog_box.html"
+    - title: 보호 구성 대화 상자
+      url: "/data-protection/reference_configure_protection_dialog_box.html"
+    - title: 일정 생성 대화 상자
+      url: "/data-protection/reference_create_schedule_dialog_box.html"
+    - title: SnapMirror 정책 생성 대화 상자
+      url: "/data-protection/reference_create_snapmirror_policy_dialog_box.html"
+    - title: SnapVault 정책 생성 대화 상자
+      url: "/data-protection/reference_create_snapvault_policy_dialog_box.html"
+    - title: 관계 편집 대화 상자
+      url: "/data-protection/reference_edit_relationship_dialog_box.html"
+    - title: 초기화/업데이트 대화 상자
+      url: "/data-protection/reference_initialize_update_relationship_dialog_box.html"
+    - title: 대화 상자를 다시 동기화합니다
+      url: "/data-protection/reference_resynchronize_dialog_box.html"
+    - title: 소스 스냅샷 복사본 대화 상자를 선택합니다
+      url: "/data-protection/reference_select_source_snapshot_copy_dialog_box.html"
+    - title: 역방향 재동기화 대화 상자
+      url: "/data-protection/reference_reverse_resync_dialog_box.html"
+    - title: 관계/모든 관계 보기
+      url: "/data-protection/reference_relationship_all_relationships_view.html"
+    - title: 관계/최근 1개월 이전 상태 보기
+      url: "/data-protection/reference_relationship_last_1_month_transfer_status_view.html"
+    - title: 관계/최근 1개월 전송 속도 보기
+      url: "/data-protection/reference_relationship_last_1_month_transfer_rate_view.html"

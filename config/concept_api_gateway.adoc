@@ -1,0 +1,21 @@
+---
+permalink: config/concept_api_gateway.html 
+sidebar: sidebar 
+keywords: api gateway 
+summary: API 게이트웨이 기능을 통해 Active IQ Unified Manager는 개별적으로 로그인하지 않고도 여러 ONTAP 클러스터를 관리할 수 있는 단일 제어 플레인이 될 수 있습니다. 
+---
+= API 게이트웨이 활성화 중
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+API 게이트웨이 기능을 통해 Active IQ Unified Manager는 개별적으로 로그인하지 않고도 여러 ONTAP 클러스터를 관리할 수 있는 단일 제어 플레인이 될 수 있습니다.
+
+Unified Manager에 처음 로그인할 때 나타나는 구성 페이지에서 이 기능을 사용하도록 설정할 수 있습니다. 또는 * 일반 * > * 기능 설정 * > * API 게이트웨이 * 에서 이 기능을 활성화 또는 비활성화할 수 있습니다.
+
+Unified Manager REST API는 ONTAP REST API와 다르며, ONTAP REST API를 사용하여 모든 기능을 사용할 수 있는 것은 아닙니다. 그러나 Unified Manager에 노출되지 않은 특정 기능을 관리하기 위해 ONTAP API에 액세스해야 하는 특정 비즈니스 요구 사항이 있는 경우 API 게이트웨이 기능을 설정하고 ONTAP API를 실행할 수 있습니다. 게이트웨이는 ONTAP API와 동일한 형식으로 헤더와 본문 요청을 유지함으로써 API 요청을 터널링하기 위한 프록시 역할을 합니다. Unified Manager 자격 증명을 사용하고 특정 API를 실행하여 개별 클러스터 자격 증명을 전달하지 않고 ONTAP 클러스터에 액세스하고 관리할 수 있습니다. Unified Manager는 Unified Manager 인스턴스에서 관리되는 ONTAP 클러스터에서 API를 실행하기 위한 단일 관리 지점 역할을 수행합니다. API가 반환하는 응답은 ONTAP에서 직접 실행되는 각 ONTAP REST API가 반환하는 응답과 동일합니다.
+
+이 기능을 활성화한 후 * 메뉴 모음 * > * 도움말 버튼 * > * API 문서 * > * 게이트웨이 * 범주에서 Unified Manager REST API를 실행할 수 있습니다. 또는 호스트 이름 또는 IP 주소와 URL을 입력하여 REST API 페이지에 액세스할 수 있습니다 https://<hostname>/docs/api/`
+
+API에 대한 자세한 내용은 _Active IQ Unified Manager API 개발자 가이드_를 참조하십시오.

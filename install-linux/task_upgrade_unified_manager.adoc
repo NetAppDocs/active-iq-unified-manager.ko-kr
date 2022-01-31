@@ -1,0 +1,131 @@
+---
+permalink: install-linux/task_upgrade_unified_manager.html 
+sidebar: sidebar 
+keywords: upgrade, unified manager 
+summary: Red Hat 플랫폼에서 설치 파일을 다운로드하여 실행하여 Unified Manager를 업그레이드할 수 있습니다. 
+---
+= Unified Manager 업그레이드
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Red Hat 플랫폼에서 설치 파일을 다운로드하여 실행하면 Unified Manager 9.8 또는 9.9에서 9.10으로 업그레이드할 수 있습니다.
+
+* 필요한 것 *
+
+* Unified Manager를 업그레이드하는 시스템은 시스템 및 소프트웨어 요구사항을 충족해야 합니다.
++
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html["하드웨어 시스템 요구 사항"]
+
++
+link:reference_red_hat_and_centos_software_and_installation_requirements.html["Red Hat 및 CentOS 소프트웨어 및 설치 요구 사항"]
+
+* Unified Manager를 업그레이드하기 전에 올바른 버전의 OpenJDK를 설치하거나 업그레이드해야 합니다.
++
+link:task_upgrade_openjdk_on_linux_ocum.html["Linux에서 JRE 업그레이드"]
+
+* Red Hat Enterprise Linux Subscription Manager에 가입해야 합니다.
+* 업그레이드 중에 문제가 발생할 경우 데이터 손실을 방지하려면 Unified Manager 데이터베이스의 백업을 생성해야 합니다. 또한 백업 파일을 '/opt/netapp/data' 디렉토리에서 외부 위치로 이동하는 것이 좋습니다.
+* 업그레이드하는 동안 성능 데이터를 13개월 동안 유지하기 위한 이전 기본 설정을 유지할지 아니면 6개월로 변경할지 묻는 메시지가 표시될 수 있습니다. 확인 시 6개월 후의 성능 기록 데이터가 삭제됩니다.
+* 업그레이드 프로세스 중에는 Unified Manager를 사용할 수 없으므로 실행 중인 작업을 모두 완료해야 합니다.
+* * MySQL 요구 사항 *: Unified Manager 업그레이드 중에 MySQL Community Edition이 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.0.27 이전인 경우 Unified Manager 업그레이드 프로세스에서 MySQL을 8.0.27로 자동 업그레이드합니다.
++
+그러나 MySQL을 시스템의 최신 부 버전으로 업그레이드할 수 있습니다. 다음 부 버전으로 업그레이드하기 전에 시스템에 있는 MySQL의 기본 버전이 8.0.27인지 확인하십시오.
+
++
+사이트에 MySQL 8.0.27로 구성된 저장소가 없는 경우 Unified Manager를 업그레이드하지 못할 수 있습니다. 업그레이드 전에 리포지토리를 구성하려면 다음 단계를 수행하십시오.
+
++
+.. 필요한 최소 버전(이 경우 8.0.27)이 있는 MySQL RPM 패키지를 다운로드하여 'NetApp-um<version>.x86_64.rpm'이 저장된 동일한 디렉토리에 저장하십시오.
+.. 이 명령을 실행하여 새 버전 'yum install *.rpm'을 설치합니다
+.. Unified Manager 서버를 시작합니다. 다음 명령을 실행합니다.
++
+... '스타ctl start socie'입니다
+... '신조 시작 조숙자'
+
+
+
+
+
+
+.단계
+. 대상 Red Hat Enterprise Linux 또는 CentOS 서버에 로그인합니다.
+. 서버에 Unified Manager 번들을 다운로드합니다.
++
+link:task_download_unified_manager.html["Red Hat 또는 CentOS용 Unified Manager 다운로드"]
+
+. 타겟 디렉토리로 이동하고 Unified Manager 번들을 확장합니다.
++
+'ActiveIQUnifiedManager-<version>.zip의 압축을 풉니다.
+
++
+Unified Manager에 필요한 RPM 모듈의 압축이 대상 디렉토리에 풀립니다.
+
+. 디렉토리에서 다음 모듈을 사용할 수 있는지 확인합니다.
++
+"ls *.rpm"
+
++
+'netapp-um <version>.x86_64.rpm'
+
+. * 선택 사항: * 인터넷에 연결되어 있지 않거나 Red Hat Enterprise Linux 리포지토리를 사용하지 않는 시스템의 경우 다음 단계를 수행하여 필요한 패키지가 있는지 확인하고 해당 패키지를 다운로드하십시오.
++
+.. 사용 가능한 패키지 및 사용할 수 없는 패키지 목록을 봅니다.
++
+'yum install netapp-um <version>.x86_64.rpm --assulmeno'
+
++
+""설치 중:"" 섹션의 항목은 현재 디렉터리에서 사용할 수 있는 패키지이며 ""종속성 설치:"" 섹션의 항목은 시스템에 없는 패키지입니다.
+
+.. 인터넷에 액세스할 수 있는 다른 시스템에서 다음 명령을 실행하여 누락된 패키지를 다운로드합니다.
++
+''yum install package_name -- downloadonly -- downlopaddr=.'
+
++
+패키지는 '--downlodaddr='으로 지정된 디렉토리에 다운로드됩니다.
+
++
+플러그인 ""yum-plugin-downloadonly""가 Red Hat Enterprise Linux 시스템에서 항상 활성화되어 있는 것은 아니므로 패키지를 설치하지 않고 패키지를 다운로드할 수 있도록 기능을 설정해야 할 수 있습니다.
+
++
+'yum install yum-plugin-downloadonly
+
+.. 설치 시스템에서 새 디렉토리를 생성하고 인터넷에 연결된 시스템에서 다운로드한 패키지를 복사합니다.
+.. 디렉토리를 설치 시스템의 새 디렉토리로 변경하고 MySQL Community Edition을 설치할 때 해당 종속성과 함께 다음 명령을 실행합니다.
++
+'yum install *.rpm'입니다
+
+
+
+. 사전 설치 스크립트를 실행하여 업그레이드와 충돌할 수 있는 시스템 구성 설정이나 설치된 소프트웨어가 없는지 확인합니다.
++
+'SUDO./PRE_INSTALL_CHECK.sh'를 선택합니다
+
++
+사전 설치 스크립트는 시스템에 유효한 Red Hat 서브스크립션이 있으며 필요한 소프트웨어 리포지토리에 액세스할 수 있는지 확인합니다. 스크립트에서 문제가 식별되면 Unified Manager를 업그레이드하기 전에 문제를 해결해야 합니다.
+
+. 다음 스크립트를 사용하여 Unified Manager 업그레이드:
++
+업그레이드.sh
+
++
+이 스크립트는 RPM 모듈을 자동으로 실행하여 필요한 지원 소프트웨어 및 실행 중인 Unified Manager 모듈을 업그레이드합니다. 또한 업그레이드 스크립트는 업그레이드와 충돌할 수 있는 시스템 구성 설정이나 설치된 소프트웨어가 있는지 확인합니다. 스크립트에서 문제가 식별되면 Unified Manager를 업그레이드하기 전에 문제를 해결해야 합니다.
+
+. 업그레이드가 완료된 후 Unified Manager 웹 UI의 IP 주소 또는 URL, 유지보수 사용자 이름(umadmin) 및 기본 암호가 표시된 메시지가 나타날 때까지 메시지를 다시 스크롤합니다.
++
+이 메시지는 다음과 유사합니다.
+
++
+[listing]
+----
+Active IQ Unified Manager upgraded successfully.
+Use a web browser and one of the following URLs to access the Unified Manager GUI:
+
+https://default_ip_address/    (if using IPv4)
+https://[default_ip_address]/  (if using IPv6)
+https://fully_qualified_domain_name/
+----
+
+
+지원되는 웹 브라우저에 지정된 IP 주소 또는 URL을 입력하여 Unified Manager 웹 UI를 시작한 다음, 앞서 설정한 유지보수 사용자 이름(umadmin) 및 암호를 사용하여 로그인합니다.

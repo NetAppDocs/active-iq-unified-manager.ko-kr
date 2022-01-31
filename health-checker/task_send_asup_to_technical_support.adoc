@@ -1,0 +1,19 @@
+---
+permalink: health-checker/task_send_asup_to_technical_support.html 
+sidebar: sidebar 
+keywords: support bundle, web ui, maintenance console 
+summary: AutoSupport 메시지가 제공하는 것보다 더 자세한 진단 및 문제 해결이 필요한 문제의 경우 지원 번들을 보내야 합니다. Unified Manager 웹 UI 및 유지보수 콘솔을 사용하여 기술 지원 팀에 지원 번들을 보낼 수 있습니다. 
+---
+= 웹 UI 및 유지 관리 콘솔을 통해 지원 번들 보내기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport 메시지가 제공하는 것보다 더 자세한 진단 및 문제 해결이 필요한 문제의 경우 지원 번들을 보내야 합니다. Unified Manager 웹 UI 및 유지보수 콘솔을 사용하여 기술 지원 팀에 지원 번들을 보낼 수 있습니다.
+
+Unified Manager에는 최대 2개의 완벽한 지원 번들과 3개의 경량 지원 번들이 한번에 저장됩니다.
+
+* 관련 정보 *
+
+link:../config/reference_unified_manager_roles_and_capabilities.html["Unified Manager 사용자 역할 및 기능"]

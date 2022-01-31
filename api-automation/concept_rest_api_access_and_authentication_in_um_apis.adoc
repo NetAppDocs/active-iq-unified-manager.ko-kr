@@ -1,0 +1,119 @@
+---
+permalink: api-automation/concept_rest_api_access_and_authentication_in_um_apis.html 
+sidebar: sidebar 
+keywords: rest api, access, authentication, active iq, unified, manager 
+summary: Active IQ Unified Manager REST API는 HTTP 요청을 실행할 수 있는 모든 웹 브라우저 또는 프로그래밍 플랫폼을 사용하여 액세스할 수 있습니다. Unified Manager는 기본 HTTP 인증 메커니즘을 지원합니다. Unified Manager REST API를 호출하기 전에 사용자를 인증해야 합니다. 
+---
+= Active IQ Unified Manager에서 REST API 액세스 및 인증
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager REST API는 HTTP 요청을 실행할 수 있는 모든 웹 브라우저 또는 프로그래밍 플랫폼을 사용하여 액세스할 수 있습니다. Unified Manager는 기본 HTTP 인증 메커니즘을 지원합니다. Unified Manager REST API를 호출하기 전에 사용자를 인증해야 합니다.
+
+
+
+== REST 액세스
+
+HTTP 요청을 실행하여 Unified Manager REST API에 액세스할 수 있는 모든 웹 브라우저 또는 프로그래밍 플랫폼을 사용할 수 있습니다. 예를 들어, Unified Manager에 로그인한 후 모든 브라우저에 URL을 입력하여 관리 스테이션 이름, 키, IP 주소와 같은 모든 관리 스테이션의 속성을 검색할 수 있습니다.
+
+* * 요청 *
++
+가져오기
+
+
+
+[listing]
+----
+https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
+----
+* * 응답 *
++
+[listing]
+----
+{
+  "records": [
+    {
+      "key": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster,uuid=4c6bf721-2e3f-11e9-a3e2-00a0985badbb",
+      "name": "fas8040-206-21",
+      "uuid": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb",
+      "contact": null,
+      "location": null,
+      "version": {
+        "full": "NetApp Release Dayblazer__9.5.0: Thu Jan 17 10:28:33 UTC 2019",
+        "generation": 9,
+        "major": 5,
+        "minor": 0
+      },
+      "isSanOptimized": false,
+      "management_ip": "10.226.207.25",
+      "nodes": [
+        {
+          "key": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=12cf06cc-2e3a-11e9-b9b4-00a0985badbb",
+          "uuid": "12cf06cc-2e3a-11e9-b9b4-00a0985badbb",
+          "name": "fas8040-206-21-01",
+          "_links": {
+            "self": {
+              "href": "/api/datacenter/cluster/nodes/4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=12cf06cc-2e3a-11e9-b9b4-00a0985badbb"
+            }
+          },
+          "location": null,
+          "version": {
+            "full": "NetApp Release Dayblazer__9.5.0: Thu Jan 17 10:28:33 UTC 2019",
+            "generation": 9,
+            "major": 5,
+            "minor": 0
+          },
+          "model": "FAS8040",
+          "uptime": 13924095,
+          "serial_number": "701424000157"
+        },
+        {
+          "key": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=1ed606ed-2e3a-11e9-a270-00a0985bb9b7",
+          "uuid": "1ed606ed-2e3a-11e9-a270-00a0985bb9b7",
+          "name": "fas8040-206-21-02",
+          "_links": {
+            "self": {
+              "href": "/api/datacenter/cluster/nodes/4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=1ed606ed-2e3a-11e9-a270-00a0985bb9b7"
+            }
+          },
+          "location": null,
+          "version": {
+            "full": "NetApp Release Dayblazer__9.5.0: Thu Jan 17 10:28:33 UTC 2019",
+            "generation": 9,
+            "major": 5,
+            "minor": 0
+          },
+          "model": "FAS8040",
+          "uptime": 14012386,
+          "serial_number": "701424000564"
+        }
+      ],
+      "_links": {
+        "self": {
+          "href": "/api/datacenter/cluster/clusters/4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster,uuid=4c6bf721-2e3f-11e9-a3e2-00a0985badbb"
+        }
+      }
+    },
+----
++
+** '_IP address/hostname_'은(는) API 서버의 IP 주소 또는 FQDN(정규화된 도메인 이름)입니다.
+** 포트 443
++
+443은 기본 HTTPS 포트입니다. 필요한 경우 HTTPS 포트를 사용자 지정할 수 있습니다.
+
+
+
++
+웹 브라우저에서 POST, 패치 및 HTTP 요청을 삭제하려면 브라우저 플러그인을 사용해야 합니다. CURL 및 Perl과 같은 스크립팅 플랫폼을 사용하여 REST API에 액세스할 수도 있습니다.
+
+
+
+
+
+== 인증
+
+Unified Manager는 API에 대한 기본 HTTP 인증 체계를 지원합니다. 보안 정보 흐름(요청 및 응답)을 위해 REST API는 HTTPS를 통해서만 액세스할 수 있습니다. API 서버는 서버 확인을 위해 모든 클라이언트에 자체 서명된 SSL 인증서를 제공합니다. 이 인증서는 사용자 지정 인증서(또는 CA 인증서)로 대체될 수 있습니다.
+
+REST API를 호출하려면 API 서버에 대한 사용자 액세스를 구성해야 합니다. 사용자는 로컬 사용자(로컬 데이터베이스에 저장된 사용자 프로필) 또는 LDAP 사용자(LDAP를 통해 인증하도록 API 서버를 구성한 경우)일 수 있습니다. Unified Manager Administration Console 사용자 인터페이스에 로그인하여 사용자 액세스를 관리할 수 있습니다.

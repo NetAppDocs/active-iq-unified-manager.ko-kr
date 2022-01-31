@@ -1,0 +1,22 @@
+---
+permalink: performance-checker/concept_navigate_performance_workflows_in_unified_manager_ui.html 
+sidebar: sidebar 
+keywords: navigating, performance, workflows, unified manager, gui 
+summary: Unified Manager 인터페이스는 성능 정보를 수집하고 표시하기 위한 여러 페이지를 제공합니다. 왼쪽 탐색 패널을 사용하여 GUI의 페이지로 이동하고 페이지의 탭과 링크를 사용하여 정보를 보고 구성할 수 있습니다. 
+---
+= Unified Manager GUI에서 성능 워크플로우 탐색
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager 인터페이스는 성능 정보를 수집하고 표시하기 위한 여러 페이지를 제공합니다. 왼쪽 탐색 패널을 사용하여 GUI의 페이지로 이동하고 페이지의 탭과 링크를 사용하여 정보를 보고 구성할 수 있습니다.
+
+다음 페이지를 모두 사용하여 클러스터 성능 정보를 모니터링하고 문제를 해결할 수 있습니다.
+
+* 대시보드 페이지
+* 스토리지 및 네트워크 객체 인벤토리 페이지
+* 스토리지 객체 세부 정보 페이지(성능 탐색기 포함)
+* 구성 및 설정 페이지
+* 이벤트 페이지
+

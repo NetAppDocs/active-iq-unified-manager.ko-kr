@@ -1,0 +1,30 @@
+---
+permalink: performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html 
+sidebar: sidebar 
+keywords: view, qos, policy, group, settings, applied, specific, volumes, luns 
+summary: 볼륨 및 LUN에 적용된 QoS 정책 그룹을 볼 수 있으며, 성능/QoS 정책 그룹 보기에 연결하여 각 QoS 정책에 대한 자세한 구성 설정을 표시할 수 있습니다. 
+---
+= 특정 볼륨 또는 LUN에 적용된 QoS 정책 그룹 설정 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+볼륨 및 LUN에 적용된 QoS 정책 그룹을 볼 수 있으며, 성능/QoS 정책 그룹 보기에 연결하여 각 QoS 정책에 대한 자세한 구성 설정을 표시할 수 있습니다.
+
+볼륨에 적용된 QoS 정책을 확인하는 단계는 다음과 같습니다. LUN에 대해 이 정보를 확인하는 단계도 비슷합니다.
+
+.단계
+. 왼쪽 탐색 창에서 * 스토리지 * > * 볼륨 * 을 클릭합니다.
++
+Health: All Volumes(상태: 모든 볼륨) 보기가 기본적으로 표시됩니다.
+
+. 보기 메뉴에서 * 성능:QoS 정책 그룹의 볼륨 * 을 선택합니다.
+. 검토할 볼륨을 찾아 * QoS 정책 그룹 * 열이 표시될 때까지 오른쪽으로 스크롤합니다.
+. QoS 정책 그룹 이름을 클릭합니다.
++
+해당 서비스 품질 페이지는 기존 QoS 정책, 적응형 QoS 정책 또는 Unified Manager Performance Service 레벨을 사용하여 생성된 QoS 정책에 따라 표시됩니다.
+
+. QoS 정책 그룹에 대한 자세한 구성 설정을 봅니다.
+. 확장 단추(image:../media/chevron_down.gif[""]) QoS 정책 그룹 이름 옆에 있는 을 클릭하여 정책 그룹에 대한 자세한 정보를 봅니다.
+

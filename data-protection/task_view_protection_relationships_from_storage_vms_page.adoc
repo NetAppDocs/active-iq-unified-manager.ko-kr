@@ -1,0 +1,27 @@
+---
+permalink: data-protection/task_view_protection_relationships_from_storage_vms_page.html 
+sidebar: sidebar 
+keywords: storage vm, viewing protection relationships 
+summary: 스토리지 VM 페이지에서 기존 스토리지 VM의 재해 복구 관계 상태를 볼 수 있습니다. 
+---
+= 스토리지 VM 페이지에서 보호 관계 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 VM 페이지에서 기존 스토리지 VM의 재해 복구 관계 상태를 볼 수 있습니다.
+
+* 필요한 것 *
+
+애플리케이션 관리자 또는 스토리지 관리자 역할이 있어야 합니다.
+
+전송 및 지연 상태, 소스 및 대상 세부 정보를 비롯한 보호 관계에 대한 세부 정보를 검토할 수도 있습니다. 보고서를 예약하거나 필요한 형식으로 기존 보고서를 다운로드할 수 있습니다. Show/Hide * (표시/숨기기 *) 버튼을 사용하면 기본적으로 표시되지 않으므로 보고서에 필요한 열을 추가할 수 있습니다.
+
+.단계
+. 왼쪽 탐색 창에서 * 스토리지 * > * 스토리지 VM * 을 클릭합니다.
+. 보기 * 메뉴에서 * 관계 * > * 모든 관계 * 를 선택합니다.
++
+관계: 모든 관계 보기가 구성된 모든 스토리지 VM과 함께 표시됩니다.
+
+

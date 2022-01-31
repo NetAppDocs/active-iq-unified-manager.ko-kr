@@ -1,0 +1,15 @@
+---
+permalink: config/concept_overview_of_configuration_sequence.html 
+sidebar: sidebar 
+keywords: overview, configuration, sequence 
+summary: 구성 워크플로우에서 Unified Manager를 사용하기 전에 수행해야 하는 작업에 대해 설명합니다. 
+---
+= 구성 시퀀스의 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+구성 워크플로우에서 Unified Manager를 사용하기 전에 수행해야 하는 작업에 대해 설명합니다.
+
+image::../media/post_install_flow.png[설치 후 흐름]

@@ -1,0 +1,39 @@
+---
+permalink: install-linux/task_upgrade_openjdk_on_linux_ocum.html 
+sidebar: sidebar 
+keywords: openjdk, jre, linux, upgrade 
+summary: Unified Manager가 설치된 Linux 서버에서 최신 버전의 OpenJDK로 업그레이드하여 보안 취약점에 대한 수정 사항을 확인할 수 있습니다. 
+---
+= Linux에서 OpenJDK 업그레이드
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager가 설치된 Linux 서버에서 최신 버전의 OpenJDK로 업그레이드하여 보안 취약점에 대한 수정 사항을 확인할 수 있습니다.
+
+* 필요한 것 *
+
+Unified Manager가 설치된 Linux 시스템에 대한 루트 권한이 있어야 합니다.
+
+릴리스 제품군 내에서 OpenJDK 릴리스를 업데이트할 수 있습니다. 예를 들어, OpenJDK 11.0.9에서 OpenJDK 11.0.12로 업그레이드할 수 있지만 OpenJDK 11에서 OpenJDK 12로 직접 업데이트할 수는 없습니다.
+
+.단계
+. Unified Manager 호스트 시스템에서 루트 사용자로 로그인합니다.
+. 대상 시스템에 적절한 버전의 OpenJDK(64비트)를 다운로드합니다.
+. Unified Manager 서비스 중지:
++
+'스타치틀스조우'
+
++
+'스ystemtl stop socie'
+
+. 시스템에 최신 OpenJDK를 설치합니다.
+. Unified Manager 서비스 시작:
++
+'스타ctl start socie'입니다
+
++
+'신조 시작 조숙자'
+
+

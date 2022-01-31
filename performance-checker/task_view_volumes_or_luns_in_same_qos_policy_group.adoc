@@ -1,0 +1,30 @@
+---
+permalink: performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html 
+sidebar: sidebar 
+keywords: view, volumes, luns, same. qos, policy, group 
+summary: 동일한 QoS 정책 그룹에 할당된 볼륨 및 LUN의 목록을 표시할 수 있습니다. 
+---
+= 동일한 QoS 정책 그룹에 있는 볼륨 또는 LUN 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+동일한 QoS 정책 그룹에 할당된 볼륨 및 LUN의 목록을 표시할 수 있습니다.
+
+여러 볼륨 간에 "공유"되는 기존 QoS 정책 그룹의 경우 특정 볼륨이 정책 그룹에 대해 정의된 처리량을 과도하게 사용하고 있는지 확인하는 데 도움이 될 수 있습니다. 다른 볼륨에 부정적인 영향을 주지 않고 정책 그룹에 다른 볼륨을 추가할 수 있는지 결정하는 데도 도움이 됩니다.
+
+적응형 QoS 정책과 Unified Manager Performance Service 레벨 정책의 경우, 정책 그룹을 사용 중인 모든 볼륨 또는 LUN을 볼 때 QoS 정책의 구성 설정을 변경한 경우 영향을 받을 개체를 확인할 수 있습니다.
+
+.단계
+. 왼쪽 탐색 창에서 * 스토리지 * > * QoS 정책 그룹 * 을 클릭합니다.
++
+성능: 기존 QoS 정책 그룹 보기가 기본적으로 표시됩니다.
+
+. 기존 정책 그룹에 관심이 있는 경우 이 페이지를 계속 참조하십시오. 그렇지 않으면 추가 보기 옵션 중 하나를 선택하여 모든 적응형 QoS 정책 그룹 또는 Unified Manager Performance Service 레벨에 의해 생성된 모든 QoS 정책 그룹을 표시합니다.
+. 관심 있는 QoS 정책에서 확장 단추( 를 클릭합니다image:../media/chevron_down.gif[""]) QoS 정책 그룹 이름 옆에 있는 을 클릭하여 자세한 내용을 봅니다.image:../media/adaptive_qos_expanded.gif[""]
+. 이 QoS 정책을 사용하여 객체를 보려면 Volumes 또는 LUN 링크를 클릭합니다.
++
+볼륨 또는 LUN의 성능 인벤토리 페이지는 QoS 정책을 사용하는 개체의 정렬된 목록과 함께 표시됩니다.
+
+

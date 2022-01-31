@@ -1,0 +1,23 @@
+---
+permalink: performance-checker/task_view_all_qos_policy_groups_available_on_all_clusters.html 
+sidebar: sidebar 
+keywords: viewing, qos, policy, groups, available, clusters 
+summary: Unified Manager에서 모니터링하는 클러스터에서 사용 가능한 모든 QoS 정책 그룹의 목록을 표시할 수 있습니다. 여기에는 기존 QoS 정책, 적응형 QoS 정책, Unified Manager Performance Service Level 정책에서 관리하는 QoS 정책이 포함됩니다. 
+---
+= 모든 클러스터에서 사용 가능한 모든 QoS 정책 그룹 보기
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager에서 모니터링하는 클러스터에서 사용 가능한 모든 QoS 정책 그룹의 목록을 표시할 수 있습니다. 여기에는 기존 QoS 정책, 적응형 QoS 정책, Unified Manager Performance Service Level 정책에서 관리하는 QoS 정책이 포함됩니다.
+
+.단계
+. 왼쪽 탐색 창에서 * 스토리지 * > * QoS 정책 그룹 * 을 클릭합니다.
++
+성능: 기존 QoS 정책 그룹 보기가 기본적으로 표시됩니다.
+
+. 사용 가능한 각 기존 QoS 정책 그룹에 대한 자세한 구성 설정을 봅니다.
+. 확장 단추(image:../media/chevron_down.gif[""]) QoS 정책 그룹 이름 옆에 있는 을 클릭하여 정책 그룹에 대한 자세한 정보를 봅니다.
+. 보기 메뉴에서 추가 옵션 중 하나를 선택하여 모든 적응형 QoS 정책 그룹을 보거나 Unified Manager Performance Service 레벨을 사용하여 생성한 모든 QoS 정책 그룹을 확인합니다.
+

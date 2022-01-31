@@ -1,0 +1,36 @@
+---
+permalink: health-checker/reference_configure_ontap_cluster.html 
+sidebar: sidebar 
+keywords: netapp, snapshot, backup, windows, configure, ontap, cluster 
+summary: Windows용 Active IQ Unified Manager 스냅샷 백업 및 복원을 구성하기 전에 ONTAP 및 Windows 호스트 시스템에 대해 몇 가지 사전 구성을 수행해야 합니다. 
+---
+= ONTAP 클러스터를 구성하는 중입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Windows용 Active IQ Unified Manager 스냅샷 백업 및 복원을 구성하기 전에 ONTAP 및 Windows 호스트 시스템에 대해 몇 가지 사전 구성을 수행해야 합니다.
+
+명령 프롬프트나 System Manager 사용자 인터페이스를 사용하여 ONTAP 클러스터를 구성할 수 있습니다. ONTAP 클러스터를 구성하려면 스토리지 VM에 iSCSI LIF로 할당할 수 있도록 데이터 LIF를 구성해야 합니다. 다음 단계는 System Manager 사용자 인터페이스를 사용하여 iSCSI 지원 스토리지 VM을 구성하는 것입니다. LIF가 아웃바운드 트래픽에 네트워크를 사용하는 방법을 제어하려면 이 스토리지 VM에 대한 정적 네트워크 경로를 구성해야 합니다.
+
+[NOTE]
+====
+백업 구성을 위해서는 전용 볼륨과 LUN이 있어야 합니다. 선택한 볼륨에 LUN이 하나만 포함되어야 합니다. LUN 크기는 Active IQ Unified Manager에서 처리할 수 있을 것으로 예상되는 데이터 크기의 2배 이상이어야 합니다.
+
+====
+다음 구성을 수행해야 합니다.
+
+.단계
+. iSCSI 지원 스토리지 VM을 구성하거나 동일한 구성을 가진 기존 스토리지 VM을 사용합니다.
+. 구성된 스토리지 VM에 대한 네트워크 라우트를 구성합니다.
+. 볼륨이 이 LUN 전용인지 확인하기 위해 적절한 용량의 볼륨과 내부의 단일 LUN을 구성합니다.
++
+
+NOTE: System Manager에서 LUN을 생성할 때 LUN 매핑을 해제하면 igroup이 삭제되고 복원이 실패할 수 있습니다. 이 시나리오를 방지하려면 LUN을 생성하는 동안 LUN이 명시적으로 생성되고 LUN이 매핑 해제될 때 삭제되지 않도록 해야 합니다.
+
+. 스토리지 VM에서 이니시에이터 그룹을 구성합니다.
+. 포트 세트를 구성합니다.
+. igroup을 포트셋 통합
+. LUN을 igroup에 매핑합니다.
+
