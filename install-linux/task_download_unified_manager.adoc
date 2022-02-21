@@ -2,7 +2,7 @@
 permalink: install-linux/task_download_unified_manager.html 
 sidebar: sidebar 
 keywords: download, Unified Manager 
-summary: Unified Manager를 설치하려면 NetApp Support 사이트에서 Unified Manager '.zip' 파일을 다운로드해야 합니다. 
+summary: 'Unified Manager를 설치하려면 NetApp Support 사이트에서 Unified Manager ".zip" 파일을 다운로드해야 합니다.' 
 ---
 = Unified Manager 다운로드 중
 :icons: font
