@@ -81,4 +81,4 @@ SM-BC 관계에 의해 보호되는 볼륨 및 LUN을 볼 때 보호 관계, 볼
 
 관계 페이지에서 소스 및 대상 스토리지 객체와 정합성 보장 그룹에 의해 보호되는 해당 관계의 보호를 정렬, 필터링 및 확장할 수도 있습니다.
 
-SnapMirror Synchronous 비즈니스 연속성에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/smbc/smbc_intro_overview.html["ONTAP 9 설명서"].
+SnapMirror Synchronous 비즈니스 연속성에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap/smbc/index.html["SM-BC용 ONTAP 9 문서"].

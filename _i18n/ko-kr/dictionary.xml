@@ -8804,8 +8804,6 @@
   <block id="ae29cba1567ab4b1a3f0d7c52960df9d" category="paragraph">Unified Manager에서 클러스터 및 스토리지 가상 머신에서 사용 가능한 CG(Consistency Group)를 위한 동기식 SnapMirror 관계를 검색하고 모니터링할 수 있습니다. SM-BC는 AFF 클러스터 또는 모든 ASA(SAN 어레이) 클러스터에서 지원되며, 운영 클러스터와 보조 클러스터는 AFF 또는 ASA가 될 수 있습니다. SM-BC는 iSCSI 또는 FCP LUN을 사용하여 애플리케이션을 보호합니다.</block>
   <block id="74560fead831fee65bfebe70198203e9" category="paragraph">SM-BC 관계에 의해 보호되는 볼륨 및 LUN을 볼 때 보호 관계, 볼륨 인벤토리의 정합성 보장 그룹, 정합성 보장 그룹 관계의 보호 토폴로지 보기, 정합성 보장 그룹 관계에 대한 기간별 데이터 보기 등을 통합적으로 확인할 수 있습니다. 보고서를 다운로드할 수도 있습니다. 또한 정합성 보장 그룹 관계 요약, 정합성 보장 그룹 관계 검색 지원 및 정합성 보장 그룹에 의해 보호되는 볼륨에 대한 정보를 확인할 수 있습니다.</block>
   <block id="4c7cb2eaa5d8a4da948d7b43d793ef6d" category="paragraph">관계 페이지에서 소스 및 대상 스토리지 객체와 정합성 보장 그룹에 의해 보호되는 해당 관계의 보호를 정렬, 필터링 및 확장할 수도 있습니다.</block>
-  <block id="5358757de9216cc29d688612a3d72fe1" category="inline-link">ONTAP 9 설명서</block>
-  <block id="5812ee9e7bac0b626570d5f3cd3f1709" category="paragraph">SnapMirror Synchronous 비즈니스 연속성에 대한 자세한 내용은 를 참조하십시오<block ref="66ce9ff54cf74a6d2509b68a22ccf4bd" category="inline-link-rx"></block>.</block>
   <block id="6bf9a6b3154714a1730ade6361c842bd" category="summary">Unified Manager 및 OnCommand Workflow Automation를 사용하여 데이터를 보호하기 위해 SnapMirror 및 SnapVault 관계를 설정하기 위해 수행해야 하는 몇 가지 단계가 있습니다.</block>
   <block id="81397c4f6430c2248df8ebe7f3c2231a" category="doc">Unified Manager에서 보호 관계 설정</block>
   <block id="031a28ccbd7de3572a1cc7884f4803d3" category="list-text">2개의 클러스터 또는 2개의 SVM(스토리지 가상 머신) 간에 피어 관계를 설정해야 합니다.</block>
@@ -9332,8 +9330,6 @@
   <block id="7beb94f6fbaef8cd847dcc4e98562c31" category="paragraph">SM-BC는 SAN 환경의 페일오버 중에 RTO(복구 시간 목표)를 0으로 보장합니다. SM-BC를 지원하는 일반적인 구축 환경에서는 볼륨의 LUN이 정합성 보장 그룹 관계에 의해 보호됩니다.</block>
   <block id="9341b9e1536cc8f4c3652c7e91c736d7" category="paragraph">이러한 운영 LUN과 보조 LUN은 복합 LUN이거나 UUID와 일련 번호가 같은 복제본 LUN 쌍입니다. 입출력 작업(읽기 및 쓰기 모두)은 이러한 복합 LUN의 소스 및 대상 사이트에서 멀티플렉싱되므로 투명성이 보장됩니다.</block>
   <block id="f1c21bacefc03e4bd3d91418d06734d5" category="paragraph">복합 LUN을 보려면 정합성 보장 그룹 관계의 일부인 LUN이 포함된 운영 클러스터와 보조 클러스터를 Unified Manager에서 추가하고 검색해야 합니다. iSCSI 및 FCP LUN만 지원됩니다.</block>
-  <block id="4f7893cb4956621a7b2bd3a82e786b36" category="inline-link-macro">SnapMirror 비즈니스 연속성 솔루션 설명서</block>
-  <block id="902d8143eb613a0b94c6bc79a87044fe" category="paragraph">SM-BC에 대한 자세한 내용은 를 참조하십시오 <block ref="232a31772fdba492c0067413b2620581" category="inline-link-macro-rx"></block>.</block>
   <block id="ad5b7872fd9aa53772e0572d135d92ac" category="paragraph">환경에서 복합 LUN을 보려면 다음 단계를 수행하십시오.</block>
   <block id="c06b3a2fbcb65d98410db9f3d028d975" category="list-text">왼쪽 탐색 창에서 * 스토리지 * &gt; * LUN * 을 클릭합니다.</block>
   <block id="6a58ee8a26309acf233c906850cda0c6" category="list-text">보기 메뉴에서 * 관계 * &gt; * 모든 LUN * 을 선택합니다.</block>
@@ -11366,8 +11362,6 @@
   <block id="e8dc00bb5c4a79a30cb6961d8c719c68" category="section-title">API 범위 설정</block>
   <block id="876ee7ae93146d0a8658b4651eba9103" category="paragraph">모든 API에는 클러스터 범위 내에 컨텍스트 세트가 있습니다. 스토리지 VM을 기반으로 작동하는 API도 클러스터를 범위로 가지고 있습니다. 즉, API 작업은 관리되는 클러스터 내의 특정 스토리지 VM에서 수행됩니다. '/gateways/\{uuid}/\{path}' API를 실행할 때 작업을 실행하는 클러스터의 클러스터 UUID(Unified Manager 데이터 소스 UUID)를 입력해야 합니다. 해당 클러스터 내의 특정 스토리지 VM으로 컨텍스트를 설정하려면 스토리지 VM 키를 X-Dot-SVM-UUID 매개 변수로 입력하거나 스토리지 VM 이름을 X-Dot-SVM-Name 매개 변수로 입력합니다. 매개 변수는 문자열 헤더의 필터로 추가되며 작업이 해당 클러스터 내의 스토리지 VM 범위 내에서 실행됩니다.</block>
   <block id="716b5016376bbd3fcbebe6401884d589" category="paragraph">ONTAP REST API 사용에 대한 자세한 내용은 ONTAP REST API 개발자 가이드 를 참조하십시오.</block>
-  <block id="4fe9c7e4cf1cd9bd668b6209e4ed3347" category="inline-link">ONTAP REST API 개발자 가이드 를 참조하십시오</block>
-  <block id="e879a1c9261ab053cb14386f3f251e03" category="paragraph"><block ref="e879a1c9261ab053cb14386f3f251e03" category="inline-link-rx"></block></block>
   <block id="9f59891ed7805b3befef9ff1ec1a490c" category="summary">데이터 센터의 스토리지 객체가 임계값을 넘어가면 해당 이벤트에 대한 알림을 받습니다. 이 알림을 사용하여 문제를 분석하고 이벤트 API를 사용하여 수정 조치를 취할 수 있습니다.</block>
   <block id="34e9b3298cb9c635de0303d3aa9ef6c2" category="doc">이벤트를 사용하여 스토리지 개체의 문제 확인</block>
   <block id="841c51f97743193567036063bf854b04" category="paragraph">데이터 센터의 스토리지 객체가 임계값을 넘어가면 해당 이벤트에 대한 알림을 받습니다. 이 알림을 통해 문제를 분석하고 "이벤트" API를 사용하여 수정 조치를 취할 수 있습니다.</block>
@@ -11509,4 +11503,13 @@
   <block id="13ea07d85e49bbdae7a2c0414691f416" category="sidebar">스토리지 모니터링 및 관리</block>
   <block id="2d00b9d7d66bb4524df569339f8a571c" category="sidebar">Unified Manager에서 직접 ONTAP 문제 해결 또는 관리</block>
   <block id="77d7ce66941e6a8a53f84f813d2b2bf1" category="sidebar">REST API를 사용하여 스토리지 관리</block>
+  <block id="3890f9f0f1b24b11ec99c5302bb245a3" category="paragraph">자세한 내용은 을 참조하십시오<block ref="ae0acc7a1cf35a69eb7b42685c902841" category="inline-link-rx"></block></block>
+  <block id="10ca66f0a363b90a579ee48398d9ca6c" category="inline-link">ONTAP REST API 자동화</block>
+  <block id="64bce96c9eeebb3c2c4e4047917784d7" category="paragraph"><block ref="64bce96c9eeebb3c2c4e4047917784d7" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
+  <block id="777d37d26729d37bb63eecb74c435e85" category="inline-link">Active IQ Unified Manager 9.10에 대한 고지 사항</block>
+  <block id="0c8699048289beedeedb54f53b9ba0e1" category="paragraph"><block ref="0c8699048289beedeedb54f53b9ba0e1" category="inline-link-rx"></block></block>
+  <block id="304235bddd1bfe240019774dacdbd71e" category="inline-link-macro">SM-BC용 ONTAP 9 문서</block>
+  <block id="2eaa1a82c95cbdf0e4d38d70a85a96d7" category="paragraph">SnapMirror Synchronous 비즈니스 연속성에 대한 자세한 내용은 을 참조하십시오 <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>.</block>
+  <block id="e6426dd2e05e7210d50c422898f18af7" category="paragraph">SM-BC에 대한 자세한 내용은 를 참조하십시오 <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>.</block>
 </blocks>
