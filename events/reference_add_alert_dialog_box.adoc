@@ -5,6 +5,7 @@ keywords: add, alert, dialog, box, name, resources, events, actions, command but
 summary: 알림을 생성하여 특정 이벤트가 생성될 때 알림을 받을 수 있으므로 문제를 신속하게 해결하고 환경에 미치는 영향을 최소화할 수 있습니다. 단일 리소스 또는 리소스 집합, 특정 심각도 유형의 이벤트에 대한 알림을 생성할 수 있습니다. 알림 방법 및 알림 빈도를 지정할 수도 있습니다. 
 ---
 = 경고 추가 대화 상자
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

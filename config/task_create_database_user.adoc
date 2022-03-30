@@ -5,6 +5,7 @@ keywords: create, database, user
 summary: Workflow Automation과 Unified Manager 간의 연결을 지원하거나 데이터베이스 보기에 액세스하려면 먼저 Unified Manager 웹 UI에서 통합 스키마 또는 보고서 스키마 역할을 사용하여 데이터베이스 사용자를 만들어야 합니다. 
 ---
 = 데이터베이스 사용자 생성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

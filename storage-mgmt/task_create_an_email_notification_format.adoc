@@ -5,6 +5,7 @@ keywords: create, email, notification, format, user, group, quotas
 summary: '할당량 관련 문제(소프트 제한값 위반 또는 하드 제한값에 도달함)가 있을 때 사용자 또는 사용자 그룹에 전송되는 이메일에 대한 알림 형식을 생성할 수 있습니다.' 
 ---
 = 사용자 및 사용자 그룹 할당량에 대한 e-메일 알림 형식을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

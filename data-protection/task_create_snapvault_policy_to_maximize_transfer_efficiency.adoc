@@ -5,6 +5,7 @@ keywords: create, snapvault, policy,  maximize, transfer, efficiency
 summary: 새 SnapVault 정책을 생성하여 SnapVault 전송의 우선 순위를 설정할 수 있습니다. 보호 관계에서 정책을 사용하여 운영 스토리지에서 2차 스토리지로 전송 효율성을 극대화할 수 있습니다. 
 ---
 = 전송 효율성을 극대화하기 위한 SnapVault 정책 생성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

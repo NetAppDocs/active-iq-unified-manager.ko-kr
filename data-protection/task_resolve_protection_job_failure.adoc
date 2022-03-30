@@ -5,6 +5,7 @@ keywords: resolve, protection, job failure
 summary: 이 워크플로우에서는 Unified Manager 대시보드에서 보호 작업 장애를 식별하고 해결하는 방법의 예를 제공합니다. 
 ---
 = 보호 작업 실패 해결
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

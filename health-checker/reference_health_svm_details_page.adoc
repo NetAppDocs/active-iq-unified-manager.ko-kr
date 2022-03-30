@@ -5,6 +5,7 @@ keywords: storage VM, health details page
 summary: '스토리지 VM/상태 세부 정보 페이지를 사용하여 상태, 용량, 구성, 데이터 정책, 논리 인터페이스(LIF), LUN, qtree, 사용자, 사용자 그룹 할당량 및 보호 세부 정보 또한 스토리지 VM에 대한 관련 개체 및 관련 경고에 대한 정보도 볼 수 있습니다.' 
 ---
 = 스토리지 VM/상태 세부 정보 페이지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -7,6 +7,7 @@ summary: Active IQ Unified Manager, AIQUM 문서, UM 문서에 대한 문서입�
 ---
 = Active IQ Unified Manager 문서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

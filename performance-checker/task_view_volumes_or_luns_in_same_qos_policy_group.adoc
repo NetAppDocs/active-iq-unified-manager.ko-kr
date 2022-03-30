@@ -5,6 +5,7 @@ keywords: view, volumes, luns, same. qos, policy, group
 summary: 동일한 QoS 정책 그룹에 할당된 볼륨 및 LUN의 목록을 표시할 수 있습니다. 
 ---
 = 동일한 QoS 정책 그룹에 있는 볼륨 또는 LUN 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

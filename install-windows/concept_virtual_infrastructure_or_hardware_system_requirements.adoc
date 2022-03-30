@@ -5,6 +5,7 @@ keywords: virtual infrastructure, hardware, system, requirements, host, connecti
 summary: 가상 인프라 또는 물리적 시스템에 Unified Manager를 설치하려면 메모리, CPU 및 디스크 공간에 대한 최소 요구사항을 충족해야 합니다. 
 ---
 = 가상 인프라 및 하드웨어 시스템 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

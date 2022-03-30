@@ -5,6 +5,7 @@ keywords: audience, guide
 summary: 이 가이드는 REST API를 통해 Active IQ Unified Manager 소프트웨어와 상호 작용하는 응용 프로그램을 만드는 개발자를 위한 것입니다. 
 ---
 = 이 가이드의 대상
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

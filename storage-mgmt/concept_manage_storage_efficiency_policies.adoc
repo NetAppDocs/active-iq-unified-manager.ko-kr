@@ -5,6 +5,7 @@ keywords: manage, storage, efficiency, policies, guidelines, create, custom
 summary: 'SEP(Storage Efficiency Policy)를 사용하면 워크로드의 스토리지 효율성 특성을 정의할 수 있습니다. 처음에 워크로드를 생성할 때 또는 나중에 워크로드를 편집하여 워크로드에 SEP를 할당할 수 있습니다.' 
 ---
 = 스토리지 효율성 정책 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

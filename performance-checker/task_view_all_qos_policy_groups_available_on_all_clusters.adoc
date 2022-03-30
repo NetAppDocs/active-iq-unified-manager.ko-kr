@@ -5,6 +5,7 @@ keywords: viewing, qos, policy, groups, available, clusters
 summary: Unified Manager에서 모니터링하는 클러스터에서 사용 가능한 모든 QoS 정책 그룹의 목록을 표시할 수 있습니다. 여기에는 기존 QoS 정책, 적응형 QoS 정책, Unified Manager Performance Service Level 정책에서 관리하는 QoS 정책이 포함됩니다. 
 ---
 = 모든 클러스터에서 사용 가능한 모든 QoS 정책 그룹 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

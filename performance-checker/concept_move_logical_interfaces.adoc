@@ -5,6 +5,7 @@ keywords: move, logical, interfaces, lifs
 summary: 'LIF(논리 인터페이스)를 사용량이 적은 포트로 이동하면 로드 밸런싱을 개선하고, 유지보수 운영 및 성능 조정을 지원하고, 간접 액세스를 줄일 수 있습니다.' 
 ---
 = 논리 인터페이스(LIF) 이동
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

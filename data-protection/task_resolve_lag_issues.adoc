@@ -5,6 +5,7 @@ keywords: resolve, lag, issues
 summary: 이 워크플로에서는 지연 문제를 해결하는 방법의 예를 제공합니다. 이 시나리오에서는 Unified Manager 대시보드 페이지에 액세스하여 보호 관계에 문제가 있는지, 그리고 문제가 있는 경우 솔루션을 찾는 관리자나 운영자가 있습니다. 
 ---
 = 지연 문제 해결
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storage vm, viewing protection relationships
 summary: 스토리지 VM 페이지에서 기존 스토리지 VM의 재해 복구 관계 상태를 볼 수 있습니다. 
 ---
 = 스토리지 VM 페이지에서 보호 관계 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

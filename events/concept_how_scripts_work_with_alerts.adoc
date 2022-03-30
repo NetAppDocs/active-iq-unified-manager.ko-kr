@@ -5,6 +5,7 @@ keywords: scripts, work, alerts
 summary: 알림을 스크립트에 연결하여 Unified Manager의 이벤트에 대한 알림이 발생할 때 스크립트가 실행되도록 할 수 있습니다. 스크립트를 사용하여 스토리지 오브젝트 문제를 해결하거나 이벤트를 생성하고 있는 스토리지 오브젝트를 식별할 수 있습니다. 
 ---
 = 스크립트가 경고와 함께 작동하는 방식
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

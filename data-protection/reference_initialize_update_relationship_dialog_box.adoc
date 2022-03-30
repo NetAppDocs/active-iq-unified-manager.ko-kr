@@ -5,6 +5,7 @@ keywords: initialize, update, dialog box
 summary: Initialize/Update 대화 상자를 사용하면 새 보호 관계에 대해 초기 계획을 처음 전송할 수도 있고, 이미 초기화된 상태에서 수동으로 예정되지 않은 증분 업데이트를 수행하려는 경우 관계를 업데이트할 수도 있습니다. 
 ---
 = 초기화/업데이트 대화 상자
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

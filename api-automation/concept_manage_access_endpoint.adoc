@@ -5,6 +5,7 @@ keywords: manage, endpoints, access
 summary: 'SVM(Storage Virtual Machine), LUN 및 파일 공유를 프로비저닝하는 데 필요한 액세스 엔드포인트 또는 논리 인터페이스(LIF)를 생성해야 합니다. Active IQ Unified Manager 환경에서 SVM, LUN 또는 파일 공유에 대한 액세스 엔드포인트를 확인, 생성, 수정 및 삭제할 수 있습니다.' 
 ---
 = 액세스 엔드포인트 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

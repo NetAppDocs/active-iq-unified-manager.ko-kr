@@ -5,6 +5,7 @@ keywords: understand, counter, charts
 summary: 카운터 차트 창의 차트를 사용하면 루트 개체 및 상호 연결된 개체 표에서 추가한 개체의 성능 데이터를 보고 비교할 수 있습니다. 이를 통해 성능 추세를 파악하고 성능 문제를 격리 및 해결할 수 있습니다. 
 ---
 = 카운터 차트 이해
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

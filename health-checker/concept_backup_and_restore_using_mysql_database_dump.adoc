@@ -5,6 +5,7 @@ keywords: backup, restore, using, mysql, database, dump
 summary: MySQL 데이터베이스 덤프 백업은 시스템 장애 또는 데이터 손실 시 사용할 수 있는 Active IQ Unified Manager 데이터베이스 및 구성 파일의 복사본입니다. 백업을 로컬 대상 또는 원격 대상에 기록하도록 예약할 수 있습니다. Active IQ Unified Manager 호스트 시스템 외부의 원격 위치를 정의하는 것이 좋습니다. 
 ---
 = MySQL 데이터베이스 덤프를 사용하여 백업 및 복원
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

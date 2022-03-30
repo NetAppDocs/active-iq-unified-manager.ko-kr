@@ -5,6 +5,7 @@ keywords: view, qos, policy, group, settings, applied, specific, volumes, luns
 summary: 볼륨 및 LUN에 적용된 QoS 정책 그룹을 볼 수 있으며, 성능/QoS 정책 그룹 보기에 연결하여 각 QoS 정책에 대한 자세한 구성 설정을 표시할 수 있습니다. 
 ---
 = 특정 볼륨 또는 LUN에 적용된 QoS 정책 그룹 설정 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

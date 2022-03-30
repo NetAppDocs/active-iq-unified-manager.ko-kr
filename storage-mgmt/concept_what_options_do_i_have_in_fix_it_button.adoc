@@ -5,6 +5,7 @@ keywords: fix it,fix all
 summary: 관리 작업 페이지에서는 Unified Manager에서 이벤트를 통해 통보한 문제를 해결하기 위해 Fix it 또는 Fix All 버튼을 제공합니다. 
 ---
 = Fix it 또는 Fix All 단추가 표시되면 어떤 옵션이 있는지 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: manage, performance, service, levels
 summary: 성능 서비스 레벨을 이용하면 워크로드에 대한 성능 및 스토리지 목표를 정의할 수 있습니다. 워크로드를 처음 생성할 때 또는 나중에 워크로드를 편집하여 워크로드에 성능 서비스 수준을 할당할 수 있습니다. 
 ---
 = 성능 서비스 수준 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

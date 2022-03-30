@@ -5,6 +5,7 @@ keywords: disaster recovery, monitor, storage vm protection, relationships
 summary: Active IQ Unified Manager는 스토리지 VM 재해 복구 관계 모니터링을 지원하여 스토리지 VM 레벨의 세분화 수준으로 재해 복구를 제공합니다. 스토리지 VM 재해 복구를 사용하면 스토리지 VM의 구성 볼륨에 있는 데이터를 복구하고 스토리지 VM 구성을 복구할 수 있습니다. 
 ---
 = 스토리지 VM 재해 복구 보호 관계 모니터링
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

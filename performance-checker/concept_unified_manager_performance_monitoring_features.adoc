@@ -5,6 +5,7 @@ keywords: unified manager, performance, monitoring, features
 summary: Unified Manager는 ONTAP 소프트웨어를 실행하는 시스템에서 성능 통계를 수집하고 분석합니다. 동적 성능 임계값과 사용자 정의 성능 임계값을 사용하여 많은 클러스터 구성 요소에 대해 다양한 성능 카운터를 모니터링합니다. 
 ---
 = Unified Manager 성능 모니터링 기능
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: configure, unified manager, send, alert, notifications
 summary: Unified Manager에서 사용자 환경의 이벤트에 대한 알림을 보내도록 구성할 수 있습니다. 알림을 보내려면 먼저 몇 가지 다른 Unified Manager 옵션을 구성해야 합니다. 
 ---
 = 경고 알림을 보내도록 Unified Manager 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: create, report, view, aggregates, reaching, full capacity
 summary: 보고서를 생성하여 용량을 추가하거나 워크로드를 다른 애그리게이트로 이동할 수 있도록 전체 용량에 도달한 애그리게이트를 찾을 수 있습니다. 
 ---
 = 보고서를 생성하여 전체 용량에 도달한 애그리게이트를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

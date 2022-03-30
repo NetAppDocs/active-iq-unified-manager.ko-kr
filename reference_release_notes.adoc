@@ -5,6 +5,7 @@ keywords: release notes, active iq unified manager
 summary: Active IQ Unified Manager의 새로운 기능, 제한 사항 및 알려진 문제에 대한 요약을 제공합니다. 
 ---
 = 릴리스 정보
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

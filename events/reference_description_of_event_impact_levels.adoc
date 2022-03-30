@@ -5,6 +5,7 @@ keywords: description, event, impact, levels
 summary: '각 이벤트는 영향 수준(인시던트, 위험, 이벤트 또는 업그레이드)과 연결되어 즉각적인 수정 조치가 필요한 이벤트의 우선 순위를 지정하는 데 도움이 됩니다.' 
 ---
 = 이벤트 영향 수준에 대한 설명입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: configure, destination, schedule, database dump, backups
 summary: Unified Manager 데이터베이스 덤프 백업 설정을 구성하여 데이터베이스 백업 경로, 보존 수 및 백업 일정을 설정할 수 있습니다. 매일 또는 매주 예약된 백업을 설정할 수 있습니다. 기본적으로 예약된 백업은 비활성화되어 있지만 백업 일정을 설정해야 합니다. 
 ---
 = 데이터베이스 덤프 백업에 대한 대상 및 스케줄 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

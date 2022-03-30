@@ -5,6 +5,7 @@ keywords: perform, protection, relationship, failover, failback
 summary: 하드웨어 장애 또는 재해로 인해 보호 관계의 소스 볼륨이 비활성화되어 있는 경우, Unified Manager의 보호 관계 기능을 사용하여 보호 대상을 읽기/쓰기로 액세스하고 소스가 다시 온라인 상태가 될 때까지 해당 볼륨으로 페일오버할 수 있습니다. 그런 다음 데이터를 제공하는 데 사용할 수 있는 경우 원래 소스로 페일백할 수 있습니다. 
 ---
 = 보호 관계 페일오버 및 페일백 수행
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: view, performance, threshold, policies
 summary: 성능 임계값 페이지에서 현재 정의된 모든 성능 임계값 정책을 볼 수 있습니다. 
 ---
 = 성능 임계값 정책 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

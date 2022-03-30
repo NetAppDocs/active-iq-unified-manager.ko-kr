@@ -5,6 +5,7 @@ keywords: unified manager, determines, performance, impact, event
 summary: 'Unified Manager에서는 작업 부하에 대한 활동, 활용률, 쓰기 처리량, 클러스터 구성요소 사용량, I/O 지연 시간(응답 시간)의 편차를 사용하여 워크로드 성능에 미치는 영향 수준을 결정합니다. 이 정보는 이벤트 세부 정보 페이지에서 각 워크로드의 역할 및 순위를 결정합니다.' 
 ---
 = Unified Manager에서 이벤트에 대한 성능 영향을 확인하는 방법
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

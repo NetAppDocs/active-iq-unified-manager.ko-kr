@@ -5,6 +5,7 @@ keywords: happens, event, received
 summary: 'Unified Manager에서 이벤트를 수신하면 대시보드 페이지, 이벤트 관리 인벤토리 페이지, 클러스터/성능 페이지의 요약 및 탐색기 탭, 개체별 인벤토리 페이지(예: 볼륨/상태 인벤토리 페이지)에 표시됩니다.' 
 ---
 = 이벤트 수신 시 발생하는 현상
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: data center manager, manually, configure, mysql repository
 summary: Unified Manager를 설치하는 시스템에 MySQL Community Edition 저장소에 대한 액세스 권한이 없는 경우, 설치를 성공적으로 수행하려면 리포지토리를 수동으로 다운로드하여 구성해야 합니다. 
 ---
 = MySQL 리포지토리를 수동으로 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

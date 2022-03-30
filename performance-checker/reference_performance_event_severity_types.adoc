@@ -5,6 +5,7 @@ keywords: performance, event, severity, types
 summary: 각 성능 이벤트는 심각도 유형과 관련되어 있으므로 즉각적인 수정 조치가 필요한 이벤트의 우선 순위를 지정하는 데 도움이 됩니다. 
 ---
 = 성능 이벤트 심각도 유형
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

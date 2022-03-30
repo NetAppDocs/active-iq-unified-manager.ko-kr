@@ -5,6 +5,7 @@ keywords: workload analyzer, charts, display, data
 summary: 워크로드 분석기 페이지에는 작업 부하에 영향을 줄 수 있는 현재 이벤트에 대한 정보, 이벤트를 발생시키는 문제를 잠재적으로 해결할 수 있는 권장 사항, 성능 및 용량 기록 분석을 위한 차트가 표시됩니다. 
 ---
 = 워크로드 분석기가 표시하는 데이터는 무엇입니까
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

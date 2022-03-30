@@ -5,6 +5,7 @@ keywords: create, report, group, volume, relationships, issue
 summary: 볼륨 관계를 문제별로 그룹화하는 보고서를 만들 수 있습니다. 
 ---
 = 문제별로 볼륨 관계를 그룹화하는 보고서 생성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

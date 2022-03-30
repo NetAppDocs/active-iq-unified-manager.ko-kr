@@ -5,6 +5,7 @@ keywords: install, unified manager, windows
 summary: Windows에서 Unified Manager를 다운로드하고 설치하는 일련의 단계를 이해하는 것이 중요합니다. 
 ---
 = Windows에 Unified Manager 설치
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

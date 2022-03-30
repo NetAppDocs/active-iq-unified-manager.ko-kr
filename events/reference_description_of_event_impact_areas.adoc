@@ -5,6 +5,7 @@ keywords: description, event, impact, areas
 summary: '이벤트는 6가지 영향 영역(가용성, 용량, 구성, 성능, 보호, 및 보안)을 통해 귀하가 책임을 지는 이벤트의 유형에 집중할 수 있습니다.' 
 ---
 = 이벤트 영향 영역에 대한 설명입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

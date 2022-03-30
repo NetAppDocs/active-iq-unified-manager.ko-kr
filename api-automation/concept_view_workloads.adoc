@@ -5,6 +5,7 @@ keywords: view, storage, workloads
 summary: '여기에 나열된 API를 사용하여 데이터 센터의 모든 ONTAP 클러스터에 대한 스토리지 워크로드 통합 목록을 볼 수 있습니다. 또한, API는 Active IQ Unified Manager 환경에 프로비저닝된 스토리지 워크로드 수와 해당 용량 및 성능(IOPS) 통계를 간략하게 보여줍니다.' 
 ---
 = 스토리지 워크로드 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: remove, performance, threshold, policies, storage, objects
 summary: Unified Manager에서 성능 카운터 값을 더 이상 모니터링하지 않으려는 경우 스토리지 개체에서 사용자 정의 성능 임계값 정책을 제거할 수 있습니다. 
 ---
 = 스토리지 개체에서 성능 임계값 정책 제거
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

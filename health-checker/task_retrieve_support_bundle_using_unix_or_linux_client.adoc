@@ -5,6 +5,7 @@ keywords: retrieve, support bundle, unix, linux, client
 summary: 'UNIX 또는 Linux 사용자인 경우 Linux 클라이언트 서버에서 CLI(Command-Line Interface)를 사용하여 vApp에서 지원 번들을 검색할 수 있습니다. SCP 또는 SFTP를 사용하여 지원 번들을 검색할 수 있습니다.' 
 ---
 = UNIX 또는 Linux 클라이언트를 사용하여 지원 번들 검색
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

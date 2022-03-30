@@ -5,6 +5,7 @@ keywords: smb, cifs, view, shares, details
 summary: '공유 이름, 연결 경로, 객체 포함, 보안 설정 및 공유에 대해 정의된 내보내기 정책과 같은 모든 SMB/CIFS 공유에 대한 세부 정보를 볼 수 있습니다. 상태: 모든 SMB 공유 보기를 사용하여 모니터링되는 모든 클러스터에서 모든 SMB 공유를 확인하고, 스토리지 VM/상태 세부 정보 페이지를 사용하여 특정 SVM(스토리지 가상 머신)의 모든 SMB 공유를 볼 수 있습니다.' 
 ---
 = SMB/CIFS 공유에 대한 세부 정보 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

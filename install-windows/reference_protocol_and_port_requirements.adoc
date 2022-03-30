@@ -5,6 +5,7 @@ keywords: unified manager, protocol, port, requirements
 summary: 필요한 포트와 프로토콜을 사용하면 Unified Manager 서버와 관리되는 스토리지 시스템, 서버 및 기타 구성 요소 간에 통신할 수 있습니다. 
 ---
 = 프로토콜 및 포트 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

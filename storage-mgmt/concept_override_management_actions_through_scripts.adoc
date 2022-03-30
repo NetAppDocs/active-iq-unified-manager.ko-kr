@@ -5,6 +5,7 @@ keywords: override, management, actions, scripts
 summary: 맞춤형 스크립트를 생성하여 알림에 연결하면 특정 이벤트에 대한 특정 작업을 수행할 수 있으며, 관리 작업 페이지 또는 Unified Manager 대시보드에서 사용할 수 있는 기본 관리 작업을 선택하지 않습니다. 
 ---
 = 스크립트를 통해 관리 작업 재정의
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

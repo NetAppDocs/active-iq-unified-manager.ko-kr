@@ -5,6 +5,7 @@ keywords: system, configuration, menu
 summary: 시스템 구성 메뉴를 사용하면 서버 상태 보기, 가상 시스템 재부팅 및 종료 등의 다양한 옵션을 제공하여 가상 어플라이언스를 관리할 수 있습니다. 
 ---
 = System Configuration(시스템 구성) 메뉴
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

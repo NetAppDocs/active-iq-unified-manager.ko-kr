@@ -5,6 +5,7 @@ keywords: provision, manage, workloads
 summary: Active IQ Unified Manager의 액티브 관리 기능은 데이터 센터에서 스토리지 워크로드를 프로비저닝, 모니터링 및 관리하기 위한 성능 서비스 수준, 스토리지 효율성 정책 및 스토리지 공급자 API를 제공합니다. 
 ---
 = 워크로드 프로비저닝 및 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

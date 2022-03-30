@@ -5,6 +5,7 @@ keywords: alert, setup, page, command buttons, list view, details area
 summary: 경고 설정 페이지에는 경고 목록이 표시되고 경고 이름, 상태, 알림 방법 및 알림 빈도에 대한 정보가 표시됩니다. 이 페이지에서 경고를 추가, 편집, 제거, 활성화 또는 비활성화할 수도 있습니다. 
 ---
 = 경고 설정 페이지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

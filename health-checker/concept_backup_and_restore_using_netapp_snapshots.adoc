@@ -5,6 +5,7 @@ keywords: backup, restore, using, netapp, snapshots
 summary: NetApp 스냅샷 백업에서는 시스템 장애 또는 데이터 손실 발생 시 복원에 사용할 수 있는 Unified Manager 데이터베이스 및 구성 파일의 시점 이미지를 생성합니다. 항상 최신 복사본을 사용할 수 있도록 ONTAP 클러스터 중 하나의 볼륨에 정기적으로 스냅샷 백업을 기록하도록 예약합니다. 
 ---
 = NetApp Snapshot을 사용한 백업 및 복원
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

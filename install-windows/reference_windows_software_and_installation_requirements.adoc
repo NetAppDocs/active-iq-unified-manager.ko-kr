@@ -5,6 +5,7 @@ keywords: windows, software, installation, requirements, system
 summary: Windows에 Unified Manager를 성공적으로 설치하려면 Unified Manager가 설치된 시스템이 소프트웨어 요구사항을 충족하는지 확인해야 합니다. 
 ---
 = Windows 소프트웨어 및 설치 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 :pp: &#43;&#43;

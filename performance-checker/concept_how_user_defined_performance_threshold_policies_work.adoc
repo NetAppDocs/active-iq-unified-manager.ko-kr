@@ -5,6 +5,7 @@ keywords: user-defined, performance, threshold, policies, work
 summary: '스토리지 오브젝트(예: 애그리게이트 및 볼륨)에 대한 성능 임계값 정책을 설정하여 이벤트를 스토리지 관리자에게 보내 클러스터에 성능 문제가 발생하고 있음을 알릴 수 있습니다.' 
 ---
 = 사용자 정의 성능 임계값 정책의 작동 방식
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

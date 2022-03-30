@@ -5,6 +5,7 @@ keywords: workload, performance, measurement, values
 summary: Unified Manager는 기간별, 예상 통계 값을 기준으로 클러스터에서 워크로드의 성능을 측정하고, 해당 워크로드의 지연 시간 예측을 보여 줍니다. 또한 실제 워크로드의 통계 값을 지연 시간 예측과 비교하여 워크로드 성능이 너무 높거나 낮은 시기를 판단합니다. 예상대로 작동하지 않는 워크로드는 동적 성능 이벤트를 트리거하여 사용자에게 알립니다. 
 ---
 = 워크로드 성능 측정 값
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

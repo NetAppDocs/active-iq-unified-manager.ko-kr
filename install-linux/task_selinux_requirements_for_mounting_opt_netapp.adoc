@@ -5,6 +5,7 @@ keywords: unified manager, selinux requirements, mounting, nfs, cifs, share
 summary: NAS 또는 SAN 장치에 /opt/NetApp 또는 /opt/NetApp/데이터를 마운트하고 SELinux를 사용하도록 설정한 경우 다음 사항을 고려해야 합니다. 
 ---
 = NFS 및 CIFS 공유에 대한 SELinux 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

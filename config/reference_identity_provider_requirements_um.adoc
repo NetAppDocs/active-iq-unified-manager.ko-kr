@@ -5,6 +5,7 @@ keywords: identity, provider, requirements
 summary: 'ID 공급자(IDP)를 사용하여 모든 원격 사용자에 대해 SAML 인증을 수행하도록 Unified Manager를 구성하는 경우 Unified Manager에 성공적으로 연결되도록 몇 가지 필수 구성 설정을 알고 있어야 합니다.' 
 ---
 = ID 공급자 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

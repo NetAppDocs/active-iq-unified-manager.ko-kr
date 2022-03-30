@@ -5,6 +5,7 @@ keywords: expected, range, performance, latency, forecast, formed
 summary: 지연 시간 예측은 특정 시간에 있을 것으로 예상되는 상한 및 하한 성능 값을 예측한 것입니다. 워크로드 지연 시간의 경우 상한값이 성능 임계값을 구성합니다. 실제 값이 성능 임계값을 넘어가면 Unified Manager가 동적 성능 이벤트를 트리거합니다. 
 ---
 = 예상되는 성능 범위는 얼마입니까
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

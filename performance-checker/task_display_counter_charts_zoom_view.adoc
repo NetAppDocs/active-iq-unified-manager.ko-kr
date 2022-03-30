@@ -5,6 +5,7 @@ keywords: display, counter charts, zoom, view
 summary: 'Counter Charts Zoom View(카운터 차트 확대/축소 보기)는 선택한 카운터 차트 및 관련 타임라인에 대한 세부 정보를 제공합니다. 이렇게 하면 카운터 차트 데이터가 확대되어 성능 이벤트와 그 근본 원인을 보다 선명하게 볼 수 있습니다.' 
 ---
 = 카운터 차트 확대/축소 보기 표시
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: delete, group rules
 summary: 그룹 규칙이 더 이상 필요하지 않은 경우 Active IQ Unified Manager에서 그룹 규칙을 삭제할 수 있습니다. 
 ---
 = 그룹 규칙을 삭제하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

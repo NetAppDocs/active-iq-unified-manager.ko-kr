@@ -5,6 +5,7 @@ keywords: setting, connection, between, unified manager, server, external, data,
 summary: Unified Manager Server와 외부 데이터 공급자 간의 연결을 통해 클러스터 성능 데이터를 외부 서버로 전송하여 스토리지 관리자가 타사 소프트웨어를 사용하여 성능 메트릭을 차트에 작성할 수 있도록 합니다. 
 ---
 = Unified Manager Server와 외부 데이터 공급자 간의 연결 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

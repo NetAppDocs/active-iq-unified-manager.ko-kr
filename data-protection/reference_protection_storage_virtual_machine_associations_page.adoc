@@ -5,6 +5,7 @@ keywords: svm, peers, page
 summary: SVM 피어 페이지에서는 소스 및 타겟 스토리지 VM 간의 기존 스토리지 VM 동료를 확인하고, 파트너 애플리케이션이 사용할 수 있는 새 스토리지 VM을 생성하여 SnapMirror 및 SnapVault 관계를 구축할 수 있습니다. 
 ---
 = SVM 피어 페이지 를 참조하십시오
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

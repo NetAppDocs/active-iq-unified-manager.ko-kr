@@ -5,6 +5,7 @@ keywords: resource pools
 summary: 리소스 풀은 스토리지 관리자가 Unified Manager를 사용하여 생성한 애그리게이트 그룹이며, 백업 관리를 위해 파트너 애플리케이션에 프로비저닝을 제공합니다. 
 ---
 = 리소스 풀이란 무엇입니까
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

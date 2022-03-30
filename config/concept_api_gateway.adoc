@@ -5,6 +5,7 @@ keywords: api gateway
 summary: API 게이트웨이 기능을 통해 Active IQ Unified Manager는 개별적으로 로그인하지 않고도 여러 ONTAP 클러스터를 관리할 수 있는 단일 제어 플레인이 될 수 있습니다. 
 ---
 = API 게이트웨이 활성화 중
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

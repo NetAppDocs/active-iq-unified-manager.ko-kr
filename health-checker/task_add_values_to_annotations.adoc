@@ -5,6 +5,7 @@ keywords: add, values, annotations
 summary: 주석에 값을 추가한 다음 저장 개체를 특정 주석 이름-값 쌍과 연결할 수 있습니다. 주석에 값을 추가하면 스토리지 객체를 보다 효과적으로 관리할 수 있습니다. 
 ---
 = 주석에 값 추가
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

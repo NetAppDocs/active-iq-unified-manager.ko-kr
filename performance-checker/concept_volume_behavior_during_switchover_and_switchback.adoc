@@ -5,6 +5,7 @@ keywords: volume, behavior, switchover, switchback
 summary: 스위치오버 또는 스위치백을 트리거하는 이벤트는 활성 볼륨을 재해 복구 그룹의 다른 클러스터로 이동합니다. 활성 상태이고 클라이언트에 데이터를 제공하는 클러스터의 볼륨이 중지되고 다른 클러스터의 볼륨이 활성화되며 데이터 제공을 시작합니다. Unified Manager는 활성 상태이고 실행 중인 볼륨만 모니터링합니다. 
 ---
 = 스위치오버 및 스위치백 중 볼륨 동작
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

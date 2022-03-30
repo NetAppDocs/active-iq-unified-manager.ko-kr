@@ -5,6 +5,7 @@ keywords: scripts, page, command, buttons, list, view
 summary: 스크립트 페이지에서는 Unified Manager에 사용자 지정 스크립트를 추가할 수 있습니다. 이러한 스크립트를 경고와 연결하여 스토리지 객체를 자동으로 재구성할 수 있습니다. 
 ---
 = 스크립트 페이지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: volume, encryption, compliance, categories
 summary: 이 표에서는 Unified Manager에서 볼륨 암호화 매개 변수를 평가하여, 볼륨의 데이터가 무단 사용자에 의해 액세스되지 않도록 적절히 보호되는지 여부를 확인합니다. 
 ---
 = 볼륨 규정 준수 범주
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: understanding, reports
 summary: 보고서에는 스토리지, 네트워크, 서비스 품질 및 보호 관계에 대한 자세한 정보가 표시되어 잠재적 문제가 발생하기 전에 이를 파악하고 해결하는 데 도움이 됩니다. 
 ---
 = 보고서 이해
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

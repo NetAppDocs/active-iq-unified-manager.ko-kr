@@ -5,6 +5,7 @@ keywords: navigating, performance, workflows, unified manager, gui
 summary: Unified Manager 인터페이스는 성능 정보를 수집하고 표시하기 위한 여러 페이지를 제공합니다. 왼쪽 탐색 패널을 사용하여 GUI의 페이지로 이동하고 페이지의 탭과 링크를 사용하여 정보를 보고 구성할 수 있습니다. 
 ---
 = Unified Manager GUI에서 성능 워크플로우 탐색
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

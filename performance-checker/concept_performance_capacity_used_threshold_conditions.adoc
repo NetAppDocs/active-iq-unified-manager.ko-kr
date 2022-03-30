@@ -5,6 +5,7 @@ keywords: performance, capacity, threshold, conditions
 summary: 노드 또는 애그리게이트에 사용된 성능 용량이 정의된 성능 용량 사용 임계값 설정을 초과할 경우 이벤트가 트리거되도록 사용자 정의 성능 임계값 정책을 생성할 수 있습니다. 
 ---
 = 성능 용량에 사용된 성능 임계값 조건
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

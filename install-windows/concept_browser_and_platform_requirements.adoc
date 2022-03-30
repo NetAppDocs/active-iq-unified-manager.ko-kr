@@ -5,6 +5,7 @@ keywords: supported, browsers
 summary: Unified Manager 웹 UI에 액세스하려면 지원되는 브라우저를 사용하십시오. 
 ---
 = 지원되는 브라우저
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

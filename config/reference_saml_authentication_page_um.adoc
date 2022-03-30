@@ -5,6 +5,7 @@ keywords: saml authentication page
 summary: 'SAML 인증 페이지를 사용하면 Unified Manager 웹 UI에 로그인하기 전에 IdP(Secure Identity Provider)를 통해 SAML을 사용하여 원격 사용자를 인증하도록 Unified Manager를 구성할 수 있습니다.' 
 ---
 = SAML 인증 페이지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

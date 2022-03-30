@@ -5,6 +5,7 @@ keywords: metrocluster, configuration, verification
 summary: MetroCluster 구성이 올바르게 설정되어 있는지 확인하여 MetroCluster 구성에서 미러링된 워크로드의 성능 문제를 방지할 수 있습니다. 또한 구성을 변경하거나 소프트웨어 또는 하드웨어 구성요소를 업그레이드하여 워크로드 성능을 향상할 수 있습니다. 
 ---
 = MetroCluster 구성 검증
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

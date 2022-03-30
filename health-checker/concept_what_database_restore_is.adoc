@@ -5,6 +5,7 @@ keywords: unified manager, database, restore
 summary: MySQL 데이터베이스 복원은 기존의 Unified Manager 백업 파일을 동일한 또는 다른 Unified Manager 서버로 복원하는 프로세스입니다. Unified Manager 유지보수 콘솔에서 복원 작업을 수행합니다. 
 ---
 = 데이터베이스 복원이란 무엇입니까
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

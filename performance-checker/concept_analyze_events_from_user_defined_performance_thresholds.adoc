@@ -5,6 +5,7 @@ keywords: analyze, events, user-defined, performance, thresholds
 summary: 사용자 정의 임계값에서 생성된 이벤트는 집계 또는 볼륨과 같은 특정 스토리지 개체의 성능 카운터가 정책에 정의된 임계값을 초과했음을 나타냅니다. 이는 클러스터 개체에 성능 문제가 발생했음을 나타냅니다. 
 ---
 = 사용자 정의 성능 임계값의 이벤트 분석
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

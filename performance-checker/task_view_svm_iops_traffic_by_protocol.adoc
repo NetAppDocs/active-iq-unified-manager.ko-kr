@@ -5,6 +5,7 @@ keywords: view, svm, iops, traffic, protocol
 summary: 성능/SVM 탐색기 페이지를 사용하여 SVM에 대한 자세한 IOPS 정보를 볼 수 있습니다. IOPS - 총 카운터 차트는 SVM의 총 IOPS 사용량을 보여 주며 IOPS - 분석 카운터 차트는 SVM에 대한 읽기, 쓰기 및 기타 IOPS의 영향을 확인하는 데 유용합니다. 
 ---
 = 프로토콜별 SVM IOPS 트래픽 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: manage, host, system, resource, events
 summary: Unified Manager에는 Unified Manager가 설치된 호스트 시스템의 리소스 문제를 모니터링하는 서비스가 포함되어 있습니다. 사용 가능한 디스크 공간 부족 또는 호스트 시스템의 메모리 부족과 같은 문제는 UI 상단에 배너 메시지로 표시되는 관리 스테이션 이벤트를 트리거할 수 있습니다. 
 ---
 = 호스트 시스템 리소스 이벤트 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

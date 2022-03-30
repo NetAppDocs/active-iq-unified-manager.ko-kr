@@ -5,6 +5,7 @@ keywords: cluster compliance, categories
 summary: 이 표에는 Unified Manager가 평가하는 클러스터 보안 규정 준수 매개 변수, NetApp 권장 사항 및 매개 변수가 불만 제기인지 여부와 관련된 클러스터의 전반적인 결정에 영향을 미치는지 여부가 정리되어 있습니다. 
 ---
 = 클러스터 규정 준수 범주
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

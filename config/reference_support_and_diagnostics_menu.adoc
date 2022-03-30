@@ -5,6 +5,7 @@ keywords: support and diagnostics, menu
 summary: 지원 및 진단 메뉴를 사용하면 문제 해결 지원을 위해 기술 지원 부서에 보낼 수 있는 지원 번들을 생성할 수 있습니다. 
 ---
 = 지원 및 진단 메뉴
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

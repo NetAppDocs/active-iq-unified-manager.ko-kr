@@ -5,6 +5,7 @@ keywords: cluster, security, manage, objectives
 summary: 'Unified Manager는 ONTAP 9용 NetApp 보안 강화 가이드에 정의된 권장사항을 기반으로 ONTAP 클러스터, SVM(스토리지 가상 머신), 볼륨이 얼마나 안전한지 식별하는 대시보드를 제공합니다.' 
 ---
 = 클러스터 보안 목표 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

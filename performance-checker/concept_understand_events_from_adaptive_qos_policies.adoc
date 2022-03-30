@@ -5,6 +5,7 @@ keywords: understand, events, adaptive, qos, policies, defined, block, size
 summary: 적응형 QoS 정책 그룹은 볼륨 크기에 따라 처리량 상한 또는 하한 을 자동으로 확장하며, 볼륨 크기에 따라 IOPS와 TB의 비율을 유지합니다. ONTAP 9.5부터 QoS 정책에 블록 크기를 지정하여 MB/s 임계값을 동시에 효과적으로 적용할 수 있습니다. 
 ---
 = 블록 크기가 정의된 적응형 QoS 정책의 이벤트 이해
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

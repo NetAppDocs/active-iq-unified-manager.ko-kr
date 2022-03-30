@@ -5,6 +5,7 @@ keywords: system-defined, performance, threshold, policies, cluster, node. aggre
 summary: Unified Manager는 클러스터 성능을 모니터링하고 이벤트를 자동으로 생성하는 몇 가지 표준 임계값 정책을 제공합니다. 이러한 정책은 기본적으로 사용하도록 설정되어 있으며 모니터링되는 성능 임계값이 위반될 때 경고 또는 정보 이벤트를 생성합니다. 
 ---
 = 시스템 정의 성능 임계값 정책의 유형입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

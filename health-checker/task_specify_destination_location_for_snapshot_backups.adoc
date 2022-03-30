@@ -5,6 +5,7 @@ keywords: specify, destination location, snapshot backups
 summary: ONTAP 클러스터 중 하나에 이미 구성한 볼륨에서 Active IQ Unified Manager 스냅샷 백업의 대상 위치를 구성합니다. Active IQ Unified Manager 유지보수 콘솔에서 위치를 정의합니다. 
 ---
 = 스냅샷 백업의 대상 위치 지정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

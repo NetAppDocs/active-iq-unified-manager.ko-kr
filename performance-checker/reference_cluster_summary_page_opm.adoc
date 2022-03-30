@@ -5,6 +5,7 @@ keywords: performance, cluster, summary page
 summary: Performance Cluster Summary 페이지에는 클러스터에 대한 활성 이벤트, IOPS 성능 및 MB/s 성능이 요약되어 있습니다. 이 페이지에는 클러스터에 있는 스토리지 객체의 총 개수도 포함됩니다. 
 ---
 = 성능 클러스터 요약 페이지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

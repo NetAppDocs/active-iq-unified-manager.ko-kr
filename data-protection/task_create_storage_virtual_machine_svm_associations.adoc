@@ -5,6 +5,7 @@ keywords: create, storage, vm, peers
 summary: 스토리지 가상 시스템 피어 생성 마법사를 사용하면 파트너 보호 애플리케이션에서 소스 스토리지 VM을 대상 스토리지 VM에 연결하여 SnapMirror 및 SnapVault 관계에 사용할 수 있습니다. 파트너 애플리케이션은 대상 볼륨의 초기 프로비저닝 시 이러한 연결을 사용하여 선택할 리소스를 결정합니다. 
 ---
 = 스토리지 VM 피어 생성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

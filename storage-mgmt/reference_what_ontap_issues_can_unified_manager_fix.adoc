@@ -5,6 +5,7 @@ keywords: ontap issues, fix it action, automatic remediation feature, remediatio
 summary: 이 표에는 Unified Manager 사용자 인터페이스에서 Fix it 또는 Fix All 버튼을 클릭하여 직접 해결할 수 있는 ONTAP 문제가 설명되어 있습니다. 
 ---
 = Unified Manager로 해결할 수 있는 문제
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

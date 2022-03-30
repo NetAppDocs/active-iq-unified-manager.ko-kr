@@ -5,6 +5,7 @@ keywords: autosupport, messages, support bundles, technical support
 summary: AutoSupport 페이지에서는 사전 정의된 요청 시 AutoSupport 메시지를 기술 지원 팀에 전송하여 운영 환경을 올바르게 운영하고 환경의 무결성을 유지할 수 있도록 지원합니다. AutoSupport는 기본적으로 활성화되어 있으며NetApp Active IQ의 이점을 누릴 수 있도록 비활성화되어서는 안 됩니다. 
 ---
 = 기술 지원 팀에 AutoSupport 메시지 및 지원 번들 보내기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

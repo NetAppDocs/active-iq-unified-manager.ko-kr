@@ -5,6 +5,7 @@ keywords: hello, api server
 summary: 'Hello API 서버는 간단한 REST 클라이언트를 사용하여 Active IQ Unified Manager에서 REST API를 호출하는 방법을 보여 주는 샘플 프로그램입니다. 샘플 프로그램은 JSON 형식의 API 서버에 대한 기본 세부 정보를 제공합니다(서버는 application/json 형식만 지원).' 
 ---
 = Hello API 서버
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

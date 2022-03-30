@@ -5,6 +5,7 @@ keywords: rest api, access, authentication, active iq, unified, manager
 summary: Active IQ Unified Manager REST API는 HTTP 요청을 실행할 수 있는 모든 웹 브라우저 또는 프로그래밍 플랫폼을 사용하여 액세스할 수 있습니다. Unified Manager는 기본 HTTP 인증 메커니즘을 지원합니다. Unified Manager REST API를 호출하기 전에 사용자를 인증해야 합니다. 
 ---
 = Active IQ Unified Manager에서 REST API 액세스 및 인증
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

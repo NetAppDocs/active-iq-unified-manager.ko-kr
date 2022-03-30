@@ -5,6 +5,7 @@ keywords: create, cascade fanout, relationships, extend protection, existing pro
 summary: 소스 볼륨에서 팬아웃 또는 기존 관계의 대상 볼륨에서 캐스케이드하여 기존 관계로부터 보호를 확장할 수 있습니다. 한 사이트에서 여러 사이트로 데이터를 복사하거나 더 많은 백업을 만들어 추가 보호 기능을 제공해야 하는 경우 이 작업을 수행할 수 있습니다. 
 ---
 = 계단식 또는 팬아웃 관계를 생성하여 기존 보호 관계로부터 보호를 확장합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

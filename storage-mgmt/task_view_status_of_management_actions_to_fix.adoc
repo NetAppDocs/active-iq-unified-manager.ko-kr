@@ -5,6 +5,7 @@ keywords: view, status, management, actions, chosen, fix
 summary: 관리 작업 페이지에서 수정하도록 선택한 모든 관리 작업의 상태를 볼 수 있습니다. 대부분의 작업은 Unified Manager가 ONTAP 명령을 클러스터로 전송한 후 거의 빠르게 완료된 것으로 표시됩니다. 그러나 볼륨 이동 등의 일부 작업은 시간이 오래 걸릴 수 있습니다. 
 ---
 = 수정하도록 선택한 관리 작업의 상태를 봅니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

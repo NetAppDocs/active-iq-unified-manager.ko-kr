@@ -5,6 +5,7 @@ keywords: configure, lag, threshold settings, unmanaged, protection, relationshi
 summary: 관리되지 않는 보호 관계에 대한 전역 기본 지연 경고 및 오류 상태 임계값 설정을 편집하여 필요에 맞는 간격으로 이벤트가 생성됩니다. 
 ---
 = 관리되지 않는 보호 관계에 대한 지연 임계값 설정 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

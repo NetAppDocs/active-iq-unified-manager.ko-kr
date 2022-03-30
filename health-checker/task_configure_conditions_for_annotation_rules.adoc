@@ -5,6 +5,7 @@ keywords: unified manager, configure, conditions, annotation rules
 summary: 하나 이상의 조건을 구성하여 Unified Manager가 스토리지 개체에 적용하는 주석 규칙을 생성할 수 있습니다. 주석 규칙을 충족하는 스토리지 객체에는 규칙에 지정된 값으로 주석이 추가됩니다. 
 ---
 = 주석 규칙 조건 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

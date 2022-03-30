@@ -5,6 +5,7 @@ keywords: feature settings, active iq, portal, events
 summary: Active IQ 포털 이벤트 활성화 또는 비활성화 여부를 지정할 수 있습니다. 이 설정을 사용하면 Active IQ 포털에서 시스템 구성, 케이블 연결 등에 대한 추가 이벤트를 검색하고 표시할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다. 
 ---
 = Active IQ 포털 이벤트 활성화
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

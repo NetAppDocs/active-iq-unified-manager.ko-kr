@@ -5,6 +5,7 @@ keywords: collect, data, monitor, workload, performance
 summary: Unified Manager는 5분마다 워크로드 작업을 수집 및 분석하여 성능 이벤트를 식별하고, 15분마다 구성 변경을 감지합니다. 이 기능은 5분 동안의 기간별 성능 및 이벤트 데이터를 최대 30일까지 유지하며 이 데이터를 사용하여 모니터링되는 모든 워크로드에 대해 예측 가능한 지연 시간 범위를 예측합니다. 
 ---
 = 데이터 수집 및 워크로드 성능 모니터링
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

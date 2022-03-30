@@ -5,6 +5,7 @@ keywords: work, reports
 summary: 인벤토리 페이지 보기를 찾고 사용자 지정하여 공유 가능한 예약 보고서로 만드는 방법에 대해 알아봅니다. 
 ---
 = 보고서 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

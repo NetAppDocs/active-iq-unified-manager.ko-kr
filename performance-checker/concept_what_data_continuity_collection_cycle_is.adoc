@@ -5,6 +5,7 @@ keywords: data, continuity, collection, cycle
 summary: 데이터 연속성 수집 주기는 기본적으로 5분마다 실행되는 실시간 클러스터 성능 수집 주기를 벗어나 성능 데이터를 검색합니다. Unified Manager는 데이터 연속성 컬렉션을 통해 실시간 데이터를 수집할 수 없을 때 발생하는 통계 데이터의 격차를 해소합니다. 
 ---
 = 데이터 연속성 수집 주기는 얼마입니까
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: event, investigation, navigation
 summary: Unified Manager 이벤트 세부 정보 페이지에서는 성능 이벤트에 대한 세부 정보를 제공합니다. 이 기능은 성능 이벤트, 문제 해결 및 시스템 성능 미세 조정 시 유용합니다. 
 ---
 = 이벤트 조사 탐색
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

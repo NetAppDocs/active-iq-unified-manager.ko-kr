@@ -5,6 +5,7 @@ keywords: scan, resolve, storage, failover, interconnect link, conditions
 summary: 이 워크플로우에서는 다운된 스토리지 페일오버 인터커넥트 링크 상태를 검색, 평가 및 해결하는 방법의 예를 제공합니다. 이 시나리오에서는 Unified Manager를 사용하여 노드에서 ONTAP 버전 업그레이드를 시작하기 전에 스토리지 페일오버 위험을 검사합니다. 
 ---
 = 스토리지 페일오버 상호 연결 검색 및 해결 링크 다운 상태
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

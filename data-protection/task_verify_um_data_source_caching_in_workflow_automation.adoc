@@ -5,6 +5,7 @@ keywords: verify, unified manager, data source, cache, workflow automation
 summary: Workflow Automation에서 데이터 소스 획득이 성공적인지 확인하여 Unified Manager 데이터 소스 캐싱이 제대로 작동하는지 확인할 수 있습니다. Workflow Automation을 Unified Manager와 통합하면 통합 후 Workflow Automation 기능을 사용할 수 있는지 확인할 수 있습니다. 
 ---
 = Workflow Automation에서 Unified Manager 데이터 소스 캐싱 검증
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

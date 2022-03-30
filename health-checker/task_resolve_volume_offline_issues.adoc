@@ -5,6 +5,7 @@ keywords: resolve, volume, offline issues
 summary: 이 워크플로우에서는 Unified Manager가 이벤트 관리 인벤토리 페이지에 표시할 수 있는 볼륨 오프라인 이벤트를 평가하고 해결하는 방법의 예를 제공합니다. 이 시나리오에서는 Unified Manager를 사용하여 하나 이상의 볼륨 오프라인 이벤트 문제를 해결할 수 있습니다. 
 ---
 = 볼륨 오프라인 문제 해결
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

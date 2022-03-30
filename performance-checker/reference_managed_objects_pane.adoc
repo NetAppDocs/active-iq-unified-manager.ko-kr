@@ -5,6 +5,7 @@ keywords: managed, objects, pane
 summary: 성능 요약 정보 탭의 관리 대상 개체 창에는 클러스터에 대한 스토리지 개체 유형과 카운트의 최상위 개요가 표시됩니다. 이 창에서는 각 클러스터에 있는 개체의 상태를 추적할 수 있습니다. 
 ---
 = 관리 개체 창
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

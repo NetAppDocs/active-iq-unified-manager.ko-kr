@@ -5,6 +5,7 @@ keywords: unified manager, databases, access, custom, reporting
 summary: Unified Manager는 MySQL 데이터베이스를 사용하여 모니터링 중인 클러스터의 데이터를 저장합니다. 데이터는 MySQL 데이터베이스의 다양한 스키마로 유지됩니다. 
 ---
 = 맞춤형 보고를 위해 액세스할 수 있는 Unified Manager 데이터베이스
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

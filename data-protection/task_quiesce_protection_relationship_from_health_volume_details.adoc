@@ -5,6 +5,7 @@ keywords: quiesce, protection, relationship, volume, health details page
 summary: 보호 관계를 일시 중지하여 데이터 전송이 발생하지 않도록 할 수 있습니다. 데이터베이스가 포함된 SnapMirror 대상 볼륨의 스냅샷 복사본을 생성하려는 경우 관계를 중단시키고 스냅샷 복사본 중에 해당 볼륨의 콘텐츠가 안정적으로 유지되도록 할 수 있습니다. 
 ---
 = 볼륨/상태 세부 정보 페이지에서 보호 관계를 중지합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

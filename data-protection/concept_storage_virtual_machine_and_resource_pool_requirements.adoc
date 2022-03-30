@@ -5,6 +5,7 @@ keywords: svm, resource pool requirements, support, storage services
 summary: 스토리지 서비스와 관련된 일부 SVM 연관 및 리소스 풀 요구사항을 관찰하면 파트너 애플리케이션이 더욱 잘 부합되도록 보장할 수 있습니다. 예를 들어, SVM을 연결하고 Unified Manager에서 리소스 풀을 생성하여 파트너 애플리케이션이 제공하는 스토리지 서비스의 보호 토폴로지를 지원할 수 있습니다. 
 ---
 = 스토리지 서비스를 지원하기 위한 SVM 및 리소스 풀 요구사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

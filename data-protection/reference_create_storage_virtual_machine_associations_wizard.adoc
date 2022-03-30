@@ -5,6 +5,7 @@ keywords: create, storage, virtual machine, peers, wizard
 summary: 스토리지 가상 시스템 피어 생성 마법사를 사용하면 소스 및 타겟 스토리지 VM을 SnapMirror 및 SnapVault 보호 관계에 사용할 수 있습니다. 
 ---
 = 스토리지 가상 시스템 피어 생성 마법사
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

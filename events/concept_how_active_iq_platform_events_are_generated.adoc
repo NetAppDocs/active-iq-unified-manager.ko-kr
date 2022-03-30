@@ -5,6 +5,7 @@ keywords: active IQ, platform, events, generated
 summary: Active IQ 플랫폼 인시던트 및 위험은 다음 다이어그램에 표시된 대로 Unified Manager 이벤트로 변환됩니다. 
 ---
 = Active IQ 플랫폼 이벤트 생성 방법
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: modify, storage, workloads
 summary: 스토리지 워크로드 수정은 누락된 매개 변수를 사용하여 LUN 또는 파일 공유를 업데이트하거나 기존 매개 변수를 변경하는 작업으로 구성됩니다. 
 ---
 = 스토리지 워크로드 수정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

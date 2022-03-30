@@ -5,6 +5,7 @@ keywords: configure, destination, efficiency, settings
 summary: 고급 대상 설정 대화 상자를 사용하여 보호 대상에서 중복제거, 압축, 자동 확장, 공간 보장과 같은 대상 효율성 설정을 구성할 수 있습니다. 대상 또는 보조 볼륨에서 공간 활용률을 최대화하려는 경우 이러한 설정을 사용합니다. 
 ---
 = 대상 효율성 설정을 구성하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

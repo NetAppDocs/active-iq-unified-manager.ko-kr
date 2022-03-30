@@ -5,6 +5,7 @@ keywords: change, length, time, unified manager, retains, event, performance, da
 summary: 기본적으로 Unified Manager는 모니터링되는 모든 클러스터에 대해 6개월 동안 이벤트 데이터 및 성능 데이터를 저장합니다. 이 시간이 지나면 새 데이터를 저장할 공간을 만들기 위해 오래된 데이터가 자동으로 삭제됩니다. 이 기본 일정은 대부분의 구성에서 잘 작동하지만, 많은 클러스터와 노드가 있는 매우 큰 구성에서는 Unified Manager가 최적으로 작동하도록 보존 기간을 줄여야 할 수 있습니다. 
 ---
 = Unified Manager가 이벤트 및 성능 데이터를 유지하는 기간을 변경합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

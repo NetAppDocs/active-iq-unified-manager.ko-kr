@@ -5,6 +5,7 @@ keywords: verify, svms, clusters
 summary: '파일 공유 또는 LUN을 프로비저닝하기 전에 클러스터에 SVM(Storage Virtual Machine)이 생성되어 있는지 확인해야 합니다.' 
 ---
 = 클러스터에서 SVM 확인
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

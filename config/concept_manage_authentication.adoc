@@ -5,6 +5,7 @@ keywords: manage, authentication
 summary: Unified Manager 서버에서 LDAP 또는 Active Directory를 사용하여 인증을 설정하고 서버와 함께 작동하도록 구성하여 원격 사용자를 인증할 수 있습니다. 
 ---
 = 인증 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

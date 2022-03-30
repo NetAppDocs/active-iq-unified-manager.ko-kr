@@ -5,6 +5,7 @@ keywords: active iq, unified manager, api, access, categories
 summary: Active IQ Unified Manager API를 사용하면 사용자 환경에서 스토리지 객체를 관리 및 프로비저닝할 수 있습니다. 또한 Unified Manager 웹 UI에 액세스하여 이러한 기능 중 일부를 수행할 수도 있습니다. 
 ---
 = Active IQ Unified Manager API 액세스 및 범주
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 :pp: &#43;&#43;

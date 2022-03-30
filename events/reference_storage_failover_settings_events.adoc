@@ -5,6 +5,7 @@ keywords: storage, failover, settings, events, impact area, availability
 summary: 'SFO(Storage Failover) 설정 이벤트는 잠재적인 문제를 모니터링할 수 있도록 스토리지 페일오버가 비활성화되었는지 구성되지 않는지에 대한 정보를 제공합니다. 이벤트는 영향 영역별로 그룹화되며 이벤트 및 트랩 이름, 영향 수준, 소스 유형 및 심각도를 포함합니다.' 
 ---
 = 스토리지 페일오버 설정 이벤트입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: performance, counters, tracked, thresholds
 summary: IOPS 및 MB/s와 같은 일부 일반적인 성능 카운터는 모든 스토리지 개체에 대해 임계값을 설정할 수 있습니다. 특정 스토리지 객체에 대해서만 임계값을 설정할 수 있는 다른 카운터가 있습니다. 
 ---
 = 임계값을 사용하여 추적할 수 있는 성능 카운터
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

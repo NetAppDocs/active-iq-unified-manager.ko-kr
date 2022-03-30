@@ -5,6 +5,7 @@ keywords: unified manager, migrate, virtual, appliance, linux system
 summary: Unified Manager를 실행하는 호스트 운영 체제를 변경하려면 Unified Manager MySQL 데이터베이스 덤프 백업을 가상 어플라이언스에서 Red Hat Enterprise Linux 또는 CentOS Linux 시스템으로 복구할 수 있습니다. 
 ---
 = Unified Manager 가상 어플라이언스를 Linux 시스템으로 마이그레이션
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: slo, storage efficiency policy, storage workloads
 summary: '정책 기반 스토리지 관리 옵션을 사용하면 SLO(서비스 수준 목표)를 기준으로 스토리지를 관리할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다.' 
 ---
 = 정책 기반 스토리지 관리 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

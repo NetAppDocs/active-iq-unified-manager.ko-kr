@@ -5,6 +5,7 @@ keywords: view, details, nfs shares
 summary: '상태, 볼륨과 연결된 경로(FlexGroup 볼륨 또는 FlexVol 볼륨), NFS 공유에 대한 클라이언트의 액세스 수준, 내보낸 볼륨에 대해 정의된 엑스포트 정책과 같은 모든 NFS 공유에 대한 세부 정보를 볼 수 있습니다. 상태: 모든 NFS 공유 보기를 사용하여 모니터링되는 모든 클러스터에서 모든 NFS 공유를 확인하고, 스토리지 VM/상태 세부 정보 페이지를 사용하여 특정 SVM(스토리지 가상 머신)의 모든 NFS 공유를 볼 수 있습니다.' 
 ---
 = NFS 공유에 대한 세부 정보 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

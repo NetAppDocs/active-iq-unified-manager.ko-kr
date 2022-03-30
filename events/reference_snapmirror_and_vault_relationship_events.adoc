@@ -5,6 +5,7 @@ keywords: asynchronous, mirror, vault, relationship, events, impact area, protec
 summary: 비동기식 미러 및 볼트 관계 이벤트는 비동기식 SnapMirror 및 볼트 관계의 상태에 대한 정보를 제공하여 잠재적인 문제를 모니터링할 수 있도록 합니다. 볼륨 및 스토리지 VM 보호 관계 모두에 대해 비동기식 미러 및 볼트 관계 이벤트가 지원됩니다. 그러나 저장소 VM 재해 복구에는 볼트 관계만 지원되지 않습니다. 이벤트는 영향 영역별로 그룹화되며 이벤트 및 트랩 이름, 영향 수준, 소스 유형 및 심각도를 포함합니다. 
 ---
 = 비동기식 미러 및 볼트 관계 이벤트입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

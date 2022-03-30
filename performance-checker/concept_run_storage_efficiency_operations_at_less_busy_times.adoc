@@ -5,6 +5,7 @@ keywords: run, storage, efficiency, operations, less, busy, times
 summary: 영향을 받는 볼륨 워크로드의 사용량이 적을 때 실행할 스토리지 효율성 작업을 처리하는 정책 또는 일정을 수정할 수 있습니다. 
 ---
 = 사용 빈도가 낮은 시간에 스토리지 효율성 작업을 실행합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

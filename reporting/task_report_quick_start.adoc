@@ -5,6 +5,7 @@ keywords: reporting, quick, start
 summary: '보기 탐색 및 보고서 예약을 경험할 수 있는 샘플 사용자 지정 보고서를 만듭니다. 이 빠른 시작 보고서에서는 상당히 많은 양의 비활성(콜드) 데이터가 있으므로 클라우드 계층으로 이동할 수 있는 볼륨 목록을 찾습니다. Performance:All Volumes 보기를 열고, 필터와 열을 사용하여 보기를 사용자 지정하고, 사용자 지정 보기를 보고서로 저장하고, 보고서를 일주일에 한 번 공유하도록 예약합니다.' 
 ---
 = 빠른 시작 보고
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

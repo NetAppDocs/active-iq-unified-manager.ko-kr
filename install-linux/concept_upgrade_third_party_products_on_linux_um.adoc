@@ -5,6 +5,7 @@ keywords: data center manager, upgrade, third-party products
 summary: Linux 시스템에 설치된 경우 Unified Manager에서 JRE와 같은 타사 제품을 업그레이드할 수 있습니다. 
 ---
 = Unified Manager 설치 후 타사 제품 업그레이드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

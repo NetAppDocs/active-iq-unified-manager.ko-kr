@@ -5,6 +5,7 @@ keywords: qos, policy, group, performance, events
 summary: 'Unified Manager는 워크로드 처리량(IOPS, IOPS/TB 또는 MBps)이 정의된 ONTAP QoS 정책 설정을 초과하고 워크로드 지연 시간에 영향을 미칠 경우 QoS 정책 경고 이벤트를 생성합니다. 많은 워크로드가 지연 시간의 영향을 받기 전에 이러한 시스템 정의 이벤트를 통해 잠재적 성능 문제를 해결할 수 있습니다.' 
 ---
 = QoS 정책 그룹 성능 이벤트에 응답
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

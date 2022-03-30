@@ -5,6 +5,7 @@ keywords: perform, suggested, remedial actions, volume
 summary: '“Volume Space Full(볼륨 공간 부족)” 오류 이벤트가 발생한 후 이벤트 세부 정보 페이지에서 제안된 개선 조치를 검토하고 권장 조치 중 하나를 수행합니다.' 
 ---
 = 전체 볼륨에 대해 제안된 개선 작업 수행
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

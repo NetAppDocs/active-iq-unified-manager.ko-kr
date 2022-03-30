@@ -5,6 +5,7 @@ keywords: netapp, snapshot, backup, windows, configure, ontap, cluster
 summary: Windows용 Active IQ Unified Manager 스냅샷 백업 및 복원을 구성하기 전에 ONTAP 및 Windows 호스트 시스템에 대해 몇 가지 사전 구성을 수행해야 합니다. 
 ---
 = ONTAP 클러스터를 구성하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

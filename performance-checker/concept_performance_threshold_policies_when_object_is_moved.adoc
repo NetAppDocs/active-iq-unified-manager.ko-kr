@@ -5,6 +5,7 @@ keywords: happens, performance, threshold, policies, object, moved
 summary: 성능 임계값 정책은 스토리지 개체에 할당되므로 개체를 이동할 경우 이동을 완료한 후에도 할당된 모든 임계값 정책이 개체에 연결된 상태로 유지됩니다. 예를 들어, 볼륨 또는 LUN을 다른 애그리게이트로 이동하는 경우 임계값 정책은 새 애그리게이트에 있는 볼륨 또는 LUN에 대해 여전히 활성 상태입니다. 
 ---
 = 오브젝트를 이동할 때 성능 임계값 정책이 어떻게 되는지 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

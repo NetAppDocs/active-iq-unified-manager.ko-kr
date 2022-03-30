@@ -5,6 +5,7 @@ keywords: configure, backup, location, windows
 summary: Windows에 Active IQ Unified Manager를 설치한 경우에도 Snapshot 백업을 저장할 볼륨을 구성해야 합니다. 
 ---
 = Windows의 백업 위치 구성
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

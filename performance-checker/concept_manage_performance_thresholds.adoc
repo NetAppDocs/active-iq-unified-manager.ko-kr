@@ -5,6 +5,7 @@ keywords: manage, performance, thresholds
 summary: 성능 임계값 정책을 사용하면 Unified Manager에서 이벤트를 생성하는 시점을 확인하여 시스템 관리자에게 워크로드 성능에 영향을 줄 수 있는 문제를 알릴 수 있습니다. 이러한 임계값 정책을 사용자 정의 성능 임계값이라고 합니다. 
 ---
 = 성능 임계값 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

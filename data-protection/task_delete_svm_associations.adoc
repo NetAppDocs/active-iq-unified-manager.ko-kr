@@ -5,6 +5,7 @@ keywords: delete, storage, vm, peers
 summary: 파트너 애플리케이션용 스토리지 VM 피어를 삭제하여 소스 및 대상 스토리지 VM 간의 보조 프로비저닝 관계를 제거할 수 있습니다. 예를 들어, 대상 스토리지 VM이 꽉 차고 새 스토리지 VM 보호 피어를 생성하려는 경우 이 작업을 수행할 수 있습니다. 
 ---
 = 스토리지 VM 피어를 삭제하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

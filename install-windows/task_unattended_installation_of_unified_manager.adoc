@@ -5,6 +5,7 @@ keywords: perform, unattended, installation, unified manager
 summary: 명령줄 인터페이스를 사용하여 사용자 개입 없이 Unified Manager를 설치할 수 있습니다. 키 값 쌍의 매개 변수를 전달하여 무인 설치를 완료할 수 있습니다. 
 ---
 = Unified Manager의 자동 설치 수행
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: view, cluster security status, svm security status, volume encryption 
 summary: 보안 페이지에는 모든 클러스터에 대한 높은 수준의 보안 상태 및 개별 클러스터에 대한 자세한 보안 상태가 표시됩니다. 상세 클러스터 상태에는 클러스터 규정 준수, SVM 규정 준수, 볼륨 암호화 준수가 포함됩니다. 
 ---
 = 클러스터 및 스토리지 VM에 대한 자세한 보안 상태 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

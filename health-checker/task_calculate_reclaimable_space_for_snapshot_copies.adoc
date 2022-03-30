@@ -5,6 +5,7 @@ keywords: calculate, reclaimable space, snapshot copies
 summary: 하나 이상의 스냅샷 복사본이 삭제된 경우 회수할 수 있는 디스크 공간의 양을 계산할 수 있습니다. 
 ---
 = 스냅샷 복사본에 대한 재확보 가능한 공간 계산
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

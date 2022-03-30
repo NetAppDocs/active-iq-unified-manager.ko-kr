@@ -5,6 +5,7 @@ keywords: definitions, user roles
 summary: 유지보수 사용자 또는 애플리케이션 관리자는 모든 사용자에게 역할을 할당합니다. 각 역할에는 특정 권한이 포함됩니다. Unified Manager에서 수행할 수 있는 작업의 범위는 할당된 역할 및 역할에 포함된 권한에 따라 다릅니다. 
 ---
 = 사용자 역할의 정의
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

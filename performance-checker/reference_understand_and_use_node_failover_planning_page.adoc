@@ -5,6 +5,7 @@ keywords: understanding, node, failover, planning page
 summary: '성능/노드 장애 조치 계획 페이지에서는 노드의 고가용성(HA) 파트너 노드에 장애가 발생할 경우 노드에 대한 성능 영향을 예측합니다. Unified Manager는 HA 쌍 내 노드의 기간별 성능을 기준으로 추정합니다.' 
 ---
 = 노드 장애 조치 계획 페이지의 이해 및 사용
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

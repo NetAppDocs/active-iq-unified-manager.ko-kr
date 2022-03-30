@@ -5,6 +5,7 @@ keywords: deploy, unified manager
 summary: Unified Manager를 구축하려면 소프트웨어 다운로드, 가상 어플라이언스 구축, 유지보수 사용자 이름 및 암호 생성, 웹 UI에서 초기 설정 작업이 포함됩니다. 
 ---
 = Unified Manager 구축
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

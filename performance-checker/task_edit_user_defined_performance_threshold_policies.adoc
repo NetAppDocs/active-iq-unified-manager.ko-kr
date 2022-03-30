@@ -5,6 +5,7 @@ keywords: edit, user-defined, performance, threshold, policies
 summary: 기존 성능 임계값 정책에 대한 임계값 설정을 편집할 수 있습니다. 이 기능은 특정 임계값 조건에 대해 너무 많거나 적은 경고를 수신하는 경우 유용할 수 있습니다. 
 ---
 = 사용자 정의 성능 임계값 정책 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

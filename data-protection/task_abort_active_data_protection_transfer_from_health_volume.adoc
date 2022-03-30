@@ -5,6 +5,7 @@ keywords: abort, active, data protection, transfer, volume health details page
 summary: 진행 중인 SnapMirror 복제를 중지하려는 경우 활성 데이터 보호 전송을 중단할 수 있습니다. 기본 전송이 아닌 경우 전송에 대한 재시작 체크포인트를 지울 수도 있습니다. 볼륨 이동 같은 다른 작업과 충돌하는 경우 전송을 중단할 수 있습니다. 
 ---
 = 볼륨/상태 세부 정보 페이지에서 활성 데이터 보호 전송을 중단합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

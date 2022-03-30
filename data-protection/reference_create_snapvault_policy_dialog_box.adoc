@@ -5,6 +5,7 @@ keywords: create, snapvault, policy, dialog box
 summary: SnapVault 정책 생성 대화 상자에서는 SnapVault 전송의 우선 순위를 설정하는 정책을 생성할 수 있습니다. 정책을 사용하여 운영 볼륨에서 2차 볼륨으로 전송하는 효율성을 극대화할 수 있습니다. 
 ---
 = SnapVault 정책 생성 대화 상자
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

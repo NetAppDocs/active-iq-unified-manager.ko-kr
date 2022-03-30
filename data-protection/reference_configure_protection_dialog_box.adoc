@@ -5,6 +5,7 @@ keywords: configure, protection, dialog box
 summary: 보호 구성 대화 상자를 사용하여 클러스터의 모든 읽기, 쓰기 및 데이터 보호 볼륨에 대해 SnapMirror 및 SnapVault 관계를 생성하여 소스 볼륨 또는 기본 볼륨의 데이터가 복제되도록 할 수 있습니다. 
 ---
 = 보호 구성 대화 상자
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

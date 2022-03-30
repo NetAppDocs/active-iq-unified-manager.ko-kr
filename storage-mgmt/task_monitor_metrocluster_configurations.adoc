@@ -5,6 +5,7 @@ keywords: monitor, metrocluster, configurations
 summary: MetroCluster 구성에서 연결 문제를 모니터링할 수 있습니다. 세부 정보에는 클러스터 내의 구성 요소 및 연결 상태와 MetroCluster 구성의 클러스터 간 연결 상태가 포함됩니다. 
 ---
 = MetroCluster 구성 모니터링
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

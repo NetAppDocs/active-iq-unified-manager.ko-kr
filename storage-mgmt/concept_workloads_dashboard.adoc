@@ -5,6 +5,7 @@ keywords: workloads, overview, data center, sections
 summary: 워크로드는 볼륨 또는 LUN과 같은 스토리지 개체의 입출력 작업을 나타냅니다. 스토리지가 프로비저닝되는 방식은 예상되는 워크로드 요구 사항을 기반으로 합니다. 워크로드 통계는 스토리지 오브젝트 간에 트래픽이 있는 경우에만 Active IQ Unified Manager에서 추적합니다. 예를 들어 워크로드 IOPS 및 지연 시간 값은 사용자가 데이터베이스 또는 이메일 애플리케이션을 시작한 후에 사용할 수 있습니다. 
 ---
 = 워크로드 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

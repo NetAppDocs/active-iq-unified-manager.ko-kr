@@ -5,6 +5,7 @@ keywords: provision, luns
 summary: '프로비저닝 워크로드 페이지에서 기존 클러스터와 스토리지 가상 머신(스토리지 VM)에서 CIFS/SMB 및 NFS 프로토콜을 지원하는 LUN을 생성할 수 있습니다.' 
 ---
 = LUN 프로비저닝
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

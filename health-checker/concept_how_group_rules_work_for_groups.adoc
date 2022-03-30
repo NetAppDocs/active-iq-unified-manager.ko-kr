@@ -5,6 +5,7 @@ keywords: group rules, work, groups
 summary: '그룹 규칙은 스토리지 오브젝트(볼륨, 클러스터 또는 SVM)를 특정 그룹에 포함할 수 있도록 정의하는 기준입니다. 조건 그룹 또는 조건을 사용하여 그룹에 대한 그룹 규칙을 정의할 수 있습니다.' 
 ---
 = 그룹 규칙이 그룹에 대해 작동하는 방식
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

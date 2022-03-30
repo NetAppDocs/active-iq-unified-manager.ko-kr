@@ -5,6 +5,7 @@ keywords: node, failover, planning page, determine, corrective, actions
 summary: 성능/노드 장애 조치 계획 페이지에 표시되는 정보를 기반으로, 장애 조치가 HA 쌍의 성능을 허용 수준 아래로 떨어뜨지 않도록 조치를 취할 수 있습니다. 
 ---
 = 노드 장애 조치 계획 페이지를 사용하여 수정 조치를 결정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

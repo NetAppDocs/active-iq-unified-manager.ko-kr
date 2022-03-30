@@ -5,6 +5,7 @@ keywords: monitor, troubleshoot, data availability
 summary: Unified Manager는 권한이 있는 사용자가 저장된 데이터에 액세스할 수 있는 안정성을 모니터링하고, 해당 액세스를 차단하거나 방해하는 조건을 경고하며, 이러한 상태를 진단하고, 해결책을 할당 및 추적할 수 있도록 합니다. 
 ---
 = 데이터 가용성 모니터링 및 문제 해결
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

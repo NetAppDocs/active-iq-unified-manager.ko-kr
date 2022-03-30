@@ -5,6 +5,7 @@ keywords: group
 summary: '그룹은 이기종 스토리지 오브젝트(클러스터, SVM 또는 볼륨)의 동적 모음입니다. Unified Manager에서 그룹을 생성하여 스토리지 객체 세트를 쉽게 관리할 수 있습니다. 그룹의 구성원은 특정 시점에 Unified Manager에서 모니터링하는 스토리지 개체에 따라 변경될 수 있습니다.' 
 ---
 = 그룹이란 무엇인가
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: event, details, page
 summary: 이벤트 세부 정보 페이지에서 이벤트 심각도, 영향 수준, 영향 영역 및 이벤트 소스와 같은 선택한 이벤트의 세부 정보를 볼 수 있습니다. 문제 해결을 위해 가능한 해결 방법에 대한 추가 정보도 볼 수 있습니다. 
 ---
 = 이벤트 세부 정보 페이지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

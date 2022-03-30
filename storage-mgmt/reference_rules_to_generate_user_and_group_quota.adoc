@@ -5,6 +5,7 @@ keywords: rules, generate, user, group, quota, email, address, page, area, defin
 summary: 사용자 및 그룹 할당량 이메일 주소 생성 규칙 페이지에서는 클러스터, SVM, 볼륨, Qtree, 사용자, 애플리케이션 등과 관련된 사용자 할당량을 기준으로 이메일 주소를 지정하는 규칙을 또는 사용자 그룹. 할당량이 침해되면 지정된 e-메일 주소로 알림이 전송됩니다. 
 ---
 = 사용자 및 그룹 할당량 이메일 주소 생성 규칙 페이지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

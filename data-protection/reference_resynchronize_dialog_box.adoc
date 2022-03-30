@@ -5,6 +5,7 @@ keywords: resynchronize, dialog box
 summary: 재동기화 대화 상자를 사용하면 이전에 중단된 SnapMirror 또는 SnapVault 관계의 데이터를 재동기화한 다음 대상이 읽기/쓰기 볼륨으로 만들어진 후에 다시 동기화할 수 있습니다. 소스 볼륨에서 필요한 공통 스냅샷 복사본이 삭제되어 SnapMirror 또는 SnapVault 업데이트가 실패하는 경우에도 재동기화할 수 있습니다. 
 ---
 = 대화 상자를 다시 동기화합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

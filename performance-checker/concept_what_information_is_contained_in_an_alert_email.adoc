@@ -5,6 +5,7 @@ keywords: information, contained, alert, email
 summary: Unified Manager 경고 이메일은 이벤트 유형, 이벤트의 심각도, 이벤트를 발생시키는 위반된 정책 또는 임계값의 이름, 이벤트에 대한 설명을 제공합니다. 또한 전자 메일 메시지에는 UI에서 이벤트의 세부 정보 페이지를 볼 수 있는 각 이벤트에 대한 하이퍼링크도 제공됩니다. 
 ---
 = 경고 이메일에 포함된 정보
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

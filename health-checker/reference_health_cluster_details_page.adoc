@@ -5,6 +5,7 @@ keywords: cluster, health details page
 summary: '클러스터/상태 세부 정보 페이지에는 상태, 용량 및 구성 세부 정보와 같은 선택한 클러스터에 대한 자세한 정보가 표시됩니다. 또한 LIF(네트워크 인터페이스), 노드, 디스크, 관련 장치 및 클러스터에 대한 관련 경고에 대한 정보도 볼 수 있습니다.' 
 ---
 = 클러스터/상태 세부 정보 페이지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

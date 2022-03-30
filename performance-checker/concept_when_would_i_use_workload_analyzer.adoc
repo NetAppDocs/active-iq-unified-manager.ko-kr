@@ -5,6 +5,7 @@ keywords: workload analyzer, use
 summary: 일반적으로 워크로드 분석기를 사용하여 사용자가 보고한 지연 시간 문제를 해결하거나, 보고된 이벤트 또는 경고를 보다 철저히 분석하거나, 비정상적으로 작동하는 워크로드를 탐색할 수 있습니다. 
 ---
 = 워크로드 분석기는 언제 사용해야 합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

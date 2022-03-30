@@ -5,6 +5,7 @@ keywords: description, cluster, object, windows, dialog boxes
 summary: 각 스토리지 오브젝트 페이지에서 모든 클러스터와 클러스터 오브젝트를 볼 수 있습니다. 해당 스토리지 객체 세부 정보 페이지에서 세부 정보를 볼 수도 있습니다. 이제 인벤토리의 다음 스토리지 및 보호 섹션에서 System Manager 사용자 인터페이스를 시작할 수 있습니다. 
 ---
 = 클러스터 객체 창 및 대화 상자에 대한 설명입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

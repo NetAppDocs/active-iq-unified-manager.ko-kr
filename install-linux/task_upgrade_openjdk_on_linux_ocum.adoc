@@ -5,6 +5,7 @@ keywords: openjdk, jre, linux, upgrade
 summary: Unified Manager가 설치된 Linux 서버에서 최신 버전의 OpenJDK로 업그레이드하여 보안 취약점에 대한 수정 사항을 확인할 수 있습니다. 
 ---
 = Linux에서 OpenJDK 업그레이드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

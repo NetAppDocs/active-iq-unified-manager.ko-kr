@@ -5,6 +5,7 @@ keywords: security criteria, evaluated
 summary: '일반적으로 ONTAP 클러스터, SVM(스토리지 가상 머신), 볼륨에 대한 보안 기준은 ONTAP 9에 대한 NetApp 보안 강화 가이드에 정의된 권장사항을 기준으로 평가됩니다.' 
 ---
 = 평가 대상 보안 기준
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

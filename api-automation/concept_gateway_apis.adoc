@@ -5,6 +5,7 @@ keywords: access, ONTAP, APIs, proxy, access
 summary: 게이트웨이 API를 사용하면 Active IQ Unified Manager 자격 증명을 사용하여 ONTAP REST API를 실행하고 스토리지 객체를 관리할 수 있습니다. 이러한 API는 Unified Manager 웹 UI에서 API 게이트웨이 기능을 사용하도록 설정한 경우 사용할 수 있습니다. 
 ---
 = 프록시 액세스를 통해 ONTAP API 액세스
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

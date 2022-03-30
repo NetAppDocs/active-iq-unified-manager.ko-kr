@@ -5,6 +5,7 @@ keywords: types, reports
 summary: 이 표는 사용자 지정, 다운로드 및 예약할 수 있는 보고서로 사용할 수 있는 보기 및 인벤토리 페이지의 전체 목록을 제공합니다. 
 ---
 = 보고서 유형
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

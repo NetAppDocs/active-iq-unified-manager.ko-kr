@@ -5,6 +5,7 @@ keywords: troubleshoot, ontap, volumes, gateway, api
 summary: 게이트웨이 API는 ONTAP API를 호출하여 ONTAP 스토리지 객체에 대한 정보를 쿼리하고 보고된 문제를 해결하기 위한 조치를 취하는 게이트웨이 역할을 합니다. 
 ---
 = 게이트웨이 API를 사용하여 ONTAP 볼륨 문제 해결
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: relationships page, monitor, storage, vm
 summary: 인벤토리의 보호 섹션에 있는 관계 페이지에서 스토리지 VM 재해 복구 관계를 모니터링할 수 있습니다. 기본적으로 관계 페이지에는 구성 관계 필터가 적용될 때 최상위 관계만 나열됩니다. 
 ---
 = 관계 페이지를 사용하여 스토리지 VM 모니터링
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

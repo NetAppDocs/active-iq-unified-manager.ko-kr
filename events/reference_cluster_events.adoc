@@ -5,6 +5,7 @@ keywords: cluster events, impact, area, availability, capacity, configuration, p
 summary: 클러스터 이벤트는 클러스터의 상태에 대한 정보를 제공하므로 클러스터에서 잠재적인 문제가 있는지 모니터링할 수 있습니다. 이벤트는 영향 영역별로 그룹화되며 이벤트 이름, 트랩 이름, 영향 수준, 소스 유형 및 심각도를 포함합니다. 
 ---
 = 클러스터 이벤트입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

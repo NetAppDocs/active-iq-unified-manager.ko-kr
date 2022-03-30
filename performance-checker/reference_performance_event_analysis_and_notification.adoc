@@ -5,6 +5,7 @@ keywords: performance, event, analysis, notification
 summary: 성능 이벤트는 클러스터 구성 요소의 경합으로 인해 발생하는 워크로드의 I/O 성능 문제를 알려줍니다. Unified Manager에서 이벤트를 분석하여 관련 워크로드, 경합 중인 구성 요소 및 문제가 여전히 해결해야 할 문제인지 여부를 파악합니다. 
 ---
 = 성능 이벤트 분석 및 알림
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

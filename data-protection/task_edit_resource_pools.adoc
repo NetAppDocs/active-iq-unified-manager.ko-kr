@@ -5,6 +5,7 @@ keywords: edit, resource, pools
 summary: 자원 그룹 이름과 설명을 변경하려는 경우 기존 자원 그룹을 편집할 수 있습니다. 
 ---
 = 리소스 풀 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

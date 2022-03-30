@@ -5,6 +5,7 @@ keywords: configure, event, notification, settings
 summary: 이벤트가 생성되거나 이벤트가 사용자에게 할당될 때 알림을 보내도록 Unified Manager를 구성할 수 있습니다. 알림을 보내는 데 사용되는 SMTP 서버를 구성할 수 있으며, 알림 알림을 e-메일 또는 SNMP 트랩으로 보낼 수 있는 등 다양한 알림 메커니즘을 설정할 수 있습니다. 
 ---
 = 이벤트 알림 설정을 구성하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

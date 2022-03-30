@@ -5,6 +5,7 @@ keywords: install, unified manager
 summary: Unified Manager를 물리적 또는 가상 Red Hat Enterprise Linux 또는 CentOS 플랫폼에 설치할 수 있습니다. 
 ---
 = Unified Manager 설치 중
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: unified manager, user, roles, capabilities
 summary: 할당된 사용자 역할에 따라 Unified Manager에서 수행할 수 있는 작업을 결정할 수 있습니다. 
 ---
 = Unified Manager 사용자 역할 및 기능
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: netapp, snapshot, backup, windows, configure, windows host machine
 summary: 'NetApp 스냅샷 백업을 준비하려면 Active IQ Unified Manager가 설치된 Windows 호스트 시스템을 구성해야 합니다. Windows 호스트 시스템에서 Microsoft iSCSI 초기자를 시작하려면 검색 표시줄에 "iSCSI"를 입력하고 iSCSI 초기자를 클릭합니다.' 
 ---
 = Windows 호스트 시스템을 구성하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

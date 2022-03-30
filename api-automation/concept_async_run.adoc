@@ -5,6 +5,7 @@ keywords: job, objects, asynchronous, processes
 summary: Active IQ Unified Manager는 다른 API를 실행하는 동안 수행된 작업에 대한 정보를 검색하는 작업 API를 제공합니다. 작업 개체를 사용하여 비동기 처리가 작동하는 방식을 알아야 합니다. 
 ---
 = 작업 객체 비동기 프로세스
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

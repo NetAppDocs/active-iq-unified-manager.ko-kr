@@ -5,6 +5,7 @@ keywords: add, space, logical, drive, microsoft windows server
 summary: Unified Manager 데이터베이스의 디스크 공간을 늘려야 하는 경우 Unified Manager가 설치된 논리 드라이브에 용량을 추가할 수 있습니다. 
 ---
 = Microsoft Windows 서버의 논리 드라이브에 공간 추가
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: unified manager, interfaces, manage, storage system, health
 summary: 이 가이드에서는 Active IQ Unified Manager에서 데이터 스토리지 용량, 가용성 및 보호 문제 해결을 위해 제공하는 두 가지 사용자 인터페이스에 대한 정보를 다룹니다. UI 두 개는 Unified Manager 웹 UI와 유지보수 콘솔입니다. 
 ---
 = 스토리지 시스템 상태를 관리하는 데 사용되는 Unified Manager 인터페이스
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

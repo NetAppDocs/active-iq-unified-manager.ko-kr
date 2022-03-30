@@ -5,6 +5,7 @@ keywords: dynamic, performance, event, chart, details
 summary: 동적 성능 이벤트의 경우 이벤트 세부 정보 페이지의 시스템 진단 섹션에 경합 중인 클러스터 구성 요소의 사용 또는 지연 시간이 가장 긴 최상위 워크로드가 나열됩니다. 성능 통계는 이벤트가 마지막으로 분석된 시간까지 성능 이벤트가 감지된 시간을 기준으로 합니다. 또한 차트에는 경합 중인 클러스터 구성 요소에 대한 기간별 성능 통계도 표시됩니다. 
 ---
 = 동적 성능 이벤트 차트 세부 정보
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

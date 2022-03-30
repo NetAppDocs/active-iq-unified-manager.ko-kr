@@ -5,6 +5,7 @@ keywords: cluster, performance, events, pane, counter
 summary: 클러스터 성능 이벤트 창에는 클러스터에 대한 성능 통계 및 모든 활성 이벤트가 표시됩니다. 이 기능은 클러스터와 모든 클러스터 관련 성능 및 이벤트를 모니터링할 때 가장 유용합니다. 
 ---
 = 클러스터 성능 이벤트 창
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

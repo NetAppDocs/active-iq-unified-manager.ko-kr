@@ -5,6 +5,7 @@ keywords: user, group, quota, events, impact area, capacity
 summary: 사용자 및 그룹 할당량 이벤트는 잠재적 문제를 모니터링할 수 있도록 사용자 및 사용자 그룹 할당량의 용량 및 파일 및 디스크 제한에 대한 정보를 제공합니다. 이벤트는 영향 영역별로 그룹화되며 이벤트 및 트랩 이름, 영향 수준, 소스 유형 및 심각도를 포함합니다. 
 ---
 = 사용자 및 그룹 할당량 이벤트입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: volume, provision, disk, volume, thin-provisioning
 summary: 볼륨이 씬 프로비저닝되지 않은 경우 볼륨이 생성될 때 정의된 대로 디스크의 전체 공간을 차지합니다. 씬 프로비저닝을 사용하지 않는 볼륨을 식별하면 특정 볼륨에서 씬 프로비저닝을 사용할지 여부를 결정하는 데 도움이 됩니다. 
 ---
 = 씬 프로비저닝이 해제된 볼륨에서 사용하는 공간을 식별하는 보고서를 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

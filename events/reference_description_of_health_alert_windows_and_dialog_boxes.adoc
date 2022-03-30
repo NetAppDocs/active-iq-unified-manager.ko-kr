@@ -5,6 +5,7 @@ keywords: description, alert, windows, dialog boxes
 summary: 경고 추가 대화 상자를 사용하여 이벤트에 대한 알림을 받도록 알림을 구성해야 합니다. 경고 설정 페이지에서 경고 목록을 볼 수도 있습니다. 
 ---
 = 경고 창 및 대화 상자에 대한 설명입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

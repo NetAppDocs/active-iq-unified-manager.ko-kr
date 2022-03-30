@@ -5,6 +5,7 @@ keywords: view, cluster security status, svm security status, high-level
 summary: Unified Manager 대시보드의 보안 패널에는 현재 보기에 따라 모든 클러스터 또는 단일 클러스터에 대한 상위 수준의 보안 상태가 표시됩니다. 
 ---
 = 상위 클러스터 보안 상태 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

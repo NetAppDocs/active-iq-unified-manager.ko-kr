@@ -5,6 +5,7 @@ keywords: unified manager, interfaces, used, manage, storage, system, performanc
 summary: Active IQ Unified Manager는 데이터 스토리지 성능 문제를 모니터링하고 문제를 해결하기 위해 웹 사용자 인터페이스와 유지보수 콘솔 등 두 가지 사용자 인터페이스를 제공합니다. 
 ---
 = 스토리지 시스템 성능을 관리하는 데 사용되는 Unified Manager 인터페이스
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

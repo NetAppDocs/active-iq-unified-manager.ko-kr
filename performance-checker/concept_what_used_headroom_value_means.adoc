@@ -5,6 +5,7 @@ keywords: performance, capacity, value, means
 summary: 사용된 성능 용량은 현재 과도하게 사용하거나 활용도가 낮은 노드와 애그리게이트를 식별하는 데 도움이 됩니다. 따라서 스토리지 리소스를 더욱 효율적으로 사용하기 위해 워크로드를 재배포할 수 있습니다. 
 ---
 = 사용된 성능 용량이 갖는 의미
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

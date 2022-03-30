@@ -5,6 +5,7 @@ keywords: restore, linux system, mysql, database, backup
 summary: 데이터 손실 또는 데이터 손상이 발생할 경우 Unified Manager를 최소한의 데이터 손실로 이전의 안정적인 상태로 복원할 수 있습니다. Unified Manager 유지 관리 콘솔을 사용하여 Unified Manager 데이터베이스를 로컬 또는 원격 Red Hat Enterprise Linux 또는 CentOS 시스템으로 복원할 수 있습니다. 
 ---
 = Linux 시스템에서 MySQL 데이터베이스 백업을 복원합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

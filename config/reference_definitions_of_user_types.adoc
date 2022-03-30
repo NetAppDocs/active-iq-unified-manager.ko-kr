@@ -5,6 +5,7 @@ keywords: definitions, user types
 summary: 사용자 유형은 사용자가 보유하는 계정의 종류를 지정하며 원격 사용자, 원격 그룹, 로컬 사용자, 데이터베이스 사용자 및 유지 보수 사용자를 포함합니다. 이러한 각 유형에는 관리자 역할을 가진 사용자가 할당하는 고유한 역할이 있습니다. 
 ---
 = 사용자 유형 정의
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: generate, https, security, certificate
 summary: Active IQ Unified Manager를 처음 설치하면 기본 HTTPS 인증서가 설치됩니다. 기존 인증서를 대체하는 새 HTTPS 보안 인증서를 생성할 수 있습니다. 
 ---
 = HTTPS 보안 인증서를 생성하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

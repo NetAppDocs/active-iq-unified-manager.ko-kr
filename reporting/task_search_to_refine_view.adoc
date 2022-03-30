@@ -5,6 +5,7 @@ keywords: search, refine, view
 summary: 원하는 보기가 있으면 검색 필드를 사용하여 보고서에 포함할 결과에 초점을 맞춰 결과를 더 구체화할 수 있습니다. 
 ---
 = 검색을 사용하여 보기를 구체화합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

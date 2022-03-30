@@ -5,6 +5,7 @@ keywords: backup, restore, unified manager, virtual, appliance
 summary: 가상 어플라이언스에 설치된 Unified Manager의 백업 및 복원 모델은 전체 가상 애플리케이션의 이미지를 캡처하여 복원하는 것입니다. 
 ---
 = 가상 어플라이언스의 Unified Manager에 대한 백업 및 복원
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

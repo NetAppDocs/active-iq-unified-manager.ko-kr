@@ -5,6 +5,7 @@ keywords: assign, performance, threshold, policies, storage, objects
 summary: 성능 카운터 값이 정책 설정을 초과할 경우 Unified Manager에서 이벤트를 보고하도록 스토리지 개체에 사용자 정의 성능 임계값 정책을 할당합니다. 
 ---
 = 스토리지 객체에 성능 임계값 정책 할당
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

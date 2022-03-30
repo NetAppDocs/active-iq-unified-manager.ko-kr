@@ -5,6 +5,7 @@ keywords: event, setup, page, command, buttons, list, view
 summary: 이벤트 설정 페이지에는 비활성화된 이벤트 목록이 표시되며 연결된 개체 유형 및 이벤트 심각도와 같은 정보가 제공됩니다. 또한 이벤트를 전역적으로 비활성화하거나 활성화하는 등의 작업을 수행할 수도 있습니다. 
 ---
 = 이벤트 설정 페이지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

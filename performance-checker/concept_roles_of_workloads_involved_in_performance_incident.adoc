@@ -5,6 +5,7 @@ keywords: roles, workloads, involved, performance, event
 summary: Unified Manager에서는 역할을 사용하여 성능 이벤트에서 워크로드가 어떻게 관여하는지 파악합니다. 희생자, 폭리, 상어 등의 역할을 합니다. 사용자 정의 워크로드는 동시에 피해자이고 괴롭히는 상어가 될 수 있습니다. 
 ---
 = 성능 이벤트와 관련된 워크로드의 역할
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

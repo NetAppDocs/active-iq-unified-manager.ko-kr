@@ -5,6 +5,7 @@ keywords: edit, authentication servers
 summary: Unified Manager 서버가 인증 서버와 통신하는 데 사용하는 포트를 변경할 수 있습니다. 
 ---
 = 인증 서버 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

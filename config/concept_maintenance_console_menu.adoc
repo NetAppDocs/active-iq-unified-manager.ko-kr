@@ -5,6 +5,7 @@ keywords: maintenance, console, menus
 summary: 유지보수 콘솔은 Unified Manager 서버의 특수 기능 및 구성 설정을 유지 관리 및 관리할 수 있는 다양한 메뉴로 구성되어 있습니다. 
 ---
 = 유지보수 콘솔 메뉴
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

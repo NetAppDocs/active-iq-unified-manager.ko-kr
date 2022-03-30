@@ -5,6 +5,7 @@ keywords: assign, policies, workloads, single, multiple, storage, system-recomme
 summary: '다양한 탐색 옵션을 사용하여 모든 워크로드 페이지의 스토리지 워크로드에 CDP(스토리지 효율성 정책) 및 PSL(성능 서비스 수준)을 할당할 수 있습니다.' 
 ---
 = 작업 부하에 정책 할당
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

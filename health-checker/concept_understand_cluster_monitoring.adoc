@@ -5,6 +5,7 @@ keywords: understand, cluster, monitor
 summary: 'Unified Manager 데이터베이스에 클러스터를 추가하여 가용성, 용량 및 기타 세부 정보(예: CPU 사용, 인터페이스 통계, 사용 가능한 디스크 공간, qtree 사용, 섀시 환경)를 클러스터에서 모니터링할 수 있습니다.' 
 ---
 = 클러스터 모니터링 이해
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: specify, destination location, windows, snapshot, backups
 summary: ONTAP 클러스터 중 하나에서 이미 구성한 볼륨의 Active IQ Unified Manager 스냅샷 백업에 대한 대상 위치를 구성하고 유지보수 콘솔을 사용하여 위치를 정의해야 합니다. 
 ---
 = Windows Snapshot 백업의 대상 위치 지정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

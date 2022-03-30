@@ -5,6 +5,7 @@ keywords: available, iops, total iops, aggregate iops, volume iops
 summary: '사용 가능한 IOPS 카운터는 리소스가 제한에 도달하기 전에 노드나 애그리게이트에 추가할 수 있는 IOPS의 남은 수를 식별합니다. 노드가 제공할 수 있는 총 IOPS는 노드의 물리적 특성(예: CPU 수, CPU 속도 및 RAM 용량)을 기반으로 합니다. Aggregate가 제공할 수 있는 총 IOPS는 디스크의 물리적 속성(예: SATA, SAS 또는 SSD 디스크)을 기반으로 합니다.' 
 ---
 = 사용 가능한 IOPS는 무엇입니까
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

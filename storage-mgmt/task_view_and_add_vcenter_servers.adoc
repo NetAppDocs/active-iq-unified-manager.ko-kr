@@ -5,6 +5,7 @@ keywords: view, add, vcenter, server
 summary: 'VM(가상 머신)의 성능을 확인하고 문제를 해결하려면 관련 vCenter Server를 Active IQ Unified Manager 인스턴스에 추가해야 합니다.' 
 ---
 = vCenter Server 보기 및 추가
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

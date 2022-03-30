@@ -5,6 +5,7 @@ keywords: create, schedule, dialog box
 summary: 일정 생성 대화 상자에서는 SnapMirror 및 SnapVault 관계 전송에 대한 기본 또는 고급 보호 일정을 생성할 수 있습니다. 데이터 업데이트가 자주 발생하므로 데이터 전송 빈도를 높이기 위해 새 일정을 만들거나, 데이터가 자주 변경되지 않는 경우 일정을 덜 자주 만들 수 있습니다. 
 ---
 = 일정 생성 대화 상자
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

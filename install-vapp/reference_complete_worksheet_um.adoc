@@ -5,6 +5,7 @@ keywords: complete, worksheet, installation, information, unified manager
 summary: Unified Manager를 설치 및 구성하기 전에 환경에 대한 정보를 즉시 확인할 수 있어야 합니다. 워크시트에 정보를 기록할 수 있습니다. 
 ---
 = 워크시트를 작성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

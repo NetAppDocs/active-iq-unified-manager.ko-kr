@@ -5,6 +5,7 @@ keywords: configure, event, retention, settings
 summary: '이벤트가 자동으로 삭제되기 전에 Unified Manager 서버에 유지되는 기간(월)을 지정할 수 있습니다.' 
 ---
 = 이벤트 보존 설정을 구성하는 중입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

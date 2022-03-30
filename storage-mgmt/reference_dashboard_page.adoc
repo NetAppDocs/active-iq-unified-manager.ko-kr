@@ -5,6 +5,7 @@ keywords: dashboard page,
 summary: '대시보드 페이지에는 모니터링하는 클러스터의 높은 수준, 성능 및 보안 상태를 표시하는 "패널"이 있습니다. 또한 Unified Manager에서 특정 이벤트를 해결하기 위해 수행할 수 있는 수정 사항이 나열된 관리 작업 패널도 제공합니다.' 
 ---
 = 대시보드 페이지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

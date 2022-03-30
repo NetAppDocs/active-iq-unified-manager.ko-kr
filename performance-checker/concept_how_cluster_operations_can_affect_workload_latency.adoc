@@ -5,6 +5,7 @@ keywords: cluster, operations, affect, workload, latency
 summary: '운영(IOPS)은 클러스터에서 모든 사용자 정의 및 시스템 정의 워크로드의 작업을 나타냅니다. IOPS 통계는 백업 또는 중복제거 실행 등과 같은 클러스터 프로세스가 워크로드 지연 시간(응답 시간)에 영향을 미치는지, 또는 성능 이벤트의 원인인지 여부를 파악하는 데 도움이 됩니다.' 
 ---
 = 클러스터 작업이 워크로드 지연 시간에 미치는 영향
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: define, backup, schedule, linux, windows
 summary: Unified Manager UI를 사용하여 Unified Manager 스냅샷 백업이 생성되는 일정을 구성할 수 있습니다. 
 ---
 = Linux 및 Windows에 대한 백업 일정 정의
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

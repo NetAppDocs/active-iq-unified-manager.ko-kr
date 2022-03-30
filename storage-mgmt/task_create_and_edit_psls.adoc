@@ -5,6 +5,7 @@ keywords: create, edit, performance, service, Levels
 summary: 시스템 정의 성능 서비스 수준이 워크로드 요구 사항과 일치하지 않으면 워크로드에 최적화된 자체 성능 서비스 수준을 생성할 수 있습니다. 
 ---
 = 성능 서비스 수준 생성 및 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

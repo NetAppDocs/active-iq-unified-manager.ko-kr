@@ -5,6 +5,7 @@ keywords: active iq, unified manager
 summary: Active IQ Unified Manager은 타사 통합을 위해 RESTful 웹 서비스 인터페이스를 통해 지원되는 스토리지 시스템에서 스토리지 리소스를 관리하는 일련의 API를 제공합니다. 
 ---
 = Active IQ Unified Manager 시작하기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

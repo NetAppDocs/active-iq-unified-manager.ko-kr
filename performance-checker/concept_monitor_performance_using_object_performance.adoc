@@ -5,6 +5,7 @@ keywords: monitoring, performance, inventory, pages
 summary: 오브젝트 인벤토리 성능 페이지에는 오브젝트 유형 범주 내의 모든 오브젝트에 대한 성능 정보, 성능 이벤트 및 오브젝트 상태가 표시됩니다. 클러스터 내에서 모든 노드 또는 모든 볼륨과 같은 각 개체의 성능 상태를 한눈에 파악할 수 있습니다. 
 ---
 = 성능 인벤토리 페이지를 사용하여 성능 모니터링
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

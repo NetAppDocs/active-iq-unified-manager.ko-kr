@@ -5,6 +5,7 @@ keywords: suggest, actions, section, displays
 summary: 이벤트 세부 정보 페이지의 권장 조치 섹션에서는 이벤트에 대해 가능한 원인을 제공하고 사용자가 직접 이벤트를 해결할 수 있도록 몇 가지 조치를 제안합니다. 제안된 작업은 위반된 이벤트 유형 또는 임계값 유형에 따라 사용자 정의됩니다. 
 ---
 = 권장 조치 섹션이 표시되는 내용
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

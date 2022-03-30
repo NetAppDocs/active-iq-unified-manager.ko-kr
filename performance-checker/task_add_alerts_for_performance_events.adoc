@@ -5,6 +5,7 @@ keywords: add, alerts, performance, events
 summary: Unified Manager에서 수신한 다른 이벤트처럼 개별 성능 이벤트에 대한 알림을 구성할 수 있습니다. 또한 모든 성능 이벤트를 동일하게 처리하고 동일한 사용자에게 이메일을 전송하려는 경우, 중요한 이벤트 또는 경고 성능 이벤트가 트리거될 때 단일 알림을 생성할 수 있습니다. 
 ---
 = 성능 이벤트에 대한 알림 추가
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

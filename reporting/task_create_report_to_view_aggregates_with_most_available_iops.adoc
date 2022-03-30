@@ -5,6 +5,7 @@ keywords: create, report, view, aggregates, available, IOPS
 summary: 이 보고서는 새 워크로드를 프로비저닝할 수 있는 애그리게이트 유형별로 가장 가용성이 높은 IOPS를 제공하는 애그리게이트를 보여줍니다. 
 ---
 = 보고서를 생성하여 사용 가능한 IOPS가 가장 높은 애그리게이트를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

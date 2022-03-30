@@ -5,6 +5,7 @@ keywords: setting, graphite, receive, performance, data, unified manager
 summary: 흑연은 컴퓨터 시스템에서 성능 데이터를 수집하고 그래프로 작성하기 위한 개방형 소프트웨어 도구입니다. Unified Manager로부터 통계 데이터를 수신하려면 Graphite 서버 및 소프트웨어를 올바르게 구성해야 합니다. 
 ---
 = Unified Manager로부터 성능 데이터를 수신하도록 Graphite 설정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

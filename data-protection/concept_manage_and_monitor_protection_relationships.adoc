@@ -5,6 +5,7 @@ keywords: manage, monitor, protection, relationships
 summary: Active IQ Unified Manager를 사용하면 보호 관계를 생성하고, 관리 대상 클러스터에서 SnapMirror 및 SnapVault 관계를 모니터링 및 해결하며, 데이터를 덮어쓰거나 손실할 때 데이터를 복원할 수 있습니다. 
 ---
 = 보호 관계 관리 및 모니터링
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

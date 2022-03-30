@@ -5,6 +5,7 @@ keywords: discovery, process, works
 summary: 클러스터를 Unified Manager에 추가한 후에는 서버에서 클러스터 개체를 검색하고 해당 개체를 데이터베이스에 추가합니다. 검색 프로세스의 작동 방식을 이해하면 조직의 클러스터와 개체를 관리하는 데 도움이 됩니다. 
 ---
 = 검색 프로세스의 작동 방식
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

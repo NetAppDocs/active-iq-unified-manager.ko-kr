@@ -5,6 +5,7 @@ keywords: managing, performance, qos, policy, group, information
 summary: 'Unified Manager를 사용하면 모니터링 중인 모든 클러스터에서 사용할 수 있는 서비스 품질(QoS) 정책 그룹을 확인할 수 있습니다. ONTAP 소프트웨어(System Manager 또는 ONTAP CLI) 또는 Unified Manager 성능 서비스 수준 정책을 사용하여 정책을 정의했을 수 있습니다. 또한 Unified Manager에는 QoS 정책 그룹이 할당된 볼륨 및 LUN이 표시됩니다.' 
 ---
 = QoS 정책 그룹 정보를 사용하여 성능 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: create, edit, storage, efficiency, policies
 summary: 시스템 정의 스토리지 효율성 정책이 워크로드 요구사항에 맞지 않을 경우 워크로드에 최적화된 자체 스토리지 효율성 정책을 생성할 수 있습니다. 
 ---
 = 스토리지 효율성 정책 생성 및 편집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

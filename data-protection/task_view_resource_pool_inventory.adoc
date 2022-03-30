@@ -5,6 +5,7 @@ keywords: view, resource pools, inventory
 summary: 리소스 풀 페이지를 사용하여 리소스 풀 인벤토리를 보고 각 리소스 풀의 남은 용량을 모니터링할 수 있습니다. 
 ---
 = 리소스 풀 인벤토리 보기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: happens, performance, threshold, policy, breached
 summary: 기간에 지정된 시간 동안 카운터 값이 정의된 성능 임계값을 초과하면 임계값이 위반되고 이벤트가 보고됩니다. 
 ---
 = 성능 임계값 정책이 위반될 경우 발생하는 현상
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

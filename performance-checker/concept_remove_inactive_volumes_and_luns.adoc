@@ -5,6 +5,7 @@ keywords: remove, inactive, volumes, luns
 summary: 애그리게이트 가용 공간이 문제로 식별된 경우, 사용하지 않는 볼륨 및 LUN을 검색하여 Aggregate에서 삭제할 수 있습니다. 이렇게 하면 디스크 공간 부족 문제를 완화할 수 있습니다. 
 ---
 = 비활성 볼륨 및 LUN을 제거합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

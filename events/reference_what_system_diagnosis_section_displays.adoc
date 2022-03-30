@@ -5,6 +5,7 @@ keywords: system, diagnosis, section, displays
 summary: 이벤트 세부 정보 페이지의 시스템 진단 섹션에서는 이벤트에 대한 책임이 있을 수 있는 문제를 진단하는 데 도움이 되는 정보를 제공합니다. 
 ---
 = 시스템 진단(System Diagnosis) 섹션이 표시되는 내용
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: manage, lun
 summary: /storage-provider/LUNs API를 사용하여 데이터 센터 환경에서 LUN을 확인, 추가, 수정 및 삭제할 수 있습니다. 
 ---
 = LUN 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

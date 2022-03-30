@@ -5,6 +5,7 @@ keywords: restore, linux, snapshot, backup, windows
 summary: 데이터 손실 또는 데이터 손상이 발생할 경우 Unified Manager를 최소한의 데이터 손실로 이전의 안정적인 상태로 복원할 수 있습니다. Unified Manager 유지보수 콘솔을 사용하여 Unified Manager 스냅샷 데이터베이스를 로컬 또는 원격 운영 체제로 복원할 수 있습니다. 
 ---
 = Linux 및 Windows용 스냅샷 백업 복원
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

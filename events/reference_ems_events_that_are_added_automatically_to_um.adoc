@@ -5,6 +5,7 @@ keywords: ems events, added, automatically, unified manager
 summary: 다음 ONTAP EMS 이벤트가 Unified Manager에 자동으로 추가됩니다. 이러한 이벤트는 Unified Manager가 모니터링하는 모든 클러스터에서 트리거될 때 생성됩니다. 
 ---
 = Unified Manager에 자동으로 추가되는 EMS 이벤트입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

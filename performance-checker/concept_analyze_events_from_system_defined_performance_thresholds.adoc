@@ -5,6 +5,7 @@ keywords: analyze, events, system-defined, performance, thresholds
 summary: 시스템 정의 성능 임계값에서 생성된 이벤트는 특정 스토리지 개체의 성능 카운터 또는 성능 카운터 집합이 시스템 정의 정책의 임계값을 초과했음을 나타냅니다. 이는 Aggregate 또는 노드와 같은 스토리지 개체에 성능 문제가 있음을 나타냅니다. 
 ---
 = 시스템 정의 성능 임계값에서 이벤트 분석
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

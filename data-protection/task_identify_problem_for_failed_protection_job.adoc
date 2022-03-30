@@ -5,6 +5,7 @@ keywords: identify, problem, perform, corrective actions, failed, protection job
 summary: 이벤트 세부 정보 페이지의 원인 필드에서 작업 실패 오류 메시지를 검토하고 스냅샷 복사본 오류로 인해 작업이 실패했는지 확인합니다. 그런 다음 볼륨/상태 세부 정보 페이지로 이동하여 추가 정보를 수집합니다. 
 ---
 = 문제 식별 및 실패한 보호 작업에 대한 수정 조치 수행
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
