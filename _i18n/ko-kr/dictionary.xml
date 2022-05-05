@@ -347,7 +347,6 @@
   <block id="254045ee23205cb1ac3f6e05905ecfab" category="summary">Active IQ Unified Manager의 새로운 기능, 제한 사항 및 알려진 문제에 대한 요약을 제공합니다.</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="doc">릴리스 정보</block>
   <block id="12dc360fa3d8165171389ee06172a133" category="inline-link">Active IQ Unified Manager 릴리즈 노트</block>
-  <block id="4e427abe6975ad68570ad74a11e7a6b2" category="paragraph">자세한 내용은 를 참조하십시오<block ref="d0f8dfd7cdd23d8e0e271d321686681b" category="inline-link-rx"></block>.</block>
   <block id="f4d5e78b085b0eab90a0158473fd3527" category="summary">명령줄 인터페이스를 사용하여 사용자 개입 없이 Unified Manager를 설치할 수 있습니다. 키 값 쌍의 매개 변수를 전달하여 무인 설치를 완료할 수 있습니다.</block>
   <block id="4b058365dabda1abbf1146ca92d60e24" category="doc">Unified Manager의 자동 설치 수행</block>
   <block id="1bdb2ecd542504154bcdfdb77f35dfb9" category="list-text">기본 로컬 관리자 계정을 사용하여 Windows 명령줄 인터페이스에 로그인합니다.</block>
@@ -11627,4 +11626,5 @@
   <block id="a28def0e6555993fb14b2d945874f854" category="sidebar">Active IQ Unified Manager 9.10 설명서</block>
   <block id="0d8a88420d6ff91d22ed7f26bf97d526" category="sidebar">클러스터 및 스토리지 VM에 대한 자세한 보안 상태 보기</block>
   <block id="934295d1ea6542a74e859da73b8634ee" category="sidebar">스토리지 VM 연결 이해</block>
+  <block id="0d4c7c4a66605b6134a539fd94ba3c6a" category="paragraph">자세한 내용은 를 참조하십시오<block ref="d6b13b683bf04ebfc408e75a5dbc55ae" category="inline-link-rx"></block>.</block>
 </blocks>
