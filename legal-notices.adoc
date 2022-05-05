@@ -45,4 +45,6 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
 
 == 오픈 소스
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2879276["Active IQ Unified Manager 9.10에 대한 고지 사항"]
+이 제품에 사용된 타사 저작권 및 라이센스에 대한 정보입니다.
+
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2881957["Active IQ Unified Manager 9.11에 대한 고지"]

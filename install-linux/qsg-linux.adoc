@@ -12,7 +12,7 @@ summary: Linux 플랫폼의 Unified Manager에 대한 빠른 시작 가이드
 
 == 시스템 요구 사항
 
-* 운영 체제: x86_64 아키텍처 기반의 Red Hat Enterprise Linux 및 CentOS 버전 7.x 및 8.x, OS 설치 프로그램의 * 소프트웨어 선택 * 옵션에서 "GUI 기반 서버" 기본 환경을 사용하여 설치
+* 운영 체제: x86_64 아키텍처 기반의 Red Hat Enterprise Linux 버전 7.x 및 8.x 또는 CentOS 버전 7.x는 OS 설치 프로그램의 * 소프트웨어 선택 * 옵션에서 "GUI 포함 서버" 기본 환경을 사용하여 설치됩니다
 * RAM: 12GB, CPU: 총 9572MHz
 * 사용 가능한 디스크 공간: '/opt/netapp/data' 디렉토리에 100GB, 루트 파티션에 50GB 디스크 공간이 있습니다. 별도로 마운트된 '/opt' 및 '/var/log' 디렉토리의 경우, '/opt'에 15GB가 있고, '/var/log'에 16GB가 있고, '/tmp'에 10GB의 여유 공간이 있는지 확인하십시오.
 

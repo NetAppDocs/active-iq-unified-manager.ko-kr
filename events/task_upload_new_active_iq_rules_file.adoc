@@ -1,7 +1,7 @@
 ---
 permalink: events/task_upload_new_active_iq_rules_file.html 
 sidebar: sidebar 
-keywords: upload, new, active iq, rules, file 
+keywords: upload, new, active iq AIQ rules, rules file, CA secure rules, config advisor rules 
 summary: Unified Manager는 새 Active IQ 규칙 파일을 자동으로 확인하고 새로운 규칙이 있을 때 새 파일을 다운로드합니다. 그러나 외부 네트워크에 액세스할 수 없는 사이트에서는 규칙 파일을 수동으로 업로드해야 합니다. 
 ---
 = 새 Active IQ 규칙 파일을 업로드하는 중입니다
@@ -11,18 +11,31 @@ summary: Unified Manager는 새 Active IQ 규칙 파일을 자동으로 확인�
 
 
 [role="lead"]
-Unified Manager는 새 Active IQ 규칙 파일을 자동으로 확인하고 새로운 규칙이 있을 때 새 파일을 다운로드합니다. 그러나 외부 네트워크에 액세스할 수 없는 사이트에서는 규칙 파일을 수동으로 업로드해야 합니다.
+Unified Manager는 새로운 Active IQ 이벤트(규칙) 파일을 자동으로 확인하고 새로운 규칙이 있을 때 새 파일을 다운로드합니다. 그러나 외부 네트워크에 액세스할 수 없는 사이트에서는 규칙 파일을 수동으로 업로드해야 합니다.
+
+
+NOTE: Active IQ 규칙은 CA(Config Advisor) 보안 규칙이라고도 합니다.
+
+네트워크에 연결하지 않고 Unified Manager를 사이트의 특정 릴리즈로 설치 또는 업그레이드하는 경우 번들 Active IQ 규칙을 자동으로 업로드할 수 있습니다. 하지만 NetApp Support 사이트에서 매월 약 한 번 새로운 규칙 파일을 다운로드하여 업데이트된 이벤트가 생성되고 스토리지 시스템이 최적의 상태로 계속 작동하도록 하는 것이 좋습니다.
 
 * 필요한 것 *
 
-* Active IQ 이벤트 보고를 활성화해야 합니다.
+* Active IQ 포털 이벤트 보고를 활성화해야 합니다. 이 기능은 기본적으로 활성화되어 있습니다. 자세한 내용은 을 참조하십시오 link:../config/concept_active_iq_platform_events.html["Active IQ 포털 이벤트 활성화"].
 * NetApp Support 사이트에서 규칙 파일을 다운로드해야 합니다.
++
+규칙 파일은 다음 위치에 있습니다. https://mysupport.netapp.com/api/content-service/staticcontents/content/public/tools/unifiedmanager/ca/secure_rules.zip[]
 
 
-스토리지 시스템을 보호하고 최적의 상태로 실행하기 위해 한 달에 약 한 번 새로운 규칙 파일을 다운로드하는 것이 좋습니다. 규칙 파일은 다음 위치에 있습니다. http://mysupport.netapp.com/NOW/public/unified_manager/bin/secure_rules.zip[]
 
 .단계
 . 네트워크 액세스가 가능한 컴퓨터에서 NetApp Support 사이트로 이동하여 현재 규칙 파일 '.zip'을 다운로드합니다.
++
+번들 규칙 패키지에는 규칙 저장소, 데이터 소스 및 NetApp KB 문서가 포함되어 있습니다.
+
++
+
+NOTE: Windows 시스템의 경우 네트워크에 연결되지 않은 사이트에서 NetApp KB 문서가 기본적으로 설치 프로그램과 함께 번들로 제공되지 않습니다. 지원 사이트에서 _secure_rules.zip_파일을 다운로드하고 업로드하여 모든 규칙에 대한 KB 문서를 볼 수 있습니다.
+
 . 보안 영역으로 가져올 수 있는 일부 미디어로 규칙 파일을 전송한 다음 보안 영역의 시스템에 복사합니다.
 . 왼쪽 탐색 창에서 * 스토리지 관리 * > * 이벤트 설정 * 을 클릭합니다.
 . 이벤트 설정 * 페이지에서 * 규칙 업로드 * 버튼을 클릭합니다.
@@ -32,4 +45,4 @@ Unified Manager는 새 Active IQ 규칙 파일을 자동으로 확인하고 새�
 
 
 
-규칙 파일의 압축이 Unified Manager 서버에서 풀립니다. 자정 이후 관리 클러스터에서 AutoSupport 파일이 생성되면 Unified Manager에서 규칙 파일에 대해 클러스터를 검사하고 필요한 경우 새로운 위험 및 사고 이벤트를 생성합니다.
+규칙 파일의 압축이 Unified Manager 서버에서 풀립니다. 자정 이후 관리 클러스터에서 AutoSupport 파일이 생성되면 Unified Manager에서 규칙 파일에 대해 클러스터를 확인하고 필요에 따라 새로운 위험 및 인시던트 이벤트를 생성합니다.

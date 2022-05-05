@@ -136,4 +136,59 @@ SnapMirror 관계
  a| 
 오류
 
+
+
+ a| 
+ONTAP 중재자가 클러스터에 추가됨(snap미러orMediatorAdded)
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+정보
+
+
+
+ a| 
+클러스터에서 ONTAP 중재자가 제거되었습니다(snap미러orMediatorRemoved).
+ a| 
+이벤트
+ a| 
+클러스터
+ a| 
+정보
+
+
+
+ a| 
+클러스터에서 ONTAP 중재자를 연결할 수 없습니다(snap미러orMediatorUnreachable).
+ a| 
+위험입니다
+ a| 
+중재자
+ a| 
+경고
+
+
+
+ a| 
+ONTAP 중재자를 클러스터에서 액세스할 수 없습니다(snap미러orMediatorMisConfigured).
+ a| 
+위험입니다
+ a| 
+중재자
+ a| 
+오류
+
+
+
+ a| 
+ONTAP 중재자 연결이 다시 설정되었으며 SMBC(snap미러orMediatorInQuorum)에 대해 다시 동기화되고 준비되었습니다.
+ a| 
+이벤트
+ a| 
+중재자
+ a| 
+정보
+
 |===

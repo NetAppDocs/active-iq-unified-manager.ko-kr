@@ -637,4 +637,26 @@ SSH가 안전하지 않은 암호(ClusterSSHInsecure)를 사용 중
  a| 
 경고
 
+
+
+ a| 
+클러스터 인증서가 곧 만료됩니다(ocumartClusterCertificateAboutToExpire).
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+경고
+
+
+
+ a| 
+클러스터 인증서 만료(문서 클러스터 인증서 만료됨)
+ a| 
+위험입니다
+ a| 
+클러스터
+ a| 
+오류
+
 |===

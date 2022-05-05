@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workflow, workload, management 
 summary: 'Active IQ Unified Manager를 사용하면 스토리지 워크로드(LUN, NFS 파일 공유, CIFS 공유)를 프로비저닝하고 수정할 수 있습니다. 프로비저닝은 SVM(Storage Virtual Machine) 생성부터 스토리지 워크로드에 성능 서비스 수준 및 스토리지 효율성 정책을 적용하는 단계에 이르기까지 여러 단계로 구성됩니다. 워크로드 수정은 특정 매개 변수를 수정하고 추가 기능을 사용하기 위한 단계로 구성됩니다.' 
 ---
-= 워크로드 관리를 위한 워크플로우
+= 워크로드 관리를 위한 API 워크플로우
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

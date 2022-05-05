@@ -122,16 +122,10 @@ entries:
       url: "/data-protection/task_view_protection_relationships_from_storage_vms_page.html"
     - title: 보호 상태에 따라 스토리지 VM 보기
       url: "/data-protection/task_view_storage_vms_based_on_protection_status.html"
-  - title: 스토리지 VM 피어 이해
-    url: "/data-protection/concept_understand_svm_associations.html"
+  - title: 스토리지 VM 연결 이해
+    url: "/data-protection/reference_protection_storage_virtual_machine_associations_page.html"
   - title: 스토리지 서비스를 지원하기 위한 SVM 및 리소스 풀 요구사항
     url: "/data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html"
-  - title: 스토리지 VM 피어 생성
-    url: "/data-protection/task_create_storage_virtual_machine_svm_associations.html"
-  - title: 스토리지 VM 피어 보기
-    url: "/data-protection/task_view_svm_associations.html"
-  - title: 스토리지 VM 피어를 삭제하는 중입니다
-    url: "/data-protection/task_delete_svm_associations.html"
   - title: 어떤 작업인지
     url: "/data-protection/concept_what_jobs_are.html"
   - title: 작업 모니터링
@@ -153,10 +147,6 @@ entries:
       url: "/data-protection/reference_edit_resource_pool_dialog_box.html"
     - title: 애그리게이트 대화 상자
       url: "/data-protection/reference_aggregates_dialog_box.html"
-    - title: SVM 피어 페이지 를 참조하십시오
-      url: "/data-protection/reference_protection_storage_virtual_machine_associations_page.html"
-    - title: 스토리지 가상 시스템 피어 생성 마법사
-      url: "/data-protection/reference_create_storage_virtual_machine_associations_wizard.html"
     - title: 작업 페이지
       url: "/data-protection/reference_protection_jobs_page.html"
     - title: 작업 세부 정보 페이지

@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_supported_unified_manager_cli_commands.html 
 sidebar: sidebar 
-keywords: supported, unified manager, cli, commands 
-summary: 스토리지 관리자는 CLI 명령을 사용하여 클러스터, 애그리게이트, 볼륨 등의 스토리지 개체에 대한 쿼리를 수행할 수 있습니다. qtree 및 LUN, CLI 명령을 사용하여 Unified Manager 내부 데이터베이스와 ONTAP 데이터베이스를 쿼리할 수 있습니다. 작업 시작 또는 종료 시 실행되는 스크립트에서 CLI 명령을 사용하거나 경고가 트리거될 때 실행할 수도 있습니다. 
+keywords: supported, unified manager, cli, commands, cmd, um cli, um run, 
+summary: 스토리지 관리자는 CLI 명령을 사용하여 클러스터, 애그리게이트, 볼륨 등의 스토리지 개체에 대한 쿼리를 수행할 수 있습니다. qtree 및 LUN, 
 ---
 = 지원되는 Unified Manager CLI 명령
 :allow-uri-read: 
@@ -14,6 +14,9 @@ summary: 스토리지 관리자는 CLI 명령을 사용하여 클러스터, 애�
 스토리지 관리자는 CLI 명령을 사용하여 클러스터, 애그리게이트, 볼륨 등의 스토리지 개체에 대한 쿼리를 수행할 수 있습니다. qtree 및 LUN, CLI 명령을 사용하여 Unified Manager 내부 데이터베이스와 ONTAP 데이터베이스를 쿼리할 수 있습니다. 작업 시작 또는 종료 시 실행되는 스크립트에서 CLI 명령을 사용하거나 경고가 트리거될 때 실행할 수도 있습니다.
 
 모든 명령에는 'um CLI login' 명령어와 유효한 사용자 이름 및 인증 패스워드가 선행되어야 한다.
+
+
+NOTE: um run_command를 실행하려면 계정에 _console_application 액세스 권한이 있는지 확인하십시오.
 
 |===
 | CLI 명령 | 설명 | 출력 

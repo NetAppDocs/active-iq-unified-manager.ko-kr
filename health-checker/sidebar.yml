@@ -117,9 +117,7 @@ entries:
         url: "/health-checker/reference_volume_compliance_categories.html"
     - title: 규정을 준수하지 않는 것은 무엇을 의미합니까
       url: "/health-checker/concept_what_does_not_compliant_mean.html"
-    - title: 상위 클러스터 보안 상태 보기
-      url: "/health-checker/task_view_high_level_cluster_security_status.html"
-    - title: 클러스터 및 SVM에 대한 자세한 보안 상태 보기
+    - title: 클러스터 및 스토리지 VM에 대한 자세한 보안 상태 보기
       url: "/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html"
     - title: 소프트웨어 또는 펌웨어 업데이트가 필요할 수 있는 보안 이벤트 보기
       url: "/health-checker/task_view_security_events_that_require_software_or_firmware_updates.html"
@@ -127,6 +125,8 @@ entries:
       url: "/health-checker/task_view_how_user_authentication_is_being_managed_on_all_clusters.html"
     - title: 모든 볼륨의 암호화 상태 보기
       url: "/health-checker/task_view_encryption_status_of_all_volumes.html"
+    - title: 모든 볼륨 및 스토리지 VM의 랜섬웨어 방지 상태 보기
+      url: health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html
     - title: 모든 활성 보안 이벤트 보기
       url: "/health-checker/task_view_all_security_events.html"
     - title: 보안 이벤트에 대한 알림 추가

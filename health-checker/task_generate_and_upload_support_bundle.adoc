@@ -2,7 +2,7 @@
 permalink: health-checker/task_generate_and_upload_support_bundle.html 
 sidebar: sidebar 
 keywords: generate, upload, support bundle 
-summary: 문제 해결 지원을 위해 기술 지원 부서에 보낼 수 있도록 진단 정보가 포함된 지원 번들을 생성할 수 있습니다. Unified Manager 9.8부터 Unified Manager 서버가 인터넷에 연결되어 있는 경우, 유지보수 콘솔에서 지원 번들을 NetApp에 업로드할 수도 있습니다. 
+summary: 문제 해결 지원을 위해 기술 지원 부서에 보낼 수 있도록 진단 정보가 포함된 지원 번들을 생성할 수 있습니다. 유지보수 콘솔에서 지원 번들을 NetApp에 업로드할 수도 있습니다. 
 ---
 = 지원 번들 생성 및 업로드
 :allow-uri-read: 
@@ -11,7 +11,9 @@ summary: 문제 해결 지원을 위해 기술 지원 부서에 보낼 수 있�
 
 
 [role="lead"]
-문제 해결 지원을 위해 기술 지원 부서에 보낼 수 있도록 진단 정보가 포함된 지원 번들을 생성할 수 있습니다. Unified Manager 9.8부터 Unified Manager 서버가 인터넷에 연결되어 있는 경우, 유지보수 콘솔에서 지원 번들을 NetApp에 업로드할 수도 있습니다.
+문제 해결 지원을 위해 기술 지원 부서에 보낼 수 있도록 진단 정보가 포함된 지원 번들을 생성할 수 있습니다.
+
+Unified Manager 9.8부터 Unified Manager 서버가 인터넷에 연결되어 있는 경우, 유지보수 콘솔에서 지원 번들을 NetApp에 업로드할 수도 있습니다.
 
 * 필요한 것 *
 

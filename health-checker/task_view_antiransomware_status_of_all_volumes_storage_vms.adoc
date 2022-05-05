@@ -1,0 +1,45 @@
+---
+permalink: health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html 
+sidebar: sidebar 
+keywords: view, anti-ransomware status, volumes, storage VMs, SVMs 
+summary: 모든 볼륨 및 스토리지 VM 목록과 현재 안티 랜섬웨어 상태를 볼 수 있으므로 볼륨의 데이터가 랜섬웨어 공격으로부터 적절히 보호되는지 확인할 수 있습니다. 
+---
+= 모든 볼륨 및 스토리지 VM의 랜섬웨어 방지 상태 보기
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+모든 볼륨 및 스토리지 VM(SVM)의 목록과 현재 안티 랜섬웨어 상태를 볼 수 있으므로 볼륨 및 SVM의 데이터가 랜섬웨어 공격으로부터 적절히 보호되는지 확인할 수 있습니다.
+
+* 필요한 것 *
+
+운영자, 애플리케이션 관리자 또는 스토리지 관리자 역할이 있어야 합니다.
+
+다양한 안티 랜섬웨어 상태에 대한 자세한 내용은 를 참조하십시오 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure["ONTAP: 랜섬웨어 방지 지원"].
+
+
+
+== 랜섬웨어 방지 감지를 사용하여 모든 볼륨의 보안 세부 정보를 봅니다
+
+.단계
+. 왼쪽 탐색 창에서 * 스토리지 * > * 볼륨 * 을 클릭합니다.
+. 보기 메뉴에서 * 상태 * > * 보안 * > * 랜섬웨어 방지 * 를 선택합니다
+. Security: Anti-랜섬웨어 * 보기에서 다양한 필드를 기준으로 정렬하거나 필터를 사용할 수 있습니다.
+
+
+
+NOTE: 오프라인 볼륨, 제한된 볼륨, SnapLock 볼륨, FlexGroup 볼륨, FlexCache 볼륨 및 SAN 전용 볼륨, 중지된 스토리지 VM의 볼륨, 스토리지 VM의 루트 볼륨 또는 데이터 보호 볼륨.
+
+
+
+== 랜섬웨어 방지 감지를 사용하여 모든 스토리지 VM의 보안 세부 정보를 봅니다
+
+.단계
+. 왼쪽 탐색 창에서 * 스토리지 > 스토리지 VM * 을 클릭합니다.
+. 보기 > 보안 > 랜섬웨어 방지 * 를 선택합니다. 랜섬웨어 방지 상태가 표시된 SVM 목록이 표시됩니다.
+
+
+
+NOTE: 랜섬웨어 방지 모니터링은 NAS 프로토콜이 활성화되지 않은 스토리지 VM에서 지원되지 않습니다.

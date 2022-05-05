@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, issues, storage, objects, events 
 summary: 데이터 센터의 스토리지 객체가 임계값을 넘어가면 해당 이벤트에 대한 알림을 받습니다. 이 알림을 사용하여 문제를 분석하고 이벤트 API를 사용하여 수정 조치를 취할 수 있습니다. 
 ---
-= 이벤트를 사용하여 스토리지 개체의 문제 확인
+= 이벤트 API를 사용하여 스토리지 개체의 문제 확인
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

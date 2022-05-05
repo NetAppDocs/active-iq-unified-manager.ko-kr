@@ -23,33 +23,32 @@ summary: 프로그램 및 기능 마법사를 사용하거나 명령줄 인터�
 .단계
 . 다음 옵션 중 하나를 선택하여 Unified Manager를 제거합니다.
 +
-[cols="2*"]
-|===
-| 에서 Unified Manager를 제거하려면... | 그러면... 
+** 프로그램 및 기능 * 마법사에서 Unified Manager를 제거하는 경우 다음 단계를 수행하십시오.
++
+... 제어판 * > * 프로그램 및 기능 * 으로 이동합니다.
+... Active IQ Unified Manager 를 선택하고 * 제거 * 를 클릭합니다.
 
 
- a| 
-프로그램 및 기능 마법사:
-| : 
+** 명령줄에서 Unified Manager를 제거하는 경우 다음 단계를 수행하십시오.
++
+... 관리자 권한을 사용하여 Windows 명령줄에 로그인합니다.
+... Active IQ Unified Manager 디렉토리로 이동하여 다음 명령을 실행합니다.
++
+'+msiexec /x{A78760DB-7EC0-4305-97dB-E4A89CDFF4E1} /qn/l * v%systemdrive%\UmUninstall.log+'
 
-
- a| 
-.. 제어판 * > * 프로그램 및 기능 * 으로 이동합니다.
-.. Active IQ Unified Manager 를 선택하고 * 제거 * 를 클릭합니다.
-
- a| 
-명령줄
-
-|===
 +
 서버에서 UAC(사용자 계정 컨트롤)가 활성화되어 있고 도메인 사용자로 로그인한 경우 명령줄 제거 방법을 사용해야 합니다.
 
 +
 Unified Manager가 시스템에서 제거되었습니다.
 
+
+
+
+
 . Unified Manager 설치 제거 중에 제거되지 않은 다음 타사 패키지 및 데이터를 제거합니다.
 +
-** 타사 패키지: JRE, MySQL, Microsoft Visual C&#43;&#43; 2015 재배포 가능 파일 및 7zip
+** 타사 패키지: JRE, MySQL, Microsoft Visual C 및 #43;&#43; 2015 재배포 가능 파일, Python, 7zip
 ** Unified Manager에서 생성된 MySQL 애플리케이션 데이터
 ** 응용 프로그램 로그 및 응용 프로그램 데이터 디렉터리의 내용
 

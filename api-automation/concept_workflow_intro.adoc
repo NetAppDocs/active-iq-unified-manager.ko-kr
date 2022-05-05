@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: common, workflows, storage, management 
 summary: 공통 워크플로우를 통해 클라이언트 애플리케이션 개발자는 클라이언트 애플리케이션이 Active IQ Unified Manager API를 사용하여 일반적인 스토리지 관리 기능을 실행하는 방법의 예를 볼 수 있습니다. 이 섹션에서는 이러한 샘플 워크플로 중 일부를 다룹니다. 
 ---
-= 스토리지 관리를 위한 공통 워크플로우
+= 스토리지 관리를 위한 공통 API 워크플로우
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

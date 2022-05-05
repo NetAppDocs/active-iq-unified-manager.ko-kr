@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, service, level 
 summary: Active IQ Unified Manager에서 스토리지 공급자 API를 사용하여 성능 서비스 수준을 확인, 생성, 수정 및 삭제할 수 있습니다. 
 ---
-= 성능 서비스 수준 관리
+= API를 사용하여 성능 서비스 수준 관리
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
