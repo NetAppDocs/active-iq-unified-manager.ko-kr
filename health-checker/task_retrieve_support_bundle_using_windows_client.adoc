@@ -29,9 +29,3 @@ SCP 또는 SFTP를 지원하는 도구를 사용해야 합니다.
 . 복사할 지원 번들의 대상 디렉토리를 선택합니다.
 . 복사할 지원 번들을 선택하고 이 툴을 사용하여 Unified Manager 서버에서 로컬 시스템으로 파일을 복사합니다.
 
-
-* 관련 정보 *
-
-https://filezilla-project.org/["Filezilla - https://filezilla-project.org/"]
-
-http://winscp.net["WinSCP - http://winscp.net"]

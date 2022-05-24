@@ -71,4 +71,4 @@ NOTE: 클러스터에 만료된 인증서가 있는 경우 * 클러스터 인증
 
 를 클릭할 수 있습니다 image:icon_kabob.gif["Kabob 아이콘"] 추가 옵션 단추를 클릭하고 Unified Manager의 * 보안 * 페이지 또는 System Manager에서 보안 세부 정보를 표시하도록 선택합니다. System Manager에서 자세한 정보를 볼 수 있는 유효한 자격 증명이 있어야 합니다.
 
-_ 볼륨 및 스토리지 VM에 대한 랜섬웨어 방지 보안에 대한 자세한 내용은 을 참조하십시오 link:health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html["모든 볼륨 및 스토리지 VM의 랜섬웨어 방지 상태 보기"]. _
+볼륨 및 스토리지 VM에 대한 랜섬웨어 방지 보안에 대한 자세한 내용은 을 참조하십시오 link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html["모든 볼륨 및 스토리지 VM의 랜섬웨어 방지 상태 보기"].

@@ -2968,7 +2968,6 @@
   <block id="0c2e9d4863653214a62d913812cbc653" category="section-title">MetroCluster 절체 시 Threshold 정책 기능</block>
   <block id="0575303d0ae931130f71ae180dba7327" category="paragraph">MetroCluster 구성에서 클러스터 간에 이동하는 오브젝트에는 사용자 정의 임계값 정책 설정이 유지되지 않습니다. 필요한 경우 파트너 클러스터로 이동한 볼륨 및 LUN에 임계값 정책을 적용할 수 있습니다. 오브젝트가 원래 클러스터로 다시 이동되면 사용자 정의 임계값 정책이 자동으로 다시 적용됩니다.</block>
   <block id="6ccaf24c820f8d6b7ed5059c38c51eed" category="inline-link-macro">스위치오버 및 스위치백 중 볼륨 동작</block>
-  <block id="2bac4152870bbd285f893cd6dad62bc9" category="paragraph"><block ref="2bac4152870bbd285f893cd6dad62bc9" category="inline-link-macro-rx"></block></block>
   <block id="a6ae18d94931e66138ab2592dedce574" category="summary">성능: 모든 클러스터 보기를 사용하여 모든 SAN 어레이 클러스터의 성능 상태를 표시할 수 있습니다.</block>
   <block id="a9835749f44004b60a6702c71d2bc544" category="doc">모든 SAN 어레이 클러스터의 성능 보기</block>
   <block id="c38f0d21950244edb3b26b68c7188811" category="paragraph">성능: 모든 클러스터 보기 및 자세한 내용은 클러스터/성능 탐색기 페이지에서 모든 SAN 어레이 클러스터에 대한 개요 정보를 볼 수 있습니다.</block>
@@ -5026,10 +5025,6 @@
   <block id="d804f14fed19d038031c63aaf63b1e60" category="paragraph">이 도구는 /support 디렉토리의 내용을 표시하며 기존의 모든 지원 번들을 볼 수 있습니다.</block>
   <block id="4ea80963e3ffca1f675de4b70c2d5529" category="list-text">복사할 지원 번들의 대상 디렉토리를 선택합니다.</block>
   <block id="2e5c0e84121900760b963dfd8293ed90" category="list-text">복사할 지원 번들을 선택하고 이 툴을 사용하여 Unified Manager 서버에서 로컬 시스템으로 파일을 복사합니다.</block>
-  <block id="ad33d03e901ed8ed38f8e0d4fc6c3943" category="inline-link">파일질라 -<block ref="f27bb4f2df782f8d161ce6a58c23dfc8" category="inline-link-rx"></block></block>
-  <block id="e295733f62179fad76f68948d59ceb8e" category="paragraph"><block ref="e295733f62179fad76f68948d59ceb8e" category="inline-link-rx"></block></block>
-  <block id="60e77e93661a419436dd6e9a13601c8e" category="inline-link">WinSCP -<block ref="69901d6c3168572fb93db04c8aad9aba" category="inline-link-rx"></block></block>
-  <block id="2151674523016a699197dcd7b05b8ae2" category="paragraph"><block ref="2151674523016a699197dcd7b05b8ae2" category="inline-link-rx"></block></block>
   <block id="62f64b42596f90229ecd5d7808ed2098" category="summary">그룹 작업은 그룹의 모든 스토리지 객체에 대해 수행되는 작업입니다. 예를 들어, 볼륨 임계값 그룹 작업을 구성하여 그룹에 있는 모든 볼륨의 볼륨 임계값을 동시에 변경할 수 있습니다.</block>
   <block id="297ac8a07d0246e83403b24c217394d6" category="doc">그룹 작업이 스토리지 객체에서 작동하는 방식</block>
   <block id="eb4c2d17874e718d84b645e7bb68dd38" category="paragraph">그룹은 고유한 그룹 작업 유형을 지원합니다. 볼륨 상태 임계값 그룹 작업 유형이 하나만 있는 그룹을 가질 수 있습니다. 그러나 같은 그룹에 대해 다른 유형의 그룹 작업을 구성할 수 있습니다(사용 가능한 경우). 그룹 작업의 순위에 따라 스토리지 객체에 작업이 적용되는 순서가 결정됩니다. 스토리지 객체의 세부 정보 페이지는 스토리지 객체에 적용되는 그룹 작업에 대한 정보를 제공합니다.</block>
@@ -6304,8 +6299,6 @@
   <block id="4713082ec3f35b415638abeba331ad6c" category="list-text">클러스터의 볼륨 용량 및 활용도에 대한 자세한 정보를 보려면 보기 메뉴에서 용량: 모든 볼륨 보기를 선택합니다.</block>
   <block id="0f5ff7824e124b9145d27f63cdc1d5fd" category="list-text">전체 세부 정보를 보려면 볼륨 이름을 클릭합니다.</block>
   <block id="0ff278b9f9cf51a445b0a588d858a62a" category="list-text">* 선택 사항: * 최소 세부 정보 대화 상자에서 * 관련 항목 보기 * 를 클릭하여 볼륨과 관련된 개체를 봅니다.</block>
-  <block id="a68af024b1e93239842b9fe11f210fdd" category="inline-link-macro">상태/볼륨 페이지입니다</block>
-  <block id="718687c644ada88bc9596f01fa1a0c05" category="paragraph"><block ref="718687c644ada88bc9596f01fa1a0c05" category="inline-link-macro-rx"></block></block>
   <block id="00d7e1662e9b95a42822f0d6ac5f9d93" category="paragraph"><block ref="00d7e1662e9b95a42822f0d6ac5f9d93" category="inline-link-macro-rx"></block></block>
   <block id="fd7badfd3e153a99b89c58f45fb43ee3" category="summary">주석 규칙은 스토리지 오브젝트(볼륨, 클러스터 또는 SVM(스토리지 가상 머신)에 주석을 다는 것을 정의하는 기준입니다. 조건 그룹 또는 조건을 사용하여 주석 규칙을 정의할 수 있습니다.</block>
   <block id="c5b38d4c16c7ad76a1ef5b34ae428fed" category="doc">Unified Manager에서 주석 규칙이 작동하는 방식</block>
@@ -11410,7 +11403,6 @@
   <block id="3011ef7c1bc86abe89d8eeeaf7c4c472" category="list-text">보기 &gt; 보안 &gt; 모든 스토리지 VM * 을 선택합니다. 보안 매개 변수가 있는 클러스터 목록이 표시됩니다.</block>
   <block id="419ebf74a5546d21b1acd80acf25cc21" category="paragraph">스토리지 VM, 클러스터, 로그인 배너, 감사 로그, 보안되지 않은 SSH 설정 등의 보안 매개 변수를 확인하여 스토리지 VM의 보안 규정 준수를 기본적으로 볼 수 있습니다.</block>
   <block id="1df41a302d0ac8f8b5c67157bf788ab9" category="inline-link-macro">모든 볼륨 및 스토리지 VM의 랜섬웨어 방지 상태 보기</block>
-  <block id="17b7a8cd3718b23c5fbc68976d54fae8" category="paragraph">_ 볼륨 및 스토리지 VM에 대한 랜섬웨어 방지 보안에 대한 자세한 내용은 을 참조하십시오 <block ref="bca545b4103a280a86945e429acfe26a" category="inline-link-macro-rx"></block>. _</block>
   <block id="15b9361b9fb7038f56e85f3904037d8c" category="doc">평가 대상 보안 기준</block>
   <block id="2e97b5e5f53687c2edc46f6cfe0a5451" category="list-text">중개자</block>
   <block id="142ceab668a9fc374d2beb0a4ef23836" category="paragraph">클러스터가 중재자의 중재자와 연결 상태를 지원하는지 여부를 표시합니다.</block>
@@ -11627,4 +11619,10 @@
   <block id="0d8a88420d6ff91d22ed7f26bf97d526" category="sidebar">클러스터 및 스토리지 VM에 대한 자세한 보안 상태 보기</block>
   <block id="934295d1ea6542a74e859da73b8634ee" category="sidebar">스토리지 VM 연결 이해</block>
   <block id="0d4c7c4a66605b6134a539fd94ba3c6a" category="paragraph">자세한 내용은 를 참조하십시오<block ref="d6b13b683bf04ebfc408e75a5dbc55ae" category="inline-link-rx"></block>.</block>
+  <block id="4846618aae53fceef12654a9844ba9d7" category="paragraph">볼륨 및 스토리지 VM에 대한 랜섬웨어 방지 보안에 대한 자세한 내용은 을 참조하십시오 <block ref="eba4385d459b6d6dd7b9bd580b2fbf7f" category="inline-link-macro-rx"></block>.</block>
+  <block id="870f5ef7bd12dc2c56965bfcd2ec62f2" category="paragraph">키 누락 또는 키 불일치에 대한 오류가 발생하고 설치에 실패한 경우 다음 단계를 수행하십시오.</block>
+  <block id="3066589d00db39c012813cfbdb5ac98f" category="list-text">연결된 시스템에서 다음 명령을 실행하여 업데이트된 MySQL 키를 가져옵니다.</block>
+  <block id="ce16a447d798efe968d2235fb0e11c5b" category="list-text">인터넷에 연결되지 않은 시스템에서는 gpgcheck=0으로 표시하여 MySQL repo 파일을 업데이트하고 gpgcheck를 비활성화합니다.</block>
+  <block id="eb8cc10ea7290daea0c59a212428f061" category="paragraph"><block ref="eb8cc10ea7290daea0c59a212428f061" category="inline-link-macro-rx"></block></block>
+  <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
 </blocks>

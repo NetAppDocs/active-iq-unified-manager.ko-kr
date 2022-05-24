@@ -36,6 +36,4 @@ summary: '상태: 모든 볼륨 보기에서 볼륨 인벤토리를 모니터링
 
 * 관련 정보 *
 
-link:../task_view_aggregate_list_and_details.html["상태/볼륨 페이지입니다"]
-
 link:../reporting/task_create_report_to_view_available_volume_capacity_charts.html["보고서를 생성하여 사용 가능한 볼륨 용량 차트를 표시합니다"]
