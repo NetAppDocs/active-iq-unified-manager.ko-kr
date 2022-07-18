@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_define_schedule_for_snapshot_backups.html 
 sidebar: sidebar 
-keywords: define, backup, schedule, linux, windows 
-summary: Unified Manager UI를 사용하여 Unified Manager 스냅샷 백업이 생성되는 일정을 구성할 수 있습니다. 
+keywords: define, backup, schedule, linux, windows, snapshot copy, copies 
+summary: Unified Manager UI를 사용하여 Unified Manager 스냅샷 복사본이 생성되는 일정을 구성할 수 있습니다. 
 ---
 = Linux 및 Windows에 대한 백업 일정 정의
 :allow-uri-read: 
@@ -11,15 +11,15 @@ summary: Unified Manager UI를 사용하여 Unified Manager 스냅샷 백업이 
 
 
 [role="lead"]
-Unified Manager UI를 사용하여 Unified Manager 스냅샷 백업이 생성되는 일정을 구성할 수 있습니다.
+Unified Manager UI를 사용하여 Unified Manager 스냅샷 복사본이 생성되는 일정을 구성할 수 있습니다.
 
 * 필요한 것 *
 
 * 운영자, 애플리케이션 관리자 또는 스토리지 관리자 역할이 있어야 합니다.
-* 스냅샷을 생성할 대상을 식별하려면 유지보수 콘솔에서 NetApp Snapshot 백업 설정을 구성해야 합니다.
+* 스냅샷을 생성할 대상을 식별하려면 유지보수 콘솔에서 스냅샷 복사본을 생성하기 위한 설정을 구성해야 합니다.
 
 
-스냅샷 백업은 몇 분 내에 작성되며 Unified Manager 데이터베이스는 몇 초 동안만 잠깁니다.
+Snapshot 복사본은 몇 분 내에 생성되며 Unified Manager 데이터베이스는 몇 초 동안만 잠깁니다.
 
 [NOTE]
 ====
@@ -37,7 +37,7 @@ Unified Manager UI를 사용하여 Unified Manager 스냅샷 백업이 생성되
 . 적용 * 을 클릭합니다.
 
 
-스냅샷 백업 파일은 스케줄에 따라 생성됩니다. 데이터베이스 백업 페이지에서 사용 가능한 백업 파일을 볼 수 있습니다.
+스냅샷 복사본은 일정에 따라 생성됩니다. 데이터베이스 백업 페이지에서 사용 가능한 백업 파일을 볼 수 있습니다.
 
 이 볼륨과 스냅샷의 중요성으로 인해 이 볼륨에 대해 한두 개의 알림을 생성하여 다음 중 하나가 발생할 때 알림을 받을 수 있습니다.
 
@@ -47,7 +47,7 @@ ONTAP System Manager 또는 ONTAP CLI를 사용하여 볼륨에 용량을 추가
 
 * 스냅샷 수가 최대 수에 근접합니다. 이벤트 * 너무 많은 Snapshot 복사본 * 을 사용하여 알림을 설정합니다.
 +
-ONTAP System Manager 또는 ONTAP CLI를 사용하여 이전 스냅샷을 삭제할 수 있으므로 항상 새 스냅샷 백업을 위한 공간이 있어야 합니다.
+ONTAP System Manager 또는 ONTAP CLI를 사용하여 이전 스냅샷을 삭제할 수 있으므로 항상 새 스냅샷 복사본을 저장할 공간이 있습니다.
 
 
 

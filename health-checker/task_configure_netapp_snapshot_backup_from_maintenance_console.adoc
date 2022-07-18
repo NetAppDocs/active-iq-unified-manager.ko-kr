@@ -1,17 +1,17 @@
 ---
 permalink: health-checker/task_configure_netapp_snapshot_backup_from_maintenance_console.html 
 sidebar: sidebar 
-keywords: configure, netapp, snapshot, backup, maintenance console 
-summary: 유지보수 콘솔에서 Active IQ Unified Manager 백업을 NetApp Snapshot 백업으로 구성해야 합니다. 
+keywords: configure, backup, snapshot copy, copies maintenance console 
+summary: 스냅샷 복사본을 사용하여 Active IQ Unified Manager 백업을 수행하려면 유지보수 콘솔에서 몇 가지 구성 단계를 수행해야 합니다. 
 ---
-= 유지보수 콘솔에서 NetApp Snapshot 백업 구성
+= 유지보수 콘솔에서 Snapshot 복사본으로 백업을 구성합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-유지보수 콘솔에서 Active IQ Unified Manager 백업을 NetApp Snapshot 백업으로 구성해야 합니다.
+스냅샷 복사본을 사용하여 Active IQ Unified Manager 백업을 수행하려면 유지보수 콘솔에서 몇 가지 구성 단계를 수행해야 합니다.
 
 * 필요한 것 *
 
@@ -32,7 +32,7 @@ summary: 유지보수 콘솔에서 Active IQ Unified Manager 백업을 NetApp Sn
 +
 [NOTE]
 ====
-백업 구성을 변경하려면 Update NetApp Snapshot Backup Configuration에 3을 입력합니다. 암호만 업데이트할 수 있습니다.
+백업 구성을 변경하려면 3을 입력하여 * NetApp Snapshot 백업 구성 업데이트 * 를 선택합니다. 암호만 업데이트할 수 있습니다.
 
 ====
 . 메뉴에서 1을 입력하여 * Configure NetApp Snapshot Backup * 을 선택합니다.

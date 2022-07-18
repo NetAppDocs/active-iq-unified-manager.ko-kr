@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/concept_configure_destination_and_schedule_for_database_dump_backups.html 
 sidebar: sidebar 
-keywords: configure, destination, schedule, database dump, backups 
+keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies 
 summary: Unified Manager 데이터베이스 덤프 백업 설정을 구성하여 데이터베이스 백업 경로, 보존 수 및 백업 일정을 설정할 수 있습니다. 매일 또는 매주 예약된 백업을 설정할 수 있습니다. 기본적으로 예약된 백업은 비활성화되어 있지만 백업 일정을 설정해야 합니다. 
 ---
 = 데이터베이스 덤프 백업에 대한 대상 및 스케줄 구성
@@ -31,7 +31,7 @@ Unified Manager 호스트 시스템 외부에 있는 원격 위치를 사용하�
 
 [NOTE]
 ====
-* 증분 백업 파일 수가 백업에 할당된 공간에 비해 너무 많은 경우 새 전체 백업을 정기적으로 생성하여 이전의 전체 백업과 모든 하위 증분 파일을 대체할 수 있습니다. Linux 시스템에 Unified Manager가 설치되어 있는 경우, 다른 옵션으로 NetApp Snapshot 백업 방법을 사용할 수 있습니다.
+* 백업용으로 할당된 공간에 비해 증분 백업 파일 수가 너무 많은 경우 주기적으로 전체 백업을 수행하여 이전 백업과 해당 증분 파일을 대체할 수 있습니다. 다른 옵션으로 Snapshot 복사본을 사용하여 백업을 수행할 수 있습니다.
 * 새 클러스터를 추가한 후 처음 15일 동안 수행된 백업은 성능 기록 데이터를 가져올 정도로 정확하지 않을 수 있습니다.
 
 

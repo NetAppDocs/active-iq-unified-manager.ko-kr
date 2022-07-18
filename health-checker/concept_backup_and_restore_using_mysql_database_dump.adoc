@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/concept_backup_and_restore_using_mysql_database_dump.html 
 sidebar: sidebar 
-keywords: backup, restore, using, mysql, database, dump 
+keywords: backup, restore, using, mysql, database, dump, snapshot copy, copies 
 summary: MySQL 데이터베이스 덤프 백업은 시스템 장애 또는 데이터 손실 시 사용할 수 있는 Active IQ Unified Manager 데이터베이스 및 구성 파일의 복사본입니다. 백업을 로컬 대상 또는 원격 대상에 기록하도록 예약할 수 있습니다. Active IQ Unified Manager 호스트 시스템 외부의 원격 위치를 정의하는 것이 좋습니다. 
 ---
 = MySQL 데이터베이스 덤프를 사용하여 백업 및 복원
@@ -15,7 +15,7 @@ MySQL 데이터베이스 덤프 백업은 시스템 장애 또는 데이터 손�
 
 [NOTE]
 ====
-Linux 및 Windows 서버에 Unified Manager가 설치된 경우 MySQL 데이터베이스 덤프는 기본 백업 메커니즘입니다. Red Hat Enterprise Linux, CentOS Linux 시스템 또는 Windows의 경우 Active IQ Unified Manager가 많은 수의 클러스터와 노드를 관리하고 있거나 MySQL 백업을 완료하는 데 몇 시간이 걸리는 경우 NetApp Snapshot 백업 방법을 사용할 수 있습니다.
+Linux 및 Windows 서버에 Unified Manager가 설치된 경우 MySQL 데이터베이스 덤프는 기본 백업 메커니즘입니다. 그러나 Unified Manager에서 많은 수의 클러스터와 노드를 관리하고 있거나 MySQL 백업을 완료하는 데 몇 시간이 걸리는 경우 Snapshot 복사본을 사용하여 백업할 수 있습니다. 이 기능은 Red Hat Enterprise Linux, CentOS Linux 시스템 및 Windows에서 사용할 수 있습니다.
 
 ====
 데이터베이스 덤프 백업은 백업 디렉토리의 단일 파일과 데이터베이스 저장소 디렉토리에 있는 하나 이상의 파일로 구성됩니다. 백업 디렉토리의 파일은 백업을 다시 생성하는 데 필요한 데이터베이스 저장소 디렉토리에 있는 파일에 대한 포인터만 포함하므로 매우 작습니다.

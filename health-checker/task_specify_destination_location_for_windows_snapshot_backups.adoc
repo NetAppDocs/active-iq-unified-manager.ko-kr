@@ -1,17 +1,17 @@
 ---
 permalink: health-checker/task_specify_destination_location_for_windows_snapshot_backups.html 
 sidebar: sidebar 
-keywords: specify, destination location, windows, snapshot, backups 
-summary: ONTAP 클러스터 중 하나에서 이미 구성한 볼륨의 Active IQ Unified Manager 스냅샷 백업에 대한 대상 위치를 구성하고 유지보수 콘솔을 사용하여 위치를 정의해야 합니다. 
+keywords: specify, destination location, windows, snapshot copy, copies 
+summary: ONTAP 클러스터 중 하나에 이미 구성되어 있는 볼륨의 Active IQ Unified Manager 스냅샷 복사본에 대한 대상 위치를 구성해야 합니다. 유지보수 콘솔을 사용하여 위치를 정의해야 합니다. 
 ---
-= Windows Snapshot 백업의 대상 위치 지정
+= Windows에서 스냅샷 복사본의 대상 위치 지정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-ONTAP 클러스터 중 하나에서 이미 구성한 볼륨의 Active IQ Unified Manager 스냅샷 백업에 대한 대상 위치를 구성하고 유지보수 콘솔을 사용하여 위치를 정의해야 합니다.
+ONTAP 클러스터 중 하나에 이미 구성되어 있는 볼륨의 Active IQ Unified Manager 스냅샷 복사본에 대한 대상 위치를 구성해야 합니다. 유지보수 콘솔을 사용하여 위치를 정의해야 합니다.
 
 * Active IQ Unified Manager가 설치된 Windows 호스트에 대한 관리자 권한이 있어야 합니다.
 * Unified Manager 서버의 유지보수 콘솔에 로그인하려면 사용자 ID와 암호가 필요합니다.
@@ -45,5 +45,5 @@ ONTAP 클러스터 중 하나에서 이미 구성한 볼륨의 Active IQ Unified
 ** ONTAP와 통신하는 데 사용되는 iSCSI 이니시에이터입니다
 
 
-. 아직 스냅샷 백업 일정을 생성하지 않은 경우 유지보수 콘솔을 종료하고 Active IQ Unified Manager 인터페이스를 실행하여 스냅샷 백업 일정을 생성합니다.
+. 유지보수 콘솔을 종료하고 Active IQ Unified Manager 인터페이스를 실행하여 스냅샷 복사본의 일정을 생성합니다.
 

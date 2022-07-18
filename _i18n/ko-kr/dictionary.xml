@@ -344,7 +344,6 @@
   <block id="5c54cb8f927a6c5a90622e1c7bd0bda5" category="paragraph">NTP</block>
   <block id="4a8598febd97e32d0698051cd71f02fa" category="paragraph">123/UDP입니다</block>
   <block id="cb2a1ba65000d6677f2856e06530ac31" category="paragraph">Unified Manager 서버의 시간을 외부 NTP 시간 서버와 동기화하는 데 사용됩니다. (VMware 시스템만 해당)</block>
-  <block id="254045ee23205cb1ac3f6e05905ecfab" category="summary">Active IQ Unified Manager의 새로운 기능, 제한 사항 및 알려진 문제에 대한 요약을 제공합니다.</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="doc">릴리스 정보</block>
   <block id="12dc360fa3d8165171389ee06172a133" category="inline-link">Active IQ Unified Manager 릴리즈 노트</block>
   <block id="f4d5e78b085b0eab90a0158473fd3527" category="summary">명령줄 인터페이스를 사용하여 사용자 개입 없이 Unified Manager를 설치할 수 있습니다. 키 값 쌍의 매개 변수를 전달하여 무인 설치를 완료할 수 있습니다.</block>
@@ -2673,7 +2672,6 @@
   <block id="feca2c67539b00b94278185357af09dc" category="paragraph">기본적으로 시스템 정의 클러스터 성능 임계값 정책은 Unified Manager가 모니터링하는 모든 클러스터에 할당됩니다.</block>
   <block id="f79e2da0e7f82c468889e02fe9c2b430" category="list-text">* 클러스터 로드 불균형 *</block>
   <block id="59661535e0d4f683fcb4a3ed8aa66f1d" category="paragraph">한 노드가 클러스터의 다른 노드보다 훨씬 더 높은 부하에서 작동 중이고 따라서 워크로드 지연 시간에 영향을 줄 수 있는 상황을 식별합니다.</block>
-  <block id="f45a891026b056f4e276c653d9981111" category="paragraph">이는 클러스터의 모든 노드에 사용된 성능 용량을 비교하여 노드 간에 30%의 로드 차이가 있는지 여부를 확인하는 방식으로 실행됩니다. 이것은 경고 이벤트입니다.</block>
   <block id="7294f6f733c6ce2ec3340b93d27e5213" category="list-text">* 클러스터 용량 불균형 *</block>
   <block id="83a1ff6d54cb25f3d06152e4e5d82750" category="paragraph">하나의 애그리게이트에서 클러스터의 다른 애그리게이트보다 훨씬 더 많은 용량이 사용되고 있으므로 작업에 필요한 공간에 영향을 줄 수 있는 상황을 식별합니다.</block>
   <block id="8846b64490352c0a0e83eeef475bff88" category="paragraph">이는 클러스터 내의 모든 애그리게이트에서 사용된 용량 값을 비교하여 애그리게이트 간에 70%의 차이가 있는지 여부를 확인하는 방식으로 실행됩니다. 이것은 경고 이벤트입니다.</block>
@@ -4546,10 +4544,7 @@
   <block id="2e5462877066388d01a5041df65708b5" category="list-text">이벤트 심각도 목록에서 * 경고 * 를 선택합니다.</block>
   <block id="fc74d070155e61d73673d6cf24dd7072" category="list-text">일치하는 이벤트 목록에서 * 텔넷 프로토콜 사용 * 을 선택합니다.</block>
   <block id="1ec5a29cb7ff166f4dca720089d45270" category="list-text">알림 빈도, SNMP 탭 실행 및 스크립트 실행을 위해 이 페이지의 다른 옵션을 구성합니다.</block>
-  <block id="fd74e222140ff1a307995237bebe2c51" category="summary">Unified Manager UI를 사용하여 Unified Manager 스냅샷 백업이 생성되는 일정을 구성할 수 있습니다.</block>
   <block id="967205d4e2ec30d380acd32f8d73993b" category="doc">Linux 및 Windows에 대한 백업 일정 정의</block>
-  <block id="ec132bfc3954b5c04cfbf039ac3267c8" category="list-text">스냅샷을 생성할 대상을 식별하려면 유지보수 콘솔에서 NetApp Snapshot 백업 설정을 구성해야 합니다.</block>
-  <block id="ed761335c7ab7d0918f158c55a70caa6" category="paragraph">스냅샷 백업은 몇 분 내에 작성되며 Unified Manager 데이터베이스는 몇 초 동안만 잠깁니다.</block>
   <block id="052d9a630b7b68ae24d203fece5512e0" category="paragraph">새 클러스터를 추가한 후 처음 15일 동안 수행된 백업은 성능 기록 데이터를 가져올 정도로 정확하지 않을 수 있습니다.</block>
   <block id="78bc84911eb423f64dab2e455740693d" category="list-text">왼쪽 탐색 창에서 * 일반 * &gt; * 데이터베이스 백업 * 을 클릭합니다.</block>
   <block id="9daa697ea449b51992fc999705c3ca4f" category="list-text">데이터베이스 백업 * 페이지에서 * 백업 설정 * 을 클릭합니다.</block>
@@ -4557,12 +4552,10 @@
   <block id="ee045c7ecd2df065d64deaede9a8a762" category="paragraph">보존 수의 기본값은 10입니다. 최대 스냅샷 복사본 수는 클러스터의 ONTAP 소프트웨어 버전에 따라 결정됩니다. 이 필드를 비워 두면 ONTAP 버전에 관계없이 최대값을 구현할 수 있습니다.</block>
   <block id="de0c9d871d0f7ebd6f1a3d921d52301b" category="list-text">Scheduled Daily * 또는 * Scheduled Weekly * 버튼을 선택한 후 일정 세부 정보를 지정합니다.</block>
   <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">적용 * 을 클릭합니다.</block>
-  <block id="1f7a831939148700efbf3b0a1070f210" category="paragraph">스냅샷 백업 파일은 스케줄에 따라 생성됩니다. 데이터베이스 백업 페이지에서 사용 가능한 백업 파일을 볼 수 있습니다.</block>
   <block id="c028e9599e750afadb79697d92d3896d" category="paragraph">이 볼륨과 스냅샷의 중요성으로 인해 이 볼륨에 대해 한두 개의 알림을 생성하여 다음 중 하나가 발생할 때 알림을 받을 수 있습니다.</block>
   <block id="0005648d66ebf8e8796b78cbddbfbfab" category="list-text">볼륨 공간이 90% 찼습니다. 볼륨 공간이 가득 참 * 이벤트를 사용하여 경고를 설정합니다.</block>
   <block id="753759a900a213e5141553234b892565" category="paragraph">ONTAP System Manager 또는 ONTAP CLI를 사용하여 볼륨에 용량을 추가하면 Unified Manager 데이터베이스의 공간이 부족하지 않게 됩니다.</block>
   <block id="6c739ccf617b158f5d9e91237a5cbbd9" category="list-text">스냅샷 수가 최대 수에 근접합니다. 이벤트 * 너무 많은 Snapshot 복사본 * 을 사용하여 알림을 설정합니다.</block>
-  <block id="58d09fb2703ad1d7697865acd260b5d7" category="paragraph">ONTAP System Manager 또는 ONTAP CLI를 사용하여 이전 스냅샷을 삭제할 수 있으므로 항상 새 스냅샷 백업을 위한 공간이 있어야 합니다.</block>
   <block id="16baca3564bcca6430acf44f5cd814d1" category="paragraph">경고 설정 페이지에서 경고를 구성합니다.</block>
   <block id="646a64818f86f6654312eb5e09f986a7" category="summary">선택한 볼륨의 스냅샷 복사본 목록을 볼 수 있습니다. 스냅샷 복사본 목록을 사용하여 하나 이상의 스냅샷 복사본이 삭제된 경우 재확보된 디스크 공간 크기를 계산할 수 있으며, 필요한 경우 스냅샷 복사본을 삭제할 수 있습니다.</block>
   <block id="070af27687a05397bfbc6c66b4eceb1a" category="doc">스냅샷 복사본 목록 보기</block>
@@ -4603,8 +4596,6 @@
   <block id="697f4653a992617dd4712ec69a7d6bc2" category="paragraph">Unified Manager 서버가 인터넷에 연결되어 있지 않거나 다른 이유로 지원 번들을 업로드할 수 없는 경우 검색할 수 있으며 수동으로 전송할 수 있습니다. SFTP 클라이언트를 사용하거나 UNIX 또는 Linux CLI 명령을 사용하여 검색할 수 있습니다. Windows 설치에서 RDP(원격 데스크톱)를 사용하여 지원 번들을 검색할 수 있습니다.</block>
   <block id="caa975f681ad52d1effd3184e3cca2ad" category="paragraph">생성된 지원 번들은 VMware 시스템의 /support 디렉토리, Linux 시스템의 /opt/netapp/data/support/및 Windows 시스템의 ProgramData\NetApp\OnCommandAppData\ocum\support에 있습니다.</block>
   <block id="46472d79d5eac00ef6d5a1362f52b3ce" category="paragraph"><block ref="46472d79d5eac00ef6d5a1362f52b3ce" category="inline-link-macro-rx"></block></block>
-  <block id="a58013aafcee31ff5cd79561dd6d040d" category="summary">유지보수 콘솔에서 Active IQ Unified Manager 백업을 NetApp Snapshot 백업으로 구성해야 합니다.</block>
-  <block id="0d87e7e4bbf8397f4455198487c3f61b" category="doc">유지보수 콘솔에서 NetApp Snapshot 백업 구성</block>
   <block id="aee3a95235c93d4d8b2545ff685b0e4a" category="paragraph">시스템에 대한 다음 세부 정보가 있어야 합니다.</block>
   <block id="606e8e68864ef13b5bed9d31ed5797be" category="list-text">클러스터 IP 주소입니다</block>
   <block id="c9c34e0d9a5a20d6a7dbd22b6fdac3f1" category="list-text">스토리지 VM 이름입니다</block>
@@ -4615,7 +4606,6 @@
   <block id="9052146612c3ab94f1f20beeaacf22f9" category="list-text">Unified Manager의 유지보수 콘솔에 액세스합니다.</block>
   <block id="df92fdbdb9c940558c8bc9139cbc6f85" category="list-text">4 를 입력하여 * 백업 복원 * 을 선택합니다.</block>
   <block id="03e6497ebccd718be784d97d4ed63b2b" category="list-text">2를 입력하여 NetApp Snapshot * 을 사용한 백업 및 복원을 선택합니다.</block>
-  <block id="684fec4838a87ca7dc679a28c9e5bb12" category="paragraph">백업 구성을 변경하려면 Update NetApp Snapshot Backup Configuration에 3을 입력합니다. 암호만 업데이트할 수 있습니다.</block>
   <block id="6fafc96e75f122b9ca0dfa70e1dce340" category="list-text">메뉴에서 1을 입력하여 * Configure NetApp Snapshot Backup * 을 선택합니다.</block>
   <block id="71abde451e7a33246cf7749cab1faab4" category="list-text">1을 입력하여 필요한 정보를 제공합니다.</block>
   <block id="89665b3633dabf5bd26255fed5d14a20" category="list-text">유지보수 콘솔의 사용자 이름과 암호를 입력한 다음 LUN이 호스트에 마운트되었음을 확인합니다.</block>
@@ -4643,9 +4633,7 @@
   <block id="8cf60039c5058cc64126f4ce72ed7b93" category="list-text">1단계에서 획득에 실패한 경우 Unified Manager 서버에서 데이터베이스 암호를 재설정합니다.</block>
   <block id="352fdda78d684cf9e0a638bbab208994" category="summary">Active IQ Unified Manager가 Linux 시스템에 설치된 경우 NetApp Snapshot을 사용하여 백업 및 복원을 구성할 수 있습니다.</block>
   <block id="ed8b4ef99c4658d8051ea76a5775dd5f" category="doc">Linux에서 백업 구성</block>
-  <block id="3235d168c9706a85abd9f513a35efe99" category="paragraph">Snapshot 백업에는 일반적으로 몇 분 밖에 걸리지 않으며, Unified Manager 데이터베이스가 매우 짧은 시간 동안 잠겨 있으므로 설치를 중단하지 않고 수행할 수 있습니다. 마지막 스냅샷 복사본이 생성된 이후 파일에 대한 변경사항만 기록하므로 이미지는 최소한의 스토리지 공간을 소비하고 무시할 만한 성능 오버헤드를 발생시킵니다. ONTAP 클러스터에서 스냅샷이 생성되므로, 필요한 경우 SnapMirror와 같은 다른 NetApp 기능을 활용하여 2차 보호를 생성할 수 있습니다.</block>
   <block id="14cd7aa6f775e39058779319ad926776" category="paragraph">백업 작업을 시작하기 전에 Unified Manager에서 무결성 검사를 수행하여 대상 시스템을 사용할 수 있는지 확인합니다.</block>
-  <block id="dacad086c3866e5006889b83dbff8a9b" category="list-text">동일한 버전의 Active IQ Unified Manager에서만 스냅샷 백업을 복원할 수 있습니다.</block>
   <block id="8eb7892587443ba12dc3bdc027a2a3a5" category="paragraph">예를 들어 Unified Manager 9.9에서 백업을 생성한 경우 Unified Manager 9.9 시스템에서만 백업을 복원할 수 있습니다.</block>
   <block id="d4a551e46758fef6fb9e080f35e16395" category="list-text">스냅샷 구성이 변경된 경우 스냅샷이 잘못될 수 있습니다.</block>
   <block id="8c11ba0cfa02911f719c753c39006b4a" category="summary">"업그레이드"의 영향 영역이 있는 특정 보안 이벤트가 있습니다. 이러한 이벤트는 Active IQ 플랫폼에서 보고되며, 해결 방법을 통해 ONTAP 소프트웨어, 노드 펌웨어 또는 운영 체제 소프트웨어(보안 권장 사항)를 업그레이드해야 하는 문제를 식별합니다.</block>
@@ -5086,7 +5074,6 @@
   <block id="faaf6a942b36c5bd8272071b33ec3dbe" category="list-text">그룹 작업 다시 정렬 * 대화 상자에서 행을 끌어 놓아 그룹 작업의 순서를 필요에 따라 다시 정렬합니다.</block>
   <block id="b13bafc1be544d2808e9da0ba3f87f08" category="summary">주석에 대한 개념을 이해하면 환경의 스토리지 오브젝트와 관련된 이벤트를 관리하는 데 도움이 됩니다.</block>
   <block id="39c4c3768759a191e6cc0b6d3d453839" category="doc">주석에 대한 자세한 이해</block>
-  <block id="12cbdd6ef1715b048e4f35d8e8dcd9b7" category="summary">Windows에 Active IQ Unified Manager를 설치한 경우에도 Snapshot 백업을 저장할 볼륨을 구성해야 합니다.</block>
   <block id="24b6bcea87dfc79f56c5982f8cf8a3d9" category="doc">Windows의 백업 위치 구성</block>
   <block id="b7f65d9e1cdb3964676f5e08758b08bb" category="paragraph">클러스터, 스토리지 VM 및 볼륨은 다음 요구사항을 충족해야 합니다.</block>
   <block id="7c9a067ed7fc3d318d415405ab0cb349" category="list-text">클러스터 요구 사항:</block>
@@ -5137,11 +5124,9 @@
   <block id="52da887dc2f6a354e460267b583195cd" category="list-text">용량, 증가 및 스냅샷 복사본에 대한 적절한 임계값을 구성합니다.</block>
   <block id="6dab4a22026046a1cce46cf4e8f8e917" category="summary">Active IQ Unified Manager 시스템의 백업 유형을 변경하려면 유지보수 콘솔 옵션을 사용할 수 있습니다. NetApp Snapshot Backup 구성 취소 옵션을 사용하면 MySQL 기반 백업으로 되돌아갈 수 있습니다.</block>
   <block id="c00e0a79e3a4f68a3448b0ba8cb107e8" category="doc">백업 유형 수정</block>
-  <block id="5047f1f25159dc471aa0a6bb927628f1" category="list-text">백업 복원을 위해 * 메인 메뉴 * 에서 4를 선택합니다.</block>
   <block id="3bb3cb0671c1a0c88752482b82d3af27" category="list-text">백업 및 복원 메뉴 * 에서 2를 선택합니다.</block>
   <block id="79d03be693d1947313fa5d96b1465a52" category="list-text">NetApp Snapshot Backup * 의 구성 취소 * 에 대해 4를 선택합니다.</block>
   <block id="b1a2bd33a1262ae98361b42f30087b97" category="paragraph">수행되는 작업이 표시됩니다. 즉, 서비스를 중지하고, symlink를 중단하고, 데이터를 스토리지에서 디렉터리로 이동한 다음 서비스를 다시 시작합니다.</block>
-  <block id="fa174b19ea56ab3592c90febf4d1fb03" category="paragraph">NetApp Snapshot 백업을 구성하지 않은 경우 백업 메커니즘이 기본 MySQL 기반으로 변경됩니다. 이 변경 사항은 일반 설정의 데이터베이스 백업 섹션에 나타납니다.</block>
   <block id="b9dc5f951e521cf0faa1d5c1da5fd13c" category="summary">알림을 스크립트에 연결하여 Unified Manager의 이벤트에 대한 알림이 발생할 때 스크립트가 실행되도록 할 수 있습니다. 스크립트를 사용하여 스토리지 오브젝트 문제를 해결하거나 이벤트를 생성하고 있는 스토리지 오브젝트를 식별할 수 있습니다.</block>
   <block id="d35b6b81aadb67b15c61278854a0f9ca" category="doc">스크립트가 경고와 함께 작동하는 방식</block>
   <block id="1be8880e6ed199c1fffa5af39cb95f33" category="paragraph">Unified Manager에서 이벤트에 대한 알림이 생성되면 지정된 수신자에게 알림 이메일이 전송됩니다. 경고와 스크립트를 연결한 경우 스크립트가 실행됩니다. 알림 e-메일에서 스크립트에 전달된 인수의 세부 정보를 확인할 수 있습니다.</block>
@@ -5574,7 +5559,6 @@
   <block id="485f3de9f39c8ba347a9b5d909803542" category="list-text">주석 규칙 * 탭에서 * 재정렬 * 을 클릭합니다.</block>
   <block id="0de5eda261463ea5280cd1779333c4c6" category="list-text">주석 규칙 순서 바꾸기 * 대화 상자에서 단일 행 또는 여러 행을 끌어서 주석 규칙 순서를 다시 정렬합니다.</block>
   <block id="5b2288a78f145e235160c68c802523a5" category="paragraph">재정렬을 표시하려면 변경 사항을 저장해야 합니다.</block>
-  <block id="efa017f823fbacb99447313c5a3cce39" category="summary">NetApp 스냅샷 백업에서는 시스템 장애 또는 데이터 손실 발생 시 복원에 사용할 수 있는 Unified Manager 데이터베이스 및 구성 파일의 시점 이미지를 생성합니다. 항상 최신 복사본을 사용할 수 있도록 ONTAP 클러스터 중 하나의 볼륨에 정기적으로 스냅샷 백업을 기록하도록 예약합니다.</block>
   <block id="a47153d54b7968c03bc59c4c044aaccf" category="doc">NetApp Snapshot을 사용한 백업 및 복원</block>
   <block id="403875c0649c7ac18910973842019b9a" category="paragraph">가상 어플라이언스에 설치된 Active IQ Unified Manager에는 이 기능을 사용할 수 없습니다.</block>
   <block id="a1d4efebede11cdad67e8b8d38e4d02d" category="summary">Unified Manager를 사용하여 노드 루트 애그리게이트를 모니터링할 수 있습니다. 노드를 중단하는 것을 방지하기 위해 루트 애그리게이트에 루트 볼륨을 두껍게 프로비저닝하는 것이 가장 좋습니다.</block>
@@ -5961,24 +5945,14 @@
   <block id="cd3c68cc6b8f9809448f7e2960f3960a" category="paragraph">권한: 0750, 소유권: jboss: 유지 보수</block>
   <block id="84c873c921ee7808689d6f63f0b75d7b" category="list-text">Unified Manager가 Windows 시스템에 설치되어 있고 MySQL 백업을 사용하는 경우 관리자만 백업 디렉토리에 액세스할 수 있어야 합니다.</block>
   <block id="e899e8ad18a40aa68cb10f881b14d962" category="paragraph">첫 번째 백업은 전체 백업이므로 백업을 처음 수행할 때보다 더 많은 시간이 필요합니다. 전체 백업은 1GB가 넘고 3~4시간이 소요될 수 있습니다. 후속 백업은 증분 백업이므로 더 적은 시간이 필요합니다.</block>
-  <block id="c70b90896f6047560d324950d0533f1c" category="list-text">증분 백업 파일 수가 백업에 할당된 공간에 비해 너무 많은 경우 새 전체 백업을 정기적으로 생성하여 이전의 전체 백업과 모든 하위 증분 파일을 대체할 수 있습니다. Linux 시스템에 Unified Manager가 설치되어 있는 경우, 다른 옵션으로 NetApp Snapshot 백업 방법을 사용할 수 있습니다.</block>
   <block id="1a5988c5d76a9ffec9bf0d2d58f2b1bb" category="list-text">백업 경로, 보존 수 및 스케줄에 대한 적절한 값을 구성합니다.</block>
   <block id="ad85571c0744603fcf1a8896664ac91b" category="paragraph">보존 수의 기본값은 10이며 무제한 백업을 생성하는 데 0을 사용할 수 있습니다.</block>
   <block id="c9defe82acaadaf0bc7351323651edfd" category="paragraph">데이터베이스 덤프 백업 파일은 일정에 따라 생성됩니다. 데이터베이스 백업 페이지에서 사용 가능한 백업 파일을 볼 수 있습니다.</block>
   <block id="146b54492f9e3bbe7f0eab12ebad671a" category="summary">데이터 손실 또는 데이터 손상이 발생할 경우 Unified Manager를 최소한의 데이터 손실로 이전의 안정적인 상태로 복원할 수 있습니다. Unified Manager 유지보수 콘솔을 사용하여 Unified Manager 스냅샷 데이터베이스를 로컬 또는 원격 운영 체제로 복원할 수 있습니다.</block>
-  <block id="32148cb10d776b094dced327a1b0fc4e" category="doc">Linux 및 Windows용 스냅샷 백업 복원</block>
   <block id="e93453301a9f4ba773074e263e24f3aa" category="list-text">Linux 호스트에 대한 루트 사용자 자격 증명과 Unified Manager가 설치된 Windows 호스트 시스템에 대한 관리 권한이 있어야 합니다.</block>
   <block id="32e3809f8d6ed42f5004ad8b8baa3a43" category="paragraph">복원 기능은 플랫폼별 및 버전에 따라 다릅니다. Unified Manager 백업은 동일한 Unified Manager 버전에서만 복원할 수 있습니다.</block>
   <block id="cdb3b41720fff6c8a03e2b1cbbb34e11" category="list-text">Unified Manager 시스템의 IP 주소 또는 정규화된 도메인 이름에 연결합니다.</block>
-  <block id="d8613fd0262f0065e011c1c70144fae1" category="paragraph">Linux *</block>
-  <block id="6ace128b686261095a774f72e0443c9a" category="paragraph">보안 셸</block>
-  <block id="798f4b2607b39e7e9b593d42368f1ed3" category="paragraph">* Windows *</block>
-  <block id="5036b66bea4412997f6307cc829222a3" category="paragraph">Power Shell을 선택합니다</block>
   <block id="8838ce682897f309ce14643e22c2df54" category="list-text">루트 사용자 자격 증명을 사용하여 시스템에 로그인합니다.</block>
-  <block id="fc425df0709b7d093f412725b3bf1fbf" category="list-text">NetApp Snapshot * 을 사용하여 백업 및 복원 * 에 대한 번호를 입력합니다.</block>
-  <block id="d8f5437d42a441dfa168ae96d656db29" category="paragraph">새 서버로 복원을 수행하는 경우 Unified Manager를 설치한 후 설치가 완료될 때 UI를 실행하거나 클러스터, 사용자 또는 인증 설정을 구성하지 마십시오. Configure NetApp Snapshot Backup * 에 대한 번호를 입력하고 원래 시스템에 구성되었던 스냅샷 백업 설정을 구성합니다.</block>
-  <block id="31068d97c65389f456740fdba6fb893d" category="list-text">NetApp Snapshot * 을 사용하여 복원 * 에 대한 번호를 입력합니다.</block>
-  <block id="80cc8897454c59019774aafa996e72b0" category="list-text">복원하려는 스냅샷 백업 파일을 선택하고 * Enter * 를 누릅니다.</block>
   <block id="7e3a7f64abb10a8ec2278d71c2ef33cf" category="list-text">복원 프로세스가 완료되면 Unified Manager 사용자 인터페이스에 로그인합니다.</block>
   <block id="503b5dbfe28c3dee835f7d0560bbbcda" category="paragraph">백업을 복원한 후 Workflow Automation 서버가 작동하지 않으면 다음 단계를 수행하십시오.</block>
   <block id="e83c87abcc08c3a23fb2a1a8b674fec2" category="summary">그룹 규칙이 더 이상 필요하지 않은 경우 Active IQ Unified Manager에서 그룹 규칙을 삭제할 수 있습니다.</block>
@@ -6199,8 +6173,6 @@
   <block id="26e460249d179ba6fa75af43292c74a8" category="list-text">주석 * 페이지에서 값을 추가할 주석을 선택한 다음 * 값 * 섹션에서 * 추가 * 를 클릭합니다.</block>
   <block id="229cff0937765713450f4f214aa9bd42" category="list-text">주석 값 추가 * 대화 상자에서 주석 값을 지정합니다.</block>
   <block id="d9d1eda668b95621e4a62f92a724b276" category="paragraph">지정한 값은 선택한 주석에 대해 고유해야 합니다.</block>
-  <block id="b54f31dd6204fb4eea238c710ce88c52" category="summary">ONTAP 클러스터 중 하나에서 이미 구성한 볼륨의 Active IQ Unified Manager 스냅샷 백업에 대한 대상 위치를 구성하고 유지보수 콘솔을 사용하여 위치를 정의해야 합니다.</block>
-  <block id="799bf19e536ac1b86d71b01a9e77ae44" category="doc">Windows Snapshot 백업의 대상 위치 지정</block>
   <block id="efe1c3aca20669b1d8155e3996b3683e" category="list-text">Active IQ Unified Manager가 설치된 Windows 호스트에 대한 관리자 권한이 있어야 합니다.</block>
   <block id="6818bf7e4f9158793c3db8c8d905f8ac" category="list-text">클러스터 관리 IP 주소, 스토리지 VM 이름, 볼륨 이름, LUN 이름 및 스토리지 시스템 사용자 이름과 암호가 있어야 합니다.</block>
   <block id="1abe1b3d8a962cf1074567c717f8a207" category="list-text">Active IQ Unified Manager 호스트에 볼륨을 네트워크 드라이브로 마운트해야 하며 마운트 드라이브가 있어야 합니다.</block>
@@ -6221,7 +6193,6 @@
   <block id="88ea85c6f41faf7838eeb9229aafdd58" category="list-text">iGroup 이름입니다</block>
   <block id="f7cd5dd5148c05c492d4f7cdfb31fa02" category="list-text">네트워크 드라이브가 마운트된 볼륨의 GUID입니다</block>
   <block id="08511ea6018014e2adf65b1dad8b3557" category="list-text">ONTAP와 통신하는 데 사용되는 iSCSI 이니시에이터입니다</block>
-  <block id="b3cebd9bcd8b335d0acc8502548bdfe1" category="list-text">아직 스냅샷 백업 일정을 생성하지 않은 경우 유지보수 콘솔을 종료하고 Active IQ Unified Manager 인터페이스를 실행하여 스냅샷 백업 일정을 생성합니다.</block>
   <block id="110d27b05004a4308afa23650d4880b3" category="summary">일반적으로 ONTAP 클러스터, SVM(스토리지 가상 머신), 볼륨에 대한 보안 기준은 ONTAP 9에 대한 NetApp 보안 강화 가이드에 정의된 권장사항을 기준으로 평가됩니다.</block>
   <block id="a56ba57e5caff729c6d136191605d68c" category="doc">평가 대상 보안 기준</block>
   <block id="f4765eec352900a07139dcf390dfc25f" category="paragraph">일반적으로 ONTAP 클러스터, SVM(스토리지 가상 머신), 볼륨에 대한 보안 기준은 ONTAP 9_에 대한_NetApp 보안 강화 가이드에 정의된 권장사항을 기준으로 평가됩니다.</block>
@@ -6256,9 +6227,7 @@
   <block id="a1fe3a0e1cf05d7a8adf0f53f52989ec" category="summary">클러스터, 볼륨 및 SVM(스토리지 가상 머신)과 동적으로 연결되는 주석 목록을 볼 수 있습니다. 설명, 만든 사용자, 만든 날짜, 값, 규칙 등의 세부 정보를 볼 수도 있습니다. 및 주석과 연관된 개체.</block>
   <block id="d1b1b28aa71bd970255f3536222c9fde" category="doc">주석 목록 및 세부 정보 보기</block>
   <block id="5940cffbe212ce9217af62163b6d0b08" category="list-text">Annotations * (주석 *) 탭에서 주석 이름을 클릭하여 관련 세부 정보를 봅니다.</block>
-  <block id="a8e1ee6100209bd26e4466a900b48b9e" category="summary">NetApp 스냅샷 백업을 준비하려면 Active IQ Unified Manager가 설치된 Windows 호스트 시스템을 구성해야 합니다. Windows 호스트 시스템에서 Microsoft iSCSI 초기자를 시작하려면 검색 표시줄에 "iSCSI"를 입력하고 iSCSI 초기자를 클릭합니다.</block>
   <block id="979a48f08ca3a5524a9fb0584ff575d4" category="doc">Windows 호스트 시스템을 구성하는 중입니다</block>
-  <block id="c757bda4c8288d9600da64281ad2d062" category="paragraph">NetApp 스냅샷 백업을 준비하려면 Active IQ Unified Manager가 설치된 Windows 호스트 시스템을 구성해야 합니다. Windows 호스트 시스템에서 Microsoft iSCSI 초기자를 시작하려면 검색 표시줄에 ""iSCSI""를 입력하고 * iSCSI 초기자 * 를 클릭합니다.</block>
   <block id="f59c0adda3b9640a8678653e8048637e" category="paragraph">호스트 시스템에서 이전 구성을 정리해야 합니다.</block>
   <block id="34f7e7c2649322ad73b758a14fe6338b" category="paragraph">Windows를 새로 설치할 때 iSCSI 초기자를 시작하려고 하면 확인 메시지가 표시되고 확인 메시지가 표시되면 iSCSI 속성 대화 상자가 표시됩니다. 기존 Windows 설치인 경우 iSCSI 속성 대화 상자가 비활성이거나 연결을 시도하는 대상과 함께 표시됩니다. 따라서 Windows 호스트의 이전 구성이 모두 제거되었는지 확인해야 합니다.</block>
   <block id="187c685c05bc4596438f1065a9e15994" category="list-text">호스트 시스템에서 이전 구성을 모두 정리합니다.</block>
@@ -6278,7 +6247,6 @@
   <block id="8ef3f7fed5fd6fc8d430020b5067327e" category="paragraph">노드를 오프라인 상태로 전환하면 클러스터의 쿼럼 유지 기능에 영향을 줄 수 있습니다. 따라서 클러스터를 쿼럼에서 제외시키거나 quorum이 손실된 상태에서 한 번의 작동 중지가 발생하지 않는 작업을 시도할 경우 ONTAP에서 경고 메시지를 표시합니다. 클러스터 quorum-service options modify 명령을 고급 권한 수준에서 사용하여 quorum 경고 메시지를 비활성화할 수 있습니다.</block>
   <block id="43d9c612aefad21e1b33cfbf5f942333" category="paragraph">일반적으로, 클러스터의 노드 간에 안정적인 연결을 가정하면 더 큰 클러스터는 더 작은 클러스터보다 더 안정적입니다. 노드 과반수의 단순한 정수에 epsilon을 더한 quorum 요구 사항은 노드 2개로 구성된 클러스터보다 노드 24개로 구성된 클러스터에서 유지하기가 더 쉽습니다.</block>
   <block id="11e86f318e9d49b1b14c26354ab2f019" category="paragraph">2노드 클러스터는 쿼럼을 유지 관리하는 데 몇 가지 고유한 문제를 제시합니다. 2노드 클러스터는 어떠한 노드도 epsilon을 보유하지 않는 클러스터 HA를 사용합니다. 대신 두 노드는 모두 지속적으로 폴링되므로 하나의 노드에 장애가 발생할 경우 다른 노드가 데이터에 대한 읽기-쓰기 액세스 권한을 완벽하게 갖추고 논리 인터페이스 및 관리 기능에 액세스할 수 있습니다.</block>
-  <block id="abade1525053b328cd00ac394aa22707" category="summary">Windows용 Active IQ Unified Manager 스냅샷 백업 및 복원을 구성하기 전에 ONTAP 및 Windows 호스트 시스템에 대해 몇 가지 사전 구성을 수행해야 합니다.</block>
   <block id="8f13a5846c3dde639a93fc2554f271af" category="doc">ONTAP 클러스터를 구성하는 중입니다</block>
   <block id="39d8477a9ad9ed927746b978b28ad783" category="paragraph">명령 프롬프트나 System Manager 사용자 인터페이스를 사용하여 ONTAP 클러스터를 구성할 수 있습니다. ONTAP 클러스터를 구성하려면 스토리지 VM에 iSCSI LIF로 할당할 수 있도록 데이터 LIF를 구성해야 합니다. 다음 단계는 System Manager 사용자 인터페이스를 사용하여 iSCSI 지원 스토리지 VM을 구성하는 것입니다. LIF가 아웃바운드 트래픽에 네트워크를 사용하는 방법을 제어하려면 이 스토리지 VM에 대한 정적 네트워크 경로를 구성해야 합니다.</block>
   <block id="376d1e880f6b042f169c02ad77bc437e" category="paragraph">백업 구성을 위해서는 전용 볼륨과 LUN이 있어야 합니다. 선택한 볼륨에 LUN이 하나만 포함되어야 합니다. LUN 크기는 Active IQ Unified Manager에서 처리할 수 있을 것으로 예상되는 데이터 크기의 2배 이상이어야 합니다.</block>
@@ -6382,7 +6350,6 @@
   <block id="141d71ae35202114577bc79a82c08656" category="paragraph"><block ref="141d71ae35202114577bc79a82c08656" category="inline-link-rx"></block></block>
   <block id="13e4304c150d5c87f513047dda49387e" category="summary">MySQL 데이터베이스 덤프 백업은 시스템 장애 또는 데이터 손실 시 사용할 수 있는 Active IQ Unified Manager 데이터베이스 및 구성 파일의 복사본입니다. 백업을 로컬 대상 또는 원격 대상에 기록하도록 예약할 수 있습니다. Active IQ Unified Manager 호스트 시스템 외부의 원격 위치를 정의하는 것이 좋습니다.</block>
   <block id="9e0ca761831fb0f0dabbfe885a87d055" category="doc">MySQL 데이터베이스 덤프를 사용하여 백업 및 복원</block>
-  <block id="d3e2a44d169c2c9766d5e5082da2116f" category="paragraph">Linux 및 Windows 서버에 Unified Manager가 설치된 경우 MySQL 데이터베이스 덤프는 기본 백업 메커니즘입니다. Red Hat Enterprise Linux, CentOS Linux 시스템 또는 Windows의 경우 Active IQ Unified Manager가 많은 수의 클러스터와 노드를 관리하고 있거나 MySQL 백업을 완료하는 데 몇 시간이 걸리는 경우 NetApp Snapshot 백업 방법을 사용할 수 있습니다.</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">데이터베이스 덤프 백업은 백업 디렉토리의 단일 파일과 데이터베이스 저장소 디렉토리에 있는 하나 이상의 파일로 구성됩니다. 백업 디렉토리의 파일은 백업을 다시 생성하는 데 필요한 데이터베이스 저장소 디렉토리에 있는 파일에 대한 포인터만 포함하므로 매우 작습니다.</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">데이터베이스 백업을 처음 생성할 때 단일 파일이 백업 디렉토리에 생성되고 전체 백업 파일이 데이터베이스 저장소 디렉터리에 생성됩니다. 다음에 백업을 생성할 때 백업 디렉토리에 단일 파일이 생성되고 전체 백업 파일과의 차이가 포함된 증분 백업 파일이 데이터베이스 저장소 디렉토리에 생성됩니다. 다음 그림과 같이 최대 보존 설정까지 추가 백업을 생성하면 이 프로세스가 계속됩니다.</block>
   <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">데이터베이스 백업</block>
@@ -6428,8 +6395,6 @@
   <block id="1874b92882e8757d1421aa23bcba69a4" category="list-text">각 그룹에는 클러스터, SVM 또는 볼륨과 같은 여러 유형의 스토리지 객체가 포함될 수 있습니다.</block>
   <block id="0976719af9f3b41a2ff0503aaaff9a20" category="list-text">그룹 규칙이 생성될 때 또는 Unified Manager가 모니터링 주기를 완료할 때 에 따라 스토리지 객체가 그룹에 동적으로 추가됩니다.</block>
   <block id="b1fa91faeaade519d11c6435d2f62215" category="list-text">볼륨에 대한 임계값 설정과 같은 그룹의 모든 스토리지 개체에 작업을 동시에 적용할 수 있습니다.</block>
-  <block id="f53f51112c1b2a05048cc9021799a91e" category="summary">ONTAP 클러스터 중 하나에 이미 구성한 볼륨에서 Active IQ Unified Manager 스냅샷 백업의 대상 위치를 구성합니다. Active IQ Unified Manager 유지보수 콘솔에서 위치를 정의합니다.</block>
-  <block id="28159d6dfa1a39e6f3ad07c1cf591e1b" category="doc">스냅샷 백업의 대상 위치 지정</block>
   <block id="ce528b6890fb6b6c48fa6a2e269faa21" category="list-text">Active IQ Unified Manager가 설치된 Linux 호스트에 대한 루트 사용자 자격 증명이 있어야 합니다.</block>
   <block id="24794d5f05454fa6bf8b40e88fe9eab1" category="list-text">클러스터 관리 IP 주소, 스토리지 VM 이름, 볼륨 이름 및 스토리지 시스템 사용자 이름과 암호가 있어야 합니다.</block>
   <block id="257925ea2fb77c58fa506e21a73a157b" category="list-text">Active IQ Unified Manager 호스트에 볼륨을 마운트해야 하며 마운트 경로가 있어야 합니다.</block>
@@ -6463,8 +6428,6 @@
   <block id="2c77aad0916b08a27eb683485b5b12ea" category="list-text">그룹 목록에서 그룹을 선택합니다.</block>
   <block id="4333a6bc2c62d5d99eec8ed2d081886c" category="list-text">8단계에서 피연산자로 * data-priority * 를 선택하고 9단계의 연산자로 * 를, 10단계의 값으로 * critical * 을 선택하여 8단계에서 10단계까지 반복합니다.</block>
   <block id="1e242efdff601adf92010e64b5aad895" category="list-text">그룹 규칙의 조건을 만들려면 * 추가 * 를 클릭합니다.</block>
-  <block id="861c2853233db617d584ff94b9ad8386" category="summary">ONTAP 시스템 관리자 또는 ONTAP CLI를 사용하여 ONTAP 클러스터 중 하나에 스냅샷 백업이 저장될 볼륨을 구성할 수 있습니다.</block>
-  <block id="349d7a256fa4f3d0418ee6eb5d23aae0" category="doc">스냅샷 백업 위치를 구성하는 중입니다</block>
   <block id="838462fd6fa37499c110937fa7627327" category="list-text">Unified Manager를 통해 모니터링할 수 있지만 반드시 필요한 것은 아닙니다</block>
   <block id="44d0d36ca7d4d7f7816b5fe609cada93" category="list-text">이름 스위치와 이름 매핑은 ""파일""을 사용하도록 설정되어야 합니다.</block>
   <block id="11a084e263f5f30942f8650938fe1dd2" category="list-text">클라이언트 측 사용자와 일치하도록 생성된 로컬 사용자입니다</block>
@@ -6536,7 +6499,6 @@
   <block id="6c04472eb8434da04b6836ebd12218b7" category="summary">Active IQ Unified Manager는 iSCSI 프로토콜을 사용하는 LUN의 도움으로 Windows 운영 체제에서 NetApp 스냅샷을 사용하여 백업 및 복원을 지원합니다.</block>
   <block id="a76b011d1f0216bb407469e9fcb9b607" category="doc">Windows에서 백업을 구성합니다</block>
   <block id="0df0d708323b0db94db9a4c857653fde" category="paragraph">모든 UM 서비스가 실행되는 동안 스냅샷 기반 백업을 수행할 수 있습니다. 백업이 전체 데이터베이스에 글로벌 읽기 잠금을 설정하면 동시 쓰기를 방지할 수 있으므로 스냅샷의 일부로 데이터베이스의 정합성이 보장되는 상태가 캡처됩니다. Windows OS에 설치된 Unified Manager 시스템에서 NetApp Snapshot을 사용하여 백업 및 복원을 수행하려면 먼저 유지보수 콘솔을 사용하여 Unified Manager 백업을 Snapshot에 구성해야 합니다.</block>
-  <block id="e2aeeb8d5925be531d7b83fdf0c7e0d4" category="paragraph">스냅샷 백업을 위해 Active IQ Unified Manager 설치를 구성하기 전에 다음 구성 작업을 수행해야 합니다.</block>
   <block id="f1d2b7cc5beb46f3b0a532b5d98c6193" category="list-text">ONTAP 클러스터를 구성합니다</block>
   <block id="9034ed23b3c744a50f9c5977ea2d17a2" category="list-text">Windows 호스트 시스템을 구성합니다</block>
   <block id="7255aa43219f027571cfa6dc51372bb7" category="summary">이 워크플로우는 용량 문제를 해결하는 방법의 예를 제공합니다. 이 시나리오에서는 관리자나 운영자가 Unified Manager 대시보드 페이지에 액세스하여 모니터링되는 스토리지 개체에 용량 문제가 있는지 확인할 수 있습니다. 문제의 가능한 원인과 해결 방법을 파악하려고 합니다.</block>
@@ -11230,7 +11192,6 @@
   <block id="c07d3bd907453e5203a338418c201129" category="list-text">모든 API에 대한 'Get'(All) 요청은 최대 1000개의 레코드를 반환합니다. max_records' 매개 변수를 1000보다 큰 값으로 설정하여 쿼리를 실행해도 1000개의 레코드만 반환됩니다.</block>
   <block id="57a9b1480b1c7570789e3f0f9b348f2b" category="list-text">관리 기능을 수행하려면 Unified Manager UI를 사용하는 것이 좋습니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
-  <block id="03c4964bc816e433324ce19426448ce5" category="sidebar">Active IQ Unified Manager 문서</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
   <block id="54cee202b784163d7cdf325cdd6aa6c6" category="sidebar">VMware vSphere를 위한 빠른 시작 설치</block>
   <block id="a63af8d4197dd6c65eaa56176a1f0040" category="sidebar">Linux용 빠른 시작 설치</block>
@@ -11624,5 +11585,46 @@
   <block id="3066589d00db39c012813cfbdb5ac98f" category="list-text">연결된 시스템에서 다음 명령을 실행하여 업데이트된 MySQL 키를 가져옵니다.</block>
   <block id="ce16a447d798efe968d2235fb0e11c5b" category="list-text">인터넷에 연결되지 않은 시스템에서는 gpgcheck=0으로 표시하여 MySQL repo 파일을 업데이트하고 gpgcheck를 비활성화합니다.</block>
   <block id="eb8cc10ea7290daea0c59a212428f061" category="paragraph"><block ref="eb8cc10ea7290daea0c59a212428f061" category="inline-link-macro-rx"></block></block>
-  <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
+  <block id="8b5c53741ace59564e91943c6402cc3a" category="summary">NetApp Snapshot을 사용하여 Active IQ Unified Manager를 백업 및 복원하려면 Windows 호스트 시스템을 구성해야 합니다. Windows 호스트 시스템에서 Microsoft iSCSI 초기자를 시작하려면 검색 표시줄에 "iSCSI"를 입력하고 iSCSI 초기자를 클릭합니다.</block>
+  <block id="1248b2e744f7fb1ee933bde0f938b102" category="paragraph">NetApp Snapshot을 사용하여 Active IQ Unified Manager를 백업 및 복원하려면 Windows 호스트 시스템을 구성해야 합니다. Windows 호스트 시스템에서 Microsoft iSCSI 초기자를 시작하려면 검색 표시줄에 ""iSCSI""를 입력하고 * iSCSI 초기자 * 를 클릭합니다.</block>
+  <block id="f8cd459ff4a7192edfbedc254b7bca7b" category="paragraph">Unified Manager에서 스냅샷 복사본을 생성하도록 구성하기 전에 다음 구성 작업을 수행해야 합니다.</block>
+  <block id="acb0ccecf8f7da295a8d8689fb4fa3dd" category="paragraph">Active IQ Unified Manager 시스템의 백업 유형을 변경하려면 유지보수 콘솔 옵션을 사용할 수 있습니다. NetApp Snapshot Backup * 구성 취소 옵션을 사용하면 MySQL 기반 백업으로 되돌아갈 수 있습니다.</block>
+  <block id="4a5252be16df0bd596f3669798985895" category="list-text">백업 및 복원을 위해 * 메인 메뉴 * 에서 4 를 선택합니다.</block>
+  <block id="49404a8cd7fa908019ad2c0c44d457dd" category="paragraph">백업 방법이 수정된 후 백업 메커니즘이 스냅샷 복사본에서 기본 MySQL 백업으로 변경됩니다. 이 변경 사항은 일반 설정의 데이터베이스 백업 섹션에 나타납니다.</block>
+  <block id="57d3cd2d30301429d6637d67f82d9d7e" category="summary">ONTAP 클러스터 중 하나에 이미 구성되어 있는 볼륨의 Active IQ Unified Manager 스냅샷 복사본에 대한 대상 위치를 구성해야 합니다. 유지보수 콘솔을 사용하여 위치를 정의해야 합니다.</block>
+  <block id="12fc5ceb004caac51bc7adc0919885d2" category="doc">스냅샷 복사본의 대상 위치 지정</block>
+  <block id="9106687d633b6347a2301128578a0d53" category="list-text">아직 시작하지 않은 경우 유지보수 콘솔을 종료하고 Active IQ Unified Manager 인터페이스를 시작하여 스냅샷 복사본에 대한 일정을 생성합니다.</block>
+  <block id="078057cb4fbbb2df6414096389bdf757" category="doc">스냅샷 복사본을 사용하여 Unified Manager 복원</block>
+  <block id="6c1317e22f5a52a7e1ef24b0cfcf2808" category="list-text">Linux: 보안 셸</block>
+  <block id="84097b5c25253e555f1241a6265b1fc7" category="list-text">Windows:Power Shell</block>
+  <block id="6e84cad578a085c5bfb17f2ceafb779f" category="list-text">유지보수 콘솔 * 메인 메뉴 * 에서 * 백업 복원 * 옵션에 대해 4를 입력합니다.</block>
+  <block id="b5d6cee6ecab9f76ec82923903ef56bf" category="list-text">2를 입력하여 NetApp Snapshot * 을 사용하여 백업 및 복원을 선택합니다.</block>
+  <block id="f253c94ba6549aff2dc48be199312f74" category="paragraph">새 서버로 복원을 수행하는 경우 Unified Manager를 설치한 후 설치가 완료될 때 UI를 실행하거나 클러스터, 사용자 또는 인증 설정을 구성하지 마십시오. 1을 입력하여 * NetApp Snapshot Backup 구성 * 을 선택한 후, 원래 시스템에 있는 스냅샷 복사본의 설정을 구성합니다.</block>
+  <block id="547fc6d1c680c3c977eefc644b5f84bb" category="list-text">3을 입력하여 NetApp Snapshot * 을 사용하여 복원 * 을 선택합니다.</block>
+  <block id="c129bd96bead8458af46982d8d46013a" category="list-text">Unified Manager를 복원할 스냅샷 복사본을 선택합니다. Enter * 를 누릅니다.</block>
+  <block id="ebd9d5f342d8f7a252c552caa368fdd4" category="summary">Windows에서 Unified Manager를 백업한 후 Snapshot 복사본을 저장할 볼륨을 구성해야 합니다.</block>
+  <block id="980280f09e181d6a54b6e6584a7a57ba" category="summary">ONTAP 시스템 관리자 또는 ONTAP CLI를 사용하여 ONTAP 클러스터 중 하나에서 스냅샷 복사본이 저장될 볼륨을 구성할 수 있습니다.</block>
+  <block id="5e9f7df21e2aee170e82e836a89c9b1b" category="doc">스냅샷 복사본 위치를 구성하는 중입니다</block>
+  <block id="4b57407417c4e1c7dd9db9b01598349f" category="summary">NetApp 스냅샷 복사본은 시스템 장애 또는 데이터 손실 시 복원에 사용할 수 있는 Unified Manager 데이터베이스 및 구성 파일의 시점 이미지를 생성합니다. 항상 최신 복사본을 사용할 수 있도록 ONTAP 클러스터 중 하나의 볼륨에 정기적으로 스냅샷 복사본을 기록하도록 예약합니다.</block>
+  <block id="9d0c3ab790f8c8c94d736d5f3f7b064c" category="summary">Unified Manager UI를 사용하여 Unified Manager 스냅샷 복사본이 생성되는 일정을 구성할 수 있습니다.</block>
+  <block id="276db03bd79cf1fd1f7a4b944102de33" category="list-text">스냅샷을 생성할 대상을 식별하려면 유지보수 콘솔에서 스냅샷 복사본을 생성하기 위한 설정을 구성해야 합니다.</block>
+  <block id="83abd8acb2b7676da1cf771f64b62650" category="paragraph">Snapshot 복사본은 몇 분 내에 생성되며 Unified Manager 데이터베이스는 몇 초 동안만 잠깁니다.</block>
+  <block id="657c331ddbfc73b6b9a208a8ae9baa85" category="paragraph">스냅샷 복사본은 일정에 따라 생성됩니다. 데이터베이스 백업 페이지에서 사용 가능한 백업 파일을 볼 수 있습니다.</block>
+  <block id="8eb7c975105334e9a925e8d0ae7bea1f" category="paragraph">ONTAP System Manager 또는 ONTAP CLI를 사용하여 이전 스냅샷을 삭제할 수 있으므로 항상 새 스냅샷 복사본을 저장할 공간이 있습니다.</block>
+  <block id="fbd8791f9c18f8663521f8eeaa9d956a" category="summary">ONTAP 시스템에서 스냅샷 복사본을 사용하여 Active IQ Unified Manager를 백업 및 복원하려면 먼저 Windows 클러스터에서 몇 가지 사전 구성 단계를 수행해야 합니다.</block>
+  <block id="39127dab30a1b4106495040a421b4171" category="list-text">백업용으로 할당된 공간에 비해 증분 백업 파일 수가 너무 많은 경우 주기적으로 전체 백업을 수행하여 이전 백업과 해당 증분 파일을 대체할 수 있습니다. 다른 옵션으로 Snapshot 복사본을 사용하여 백업을 수행할 수 있습니다.</block>
+  <block id="5a5094f086cece37d0843a7f44251cce" category="paragraph">Linux 및 Windows 서버에 Unified Manager가 설치된 경우 MySQL 데이터베이스 덤프는 기본 백업 메커니즘입니다. 그러나 Unified Manager에서 많은 수의 클러스터와 노드를 관리하고 있거나 MySQL 백업을 완료하는 데 몇 시간이 걸리는 경우 Snapshot 복사본을 사용하여 백업할 수 있습니다. 이 기능은 Red Hat Enterprise Linux, CentOS Linux 시스템 및 Windows에서 사용할 수 있습니다.</block>
+  <block id="0dacdc1f422539593cbb5a203b591b4c" category="summary">스냅샷 복사본을 사용하여 Active IQ Unified Manager 백업을 수행하려면 유지보수 콘솔에서 몇 가지 구성 단계를 수행해야 합니다.</block>
+  <block id="154bdb7f32d3fbfa903876b55692d782" category="doc">유지보수 콘솔에서 Snapshot 복사본으로 백업을 구성합니다</block>
+  <block id="e0075eac991ceb7545f11e534f56b9c5" category="paragraph">백업 구성을 변경하려면 3을 입력하여 * NetApp Snapshot 백업 구성 업데이트 * 를 선택합니다. 암호만 업데이트할 수 있습니다.</block>
+  <block id="d642a15bc9e79a0f7e99d72fad5a3ddd" category="paragraph">Snapshot 복사본은 보통 몇 분 정도밖에 걸리지 않으며, Unified Manager 데이터베이스가 매우 짧은 시간 동안 잠겨 있으므로 설치가 중단되는 것이 거의 없습니다. 마지막 스냅샷 복사본이 생성된 이후 파일에 대한 변경사항만 기록하므로 이미지는 최소한의 스토리지 공간을 소비하고 무시할 만한 성능 오버헤드를 발생시킵니다. ONTAP 클러스터에서 스냅샷이 생성되므로, 필요한 경우 SnapMirror와 같은 다른 NetApp 기능을 활용하여 2차 보호를 생성할 수 있습니다.</block>
+  <block id="e06e49da3fb49fecd85244c11ba7754d" category="list-text">동일한 버전의 Active IQ Unified Manager에서만 스냅샷 복사본을 복원할 수 있습니다.</block>
+  <block id="839fa2b63b981f33da59323dbb6922ca" category="doc">Windows에서 스냅샷 복사본의 대상 위치 지정</block>
+  <block id="5a4a0cbbe603b22097ec5fceadf09c9b" category="list-text">유지보수 콘솔을 종료하고 Active IQ Unified Manager 인터페이스를 실행하여 스냅샷 복사본의 일정을 생성합니다.</block>
+  <block id="1024da4d1e601efc60b6d334667fb372" category="inline-link-macro">AIQUM에서 AIQCASecure 규칙을 수동으로 업데이트하는 방법</block>
+  <block id="ab8d738b545ae820bcf3e08c1381f9d5" category="paragraph">자세한 내용은 다음 기술 자료(KB) 문서를 참조하십시오. <block ref="2880d9e8074f03320d24915675f84536" category="inline-link-macro-rx"></block></block>
+  <block id="97bbb871095678061fcc80b68b1e751b" category="paragraph">이는 클러스터의 모든 노드에 사용된 성능 용량 값을 비교하여 어떤 노드도 24시간 이상 30% 임계값을 초과하는지 여부를 확인하는 방식으로 실행됩니다. 이것은 경고 이벤트입니다.</block>
+  <block id="5a668f8970655ef1c7d0b0f27eacfe05" category="summary">Active IQ Unified Manager 9.11의 새로운 기능, 제한 사항 및 알려진 문제에 대한 요약을 제공합니다.</block>
+  <block id="695f7221e4fd4e02429db7170b21c850" category="sidebar">Active IQ Unified Manager 9.11 문서</block>
+  <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager를 참조하십시오</block>
 </blocks>

@@ -1,10 +1,10 @@
 ---
 permalink: health-checker/task_restore_snapshot_backup.html 
 sidebar: sidebar 
-keywords: restore, linux, snapshot, backup, windows 
+keywords: restore, unified manager, snapshot copy, copies, 
 summary: 데이터 손실 또는 데이터 손상이 발생할 경우 Unified Manager를 최소한의 데이터 손실로 이전의 안정적인 상태로 복원할 수 있습니다. Unified Manager 유지보수 콘솔을 사용하여 Unified Manager 스냅샷 데이터베이스를 로컬 또는 원격 운영 체제로 복원할 수 있습니다. 
 ---
-= Linux 및 Windows용 스냅샷 백업 복원
+= 스냅샷 복사본을 사용하여 Unified Manager 복원
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -24,37 +24,19 @@ summary: 데이터 손실 또는 데이터 손상이 발생할 경우 Unified Ma
 .단계
 . Unified Manager 시스템의 IP 주소 또는 정규화된 도메인 이름에 연결합니다.
 +
-|===
+** Linux: 보안 셸
+** Windows:Power Shell
 
 
- a| 
-Linux *
-
-
-
- a| 
-보안 셸
-
-
-
- a| 
-* Windows *
-
-
-
- a| 
-Power Shell을 선택합니다
-
-|===
 . 루트 사용자 자격 증명을 사용하여 시스템에 로그인합니다.
 . mainf유지보수_console 명령을 입력하고 Enter 키를 누릅니다.
-. 유지보수 콘솔 * 메인 메뉴 * 에서 * 백업 복원 * 옵션의 번호를 입력합니다.
-. NetApp Snapshot * 을 사용하여 백업 및 복원 * 에 대한 번호를 입력합니다.
+. 유지보수 콘솔 * 메인 메뉴 * 에서 * 백업 복원 * 옵션에 대해 4를 입력합니다.
+. 2를 입력하여 NetApp Snapshot * 을 사용하여 백업 및 복원을 선택합니다.
 +
-새 서버로 복원을 수행하는 경우 Unified Manager를 설치한 후 설치가 완료될 때 UI를 실행하거나 클러스터, 사용자 또는 인증 설정을 구성하지 마십시오. Configure NetApp Snapshot Backup * 에 대한 번호를 입력하고 원래 시스템에 구성되었던 스냅샷 백업 설정을 구성합니다.
+새 서버로 복원을 수행하는 경우 Unified Manager를 설치한 후 설치가 완료될 때 UI를 실행하거나 클러스터, 사용자 또는 인증 설정을 구성하지 마십시오. 1을 입력하여 * NetApp Snapshot Backup 구성 * 을 선택한 후, 원래 시스템에 있는 스냅샷 복사본의 설정을 구성합니다.
 
-. NetApp Snapshot * 을 사용하여 복원 * 에 대한 번호를 입력합니다.
-. 복원하려는 스냅샷 백업 파일을 선택하고 * Enter * 를 누릅니다.
+. 3을 입력하여 NetApp Snapshot * 을 사용하여 복원 * 을 선택합니다.
+. Unified Manager를 복원할 스냅샷 복사본을 선택합니다. Enter * 를 누릅니다.
 . 복원 프로세스가 완료되면 Unified Manager 사용자 인터페이스에 로그인합니다.
 
 

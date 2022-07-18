@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_configure_ontap_cluster.html 
 sidebar: sidebar 
-keywords: netapp, snapshot, backup, windows, configure, ontap, cluster 
-summary: Windows용 Active IQ Unified Manager 스냅샷 백업 및 복원을 구성하기 전에 ONTAP 및 Windows 호스트 시스템에 대해 몇 가지 사전 구성을 수행해야 합니다. 
+keywords: netapp, snapshot copy, copies, backup, windows, configure, ontap, cluster 
+summary: ONTAP 시스템에서 스냅샷 복사본을 사용하여 Active IQ Unified Manager를 백업 및 복원하려면 먼저 Windows 클러스터에서 몇 가지 사전 구성 단계를 수행해야 합니다. 
 ---
 = ONTAP 클러스터를 구성하는 중입니다
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Windows용 Active IQ Unified Manager 스냅샷 백업 및 복원을 구
 
 
 [role="lead"]
-Windows용 Active IQ Unified Manager 스냅샷 백업 및 복원을 구성하기 전에 ONTAP 및 Windows 호스트 시스템에 대해 몇 가지 사전 구성을 수행해야 합니다.
+ONTAP 시스템에서 스냅샷 복사본을 사용하여 Active IQ Unified Manager를 백업 및 복원하려면 먼저 Windows 클러스터에서 몇 가지 사전 구성 단계를 수행해야 합니다.
 
 명령 프롬프트나 System Manager 사용자 인터페이스를 사용하여 ONTAP 클러스터를 구성할 수 있습니다. ONTAP 클러스터를 구성하려면 스토리지 VM에 iSCSI LIF로 할당할 수 있도록 데이터 LIF를 구성해야 합니다. 다음 단계는 System Manager 사용자 인터페이스를 사용하여 iSCSI 지원 스토리지 VM을 구성하는 것입니다. LIF가 아웃바운드 트래픽에 네트워크를 사용하는 방법을 제어하려면 이 스토리지 VM에 대한 정적 네트워크 경로를 구성해야 합니다.
 

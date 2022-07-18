@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_configure_backup_location_for_windows_snapshot_backup.html 
 sidebar: sidebar 
-keywords: configure, backup, location, windows 
-summary: Windows에 Active IQ Unified Manager를 설치한 경우에도 Snapshot 백업을 저장할 볼륨을 구성해야 합니다. 
+keywords: configure, backup, location, windows, snapshot copy, copies 
+summary: Windows에서 Unified Manager를 백업한 후 Snapshot 복사본을 저장할 볼륨을 구성해야 합니다. 
 ---
 = Windows의 백업 위치 구성
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Windows에 Active IQ Unified Manager를 설치한 경우에도 Snapshot
 
 
 [role="lead"]
-Windows에 Active IQ Unified Manager를 설치한 경우에도 Snapshot 백업을 저장할 볼륨을 구성해야 합니다.
+Windows에서 Unified Manager를 백업한 후 Snapshot 복사본을 저장할 볼륨을 구성해야 합니다.
 
 * 필요한 것 *
 
