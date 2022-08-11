@@ -19,4 +19,4 @@ Unified Manager REST API는 ONTAP REST API와 다르며, ONTAP REST API를 사�
 
 이 기능을 활성화한 후 * 메뉴 모음 * > * 도움말 버튼 * > * API 문서 * > * 게이트웨이 * 범주에서 Unified Manager REST API를 실행할 수 있습니다. 또는 호스트 이름 또는 IP 주소와 URL을 입력하여 REST API 페이지에 액세스할 수 있습니다 https://<hostname>/docs/api/`
 
-API에 대한 자세한 내용은 _Active IQ Unified Manager API 개발자 가이드_를 참조하십시오.
+API에 대한 자세한 내용은 를 참조하십시오 link:../api-automation/concept_get_started_with_um_apis.html["Active IQ Unified Manager REST API 시작하기"].

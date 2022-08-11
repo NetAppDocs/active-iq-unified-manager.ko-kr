@@ -28,6 +28,4 @@ summary: '정책 기반 스토리지 관리 옵션을 사용하면 SLO(서비스
 
 이 기능을 활성화한 후 Unified Manager REST API를 실행하여 이러한 기능 중 일부를 * Menu Bar * > * Help 버튼 * > * API Documentation * > * storage-provider * 범주에서 수행할 수 있습니다. 또는 호스트 이름 또는 IP 주소와 URL을 입력하여 REST API 페이지에 액세스할 수 있습니다. 형식은 +https://<hostname>/docs/api/+ 입니다
 
-API에 대한 자세한 내용은 _Active IQ Unified Manager API 개발자 가이드_를 참조하십시오.
-
-link:../api-automation/concept_get_started_with_um_apis.html["Active IQ Unified Manager API 개발자 가이드 를 참조하십시오"]
+API에 대한 자세한 내용은 를 참조하십시오 link:../api-automation/concept_get_started_with_um_apis.html["Active IQ Unified Manager REST API 시작하기"].

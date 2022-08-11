@@ -156,4 +156,4 @@ Log in to Unified Manager in a web browser by using following details:
 
 
 
-웹 UI에 액세스하여 umadmin 사용자의 기본 암호를 변경하고 에 설명된 대로 Unified Manager의 초기 설정을 수행합니다 link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager 시스템 구성 설명서"].
+에 설명된 대로 웹 UI에 액세스하여 umadmin 사용자의 기본 암호를 변경하고 Unified Manager의 초기 설정을 수행합니다 link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager 구성"].

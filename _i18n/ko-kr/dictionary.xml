@@ -100,7 +100,6 @@
   <block id="e9b70b01b68936d5229a5051e4a06db4" category="paragraph">Unified Manager는 클러스터 정보를 수집하고, 데이터를 데이터베이스에 저장하고, 데이터를 분석하여 클러스터 문제가 있는지 확인합니다.</block>
   <block id="8c9d08852e8e1febedc693013a4f0f93" category="summary">설치 워크플로우에서 Unified Manager를 사용하기 전에 수행해야 하는 작업에 대해 설명합니다.</block>
   <block id="bed7b91a2df8076097fedfb7b87f92e7" category="doc">설치 순서 개요</block>
-  <block id="dacfb51b4a094d652e66024bf2159200" category="paragraph">이 설치 가이드의 장에서는 아래 워크플로에 표시된 각 항목에 대해 설명합니다.</block>
   <block id="322f88fdb47136f0505af3e29d2c5649" category="image-alt">전체 누적 설치 유량</block>
   <block id="d16ae8eb65ccb46e0447b8be8b175718" category="summary">Unified Manager를 업그레이드하기 전에 NetApp Support 사이트에서 Unified Manager 업그레이드 파일을 다운로드하십시오.</block>
   <block id="3af6e0daf5d5cb2908c1014dd02524b1" category="doc">Unified Manager 업그레이드 파일을 다운로드하는 중입니다</block>
@@ -178,9 +177,6 @@
   <block id="26f440e8c4cd1d3146cbae1a4c93048d" category="paragraph">유지보수 사용자 이름은 a-z의 문자로 시작하고 그 뒤에 -, a-z 또는 0-9의 조합을 입력해야 합니다.</block>
   <block id="0fe01979c09e5c4c4a13629e8a2dc63f" category="list-text">프롬프트에서 암호를 입력한 다음 * Enter * 를 클릭합니다.</block>
   <block id="827e9bc6912741afa9fd15061acbdf3a" category="paragraph">VM 콘솔에는 Unified Manager 웹 UI의 URL이 표시됩니다.</block>
-  <block id="b251c0d5b9ac9a245c3e5680b898541b" category="paragraph">웹 UI에 액세스하여 _Active IQ Unified Manager 시스템 구성 가이드_에 설명된 대로 Unified Manager의 초기 설정을 수행할 수 있습니다.</block>
-  <block id="09e58bfdfb5bb7adf152df5b1b5ed29c" category="inline-link-macro">Active IQ Unified Manager 시스템 구성 설명서</block>
-  <block id="f58716a8c39c318b5ee09a724a759e81" category="paragraph"><block ref="f58716a8c39c318b5ee09a724a759e81" category="inline-link-macro-rx"></block></block>
   <block id="1dbab26c4cc554e2d686240dce4e1c32" category="summary">유지보수 콘솔에서 Unified Manager 가상 머신(VM)을 다시 시작할 수 있습니다. 새 보안 인증서를 생성한 후 또는 VM에 문제가 있는 경우 VM을 다시 시작해야 합니다.</block>
   <block id="f0534e91aef6ef17323964d9d72a8ced" category="doc">Unified Manager 가상 머신을 재시작합니다</block>
   <block id="69ce6df093b147c7a25a04bf00305588" category="list-text">가상 어플라이언스의 전원이 켜져 있어야 합니다.</block>
@@ -307,7 +303,6 @@
   <block id="50780f47f6839d47d60bc4555ee00c3f" category="paragraph">휴식</block>
   <block id="7dc8b441cf4e6fe9bc806679c4579e68" category="paragraph">9443</block>
   <block id="77294b4d67d929acf56022eb43f81988" category="paragraph">인증된 ONTAP 시스템에서 실시간 REST API 기반 EMS 이벤트에 액세스하는 데 사용됩니다.</block>
-  <block id="aa3e397e51f9b1b6d6c235fdae39144f" category="paragraph">HTTP 및 HTTPS 통신에 사용되는 포트(포트 80 및 443)는 Unified Manager 유지 관리 콘솔을 사용하여 변경할 수 있습니다. 자세한 내용은 _Active IQ Unified Manager 시스템 구성 설명서_를 참조하십시오.</block>
   <block id="5a6374d3b555b76afa32840797491a50" category="section-title">Unified Manager 서버와의 연결입니다</block>
   <block id="a61ed6b83536814a5598fdc74a793e54" category="paragraph">Unified Manager Server와 관리되는 스토리지 시스템, 서버 및 기타 구성 요소 간의 통신을 활성화하는 포트를 열도록 방화벽을 구성해야 합니다. 포트가 열려 있지 않으면 통신이 실패합니다.</block>
   <block id="e2dc6782e0d053b02e4502c879e72c78" category="paragraph">환경에 따라 Unified Manager 서버가 특정 대상에 연결하는 데 사용하는 포트와 프로토콜을 수정할 수 있습니다.</block>
@@ -422,7 +417,6 @@
   <block id="4f72d182cd74cecc577c31f8379223b4" category="paragraph">OpenJDK가 설치된 디렉토리입니다. 예: 'C:\Program Files\NetApp\JDK\'</block>
   <block id="bfb2446e315edcbba47f0c61f07da5e5" category="list-text">Unified Manager 애플리케이션 데이터 디렉토리(appDataDir)</block>
   <block id="e245a912d513c7363e5be4985ed7b772" category="paragraph">이 디렉터리는 응용 프로그램에서 생성한 모든 데이터가 저장되는 디렉터리입니다. 여기에는 로그, 지원 번들, 백업 및 기타 모든 추가 데이터가 포함됩니다. 예: 'C:\ProgramData\NetApp\OnCommandAppData\'</block>
-  <block id="83e65a3fd23ed76726a6b95118397fad" category="paragraph">웹 UI에 액세스하여 에 설명된 대로 Unified Manager의 초기 설정을 수행할 수 있습니다 <block ref="f58716a8c39c318b5ee09a724a759e81" category="inline-link-macro-rx"></block>.</block>
   <block id="9520854478b675c31f0555786a67f9b4" category="summary">Unified Manager가 설치된 Windows 서버에서 최신 버전의 OpenJDK로 업그레이드하여 보안 취약점에 대한 수정 사항을 확인할 수 있습니다.</block>
   <block id="b70d1d0a2a88ed730b8d7e854c93fdbe" category="doc">OpenJDK 업그레이드 중</block>
   <block id="27a27fa27099c3dd7d2e0cb3d56381f0" category="paragraph">Unified Manager가 설치된 시스템에 대한 Windows 관리자 권한이 있어야 합니다.</block>
@@ -550,8 +544,6 @@
   <block id="2d16dd28e6a42b42f4f69330c58067e3" category="paragraph">보고서를 관리하려면 애플리케이션 관리자 또는 스토리지 관리자 역할이 있어야 합니다.</block>
   <block id="cf34db983c807f1b3f9a4ea61d46d60a" category="summary">REST API를 사용하여 Unified Manager에서 캡처한 상태, 용량, 성능 및 보안 정보를 확인하여 클러스터를 관리할 수 있습니다.</block>
   <block id="d4ebc5d6d732b6ec32a446521b4a3d9a" category="doc">보고에 사용할 수 있는 Unified Manager REST API</block>
-  <block id="e892333322154430a4cc6c5462eda7d9" category="inline-link-macro">Active IQ Unified Manager API 개발자 가이드 를 참조하십시오</block>
-  <block id="a0bf3c3ab8e8109cf98b998018b604d4" category="paragraph">REST API는 Swagger 웹 페이지를 통해 표시됩니다. Swagger 웹 페이지에 액세스하여 Unified Manager REST API 설명서를 표시하고 API 호출을 수동으로 실행할 수 있습니다. Unified Manager 웹 UI의 메뉴 모음에서 * 도움말 * 버튼을 클릭한 다음 * API Documentation * 을 선택합니다. Unified Manager REST API에 대한 자세한 내용은 를 참조하십시오 <block ref="1c1fc9aeaa18b66544b062a77cce0a7c" category="inline-link-macro-rx"></block>.</block>
   <block id="e562c08e75037d1102362250b8921681" category="paragraph">REST API에 액세스하려면 운영자, 스토리지 관리자 또는 애플리케이션 관리자 역할이 있어야 합니다.</block>
   <block id="535b6bf0b8fc54acc0470b974734e9c1" category="summary">다시 사용하고 보고서로 공유할 보기가 있으면 Active IQ Unified Manager를 사용하여 일정을 예약할 수 있습니다. 예약된 보고서를 관리하고 각 보고서 일정에 대한 수신자와 배포 빈도를 변경할 수 있습니다.</block>
   <block id="6e0eed6435f71e1238a71301fc1f9704" category="doc">보고서 예약</block>
@@ -681,7 +673,6 @@
   <block id="28f7503ffa5d903c33f15a8b2e97c90d" category="paragraph">보고서에 표시된 결과에 따라 스토리지 VM에 할당된 볼륨의 균형을 맞추거나 가능한 경우 ONTAP 시스템 관리자를 사용하여 허용되는 최대 볼륨을 변경할 수 있습니다.</block>
   <block id="52be5acc39d8a7670dbcd31c91338f2a" category="summary">Unified Manager에서 클러스터에 대한 정보를 수집하여 UI, MySQL 데이터베이스 쿼리 및 REST API에서 보고서를 생성할 수 있습니다.</block>
   <block id="5fc482204e2b114b41ae634b60c74659" category="doc">보고서 생성을 위한 액세스 포인트</block>
-  <block id="c26ca00d29aed12fea934a14b85b2edf" category="paragraph">이 가이드에서는 UI를 통한 Unified Manager 보고 및 스케줄링에 대해 설명합니다.</block>
   <block id="24172ece7e058fbf2b29c5d96eeb0d30" category="paragraph">Unified Manager에서 제공하는 보고 기능에 액세스할 수 있는 세 가지 방법이 있습니다.</block>
   <block id="9a849dcfe7e1ec40ab9f6c5993614745" category="list-text">UI의 인벤토리 페이지에서 직접 데이터 추출</block>
   <block id="f0ee512588a57491effeae72db062f2c" category="list-text">ODBC(Open Database Connectivity) 및 ODBC 도구를 사용하여 사용 가능한 모든 개체에 액세스합니다.</block>
@@ -1386,7 +1377,6 @@
   <block id="417c8bfee406c52e82d5627974ff264d" category="paragraph">AutoSupport 콘텐츠를 전송하기 위해 인터넷 액세스를 제공할 프록시를 지정해야 하거나 AutoSupport를 비활성화하려면 웹 UI에서 * 일반 * &gt; * AutoSupport * 옵션을 사용하십시오.</block>
   <block id="a9d62eb63a0e399aec66c4be03008f7d" category="list-text">Red Hat 및 CentOS 시스템에서 umadmin 사용자 암호를 기본 ""admin" 문자열에서 사용자 정의 문자열로 변경할 수 있습니다.</block>
   <block id="d3670f59405d014a440cff8e13353ec2" category="list-text">API 게이트웨이 설정 페이지에서 ONTAP REST API를 사용하여 모니터링하려는 ONTAP 클러스터를 Unified Manager에서 관리할 수 있도록 하는 API 게이트웨이 기능을 사용할지 여부를 선택합니다. 그런 다음 * 계속 * 을 클릭합니다.</block>
-  <block id="ca510dfe44ee0ca981ac61fb5c368ad0" category="paragraph">웹 UI의 나중에 * 일반 * &gt; * 기능 설정 * &gt; * API 게이트웨이 * 에서 이 설정을 활성화하거나 비활성화할 수 있습니다. API에 대한 자세한 내용은 를 참조하십시오 <block ref="1c1fc9aeaa18b66544b062a77cce0a7c" category="inline-link-macro-rx"></block>.</block>
   <block id="bb6beb9bc67c9e7bbc359a295ac7b879" category="list-text">Unified Manager에서 관리할 클러스터를 추가하고 * 다음 * 을 클릭합니다. 관리하려는 각 클러스터마다 사용자 이름 및 암호 자격 증명과 함께 호스트 이름 또는 클러스터 관리 IP 주소(IPv4 또는 IPv6)가 있어야 합니다. 사용자는 ""admin" 역할을 가지고 있어야 합니다.</block>
   <block id="bfb26aad10adbec1f5cd25ef16ca9bb0" category="paragraph">이 단계는 선택 사항입니다. 웹 UI의 나중에 * 스토리지 관리 * &gt; * 클러스터 설정 * 에서 클러스터를 추가할 수 있습니다.</block>
   <block id="8fe7045b0b6050a6dc3a12043504e646" category="list-text">요약 페이지에서 모든 설정이 올바른지 확인하고 * 마침 * 을 클릭합니다.</block>
@@ -1594,7 +1584,6 @@
   <block id="53188ee373fe9d107911ef7a6d30ad90" category="paragraph">Unified Manager에 처음 로그인할 때 나타나는 구성 페이지에서 이 기능을 사용하도록 설정할 수 있습니다. 또는 * 일반 * &gt; * 기능 설정 * &gt; * API 게이트웨이 * 에서 이 기능을 활성화 또는 비활성화할 수 있습니다.</block>
   <block id="d6176f802f7deaa8a88fcf58eeb728f4" category="paragraph">Unified Manager REST API는 ONTAP REST API와 다르며, ONTAP REST API를 사용하여 모든 기능을 사용할 수 있는 것은 아닙니다. 그러나 Unified Manager에 노출되지 않은 특정 기능을 관리하기 위해 ONTAP API에 액세스해야 하는 특정 비즈니스 요구 사항이 있는 경우 API 게이트웨이 기능을 설정하고 ONTAP API를 실행할 수 있습니다. 게이트웨이는 ONTAP API와 동일한 형식으로 헤더와 본문 요청을 유지함으로써 API 요청을 터널링하기 위한 프록시 역할을 합니다. Unified Manager 자격 증명을 사용하고 특정 API를 실행하여 개별 클러스터 자격 증명을 전달하지 않고 ONTAP 클러스터에 액세스하고 관리할 수 있습니다. Unified Manager는 Unified Manager 인스턴스에서 관리되는 ONTAP 클러스터에서 API를 실행하기 위한 단일 관리 지점 역할을 수행합니다. API가 반환하는 응답은 ONTAP에서 직접 실행되는 각 ONTAP REST API가 반환하는 응답과 동일합니다.</block>
   <block id="d20288f9f535becfe537656021b20cc0" category="paragraph">이 기능을 활성화한 후 * 메뉴 모음 * &gt; * 도움말 버튼 * &gt; * API 문서 * &gt; * 게이트웨이 * 범주에서 Unified Manager REST API를 실행할 수 있습니다. 또는 호스트 이름 또는 IP 주소와 URL을 입력하여 REST API 페이지에 액세스할 수 있습니다 https://&lt;hostname&gt;/docs/api/`</block>
-  <block id="f59c397f9275c838856be7c9ccaafdec" category="paragraph">API에 대한 자세한 내용은 _Active IQ Unified Manager API 개발자 가이드_를 참조하십시오.</block>
   <block id="eb5a6df0219a487c353a21ef374547dd" category="summary">유지보수 콘솔은 Unified Manager 서버의 특수 기능 및 구성 설정을 유지 관리 및 관리할 수 있는 다양한 메뉴로 구성되어 있습니다.</block>
   <block id="5e49bb4b9b9f9421a8d1f620e732808f" category="doc">유지보수 콘솔 메뉴</block>
   <block id="4dfbdc81841556f578a60f0aa9ea2891" category="paragraph">Unified Manager를 설치한 운영 체제에 따라 유지보수 콘솔은 다음 메뉴로 구성됩니다.</block>
@@ -1652,7 +1641,6 @@
   <block id="da95a52d9fa1a70d5fd98fb79e2cc806" category="list-text">Dashboard * 의 워크로드 성능 패널입니다</block>
   <block id="19a071e7be204597ac23f133f7dfcda9" category="paragraph">화면에서 성능 서비스 수준 및 스토리지 효율성 정책을 생성하고 스토리지 워크로드를 프로비저닝할 수 있습니다. 또한, 할당된 성능 서비스 수준과 부적합 사항을 준수하는 스토리지 워크로드를 모니터링할 수 있습니다. 또한 워크로드 성능 및 워크로드 IOPS 패널을 사용하면 프로비저닝된 스토리지 워크로드를 기준으로 데이터 센터 전체의 클러스터에서 사용 가능한 총 용량 및 성능(IOPS)을 평가할 수 있습니다.</block>
   <block id="3b0d83928702ed580a046fd86c0abe40" category="paragraph">이 기능을 활성화한 후 Unified Manager REST API를 실행하여 이러한 기능 중 일부를 * Menu Bar * &gt; * Help 버튼 * &gt; * API Documentation * &gt; * storage-provider * 범주에서 수행할 수 있습니다. 또는 호스트 이름 또는 IP 주소와 URL을 입력하여 REST API 페이지에 액세스할 수 있습니다. 형식은 +https://&lt;hostname&gt;/docs/api/+ 입니다</block>
-  <block id="1c1fc9aeaa18b66544b062a77cce0a7c" category="paragraph"><block ref="1c1fc9aeaa18b66544b062a77cce0a7c" category="inline-link-macro-rx"></block></block>
   <block id="e3d809ee59481b93f3aa122d5a5e20ef" category="summary">Active IQ 포털 이벤트 활성화 또는 비활성화 여부를 지정할 수 있습니다. 이 설정을 사용하면 Active IQ 포털에서 시스템 구성, 케이블 연결 등에 대한 추가 이벤트를 검색하고 표시할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다.</block>
   <block id="52d175339f334b6fa22a9953121dc9a5" category="doc">Active IQ 포털 이벤트 활성화</block>
   <block id="f31765dc7ceaab484541c3df52cf5dcf" category="paragraph">이 기능을 활성화하면 Active IQ Unified Manager는 Active IQ 포털에서 검색된 이벤트를 표시합니다. 이러한 이벤트는 모니터링되는 모든 스토리지 시스템에서 생성되는 AutoSupport 메시지에 대해 일련의 규칙을 실행하여 생성됩니다. 이러한 이벤트는 다른 Unified Manager 이벤트와 다르며, 시스템 구성, 케이블 연결, 모범 사례 및 가용성 문제와 관련된 사고 또는 위험을 식별합니다.</block>
@@ -2469,7 +2457,6 @@
   <block id="63b3b8b876e68763a44f8227f91a9bab" category="list-text">IP 주소 또는 URL, 할당된 사용자 이름(umadmin) 및 현재 암호를 기록합니다.</block>
   <block id="2ad8650bc36e875f76af07af6156dc81" category="list-text">Unified Manager를 설치하기 전에 사용자 지정 홈 디렉터리를 사용하여 umadmin 사용자 계정을 만든 경우 umadmin 사용자 로그인 셸을 지정해야 합니다.</block>
   <block id="de655d5c807407174b4c747a67443f65" category="paragraph">'usermod -s /bin/maintenance-user-shell.sh umadmin'</block>
-  <block id="24dfd2ec1e382cb2b2bb4f021e4982ba" category="paragraph">웹 UI에 액세스하여 umadmin 사용자의 기본 암호를 변경하고 에 설명된 대로 Unified Manager의 초기 설정을 수행합니다 <block ref="f58716a8c39c318b5ee09a724a759e81" category="inline-link-macro-rx"></block>.</block>
   <block id="bd83ea599d4b1bc4b0405111a4f0e137" category="summary">Unified Manager를 설치하는 Linux 시스템에는 특정 버전의 운영 체제 및 지원 소프트웨어가 필요합니다.</block>
   <block id="dbbb4ab63646c15ff10f8545fb7cdfb6" category="paragraph">Linux 시스템에는 다음 버전의 운영 체제와 지원 소프트웨어가 설치되어 있어야 합니다.</block>
   <block id="65f0429f6a80d2b534cf7c4fe5215206" category="paragraph">지원되는 Red Hat Enterprise Linux 및 CentOS 버전의 전체 최신 목록은 상호 운용성 매트릭스를 참조하십시오.</block>
@@ -2779,13 +2766,10 @@
   <block id="22183004ead634da8ab69028ffe8b319" category="list-text">확대/축소 보기 * 를 클릭하여 새 창에 특정 카운터에 대한 세부 차트를 표시합니다.</block>
   <block id="11f98082c78bd4b4f7e2b0c02e25913c" category="summary">MetroCluster 구성이 올바르게 설정되어 있는지 확인하여 MetroCluster 구성에서 미러링된 워크로드의 성능 문제를 방지할 수 있습니다. 또한 구성을 변경하거나 소프트웨어 또는 하드웨어 구성요소를 업그레이드하여 워크로드 성능을 향상할 수 있습니다.</block>
   <block id="6c13338c46979ee168ed6bef9776fc99" category="doc">MetroCluster 구성 검증</block>
-  <block id="146292de9bff0d14d5180fd06a161542" category="paragraph">FC(Fibre Channel) 스위치, 케이블 및 ISL(Inter-Switch Link)을 비롯하여 _MetroCluster 설치 및 구성 가이드_에서는 MetroCluster 구성에서 클러스터를 설정하기 위한 지침을 제공합니다. 또한 로컬 및 원격 클러스터가 미러 볼륨 데이터와 통신할 수 있도록 MetroCluster 소프트웨어를 구성하는 데도 도움이 됩니다.</block>
-  <block id="a6676e3e225267d921cfd20766bf3b26" category="paragraph">MetroCluster 구성을 _MetroCluster 설치 및 구성 가이드_의 요구 사항과 비교하여 MetroCluster 구성에서 구성 요소를 변경하거나 업그레이드할 경우 작업 부하 성능이 향상될 수 있는지 확인할 수 있습니다. 이 비교는 다음 질문에 대한 해답을 제공합니다.</block>
   <block id="f0bb9d9bd1477ac75e85e68f732ab7c2" category="list-text">컨트롤러가 워크로드에 적합합니까?</block>
   <block id="6b51233d024bfbd0f40c2c90deedb830" category="list-text">더 많은 처리량을 처리하기 위해 ISL 번들을 더 큰 대역폭으로 업그레이드해야 합니까?</block>
   <block id="c77f72edc7bc08ea20404836e2d23cda" category="list-text">대역폭을 늘리기 위해 스위치의 버퍼 대 버퍼 크레딧(BBC)을 조정할 수 있습니까?</block>
   <block id="eda02356b488ccb24bdc3a909aebae7d" category="list-text">워크로드에 SSD(Solid State Drive) 스토리지에 대한 쓰기 처리량이 높은 경우 처리량을 수용하기 위해 FC-to-SAS 브릿지를 업그레이드해야 합니까?</block>
-  <block id="5e264ebd0e27986d5788537a3b2eba95" category="paragraph">MetroCluster 구성 요소 교체 또는 업그레이드에 대한 자세한 내용은 _MetroCluster 서비스 설명서_를 참조하십시오.</block>
   <block id="d99b375789b68dff65e5529d55c8fd84" category="summary">사용된 성능 용량은 현재 과도하게 사용하거나 활용도가 낮은 노드와 애그리게이트를 식별하는 데 도움이 됩니다. 따라서 스토리지 리소스를 더욱 효율적으로 사용하기 위해 워크로드를 재배포할 수 있습니다.</block>
   <block id="d441b7aab782966c210dd6922ebe53ce" category="doc">사용된 성능 용량이 갖는 의미</block>
   <block id="1202a0ae8ed30ef28ff19f1fd1944aac" category="paragraph">다음 그림에서는 리소스의 지연 시간 및 활용률 곡선을 보여 주고, 현재 작업 지점이 위치할 수 있는 세 가지 영역을 컬러 점으로 식별합니다.</block>
@@ -3200,9 +3184,6 @@
   <block id="f80167d4c9ac616c8557a447b160b58e" category="paragraph">점선으로 표시된 수평선은 ONTAP에 설정된 최대 또는 최소 처리량 값을 나타냅니다. QoS 값에 대한 변경 사항이 구현된 시점을 확인할 수도 있습니다.</block>
   <block id="e3356b9fa18847810697e85319871223" category="list-text">QoS 설정과 비교하여 특정 IOPS 및 MB/s 값을 보려면 커서를 차트 영역으로 이동하여 팝업 창을 확인합니다.</block>
   <block id="3fafca713e2ceac1bbc45fddcbddda8f" category="paragraph">특정 볼륨 또는 LUN의 IOPS 또는 MB/s가 매우 높고 시스템 리소스를 강조하는 경우, System Manager 또는 ONTAP CLI를 사용하여 QoS 설정을 조정하여 해당 워크로드가 다른 워크로드의 성능에 영향을 미치지 않도록 할 수 있습니다.</block>
-  <block id="c5441005fe66b7483c77a681387ba3f2" category="paragraph">QoS 설정 조정에 대한 자세한 내용은 _ONTAP 9 성능 모니터링 전원 가이드_를 참조하십시오.</block>
-  <block id="a292889443f4c61cd0e649da7aba0113" category="inline-link">ONTAP 9 성능 모니터링 전원 가이드</block>
-  <block id="2fea2b0ee79f4ef0aafa74a0cf304984" category="paragraph"><block ref="2fea2b0ee79f4ef0aafa74a0cf304984" category="inline-link-rx"></block></block>
   <block id="66cfb73847370f9e3839dda6317ecf82" category="summary">성능/SVM 탐색기 페이지를 사용하여 SVM에 대한 자세한 IOPS 정보를 볼 수 있습니다. IOPS - 총 카운터 차트는 SVM의 총 IOPS 사용량을 보여 주며 IOPS - 분석 카운터 차트는 SVM에 대한 읽기, 쓰기 및 기타 IOPS의 영향을 확인하는 데 유용합니다.</block>
   <block id="109feea7087c4afa0358c5af751367f6" category="doc">프로토콜별 SVM IOPS 트래픽 보기</block>
   <block id="6b9db60f4a47153e38e11f4eb7f8d343" category="paragraph">또한 IOPS-프로토콜 차트에서는 SVM에서 사용 중인 각 프로토콜의 IOPS 트래픽을 자세하게 비교하여 보여줍니다. 다음 프로토콜을 사용할 수 있습니다.</block>
@@ -3968,10 +3949,6 @@
   <block id="455427f18203be13261279b7e99954b9" category="paragraph">며칠 후 이 클러스터에서 동일한 클러스터 불균형 이벤트가 발생하는지 확인합니다.</block>
   <block id="72563a114421d5c552819f674bfc5377" category="summary">Active IQ Unified Manager는 데이터 스토리지 성능 문제를 모니터링하고 문제를 해결하기 위해 웹 사용자 인터페이스와 유지보수 콘솔 등 두 가지 사용자 인터페이스를 제공합니다.</block>
   <block id="4a6543511f6b6ff2d29a6c6c7a97bdc7" category="doc">스토리지 시스템 성능을 관리하는 데 사용되는 Unified Manager 인터페이스</block>
-  <block id="851b23a439a1dfe96c533ebe2d9d3f84" category="paragraph">관리자는 Unified Manager 웹 UI를 사용하여 성능과 관련된 스토리지 시스템 문제를 모니터링하고 해결할 수 있습니다.</block>
-  <block id="d6312a3110af0b6d27f29c82529abcd1" category="paragraph">이 가이드에서는 관리자가 Unified Manager 웹 UI에 표시되는 스토리지 성능 문제를 해결하기 위해 따를 수 있는 몇 가지 일반적인 워크플로우에 대해 설명합니다.</block>
-  <block id="432c4f13204d60726516c41afbe6ceb6" category="paragraph">관리자는 유지보수 콘솔을 사용하여 Unified Manager 서버 자체와 관련된 운영 체제 문제, 버전 업그레이드 문제, 사용자 액세스 문제, 네트워크 문제를 모니터링, 진단, 해결할 수 있습니다. Unified Manager 웹 UI를 사용할 수 없는 경우에는 유지보수 콘솔만 Unified Manager에 액세스할 수 있습니다.</block>
-  <block id="7acb8b5fbc7c25eb181e57322de80859" category="paragraph">이 가이드에서는 유지보수 콘솔에 액세스하고 이를 사용하여 Unified Manager 서버 기능과 관련된 문제를 해결하는 방법을 설명합니다.</block>
   <block id="51e889e4677e95ad89242db90b1c3b99" category="summary">성능 탐색기 페이지에는 클러스터의 각 개체 성능에 대한 자세한 정보가 표시됩니다. 이 페이지에서는 모든 클러스터 개체의 성능을 자세하게 보여 주기 때문에 다양한 기간에 걸쳐 특정 개체의 성능 데이터를 선택하고 비교할 수 있습니다.</block>
   <block id="5cb974e9036c6bd20866629b0626aaa8" category="doc">성능 탐색기 페이지를 사용하여 성능 모니터링</block>
   <block id="343fcd5f0a204b31a7e5d54ad00917b4" category="paragraph">또한 모든 개체의 전체 성능을 평가하고 오브젝트 성능 데이터를 side-by-side 형식으로 비교할 수도 있습니다.</block>
@@ -4749,7 +4726,6 @@
   <block id="5c96c912b91fd84d629dedfd84808218" category="list-text">가상 어플라이언스:</block>
   <block id="5b0abf47eb00598fbcf61f37f67408db" category="list-text">복원 작업에 사용할 Unified Manager 유지보수 사용자의 이름을 알아야 합니다.</block>
   <block id="1970b59936db8fca55b99ad4014b0a2d" category="list-text">Linux 시스템에서 다음을 수행합니다.</block>
-  <block id="e88e0d195ba81b534045141d8e30a1d1" category="list-text">설치 가이드의 지침에 따라 RHEL 또는 CentOS 서버에 Unified Manager를 설치해야 합니다.</block>
   <block id="aa8a0d3c4fca5b51aba7b62e5d957e12" category="list-text">이 서버의 Unified Manager 버전은 백업 파일을 사용하는 가상 어플라이언스의 버전과 동일해야 합니다.</block>
   <block id="5c7df9ba2c5c2c63b0b7dae110f7a530" category="list-text">설치 후 Linux 시스템에서 UI를 시작하거나 클러스터, 사용자 또는 인증 설정을 구성하지 마십시오. 백업 파일은 복원 프로세스 중에 이 정보를 채웁니다.</block>
   <block id="7d15b42d5091522573483414e70f81ee" category="list-text">Linux 호스트에 대한 루트 사용자 자격 증명이 있어야 합니다.</block>
@@ -6089,17 +6065,12 @@
   <block id="bfef54bf5e739d61927a0c4b59a3e344" category="list-text">가용성 문제 진단 및 관리</block>
   <block id="223349aab4cf55a8a8155654d93ffffc" category="paragraph">하드웨어 장애 또는 스토리지 리소스 구성 문제로 인해 대시보드 페이지에 데이터 가용성 이벤트가 표시되는 경우 스토리지 관리자는 포함된 링크를 따라 영향을 받는 스토리지 리소스에 대한 연결 정보를 확인하고 문제 해결 조언을 확인하고 다른 관리자에게 문제 해결 방법을 할당할 수 있습니다.</block>
   <block id="88e01cbe98781362b3721e3f315cbe5f" category="list-text">성능 인시던트 구성 및 모니터링</block>
-  <block id="e5397a259f5c5b5282ab6e67048a8c06" category="inline-link-macro">클러스터 성능 관리를 위한 Active IQ Unified Manager 워크플로우 가이드</block>
-  <block id="812a052c5bda0e828475b86f21d19325" category="paragraph">관리자는 모니터링 중인 스토리지 시스템 리소스의 성능을 모니터링하고 관리할 수 있습니다. 를 참조하십시오 <block ref="462a173a2ae729165d70593def277285" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="0139a98f6e0579c352b31c7b55dab82a" category="list-text">볼륨 용량 문제 진단 및 관리</block>
   <block id="922341f19068faa5b454e09095be1e91" category="paragraph">대시보드 페이지에 볼륨 스토리지 용량 문제가 표시되는 경우 스토리지 관리자는 포함된 링크를 따라 영향을 받는 볼륨의 스토리지 용량과 관련된 현재 및 과거 추세를 확인하고, 문제 해결 조언을 확인하고, 다른 관리자에게 문제 해결 방법을 할당할 수 있습니다.</block>
   <block id="38ab7145c9b312e9e1a5380622546696" category="list-text">보호 관계 문제 구성, 모니터링 및 진단</block>
-  <block id="0808b6ab518dff39e7d02f5f2c43011c" category="inline-link-macro">Active IQ Unified Manager 보호 가이드 를 참조하십시오</block>
-  <block id="2ddeecbc7248d216919b53b0bc4c539a" category="paragraph">보호 관계를 생성 및 구성한 후에는 스토리지 관리자가 보호 관계, 보호 관계의 현재 상태, 영향을 받는 관계에 대한 현재 및 과거의 보호 작업 성공 정보 및 문제 해결 조언과 관련된 잠재적인 문제를 볼 수 있습니다. 를 참조하십시오 <block ref="b4eab4c42ec7f7100184207b5832d1dd" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="b16a008feac2fca1e9fd0af37cfb7886" category="list-text">백업 파일을 생성하고 백업 파일에서 데이터를 복원합니다.</block>
   <block id="50f1945f83f8faaf1e24a4851b01f6bc" category="list-text">스토리지 객체를 주석과 연관</block>
   <block id="dee1e75ffa4cde3d8824fa5a6144248f" category="paragraph">스토리지 객체를 주석과 연결하여 스토리지 관리자는 스토리지 객체와 관련된 이벤트를 필터링하고 볼 수 있으므로 스토리지 관리자가 이벤트와 관련된 문제의 우선 순위를 지정하고 해결할 수 있습니다.</block>
-  <block id="af72e4a0267d9949729e09700b75184d" category="list-text">REST API를 사용하여 Unified Manager에서 캡처한 상태, 용량 및 성능 정보를 확인하여 클러스터를 관리할 수 있습니다. 를 참조하십시오 <block ref="1c1fc9aeaa18b66544b062a77cce0a7c" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="b8496a14ff4b794a94b62e121844a8ad" category="list-text">기술 지원 팀에 지원 번들 보내기</block>
   <block id="c378b949211960b7600706f3b0b6c302" category="paragraph">스토리지 관리자는 유지 관리 콘솔을 사용하여 지원 번들을 검색하고 기술 지원에 보낼 수 있습니다. 문제가 AutoSupport 메시지가 제공하는 것보다 더 자세한 진단 및 문제 해결이 필요한 경우 지원 번들을 기술 지원 부서에 보내야 합니다.</block>
   <block id="ac8dc4bc1b764d5d06db1263036a0f32" category="summary">“Volume Space Full(볼륨 공간 부족)” 오류 이벤트가 발생한 후 이벤트 세부 정보 페이지에서 제안된 개선 조치를 검토하고 권장 조치 중 하나를 수행합니다.</block>
@@ -6152,9 +6123,6 @@
   <block id="5e03e5325b691b090a8be6bd2f762894" category="list-text">볼륨/상태 세부 정보 페이지에서 * 구성 * 탭을 클릭합니다.</block>
   <block id="2e20a9eb2d4c78deb4dfaf308fa76630" category="paragraph">이 화면에는 볼륨에 할당된 FabricPool 계층화 정책의 이름이 표시됩니다.</block>
   <block id="403c9064edefe525f194ea2083115a2a" category="list-text">Workload Analysis * 페이지에서 * Capacity Trend * 영역에서 ""클라우드 계층 보기"를 선택하여 이전 달의 로컬 성능 계층과 클라우드 계층에서 사용되는 용량을 확인할 수 있습니다.</block>
-  <block id="787a5dee8395c9fdec4cfed3e51fdaf5" category="paragraph">FabricPool Aggregate에 대한 자세한 내용은 _ONTAP 9 디스크 및 집계 전원 가이드_를 참조하십시오.</block>
-  <block id="604e3b21e20d2e3d15be71c643b54e69" category="inline-link">ONTAP 9 디스크 및 애그리게이트 전원 가이드</block>
-  <block id="7858451050766dac30885eb560158270" category="paragraph"><block ref="7858451050766dac30885eb560158270" category="inline-link-rx"></block></block>
   <block id="d881e53cf0d264a0eb00b877f2ece204" category="summary">사용자 정의 주석 및 그 값이 더 이상 필요하지 않은 경우 삭제할 수 있습니다.</block>
   <block id="8d30ccfed324d882e2e9d801fd4ffee3" category="doc">주석 삭제</block>
   <block id="5dd7092cbc33d418d765e1f6fe989fc1" category="list-text">주석 값은 다른 주석 또는 그룹 규칙에서 사용해서는 안 됩니다.</block>
@@ -6461,11 +6429,9 @@
   <block id="1dc30b3c79f601b16dd06ecb0909f537" category="summary">AutoSupport 메시지가 제공하는 것보다 더 자세한 진단 및 문제 해결이 필요한 문제의 경우 지원 번들을 보내야 합니다. Unified Manager 웹 UI 및 유지보수 콘솔을 사용하여 기술 지원 팀에 지원 번들을 보낼 수 있습니다.</block>
   <block id="2ca99d3025fc7d688bef750ed23ae920" category="doc">웹 UI 및 유지 관리 콘솔을 통해 지원 번들 보내기</block>
   <block id="ae8cd7728276e23d6f696cf9368ccb96" category="paragraph">Unified Manager에는 최대 2개의 완벽한 지원 번들과 3개의 경량 지원 번들이 한번에 저장됩니다.</block>
-  <block id="d2e5b8d7d05b0bde3c190ae9547acc73" category="summary">이 가이드에서는 Active IQ Unified Manager에서 데이터 스토리지 용량, 가용성 및 보호 문제 해결을 위해 제공하는 두 가지 사용자 인터페이스에 대한 정보를 다룹니다. UI 두 개는 Unified Manager 웹 UI와 유지보수 콘솔입니다.</block>
   <block id="ec731d5e7e0cf391407e9c8ac3e4caed" category="doc">스토리지 시스템 상태를 관리하는 데 사용되는 Unified Manager 인터페이스</block>
   <block id="60d0bc57a0a67c2973b6e48ff1d90534" category="paragraph">Unified Manager의 보호 기능을 사용하려면 WFA(OnCommand Workflow Automation)도 설치 및 구성해야 합니다.</block>
   <block id="79500a96134ea895ab9ad39cf0211ea0" category="paragraph">관리자는 Unified Manager 웹 UI를 사용하여 데이터 스토리지 용량, 가용성 및 보호와 관련된 클러스터 문제를 모니터링하고 해결할 수 있습니다.</block>
-  <block id="216b57dea44dfc57b138e3d37aefffcb" category="paragraph">이 가이드에서는 관리자가 Unified Manager 웹 UI에 표시되는 스토리지 용량, 데이터 가용성 또는 보호 문제를 해결하기 위해 따를 수 있는 몇 가지 일반적인 워크플로우에 대해 설명합니다.</block>
   <block id="601a076ceb57e2d6ddb048ba06d7a67a" category="paragraph">관리자는 Unified Manager 유지보수 콘솔을 사용하여 Unified Manager 서버 자체와 관련된 운영 체제 문제, 버전 업그레이드 문제, 사용자 액세스 문제, 네트워크 문제를 모니터링, 진단, 해결할 수 있습니다. Unified Manager 웹 UI를 사용할 수 없는 경우에는 유지보수 콘솔만 Unified Manager에 액세스할 수 있습니다.</block>
   <block id="70a71f89c25f1b7417b24daddfde07ac" category="summary">가상 어플라이언스에 설치된 Unified Manager의 백업 및 복원 모델은 전체 가상 애플리케이션의 이미지를 캡처하여 복원하는 것입니다.</block>
   <block id="8284142ceb617342a2a9d4a16a55626c" category="doc">가상 어플라이언스의 Unified Manager에 대한 백업 및 복원</block>
@@ -10299,7 +10265,6 @@
   <block id="8a13d1a5338f1794b0454274eb4286a1" category="summary">Active IQ Unified Manager에서는 REST API를 사용하여 스토리지 환경을 모니터링 및 관리하는 방법에 대한 정보를 볼 수 있습니다. API를 사용하면 정책에 따라 스토리지 객체를 프로비저닝 및 관리할 수 있습니다.</block>
   <block id="12d49648274bb61cf34ecef5c6ec1acc" category="doc">Unified Manager REST API 사용</block>
   <block id="3c7317176d7c7efc96ac34c6081c3782" category="paragraph">Unified Manager가 지원하는 API 게이트웨이를 사용하여 모든 ONTAP 관리 클러스터에서 ONTAP API를 실행할 수도 있습니다.</block>
-  <block id="23fcaff94a10432c35d4bf5294d692bd" category="paragraph">Unified Manager REST API에 대한 자세한 내용은 를 참조하십시오 <block ref="1c1fc9aeaa18b66544b062a77cce0a7c" category="inline-link-macro-rx"></block>.</block>
   <block id="af06d22b339b3378a25899ee64f782a9" category="summary">문제 해결: 다른 인증 서비스를 사용하여 LDAP를 추가하는 데 문제가 있습니다</block>
   <block id="f8c7955493ba86fcced30f572e78ef85" category="doc">다른 인증 서비스를 사용하여 LDAP를 추가하는 데 문제가 있습니다</block>
   <block id="d574cdb8f39f9bda55a3db785d43a212" category="paragraph">인증 서비스로 다른 사용자를 선택하면 사용자 및 그룹 개체 클래스는 이전에 선택한 템플릿의 값을 유지합니다. LDAP 서버가 동일한 값을 사용하지 않으면 작업이 실패할 수 있습니다.</block>
@@ -10718,8 +10683,6 @@
   <block id="d44599568d150b26649eb1e1092a7c62" category="list-text">경로: 경로는 호출을 수행하는 과정에서 작업이 적용되는 특정 리소스를 결정합니다. 경로 문자열이 핵심 URL에 추가되어 리소스를 식별하는 전체 URL을 구성합니다.</block>
   <block id="79d86beeb01a37f9ec75abd845d3ed41" category="summary">Active IQ Unified Manager은 타사 통합을 위해 RESTful 웹 서비스 인터페이스를 통해 지원되는 스토리지 시스템에서 스토리지 리소스를 관리하는 일련의 API를 제공합니다.</block>
   <block id="97fe658caa11a827b1561a6db6e7b2f0" category="doc">Active IQ Unified Manager 시작하기</block>
-  <block id="578e4c65e2f2ccda698295f2960d9c68" category="paragraph">Unified Manager API 개발자 가이드 _ 에서는 API 및 샘플 코드에 대한 정보를 제공합니다. 이 가이드에 포함된 정보를 사용하여 NetApp 시스템 관리를 위한 NetApp 관리 효율 소프트웨어 솔루션의 RESTful 클라이언트를 작성할 수 있습니다. API는 REST(Representational State Transfer) 아키텍처 스타일을 기반으로 합니다.</block>
-  <block id="d5245acd47bece2526aa76e205a7f499" category="paragraph">Unified Manager는 NetApp 환경에서 스토리지 관리를 위한 API 오퍼링을 제공합니다. CRUD라고도 하는 4개의 REST 작업 모두 생성, 읽기, 업데이트 및 삭제가 지원됩니다.</block>
   <block id="54a288ae6202750232ef694d2c312470" category="summary">Active IQ Unified Manager에서 스토리지 공급자 API를 사용하여 성능 서비스 수준을 확인, 생성, 수정 및 삭제할 수 있습니다.</block>
   <block id="041437ef4e1651b4f594b9a49943c119" category="section-title">성능 서비스 수준을 봅니다</block>
   <block id="63af03623d8349ce94badb220a211139" category="paragraph">다음 방법을 사용하여 스토리지 워크로드에 할당할 성능 서비스 수준을 볼 수 있습니다. API는 시스템 정의 및 사용자가 생성한 모든 성능 서비스 수준을 나열하고 모든 성능 서비스 수준의 특성을 검색합니다. 특정 성능 서비스 수준을 쿼리하려면 성능 서비스 수준의 고유 ID를 입력하여 세부 정보를 검색해야 합니다.</block>
@@ -10776,10 +10739,6 @@
   <block id="4bee94e31086661241a8de346c2a1970" category="paragraph">다음 방법을 사용하여 특정 스토리지 효율성 정책을 삭제할 수 있습니다. 스토리지 효율성 정책이 워크로드에 할당되어 있거나 사용 가능한 유일한 스토리지 효율성 정책인 경우에는 스토리지 효율성 정책을 삭제할 수 없습니다. 특정 스토리지 효율성 정책을 삭제하려면 입력 매개 변수로 스토리지 효율성 정책의 고유 ID를 제공해야 합니다.</block>
   <block id="b1c9487e84cf1882dd11b52aebc72a6b" category="section-title">스토리지 효율성 정책을 수정합니다</block>
   <block id="dbe3f36b091e617190bcc3ce4ebc6684" category="paragraph">다음 방법을 사용하여 스토리지 효율성 정책을 수정하고 해당 속성을 업데이트할 수 있습니다. 시스템 정의이거나 워크로드에 할당된 스토리지 효율성 정책은 수정할 수 없습니다. 특정 스토리지 효율성 정책을 수정하려면 스토리지 효율성 정책의 고유 ID를 제공해야 합니다. 또한 업데이트할 속성과 해당 값을 제공해야 합니다.</block>
-  <block id="42ca9b31313a0beb2d48b38e777b7aac" category="summary">이 가이드는 REST API를 통해 Active IQ Unified Manager 소프트웨어와 상호 작용하는 응용 프로그램을 만드는 개발자를 위한 것입니다.</block>
-  <block id="1beb50c2864987e0a443567dc2d3f557" category="doc">이 가이드의 대상</block>
-  <block id="f9b753b57152e3473f288bfca41578e6" category="paragraph">또한 Unified Manager에서 제공되는 REST API를 사용하여 클라이언트 애플리케이션을 구축하고 NetApp 스토리지 시스템을 관리 및 모니터링할 수 있는 방법을 기본적으로 알고 싶은 스토리지 관리자 및 설계자를 대상으로 합니다.</block>
-  <block id="5841c3cbebdeaf4f091c84806e84f634" category="paragraph">스토리지 공급자, ONTAP 클러스터 및 관리 관리 관리 API를 사용하여 스토리지를 관리하려면 이 가이드를 사용해야 합니다.</block>
   <block id="4934578b4d9943215b7677832e08ba17" category="paragraph">운영자, 스토리지 관리자 또는 애플리케이션 관리자 역할 중 하나가 있어야 합니다. REST API를 실행할 Unified Manager 서버의 IP 주소 또는 정규화된 도메인 이름을 알아야 합니다.</block>
   <block id="eface8e743a1cbc1e3ff767008272e3e" category="summary">Active IQ Unified Manager용 REST API는 범주를 기준으로 이 섹션에 나열됩니다.</block>
   <block id="ee113df8d75c467764f48ecceadf6573" category="doc">Unified Manager REST API</block>
@@ -10920,9 +10879,6 @@
   <block id="13d26d61e105eac658b26eb7233558ec" category="list-text">게이트웨이 API와 게이트웨이 API의 사용 방법을 알고 있습니다. 자세한 내용은 ""게이트웨이 API"" 섹션을 참조하십시오.</block>
   <block id="2aaa2344056c0235dfb38e11d5c3a965" category="inline-link-macro">프록시 액세스를 통해 ONTAP API 액세스</block>
   <block id="b9a74ea4cc3968aa390e4a126aaaaaa7" category="paragraph"><block ref="b9a74ea4cc3968aa390e4a126aaaaaa7" category="inline-link-macro-rx"></block></block>
-  <block id="fb93d0ceba2d361c56d4fa7956d3c79a" category="list-text">ONTAP REST API의 사용에 대해 잘 알고 있습니다. ONTAP REST API 사용에 대한 자세한 내용은 _ONTAP REST API 개발자 가이드_를 참조하십시오.</block>
-  <block id="d3c245e0ba47ccc6c3f574b4025a4f2a" category="inline-link">ONTAP REST API 개발자 가이드</block>
-  <block id="dc6fb9bed71b990921b84ce51c06ef16" category="paragraph"><block ref="dc6fb9bed71b990921b84ce51c06ef16" category="inline-link-rx"></block></block>
   <block id="0f95c121d7dad838526a7f651b857814" category="list-text">귀하는 애플리케이션 관리자입니다.</block>
   <block id="82860026803af0cdcc831f5f5030ae00" category="list-text">REST API 작업을 실행하려는 클러스터는 ONTAP 9.5 이상에서 지원되며 HTTPS를 통해 Unified Manager에 추가됩니다.</block>
   <block id="98c896958cb9f708964fcc3c7173e78d" category="paragraph">다음 다이어그램은 ONTAP 볼륨 용량 사용 문제를 해결하기 위한 워크플로의 각 단계를 보여줍니다.</block>
@@ -11131,7 +11087,6 @@
   <block id="fd40a35b04e72e1f110162f37e9a5415" category="paragraph">API는 해당 클러스터의 스토리지 볼륨 목록을 반환합니다. 응답 형식은 ONTAP에서 동일한 API를 실행할 때 받는 형식과 동일합니다. 반환된 상태 코드는 ONTAP REST 상태 코드입니다.</block>
   <block id="e8dc00bb5c4a79a30cb6961d8c719c68" category="section-title">API 범위 설정</block>
   <block id="876ee7ae93146d0a8658b4651eba9103" category="paragraph">모든 API에는 클러스터 범위 내에 컨텍스트 세트가 있습니다. 스토리지 VM을 기반으로 작동하는 API도 클러스터를 범위로 가지고 있습니다. 즉, API 작업은 관리되는 클러스터 내의 특정 스토리지 VM에서 수행됩니다. '/gateways/\{uuid}/\{path}' API를 실행할 때 작업을 실행하는 클러스터의 클러스터 UUID(Unified Manager 데이터 소스 UUID)를 입력해야 합니다. 해당 클러스터 내의 특정 스토리지 VM으로 컨텍스트를 설정하려면 스토리지 VM 키를 X-Dot-SVM-UUID 매개 변수로 입력하거나 스토리지 VM 이름을 X-Dot-SVM-Name 매개 변수로 입력합니다. 매개 변수는 문자열 헤더의 필터로 추가되며 작업이 해당 클러스터 내의 스토리지 VM 범위 내에서 실행됩니다.</block>
-  <block id="716b5016376bbd3fcbebe6401884d589" category="paragraph">ONTAP REST API 사용에 대한 자세한 내용은 ONTAP REST API 개발자 가이드 를 참조하십시오.</block>
   <block id="9f59891ed7805b3befef9ff1ec1a490c" category="summary">데이터 센터의 스토리지 객체가 임계값을 넘어가면 해당 이벤트에 대한 알림을 받습니다. 이 알림을 사용하여 문제를 분석하고 이벤트 API를 사용하여 수정 조치를 취할 수 있습니다.</block>
   <block id="34e9b3298cb9c635de0303d3aa9ef6c2" category="doc">이벤트를 사용하여 스토리지 개체의 문제 확인</block>
   <block id="841c51f97743193567036063bf854b04" category="paragraph">데이터 센터의 스토리지 객체가 임계값을 넘어가면 해당 이벤트에 대한 알림을 받습니다. 이 알림을 통해 문제를 분석하고 "이벤트" API를 사용하여 수정 조치를 취할 수 있습니다.</block>
@@ -11264,7 +11219,6 @@
   <block id="77d7ce66941e6a8a53f84f813d2b2bf1" category="sidebar">REST API를 사용하여 스토리지 관리</block>
   <block id="3890f9f0f1b24b11ec99c5302bb245a3" category="paragraph">자세한 내용은 을 참조하십시오<block ref="ae0acc7a1cf35a69eb7b42685c902841" category="inline-link-rx"></block></block>
   <block id="10ca66f0a363b90a579ee48398d9ca6c" category="inline-link">ONTAP REST API 자동화</block>
-  <block id="64bce96c9eeebb3c2c4e4047917784d7" category="paragraph"><block ref="64bce96c9eeebb3c2c4e4047917784d7" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="304235bddd1bfe240019774dacdbd71e" category="inline-link-macro">SM-BC용 ONTAP 9 문서</block>
   <block id="2eaa1a82c95cbdf0e4d38d70a85a96d7" category="paragraph">SnapMirror Synchronous 비즈니스 연속성에 대한 자세한 내용은 을 참조하십시오 <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>.</block>
@@ -11627,4 +11581,46 @@
   <block id="5a668f8970655ef1c7d0b0f27eacfe05" category="summary">Active IQ Unified Manager 9.11의 새로운 기능, 제한 사항 및 알려진 문제에 대한 요약을 제공합니다.</block>
   <block id="695f7221e4fd4e02429db7170b21c850" category="sidebar">Active IQ Unified Manager 9.11 문서</block>
   <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager를 참조하십시오</block>
+  <block id="ffef03803be76fabe5b17e1b0cca3ca2" category="inline-link-macro">Active IQ Unified Manager REST API 시작하기</block>
+  <block id="bc284f9f2dda2417b7038eecc87d4d2c" category="paragraph">REST API는 Swagger 웹 페이지를 통해 표시됩니다. Swagger 웹 페이지에 액세스하여 Unified Manager REST API 설명서를 표시하고 API 호출을 수동으로 실행할 수 있습니다. Unified Manager 웹 UI의 메뉴 모음에서 * 도움말 * 버튼을 클릭한 다음 * API Documentation * 을 선택합니다. Unified Manager REST API에 대한 자세한 내용은 를 참조하십시오 <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block>.</block>
+  <block id="04e9746ec2f77de5b770208af5510f13" category="paragraph">다음 섹션에서는 UI를 통해 Unified Manager 보고 및 스케줄링에 대해 설명합니다.</block>
+  <block id="6b4f58d10ed3b35bb65050a16ca6ac3d" category="paragraph">Unified Manager REST API에 대한 자세한 내용은 를 참조하십시오 <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block>.</block>
+  <block id="875a562b253c918381909e83d7ea440f" category="paragraph">ONTAP REST API 사용에 대한 자세한 내용은 를 참조하십시오<block ref="64bce96c9eeebb3c2c4e4047917784d7" category="inline-link-rx"></block></block>
+  <block id="d56255edf472cd81dccc345368cf704a" category="summary">이 섹션은 REST API를 통해 Active IQ Unified Manager 소프트웨어와 상호 작용하는 응용 프로그램을 만드는 개발자를 위한 것입니다.</block>
+  <block id="13e6ac0d3f3117472ef77f064f6e7875" category="doc">이 콘텐츠의 대상</block>
+  <block id="e70ffe5c1fb97348e2772026bc8f9053" category="paragraph">이 항목은 REST API를 통해 Active IQ Unified Manager 소프트웨어와 상호 작용하는 응용 프로그램을 만드는 개발자를 위한 것입니다.</block>
+  <block id="07d5d415bfefac25544c64041aa2a8ac" category="paragraph">스토리지 관리자 및 설계자는 이 정보를 참조하여 Unified Manager REST API를 사용하여 클라이언트 애플리케이션을 구축하고 NetApp 스토리지 시스템을 관리 및 모니터링하는 방법을 기본적으로 이해할 수 있습니다.</block>
+  <block id="f6d07d9cb69a06c62ecf3ad8f5e5ed11" category="paragraph">스토리지 공급자, ONTAP 클러스터 및 관리 관리 관리 API를 사용하여 스토리지를 관리하려면 이 정보를 사용해야 합니다.</block>
+  <block id="882ace1b5625d5206c06119e912a445a" category="paragraph">이 항목에서는 Unified Manager API에 대한 정보, 특정 문제를 해결하기 위한 샘플 워크플로우 및 일부 샘플 코드에 대해 설명합니다. 이 정보를 사용하여 NetApp 시스템 관리를 위한 NetApp 관리 효율 소프트웨어 솔루션의 RESTful 클라이언트를 생성할 수 있습니다. API는 REST(Representational State Transfer) 아키텍처 스타일을 기반으로 합니다. CRUD라고도 하는 4개의 REST 작업 모두 생성, 읽기, 업데이트 및 삭제가 지원됩니다.</block>
+  <block id="ec033dcf5fdadae0c2ee4fad5b7980ac" category="inline-link">ONTAP 자동화 문서</block>
+  <block id="b97a1f9b37add50c00a0733ad2d495d6" category="list-text">ONTAP REST API의 사용에 대해 잘 알고 있습니다. ONTAP REST API 사용에 대한 자세한 내용은 를 참조하십시오<block ref="3be764d3fde1729a00ba1f231c9aeab3" category="inline-link-rx"></block>.</block>
+  <block id="fc02256f91be6788baac66e32980c9f1" category="paragraph">이 섹션에는 Active IQ Unified Manager에서 데이터 스토리지 용량, 가용성 및 보호 문제를 해결하기 위해 제공하는 두 가지 사용자 인터페이스에 대한 정보가 포함되어 있습니다. UI 두 개는 Unified Manager 웹 UI와 유지보수 콘솔입니다.</block>
+  <block id="87b418cd1be42fdcae7cfbe253627d42" category="paragraph">다음 섹션에서는 관리자가 Unified Manager 웹 UI에 표시되는 스토리지 용량, 데이터 가용성 또는 보호 문제를 해결하기 위해 수행할 수 있는 몇 가지 일반적인 워크플로우에 대해 설명합니다.</block>
+  <block id="39d16b9f4dce68f8146223fd30f02e44" category="paragraph">이 정보를 사용하여 유지보수 콘솔에 액세스하고 Unified Manager 서버 기능과 관련된 문제를 해결할 수 있습니다.</block>
+  <block id="c6d03aceb6e28fe114f21b43f5500da1" category="inline-link">성능 관리 개요</block>
+  <block id="62f8662ca1ad633f186e31e0d4873505" category="paragraph">QoS 설정 조정에 대한 자세한 내용은 을 참조하십시오<block ref="8b5b4dee150c1781ecff4cc00d8b0ae8" category="inline-link-rx"></block></block>
+  <block id="1567e926a28e2d218915e48c745420ad" category="paragraph">QoS 설정 조정에 대한 자세한 내용은 을 참조하십시오<block ref="25073b168bb7003d730c7138e2591b6b" category="inline-link-rx"></block>.</block>
+  <block id="ebcd093c3800f9c5ea01610389eac455" category="paragraph">QoS 설정 조정에 대한 자세한 내용은 을 참조하십시오<block ref="25073b168bb7003d730c7138e2591b6b" category="inline-link-rx"></block></block>
+  <block id="7f4d4fbe08a8a895671d05c4a82b0c85" category="inline-link">MetroCluster 문서</block>
+  <block id="2200bc08e5e08d770226d6e584fb6acf" category="paragraph">을 참조하십시오<block ref="4b197b525e7dc9b10910dc448962240a" category="inline-link-rx"></block> FC(Fibre Channel) 스위치, 케이블 및 ISL(Inter-Switch Link)을 포함하여 MetroCluster 구성에서 클러스터를 설정하는 지침은 을 참조하십시오. 또한 로컬 및 원격 클러스터가 미러 볼륨 데이터와 통신할 수 있도록 MetroCluster 소프트웨어를 구성하는 데도 도움이 됩니다.</block>
+  <block id="af94187148a4c8f4c383ffa07b34873e" category="paragraph">MetroCluster 구성과 의 요구 사항을 비교할 수 있습니다<block ref="4b197b525e7dc9b10910dc448962240a" category="inline-link-rx"></block> MetroCluster 구성에서 구성 요소를 변경하거나 업그레이드하면 워크로드 성능이 향상될 수 있는지 확인할 수 있습니다. 이 비교는 다음 질문에 대한 해답을 제공합니다.</block>
+  <block id="9d4e0ffef139e06784b4032d7cd0b60d" category="paragraph">MetroCluster 구성 요소 교체 또는 업그레이드에 대한 자세한 내용은 를 참조하십시오<block ref="4b197b525e7dc9b10910dc448962240a" category="inline-link-rx"></block>.</block>
+  <block id="204fe9c6711d4d00c6ae7be4af3ffad2" category="paragraph">웹 UI의 나중에 * 일반 * &gt; * 기능 설정 * &gt; * API 게이트웨이 * 에서 이 설정을 활성화하거나 비활성화할 수 있습니다. API에 대한 자세한 내용은 를 참조하십시오 <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block>.</block>
+  <block id="207bd85cdd3974db9e04fc5d08c539cc" category="paragraph">API에 대한 자세한 내용은 를 참조하십시오 <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block>.</block>
+  <block id="493e343ace2014edb515f179a6dd1570" category="paragraph">웹 UI에 액세스하여 에 설명된 대로 Unified Manager의 초기 설정을 수행할 수 있습니다 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>.</block>
+  <block id="a8eb189b1f06b1c8edcc1d5c07a727bb" category="paragraph">HTTP 및 HTTPS 통신에 사용되는 포트(포트 80 및 443)는 Unified Manager 유지 관리 콘솔을 사용하여 변경할 수 있습니다. 자세한 내용은 _ Active IQ Unified Manager 구성 _ 을(를) 참조하십시오.</block>
+  <block id="c0e80a6e89d09d7c5e1f41b64ee3c406" category="paragraph"><block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block></block>
+  <block id="677bb67b43e56c44269810a302788b34" category="paragraph">이 섹션에서는 아래 워크플로에 표시된 각 항목에 대해 설명합니다.</block>
+  <block id="a443bb5ff4d682a884bc90952a453409" category="list-text">Unified Manager 데이터 디렉토리(예: 'C:\ProgramData\NetApp\OnCommandAppData\'</block>
+  <block id="ce5ddf4bea759996010f53b321d1ab17" category="list-text">Unified Manager 설치 디렉토리(예: '\C:\Program Files\NetApp\'</block>
+  <block id="f9d3a25dc93d1316544e0bc4c27c6779" category="list-text">MySQL 데이터 디렉터리(예: 'C:\ProgramData\MySQL\MySQLServerData')</block>
+  <block id="35016a16114185b9f23c8e507180958f" category="paragraph">관리자는 모니터링 중인 스토리지 시스템 리소스의 성능을 모니터링하고 관리할 수 있습니다. 를 참조하십시오 <block ref="ba69bc4fc63cd6b5cc812da4cc091472" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="7680e8653656c48f3243310c83932b54" category="paragraph">보호 관계를 생성 및 구성한 후에는 스토리지 관리자가 보호 관계, 보호 관계의 현재 상태, 영향을 받는 관계에 대한 현재 및 과거의 보호 작업 성공 정보 및 문제 해결 조언과 관련된 잠재적인 문제를 볼 수 있습니다. 를 참조하십시오 <block ref="4e76243b1e59b37cf4420efe0ce8dc5b" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="b7f7029b19d9761718c4c55a16cdf61d" category="list-text">REST API를 사용하여 Unified Manager에서 캡처한 상태, 용량 및 성능 정보를 확인하여 클러스터를 관리할 수 있습니다. 을 참조하십시오 <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="459527cf1ec141d19f1b0f88f8c19905" category="inline-link">디스크 및 애그리게이트 개요</block>
+  <block id="aad863edfd2a5a1d82823ec18ab5b85c" category="paragraph">FabricPool Aggregate에 대한 자세한 내용은 를 참조하십시오<block ref="9923f5cc5c6dab834ea3bb7ffc7dbcfc" category="inline-link-rx"></block>.</block>
+  <block id="d44aaf9fc8b7b474d77879bc4e8cd00a" category="summary">이 섹션에서는 Active IQ Unified Manager가 데이터 스토리지 용량, 가용성 및 보호 문제를 해결하기 위해 제공하는 두 가지 사용자 인터페이스에 대한 정보를 다룹니다. UI 두 개는 Unified Manager 웹 UI와 유지보수 콘솔입니다.</block>
+  <block id="c37949fda7ff1b2246f6718aca6092a2" category="list-text">의 지침에 따라 Linux 서버에 Unified Manager를 설치해야 합니다 <block ref="e8607b27bcb98464e6dcda8f12f8aa38" category="inline-link-macro-rx"></block>.</block>
+  <block id="362bda8047ba899ec7fa3be3f8333688" category="paragraph">에 설명된 대로 웹 UI에 액세스하여 umadmin 사용자의 기본 암호를 변경하고 Unified Manager의 초기 설정을 수행합니다 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>.</block>
+  <block id="34a79347cdfaf44fb419601fd9f52440" category="paragraph">HTTP 및 HTTPS 통신에 사용되는 포트(포트 80 및 443)는 Unified Manager 유지 관리 콘솔을 사용하여 변경할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>.</block>
 </blocks>

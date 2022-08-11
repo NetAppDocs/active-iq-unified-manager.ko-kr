@@ -110,6 +110,4 @@ API는 해당 클러스터의 스토리지 볼륨 목록을 반환합니다. 응
 curl -X GET "https://<hostname>/api/gateways/e4f33f90-f75f-11e8-9ed9-00a098e3215f/storage/volume" -H "accept: application/hal+json" -H "X-Dot-SVM-UUID: d9c33ec0-5b61-11e9-8760-00a098e3215f"
 -H "Authorization: Basic <Base64EncodedCredentials>"
 ----
-ONTAP REST API 사용에 대한 자세한 내용은 ONTAP REST API 개발자 가이드 를 참조하십시오.
-
-https://docs.netapp.com/us-en/ontap-automation/index.html["ONTAP REST API 자동화"]
+ONTAP REST API 사용에 대한 자세한 내용은 를 참조하십시오https://docs.netapp.com/us-en/ontap-automation/index.html["ONTAP REST API 자동화"]

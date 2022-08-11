@@ -13,6 +13,6 @@ summary: REST API를 사용하여 Unified Manager에서 캡처한 상태, 용량
 [role="lead"]
 REST API를 사용하여 Unified Manager에서 캡처한 상태, 용량, 성능 및 보안 정보를 확인하여 클러스터를 관리할 수 있습니다.
 
-REST API는 Swagger 웹 페이지를 통해 표시됩니다. Swagger 웹 페이지에 액세스하여 Unified Manager REST API 설명서를 표시하고 API 호출을 수동으로 실행할 수 있습니다. Unified Manager 웹 UI의 메뉴 모음에서 * 도움말 * 버튼을 클릭한 다음 * API Documentation * 을 선택합니다. Unified Manager REST API에 대한 자세한 내용은 를 참조하십시오 link:../api-automation/concept_get_started_with_um_apis.html["Active IQ Unified Manager API 개발자 가이드 를 참조하십시오"].
+REST API는 Swagger 웹 페이지를 통해 표시됩니다. Swagger 웹 페이지에 액세스하여 Unified Manager REST API 설명서를 표시하고 API 호출을 수동으로 실행할 수 있습니다. Unified Manager 웹 UI의 메뉴 모음에서 * 도움말 * 버튼을 클릭한 다음 * API Documentation * 을 선택합니다. Unified Manager REST API에 대한 자세한 내용은 를 참조하십시오 link:../api-automation/concept_get_started_with_um_apis.html["Active IQ Unified Manager REST API 시작하기"].
 
 REST API에 액세스하려면 운영자, 스토리지 관리자 또는 애플리케이션 관리자 역할이 있어야 합니다.

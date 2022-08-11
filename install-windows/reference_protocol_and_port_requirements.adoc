@@ -104,10 +104,10 @@ OnCommand 및 OnCommand Workflow Automation API Services에서 Unified Manager�
 |===
 [NOTE]
 ====
-HTTP 및 HTTPS 통신에 사용되는 포트(포트 80 및 443)는 Unified Manager 유지 관리 콘솔을 사용하여 변경할 수 있습니다. 자세한 내용은 _Active IQ Unified Manager 시스템 구성 설명서_를 참조하십시오.
+HTTP 및 HTTPS 통신에 사용되는 포트(포트 80 및 443)는 Unified Manager 유지 관리 콘솔을 사용하여 변경할 수 있습니다. 자세한 내용은 _ Active IQ Unified Manager 구성 _ 을(를) 참조하십시오.
 
 ====
-link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager 시스템 구성 설명서"]
+link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager 구성"]
 
 
 

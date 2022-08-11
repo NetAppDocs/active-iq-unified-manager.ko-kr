@@ -15,4 +15,4 @@ Active IQ Unified Manager에서는 REST API를 사용하여 스토리지 환경�
 
 Unified Manager가 지원하는 API 게이트웨이를 사용하여 모든 ONTAP 관리 클러스터에서 ONTAP API를 실행할 수도 있습니다.
 
-Unified Manager REST API에 대한 자세한 내용은 를 참조하십시오 link:../api-automation/concept_get_started_with_um_apis.html["Active IQ Unified Manager API 개발자 가이드 를 참조하십시오"].
+Unified Manager REST API에 대한 자세한 내용은 를 참조하십시오 link:../api-automation/concept_get_started_with_um_apis.html["Active IQ Unified Manager REST API 시작하기"].

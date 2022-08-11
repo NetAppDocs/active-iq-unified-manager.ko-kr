@@ -89,4 +89,4 @@ OpenJDK가 설치된 디렉토리입니다. 예: 'C:\Program Files\NetApp\JDK\'
 
 
 
-웹 UI에 액세스하여 에 설명된 대로 Unified Manager의 초기 설정을 수행할 수 있습니다 link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager 시스템 구성 설명서"].
+웹 UI에 액세스하여 에 설명된 대로 Unified Manager의 초기 설정을 수행할 수 있습니다 link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager 구성"].

@@ -2,7 +2,7 @@
 permalink: health-checker/concept_um_interfaces_used_to_manage_storage_system_health.html 
 sidebar: sidebar 
 keywords: unified manager, interfaces, manage, storage system, health 
-summary: 이 가이드에서는 Active IQ Unified Manager에서 데이터 스토리지 용량, 가용성 및 보호 문제 해결을 위해 제공하는 두 가지 사용자 인터페이스에 대한 정보를 다룹니다. UI 두 개는 Unified Manager 웹 UI와 유지보수 콘솔입니다. 
+summary: 이 섹션에서는 Active IQ Unified Manager가 데이터 스토리지 용량, 가용성 및 보호 문제를 해결하기 위해 제공하는 두 가지 사용자 인터페이스에 대한 정보를 다룹니다. UI 두 개는 Unified Manager 웹 UI와 유지보수 콘솔입니다. 
 ---
 = 스토리지 시스템 상태를 관리하는 데 사용되는 Unified Manager 인터페이스
 :allow-uri-read: 
@@ -10,8 +10,8 @@ summary: 이 가이드에서는 Active IQ Unified Manager에서 데이터 스토
 :imagesdir: ../media/
 
 
-[role="lead"]
-이 가이드에서는 Active IQ Unified Manager에서 데이터 스토리지 용량, 가용성 및 보호 문제 해결을 위해 제공하는 두 가지 사용자 인터페이스에 대한 정보를 다룹니다. UI 두 개는 Unified Manager 웹 UI와 유지보수 콘솔입니다.
+[role="lead lead"]
+이 섹션에는 Active IQ Unified Manager에서 데이터 스토리지 용량, 가용성 및 보호 문제를 해결하기 위해 제공하는 두 가지 사용자 인터페이스에 대한 정보가 포함되어 있습니다. UI 두 개는 Unified Manager 웹 UI와 유지보수 콘솔입니다.
 
 Unified Manager의 보호 기능을 사용하려면 WFA(OnCommand Workflow Automation)도 설치 및 구성해야 합니다.
 
@@ -21,7 +21,7 @@ Unified Manager의 보호 기능을 사용하려면 WFA(OnCommand Workflow Autom
 
 관리자는 Unified Manager 웹 UI를 사용하여 데이터 스토리지 용량, 가용성 및 보호와 관련된 클러스터 문제를 모니터링하고 해결할 수 있습니다.
 
-이 가이드에서는 관리자가 Unified Manager 웹 UI에 표시되는 스토리지 용량, 데이터 가용성 또는 보호 문제를 해결하기 위해 따를 수 있는 몇 가지 일반적인 워크플로우에 대해 설명합니다.
+다음 섹션에서는 관리자가 Unified Manager 웹 UI에 표시되는 스토리지 용량, 데이터 가용성 또는 보호 문제를 해결하기 위해 수행할 수 있는 몇 가지 일반적인 워크플로우에 대해 설명합니다.
 
 
 
@@ -29,4 +29,4 @@ Unified Manager의 보호 기능을 사용하려면 WFA(OnCommand Workflow Autom
 
 관리자는 Unified Manager 유지보수 콘솔을 사용하여 Unified Manager 서버 자체와 관련된 운영 체제 문제, 버전 업그레이드 문제, 사용자 액세스 문제, 네트워크 문제를 모니터링, 진단, 해결할 수 있습니다. Unified Manager 웹 UI를 사용할 수 없는 경우에는 유지보수 콘솔만 Unified Manager에 액세스할 수 있습니다.
 
-이 가이드에서는 유지보수 콘솔에 액세스하고 이를 사용하여 Unified Manager 서버 기능과 관련된 문제를 해결하는 방법을 설명합니다.
+이 정보를 사용하여 유지보수 콘솔에 액세스하고 Unified Manager 서버 기능과 관련된 문제를 해결할 수 있습니다.

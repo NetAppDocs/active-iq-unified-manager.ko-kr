@@ -27,7 +27,7 @@ WFA(OnCommand Workflow Automation)와 같은 관련 관리 도구가 포함된 �
 
 * 성능 인시던트 구성 및 모니터링
 +
-관리자는 모니터링 중인 스토리지 시스템 리소스의 성능을 모니터링하고 관리할 수 있습니다. 를 참조하십시오 link:../performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html["클러스터 성능 관리를 위한 Active IQ Unified Manager 워크플로우 가이드"] 를 참조하십시오.
+관리자는 모니터링 중인 스토리지 시스템 리소스의 성능을 모니터링하고 관리할 수 있습니다. 를 참조하십시오 link:../performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html["Active IQ Unified Manager 성능 모니터링 소개"] 를 참조하십시오.
 
 * 볼륨 용량 문제 진단 및 관리
 +
@@ -35,14 +35,14 @@ WFA(OnCommand Workflow Automation)와 같은 관련 관리 도구가 포함된 �
 
 * 보호 관계 문제 구성, 모니터링 및 진단
 +
-보호 관계를 생성 및 구성한 후에는 스토리지 관리자가 보호 관계, 보호 관계의 현재 상태, 영향을 받는 관계에 대한 현재 및 과거의 보호 작업 성공 정보 및 문제 해결 조언과 관련된 잠재적인 문제를 볼 수 있습니다. 를 참조하십시오 link:../data-protection/concept_create_and_monitor_protection_relationships.html["Active IQ Unified Manager 보호 가이드 를 참조하십시오"] 를 참조하십시오.
+보호 관계를 생성 및 구성한 후에는 스토리지 관리자가 보호 관계, 보호 관계의 현재 상태, 영향을 받는 관계에 대한 현재 및 과거의 보호 작업 성공 정보 및 문제 해결 조언과 관련된 잠재적인 문제를 볼 수 있습니다. 를 참조하십시오 link:../data-protection/concept_create_and_monitor_protection_relationships.html["보호 관계 생성, 모니터링 및 문제 해결"] 를 참조하십시오.
 
 * 백업 파일을 생성하고 백업 파일에서 데이터를 복원합니다.
 * 스토리지 객체를 주석과 연관
 +
 스토리지 객체를 주석과 연결하여 스토리지 관리자는 스토리지 객체와 관련된 이벤트를 필터링하고 볼 수 있으므로 스토리지 관리자가 이벤트와 관련된 문제의 우선 순위를 지정하고 해결할 수 있습니다.
 
-* REST API를 사용하여 Unified Manager에서 캡처한 상태, 용량 및 성능 정보를 확인하여 클러스터를 관리할 수 있습니다. 를 참조하십시오 link:../api-automation/concept_get_started_with_um_apis.html["Active IQ Unified Manager API 개발자 가이드 를 참조하십시오"] 를 참조하십시오.
+* REST API를 사용하여 Unified Manager에서 캡처한 상태, 용량 및 성능 정보를 확인하여 클러스터를 관리할 수 있습니다. 을 참조하십시오 link:../api-automation/concept_get_started_with_um_apis.html["Active IQ Unified Manager REST API 시작하기"] 를 참조하십시오.
 * 기술 지원 팀에 지원 번들 보내기
 +
 스토리지 관리자는 유지 관리 콘솔을 사용하여 지원 번들을 검색하고 기술 지원에 보낼 수 있습니다. 문제가 AutoSupport 메시지가 제공하는 것보다 더 자세한 진단 및 문제 해결이 필요한 경우 지원 번들을 기술 지원 부서에 보내야 합니다.
