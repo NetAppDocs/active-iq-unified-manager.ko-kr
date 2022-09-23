@@ -29,16 +29,13 @@ Unified Manager 가상 어플라이언스의 VMware 스냅샷
 
 
 
- a| 
-Red Hat Enterprise Linux 또는 CentOS Linux
- a| 
+.2+| Red Hat Enterprise Linux 또는 CentOS Linux  a| 
 작은 크기
  a| 
 Unified Manager MySQL 데이터베이스 덤프
 
 
 
- a| 
  a| 
 대형
  a| 
@@ -46,16 +43,13 @@ Unified Manager 데이터베이스의 NetApp Snapshot
 
 
 
- a| 
-Microsoft Windows
- a| 
+.2+| Microsoft Windows  a| 
 작은 크기
  a| 
 Unified Manager MySQL 데이터베이스 덤프
 
 
 
- a| 
  a| 
 대형
  a| 
