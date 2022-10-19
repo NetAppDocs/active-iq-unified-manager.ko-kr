@@ -52,6 +52,8 @@ entries:
   - title: Red Hat Enterprise Linux 또는 CentOS에서 Unified Manager 업그레이드
     url: "/install-linux/concept_upgrade_unified_manager_on_rhel_or_centos.html"
     entries:
+    - title: Unified Manager 버전에 지원되는 업그레이드 경로
+      url: "/include/upgrade-path.html"
     - title: Unified Manager 업그레이드
       url: "/install-linux/task_upgrade_unified_manager.html"
     - title: Red Hat Enterprise Linux 7.x에서 8.x로 호스트 OS 업그레이드

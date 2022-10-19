@@ -2237,16 +2237,9 @@
   <block id="689098dd33af80b8a480febade80a626" category="list-text">다음 순서대로 Unified Manager를 시작합니다.</block>
   <block id="9189a17a0b9197d3243162eb3951a42e" category="paragraph">'스타ctl start socie'입니다</block>
   <block id="1808b5aaf7bd49816b66667808cd4cc7" category="paragraph">'신조 시작 조숙자'</block>
-  <block id="63abb0f288c1d7a899870a973e2a1a26" category="summary">Unified Manager가 설치된 Linux 서버에서 최신 버전의 MySQL으로 업그레이드하여 보안 취약점에 대한 수정 사항을 확인할 수 있습니다.</block>
-  <block id="bae43629fc80334bfb253eda91870d0a" category="doc">Linux에서 MySQL 업그레이드</block>
   <block id="76b45bd64e794aa15caf86e164b12820" category="paragraph">Unified Manager가 설치된 Linux 시스템에 대한 루트 권한이 있어야 합니다.</block>
   <block id="f53d1531676d47e1ac40a9a7f8022ad4" category="list-text">Unified Manager 호스트 시스템에서 루트 사용자로 로그인합니다.</block>
-  <block id="7bb52bb3ab7705ec1ebfe15ec998339e" category="list-text">대상 시스템에서 최신 MySQL Community Server의 .rpm 번들을 다운로드합니다.</block>
-  <block id="5115846061c6b31d315d4c6bb626ceb3" category="list-text">번들을 대상 시스템의 디렉토리에 압축을 풉니다.</block>
-  <block id="4276a11fa4b3253f36d59f5a58894c99" category="list-text">번들을 언타어링한 후 디렉토리에 여러 `.rpm' 패키지가 있지만 Unified Manager에서는 다음 rpm 패키지만 필요합니다.</block>
-  <block id="eae89bda96fabfefa8a04410a0c097c9" category="list-text">다음 명령을 사용하여 MySQL 업그레이드를 호출합니다.</block>
   <block id="6b749e1d94f532680ad5ca3ff3bd464d" category="paragraph">'yum install *.rpm'입니다</block>
-  <block id="88cec1dadd0e1340a40d970cdb523c8e" category="paragraph">rpm은 MySQL의 새 버전을 다운로드한 디렉토리에 있는 .rpm 패키지를 의미합니다.</block>
   <block id="391d5f36fcd9923a7e410ea96c07c892" category="summary">Unified Manager를 설치하는 시스템에 EPEL(Enterprise Linux) 리포지토리용 추가 패키지에 대한 액세스 권한이 없는 경우, 설치를 성공적으로 수행하려면 리포지토리를 수동으로 다운로드하고 구성해야 합니다.</block>
   <block id="cf9cf11bad5d3f5d77b4012abbf218e4" category="doc">EPEL 리포지토리를 수동으로 구성합니다</block>
   <block id="88a708b4c63513bc42e71c86f6bf5f89" category="paragraph">EPEL 리포지토리는 시스템에 설치해야 하는 필수 타사 유틸리티에 대한 액세스를 제공합니다. Red Hat 또는 CentOS 시스템에 Unified Manager를 설치할 때 EPEL 리포지토리를 사용합니다.</block>
@@ -2265,28 +2258,23 @@
   <block id="03941251ef876f3fdd3a19afdb14e2d6" category="paragraph">'userdel umadmin'</block>
   <block id="fc9bcd85ea189792c25ddb08fa576ece" category="list-text">유지보수 그룹을 삭제합니다.</block>
   <block id="222e6119ecb775855168b2f8eb03c9ad" category="paragraph">그룹델 유지보수</block>
-  <block id="b29348a660e9e748ea4fd292d57cfaf5" category="summary">Red Hat 플랫폼에서 설치 파일을 다운로드하여 실행하여 Unified Manager를 업그레이드할 수 있습니다.</block>
   <block id="851b63dfbfda9a56a4773ddff04a3bb8" category="list-text">Unified Manager를 업그레이드하는 시스템은 시스템 및 소프트웨어 요구사항을 충족해야 합니다.</block>
   <block id="f31fdd40cd08b7a381874d7d602f2f00" category="inline-link-macro">Red Hat 및 CentOS 소프트웨어 및 설치 요구 사항</block>
   <block id="303c14e054526dd8714d0d23dfe89096" category="paragraph"><block ref="303c14e054526dd8714d0d23dfe89096" category="inline-link-macro-rx"></block></block>
   <block id="476492554416aa7a1518b6deeea2245d" category="list-text">Unified Manager를 업그레이드하기 전에 올바른 버전의 OpenJDK를 설치하거나 업그레이드해야 합니다.</block>
   <block id="7db7f0fa38ea709bf1cfa08b1cc2edf4" category="inline-link-macro">Linux에서 JRE 업그레이드</block>
-  <block id="2aa54191149938bc7a863157c2ffb17b" category="paragraph"><block ref="2aa54191149938bc7a863157c2ffb17b" category="inline-link-macro-rx"></block></block>
   <block id="e4ed881267e1fda6e2abe689c01e2602" category="list-text">Red Hat Enterprise Linux Subscription Manager에 가입해야 합니다.</block>
   <block id="ed2c45fc23f3cfea044bc28997ea71c4" category="list-text">업그레이드 중에 문제가 발생할 경우 데이터 손실을 방지하려면 Unified Manager 데이터베이스의 백업을 생성해야 합니다. 또한 백업 파일을 '/opt/netapp/data' 디렉토리에서 외부 위치로 이동하는 것이 좋습니다.</block>
   <block id="57631e141b8f0f57a0f764b018516b87" category="list-text">업그레이드 프로세스 중에는 Unified Manager를 사용할 수 없으므로 실행 중인 작업을 모두 완료해야 합니다.</block>
   <block id="d37d0b63e336071083beff10d6864144" category="list-text">Unified Manager 서버를 시작합니다. 다음 명령을 실행합니다.</block>
   <block id="d29364de1efc0d3a8b2b3b2e091e6ce6" category="list-text">대상 Red Hat Enterprise Linux 또는 CentOS 서버에 로그인합니다.</block>
   <block id="9d8fac2d2928116ea867fc277420d176" category="list-text">서버에 Unified Manager 번들을 다운로드합니다.</block>
-  <block id="695f29bf51cbea156d6a3bd63936f89a" category="inline-link-macro">Red Hat 또는 CentOS용 Unified Manager 다운로드</block>
-  <block id="2fdc3e6b375749d3c8daa762cc26fb19" category="paragraph"><block ref="2fdc3e6b375749d3c8daa762cc26fb19" category="inline-link-macro-rx"></block></block>
   <block id="504dbb205bd882bee9deb15c21374875" category="list-text">타겟 디렉토리로 이동하고 Unified Manager 번들을 확장합니다.</block>
   <block id="d5722027e2a50bb22675e35c697d66bc" category="paragraph">'ActiveIQUnifiedManager-&lt;version&gt;.zip의 압축을 풉니다.</block>
   <block id="7bb204b5f67b764fc72caaecefac611c" category="paragraph">Unified Manager에 필요한 RPM 모듈의 압축이 대상 디렉토리에 풀립니다.</block>
   <block id="d3eaddcdec1813e7319ec134112b128d" category="list-text">디렉토리에서 다음 모듈을 사용할 수 있는지 확인합니다.</block>
   <block id="68a05420b6a139a3f91be0e2baf06d34" category="paragraph">"ls *.rpm"</block>
   <block id="1cbec06643adcf9e636d9dd4c1779bef" category="paragraph">'netapp-um &lt;version&gt;.x86_64.rpm'</block>
-  <block id="7e07986bfacb6a9e183b787721490668" category="list-text">* 선택 사항: * 인터넷에 연결되어 있지 않거나 Red Hat Enterprise Linux 리포지토리를 사용하지 않는 시스템의 경우 다음 단계를 수행하여 필요한 패키지가 있는지 확인하고 해당 패키지를 다운로드하십시오.</block>
   <block id="7968abcba566c0045dfcdfef6dde2686" category="list-text">사용 가능한 패키지 및 사용할 수 없는 패키지 목록을 봅니다.</block>
   <block id="b733ff9eca50d1215b2b36356cb2a337" category="paragraph">'yum install netapp-um &lt;version&gt;.x86_64.rpm --assulmeno'</block>
   <block id="0f6821f28720fad4bff6027633ab91c0" category="paragraph">""설치 중:"" 섹션의 항목은 현재 디렉터리에서 사용할 수 있는 패키지이며 ""종속성 설치:"" 섹션의 항목은 시스템에 없는 패키지입니다.</block>
@@ -2295,17 +2283,12 @@
   <block id="2080ee244c1ba0254840c6ec5cdf24cb" category="paragraph">패키지는 '--downlodaddr='으로 지정된 디렉토리에 다운로드됩니다.</block>
   <block id="ee8dc4d60c918170a3d15f1ce815c485" category="paragraph">플러그인 ""yum-plugin-downloadonly""가 Red Hat Enterprise Linux 시스템에서 항상 활성화되어 있는 것은 아니므로 패키지를 설치하지 않고 패키지를 다운로드할 수 있도록 기능을 설정해야 할 수 있습니다.</block>
   <block id="edb2040bce41ec5c106522a25e168f05" category="paragraph">'yum install yum-plugin-downloadonly</block>
-  <block id="8aeb73340c979364beb868b049227251" category="list-text">설치 시스템에서 새 디렉토리를 생성하고 인터넷에 연결된 시스템에서 다운로드한 패키지를 복사합니다.</block>
-  <block id="87db1d4dd581fcd8819e6f8f1b9ec2db" category="list-text">디렉토리를 설치 시스템의 새 디렉토리로 변경하고 MySQL Community Edition을 설치할 때 해당 종속성과 함께 다음 명령을 실행합니다.</block>
   <block id="326019e5c5b887e8dfe56f213be36e39" category="list-text">사전 설치 스크립트를 실행하여 업그레이드와 충돌할 수 있는 시스템 구성 설정이나 설치된 소프트웨어가 없는지 확인합니다.</block>
   <block id="ae44be51882e1847db9f99864953710d" category="paragraph">'SUDO./PRE_INSTALL_CHECK.sh'를 선택합니다</block>
-  <block id="01251d33fe5ea0b5b0b5b7882fff8800" category="paragraph">사전 설치 스크립트는 시스템에 유효한 Red Hat 서브스크립션이 있으며 필요한 소프트웨어 리포지토리에 액세스할 수 있는지 확인합니다. 스크립트에서 문제가 식별되면 Unified Manager를 업그레이드하기 전에 문제를 해결해야 합니다.</block>
   <block id="3dd2f0172eaa00cd434319d564dad025" category="list-text">다음 스크립트를 사용하여 Unified Manager 업그레이드:</block>
   <block id="7235fc94d270002699e871e8bad9343e" category="paragraph">업그레이드.sh</block>
-  <block id="4ecfa114f2c16c2c36546338cfb07e53" category="paragraph">이 스크립트는 RPM 모듈을 자동으로 실행하여 필요한 지원 소프트웨어 및 실행 중인 Unified Manager 모듈을 업그레이드합니다. 또한 업그레이드 스크립트는 업그레이드와 충돌할 수 있는 시스템 구성 설정이나 설치된 소프트웨어가 있는지 확인합니다. 스크립트에서 문제가 식별되면 Unified Manager를 업그레이드하기 전에 문제를 해결해야 합니다.</block>
   <block id="a1dc836a95e30b0785dbc6baa6107b89" category="list-text">업그레이드가 완료된 후 Unified Manager 웹 UI의 IP 주소 또는 URL, 유지보수 사용자 이름(umadmin) 및 기본 암호가 표시된 메시지가 나타날 때까지 메시지를 다시 스크롤합니다.</block>
   <block id="909c968a39678b79ac526625c5d2d634" category="paragraph">이 메시지는 다음과 유사합니다.</block>
-  <block id="6215911f475ff09e4aefe28c03aa0e5a" category="paragraph">지원되는 웹 브라우저에 지정된 IP 주소 또는 URL을 입력하여 Unified Manager 웹 UI를 시작한 다음, 앞서 설정한 유지보수 사용자 이름(umadmin) 및 암호를 사용하여 로그인합니다.</block>
   <block id="a1829ad08a395f5bd291b0c7562b2a29" category="summary">Linux 시스템에 설치된 경우 Unified Manager에서 JRE와 같은 타사 제품을 업그레이드할 수 있습니다.</block>
   <block id="05377efb6e728732c9306b0df5e826e0" category="doc">Unified Manager 설치 후 타사 제품 업그레이드</block>
   <block id="1c07aad8c135f1160c0e64c5a58afc4c" category="paragraph">Unified Manager가 Linux 시스템에 이미 설치되어 있는 경우 JRE와 같은 타사 제품을 업그레이드할 수 있습니다.</block>
@@ -11242,13 +11225,6 @@
   <block id="b5ac9f231ec8ae835394a788fd0afdaa" category="list-text">다음 명령을 실행하여 컨텍스트를 mysqld_db_t로 설정합니다. semanage fcontext-a-t mysqld_db_t"/opt/netapp""restorecon-R-v/opt/netapp"</block>
   <block id="613745ec62ddcebb7c0ec2f29c362910" category="list-text">'/etc/fstab'에서 '/opt/netapp'를 구성한 경우 '/etc/fstab' 파일을 편집합니다. '/opt/netapp/'mount option에 mysql label을 'context=system_u:object_r:mysqld_db_t:s0'으로 추가한다</block>
   <block id="3ee408ca1ea10d7387d490dc700a0356" category="list-text">직접 NFS 마운트가 있는 경우 다음 명령을 실행하여 컨텍스트를 mysqld_db_t"로 설정합니다. mount &lt;nfsshare&gt;:/&lt;mountpoint&gt;/opt/netapp-o context=system_u:object_r:mysqld_db_t:s0"</block>
-  <block id="4432f39d800933fa29075adf5d2cb426" category="paragraph">Unified Manager가 설치된 Linux 서버에서 최신 버전의 MySQL으로 업그레이드하여 보안 취약점에 대한 수정 사항을 확인할 수 있습니다. 시스템에 설치된 MySQL 버전이 8.0.28 이전인 경우 Unified Manager 9.11 업그레이드 프로세스는 MySQL을 8.0.28로 자동 업그레이드합니다. MySQL의 독립 실행형 업그레이드를 이전 버전에서 8.0.28로 실행해서는 안 됩니다.</block>
-  <block id="24f1ea1882439997228bd802f68fa9f6" category="paragraph">마이너 업데이트에만 MySQL 8.0.28의 기본 버전을 이후 버전으로 업그레이드할 수 있습니다.</block>
-  <block id="026936ad00ebc4ae1db79f070a927a45" category="list-text">mysql-community-client-8.0.28</block>
-  <block id="e690854523c7fac0083784d171463dbd" category="list-text">MySQL - 커뮤니티 - libs - 8.0.28</block>
-  <block id="7416b1d102126167619be7c1bc2917b9" category="list-text">mysql-community-server-8.0.28</block>
-  <block id="7e4bff08468b3a2ecc016a808e2b84e3" category="list-text">mysql-community-common-8.0.28</block>
-  <block id="e627c2b9dd11c910856a3d949365b0ba" category="list-text">MySQL-community-client-plugins-8.0.28 다른 모든 .rpm 패키지를 삭제합니다. 그러나 RPM 번들에 모든 패키지를 설치해도 오류가 발생하지 않습니다.</block>
   <block id="5f03fcd1de4eb6c394b1713126eeae48" category="admonition">MySQL의 기본 포트 3306은 Linux 시스템에 Unified Manager를 설치하는 동안 localhost로 제한됩니다. 이전 구성이 유지되는 업그레이드 시나리오에는 영향을 주지 않습니다. 이 구성은 수정할 수 있으며 유지보수 콘솔의 'MySQL 포트 3306에 대한 액세스 제어' 옵션을 사용하여 다른 호스트에서 연결을 사용할 수 있습니다.</block>
   <block id="1fd2b463bf2d975db21df998b30ccb30" category="list-text">운영 체제: x86_64 아키텍처 기반의 Red Hat Enterprise Linux 버전 7.x 및 8.x 또는 CentOS 버전 7.x는 OS 설치 프로그램의 * 소프트웨어 선택 * 옵션에서 "GUI 포함 서버" 기본 환경을 사용하여 설치됩니다</block>
   <block id="840ec4a41a9ca59255cff17c52cb8305" category="list-text">x86_64 아키텍처 기반의 Red Hat Enterprise Linux 버전 7.x 및 8.x</block>
@@ -11257,7 +11233,6 @@
   <block id="172925fbf80ec8e28224e1554c88ee8a" category="list-text">OpenJDK 버전 11.0.14(Red Hat Extra Enterprise Linux Server 리포지토리에서)</block>
   <block id="0fbcaf1888cb0fd21b1de45da9705406" category="paragraph">'SUDO systemctl status socie'</block>
   <block id="209d8f24350d3586c7e8e77bccf146f6" category="paragraph">릴리스 제품군 내에서 OpenJDK 릴리스를 업데이트할 수 있습니다. 예를 들어 OpenJDK 11.0.9에서 OpenJDK 11.0.14로 업그레이드할 수 있지만 OpenJDK 11에서 OpenJDK 12로 직접 업데이트할 수는 없습니다.</block>
-  <block id="52404be5282c18d0b7e21cbc0500660d" category="paragraph">Red Hat 플랫폼에서 설치 파일을 다운로드하여 실행하여 Unified Manager 9.9 또는 9.10에서 9.11로 업그레이드할 수 있습니다.</block>
   <block id="afebc350be46a62a45b648162f68d68a" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.0.28 이전인 경우 Unified Manager 업그레이드 프로세스에서 MySQL을 8.0.28로 자동 업그레이드합니다.</block>
   <block id="aab338915e32b60e92c8de3a23aa5c5d" category="list-text">운영 체제</block>
   <block id="21fae6ca9851125bcb8a2ae0fceec434" category="list-text">Microsoft Windows Server 2019 Standard 및 Datacenter Edition</block>
@@ -11623,4 +11598,34 @@
   <block id="c37949fda7ff1b2246f6718aca6092a2" category="list-text">의 지침에 따라 Linux 서버에 Unified Manager를 설치해야 합니다 <block ref="e8607b27bcb98464e6dcda8f12f8aa38" category="inline-link-macro-rx"></block>.</block>
   <block id="362bda8047ba899ec7fa3be3f8333688" category="paragraph">에 설명된 대로 웹 UI에 액세스하여 umadmin 사용자의 기본 암호를 변경하고 Unified Manager의 초기 설정을 수행합니다 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>.</block>
   <block id="34a79347cdfaf44fb419601fd9f52440" category="paragraph">HTTP 및 HTTPS 통신에 사용되는 포트(포트 80 및 443)는 Unified Manager 유지 관리 콘솔을 사용하여 변경할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>.</block>
+  <block id="c181bfc3427dc5470dd828c5c382bd2d" category="paragraph">7/TCP</block>
+  <block id="75cb7288b16d502e4854f9c613bf4fab" category="summary">Linux 플랫폼에서 설치 파일을 다운로드하여 실행하여 Unified Manager를 업그레이드할 수 있습니다.</block>
+  <block id="0559d95c93a8bc4d6a8451959908d924" category="paragraph">Linux 플랫폼에서 설치 파일을 다운로드하여 실행하여 Unified Manager 9.9 또는 9.10에서 9.11로 업그레이드할 수 있습니다.</block>
+  <block id="c2b9500958337e132bb4c59a38c16982" category="paragraph">을 참조하십시오 <block ref="6809e5c79eb6a750a89a2ba4592b6b72" category="inline-link-macro-rx"></block>.</block>
+  <block id="243d6bc952dfb325a1c7b89867c2c787" category="paragraph">을 참조하십시오 <block ref="0861efbc0e36d8801897a77131dac3d0" category="inline-link-macro-rx"></block>.</block>
+  <block id="afe5c010af77ce694e2ae10478226295" category="paragraph">을 참조하십시오 <block ref="2aa54191149938bc7a863157c2ffb17b" category="inline-link-macro-rx"></block>.</block>
+  <block id="50c58444f7c8af673d49a884c3e2c493" category="inline-link-macro">Linux용 Unified Manager 다운로드 중</block>
+  <block id="c093aa8824c5e3548de7b89baefcdf62" category="paragraph">을 참조하십시오 <block ref="834cdb253956e69f96299891384c2c48" category="inline-link-macro-rx"></block>.</block>
+  <block id="e1233ae0e0972a0fbb3e6277c96493c5" category="paragraph">사전 설치 스크립트는 시스템에 유효한 Red Hat Enterprise Linux 서브스크립션이 있으며 필요한 소프트웨어 저장소에 대한 액세스 권한이 있는지 확인합니다. 스크립트에서 문제가 식별되면 문제를 해결하고 업그레이드를 계속 수행해야 합니다.</block>
+  <block id="7e2f44ebcb2774746086a5553cda621d" category="inline-link-macro">누락된 패키지에 대해 수행할 추가 단계입니다</block>
+  <block id="7a2d1b2a3706bae597eca9bb2c18426e" category="paragraph">누락된 패키지가 발견되면 에 설명된 단계를 수행합니다 <block ref="9f51298a2809ee56a4dbb8cc04da1d39" category="inline-link-macro-rx"></block>. 누락된 패키지가 없는 경우 다음 단계를 계속합니다.</block>
+  <block id="fb8301618e50d35e5e061bc7e6fc02d1" category="paragraph">이 스크립트는 RPM 모듈을 자동으로 실행하여 필요한 지원 소프트웨어 및 실행 중인 Unified Manager 모듈을 업그레이드합니다. 또한 업그레이드 스크립트는 업그레이드와 충돌할 수 있는 시스템 구성 설정이나 설치된 소프트웨어가 있는지 확인합니다. 스크립트에서 문제가 식별되면 Unified Manager를 업그레이드하기 전에 문제를 해결해야 합니다. Unified Manager를 업그레이드하기 전에 _net-snmp_와 같은 패키지를 이전에 설치한 경우 MySQL 종속성이 업그레이드 중에 패키지를 제거할 수 있습니다. 계속 사용하려면 패키지를 수동으로 다시 설치해야 합니다.</block>
+  <block id="fc72131d5091c3bd5447165448930b3f" category="paragraph">지원되는 웹 브라우저의 새 창에 지정된 IP 주소 또는 URL을 입력하여 Unified Manager 웹 UI를 시작한 다음, 앞서 설정한 유지보수 사용자 이름(umadmin) 및 암호를 사용하여 로그인합니다.</block>
+  <block id="c7f0c3c232f17240e153bcff468b4b86" category="paragraph">업그레이드 중 사이트에서 누락된 패키지가 발견되거나 시스템이 인터넷에 연결되어 있지 않거나 Red Hat Enterprise Linux 리포지토리를 사용하지 않는 경우 다음 단계를 수행하여 필요한 패키지가 있는지 확인하고 패키지를 다운로드하십시오.</block>
+  <block id="fda5e50208306c98484c0041147f0c64" category="admonition">이러한 단계는 주 절차의 _5_단계 이후에 수행해야 합니다. 이 절차를 수행하면 Unified Manager가 업그레이드되며 업그레이드를 위해 추가 단계를 실행할 필요가 없습니다.</block>
+  <block id="098f9c8760d143ea65998c16b9355dc8" category="list-text">다운로드한 패키지를 설치 시스템에서 Unified Manager 번들의 압축을 푼 디렉토리에 복사합니다.</block>
+  <block id="eb48c0935181b533718e0dc01d2336f0" category="list-text">디렉토리를 해당 디렉토리로 변경하고 다음 명령을 실행하여 누락된 패키지를 해당 종속성에 따라 설치합니다.</block>
+  <block id="ccb2222b0ddd075041c68e90def28092" category="paragraph">이 프로세스는 Unified Manager 업그레이드 프로세스를 완료합니다. 지원되는 웹 브라우저의 새 창에 지정된 IP 주소 또는 URL을 입력하여 Unified Manager 웹 UI를 시작한 다음, 앞서 설정한 유지보수 사용자 이름(umadmin) 및 암호를 사용하여 로그인합니다.</block>
+  <block id="c4d6a904ef528003bf03bc2e65cffd26" category="summary">지원되는 업그레이드 경로입니다</block>
+  <block id="c481b1965d09fbd3519296d4223038b5" category="doc">Unified Manager 버전에 지원되는 업그레이드 경로</block>
+  <block id="55f88063a0c3a7cf98a94375e0ff3a42" category="paragraph">Active IQ Unified Manager는 각 버전에 대한 특정 업그레이드 경로를 지원합니다.</block>
+  <block id="f965ccce17a2e4ee4ff484c6e57ba1bd" category="paragraph">모든 버전의 Unified Manager에서 이후 버전으로 업그레이드할 수 있는 것은 아닙니다. Unified Manager 업그레이드는 N-2 모델로 제한되어 있으며, 이는 모든 플랫폼의 다음 2개 릴리즈 내에서만 업그레이드할 수 있음을 의미합니다. 예를 들어 Unified Manager 9.9와 9.10에서만 Unified Manager 9.11로 업그레이드할 수 있습니다.</block>
+  <block id="70494063bddf48bdd98e37fe20fb89ab" category="paragraph">지원되는 버전보다 이전 버전을 실행 중인 경우 Unified Manager 인스턴스를 지원되는 버전 중 하나로 먼저 업그레이드한 다음 현재 버전으로 업그레이드해야 합니다.</block>
+  <block id="5b12a1e2efadd20d008999535880c716" category="paragraph">예를 들어, 설치된 버전이 OnCommand Unified Manager 9.5이고 최신 릴리즈 Active IQ Unified Manager 9.11로 업그레이드하려면 일련의 업그레이드를 수행해야 합니다.</block>
+  <block id="bdc6e309ce890855fc43da7b57bcc96d" category="list-title">샘플 업그레이드 경로:</block>
+  <block id="c352389d4f5272bf4b0e95aaa632c6dd" category="list-text">OnCommand Unified Manager 9.5 -&gt; Active IQ Unified Manager 9.7을 업그레이드합니다.</block>
+  <block id="7568484fc77cea5513a23c08df445958" category="list-text">업그레이드 9.7 -&gt; 9.9.</block>
+  <block id="c78b2fb18f2fe61f95fe42e52ba53764" category="list-text">9.9 -&gt; 9.11 업그레이드.</block>
+  <block id="735de3cfc0c0985a1a724be6fb3d04d4" category="inline-link">기술 자료(KB) 문서</block>
+  <block id="7ff27f75b12e833d98540444694dad8f" category="paragraph">업그레이드 경로 매트릭스에 대한 자세한 내용은 다음을 참조하십시오<block ref="873d5f2f4cecdaf6f22eb65b543f2b7f" category="inline-link-rx"></block>.</block>
 </blocks>
