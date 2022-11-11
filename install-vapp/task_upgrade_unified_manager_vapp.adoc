@@ -11,13 +11,13 @@ summary: VMware vSphere에서 Unified Manager로 업그레이드할 수 있습�
 
 
 [role="lead"]
-Active IQ Unified Manager를 9.11을 릴리스 9.9 또는 9.10에서 릴리스하도록 업그레이드할 수 있습니다.
+Active IQ Unified Manager를 릴리스 9.10 또는 9.11에서만 릴리스 9.12로 업그레이드할 수 있습니다.
 
 업그레이드 프로세스 중에는 Unified Manager를 사용할 수 없습니다. Unified Manager를 업그레이드하기 전에 실행 중인 작업을 완료해야 합니다.
 
 Unified Manager가 OnCommand Workflow Automation 인스턴스와 페어링되어 있고 두 제품 모두에 사용할 수 있는 새로운 소프트웨어 버전이 있는 경우 두 제품의 연결을 끊고 업그레이드를 수행한 후 새 Workflow Automation 연결을 설정해야 합니다. 제품 중 하나로 업그레이드하는 경우, 업그레이드 후에 Workflow Automation에 로그인하여 Unified Manager에서 데이터를 아직 취득하고 있는지 확인해야 합니다.
 
 .단계
-. link:task_download_unified_manager_iso_image_vapp.html["Unified Manager ISO 이미지를 다운로드합니다"].
-. link:task_upgrade_unified_manager_virtual_appliance_vapp.html["Unified Manager 업그레이드"].
+. 의 단계를 따릅니다 link:task_download_unified_manager_iso_image_vapp.html["Unified Manager ISO 이미지를 다운로드합니다"].
+. 또한 에 설명된 단계를 따릅니다 link:task_upgrade_unified_manager_virtual_appliance_vapp.html["Unified Manager 업그레이드"].
 

@@ -11,9 +11,9 @@ summary: MetroCluster 구성이 올바르게 설정되어 있는지 확인하여
 
 
 [role="lead"]
-MetroCluster 구성이 올바르게 설정되어 있는지 확인하여 MetroCluster 구성에서 미러링된 워크로드의 성능 문제를 방지할 수 있습니다. 또한 구성을 변경하거나 소프트웨어 또는 하드웨어 구성요소를 업그레이드하여 워크로드 성능을 향상할 수 있습니다.
+MetroCluster 구성이 올바르게 설정되었는지 확인하여 FC 및 IP 구성을 통해 MetroCluster에서 미러링된 워크로드의 성능 문제를 방지할 수 있습니다. 또한 구성을 변경하거나 소프트웨어 또는 하드웨어 구성요소를 업그레이드하여 워크로드 성능을 향상할 수 있습니다.
 
-을 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서"] FC(Fibre Channel) 스위치, 케이블 및 ISL(Inter-Switch Link)을 포함하여 MetroCluster 구성에서 클러스터를 설정하는 지침은 을 참조하십시오. 또한 로컬 및 원격 클러스터가 미러 볼륨 데이터와 통신할 수 있도록 MetroCluster 소프트웨어를 구성하는 데도 도움이 됩니다.
+을 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서"] FC(Fibre Channel) 스위치, 케이블 및 ISL(Inter-Switch Link)을 포함하여 MetroCluster 구성에서 클러스터를 설정하는 지침은 을 참조하십시오. 또한 로컬 및 원격 클러스터가 미러 볼륨 데이터와 통신할 수 있도록 MetroCluster 소프트웨어를 구성하는 데도 도움이 됩니다. IP를 통한 MetroCluster 설정에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html["MetroCluster IP 구성을 설치합니다"].
 
 MetroCluster 구성과 의 요구 사항을 비교할 수 있습니다 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서"] MetroCluster 구성에서 구성 요소를 변경하거나 업그레이드하면 워크로드 성능이 향상될 수 있는지 확인할 수 있습니다. 이 비교는 다음 질문에 대한 해답을 제공합니다.
 
@@ -23,4 +23,8 @@ MetroCluster 구성과 의 요구 사항을 비교할 수 있습니다 https://d
 * 워크로드에 SSD(Solid State Drive) 스토리지에 대한 쓰기 처리량이 높은 경우 처리량을 수용하기 위해 FC-to-SAS 브릿지를 업그레이드해야 합니까?
 
 
-MetroCluster 구성 요소 교체 또는 업그레이드에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서"].
+* 관련 정보 *
+
+* MetroCluster 구성 요소 교체 또는 업그레이드에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/index.html["MetroCluster 문서"].
+* 컨트롤러 업그레이드에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_fc_mcc_us_switchover_and_switchback_mcc_fc_4n_cu.html["스위치오버 및 스위치백을 사용하여 MetroCluster FC 구성에서 컨트롤러 업그레이드"] 및 https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_ip_mcc_us_switchover_and_switchback_mcc_ip.html["스위치오버 및 스위치백을 사용하여 MetroCluster IP 구성에서 컨트롤러 업그레이드"]
+

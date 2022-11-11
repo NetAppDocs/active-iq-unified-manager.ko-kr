@@ -19,9 +19,6 @@ summary: 필요한 포트와 프로토콜을 사용하면 Unified Manager 서버
 
 일반적으로 기본 포트는 항상 사용되므로 Unified Manager 웹 UI에 연결할 때 포트 번호를 지정할 필요가 없습니다. 예를 들어, Unified Manager가 항상 기본 포트에서 실행하려고 하므로 "+https://<host>:443+` 대신 "+https://<host>+` 를 입력할 수 있습니다.
 
-
-NOTE: MySQL의 기본 포트 3306은 VMware vSphere 시스템에 Unified Manager를 설치하는 동안 localhost로 제한됩니다. 이전 구성이 유지되는 업그레이드 시나리오에는 영향을 주지 않습니다. 이 구성은 수정할 수 있으며 유지보수 콘솔의 'MySQL 포트 3306에 대한 액세스 제어' 옵션을 사용하여 다른 호스트에서 연결을 사용할 수 있습니다.
-
 Unified Manager 서버는 특정 프로토콜을 사용하여 다음 인터페이스에 액세스합니다.
 
 [cols="4*"]
@@ -96,11 +93,9 @@ HTTPS
 |===
 [NOTE]
 ====
-HTTP 및 HTTPS 통신에 사용되는 포트(포트 80 및 443)는 Unified Manager 유지 관리 콘솔을 사용하여 변경할 수 있습니다. 자세한 내용은 _ Active IQ Unified Manager 구성 _ 을(를) 참조하십시오.
+MySQL의 기본 포트 3306은 VMware vSphere 시스템에 Unified Manager를 설치하는 동안 localhost로 제한됩니다. 이전 구성이 유지되는 업그레이드 시나리오에는 영향을 주지 않습니다. 이 구성은 수정할 수 있으며 을 사용하여 다른 호스트에서 연결을 사용할 수 있습니다 `Control access to MySQL port 3306` 옵션을 설정할 수 있습니다. 자세한 내용은 을 참조하십시오 link:../config/reference_additional_menu_options.html["추가 메뉴 옵션"]. HTTP 및 HTTPS 통신에 사용되는 포트(포트 80 및 443)는 Unified Manager 유지 관리 콘솔을 사용하여 변경할 수 있습니다. 자세한 내용은 을 참조하십시오 link:../config/concept_maintenance_console_menu.html["유지보수 콘솔 메뉴"].
 
 ====
-link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager 구성"]
-
 
 
 == Unified Manager 서버와의 연결입니다
@@ -136,8 +131,6 @@ NOTE: 이 포트 또는 다른 포트를 사용하여 VMware vCenter Server 또�
 NDMP
  a| 
 10000/TCP
-
-7/TCP
  a| 
 특정 스냅샷 복원 작업에 사용됩니다.
 
@@ -150,7 +143,7 @@ HTTPS
  a| 
 443
  a| 
-AutoSupport 정보를 전송하는 데 사용됩니다. 이 기능을 수행하려면 인터넷에 액세스해야 합니다.
+AutoSupport 정보를 전송하는 데 사용됩니다. 이 기능을 수행하려면 인터넷 액세스가 필요합니다.
 
 
 

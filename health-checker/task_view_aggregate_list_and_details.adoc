@@ -36,4 +36,7 @@ summary: '상태: 모든 집계 보기에서 집계 인벤토리를 모니터링
 
 * 관련 정보 *
 
-link:../health-checker/reference_health_aggregate_details_page.html["집계/상태 세부 정보 페이지"]
+* link:../health-checker/reference_health_aggregate_details_page.html["집계/상태 세부 정보 페이지"]
+* link:../performance-checker/performance-view-all.html#performance-all-aggregates-view["성능: 모든 애그리게이트 보기"]
+* link:../reporting/concept_customize_aggregate_capacity_reports.html["애그리게이트 용량 보고서 사용자 지정"]
+

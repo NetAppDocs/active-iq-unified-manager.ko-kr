@@ -34,7 +34,7 @@ Unified Manager가 설치된 Red Hat Enterprise Linux 또는 CentOS Linux 시스
 +
 .. 기존 '/opt/netapp/data' 폴더의 폴더에 대한 SE Linux 유형을 가져옵니다.
 +
-Se_type="ls-Z/opt/netapp/data|awk'{print$4}'|awk-F:'{print$3}'|head-1'
+`se_type= ls -Z /opt/netapp/data | awk '{print $4}' | awk -F: '{print $3}' | head -1`
 
 +
 시스템은 다음과 유사한 확인 메시지를 반환합니다.

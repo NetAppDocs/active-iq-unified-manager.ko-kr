@@ -28,3 +28,10 @@ Relationship:Last 1 Month Transfer Rate 보기를 사용하면 비동기 관계�
 날짜와 함께 볼륨 전송 종료 시간을 표시합니다.
 
 
+
+* 관련 정보 *
+
+* 관계: MetroCluster * 보기에 대한 자세한 내용은 을 참조하십시오 link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 구성 모니터링"].
+* 관계: 지난 1개월 전송 상태* 보기에 대한 자세한 내용은 을 참조하십시오 link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["관계: 최근 1개월 전송 상태 보기"].
+* 관계: 모든 관계 * 보기에 대한 자세한 내용은 을 참조하십시오 link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["관계: 최근 1개월 전송 속도 보기"]
+

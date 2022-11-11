@@ -11,7 +11,7 @@ summary: Unified Manager 가상 어플라이언스를 업그레이드할 수 있
 
 
 [role="lead"]
-Active IQ Unified Manager 가상 어플라이언스를 릴리스 9.9 또는 9.10에서 9.11로 업그레이드할 수 있습니다.
+Active IQ Unified Manager 가상 어플라이언스를 9.10 또는 9.11 릴리즈에서 9.12로 업그레이드할 수 있습니다.
 
 * 필요한 것 *
 
@@ -20,10 +20,10 @@ Active IQ Unified Manager 가상 어플라이언스를 릴리스 9.9 또는 9.10
 * 업그레이드 파일인 ISO 이미지를 NetApp Support 사이트에서 다운로드했습니다.
 * Unified Manager를 업그레이드하는 시스템은 시스템 및 소프트웨어 요구사항을 충족합니다.
 +
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html["가상 인프라 요구 사항"]
+을 참조하십시오 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["가상 인프라 요구 사항"].
 
 +
-link:reference_vmware_software_and_installation_requirements.html["VMware 소프트웨어 및 설치 요구 사항"]
+을 참조하십시오 link:reference_vmware_software_and_installation_requirements.html["VMware 소프트웨어 및 설치 요구 사항"].
 
 * vSphere 6.5 이상 사용자의 경우 VMware Remote Console(VMRC)을 설치했습니다.
 * 업그레이드하는 동안 성능 데이터를 13개월 동안 유지하기 위한 이전 기본 설정을 유지할지 아니면 6개월로 변경할지 묻는 메시지가 표시될 수 있습니다. 확인 시, 기록 성능 데이터는 6개월 후에 삭제됩니다.
@@ -70,4 +70,4 @@ Workflow Automation과 Unified Manager가 페어링된 경우 Workflow Automatio
 . * 선택 사항: * 유지보수 콘솔에 로그인하여 Unified Manager 버전을 확인합니다.
 
 
-업그레이드된 버전의 Unified Manager를 사용하려면 웹 UI에 로그인할 수 있습니다. UI에서 작업을 수행하기 전에 검색 프로세스가 완료될 때까지 기다려야 합니다.
+지원되는 웹 브라우저의 새 창에서 웹 UI를 시작하고 로그인하여 Unified Manager의 업그레이드된 버전을 사용할 수 있습니다. UI에서 작업을 수행하기 전에 검색 프로세스가 완료될 때까지 기다려야 합니다.

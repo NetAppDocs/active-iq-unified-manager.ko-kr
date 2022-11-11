@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.11
+  name: Active IQ Unified Manager 9.12
   internal:
     pdf_enabled: true
   prod:
@@ -9,6 +9,9 @@ settings:
   versions:
   - name: Unified Manager를 참조하십시오
     url: "/active-iq-unified-manager"
+    version-number: '9.12'
+  - name: Unified Manager를 참조하십시오
+    url: "/active-iq-unified-manager-911"
     version-number: '9.11'
   - name: Unified Manager를 참조하십시오
     url: "/active-iq-unified-manager-910"
@@ -16,7 +19,7 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: Active IQ Unified Manager 9.11 문서
+  - title: Active IQ Unified Manager 9.12 문서
     url: "/index.html"
   - title: 릴리스 정보
     url: "/reference_release_notes.html"
@@ -143,7 +146,7 @@ homepage:
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
     - title: Unified Manager 블로그
       url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
-    - title: Active IQ Unified Manager 9.10 설명서
-      url: https://docs.netapp.com/us-en/active-iq-unified-manager-910/
+    - title: Active IQ Unified Manager 9.11에 대한 문서
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager-911/
     - title: 이전 버전 설명서
       url: https://docs.netapp.com/ocum-99/topic/com.netapp.ndc.ocum-vers/GUID-DA5B426C-61E1-45E3-B2BE-834636433934.html

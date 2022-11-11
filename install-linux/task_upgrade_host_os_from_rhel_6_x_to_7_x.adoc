@@ -25,11 +25,11 @@ Red Hat Enterprise Linux 8.x 소프트웨어를 설치할 수 있는 예비 시�
 
 . Red Hat Enterprise Linux 8.x 소프트웨어로 새 서버를 설치하고 구성합니다.
 +
-link:reference_red_hat_and_centos_software_and_installation_requirements.html["Red Hat 소프트웨어 및 설치 요구 사항"]
+을 참조하십시오 link:reference_red_hat_and_centos_software_and_installation_requirements.html["Linux 소프트웨어 및 설치 요구 사항"].
 
 . Red Hat Enterprise Linux 8.x 시스템에서 기존 Red Hat Enterprise Linux 7.x 시스템에 있는 것과 동일한 버전의 Unified Manager 소프트웨어를 설치합니다.
 +
-link:concept_install_unified_manager_on_rhel_or_centos.html["Red Hat Enterprise Linux에 Unified Manager 설치"]
+을 참조하십시오 link:concept_install_unified_manager_on_rhel_or_centos.html["Linux에 Unified Manager 설치"].
 
 +
 설치가 완료되면 UI를 실행하거나 클러스터, 사용자 또는 인증 설정을 구성하지 마십시오. 백업 파일은 복원 프로세스 중에 이 정보를 채웁니다.
@@ -54,11 +54,11 @@ Red Hat Enterprise Linux 8.x 소프트웨어를 설치할 수 있는 예비 시�
 . 시스템에서 Red Hat Enterprise Linux 7.x 이미지를 제거하고 시스템을 완전히 초기화하십시오.
 . 동일한 시스템에 Red Hat Enterprise Linux 8.x 소프트웨어를 설치하고 구성합니다.
 +
-link:reference_red_hat_and_centos_software_and_installation_requirements.html["Red Hat 소프트웨어 및 설치 요구 사항"]
+을 참조하십시오 link:reference_red_hat_and_centos_software_and_installation_requirements.html["Linux 소프트웨어 및 설치 요구 사항"].
 
 . Red Hat Enterprise Linux 8.x 시스템에서 Red Hat Enterprise Linux 7.x 시스템에 있는 것과 동일한 버전의 Unified Manager 소프트웨어를 설치합니다.
 +
-link:concept_install_unified_manager_on_rhel_or_centos.html["Red Hat Enterprise Linux에 Unified Manager 설치"]
+을 참조하십시오 link:concept_install_unified_manager_on_rhel_or_centos.html["Linux에 Unified Manager 설치"].
 
 +
 설치가 완료되면 UI를 실행하거나 클러스터, 사용자 또는 인증 설정을 구성하지 마십시오. 백업 파일은 복원 프로세스 중에 이 정보를 채웁니다.

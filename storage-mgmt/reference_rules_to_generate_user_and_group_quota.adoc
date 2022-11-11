@@ -49,11 +49,11 @@ summary: 사용자 및 그룹 할당량 이메일 주소 생성 규칙 페이지
 
 규칙 구문은 다음 중 하나여야 합니다.
 
-* IF('valid variableoperator' *)이면 e-메일 ID@domain name'입니다
+* IF( `valid variableoperator *`)를 클릭합니다 `email ID@domain name`
 +
 IF는 키워드이고 소문자로 되어 있습니다. 연산자는 == 입니다. e-메일 ID에는 모든 문자, 유효한 변수 $USER_OR_GROUP, $USER 또는 $GROUP 또는 문자 및 유효한 변수 $USER_OR_GROUP, $USER 또는 $GROUP의 조합이 포함될 수 있습니다. 도메인 이름에는 임의의 문자, 유효한 변수 $domain 또는 임의의 문자와 유효한 변수 $domain의 조합이 포함될 수 있습니다. 유효한 변수는 대문자나 소문자일 수 있지만 둘 다 함께 사용할 수는 없습니다. 예를 들어 $domain과 $domain은 유효하지만 $Domain은 유효한 변수가 아닙니다.
 
-* IF('valid variableoperator'tring''')이면 ' 이메일 ID@domain name'입니다
+* IF( `valid variableoperator `string``)를 클릭합니다 `email ID@domain name`
 +
 IF는 키워드이고 소문자입니다. 연산자는 또는 == 를 포함할 수 있습니다. e-메일 ID에는 모든 문자, 유효한 변수 $USER_OR_GROUP, $USER 또는 $GROUP 또는 문자 및 유효한 변수 $USER_OR_GROUP, $USER 또는 $GROUP의 조합이 포함될 수 있습니다. 도메인 이름에는 임의의 문자, 유효한 변수 $domain 또는 임의의 문자와 유효한 변수 $domain의 조합이 포함될 수 있습니다. 유효한 변수는 대문자나 소문자일 수 있지만 둘 다 함께 사용할 수는 없습니다. 예를 들어 $domain과 $domain은 유효하지만 $Domain은 유효한 변수가 아닙니다.
 

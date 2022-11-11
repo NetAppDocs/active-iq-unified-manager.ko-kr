@@ -95,8 +95,6 @@ entries:
     url: "/data-protection/task_resynchronize_protection_relationships.html"
   - title: 볼륨 관계 페이지에서 보호 관계를 반대로 설정합니다
     url: "/data-protection/task_reverse_protection_relationships.html"
-  - title: 상태/모든 볼륨 보기를 사용하여 데이터를 복원합니다
-    url: "/data-protection/task_restore_data_use_health_volumes_page.html"
   - title: 볼륨/상태 세부 정보 페이지를 사용하여 데이터를 복원합니다
     url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
   - title: 리소스 풀이란 무엇입니까

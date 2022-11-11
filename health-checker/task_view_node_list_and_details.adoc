@@ -46,3 +46,10 @@ summary: '상태: 모든 노드 보기를 사용하여 클러스터의 노드 �
 
 |===
 
+
+자세한 내용은 다음을 참조하십시오.
+
+* link:../performance-checker/performance-view-all.html#performance-all-nodes-view["성능: 모든 노드 보기"]
+* link:../performance-checker/concept_view_node_and_aggregate_available_iops_values.html["노드 및 애그리게이트 가용 IOPS 값 보기"]
+* link:../performance-checker/concept_view_node_and_aggregate_performance_capacity_used_values.html["사용된 노드 및 총 성능 용량 값 보기"]
+

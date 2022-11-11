@@ -71,8 +71,8 @@ entries:
 - title: 성능 인벤토리 페이지를 사용하여 성능 모니터링
   url: "/performance-checker/concept_monitor_performance_using_object_performance.html"
   entries:
-  - title: 성능 개체 인벤토리 페이지를 사용하여 개체 모니터링
-    url: "/performance-checker/concept_object_monitoring_using_object_inventory_performance_pages.html"
+  - title: 모든 스토리지 객체에 대한 성능 인벤토리 페이지 보기
+    url: "/performance-checker/performance-view-all.html"
   - title: 성능 재고 페이지 콘텐츠 구체화
     url: "/performance-checker/concept_refine_object_inventory_performance_page_content.html"
     entries:

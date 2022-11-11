@@ -62,7 +62,7 @@ Active Directory, OpenLDAP 등의 디렉터리 서비스 공급자에서 사용�
 
 *** 보안 연결을 사용합니다
 +
-보안 LDAP가 LDAPS 인증 서버와 통신하는 데 사용됨을 지정합니다.
+LDAP 인증 서버와 통신하는 데 Secure LDAP를 사용하도록 지정합니다.
 
 
 
@@ -111,6 +111,10 @@ Active Directory, OpenLDAP 등의 디렉터리 서비스 공급자에서 사용�
 *** 그룹 객체 클래스
 +
 원격 인증 서버에 있는 모든 그룹의 객체 클래스를 지정합니다.
+
++
+
+NOTE: _Member_, _User 개체 클래스_ 및 _Group 개체 클래스_ 속성에 입력하는 값은 Active Directory, OpenLDAP 및 LDAP 구성에 추가된 값과 같아야 합니다. 그렇지 않으면 인증에 실패할 수 있습니다.
 
 *** 보안 연결을 사용합니다
 +

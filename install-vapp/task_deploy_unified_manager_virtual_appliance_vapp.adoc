@@ -17,9 +17,9 @@ summary: 설치 파일을 다운로드한 후에는 Unified Manager를 가상 �
 
 시스템 요구 사항을 검토해야 합니다. Unified Manager 가상 어플라이언스를 구축하기 전에 필요에 따라 변경하십시오.
 
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html["가상 인프라 요구 사항"]
+을 참조하십시오 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["가상 인프라 요구 사항"].
 
-link:reference_vmware_software_and_installation_requirements.html["VMware 소프트웨어 및 설치 요구 사항"]
+을 참조하십시오 link:reference_vmware_software_and_installation_requirements.html["VMware 소프트웨어 및 설치 요구 사항"].
 
 DHCP(Dynamic Host Configuration Protocol)를 사용하는 경우 DHCP 서버를 사용할 수 있고 DHCP 및 가상 머신(VM) 네트워크 어댑터 구성이 올바른지 확인합니다. DHCP는 기본적으로 구성됩니다.
 
@@ -52,7 +52,14 @@ Unified Manager 가상 어플라이언스에 대한 VMware High Availability가 
 . vSphere Client에서 * File * > * Deploy OVF Template * 을 클릭합니다.
 . Deploy OVF Template 마법사를 완료하여 Unified Manager 가상 어플라이언스를 구축합니다.
 +
-네트워킹 구성 페이지에서 다음을 수행합니다.
+검토 세부 정보 페이지에서 다음을 수행합니다.
+
++
+** Publisher 섹션의 세부 정보를 확인합니다. Entrust Code Signing - OVCS2(신뢰할 수 있는 인증서) * 메시지는 다운로드한 의 무결성을 확인합니다 `OVA` 파일. + * Entrust Code Signing - OVCS2 (Invalid certificate) * 메시지가 표시되면 VMware vCenter Server를 7.0U3E 이상 버전으로 업그레이드합니다.
+
+
++
+템플릿 사용자 지정 페이지에서 다음을 수행합니다.
 
 +
 ** DHCP 및 IPv4 주소 지정을 사용하는 경우 모든 필드를 비워 둡니다.

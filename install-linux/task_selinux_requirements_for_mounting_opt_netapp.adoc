@@ -39,7 +39,9 @@ NOTE: 이 출력에서 컨텍스트는 ddefault_t입니다. 이 컨텍스트를 
 
 . 다음 단계를 수행하여 '/opt/netapp/data'를 마운트한 방법에 따라 컨텍스트를 설정합니다.
 +
-.. 다음 명령을 실행하여 컨텍스트를 mysqld_db_t로 설정합니다. semanage fcontext-a-t mysqld_db_t"/opt/netapp/data"""restorecon-R-v/opt/netapp/data"
+.. 다음 명령을 실행하여 컨텍스트를 로 설정합니다 `mysqld_db_t`:
+`semanage fcontext -a -t mysqld_db_t "/opt/netapp/data"
+`restorecon -R -v /opt/netapp/data`
 .. '/etc/fstab'에서 '/opt/netapp/data'를 구성한 경우 '/etc/fstab' 파일을 편집해야 합니다. '/opt/netapp/data/' 마운트 옵션의 경우 MySQL 레이블을 다음과 같이 추가합니다.
 +
 'CONTEXT=system_u:object_r:mysqld_db_t:s0'
@@ -146,7 +148,9 @@ NOTE: 이 출력에서 컨텍스트는 ddefault_t입니다. 이 컨텍스트를 
 
 . 다음 단계를 수행하여 '/opt/NetApp'을(를) 마운트한 방법에 따라 컨텍스트를 설정합니다.
 +
-.. 다음 명령을 실행하여 컨텍스트를 mysqld_db_t로 설정합니다. semanage fcontext-a-t mysqld_db_t"/opt/netapp""restorecon-R-v/opt/netapp"
+.. 다음 명령을 실행하여 컨텍스트를 로 설정합니다 `mysqld_db_t`:
+`semanage fcontext -a -t mysqld_db_t "/opt/netapp"
+`restorecon -R -v /opt/netapp`
 .. '/etc/fstab'에서 '/opt/netapp'를 구성한 경우 '/etc/fstab' 파일을 편집합니다. '/opt/netapp/'mount option에 mysql label을 'context=system_u:object_r:mysqld_db_t:s0'으로 추가한다
 .. 마운트 해제한 다음 컨텍스트를 사용하도록 다시 `/opt/netapp/'를 마운트합니다.
 .. 직접 NFS 마운트가 있는 경우 다음 명령을 실행하여 컨텍스트를 mysqld_db_t"로 설정합니다. mount <nfsshare>:/<mountpoint>/opt/netapp-o context=system_u:object_r:mysqld_db_t:s0"

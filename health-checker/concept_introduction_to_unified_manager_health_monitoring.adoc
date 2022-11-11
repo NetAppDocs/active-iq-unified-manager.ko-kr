@@ -35,7 +35,10 @@ Unified Manager에서는 ONTAP 스토리지 객체에 사용되는 물리적/논
 
 == 용량 측정 단위
 
-Unified Manager에서는 1024바이트(2^10^)바이트의 이진 단위를 기준으로 스토리지 용량을 계산합니다. ONTAP 9.10.0 이전 버전에서는 이러한 유닛이 KB, MB, GB, TB 및 PB로 표시되었습니다. ONTAP 9.10.1부터는 Unified Manager에 KiB, MiB, GiB, TiB 및 PiB로 표시됩니다. 참고: 처리량에 사용되는 단위는 모든 ONTAP 릴리스에 대해 초당 킬로바이트(Kbps), 초당 메가바이트(Mbps), 초당 기가바이트(Gbps) 또는 초당 테라바이트(Tbps) 등으로 계속 사용됩니다.
+Unified Manager에서는 1024바이트(2^10^)바이트의 이진 단위를 기준으로 스토리지 용량을 계산합니다. ONTAP 9.10.0 이전 버전에서는 이러한 유닛이 KB, MB, GB, TB 및 PB로 표시되었습니다. ONTAP 9.10.1부터는 Unified Manager에 KiB, MiB, GiB, TiB 및 PiB로 표시됩니다.
+
+
+NOTE: 처리량에 사용되는 단위는 모든 ONTAP 릴리스에 대해 초당 킬로바이트(Kbps), 초당 메가바이트(Mbps), 초당 기가바이트(Gbps) 또는 초당 테라바이트(Tbps) 등으로 계속 사용됩니다.
 
 [cols="4*"]
 |===

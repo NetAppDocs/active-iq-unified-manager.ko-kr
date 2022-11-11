@@ -35,7 +35,7 @@ CSR이 생성된 인증서의 유효 기간이 397일 이상인 경우 CA가 인
 . 표시되는 대화 상자에서 * 파일 선택... * 을 클릭하여 업로드할 파일을 찾습니다.
 . 파일을 선택한 다음 * 설치 * 를 클릭하여 파일을 설치합니다.
 +
-link:concept_install_https_certificate_generated_using_external_tools.html["외부 도구를 사용하여 생성된 HTTPS 인증서 설치"]
+자세한 내용은 을 참조하십시오 link:concept_install_https_certificate_generated_using_external_tools.html["외부 도구를 사용하여 생성된 HTTPS 인증서 설치"].
 
 
 

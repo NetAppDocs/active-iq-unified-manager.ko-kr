@@ -30,4 +30,4 @@ link:../config/task_generate_an_https_security_certificate_ocf.html["HTTPS 보�
 
 link:../config/task_enable_saml_authentication_um.html["SAML 인증을 사용하도록 설정합니다"]
 
-link:..//config/concept_authentication_with_active_directory_or_openldap.html["Active Directory 또는 OpenLDAP를 사용한 인증"]
+link:../config/concept_authentication_with_active_directory_or_openldap.html["Active Directory 또는 OpenLDAP를 사용한 인증"]

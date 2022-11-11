@@ -17,10 +17,10 @@ Unified Manager를 설치하여 데이터 스토리지의 용량, 가용성, 성
 
 * Unified Manager를 설치하려는 시스템은 시스템 및 소프트웨어 요구사항을 충족해야 합니다.
 +
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html["하드웨어 시스템 요구 사항"]
+을 참조하십시오 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["하드웨어 시스템 요구 사항"].
 
 +
-link:reference_windows_software_and_installation_requirements.html["Windows 소프트웨어 및 설치 요구 사항"]
+을 참조하십시오 link:reference_windows_software_and_installation_requirements.html["Windows 소프트웨어 및 설치 요구 사항"].
 
 +
 [NOTE]

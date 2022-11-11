@@ -27,11 +27,21 @@ summary: Linux 플랫폼의 Unified Manager에 대한 빠른 시작 가이드
 
 === 설치 프로그램을 다운로드합니다
 
-. 'ActiveIQUnifiedManager-<version>.zip' 설치 패키지를 다운로드합니다.
+. 를 다운로드합니다 `ActiveIQUnifiedManager-<version>.zip` 코드 서명 인증서와 함께 설치 패키지 (`.pem`) 및 디지털 서명 (`.sig`)를 클릭합니다.
 . 설치 파일을 다운로드한 디렉토리에서 다음을 실행합니다.
 +
 '#unzip ActiveIQUnifiedManager-<version>.zip'
 
+
+
+
+
+=== 무결성을 확인합니다
+
+다음 명령을 실행하여 설치 프로그램 패키지의 무결성을 확인합니다.
+
+* 실행 `openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > <public_key_file_name>` 코드 서명 인증서의 공개 키로 파일을 만들려면
+* 실행 `openssl dgst -sha256 -verify <public_key_file_name> -signature <signature_file_name> ActiveIQUnifiedManager-<version>.zip` 설치 프로그램 패키지의 서명을 확인합니다.
 
 
 

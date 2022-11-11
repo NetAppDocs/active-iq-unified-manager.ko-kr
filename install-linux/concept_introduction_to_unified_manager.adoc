@@ -11,7 +11,7 @@ summary: 'Active IQ Unified Manager(이전의 OnCommand Unified Manager)를 사�
 
 
 [role="lead"]
-Active IQ Unified Manager(이전의 OnCommand Unified Manager)를 사용하면 단일 인터페이스에서 ONTAP 스토리지 시스템의 상태 및 성능을 모니터링 및 관리할 수 있습니다. Unified Manager를 Linux 서버, Windows 서버 또는 VMware 호스트의 가상 어플라이언스에 구축할 수 있습니다.
+Active IQ Unified Manager(이전의 OnCommand Unified Manager)를 사용하면 단일 인터페이스에서 ONTAP 스토리지 시스템의 상태 및 성능을 모니터링 및 관리할 수 있습니다. Unified Manager를 Linux 서버, Windows 서버 또는 VMware 호스트의 vApp(가상 어플라이언스)에 구축할 수 있습니다.
 
 설치를 완료하고 관리할 클러스터를 추가한 후에는 Unified Manager에서 모니터링되는 스토리지 시스템의 용량, 가용성, 보호 및 성능 상태를 표시하는 그래픽 인터페이스를 제공합니다.
 

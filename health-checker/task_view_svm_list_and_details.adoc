@@ -32,3 +32,12 @@ SVM의 용량, 효율성, 구성과 같은 SVM 세부 정보를 확인할 수 �
 
 . 최소 세부 정보 대화 상자에서 * 관련 항목 보기 * 를 클릭하여 SVM 관련 객체를 확인합니다.
 
+
+* 관련 정보 *
+
+* link:../health-checker/reference_health_svm_details_page.html["스토리지 VM: 상태 세부 정보 페이지"]
+* link:../performance-checker/performance-view-all.html#performance-all-storage-vms-view["성능: 모든 스토리지 VM 보기"]
+* link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html#view-security-details-of-all-volumes-with-anti-ransomware-detection["보안: 랜섬웨어 차단 뷰"]
+* link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["클러스터 및 스토리지 VM의 보안 상태 보기"]
+* link:../data-protection/reference_relationship_all_relationships_view.html["관계: 모든 관계 보기"]
+

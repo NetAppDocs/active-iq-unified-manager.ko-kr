@@ -13,7 +13,7 @@ summary: 게이트웨이 API를 사용하면 Active IQ Unified Manager 자격 �
 [role="lead"]
 게이트웨이 API를 사용하면 Active IQ Unified Manager 자격 증명을 사용하여 ONTAP REST API를 실행하고 스토리지 객체를 관리할 수 있습니다. 이러한 API는 Unified Manager 웹 UI에서 API 게이트웨이 기능을 사용하도록 설정한 경우 사용할 수 있습니다.
 
-Unified Manager REST API는 ONTAP 클러스터인 Unified Manager 데이터 소스에 대해 수행할 작업을 선택할 수만 지원합니다. ONTAP API를 통해 다른 기능을 사용할 수 있습니다. 게이트웨이 API를 통해 Unified Manager는 각 데이터 센터 클러스터에 개별적으로 로그인하지 않고 ONTAP 클러스터에서 수행할 모든 API 요청을 터널링하는 통과 인터페이스가 됩니다. Unified Manager 인스턴스에서 관리되는 ONTAP 클러스터에서 API를 실행하기 위한 단일 관리 지점으로 작동합니다. API 게이트웨이 기능을 사용하면 Unified Manager가 단일 제어 플레인이 될 수 있으므로 개별적으로 로그인하지 않고도 여러 ONTAP 클러스터를 관리할 수 있습니다. 게이트웨이 API를 사용하면 ONTAP REST API 작업을 실행하여 Unified Manager에 로그인 상태를 유지하고 ONTAP 클러스터를 관리할 수 있습니다.
+Unified Manager REST API는 ONTAP 클러스터인 Unified Manager 데이터 소스에 대해 수행할 작업을 선택할 수만 지원합니다. ONTAP API를 통해 다른 기능을 사용할 수 있습니다. 게이트웨이 API를 사용하면 Unified Manager가 각 데이터 센터 클러스터에 개별적으로 로그인하지 않고 관리하는 ONTAP 클러스터에서 수행할 모든 API 요청을 터널링하는 통과 인터페이스가 됩니다. Unified Manager 인스턴스에서 관리되는 ONTAP 클러스터에서 API를 실행하기 위한 단일 관리 지점으로 작동합니다. API 게이트웨이 기능을 사용하면 Unified Manager가 단일 제어 플레인이 될 수 있으므로 개별적으로 로그인하지 않고도 여러 ONTAP 클러스터를 관리할 수 있습니다. 게이트웨이 API를 사용하면 ONTAP REST API 작업을 실행하여 Unified Manager에 로그인 상태를 유지하고 ONTAP 클러스터를 관리할 수 있습니다.
 
 [NOTE]
 ====
@@ -73,6 +73,9 @@ POST를 누릅니다
 == API 게이트웨이 터널링 이해
 
 게이트웨이 API를 사용하면 Unified Manager를 통해 ONTAP 개체를 관리할 수 있습니다. Unified Manager는 클러스터 및 인증 세부 정보를 관리하고 요청을 ONTAP REST 끝점으로 리디렉션합니다. 게이트웨이 API는 URL과 Hypermedia를 API 게이트웨이 기본 URL을 사용하여 헤더 및 응답 본문의 HATEOAS(Engine of Application State) 링크로 변환합니다. 게이트웨이 API는 ONTAP REST URL을 추가하고 필요한 ONTAP REST 엔드포인트를 실행하는 프록시 기본 URL 역할을 합니다.
+
+
+NOTE: ONTAP API가 API 게이트웨이를 통해 성공적으로 실행되려면 API가 실행 중인 ONTAP 클러스터의 해당 버전에서 지원되어야 합니다. ONTAP 클러스터에서 지원되지 않는 API를 실행해도 결과가 반환되지 않습니다.
 
 이 예에서 게이트웨이 API(프록시 기본 URL)는 '+/gateway/{uuid}/+'입니다
 

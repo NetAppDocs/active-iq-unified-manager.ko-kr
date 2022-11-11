@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/reference_relationship_all_relationships_view.html 
 sidebar: sidebar 
-keywords: volume, relationships 
+keywords: volume, relationships, metrocluster 
 summary: '관계: 모든 관계 보기에는 스토리지 시스템의 보호 관계에 대한 정보가 표시됩니다.' 
 ---
 = 관계: 모든 관계 보기
@@ -317,4 +317,11 @@ SnapMirror 관계에 대한 대상 클러스터의 FQDN, 짧은 이름 또는 IP
 ** SnapMirror, 일관성 그룹:
 
 
+
+
+* 관련 정보 *
+
+* 관계:MetroCluster* 보기에 대한 자세한 내용은 을 참조하십시오 link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 구성 모니터링"].
+* 관계: 지난 1개월 전송 상태* 보기에 대한 자세한 내용은 을 참조하십시오 link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["관계: 최근 1개월 전송 상태 보기"].
+* 관계: 모든 관계 * 보기에 대한 자세한 내용은 을 참조하십시오 link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["관계: 최근 1개월 전송 속도 보기"].
 

@@ -71,7 +71,7 @@ Unified Manager에서 문제에 대한 단일 해결책을 진단하고 결정�
  a| 
 보호
  a| 
-SVM-DR 관계에 의해 보호되는 스토리지 VM 수, SnapMirror 관계에 의해 보호되는 볼륨 및 Snapshot에 의해 보호되는 볼륨을 표시합니다.
+SVM-DR 관계로 보호되는 스토리지 VM 수, SnapMirror 관계에 의해 보호되는 볼륨, Snapshot으로 보호되는 볼륨 및 MetroCluster에 의해 보호되는 클러스터의 수를 표시합니다.
 
 
 

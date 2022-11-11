@@ -25,7 +25,7 @@ Unified Manager에는 다음과 같은 기능이 포함되어 있습니다.
 
 
 * 클러스터 검색 및 모니터링 상태 보기
-* MetroCluster 구성: 클러스터 구성 요소의 구성, MetroCluster 스위치 및 브리지, 문제 및 연결 상태 보기 및 모니터링
+* MetroCluster over FC 및 IP 구성: 클러스터 구성 요소의 구성, 문제 및 연결 상태 보기 및 모니터링 FC 기반 MetroCluster 구성을 위한 MetroCluster 스위치 및 브리지
 * 향상된 알림, 이벤트 및 임계값 인프라
 * LDAP, LDAPS, SAML 인증 및 로컬 사용자 지원
 * RBAC(사전 정의된 역할 세트)

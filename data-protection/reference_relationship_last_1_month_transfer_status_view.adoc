@@ -64,3 +64,10 @@ SVM(스토리지 가상 시스템) 이름을 표시합니다.
 대상 클러스터 이름을 표시합니다.
 
 
+
+* 관련 정보 *
+
+* 관계: 모든 관계 * 보기에 대한 자세한 내용은 을 참조하십시오 link:../data-protection/reference_relationship_all_relationships_view.html["관계: 모든 관계 보기"].
+* 관계: MetroCluster * 보기에 대한 자세한 내용은 을 참조하십시오 link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 구성 모니터링"].
+* 관계: 모든 관계 * 보기에 대한 자세한 내용은 을 참조하십시오 link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["관계: 최근 1개월 전송 속도 보기"].
+

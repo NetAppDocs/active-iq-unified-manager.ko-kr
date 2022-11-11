@@ -45,3 +45,5 @@ summary: '상태, 볼륨과 연결된 경로(FlexGroup 볼륨 또는 FlexVol 볼
 
 |===
 
+
+자세한 내용은 을 참조하십시오 link:../storage-mgmt/task_provision_fileshares.html["파일 공유 볼륨 프로비저닝"] 및 link:../api-automation/concept_provision_file_share.html["API를 사용하여 CIFS 및 NFS 파일 공유 프로비저닝"].

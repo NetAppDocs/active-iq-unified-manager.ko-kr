@@ -17,7 +17,7 @@ Unified Manager를 구축하려면 소프트웨어 다운로드, 가상 어플�
 
 * 구축을 위한 시스템 요구 사항을 확인하고 완료해야 합니다.
 +
-link:concept_requirements_for_installing_unified_manager.html["시스템 요구 사항"]
+을 참조하십시오 link:concept_requirements_for_installing_unified_manager.html["시스템 요구 사항"].
 
 * 다음 정보가 있는지 확인하십시오.
 +
@@ -42,6 +42,6 @@ Unified Manager 9.8부터 VMware Tools는 Open VM Tools("오픈 VM 도구")로 �
 배포 및 초기 설정을 완료한 후 클러스터를 추가하거나 유지 관리 콘솔에서 추가 네트워크 설정을 구성한 다음 웹 UI에 액세스할 수 있습니다.
 
 .단계
-. link:task_download_unified_manager_ova_file.html["Unified Manager 다운로드"]
-. link:task_deploy_unified_manager_virtual_appliance_vapp.html["Unified Manager 가상 어플라이언스를 구축합니다"]
+. 의 단계를 따릅니다 link:task_download_unified_manager_ova_file.html["Unified Manager 다운로드"].
+. 또한 의 단계를 따릅니다 link:task_deploy_unified_manager_virtual_appliance_vapp.html["Unified Manager 가상 어플라이언스를 구축합니다"].
 

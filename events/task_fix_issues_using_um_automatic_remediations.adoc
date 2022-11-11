@@ -23,4 +23,4 @@ image::../media/management_actions.png[관리 작업]
 . Unified Manager로 해결할 수 있는 문제를 해결하려면 * Fix it * 버튼을 클릭합니다. 여러 개체에 존재하는 문제를 해결하려면 * 모두 수정 * 버튼을 클릭합니다.
 
 
-자동 수정 기능으로 해결할 수 있는 문제에 대한 자세한 내용은 을 참조하십시오 link:..//storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Unified Manager로 해결할 수 있는 문제"]
+자동 수정 기능으로 해결할 수 있는 문제에 대한 자세한 내용은 을 참조하십시오 link:..//storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Unified Manager로 해결할 수 있는 문제"].

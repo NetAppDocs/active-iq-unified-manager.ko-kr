@@ -21,4 +21,4 @@ Unified Manager가 ONTAP 명령을 클러스터에 전송하여 요청된 수정
 
 일부 관리 작업을 통해 * 모두 수정 * 버튼을 사용하여 여러 스토리지 개체에서 동일한 문제를 해결할 수 있습니다. 예를 들어, "볼륨 자동 확장 사용"에 대한 * 모든 * 관리 수정 작업을 클릭하여 해결할 수 있는 "볼륨 공간이 가득 참" 이벤트가 있는 볼륨 5개가 있을 수 있습니다. 한 번의 클릭으로 5개의 볼륨에서 이 문제를 해결할 수 있습니다.
 
-자동 조정을 사용하여 관리할 수 있는 ONTAP 문제 및 기능에 대한 자세한 내용은 을 참조하십시오 link:../storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Unified Manager로 해결할 수 있는 문제"]
+자동 조정을 사용하여 관리할 수 있는 ONTAP 문제 및 기능에 대한 자세한 내용은 을 참조하십시오 link:../storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Unified Manager로 해결할 수 있는 문제"].

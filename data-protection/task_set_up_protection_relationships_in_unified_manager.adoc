@@ -19,8 +19,8 @@ Unified Manager 및 OnCommand Workflow Automation를 사용하여 데이터를 �
 * 2개의 클러스터 또는 2개의 SVM(스토리지 가상 머신) 간에 피어 관계를 설정해야 합니다.
 * OnCommand Workflow Automation을 Unified Manager와 통합해야 함:
 +
-** link:task_configure_connection_between_workflow_automation_um.html["OnCommand Workflow Automation를 설정합니다"]
-** link:task_verify_um_data_source_caching_in_workflow_automation.html["Workflow Automation에서 Unified Manager 데이터 소스 캐싱 검증"]
+** link:task_configure_connection_between_workflow_automation_um.html["OnCommand Workflow Automation를 설정합니다"].
+** link:task_verify_um_data_source_caching_in_workflow_automation.html["Workflow Automation에서 Unified Manager 데이터 소스 캐싱 검증"].
 
 
 
