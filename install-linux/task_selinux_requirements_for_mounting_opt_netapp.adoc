@@ -17,7 +17,7 @@ NAS 또는 SAN 장치에 '/opt/netapp' 또는 '/opt/netapp/data'를 마운트하
 
 
 
-== /opt/netapp/data가 마운트된 경우 SELinux 컨텍스트 구성
+== SELinux 컨텍스트 구성 시기 `/opt/netapp/data` 탑재됩니다
 
 시스템에 '/opt/netapp/data'를 마운트하고 SELinux가 'Enforcing'으로 설정된 경우, 데이터베이스 파일 위치의 기본 컨텍스트 요소인 '/opt/netapp/data'에 대한 SELinux context type이 'mysqld_db_t'로 설정되어 있는지 확인하십시오.
 
@@ -66,7 +66,7 @@ drwxr-xr-x. mysql root unconfined_u:object_r:mysqld_db_t:s0 /opt/netapp/data/
 ----
 
 
-== /opt/NetApp이 마운트되면 SELinux 컨텍스트를 구성하고 /opt/netapp/data/도 별도로 마운트합니다
+== SELinux 컨텍스트 구성 시기 `/opt/netapp` 이(가) 장착된 경우 및 입니다 `/opt/netapp/data/` 또한 별도로 장착됩니다
 
 이 시나리오에서는 먼저 이전 섹션에서 설명한 대로 '/opt/netapp/data/'의 컨텍스트를 설정해야 합니다. '/opt/netapp/data/'에 대한 올바른 컨텍스트를 설정한 후 부모 디렉토리 '/opt/netapp'에 SELinux 컨텍스트가 ' file_t'로 설정되어 있지 않은지 확인합니다.
 
@@ -125,7 +125,7 @@ drwxr-xr-x. mysql root unconfined_u:object_r:usr_t:s0 /opt/netapp
 ----
 
 
-== /opt/NetApp이 마운트되고 /opt/netapp/data/가 별도로 마운트되지 않은 경우 SELinux 컨텍스트를 구성합니다
+== SELinux 컨텍스트 구성 시기 `/opt/netapp` 이(가) 장착된 경우 및 입니다 `/opt/netapp/data/` 은(는) 별도로 마운트되지 않습니다
 
 시스템에 '/opt/netapp'를 마운트하고 SELinux가 'Enforcing'으로 설정된 경우, 데이터베이스 파일 위치의 기본 컨텍스트 요소인 '/opt/NetApp'에 대한 SELinux context type이 mysqld_db_t'로 설정되어 있는지 확인하십시오.
 

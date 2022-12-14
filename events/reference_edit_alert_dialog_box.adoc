@@ -50,7 +50,7 @@ summary: 경고가 연결된 리소스, 이벤트, 스크립트 및 알림 옵�
 +
 [NOTE]
 ====
-제외 탭은 특정 자원 유형의 모든 자원(예: +)을 선택한 경우에만 표시됩니다 Volumes또는 + Volumes whose name contains 'xyz'를 누릅니다.
+제외 탭은 특정 자원 유형의 모든 자원(예: +)을 선택한 경우에만 표시됩니다<<All Volumes>>또는 +<<All Volumes whose name contains 'xyz'>>를 누릅니다.
 
 ====
 
