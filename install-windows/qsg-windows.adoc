@@ -29,7 +29,7 @@ Unified Manager는 64비트 Windows 운영 체제에서 다음 언어로 지원�
 * 사용 가능한 디스크 공간: 설치 디렉토리를 위한 100GB 디스크 공간, MySQL 데이터 디렉토리를 위한 50GB의 디스크 공간
 
 
-시스템 요구 사항에 대한 자세한 내용은 를 참조하십시오 link:../install-windows/concept_requirements_for_installing_unified_manager.html["Unified Manager 설치 요구 사항"] 및 link:http://mysupport.netapp.com/matrix["상호 운용성 매트릭스"].
+시스템 요구 사항에 대한 자세한 내용은 를 참조하십시오 link:../install-windows/concept_requirements_for_installing_unified_manager.html["Unified Manager 설치 요구 사항"] 및 link:http://mysupport.netapp.com/matrix["상호 운용성 매트릭스"^].
 
 
 

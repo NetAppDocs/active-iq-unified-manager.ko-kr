@@ -11,22 +11,15 @@ summary: Active IQ Unified Manager REST API는 HTTP 요청을 실행할 수 있�
 
 
 [role="lead"]
-Active IQ Unified Manager REST API는 HTTP 요청을 실행할 수 있는 모든 웹 브라우저 또는 프로그래밍 플랫폼을 사용하여 액세스할 수 있습니다. Unified Manager는 기본 HTTP 인증 메커니즘을 지원합니다. Unified Manager REST API를 호출하기 전에 사용자를 인증해야 합니다.
+Active IQ Unified Manager REST API는 기본적인 HTTP 인증 메커니즘을 통해 HTTP 요청을 실행할 수 있는 REST 클라이언트 또는 프로그래밍 플랫폼을 사용하여 액세스할 수 있습니다.
 
-
-
-== REST 액세스
-
-HTTP 요청을 실행하여 Unified Manager REST API에 액세스할 수 있는 모든 웹 브라우저 또는 프로그래밍 플랫폼을 사용할 수 있습니다. 예를 들어, Unified Manager에 로그인한 후 모든 브라우저에 URL을 입력하여 관리 스테이션 이름, 키, IP 주소와 같은 모든 관리 스테이션의 속성을 검색할 수 있습니다.
+샘플 요청 및 응답:
 
 * * 요청 *
 +
-가져오기
-
-
-
 [listing]
 ----
+Get
 https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 ----
 * * 응답 *
@@ -107,7 +100,7 @@ https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 
 
 +
-웹 브라우저에서 POST, 패치 및 HTTP 요청을 삭제하려면 브라우저 플러그인을 사용해야 합니다. CURL 및 Perl과 같은 스크립팅 플랫폼을 사용하여 REST API에 액세스할 수도 있습니다.
+웹 브라우저에서 HTTP 요청을 실행하려면 REST API 브라우저 플러그인을 사용해야 합니다. CURL 및 Perl과 같은 스크립팅 플랫폼을 사용하여 REST API에 액세스할 수도 있습니다.
 
 
 

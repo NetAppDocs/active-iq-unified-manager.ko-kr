@@ -437,7 +437,6 @@
   <block id="f32ced6a9ba164c4b3c047fd1d7c882e" category="list-text">일본어</block>
   <block id="1e81fc32fea0e9f3a978661e4b5e484d" category="list-text">중국어 간체</block>
   <block id="4f4383ae303a1aa1063bb36803e75868" category="paragraph">지원되는 Windows 버전의 전체 최신 목록은 상호 운용성 매트릭스 를 참조하십시오.</block>
-  <block id="2dedeeb59a743d2abc64040dd65c2e1a" category="paragraph">서버는 Unified Manager 실행 전용으로 사용되어야 합니다. 서버에 다른 응용 프로그램을 설치할 수 없습니다.</block>
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">타사 소프트웨어</block>
   <block id="ffbed9334b8ec87b5d47c862a02cb5ec" category="paragraph">다음 타사 패키지는 Unified Manager와 함께 번들로 제공됩니다. 타사 패키지가 시스템에 설치되어 있지 않은 경우, Unified Manager에서 이를 설치의 일부로 설치합니다.</block>
   <block id="f036a764432b8b9592c8463741728fec" category="list-text">Microsoft Visual C&amp;#43;&amp;#43; 2015 재배포 가능 패키지 버전 14.26.28720.3</block>
@@ -475,7 +474,6 @@
   <block id="a5c4a2efcdcb095ac76dbf214e41d635" category="summary">Linux 플랫폼의 Unified Manager에 대한 빠른 시작 가이드</block>
   <block id="69b2ae16273665eaebb99a26650649b5" category="doc">Windows 설치를 위한 빠른 시작 지침</block>
   <block id="ce144bc93be4300e9c20965d4a541b93" category="list-text">사용 가능한 디스크 공간: 설치 디렉토리를 위한 100GB 디스크 공간, MySQL 데이터 디렉토리를 위한 50GB의 디스크 공간</block>
-  <block id="3f906b5ebb635b3895caba507b89aa41" category="paragraph">시스템 요구 사항에 대한 자세한 내용은 를 참조하십시오 <block ref="b2295d63a540e99b9499865a292304a1" category="inline-link-macro-rx"></block> 및 <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>.</block>
   <block id="fe477fb8f5012f10b95318c29b24ba27" category="list-text">'ActiveIQUnifiedManager-&lt;version&gt;.exe' 설치 패키지를 다운로드합니다.</block>
   <block id="9fa35674a7d450b5af2cb972df71de22" category="list-text">설치 파일을 대상 시스템의 디렉토리에 복사합니다.</block>
   <block id="07967e46063e5f4438aa55f7c360dc8b" category="paragraph">Unified Manager를 설치하려면 Microsoft .NET 4.5.2 이상 버전이 설치되어 있어야 합니다. 설치 프로세스 중에 Unified Manager가 필요에 따라 다른 타사 패키지를 설치합니다. 종속 소프트웨어 패키지에 대한 자세한 내용은 를 참조하십시오 <block ref="01667d2d737bd6493b5843822066bbe8" category="inline-link-macro-rx"></block>.</block>
@@ -1372,7 +1370,6 @@
   <block id="a76dce9421f54828d6c4fec13fc1a2e1" category="list-text">HTTPS 프로토콜을 사용하여 클러스터에 연결할 포트 번호(일반적으로 포트 443)</block>
   <block id="c5fe7803895dbf7c8d576bfae98e932f" category="list-text">Unified Manager 서버에 적절한 공간이 있어야 합니다. 데이터베이스 디렉토리의 공간이 이미 90% 이상 사용된 경우 서버에 클러스터를 추가할 수 없습니다.</block>
   <block id="c3e85850c32008629806658dc1fd8058" category="paragraph">MetroCluster 구성의 경우 로컬 클러스터와 원격 클러스터를 모두 추가해야 하며 클러스터가 올바르게 구성되어야 합니다.</block>
-  <block id="bccf6ddbf29e22b9305ceaa5ea940a8e" category="paragraph">Unified Manager의 각 인스턴스가 다른 LIF를 통해 연결되도록 클러스터에 두 번째 클러스터 관리 LIF를 구성한 경우, Unified Manager의 두 인스턴스를 통해 단일 클러스터를 모니터링할 수 있습니다.</block>
   <block id="40e77eb5f2e208a3070bcce2f9bcfb34" category="list-text">왼쪽 탐색 창에서 * 스토리지 관리 * &gt; * 클러스터 설정 * 을 클릭합니다.</block>
   <block id="bc3166b51db8c4e1aa25e19fa8b11585" category="list-text">클러스터 설정 페이지에서 * 추가 * 를 클릭합니다.</block>
   <block id="6b19f9bcdbe7c035b86634062780c720" category="list-text">클러스터 추가 대화 상자에서 클러스터의 호스트 이름 또는 IP 주소, 사용자 이름, 암호 및 포트 번호와 같은 필수 값을 지정합니다.</block>
@@ -9487,7 +9484,6 @@
   <block id="f861f735ef57b81425bfd81c26f4ad4c" category="list-text">클러스터에 액세스하려면 사용자 이름과 암호가 있어야 합니다.</block>
   <block id="aa6a2fa2ad8c2fd4c4e3008a0fbf9957" category="list-text">HTTPS 프로토콜(일반적으로 포트 443)을 사용하여 클러스터에 연결하려면 포트 번호를 알아야 합니다.</block>
   <block id="4432ef294245e78969b35d0bd52c2262" category="list-text">Unified Manager 서버에 적절한 공간이 있어야 합니다. 90% 이상의 공간이 이미 사용된 경우 서버에 클러스터를 추가할 수 없습니다.</block>
-  <block id="065a183903a5d40080433ae456e485ea" category="list-text">Unified Manager의 단일 인스턴스에서 특정 수의 노드를 지원할 수 있습니다. 지원되는 노드 수를 초과하는 환경을 모니터링해야 하는 경우, 일부 클러스터를 모니터링하려면 Unified Manager의 추가 인스턴스를 설치해야 합니다.</block>
   <block id="f480e99c6887bc78481785dfff641a8d" category="list-text">클러스터 추가 대화 상자에서 필요에 따라 값을 지정한 다음 * 제출 * 을 클릭합니다.</block>
   <block id="8e890a3f142c5bee7825dd0cc9d64b85" category="paragraph">클러스터를 추가할 수 없다는 오류 메시지가 표시되면 다음 문제가 있는지 확인하십시오.</block>
   <block id="683594a98e7d15af8788591469fb9927" category="list-text">두 시스템의 시계가 동기화되지 않고 Unified Manager HTTPS 인증서 시작 날짜가 클러스터의 날짜보다 이후인 경우 NTP 또는 이와 유사한 서비스를 사용하여 시계가 동기화되었는지 확인해야 합니다.</block>
@@ -10292,14 +10288,11 @@
   <block id="a6cf1015c02326f287680175aec316ec" category="paragraph">'/storage-provider/워크로드-summary'</block>
   <block id="7e93035a4c7813c403d410e855881994" category="summary">Active IQ Unified Manager REST API는 HTTP 요청을 실행할 수 있는 모든 웹 브라우저 또는 프로그래밍 플랫폼을 사용하여 액세스할 수 있습니다. Unified Manager는 기본 HTTP 인증 메커니즘을 지원합니다. Unified Manager REST API를 호출하기 전에 사용자를 인증해야 합니다.</block>
   <block id="3abf2b6a30dc1d8e6cf4f22d87fc74eb" category="doc">Active IQ Unified Manager에서 REST API 액세스 및 인증</block>
-  <block id="b71baaae518b4cfba321e56a31bf83cf" category="section-title">REST 액세스</block>
-  <block id="d05ac65fe6e169d97d8dc16811093c9e" category="paragraph">HTTP 요청을 실행하여 Unified Manager REST API에 액세스할 수 있는 모든 웹 브라우저 또는 프로그래밍 플랫폼을 사용할 수 있습니다. 예를 들어, Unified Manager에 로그인한 후 모든 브라우저에 URL을 입력하여 관리 스테이션 이름, 키, IP 주소와 같은 모든 관리 스테이션의 속성을 검색할 수 있습니다.</block>
   <block id="4da26f41c3171457f3ddbf53c4ce357c" category="list-text">* 요청 *</block>
   <block id="03f44bcdeb9eac56b2f45afcb82d3368" category="list-text">* 응답 *</block>
   <block id="eb6391db314b5af4580f33130f643fa1" category="list-text">'_IP address/hostname_'은(는) API 서버의 IP 주소 또는 FQDN(정규화된 도메인 이름)입니다.</block>
   <block id="5c06e352f423d0b621ec486ba1ddac59" category="list-text">포트 443</block>
   <block id="886644038ceb418e68b90e363a33a45e" category="paragraph">443은 기본 HTTPS 포트입니다. 필요한 경우 HTTPS 포트를 사용자 지정할 수 있습니다.</block>
-  <block id="0535c12ab1bf9e6e8b5fa038d3c157ac" category="paragraph">웹 브라우저에서 POST, 패치 및 HTTP 요청을 삭제하려면 브라우저 플러그인을 사용해야 합니다. CURL 및 Perl과 같은 스크립팅 플랫폼을 사용하여 REST API에 액세스할 수도 있습니다.</block>
   <block id="c75f7811d70d17dbcd88e9d03752cbed" category="section-title">인증</block>
   <block id="55f5492d0585d69456c8ee38af804ac6" category="paragraph">Unified Manager는 API에 대한 기본 HTTP 인증 체계를 지원합니다. 보안 정보 흐름(요청 및 응답)을 위해 REST API는 HTTPS를 통해서만 액세스할 수 있습니다. API 서버는 서버 확인을 위해 모든 클라이언트에 자체 서명된 SSL 인증서를 제공합니다. 이 인증서는 사용자 지정 인증서(또는 CA 인증서)로 대체될 수 있습니다.</block>
   <block id="74b6a9a3bbabb0fe6c40b6199d727d06" category="paragraph">REST API를 호출하려면 API 서버에 대한 사용자 액세스를 구성해야 합니다. 사용자는 로컬 사용자(로컬 데이터베이스에 저장된 사용자 프로필) 또는 LDAP 사용자(LDAP를 통해 인증하도록 API 서버를 구성한 경우)일 수 있습니다. Unified Manager Administration Console 사용자 인터페이스에 로그인하여 사용자 액세스를 관리할 수 있습니다.</block>
@@ -11058,7 +11051,6 @@
   <block id="95321bf41584f0af5249cfe77a131451" category="list-text">Windows 시스템에 안티바이러스 소프트웨어가 설치되어 있는 경우 업그레이드가 완료된 후 바이러스 백신 검사에서 다음 경로를 수동으로 제외해야 합니다.</block>
   <block id="35b673088d49c428fe4b71d1fb68ac32" category="paragraph">Unified Manager는 다음 Windows 에디션에 설치할 수 있습니다.</block>
   <block id="97acc1a41f0c48f305dbbeb45d754400" category="admonition">NetApp은 Microsoft SCCM(System Center Configuration Manager)과 같은 타사 툴을 사용하여 Unified Manager 설치를 지원하지 않습니다.</block>
-  <block id="8c0efbddadc6fd60891df7fc8dca2445" category="list-text">Windows 시스템에 안티바이러스 소프트웨어가 설치되어 있는 경우 Unified Manager 설치가 실패할 수 있습니다. Unified Manager를 설치하기 전에 시스템에서 모든 바이러스 검사 소프트웨어를 비활성화해야 합니다. 설치가 완료된 후 바이러스 백신 검사에서 다음 경로를 수동으로 제외해야 합니다.</block>
   <block id="f2b9e947e73ecf5aa3eb9084d5484e42" category="list-text">Windows 시스템에 안티바이러스 소프트웨어가 설치되어 있는 경우 설치가 완료된 후 바이러스 백신 검사에서 다음 경로를 수동으로 제외하십시오.</block>
   <block id="d09e8f5749e3b7058a8289ba431458ea" category="list-text">프로그램 및 기능 * 마법사에서 Unified Manager를 제거하는 경우 다음 단계를 수행하십시오.</block>
   <block id="c8c3810a14893ac6d3284dbe2703b42e" category="list-text">명령줄에서 Unified Manager를 제거하는 경우 다음 단계를 수행하십시오.</block>
@@ -11435,7 +11427,6 @@
   <block id="9e1d78fcecc3350c4ecf08cec0b298a1" category="list-text">웹 UI에서 클러스터를 추가하면 인증서 기반 인증이 자동으로 활성화됩니다. 유지보수 콘솔에서 클러스터를 추가하면 인증서 기반 인증이 사용되지 않습니다.</block>
   <block id="75d2b5faa0992c7cda340e5d43fc46b2" category="list-text">클러스터에 대해 인증서 기반 인증을 사용하고 서버에서 Unified Manager 백업을 수행한 후 호스트 이름 또는 IP 주소가 변경된 다른 Unified Manager 서버로 복원하면 클러스터 모니터링이 실패할 수 있습니다. 이 문제를 방지하려면 클러스터 세부 정보를 편집하고 저장합니다. 클러스터 세부 정보 편집에 대한 자세한 내용은 을 참조하십시오 <block ref="8ec52359a26ce2693e51a81c43bbb7b7" category="inline-link-macro-rx"></block>.</block>
   <block id="222b0f66c06702de8b7c2340008972c3" category="inline-link">System Manager 사용자 인터페이스에서 ONTAP 자체 서명된 인증서를 갱신하는 방법</block>
-  <block id="a8dc37c69f26e87f6805f3e9cccc77a9" category="paragraph">* 클라이언트 인증서 *: ONTAP로부터 수신한 EMS 메시지에 대한 인증 중에 사용됩니다. 이 인증서는 ONTAP에서 소유하며 ONTAP 클러스터를 Unified Manager에 추가할 때 필요합니다. 만료된 인증서가 있는 클러스터는 Unified Manager에 추가할 수 없으며, 클라이언트 인증서가 이미 만료된 경우 클러스터를 추가하기 전에 다시 생성해야 합니다. 그러나 이미 추가된 클러스터에 대해 이 인증서가 만료되어 Unified Manager에서 사용 중인 경우 EMS 메시징은 만료된 인증서에서 계속 작동합니다. 인증서 생성에 대한 자세한 내용은 기술 자료(KB) 문서를 참조하십시오<block ref="f6fcfe83d429d75c147f28f5dc51c095" category="inline-link-rx"></block>.</block>
   <block id="184761bba2bfcfdc4a0906f763235f85" category="paragraph">Unified Manager 9.12에서 클러스터 세부 정보를 저장한 후에는 클러스터의 상호 TLS 통신에 대한 인증서를 볼 수 있습니다.</block>
   <block id="2570092c5c4918f782639770496fb209" category="paragraph">인증서 기반 인증이 활성화되지 않은 경우 Unified Manager는 클러스터가 처음에 추가될 때만 인증서를 확인합니다. Unified Manager에서는 ONTAP에 대한 각 API 호출의 인증서를 확인하지 않습니다.</block>
   <block id="1b9015a348b3b3bcd576158c9c7a8b20" category="paragraph"><block ref="1b9015a348b3b3bcd576158c9c7a8b20" category="inline-link-macro-rx"></block></block>
@@ -11793,10 +11784,8 @@
   <block id="114a028e9b55b97a58d37b3d704d07d2" category="paragraph">Windows 플랫폼에서 설치 파일을 다운로드하여 실행하여 Unified Manager 9.10 또는 9.11을 9.12로 업그레이드할 수 있습니다.</block>
   <block id="7e32d4718f2e4988b5bedbbf8300e1be" category="paragraph">을 참조하십시오 <block ref="faea1ae077af360ba8a684d0f5eba7d8" category="inline-link-macro-rx"></block>.</block>
   <block id="f0e1f067c09250365312c175e69f64aa" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.0.30 이전인 경우 Unified Manager 업그레이드 프로세스에서 MySQL을 8.0.30으로 자동 업그레이드합니다. 이전 버전의 MySQL의 독립 실행형 업그레이드를 8.0.30으로 실행하면 안 됩니다.</block>
-  <block id="5366a32f70ba928794fc68c64b8d1ad1" category="paragraph"><block ref="9578a88e95e047066c6bb7085c41a7ed" category="inline-link-rx"></block>.</block>
   <block id="f91923991c8993a30a6a751c98474af6" category="list-text">지원되는 웹 브라우저의 새 창에서 웹 UI를 시작하고 로그인하여 Unified Manager의 업그레이드된 버전을 사용하십시오.</block>
   <block id="5ff4b86dbcd6c01705ae6ea152e028ea" category="list-text">MySQL Community Edition 버전 8.0.30</block>
-  <block id="63aac233d83b28056660593d53ad8bea" category="list-text">Python 3.10.5</block>
   <block id="440738be01fbb5a218a51b31addb72e3" category="list-text">OpenJDK 버전 11.0.16</block>
   <block id="c25a026897caa6b556a4ed073ea3eab4" category="paragraph">릴리스 제품군 내에서 OpenJDK 릴리스를 업데이트할 수 있습니다. 예를 들어 OpenJDK 11.0.14에서 OpenJDK 11.0.16으로 업그레이드할 수 있지만 OpenJDK 11에서 OpenJDK 12로 직접 업데이트할 수는 없습니다.</block>
   <block id="83120bcddc0b0db19b2984cc0524dcb9" category="list-text">결과로 생성된 디렉토리와 파일을 복사합니다<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> 디렉터리(예:<block ref="7b12015226b2c68810e719dd47d11964" prefix=" " category="inline-code"></block> Java가 설치된 위치로 이동합니다. 예:<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
@@ -11872,4 +11861,22 @@
   <block id="25cd83fcc24b4664d675c70561908db4" category="section-title">SELinux 컨텍스트 구성 시기<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> 탑재됩니다</block>
   <block id="8952b2e8f374ce39efcf65ab76f1fb96" category="section-title">SELinux 컨텍스트 구성 시기<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 이(가) 장착된 경우 및 입니다<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 또한 별도로 장착됩니다</block>
   <block id="c0f62aa70775648ddb09e5af32691c1a" category="section-title">SELinux 컨텍스트 구성 시기<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 이(가) 장착된 경우 및 입니다<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 은(는) 별도로 마운트되지 않습니다</block>
+  <block id="f9344604b22486566c3e6d70cc163f8b" category="paragraph">Active IQ Unified Manager REST API는 기본적인 HTTP 인증 메커니즘을 통해 HTTP 요청을 실행할 수 있는 REST 클라이언트 또는 프로그래밍 플랫폼을 사용하여 액세스할 수 있습니다.</block>
+  <block id="e5595563cfe055cddbdb1a7ae1efcfad" category="paragraph">샘플 요청 및 응답:</block>
+  <block id="590e5f2d8030dd7492b5a2f24f056c33" category="paragraph">웹 브라우저에서 HTTP 요청을 실행하려면 REST API 브라우저 플러그인을 사용해야 합니다. CURL 및 Perl과 같은 스크립팅 플랫폼을 사용하여 REST API에 액세스할 수도 있습니다.</block>
+  <block id="85a30fe886275ce866327a1e02256e74" category="inline-link-macro">Active IQ Unified Manager MIB</block>
+  <block id="9266d8a8ea54f308e2376f2d8f7bd96b" category="paragraph">SNMP 개체 및 트랩에 대한 자세한 내용은 를 다운로드할 수 있습니다 <block ref="5372b01ca49988ef6d087d475f5f860d" category="inline-link-macro-rx"></block> NetApp Support 사이트에서.</block>
+  <block id="04cb263b5536fd6d36e2dbdb66c90bca" category="paragraph">* 클라이언트 인증서 *: ONTAP로부터 수신한 EMS 메시지에 대한 인증 중에 사용됩니다. 이 인증서는 ONTAP에서 소유하며 ONTAP 클러스터를 Unified Manager에 추가할 때 필요합니다. 만료된 인증서가 있는 클러스터는 Unified Manager에 추가할 수 없으며, 클라이언트 인증서가 이미 만료된 경우 클러스터를 추가하기 전에 다시 생성해야 합니다. 그러나 이미 추가된 클러스터에 대해 이 인증서가 만료되어 Unified Manager에서 사용 중인 경우 EMS 메시징은 만료된 인증서에서 계속 작동합니다. 인증서 생성에 대한 자세한 내용은 기술 자료(KB) 문서를 참조하십시오<block ref="efe1c9ee5157428eafcff62008773d6d" category="inline-link-rx"></block>.</block>
+  <block id="3a8f6d8e81e46780cae8b01ced2c6f30" category="list-text">Unified Manager의 단일 인스턴스에서 특정 수의 노드를 지원할 수 있습니다. 지원되는 노드 수를 초과하는 환경을 모니터링해야 하는 경우, 일부 클러스터를 모니터링하려면 Unified Manager의 추가 인스턴스를 설치해야 합니다. 지원되는 노드 수 목록을 보려면 를 참조하십시오<block ref="e93befa6e2a73cbce07a13aa25f57433" category="inline-link-rx"></block>.</block>
+  <block id="339df2b8ee92861a4cb2e6ba77bf71ff" category="list-text">MySQL 포트 3306을 허용하거나 차단할 수 있도록 만들어진 방화벽 규칙을 수동으로 삭제해야 합니다. 방화벽 규칙은 자동으로 삭제되지 않습니다.</block>
+  <block id="99f349f68754fcdb8657987c33cdde6e" category="paragraph"><block ref="99f349f68754fcdb8657987c33cdde6e" category="inline-link-rx"></block></block>
+  <block id="ca7a90443f716119f581e53c33117768" category="paragraph"><block ref="ca7a90443f716119f581e53c33117768" category="inline-link-rx"></block></block>
+  <block id="29c81145f8df4c302d2a5db797d28b64" category="paragraph"><block ref="29c81145f8df4c302d2a5db797d28b64" category="inline-link-rx"></block></block>
+  <block id="8d6a739fdd6cb955643a976d6419979f" category="paragraph">서버는 Unified Manager 실행 전용으로 사용되어야 합니다. 서버에 다른 응용 프로그램을 설치할 수 없습니다. 회사 규정에 따라 Windows 시스템에 안티바이러스 소프트웨어가 설치되어 있을 수 있습니다. 설치 실패를 방지하려면 Unified Manager를 설치하기 전에 바이러스 백신 소프트웨어를 비활성화해야 합니다.</block>
+  <block id="eb0ae76a28872e0cb3b4b8b29ab56e93" category="list-text">Python 3.11.1</block>
+  <block id="3bf946d0585ec5d059ceedfa02a8bb85" category="list-text">Unified Manager를 설치하기 전에 시스템에서 모든 바이러스 백신 소프트웨어를 비활성화해야 합니다. 설치가 완료된 후 바이러스 백신 검사에서 다음 경로를 수동으로 제외해야 합니다.</block>
+  <block id="c4c82f53dda4c2a0257081e08f40a0c4" category="paragraph">시스템 요구 사항에 대한 자세한 내용은 를 참조하십시오 <block ref="b2295d63a540e99b9499865a292304a1" category="inline-link-macro-rx"></block> 및 <block ref="4eee31450bd5635de5fa851f8ec42512" category="inline-link-macro-rx"></block>.</block>
+  <block id="855dd9750d1782e907ace12bdc7c5003" category="paragraph"><block ref="855dd9750d1782e907ace12bdc7c5003" category="inline-link-rx"></block></block>
+  <block id="e61baa5c67d7dd8dca5b3e09283635ed" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block></block>
+  <block id="31c19d26868a7ff439c08ee8860902af" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block>.</block>
 </blocks>

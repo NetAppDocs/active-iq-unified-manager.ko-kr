@@ -41,7 +41,7 @@ Unified Manager 9.5부터 OpenJDK는 설치 패키지에 제공되어 자동으�
 . 기본 로컬 관리자 계정을 사용하여 Windows에 로그인합니다.
 . NetApp Support 사이트에 로그인하고 Unified Manager의 다운로드 페이지로 이동합니다.
 +
-https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp Support 사이트"]
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp Support 사이트"^]
 
 . Unified Manager의 필수 버전을 선택하고 최종 사용자 라이센스 계약(EULA)에 동의합니다.
 . Unified Manager Windows 설치 파일을 Windows 시스템의 대상 디렉토리에 다운로드합니다.
