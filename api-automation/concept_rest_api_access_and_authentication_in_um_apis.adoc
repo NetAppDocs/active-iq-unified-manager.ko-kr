@@ -19,7 +19,7 @@ Active IQ Unified Manager REST API는 기본적인 HTTP 인증 메커니즘을 �
 +
 [listing]
 ----
-Get
+GET
 https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 ----
 * * 응답 *
