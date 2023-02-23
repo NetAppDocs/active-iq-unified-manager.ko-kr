@@ -43,7 +43,7 @@ entries:
     url: "/health-checker/task_view_volume_list_and_details.html"
   - title: NFS 공유에 대한 세부 정보 보기
     url: "/health-checker/task_view_details_about_nfs_shares.html"
-  - title: SMB/CIFS 공유에 대한 세부 정보 보기
+  - title: SMB 또는 CIFS 공유에 대한 세부 정보 보기
     url: "/health-checker/task_view_details_about_cifs_shares.html"
   - title: 스냅샷 복사본 목록 보기
     url: "/health-checker/task_view_list_of_snapshot_copies.html"
@@ -283,11 +283,11 @@ entries:
     entries:
     - title: 클러스터 구성 요소 및 구성 요소의 경합이 발생할 수 있는 이유
       url: "/health-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
-    - title: 볼륨/상태 세부 정보 페이지
+    - title: 볼륨 상태에 대한 세부 정보입니다
       url: "/health-checker/reference_health_volume_details_page.html"
-    - title: 스토리지 VM/상태 세부 정보 페이지
+    - title: 스토리지 VM 상태에 대한 세부 정보입니다
       url: "/health-checker/reference_health_svm_details_page.html"
-    - title: 클러스터/상태 세부 정보 페이지
+    - title: 클러스터 상태에 대한 세부 정보입니다
       url: "/health-checker/reference_health_cluster_details_page.html"
-    - title: 집계/상태 세부 정보 페이지
+    - title: 상태 세부 정보를 집계합니다
       url: "/health-checker/reference_health_aggregate_details_page.html"

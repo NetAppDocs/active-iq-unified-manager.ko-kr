@@ -6,7 +6,12 @@ summary: VMware vSphere 플랫폼의 Unified Manager에 대한 빠른 시작 가
 ---
 = VMware 설치를 위한 빠른 시작 지침
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
+
+[role="lead"]
+를 다운로드할 수 있습니다 `.tar` 루트 인증서가 포함된 파일, a `README` 파일, 및 `OVA` Unified Manager를 가상 어플라이언스로 구축하여 파일 및 구축
 
 
 

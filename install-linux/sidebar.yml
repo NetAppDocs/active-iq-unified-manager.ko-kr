@@ -34,7 +34,7 @@ entries:
       url: "/install-linux/task_manually_configure_epel_repository.html"
     - title: MySQL 리포지토리를 수동으로 구성합니다
       url: "/install-linux/task_manually_configure_mysql_repository.html"
-  - title: NFS 또는 CIFS 공유에 /opt/NetApp 또는 /opt/NetApp/데이터를 마운트하기 위한 SELinux 요구 사항
+  - title: NFS 또는 CIFS 공유에 대한 SELinux 요구 사항
     url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
   - title: Linux 시스템에 Unified Manager 설치
     url: "/install-linux/concept_install_unified_manager_on_rhel_or_centos.html"

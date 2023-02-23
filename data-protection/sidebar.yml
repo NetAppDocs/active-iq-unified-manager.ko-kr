@@ -21,13 +21,13 @@ entries:
   - title: 보호 관계 페일오버 및 페일백 수행
     url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     entries:
-    - title: 볼륨/상태 세부 정보 페이지에서 SnapMirror 관계 분리
+    - title: 볼륨 상태 세부 정보 페이지에서 SnapMirror 관계 분리
       url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
-    - title: 볼륨/상태 세부 정보 페이지에서 보호 관계를 반대로 설정합니다
+    - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 반대로 설정합니다
       url: "/data-protection/task_reverse_protection_relationships_from_health_volume_details.html"
-    - title: 볼륨/상태 세부 정보 페이지에서 보호 관계를 제거합니다
+    - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 제거합니다
       url: "/data-protection/task_remove_protection_relationship_voldtls.html"
-    - title: 볼륨/상태 세부 정보 페이지에서 보호 관계를 재동기화합니다
+    - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 재동기화합니다
       url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
   - title: 보호 작업 실패 해결
     url: "/data-protection/task_resolve_protection_job_failure.html"
@@ -45,13 +45,13 @@ entries:
     url: "/data-protection/task_view_volume_protection_relationships.html"
   - title: 정합성 보장 그룹 관계에서 LUN 모니터링
     url: "/data-protection/view-lun-relationships.html"
-  - title: 상태/모든 볼륨 보기에서 SnapVault 보호 관계 생성
+  - title: All Volumes 보기에서 SnapVault 보호 관계 생성
     url: "/data-protection/task_create_snapvault_protection_relationship.html"
-  - title: 볼륨/상태 세부 정보 페이지에서 SnapVault 보호 관계 생성
+  - title: 볼륨 상태 세부 정보 페이지에서 SnapVault 보호 관계 생성
     url: "/data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html"
-  - title: 상태/모든 볼륨 보기에서 SnapMirror 보호 관계 생성
+  - title: All Volumes 보기에서 SnapMirror 보호 관계 생성
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volumes.html"
-  - title: 볼륨/상태 세부 정보 페이지에서 SnapMirror 보호 관계 생성
+  - title: 볼륨 상태 세부 정보 페이지에서 SnapMirror 보호 관계 생성
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volume.html"
   - title: 버전에 상관없이 유연하게 복제 가능한 SnapMirror 관계 생성
     url: "/data-protection/task_create_snapmirror_relationship_with_version_flexible_replication.html"
@@ -65,7 +65,7 @@ entries:
     url: "/data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html"
   - title: 볼륨 관계 페이지에서 보호 관계 편집
     url: "/data-protection/task_edit_protection_relationships_from_protection_volume.html"
-  - title: 볼륨/상태 세부 정보 페이지에서 보호 관계 편집
+  - title: 볼륨 상태 세부 정보 페이지에서 보호 관계 편집
     url: "/data-protection/task_edit_protection_relationships_from_health_volume.html"
   - title: 전송 효율성을 최대화할 수 있도록 SnapMirror 정책 생성
     url: "/data-protection/task_create_snapmirror_policy_to_maximize_transfer_efficiency.html"
@@ -73,11 +73,11 @@ entries:
     url: "/data-protection/task_create_snapvault_policy_to_maximize_transfer_efficiency.html"
   - title: 볼륨 관계 페이지에서 활성 데이터 보호 전송을 중단합니다
     url: "/data-protection/task_abort_an_active_data_protection_transfer.html"
-  - title: 볼륨/상태 세부 정보 페이지에서 활성 데이터 보호 전송을 중단합니다
+  - title: 볼륨 상태 세부 정보 페이지에서 활성 데이터 보호 전송을 중단합니다
     url: "/data-protection/task_abort_active_data_protection_transfer_from_health_volume.html"
   - title: 볼륨 관계 페이지에서 보호 관계를 중지합니다
     url: "/data-protection/task_quiesce_protection_relationship_from_volume_relationships.html"
-  - title: 볼륨/상태 세부 정보 페이지에서 보호 관계를 중지합니다
+  - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 중지합니다
     url: "/data-protection/task_quiesce_protection_relationship_from_health_volume_details.html"
   - title: 볼륨 관계 페이지에서 SnapMirror 관계 분리
     url: "/data-protection/task_break_snapmirror_relationship.html"
@@ -85,17 +85,17 @@ entries:
     url: "/data-protection/task_remove_protection_relationship.html"
   - title: 볼륨 관계 페이지에서 중지된 관계에서 예약된 전송을 다시 시작합니다
     url: "/data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html"
-  - title: 볼륨/상태 세부 정보 페이지에서 중지된 관계에서 예약된 전송을 재개합니다
+  - title: 볼륨 상태 세부 정보 페이지에서 중지된 관계에서 예약된 전송을 재개합니다
     url: "/data-protection/task_resume_scheduled_transfers_voldtls_page.html"
   - title: 볼륨 관계 페이지에서 보호 관계를 초기화 또는 업데이트합니다
     url: "/data-protection/task_initialize_or_update_protection_relationships.html"
-  - title: 볼륨/상태 세부 정보 페이지에서 보호 관계를 초기화 또는 업데이트합니다
+  - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 초기화 또는 업데이트합니다
     url: "/data-protection/task_update_protection_voldtls_page.html"
   - title: 볼륨 관계 페이지에서 보호 관계를 재동기화합니다
     url: "/data-protection/task_resynchronize_protection_relationships.html"
   - title: 볼륨 관계 페이지에서 보호 관계를 반대로 설정합니다
     url: "/data-protection/task_reverse_protection_relationships.html"
-  - title: 볼륨/상태 세부 정보 페이지를 사용하여 데이터를 복원합니다
+  - title: 볼륨 상태 세부 정보 페이지를 사용하여 데이터를 복원합니다
     url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
   - title: 리소스 풀이란 무엇입니까
     url: "/data-protection/concept_what_resource_pools_are.html"
@@ -167,7 +167,7 @@ entries:
       url: "/data-protection/reference_create_snapvault_policy_dialog_box.html"
     - title: 관계 편집 대화 상자
       url: "/data-protection/reference_edit_relationship_dialog_box.html"
-    - title: 초기화/업데이트 대화 상자
+    - title: 초기화 또는 업데이트 대화 상자
       url: "/data-protection/reference_initialize_update_relationship_dialog_box.html"
     - title: 대화 상자를 다시 동기화합니다
       url: "/data-protection/reference_resynchronize_dialog_box.html"
@@ -175,9 +175,9 @@ entries:
       url: "/data-protection/reference_select_source_snapshot_copy_dialog_box.html"
     - title: 역방향 재동기화 대화 상자
       url: "/data-protection/reference_reverse_resync_dialog_box.html"
-    - title: 관계/모든 관계 보기
+    - title: 모든 관계 보기
       url: "/data-protection/reference_relationship_all_relationships_view.html"
-    - title: 관계/최근 1개월 이전 상태 보기
+    - title: 최근 1개월 이전 상태 보기
       url: "/data-protection/reference_relationship_last_1_month_transfer_status_view.html"
-    - title: 관계/최근 1개월 전송 속도 보기
+    - title: 최근 1개월 전송 속도 보기
       url: "/data-protection/reference_relationship_last_1_month_transfer_rate_view.html"

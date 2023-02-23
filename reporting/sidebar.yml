@@ -78,7 +78,7 @@ entries:
     entries:
     - title: 보고서를 생성하여 전체 용량에 도달한 애그리게이트를 확인합니다
       url: "/reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html"
-    - title: 80% 이상의 전체 애그리게이트를 볼 수 있는 보고서 생성
+    - title: 거의 가득 찬 집계를 보기 위한 보고서 생성
       url: "/reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html"
     - title: 초과 커밋된 집계를 보기 위한 보고서 생성
       url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"
