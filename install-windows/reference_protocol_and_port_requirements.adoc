@@ -104,7 +104,7 @@ OnCommand 및 OnCommand Workflow Automation API Services에서 Unified Manager�
 |===
 [NOTE]
 ====
-MySQL의 기본 포트 3306은 Windows 시스템에 Unified Manager를 설치하는 동안 localhost로 제한됩니다. 이전 구성이 유지되는 업그레이드 시나리오에는 영향을 주지 않습니다. 이 구성은 수정할 수 있으며 을 사용하여 다른 호스트에서 연결을 사용할 수 있습니다 `Control access to MySQL port 3306` 옵션을 설정할 수 있습니다. 자세한 내용은 을 참조하십시오 link:../config/reference_additional_menu_options.html["추가 메뉴 옵션"]. HTTP 및 HTTPS 통신에 사용되는 포트(포트 80 및 443)는 Unified Manager 유지 관리 콘솔을 사용하여 변경할 수 있습니다. 자세한 내용은 을 참조하십시오 link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager 구성"].
+MySQL의 기본 포트 3306은 Windows 시스템에 Unified Manager를 설치하는 동안 localhost로 제한됩니다. 설치가 완료되면 방화벽에서 MySQL 포트 3306에 대한 액세스를 제한합니다. 이전 구성이 유지되는 업그레이드 시나리오에는 영향을 주지 않습니다. 이 구성은 수정할 수 있으며 을 사용하여 다른 호스트에서 연결을 사용할 수 있습니다 `Control access to MySQL port 3306` 옵션을 설정할 수 있습니다. 자세한 내용은 을 참조하십시오 link:../config/reference_additional_menu_options.html["추가 메뉴 옵션"]. HTTP 및 HTTPS 통신에 사용되는 포트(포트 80 및 443)는 Unified Manager 유지 관리 콘솔을 사용하여 변경할 수 있습니다. 자세한 내용은 을 참조하십시오 link:../config/concept_configure_unified_manager.html["Active IQ Unified Manager 구성"].
 
 ====
 

@@ -19,7 +19,7 @@ Unified Manager가 설치된 Red Hat Enterprise Linux 또는 CentOS 서버에 �
 
 .단계
 . Unified Manager 서비스를 다시 시작할 서버에 루트 사용자로 로그인합니다.
-. Unified Manager 서비스 및 관련 MySQL 소프트웨어를 표시된 순서대로 중지합니다.
+. Unified Manager 서비스 및 관련 MySQL 서비스를 다음 순서로 중지합니다.
 +
 '스타치틀스조우'
 
@@ -29,7 +29,7 @@ Unified Manager가 설치된 Red Hat Enterprise Linux 또는 CentOS 서버에 �
 +
 '스타emctl stop mysqld'
 
-. 다음 순서대로 Unified Manager를 시작합니다.
+. MySQL 및 Unified Manager 서비스를 다음 순서대로 시작합니다.
 +
 '스타emctl start mysqld'
 
@@ -40,3 +40,9 @@ Unified Manager가 설치된 Red Hat Enterprise Linux 또는 CentOS 서버에 �
 '신조 시작 조숙자'
 
 
+
+[NOTE]
+====
+`mysqld` MySQL Server를 시작 및 중지하는 데 필요한 데몬 프로그램입니다.
+
+====

@@ -20,6 +20,10 @@ vCenter Server를 추가하거나 보기 전에 다음을 확인하십시오.
 * vCenter Server 이름을 알고 있습니다.
 * vCenter Server의 IP 주소를 알고 있고 필요한 자격 증명을 가지고 있습니다. 자격 증명은 vCenter Server 관리자 또는 vCenter Server에 대한 읽기 전용 액세스 권한이 있는 루트 사용자여야 합니다.
 * 추가하려는 vCenter Server는 vSphere 6.5 이상을 실행합니다.
++
+
+NOTE: VMware ESXi 및 vCenter Server용 Unified Manager 지원은 영어 및 일본어로 제공됩니다.
+
 * vCenter Server의 데이터 수집 설정은 모니터링되는 모든 객체에 대해 필요한 메트릭 수집 수준을 보장하기 위해 통계 수준 '_Level 3_'로 설정됩니다. 간격은 '_5분 _'이어야 하며 저장 기간은 '_1일 _'이어야 합니다.
 +
 자세한 내용은 VMware 설명서의 _ vSphere 모니터링 및 성능 가이드 _ 의 "데이터 수집 수준" 섹션을 참조하십시오.

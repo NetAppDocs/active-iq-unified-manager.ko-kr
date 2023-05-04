@@ -47,7 +47,7 @@ OpenJDK 버전 11.0.17
 
 
  a| 
-MySQL 8.0.30 커뮤니티 에디션
+MySQL 8.0.32 커뮤니티 에디션
  a| 
 "rpm-qa|grep-i mysql"을 참조하십시오
 
@@ -59,7 +59,7 @@ p7zip 16.02
 "rpm-qa|grep p7zip"
 
 |===
-. 설치된 MySQL 버전이 MySQL 8.0.30 Community Edition보다 이전 버전인 경우 다음 명령을 입력하여 설치 제거하십시오.
+. 설치된 MySQL 버전이 MySQL 8.0.32 Community Edition보다 이전 버전인 경우 다음 명령을 입력하여 설치를 제거합니다.
 +
 "rpm -e <mysql_package_name>"를 입력합니다
 
@@ -121,6 +121,12 @@ Red Hat Enterprise Linux 8 시스템의 경우 JDK 11-OpenJDK, p7zip 및 AppStre
 
 +
 이 명령은 .rpm 패키지, 기타 필요한 지원 소프트웨어 및 Unified Manager 소프트웨어를 설치합니다.
+
++
+GPG NOKEY 오류로 인해 설치가 실패하는 경우 를 사용합니다 `rpm --import` URL에서 키를 가져오려면:
+
++
+`rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
 
 +
 [NOTE]

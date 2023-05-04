@@ -18,6 +18,7 @@ summary: 클러스터를 모니터링할 수 있도록 Active IQ Unified Manager
 * 애플리케이션 관리자 또는 스토리지 관리자 역할이 있어야 합니다.
 * 다음 정보가 있어야 합니다.
 +
+** Unified Manager는 사내 ONTAP 클러스터, ONTAP Select, Cloud Volumes ONTAP를 지원합니다.
 ** 호스트 이름 또는 클러스터 관리 IP 주소입니다
 +
 호스트 이름은 Unified Manager가 클러스터에 연결하는 데 사용하는 FQDN 또는 짧은 이름입니다. 호스트 이름이 클러스터 관리 IP 주소로 확인되어야 합니다.
@@ -31,15 +32,18 @@ summary: 클러스터를 모니터링할 수 있도록 Active IQ Unified Manager
 이 계정에는 응용 프로그램 액세스 권한이 _ontapi_, _console_ 및 _http_로 설정된 _admin_역할이 있어야 합니다.
 
 ** HTTPS 프로토콜을 사용하여 클러스터에 연결할 포트 번호(일반적으로 포트 443)
-** 필요한 인증서가 있습니다. Unified Manager는 클러스터를 추가할 때 보안 인증서를 설치합니다.
+** 필요한 인증서가 있습니다.
 +
-* 서버 인증서 *: 이 인증서는 Unified Manager에서 소유합니다. Unified Manager를 새로 설치하면 자체 서명된 기본 SSL(HTTPS) 인증서가 생성됩니다. 보안을 강화하기 위해 CA 서명 인증서로 업그레이드하는 것이 좋습니다. 서버 인증서가 만료되면 해당 인증서를 다시 생성하고 Unified Manager를 다시 시작하여 새 인증서를 통합하는 서비스를 수행해야 합니다. SSL 인증서 재생성에 대한 자세한 내용은 을 참조하십시오 link:../config/task_generate_an_https_security_certificate_ocf.html["HTTPS 보안 인증서를 생성하는 중입니다"].
+* SSL(HTTPS) 인증서 *: 이 인증서는 Unified Manager에서 소유합니다. Unified Manager를 새로 설치하면 자체 서명된 기본 SSL(HTTPS) 인증서가 생성됩니다. 보안을 강화하기 위해 CA 서명 인증서로 업그레이드하는 것이 좋습니다. 서버 인증서가 만료되면 해당 인증서를 다시 생성하고 Unified Manager를 다시 시작하여 새 인증서를 통합하는 서비스를 수행해야 합니다. SSL 인증서 재생성에 대한 자세한 내용은 을 참조하십시오 link:../config/task_generate_an_https_security_certificate_ocf.html["HTTPS 보안 인증서를 생성하는 중입니다"].
+
++
+* EMS 인증서 *: 이 인증서는 Unified Manager에서 소유합니다. ONTAP로부터 수신한 EMS 알림에 대한 인증 중에 사용된다.
 
 +
 * 상호 TLS 통신을 위한 인증서 *: Unified Manager와 ONTAP 간의 상호 TLS 통신 중에 사용됩니다. 인증서 기반 인증은 ONTAP 버전에 따라 클러스터에 대해 설정됩니다. ONTAP 버전을 실행하는 클러스터가 9.5보다 낮은 경우 인증서 기반 인증이 활성화되지 않습니다.
 
 +
-이전 버전의 Unified Manager를 Unified Manager 9.12로 업데이트하는 경우 클러스터에 대해 인증서 기반 인증이 자동으로 활성화되지 않습니다. 그러나 클러스터 세부 정보를 수정 및 저장하여 이 기능을 사용하도록 설정할 수 있습니다. 인증서가 만료되면 인증서를 다시 생성하여 새 인증서를 통합해야 합니다. 인증서 보기 및 재생에 대한 자세한 내용은 을 참조하십시오 link:../storage-mgmt/task_edit_clusters.html["클러스터 편집"].
+이전 버전의 Unified Manager를 업데이트하는 경우 클러스터에 대해 인증서 기반 인증이 자동으로 활성화되지 않습니다. 그러나 클러스터 세부 정보를 수정 및 저장하여 이 기능을 사용하도록 설정할 수 있습니다. 인증서가 만료되면 인증서를 다시 생성하여 새 인증서를 통합해야 합니다. 인증서 보기 및 재생에 대한 자세한 내용은 을 참조하십시오 link:../storage-mgmt/task_edit_clusters.html["클러스터 편집"].
 
 +
 [NOTE]
@@ -50,7 +54,7 @@ summary: 클러스터를 모니터링할 수 있도록 Active IQ Unified Manager
 
 ====
 +
-* 클라이언트 인증서 *: ONTAP로부터 수신한 EMS 메시지에 대한 인증 중에 사용됩니다. 이 인증서는 ONTAP에서 소유하며 ONTAP 클러스터를 Unified Manager에 추가할 때 필요합니다. 만료된 인증서가 있는 클러스터는 Unified Manager에 추가할 수 없으며, 클라이언트 인증서가 이미 만료된 경우 클러스터를 추가하기 전에 다시 생성해야 합니다. 그러나 이미 추가된 클러스터에 대해 이 인증서가 만료되어 Unified Manager에서 사용 중인 경우 EMS 메시징은 만료된 인증서에서 계속 작동합니다. 인증서 생성에 대한 자세한 내용은 기술 자료(KB) 문서를 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["System Manager 사용자 인터페이스에서 ONTAP 자체 서명된 인증서를 갱신하는 방법"^].
+* 클러스터 인증서 *: 이 인증서는 ONTAP에서 소유합니다. 만료된 인증서가 있는 클러스터는 Unified Manager에 추가할 수 없으며, 인증서가 이미 만료된 경우 클러스터를 추가하기 전에 다시 생성해야 합니다. 인증서 생성에 대한 자세한 내용은 기술 자료(KB) 문서를 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["System Manager 사용자 인터페이스에서 ONTAP 자체 서명된 인증서를 갱신하는 방법"^].
 
 
 
@@ -70,7 +74,7 @@ MetroCluster 구성의 경우 로컬 클러스터와 원격 클러스터를 모�
 . 호스트 인증 대화 상자에서 * 인증서 보기 * 를 클릭하여 클러스터에 대한 인증서 정보를 확인합니다.
 . 예 * 를 클릭합니다.
 +
-Unified Manager 9.12에서 클러스터 세부 정보를 저장한 후에는 클러스터의 상호 TLS 통신에 대한 인증서를 볼 수 있습니다.
+클러스터 세부 정보를 저장한 후에는 클러스터의 상호 TLS 통신에 대한 인증서를 볼 수 있습니다.
 
 +
 인증서 기반 인증이 활성화되지 않은 경우 Unified Manager는 클러스터가 처음에 추가될 때만 인증서를 확인합니다. Unified Manager에서는 ONTAP에 대한 각 API 호출의 인증서를 확인하지 않습니다.

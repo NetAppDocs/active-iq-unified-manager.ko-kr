@@ -19,7 +19,7 @@ Unified Manager를 설치하는 VMware vSphere 시스템에는 특정 버전의 
 
 지원되는 VMware ESXi 버전은 다음과 같습니다.
 
-* ESXi 6.5, 6.7 및 7.0.x
+* ESXi 7.0 및 8.0
 
 
 [NOTE]
@@ -29,7 +29,7 @@ VMware vSphere 시스템의 Unified Manager OVA는 내부적으로 Debian OS 11(
 ====
 지원되는 vSphere 버전은 다음과 같습니다.
 
-* VMware vCenter Server 6.5, 6.7 및 7.0.x
+* VMware vCenter Server 7.0 및 8.0
 
 
 지원되는 ESXi 버전의 전체 및 최신 목록은 상호 운용성 매트릭스 를 참조하십시오.
