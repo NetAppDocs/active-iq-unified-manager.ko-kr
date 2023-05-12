@@ -33,7 +33,7 @@ summary: 데이터 손실 또는 데이터 손상이 발생할 경우 복원 기
 .단계
 . 새 서버로 복원을 수행하는 경우 Unified Manager를 설치한 후 설치가 완료될 때 UI를 실행하거나 클러스터, 사용자 또는 인증 설정을 구성하지 마십시오. 백업 파일은 복원 프로세스 중에 이 정보를 채웁니다.
 . 관리자 자격 증명을 사용하여 Unified Manager 시스템에 로그인합니다.
-. Windows 관리자로 PowerShell을 실행합니다.
+. Windows 관리자로 PowerShell 또는 명령 프롬프트를 시작합니다.
 . mainf유지보수_console 명령을 입력하고 Enter 키를 누릅니다.
 . 유지보수 콘솔 * 메인 메뉴 * 에서 * 백업 복원 * 옵션의 번호를 입력합니다.
 . Restore MySQL Backup * 의 번호를 입력합니다.

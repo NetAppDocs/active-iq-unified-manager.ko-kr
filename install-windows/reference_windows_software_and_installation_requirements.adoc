@@ -33,7 +33,7 @@ Unified Manager는 64비트 Windows 운영 체제에서 다음 언어로 지원�
 
 지원되는 Windows 버전의 전체 최신 목록은 상호 운용성 매트릭스 를 참조하십시오.
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
+http://["mysupport.netapp.com/matrix"^]
 
 
 NOTE: NetApp은 Microsoft SCCM(System Center Configuration Manager)과 같은 타사 툴을 사용하여 Unified Manager 설치를 지원하지 않습니다.

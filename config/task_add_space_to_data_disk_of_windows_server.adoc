@@ -33,7 +33,7 @@ Windows 관리자 권한이 있어야 합니다.
  a| 
 Microsoft 항목의 단계를 따릅니다.
 
-https://technet.microsoft.com/en-us/library/cc771473(v=ws.11).aspx["기본 볼륨을 확장합니다"]
+https://["기본 볼륨을 확장합니다"]
 
 
 
@@ -42,7 +42,7 @@ https://technet.microsoft.com/en-us/library/cc771473(v=ws.11).aspx["기본 볼�
  a| 
 Microsoft 항목의 단계를 따릅니다.
 
-https://msdn.microsoft.com/en-us/library/dd163551.aspx["하드 디스크 드라이브 추가"]
+https://["하드 디스크 드라이브 추가"]
 
 
 
@@ -51,7 +51,7 @@ https://msdn.microsoft.com/en-us/library/dd163551.aspx["하드 디스크 드라�
  a| 
 VMware 항목의 단계를 따릅니다.
 
-https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1004071["디스크 파티션 크기 늘리기"]
+https://["디스크 파티션 크기 늘리기"]
 
 |===
 

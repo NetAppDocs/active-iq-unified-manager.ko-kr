@@ -11660,7 +11660,6 @@
   <block id="90ef461f23841e1c3dc26580247959fd" category="list-text">최소 할당: "할당된 공간" 또는 "사용된 공간"을 사용하여 최대 처리량(피크) IOPS를 결정합니다.</block>
   <block id="f6d81ff30a84faf845ece49601784b0a" category="list-text">예상 지연 시간: 스토리지 입출력 작업에 대해 예상되는 평균 지연 시간입니다.</block>
   <block id="a4918d1e2d3364601712640b61668ac3" category="list-text">공유: 기존 QoS 정책의 경우 정책 그룹에 정의된 처리량 값이 여러 오브젝트 간에 공유되는지 여부입니다.</block>
-  <block id="3e8dedd9367cf7dda99efa4648b40a68" category="list-text">Associated Objects: QoS 정책 그룹에 할당된 워크로드 수입니다. QoS 정책 그룹 이름 옆의 확장 단추( )를 클릭하여 정책 그룹에 대한 자세한 정보를 볼 수 있습니다.</block>
   <block id="3cd90a107dd83598c6f4b8687b8ad89e" category="list-text">Allocated Capacity: QoS 정책 그룹에 있는 오브젝트가 현재 사용하고 있는 공간의 크기입니다.</block>
   <block id="b0ce459d424ac8a8bf4972ced4fa34af" category="list-text">Associated Objects: QoS 정책 그룹에 할당된 워크로드 수로, 볼륨 및 LUN으로 구분됩니다. 번호를 클릭하여 선택한 볼륨 또는 LUN에 대한 자세한 정보를 제공하는 페이지로 이동할 수 있습니다.</block>
   <block id="034dcd82cded6710adb9ee975eac3378" category="paragraph">자세한 내용은 의 항목을 참조하십시오 <block ref="d9e71bb30662a6bff1b9bdd194cdc91c" category="inline-link-macro-rx"></block>.</block>
@@ -11739,7 +11738,6 @@
   <block id="c1d47624946f3a469492d8dba1510dc8" category="paragraph">다음 단계에 따라 MetroCluster over FC 구성의 데이터 복제에 문제가 있는지 확인합니다.</block>
   <block id="5627136cfa219c91be032bfe00b32183" category="list-text">상태: 모든 클러스터 * 보기에서 MetroCluster 복제 세부 정보를 보려는 클러스터의 이름을 클릭합니다. 클러스터/상태 세부 정보 * 페이지에서 * MetroCluster 복제 * 탭을 클릭합니다.</block>
   <block id="97e6ec6e4baff4ed6d4035d75d3c5ddd" category="paragraph">복제할 MetroCluster 구성의 토폴로지는 데이터가 미러링되는 원격 사이트에 대한 정보와 함께 해당 클러스터 개체 영역의 로컬 사이트에 표시됩니다. 아이콘 위로 포인터를 이동하면 생성된 이벤트에 대한 자세한 정보를 볼 수 있습니다.</block>
-  <block id="bcd77e19082ab48b2d951080763c8616" category="paragraph">에 표시된 정보를 사용하여 복제 문제를 해결할 수 있습니다. MetroCluster 구성에서 미러링 문제를 발견한 경우, System Manager에 로그인하거나 ONTAP CLI에 액세스하여 문제를 해결해야 합니다.</block>
   <block id="89e3093deb573e631e9912227e8a119e" category="paragraph">Unified Manager를 설치하거나, 최신 버전으로 업그레이드하거나, Unified Manager 애플리케이션을 제거할 수 있습니다.</block>
   <block id="7e32d4718f2e4988b5bedbbf8300e1be" category="paragraph">을 참조하십시오 <block ref="faea1ae077af360ba8a684d0f5eba7d8" category="inline-link-macro-rx"></block>.</block>
   <block id="f91923991c8993a30a6a751c98474af6" category="list-text">지원되는 웹 브라우저의 새 창에서 웹 UI를 시작하고 로그인하여 Unified Manager의 업그레이드된 버전을 사용하십시오.</block>
@@ -11913,4 +11911,7 @@
   <block id="21f927966fb538fc77f7b83256804bf9" category="sidebar">Active IQ Unified Manager 9.13 문서</block>
   <block id="f2c4e14eadf113bcbadf371fc730a271" category="sidebar">MetroCluster 구성을 모니터링합니다</block>
   <block id="8bd5d1eafb044b6a37f8a95068bd98a6" category="sidebar">Unified Manager용 API 참조입니다</block>
+  <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">클러스터/상태 세부 정보 페이지에 표시된 정보를 사용하여 복제 문제를 해결할 수 있습니다. MetroCluster 구성에서 미러링 문제를 발견한 경우, System Manager에 로그인하거나 ONTAP CLI에 액세스하여 문제를 해결해야 합니다.</block>
+  <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">Associated Objects: QoS 정책 그룹에 할당된 워크로드 수입니다. 확장 단추(<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>) QoS 정책 그룹 이름 옆에 있는 을 클릭하여 정책 그룹에 대한 자세한 정보를 봅니다.</block>
+  <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">Windows 관리자로 PowerShell 또는 명령 프롬프트를 시작합니다.</block>
 </blocks>

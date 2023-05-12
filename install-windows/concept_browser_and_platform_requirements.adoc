@@ -15,7 +15,7 @@ Unified Manager 웹 UI에 액세스하려면 지원되는 브라우저를 사용
 
 상호 운용성 매트릭스에는 지원되는 브라우저 버전 목록이 있습니다.
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
+http://["mysupport.netapp.com/matrix"^]
 
 모든 브라우저의 경우 팝업 차단기를 비활성화하면 소프트웨어 기능이 제대로 표시됩니다.
 

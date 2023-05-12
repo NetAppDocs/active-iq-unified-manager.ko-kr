@@ -17,4 +17,4 @@ Active IQ Unified Manager(이전의 OnCommand Unified Manager)를 사용하면 �
 
 * 관련 정보 *
 
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"]
+https://["NetApp 상호 운용성 매트릭스 툴"]

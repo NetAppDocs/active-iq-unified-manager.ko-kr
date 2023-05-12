@@ -132,7 +132,7 @@ PSL의 이름입니다.
 PSL에 할당된 스토리지 워크로드 수입니다.
 
 |===
-ONTAP 클러스터에서 피크 IOPS와 예상 IOPS가 일관된 차별화된 성능을 달성하는 데 어떤 도움이 되는지 알아보려면 다음 KB 문서를 참조하십시오.https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F["성능 예산이란 무엇입니까?"]
+ONTAP 클러스터에서 피크 IOPS와 예상 IOPS가 일관된 차별화된 성능을 달성하는 데 어떤 도움이 되는지 알아보려면 다음 KB 문서를 참조하십시오.https://["성능 예산이란 무엇입니까?"]
 
 
 
