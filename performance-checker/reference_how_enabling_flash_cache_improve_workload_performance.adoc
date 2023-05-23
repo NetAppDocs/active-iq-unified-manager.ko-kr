@@ -21,4 +21,4 @@ ONTAP System Manager나 ONTAP 명령을 사용하여 Flash Cache가 설치되어
 
 Flash Cache 및 Flash Cache 사용에 대한 자세한 내용은 다음 기술 보고서를 참조하십시오.
 
-http://["기술 보고서 3832: Flash Cache 모범 사례 가이드 를 참조하십시오"]
+http://www.netapp.com/us/media/tr-3832.pdf["기술 보고서 3832: Flash Cache 모범 사례 가이드 를 참조하십시오"]

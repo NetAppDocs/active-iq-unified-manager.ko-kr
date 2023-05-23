@@ -19,7 +19,7 @@ WFA(OnCommand Workflow Automation)와 Unified Manager 간에 보안 연결을 �
 +
 [NOTE]
 ====
-WFA 5.1에는 "'Clustered Data ONTAP를 관리하기 위한 WFA 팩'이 포함되어 있으므로 NetApp Storage Automation Store에서 이 팩을 다운로드하여 이전에 필요한 WFA 서버에 별도로 설치할 필요가 없습니다.  https://["ONTAP 관리를 위한 WFA 팩"]
+WFA 5.1에는 "'Clustered Data ONTAP를 관리하기 위한 WFA 팩'이 포함되어 있으므로 NetApp Storage Automation Store에서 이 팩을 다운로드하여 이전에 필요한 WFA 서버에 별도로 설치할 필요가 없습니다.  https://automationstore.netapp.com/pack-list.shtml["ONTAP 관리를 위한 WFA 팩"]
 
 ====
 * WFA 및 Unified Manager 연결을 지원하려면 Unified Manager에서 생성한 데이터베이스 사용자의 이름이 있어야 합니다.
@@ -48,4 +48,4 @@ Workflow Automation 페이지가 표시됩니다.
 
 * 관련 정보 *
 
-http://["NetApp 설명서: OnCommand Workflow Automation(최신 릴리즈)"]
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550["NetApp 설명서: OnCommand Workflow Automation(최신 릴리즈)"]

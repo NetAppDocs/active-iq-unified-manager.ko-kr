@@ -23,7 +23,7 @@ NOTE: Active IQ 규칙은 CA(Config Advisor) 보안 규칙이라고도 합니다
 * Active IQ 포털 이벤트 보고를 활성화해야 합니다. 이 기능은 기본적으로 활성화되어 있습니다. 자세한 내용은 을 참조하십시오 link:../config/concept_active_iq_platform_events.html["Active IQ 포털 이벤트 활성화"].
 * NetApp Support 사이트에서 규칙 파일을 다운로드해야 합니다.
 +
-규칙 파일은 다음 위치에 있습니다. https://[]
+규칙 파일은 다음 위치에 있습니다. https://mysupport.netapp.com/api/content-service/staticcontents/content/public/tools/unifiedmanager/ca/secure_rules.zip[]
 
 
 
@@ -47,4 +47,4 @@ NOTE: Windows 시스템의 경우 네트워크에 연결되지 않은 사이트�
 
 규칙 파일의 압축이 Unified Manager 서버에서 풀립니다. 자정 이후 관리 클러스터에서 AutoSupport 파일이 생성되면 Unified Manager에서 규칙 파일에 대해 클러스터를 확인하고 필요에 따라 새로운 위험 및 인시던트 이벤트를 생성합니다.
 
-자세한 내용은 다음 기술 자료(KB) 문서를 참조하십시오. https://["Active IQ Unified Manager에서 AIQCASecure 규칙을 수동으로 업데이트하는 방법"].
+자세한 내용은 다음 기술 자료(KB) 문서를 참조하십시오. https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/How_to_update_AIQCASecure_rules_manually_in_Active_IQ_Unified_Manager["Active IQ Unified Manager에서 AIQCASecure 규칙을 수동으로 업데이트하는 방법"].

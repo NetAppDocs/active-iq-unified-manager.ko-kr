@@ -22,7 +22,7 @@ NetApp Support 사이트에 대한 로그인 자격 증명이 있어야 합니�
 .단계
 . NetApp Support 사이트에 로그인하고 Unified Manager의 다운로드 페이지로 이동합니다.
 +
-https://["NetApp Support 사이트"]
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp Support 사이트"]
 
 . Unified Manager의 필수 버전을 선택하고 최종 사용자 라이센스 계약(EULA)에 동의합니다.
 . 를 다운로드하고 저장합니다 `.tar` vSphere Client에서 액세스할 수 있는 로컬 디렉토리 또는 네트워크 디렉토리에 VMware vSphere 설치를 위한 파일입니다.

@@ -71,4 +71,4 @@ summary: 용량 및 성능 인벤토리에서 클러스터, 애그리게이트 �
 . Workload Analysis * 페이지에서 * Capacity Trend * 영역에서 ""클라우드 계층 보기"를 선택하여 이전 달의 로컬 성능 계층과 클라우드 계층에서 사용되는 용량을 확인할 수 있습니다.
 
 
-FabricPool Aggregate에 대한 자세한 내용은 를 참조하십시오 https://["디스크 및 애그리게이트 개요"].
+FabricPool Aggregate에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["디스크 및 애그리게이트 개요"].

@@ -49,4 +49,4 @@ du-sh/opt/netapp/data/ 명령을 사용하여 현재 크기를 확인합니다.
 
 
 
-NFS 볼륨을 생성하는 자세한 단계는 를 참조하십시오 https://["ONTAP 9에서 NFSv4를 구성하는 방법"] 및 http://["ONTAP 9 NFS 구성 익스프레스 가이드 를 참조하십시오"].
+NFS 볼륨을 생성하는 자세한 단계는 를 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode["ONTAP 9에서 NFSv4를 구성하는 방법"] 및 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-nfsv3-cg/home.html["ONTAP 9 NFS 구성 익스프레스 가이드 를 참조하십시오"].

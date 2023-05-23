@@ -34,7 +34,7 @@ VMware vSphere 시스템의 Unified Manager OVA는 내부적으로 Debian OS 11(
 
 지원되는 ESXi 버전의 전체 및 최신 목록은 상호 운용성 매트릭스 를 참조하십시오.
 
-http://["mysupport.netapp.com/matrix"]
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
 
 VMware ESXi 서버 시간은 가상 어플라이언스가 올바르게 작동할 수 있도록 NTP 서버 시간과 동일해야 합니다. VMware ESXi 서버 시간을 NTP 서버 시간과 동기화하면 시간 오류가 방지됩니다.
 

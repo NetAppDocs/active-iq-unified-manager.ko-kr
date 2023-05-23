@@ -28,4 +28,4 @@ VMware * Restart Guest * 옵션을 사용하여 vSphere에서 가상 머신을 �
 
 * 관련 정보 *
 
-https://["VMware vSphere PowerCLI cmdlet 참조: 재시작 - VMGuest"]
+https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html["VMware vSphere PowerCLI cmdlet 참조: 재시작 - VMGuest"]

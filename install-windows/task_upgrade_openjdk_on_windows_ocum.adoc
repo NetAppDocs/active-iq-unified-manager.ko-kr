@@ -23,7 +23,7 @@ Unified Manager가 설치된 시스템에 대한 Windows 관리자 권한이 있
 . Unified Manager 호스트 시스템에서 admin 사용자로 로그인합니다.
 . OpenJDK 사이트에서 대상 시스템으로 적절한 버전의 OpenJDK(64비트)를 다운로드합니다.
 +
-예를 들어, 에서 openjdk-11_windows-x64_bin.zip 를 다운로드하십시오 http://[].
+예를 들어, 에서 openjdk-11_windows-x64_bin.zip 를 다운로드하십시오 http://jdk.java.net/11/`[].
 
 . Windows 서비스 콘솔을 사용하여 다음 Unified Manager 서비스를 중지합니다.
 +

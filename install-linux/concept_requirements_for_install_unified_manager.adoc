@@ -17,8 +17,8 @@ NetApp은 Unified Manager 애플리케이션 코드의 수정을 지원하지 �
 
 Unified Manager 서버에 보안 조치를 적용하는 방법에 대한 자세한 내용은 기술 자료 문서를 참조하십시오.
 
-https://["Clustered Data ONTAP을 위해 Active IQ Unified Manager에 적용된 보안 조치에 대한 지원 가능성"]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Supportability_for_Security_Measures_applied_to_Active_IQ_Unified_Manager_for_Clustered_Data_ONTAP["Clustered Data ONTAP을 위해 Active IQ Unified Manager에 적용된 보안 조치에 대한 지원 가능성"]
 
 * 관련 정보 *
 
-https://["NetApp 상호 운용성 매트릭스 툴"]
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"]

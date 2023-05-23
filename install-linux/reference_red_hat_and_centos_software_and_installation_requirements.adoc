@@ -25,7 +25,7 @@ Linux 시스템에는 다음 버전의 운영 체제와 지원 소프트웨어�
 
 지원되는 Red Hat Enterprise Linux 및 CentOS 버전의 전체 최신 목록은 상호 운용성 매트릭스를 참조하십시오.
 
-http://["mysupport.netapp.com/matrix"]
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
 
 
 

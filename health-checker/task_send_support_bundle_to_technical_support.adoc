@@ -23,6 +23,6 @@ AutoSupport 메시지에서 제공하는 것보다 문제에 더 자세한 진�
 . NetApp Support 사이트에 로그인합니다.
 . 파일을 업로드합니다.
 +
-https://["NetApp에 파일을 업로드하는 방법"]
+https://kb.netapp.com/Advice_and_Troubleshooting/Miscellaneous/How_to_upload_a_file_to_NetApp["NetApp에 파일을 업로드하는 방법"]
 
 

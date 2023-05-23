@@ -27,7 +27,7 @@ MetroCluster 구성에서 데이터 저장소를 보기 전에 다음 사전 요
 * HA 쌍의 운영 클러스터와 보조 클러스터와 vCenter Server는 Unified Manager를 통해 관리해야 합니다.
 * ONTAP 및 vCenter Server에서 필요한 설정을 완료해야 합니다. 자세한 내용은 ONTAP 및 vCenter 설명서를 참조하십시오.
 +
-https://["ONTAP 9 문서 센터"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]
 
 
 
@@ -60,7 +60,7 @@ https://["ONTAP 9 문서 센터"]
 설정에 대한 자세한 내용은 ONTAP and vCenter Server 설명서를 참조하십시오.
 
 +
-https://["ONTAP 9 문서 센터"]
+https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]
 
 
 
