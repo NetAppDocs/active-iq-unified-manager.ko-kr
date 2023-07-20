@@ -27,7 +27,7 @@ summary: 정기 생성 및 배포를 예약할 보기 또는 Excel 파일이 있
 . 기본 제공 Unified Manager 기능을 사용하여 필요에 따라 뷰를 사용자 지정합니다.
 . 보기를 사용자 지정한 후 * 보기 * 필드에 고유한 이름을 입력하고 확인 표시를 클릭하여 저장할 수 있습니다.
 +
-image::../media/view_save.gif[저장 보기]
+image::../media/view_save.gif[보기를 저장하는 방법을 보여 주는 UI 스크린샷입니다.]
 
 . Microsoft ® Excel의 고급 기능을 사용하여 보고서를 사용자 지정할 수 있습니다. 자세한 내용은 을 참조하십시오 link:task_use_excel_to_customize_your_report.html["Excel을 사용하여 보고서를 사용자 지정합니다"].
 . 예약 또는 공유하기 전에 출력을 보려면:
@@ -67,7 +67,7 @@ Excel을 사용하여 콘텐츠를 사용자 지정한 보고서의 경우 항�
 ====
 . 확인 표시(image:../media/blue_check.gif[""])를 클릭하여 보고서 일정을 저장합니다.
 +
-image::../media/scheduled_reports.gif[예약된 보고서]
+image::../media/scheduled_reports.gif[보고서 일정을 저장하는 방법을 보여 주는 UI 스크린샷입니다.]
 
 +
 보고서가 즉시 테스트로 전송됩니다. 그런 다음 예약된 빈도를 사용하여 나열된 수신자에게 보고서를 생성하고 e-메일로 보냅니다.

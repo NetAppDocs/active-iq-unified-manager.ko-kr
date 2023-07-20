@@ -23,7 +23,7 @@ Unified Manager를 사용하려면 먼저 NTP 서버, 유지보수 사용자 이
 
 Active IQ Unified Manager 시작 페이지는 웹 UI에 처음 액세스할 때만 나타납니다. 아래 페이지는 VMware 설치 페이지입니다.
 
-image::../media/first_experience_wizard.JPG[첫 번째 환경 마법사]
+image::../media/first_experience_wizard.JPG[VMware의 설치 페이지를 보여 주는 UI 스크린샷입니다.]
 
 나중에 이 옵션 중 하나를 변경하려면 Unified Manager의 왼쪽 탐색 창에서 일반 옵션에서 원하는 옵션을 선택합니다. NTP 설정은 VMware 설치에만 해당되며 나중에 Unified Manager 유지보수 콘솔을 사용하여 변경할 수 있습니다.
 

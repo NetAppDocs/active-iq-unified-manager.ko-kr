@@ -28,7 +28,7 @@ summary: 이 보고서는 새 워크로드를 프로비저닝할 수 있는 애�
 . 사용자 정의 보기의 이름을 지정하고 'Available IOPS per Aggregr.'를 저장합니다
 . 보고서 * > * Excel 다운로드 * 를 선택합니다.
 +
-image::../media/download_excel_menu.png[Excel 메뉴 다운로드]
+image::../media/download_excel_menu.png[보고서에서 Excel을 다운로드하는 방법을 보여 주는 UI 스크린샷입니다.]
 
 +
 브라우저에 따라 * 확인 * 을 클릭하여 파일을 저장해야 할 수 있습니다.
@@ -62,7 +62,7 @@ Excel 파일을 다운로드한 동일한 보기에 있는지 확인합니다.
 보고서 * > * Excel 업로드 * 메뉴 항목 옆에 확인 표시가 나타납니다.
 
 +
-image::../media/upload_excel.png[Excel 업로드]
+image::../media/upload_excel.png[Excel을 보고서에 업로드하는 방법을 보여 주는 UI 스크린샷입니다.]
 
 . 예약된 보고서 * 를 클릭합니다.
 . 새 보고서의 일정 특성을 정의할 수 있도록 [일정 추가] * 를 클릭하여 [보고서 일정] 페이지에 새 행을 추가합니다.

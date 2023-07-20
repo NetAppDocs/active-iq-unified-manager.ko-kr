@@ -25,4 +25,4 @@ Unified Manager에서 관리하는 모든 클러스터의 성능을 모니터링
 . 탐색기 페이지 오른쪽의 비교 창에서 카운터 차트 중 하나에서 * 확대/축소 보기 * 를 클릭하여 해당 애그리게이트의 성능 기록에 대한 세부 정보를 봅니다.
 
 
-image::../media/monitor_cluster_performance.png[클러스터 성능을 모니터링합니다]
+image::../media/monitor_cluster_performance.png[특정 집계를 조사하는 방법을 보여 주는 UI 스크린샷입니다.]

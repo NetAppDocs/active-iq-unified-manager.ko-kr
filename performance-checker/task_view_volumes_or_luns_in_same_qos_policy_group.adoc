@@ -23,7 +23,7 @@ summary: 동일한 QoS 정책 그룹에 할당된 볼륨 및 LUN의 목록을 �
 성능: 기존 QoS 정책 그룹 보기가 기본적으로 표시됩니다.
 
 . 기존 정책 그룹에 관심이 있는 경우 이 페이지를 계속 참조하십시오. 그렇지 않으면 추가 보기 옵션 중 하나를 선택하여 모든 적응형 QoS 정책 그룹 또는 Unified Manager Performance Service 레벨에 의해 생성된 모든 QoS 정책 그룹을 표시합니다.
-. 관심 있는 QoS 정책에서 확장 단추( 를 클릭합니다image:../media/chevron_down.gif[""]) QoS 정책 그룹 이름 옆에 있는 을 클릭하여 자세한 내용을 봅니다.image:../media/adaptive_qos_expanded.gif[""]
+. 관심 있는 QoS 정책에서 확장 단추( 를 클릭합니다image:../media/chevron_down.gif["확장 단추 아이콘"]) QoS 정책 그룹 이름 옆에 있는 을 클릭하여 자세한 내용을 봅니다.image:../media/adaptive_qos_expanded.gif["Unified Manager Performance Service 레벨에 의해 생성된 모든 QoS 정책 그룹을 보여 주는 UI 스크린샷입니다."]
 . 이 QoS 정책을 사용하여 객체를 보려면 Volumes 또는 LUN 링크를 클릭합니다.
 +
 볼륨 또는 LUN의 성능 인벤토리 페이지는 QoS 정책을 사용하는 개체의 정렬된 목록과 함께 표시됩니다.

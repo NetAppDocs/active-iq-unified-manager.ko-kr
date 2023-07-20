@@ -33,7 +33,7 @@ summary: 상세 사용된 성능 용량 - 분석 차트는 운영 노드와 파�
 성능 세부 정보 차트 사용된 용량이 표시됩니다.
 
 +
-image::../media/headroom_advanced_zoom_chart.gif[여유 공간 고급 확대/축소 차트]
+image::../media/headroom_advanced_zoom_chart.gif[Perf에 대한 세부 차트를 보여 주는 UI 스크린샷입니다. 사용된 용량.]
 
 . 상세 차트 위로 커서를 이동하면 팝업 창에서 사용된 성능 용량이 표시됩니다.
 +

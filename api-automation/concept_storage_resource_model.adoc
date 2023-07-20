@@ -28,4 +28,4 @@ ONTAP에서 제공하는 물리적 스토리지 객체를 나타냅니다. 물�
 
 다음 그림에서는 2노드 클러스터의 스토리지 리소스를 보여 줍니다.
 
-image::../media/storage_resource_model.gif[스토리지 리소스 모델]
+image::../media/storage_resource_model.gif[2노드 클러스터의 스토리지 리소스를 보여 주는 UI 스크린샷]

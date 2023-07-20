@@ -15,7 +15,7 @@ summary: 사용된 성능 용량 카운터를 사용하면 노드 성능이 저�
 
 사용된 최적의 성능 용량은 노드 또는 애그리게이트의 활용률이 최적의 지연 시간(응답 시간)이 있으며 효율적인 사용 중인 지점입니다. 다음 그림에서는 Aggregate에 대한 샘플 지연 시간 및 활용률 곡선이 표시되어 있습니다.
 
-image::../media/headroom_chart.gif[여유 공간 차트]
+image::../media/headroom_chart.gif[애그리게이트의 활용률 곡선과 비교한 샘플 지연 시간을 보여 주는 UI 스크린샷입니다.]
 
 이 예제에서 _operational point_는 aggregate가 현재 50% 사용률로 작동하고 있으며 지연 시간은 1.0ms/op인 것을 식별합니다. Unified Manager는 aggregate에서 얻은 통계를 기반으로 이 애그리게이트에 사용할 수 있는 추가 성능 용량을 결정합니다. 이 예에서 _optimal point_는 aggregate가 80% 활용률이고 지연 시간이 2.0ms/op인 시점을 가리킵니다. 따라서 이 애그리게이트에 볼륨 및 LUN을 추가하여 시스템을 보다 효율적으로 사용할 수 있습니다.
 

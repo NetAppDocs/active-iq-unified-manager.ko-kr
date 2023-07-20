@@ -22,7 +22,7 @@ FC 기반 MetroCluster 구성은 데이터 미러링을 제공하며 전체 사�
  a| 
 MetroCluster 구성에서 클러스터 간 데이터 미러링은 정상입니다.
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["MetroCluster 연결 최적 아이콘"]
 
 
 
@@ -33,10 +33,10 @@ image:../media/metrocluster_connectivity_optimal.gif[""]
  a| 
 오류 발생 시 전환:
 
-image::../media/metrocluster_connectivity_down.gif[MetroCluster 연결이 다운되었습니다]
+image::../media/metrocluster_connectivity_down.gif[MetroCluster 연결이 다운되었습니다 아이콘]
 
 전환 성공:
 
-image::../media/metrocluster_connectivity_failover.gif[MetroCluster 연결 페일오버]
+image::../media/metrocluster_connectivity_failover.gif[MetroCluster 연결 페일오버 아이콘]
 
 |===

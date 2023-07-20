@@ -40,7 +40,7 @@ summary: '보기를 저장한 후에는 Excel 통합 문서 형식(.xlsx)으로 
 ** 새 시트 데이터 또는 정보의 이름을 지정하지 마십시오.
 
 
-* 사용자 지정된 Excel 파일이 있는 경우 * Reports * > * Upload Excel * 메뉴 항목 옆에 확인 표시가 있습니다. Excel 파일을 다운로드하면 사용자 지정 버전이 사용됩니다.image:../media/upload_excel.png[""]
+* 사용자 지정된 Excel 파일이 있는 경우 * Reports * > * Upload Excel * 메뉴 항목 옆에 확인 표시가 있습니다. Excel 파일을 다운로드하면 사용자 지정 버전이 사용됩니다.image:../media/upload_excel.png["Excel을 보고서에 업로드하는 방법을 보여 주는 UI 스크린샷입니다."]
 
 
 ====

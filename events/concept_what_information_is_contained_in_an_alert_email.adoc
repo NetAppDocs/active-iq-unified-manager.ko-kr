@@ -19,4 +19,4 @@ Unified Manager 경고 이메일은 이벤트 유형, 이벤트의 심각도, �
 
 다음은 알림 이메일의 예입니다.
 
-image::../media/um_email_alert.gif[UM 이메일 경고]
+image::../media/um_email_alert.gif[샘플 알림 이메일을 보여 주는 UI 스크린샷입니다.]

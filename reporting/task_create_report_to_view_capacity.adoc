@@ -24,7 +24,7 @@ summary: 합계 및 묶은 세로 막대형 차트 형식을 사용하여 Excel 
 . 왼쪽 탐색 창에서 * 스토리지 * > * 애그리게이트 * 를 클릭합니다.
 . 보고서 * > * Excel 다운로드 * 를 선택합니다.
 +
-image::../media/download_excel_menu.png[Excel 메뉴 다운로드]
+image::../media/download_excel_menu.png[보고서에서 Excel을 다운로드하는 방법을 보여 주는 UI 스크린샷입니다.]
 
 +
 브라우저에 따라 * 확인 * 을 클릭하여 파일을 저장해야 할 수 있습니다.
@@ -53,7 +53,7 @@ image::../media/download_excel_menu.png[Excel 메뉴 다운로드]
 
 
 
-image::../media/capacitysums.png[용량 합계]
+image::../media/capacitysums.png[현재 데이터를 기반으로 하는 총 용량을 보여 주는 데이터 시트의 UI 스크린샷입니다.]
 
 . 데이터 시트에서 * Total Data Capacity(GB) * 및 * Committed Capacity(GB) * 열을 선택합니다.
 . 삽입 * 메뉴에서 * 추천 차트 * 를 선택하고 * 묶은 세로 막대형 * 차트를 선택합니다.
@@ -61,7 +61,7 @@ image::../media/capacitysums.png[용량 합계]
 . 차트를 선택할 때 사용할 수 있는 * Design * 및 * Format * 메뉴를 사용하여 차트의 모양을 사용자 지정할 수 있습니다.
 . 원하는 대로 파일을 변경 내용과 함께 저장합니다. 파일 이름 또는 위치를 변경하지 마십시오.
 +
-image::../media/cluster_column_chart_2.png[클러스터 열 차트 2]
+image::../media/cluster_column_chart_2.png[총 데이터 및 커밋된 용량을 보여 주는 차트의 UI 스크린샷입니다.]
 
 . Unified Manager에서 * 보고서 * > * Excel 업로드 * 를 선택합니다.
 +
@@ -77,7 +77,7 @@ Excel 파일을 다운로드한 동일한 보기에 있는지 확인합니다.
 보고서 * > * Excel 업로드 * 메뉴 항목 옆에 확인 표시가 나타납니다.
 
 +
-image::../media/upload_excel.png[Excel 업로드]
+image::../media/upload_excel.png[Excel을 보고서에 업로드하는 방법을 보여 주는 UI 스크린샷입니다.]
 
 . 예약된 보고서 * 를 클릭합니다.
 . 새 보고서의 일정 특성을 정의할 수 있도록 [일정 추가] * 를 클릭하여 [보고서 일정] 페이지에 새 행을 추가합니다.

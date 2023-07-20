@@ -51,7 +51,7 @@ ONTAP를 사용하면 QoS 정책의 두 가지 유형을 만들 수 있지만, �
 |===
 다음 그림에서는 세 가지 옵션이 카운터 차트에 표시되는 방법의 예를 보여 줍니다.
 
-image::../media/3_qos_policy_charts.gif[3 QoS 정책 차트]
+image::../media/3_qos_policy_charts.gif[세 옵션이 카운터 차트에 표시되는 방법의 예를 보여 주는 UI 스크린샷입니다.]
 
 IOPS에 정의된 일반 QoS 정책이 워크로드의 IOPS/TB 차트에 표시되면 ONTAP는 IOPS 값을 IOPS/TB 값으로 변환하고 Unified Manager는 IOPS/TB 차트에 해당 정책을 "QoS, IOPS로 정의됨" 텍스트와 함께 표시합니다.
 

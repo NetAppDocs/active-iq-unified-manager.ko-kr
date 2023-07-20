@@ -33,11 +33,12 @@ summary: '현재 FabricPool 애그리게이트에 있는 볼륨 목록, 클라�
 +
 ** 디스크 유형에 FabricPool가 포함되어 있습니다
 ** 클라우드 권장에는 계층이 포함됩니다
-** 콜드 데이터가 10GB보다 큽니다image:../media/filter_cold_data.gif[""]
+** 콜드 데이터가 10GB보다 큽니다
+image:../media/filter_cold_data.gif["필터를 추가하고 적용하는 방법을 보여 주는 UI 스크린샷입니다."]
 
 
 . 콜드 데이터 열의 맨 위를 클릭하여 가장 차가운 데이터가 있는 볼륨이 보기의 맨 위에 표시되도록 합니다.
-. 뷰에 표시되는 내용을 반영하는 이름으로 뷰를 저장합니다. 예를 들어 ""Vols change Tiering policy""를 사용할 수 있습니다.image:../media/report_vol_cold_data.gif[""]
+. 뷰에 표시되는 내용을 반영하는 이름으로 뷰를 저장합니다. 예를 들어 ""Vols change Tiering policy""를 사용할 수 있습니다.image:../media/report_vol_cold_data.gif["Vols CHANGE 계층화 정책 페이지가 표시되고 필요한 열이 올바른 순서로 표시되는 UI 스크린샷입니다."]
 . 재고 페이지에서 * Scheduled Reports * 버튼을 클릭합니다.
 . 새 보고서의 일정 특성을 정의할 수 있도록 [일정 추가] * 를 클릭하여 [보고서 일정] 페이지에 새 행을 추가합니다.
 . 보고서 일정 이름을 입력하고 다른 보고서 필드를 입력한 다음 확인 표시(image:../media/blue_check.gif[""])를 클릭합니다.

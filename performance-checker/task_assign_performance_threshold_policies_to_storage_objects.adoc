@@ -52,14 +52,14 @@ summary: 성능 카운터 값이 정책 설정을 초과할 경우 Unified Manag
  a| 
 페이지의 모든 개체
  a| 
-를 클릭합니다 image:../media/select_dropdown_65_png.gif[""] 드롭다운 상자에서 * 이 페이지의 모든 개체 선택 * 을 선택합니다.
+를 클릭합니다 image:../media/select_dropdown_65_png.gif["드롭다운 아이콘을 선택합니다"] 드롭다운 상자에서 * 이 페이지의 모든 개체 선택 * 을 선택합니다.
 
 
 
  a| 
 동일한 유형의 모든 개체
  a| 
-를 클릭합니다 image:../media/select_dropdown_65_png.gif[""] 드롭다운 상자에서 * 모든 개체 선택 * 을 선택합니다.
+를 클릭합니다 image:../media/select_dropdown_65_png.gif["드롭다운 아이콘을 선택합니다"] 드롭다운 상자에서 * 모든 개체 선택 * 을 선택합니다.
 
 |===
 +

@@ -18,7 +18,7 @@ Unified Manager에서 철저히 진단하고 * Fix it * 버튼을 사용하여 �
 .단계
 . 대시보드 * 에서 수정할 수 있는 이벤트를 보려면 * 대시보드 * 를 클릭합니다.
 +
-image::../media/management_actions.png[관리 작업]
+image::../media/management_actions.png[대시보드에서 이벤트를 보고 수정하는 방법을 보여 주는 UI 스크린샷입니다.]
 
 . Unified Manager로 해결할 수 있는 문제를 해결하려면 * Fix it * 버튼을 클릭합니다. 여러 개체에 존재하는 문제를 해결하려면 * 모두 수정 * 버튼을 클릭합니다.
 

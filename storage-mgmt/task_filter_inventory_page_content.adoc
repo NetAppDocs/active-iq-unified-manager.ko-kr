@@ -61,6 +61,6 @@ Enum(텍스트)
 
 그림에는 3개의 필터가 있는 필터링 패널이 나와 있습니다. 최대 4개 이하의 필터가 있는 경우 * + 필터 추가 * 버튼이 표시됩니다.
 
-image::../media/opm_filtering_panel_draft_3.gif[OPM 필터링 패널 초안 3]
+image::../media/opm_filtering_panel_draft_3.gif[세 개의 필터가 있는 필터링 패널을 보여 주는 UI 스크린샷입니다.]
 
 필터 적용 * 을 클릭하면 필터링 패널이 닫히고 필터가 적용되고 적용된 필터 수가 표시됩니다(image:../media/opm_filters_applied.gif[""])를 클릭합니다.

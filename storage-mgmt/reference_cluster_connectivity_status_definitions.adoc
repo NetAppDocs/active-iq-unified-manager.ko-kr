@@ -22,7 +22,7 @@ FC를 통한 MetroCluster 구성의 클러스터 간 접속은 Optimal(최적), 
  a| 
 MetroCluster 구성에서 클러스터 간 접속은 정상입니다.
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["MetroCluster 연결 최적 아이콘"]
 
 
 
@@ -31,7 +31,7 @@ image:../media/metrocluster_connectivity_optimal.gif[""]
  a| 
 하나 이상의 오류로 인해 장애 조치 가용성 상태가 저하되지만 MetroCluster 구성의 두 클러스터가 여전히 작동 중입니다. 예를 들어, ISL 링크가 다운되거나, 인터클러스터 IP 링크가 다운되거나, 파트너 클러스터에 연결할 수 없는 경우
  a| 
-image:../media/metrocluster_connectivity_impacted.gif[""]
+image:../media/metrocluster_connectivity_impacted.gif["MetroCluster 연결이 영향을 받음 아이콘"]
 
 
 
@@ -42,10 +42,10 @@ MetroCluster 구성에서 클러스터 간 연결이 다운된 이유는 클러�
  a| 
 오류 발생 시 전환:
 
-image::../media/metrocluster_connectivity_down.gif[MetroCluster 연결이 다운되었습니다]
+image::../media/metrocluster_connectivity_down.gif[MetroCluster 연결이 다운되었습니다 아이콘]
 
 전환 성공:
 
-image::../media/metrocluster_connectivity_failover.gif[MetroCluster 연결 페일오버]
+image::../media/metrocluster_connectivity_failover.gif[MetroCluster 연결 페일오버 아이콘]
 
 |===

@@ -32,7 +32,7 @@ summary: 하드웨어 장애 또는 재해로 인해 보호 관계의 소스 볼
 역관계는 다중 구간 관계와 비슷합니다.
 
 +
-image::../media/um_toplogy_reverse_resync.gif[UM TOplogy 역방향 재동기화]
+image::../media/um_toplogy_reverse_resync.gif[역관계의 프로세스를 보여 주는 UI 스크린샷입니다.]
 
 . link:task_break_snapmirror_relationship_from_health_volume_details.html["역방향 SnapMirror 관계를 나눕니다"].
 +

@@ -15,7 +15,7 @@ summary: 스위치오버 또는 스위치백을 트리거하는 이벤트는 활
 
 볼륨이 한 클러스터에서 다른 클러스터로 이동되므로 두 클러스터를 모두 모니터링하는 것이 좋습니다. Unified Manager의 단일 인스턴스가 MetroCluster 구성에서 두 클러스터를 모두 모니터링할 수 있지만, 두 위치 간 거리가 필요한 경우 두 Unified Manager 인스턴스를 사용하여 두 클러스터를 모니터링해야 하는 경우도 있습니다. 다음 그림에서는 Unified Manager의 단일 인스턴스를 보여 줍니다.
 
-image::../media/opm_mcc_switchover.gif[OPM MCC 절체]
+image::../media/opm_mcc_switchover.gif[Unified Manager의 단일 인스턴스를 보여 주는 UI 스크린샷입니다.]
 
 이름에 p 가 있는 볼륨은 기본 볼륨을 나타내고, 이름에 b 가 있는 볼륨은 SnapMirror에서 만든 미러링된 백업 볼륨입니다.
 
@@ -45,7 +45,7 @@ Vol3p와 Vol3b는 서로 다른 클러스터에 있으므로 동일한 볼륨이
 
 클러스터 B가 복구되고 스위치백 이 수행되면 클러스터 B에서 Vol3p가 다시 활성화되며, 전환 중에 기간별 통계 및 기간의 통계 차이가 표시됩니다. Vol3b는 다른 전환이 발생할 때까지 클러스터 A에서 볼 수 없습니다.
 
-image::../media/opm_mcc_volumes.gif[OPM MCC 볼륨]
+image::../media/opm_mcc_volumes.gif[전환 중 볼륨 동작을 보여 주는 UI 스크린샷입니다.]
 
 [NOTE]
 ====
