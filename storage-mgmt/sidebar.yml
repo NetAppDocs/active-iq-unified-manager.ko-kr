@@ -71,6 +71,8 @@ entries:
   entries:
   - title: vCenter Server 보기 및 추가
     url: "/storage-mgmt/task_view_and_add_vcenter_servers.html"
+  - title: vCenter Server를 제거하는 중입니다
+    url: "/storage-mgmt/task_remove_vcenter_server.html"
   - title: 가상 머신 모니터링
     url: "/storage-mgmt/concept_monitor_vms.html"
   - title: 재해 복구 설정에서 가상 인프라 보기

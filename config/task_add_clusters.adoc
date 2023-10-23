@@ -48,7 +48,8 @@ summary: 클러스터를 모니터링할 수 있도록 Active IQ Unified Manager
 +
 [NOTE]
 ====
-*** 웹 UI에서 클러스터를 추가하면 인증서 기반 인증이 자동으로 활성화됩니다. 유지보수 콘솔에서 클러스터를 추가하면 인증서 기반 인증이 사용되지 않습니다.
+*** 웹 UI에서 클러스터를 추가할 수 있으며 인증서 기반 인증이 자동으로 활성화됩니다.
+*** Unified Manager CLI를 통해 클러스터를 추가할 수 있으며, 인증서 기반 인증은 기본적으로 사용되지 않습니다. Unified Manager CLI를 사용하여 클러스터를 추가하는 경우 Unified Manager UI를 사용하여 클러스터를 편집해야 합니다. 확인할 수 있습니다 link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["지원되는 Unified Manager CLI 명령"] 을 사용하여 Unified Manager CLI를 사용하여 클러스터를 추가합니다.
 *** 클러스터에 대해 인증서 기반 인증을 사용하고 서버에서 Unified Manager 백업을 수행한 후 호스트 이름 또는 IP 주소가 변경된 다른 Unified Manager 서버로 복원하면 클러스터 모니터링이 실패할 수 있습니다. 이 문제를 방지하려면 클러스터 세부 정보를 편집하고 저장합니다. 클러스터 세부 정보 편집에 대한 자세한 내용은 을 참조하십시오 link:../storage-mgmt/task_edit_clusters.html["클러스터 편집"].
 
 
