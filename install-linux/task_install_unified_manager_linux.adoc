@@ -40,14 +40,14 @@ Red Hat Enterprise Linux 또는 CentOS 시스템에는 필요한 지원 소프�
 
 
  a| 
-OpenJDK 버전 11.0.17
+OpenJDK 버전 11.0.21
  a| 
 자바 버전
 
 
 
  a| 
-MySQL 8.0.32 커뮤니티 에디션
+MySQL 8.0.34 커뮤니티 에디션
  a| 
 "rpm-qa|grep-i mysql"을 참조하십시오
 
@@ -59,7 +59,7 @@ p7zip 16.02
 "rpm-qa|grep p7zip"
 
 |===
-. 설치된 MySQL 버전이 MySQL 8.0.32 Community Edition보다 이전 버전인 경우 다음 명령을 입력하여 설치를 제거합니다.
+. 설치된 MySQL 버전이 MySQL 8.0.34 Community Edition보다 이전 버전인 경우 다음 명령을 입력하여 제거합니다.
 +
 "rpm -e <mysql_package_name>"를 입력합니다
 

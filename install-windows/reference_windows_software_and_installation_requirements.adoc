@@ -48,10 +48,10 @@ NOTE: NetApp은 Microsoft SCCM(System Center Configuration Manager)과 같은 �
 
 * Microsoft Visual C&#43;&#43; 2015 재배포 가능 패키지 버전 14.26.28720.3
 * Microsoft Visual C&#43;&#43; Visual Studio 2013 버전 12.0.40660.0용 재배포 가능 패키지
-* MySQL Community Edition 버전 8.0.32
-* Python 3.11.2
-* OpenJDK 버전 11.0.18
-* p7zip 버전 18.05 이상
+* MySQL Community Edition 버전 8.0.34
+* 파이썬 3.11.6
+* OpenJDK 버전 11.0.20
+* p7zip 버전 23.01 이상
 
 
 [NOTE]

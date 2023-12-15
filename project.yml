@@ -1,14 +1,16 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.13
+  name: Active IQ Unified Manager 9.14
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: false
   versions:
-  - version-number: '9.13'
+  - version-number: '9.14'
     url: "/active-iq-unified-manager"
+  - version-number: '9.13'
+    url: "/active-iq-unified-manager-913"
   - version-number: '9.12'
     url: "/active-iq-unified-manager-912"
   - version-number: '9.11'
@@ -18,7 +20,7 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: Active IQ Unified Manager 9.13 문서
+  - title: Active IQ Unified Manager 9.14 문서
     url: "/index.html"
   - title: 릴리스 정보
     url: "/reference_release_notes.html"
@@ -128,7 +130,7 @@ homepage:
     - title: 스토리지 프로비저닝
       url: "/api-automation/concept_provision_workflow.html"
     - title: Unified Manager용 API 참조입니다
-      url: https://library.netapp.com/ecmdocs/ECMLP2885890/html/index.html
+      url: https://library.netapp.com/ecmdocs/ECMLP2886876/html/index.html
   - title: 이벤트 및 경고
     links:
     - title: 대시보드
