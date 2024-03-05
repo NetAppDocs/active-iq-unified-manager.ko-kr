@@ -25,7 +25,9 @@ Linux 시스템에는 다음 버전의 운영 체제와 지원 소프트웨어�
 
 지원되는 Red Hat Enterprise Linux 및 CentOS 버전의 전체 최신 목록은 상호 운용성 매트릭스를 참조하십시오.
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
+
+서버는 Unified Manager 실행 전용으로 사용되어야 합니다. 서버에 다른 응용 프로그램을 설치할 수 없습니다. 회사 규정으로 인해 Qualys와 같은 취약점 검사가 Linux 시스템에 설치될 수 있습니다. 설치가 실패하지 않도록 Unified Manager를 설치하기 전에 취약점 검사기를 비활성화해야 합니다.
 
 
 
