@@ -30,6 +30,9 @@ http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
 서버는 Unified Manager 실행 전용으로 사용되어야 합니다. 서버에 다른 응용 프로그램을 설치할 수 없습니다. 회사 규정으로 인해 Qualys와 같은 취약점 검사가 Linux 시스템에 설치될 수 있습니다. 설치가 실패하지 않도록 Unified Manager를 설치하기 전에 취약점 검사기를 비활성화해야 합니다.
 
 
+NOTE: 취약점 스캐너(예: Qualys)는 내부(Unified Manager 및 취약점 스캐너가 동일한 VM에 설치된 VM) 또는 외부 중 가상 시스템(VM)을 검사할 때 CPU 사용량이 높을 수 있습니다 (Unified Manager와 취약점 검사기가 두 서버에 설치되고 취약점 검사기가 Unified Manager가 설치된 VM을 검사하는 경우). 이 문제로 인해 VM이 응답하지 않게 되고 Unified Manager 서비스에 영향을 미치는 경우가 많습니다. 따라서 NetApp Unified Manager가 설치된 VM에서 취약점 검사기를 사용하지 않도록 설정하는 것이 좋습니다. 스캐너를 비활성화할 수 없는 경우 업무 시간이 아닌 시간에 VM을 스캔하고 스캔이 완료된 후 서비스를 다시 시작합니다.
+
+
 
 == 타사 소프트웨어
 

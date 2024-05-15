@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/task_abort_an_active_data_protection_transfer.html 
 sidebar: sidebar 
-keywords: abort, active data protection, transfer, volume relationships page, smbc, sm-bc 
+keywords: abort, active data protection, transfer, volume relationships page, SnapMirror active sync 
 summary: 진행 중인 SnapMirror 복제를 중지하려는 경우 활성 데이터 보호 전송을 중단할 수 있습니다. 기본 전송 이후에 전송을 위해 재시작 체크포인트를 지울 수도 있습니다. 볼륨 이동 같은 다른 작업과 충돌하는 경우 전송을 중단할 수 있습니다. 
 ---
 = 볼륨 관계 페이지에서 활성 데이터 보호 전송을 중단합니다

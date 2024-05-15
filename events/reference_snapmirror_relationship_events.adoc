@@ -183,7 +183,7 @@ ONTAP 중재자를 클러스터에서 액세스할 수 없습니다(snap미러or
 
 
  a| 
-ONTAP 중재자 연결이 다시 설정되었으며 SMBC(snap미러orMediatorInQuorum)에 대해 다시 동기화되고 준비되었습니다.
+ONTAP 중재자 연결이 다시 설정되었으며 재동기화되어 SnapMirror 활성 동기화(snapmirorMediatorInQuorum)를 수행할 준비가 되었습니다.
  a| 
 이벤트
  a| 

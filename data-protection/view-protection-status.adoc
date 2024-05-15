@@ -72,7 +72,7 @@ summary: 데이터 보호 페이지는 데이터 센터의 모든 보호된 볼�
 
 * 지난 24시간 동안 발생한 이벤트를 포함하여 SnapMirror 관계에 대해 발생한 개별 이벤트입니다
 * 각 유형의 SnapMirror 정책으로 보호되는 볼륨 수입니다.
-* 비동기 미러, 비동기 볼트, 비동기 MirrorVault, StricxtSync, SMBC(SnapMirror Business Continuity) 일관성 그룹 및 동기화와 같이 SnapMirror 관계 유형으로 보호되는 관계 수입니다.
+* 비동기식 미러, 비동기식 볼트, 비동기식 MirrorVault, StricxtSync, SnapMirror 액티브 동기화 일관성 그룹 및 Sync와 같은 SnapMirror 관계 유형으로 보호되는 관계의 수입니다.
 * 건강하고 비정상적인 관계의 수.
 * 볼륨 관계 카운트의 분할입니다. RPO 지연 시간 및 상태를 기준으로 차트를 전환할 수 있습니다.
 * 관리되지 않는 관계에 대한 지연 임계값입니다. 설정 아이콘(image:../media/Settings.PNG["지연 임계값 설정을 나타내는 아이콘입니다"])을 클릭하여 지연 임계값 설정을 구성합니다. 자세한 내용은 을 참조하십시오 link:../health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html["관리되지 않는 보호 관계에 대한 지연 임계값 설정 구성"].

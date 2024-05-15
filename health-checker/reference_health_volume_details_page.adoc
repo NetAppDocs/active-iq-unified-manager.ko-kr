@@ -571,7 +571,7 @@ SnapMirror 전송이 시작되었지만 연결된 일부 작업이 대기 중입
 
 ** 정합성 보장 그룹
 +
-SM-BC(SnapMirror Business Continuity) 관계에 의해 보호되는 볼륨의 경우 이 열에는 볼륨의 일관성 그룹이 표시됩니다.
+SnapMirror 활성 동기화 관계로 보호되는 볼륨의 경우 이 열에 볼륨의 일관성 그룹이 표시됩니다.
 
 
 

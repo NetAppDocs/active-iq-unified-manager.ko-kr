@@ -5218,7 +5218,6 @@
   <block id="5c370c70723397269b4ad914c34496a7" category="list-text">에 의해 보호됩니다</block>
   <block id="15d2dc848def03f15b9f71fac220a033" category="paragraph">선택한 볼륨에 사용된 보호 유형을 표시합니다. 예를 들어, 볼륨이 정합성 보장 그룹 및 SnapMirror 볼륨 관계에 의해 보호되는 경우 이 필드에 SnapMirror와 정합성 보장 그룹이 모두 표시됩니다. 이 필드에는 통합 관계 상태를 볼 수 있도록 관계 페이지로 리디렉션하는 링크도 제공됩니다. 링크는 구성 관계에만 적용됩니다.</block>
   <block id="5f37c1cb711ed8c309b0301fb0061e23" category="list-text">정합성 보장 그룹</block>
-  <block id="a2e58da0c14632bd760681821ca1dcc1" category="paragraph">SM-BC(SnapMirror Business Continuity) 관계에 의해 보호되는 볼륨의 경우 이 열에는 볼륨의 일관성 그룹이 표시됩니다.</block>
   <block id="b5626a635c1d79df6fc54d9b5833eac2" category="list-text">뷰 *</block>
   <block id="07c17f8fe1079d9e5598e259b13b9010" category="paragraph">선택한 볼륨의 보호 토폴로지를 표시합니다. 토폴로지에는 선택한 볼륨과 관련된 모든 볼륨의 그래픽 표현이 포함됩니다. 선택한 볼륨은 짙은 회색 테두리로 표시되며 토폴로지의 볼륨 간 선은 보호 관계 유형을 나타냅니다. 토폴로지에서 관계의 방향은 왼쪽부터 오른쪽, 왼쪽에는 각 관계의 소스와 오른쪽에는 대상이 표시됩니다.</block>
   <block id="de22a966c00bb6c3b2d618284de781eb" category="paragraph">이중 굵은 선 비동기 미러 관계를 지정하고, 하나의 굵은 선으로 비동기 볼트 관계를 지정하고, 두 개의 단일 선으로 비동기 MirrorVault 관계를 지정하고, 굵은 선과 굵은 선이 동기 관계를 지정합니다. 아래 표는 동기 관계가 StrictSync 또는 동기화인지 여부를 나타냅니다.</block>
@@ -8351,10 +8350,6 @@
   <block id="177fc6042efaa10f5da934e8c746e9ba" category="section-title">SnapMirror Synchronous 보호 - 정기적인 동기화</block>
   <block id="9eb6583bd652338b8737991ca4e97e19" category="paragraph">"리큘러" 동기화를 통한 SnapMirror Synchronous 보호에서는 1차 볼륨과 2차 볼륨이 항상 서로 진정한 복사본일 필요가 없으며, 따라서 1차 볼륨의 가용성이 보장됩니다. 보조 볼륨에 데이터를 쓰려고 할 때 복제 실패가 발생하면 운영 볼륨과 보조 볼륨이 동기화되지 않고 클라이언트 입출력이 운영 볼륨으로 계속됩니다.</block>
   <block id="796715bf5d06ffb08971971b344b2f98" category="paragraph">상태: 모든 볼륨 보기 또는 볼륨/상태 세부 정보 페이지에서 동기 보호 관계를 모니터링할 때는 복원 단추와 관계 작업 단추를 사용할 수 없습니다.</block>
-  <block id="6456c750ab46f84e25768e136ae08a82" category="section-title">SnapMirror Synchronous 비즈니스 연속성</block>
-  <block id="584350b61ad29e1e1d778af4083e84be" category="paragraph">ONTAP 9.8 이상에서는 SnapMirror SM-BC(비즈니스 연속성) 기능을 사용할 수 있으며, 이 기능을 사용하여 LUN이 있는 애플리케이션을 보호할 수 있으므로 애플리케이션이 투명하게 페일오버할 수 있으므로 재해 발생 시 비즈니스 연속성을 보장할 수 있습니다.</block>
-  <block id="ae29cba1567ab4b1a3f0d7c52960df9d" category="paragraph">Unified Manager에서 클러스터 및 스토리지 가상 머신에서 사용 가능한 CG(Consistency Group)를 위한 동기식 SnapMirror 관계를 검색하고 모니터링할 수 있습니다. SM-BC는 AFF 클러스터 또는 모든 ASA(SAN 어레이) 클러스터에서 지원되며, 운영 클러스터와 보조 클러스터는 AFF 또는 ASA가 될 수 있습니다. SM-BC는 iSCSI 또는 FCP LUN을 사용하여 애플리케이션을 보호합니다.</block>
-  <block id="74560fead831fee65bfebe70198203e9" category="paragraph">SM-BC 관계에 의해 보호되는 볼륨 및 LUN을 볼 때 보호 관계, 볼륨 인벤토리의 정합성 보장 그룹, 정합성 보장 그룹 관계의 보호 토폴로지 보기, 정합성 보장 그룹 관계에 대한 기간별 데이터 보기 등을 통합적으로 확인할 수 있습니다. 보고서를 다운로드할 수도 있습니다. 또한 정합성 보장 그룹 관계 요약, 정합성 보장 그룹 관계 검색 지원 및 정합성 보장 그룹에 의해 보호되는 볼륨에 대한 정보를 확인할 수 있습니다.</block>
   <block id="4c7cb2eaa5d8a4da948d7b43d793ef6d" category="paragraph">관계 페이지에서 소스 및 대상 스토리지 객체와 정합성 보장 그룹에 의해 보호되는 해당 관계의 보호를 정렬, 필터링 및 확장할 수도 있습니다.</block>
   <block id="6bf9a6b3154714a1730ade6361c842bd" category="summary">Unified Manager 및 OnCommand Workflow Automation를 사용하여 데이터를 보호하기 위해 SnapMirror 및 SnapVault 관계를 설정하기 위해 수행해야 하는 몇 가지 단계가 있습니다.</block>
   <block id="81397c4f6430c2248df8ebe7f3c2231a" category="doc">Unified Manager에서 보호 관계 설정</block>
@@ -8516,7 +8511,6 @@
   <block id="c74ef0ad0926bec2c390801a5390449c" category="list-text">* 선택 사항: * 브라우저의 뒤로 화살표를 클릭하여 * 볼륨/상태 * 세부 정보 페이지로 돌아갑니다.</block>
   <block id="a6746425c25768de3f5829c152822679" category="summary">소스 볼륨에서 팬아웃 또는 기존 관계의 대상 볼륨에서 캐스케이드하여 기존 관계로부터 보호를 확장할 수 있습니다. 한 사이트에서 여러 사이트로 데이터를 복사하거나 더 많은 백업을 만들어 추가 보호 기능을 제공해야 하는 경우 이 작업을 수행할 수 있습니다.</block>
   <block id="eccb90afe26b65475a488e0727572002" category="doc">계단식 또는 팬아웃 관계를 생성하여 기존 보호 관계로부터 보호를 확장합니다</block>
-  <block id="01fd56d56b8b61ed28591ffda8aca61b" category="paragraph">모든 볼륨을 하나의 엔터티로 관리할 수 있도록 여러 볼륨을 포함하는 컨테이너인 일관성 그룹을 사용하여 보호 기능을 볼륨으로 확장할 수 있습니다. Unified Manager의 관계 페이지에서 SM-BC(SnapMirror Business Continuity) 일관성 그룹과 동기식 정합성 보장 그룹 관계를 볼 수 있습니다.</block>
   <block id="fbe2671f1c071a92df1476b2d7fc9056" category="list-text">보호 * &gt; * 관계 * 를 클릭합니다. 또는 볼륨 세부 정보 페이지에서 관계를 볼 수도 있습니다.</block>
   <block id="2193e4925531a683d9994daa17151105" category="list-text">볼륨 관계 * 페이지에서 보호를 확장할 SnapMirror 관계를 선택합니다.</block>
   <block id="e0668805326fcf173c6ad9cc1e3beac1" category="list-text">작업 표시줄에서 * 보호 확장 * 을 클릭합니다.</block>
@@ -8716,7 +8710,6 @@
   <block id="37b62c5243b3ac0c86b34681cb1f66d3" category="paragraph">SnapMirror 관계에 대한 소스 클러스터의 이름을 표시합니다.</block>
   <block id="7f835af0acf6578c40118036c326b1fd" category="list-text">* 소스 노드 *</block>
   <block id="c82a77c5e0228ddadab3bd5aa89bba3e" category="paragraph">볼륨의 SnapMirror 관계에 대한 소스 노드 이름 링크 이름을 표시하고 객체가 스토리지 VM 또는 정합성 보장 그룹일 경우 SnapMirror 관계 노드 수 링크를 표시합니다.</block>
-  <block id="2f1951fc98d71ae4db2a6daf6cfd535b" category="paragraph">사용자 지정 뷰에서 노드 이름 링크를 클릭하면 SM-BC 관계에 속하는 해당 정합성 보장 그룹의 볼륨이 있는 스토리지 객체에 대한 보호를 확인하고 확장할 수 있습니다.</block>
   <block id="b7b60d8edfb33c514a3b2bdef700d1e7" category="paragraph">노드 수 링크를 클릭하면 해당 관계와 연결된 각 노드가 있는 노드 페이지로 이동됩니다. 노드 수가 0이면 관계에 연결된 노드가 없으므로 값이 표시되지 않습니다.</block>
   <block id="b50bbbbd2ce1ff5ad4dd7cb67add6f1d" category="list-text">* 대상 노드 *</block>
   <block id="99678ea767aff0838702576fb67a7b91" category="paragraph">볼륨의 SnapMirror 관계에 대한 대상 노드 이름 링크의 이름을 표시하고, 개체가 스토리지 VM 또는 일관성 그룹인 경우 SnapMirror 관계 노드 수 링크를 표시합니다.</block>
@@ -8852,10 +8845,7 @@
   <block id="4f4be27246c1f2e23ad1c219e5dd5db7" category="paragraph">관계 제거 대화 상자가 표시됩니다.</block>
   <block id="2f90961e23f0b8e6ac76ba33e3fe7e35" category="list-text">관계를 제거하려면 * 계속 * 을 클릭합니다.</block>
   <block id="d26e8b929a6697ea6726cc74d6df9b5d" category="paragraph">볼륨/상태 세부 정보 페이지에서 관계가 제거됩니다.</block>
-  <block id="8c748cd9318ed681edc4186889ac9837" category="summary">SM-BC로 보호되는 LUN의 통합 뷰</block>
   <block id="1ffd4c3f18af104630b0326e8c2dc2c9" category="doc">정합성 보장 그룹 관계에서 LUN 모니터링</block>
-  <block id="90d0141ba8dfef63f3b408f5a1db3980" category="paragraph">ONTAP 환경에서 LUN을 사용하여 애플리케이션을 보호하기 위해 SM-BC(SnapMirror 비즈니스 연속성)를 지원하는 경우 Active IQ Unified Manager에서 해당 LUN을 보고 모니터링할 수 있습니다.</block>
-  <block id="7beb94f6fbaef8cd847dcc4e98562c31" category="paragraph">SM-BC는 SAN 환경의 페일오버 중에 RTO(복구 시간 목표)를 0으로 보장합니다. SM-BC를 지원하는 일반적인 구축 환경에서는 볼륨의 LUN이 정합성 보장 그룹 관계에 의해 보호됩니다.</block>
   <block id="9341b9e1536cc8f4c3652c7e91c736d7" category="paragraph">이러한 운영 LUN과 보조 LUN은 복합 LUN이거나 UUID와 일련 번호가 같은 복제본 LUN 쌍입니다. 입출력 작업(읽기 및 쓰기 모두)은 이러한 복합 LUN의 소스 및 대상 사이트에서 멀티플렉싱되므로 투명성이 보장됩니다.</block>
   <block id="f1c21bacefc03e4bd3d91418d06734d5" category="paragraph">복합 LUN을 보려면 정합성 보장 그룹 관계의 일부인 LUN이 포함된 운영 클러스터와 보조 클러스터를 Unified Manager에서 추가하고 검색해야 합니다. iSCSI 및 FCP LUN만 지원됩니다.</block>
   <block id="ad5b7872fd9aa53772e0572d135d92ac" category="paragraph">환경에서 복합 LUN을 보려면 다음 단계를 수행하십시오.</block>
@@ -10880,9 +10870,6 @@
   <block id="3890f9f0f1b24b11ec99c5302bb245a3" category="paragraph">자세한 내용은 을 참조하십시오<block ref="ae0acc7a1cf35a69eb7b42685c902841" category="inline-link-rx"></block></block>
   <block id="10ca66f0a363b90a579ee48398d9ca6c" category="inline-link">ONTAP REST API 자동화</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
-  <block id="304235bddd1bfe240019774dacdbd71e" category="inline-link-macro">SM-BC용 ONTAP 9 문서</block>
-  <block id="2eaa1a82c95cbdf0e4d38d70a85a96d7" category="paragraph">SnapMirror Synchronous 비즈니스 연속성에 대한 자세한 내용은 을 참조하십시오 <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>.</block>
-  <block id="e6426dd2e05e7210d50c422898f18af7" category="paragraph">SM-BC에 대한 자세한 내용은 를 참조하십시오 <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
@@ -11029,7 +11016,6 @@
   <block id="a6bacc83dfdb1c9689535a09836f8550" category="paragraph">클러스터에서 ONTAP 중재자를 연결할 수 없습니다(snap미러orMediatorUnreachable).</block>
   <block id="cf7f72fb2e3e5a9df104130ba81c194e" category="paragraph">중재자</block>
   <block id="da953faa02ca184ebcadd69694229ca0" category="paragraph">ONTAP 중재자를 클러스터에서 액세스할 수 없습니다(snap미러orMediatorMisConfigured).</block>
-  <block id="dc7d8942cdb2f367c68f30d022efa7f0" category="paragraph">ONTAP 중재자 연결이 다시 설정되었으며 SMBC(snap미러orMediatorInQuorum)에 대해 다시 동기화되고 준비되었습니다.</block>
   <block id="8002c010879d451de4416c97251e7e29" category="summary">스토리지 VM 연결 페이지에서는 소스 및 대상 스토리지 VM 간의 기존 스토리지 VM 연결을 볼 수 있습니다.</block>
   <block id="b31a8b073692fe4fc7d0416d77032d55" category="doc">스토리지 VM 연결 이해</block>
   <block id="8210ed29bdbce4c1e73c2d1c02b5282d" category="paragraph">스토리지 가상 머신(스토리지 VM)은 리소스 선택 및 2차 볼륨 프로비저닝을 위해 파트너 애플리케이션이 사용하는 소스 스토리지 VM에서 대상 스토리지 VM으로 매핑되는 것입니다.</block>
@@ -11053,7 +11039,6 @@
   <block id="b518d96f65df8e3a8c5bd9b294314ee7" category="paragraph">기본적으로 관계 페이지에 액세스할 때 표시되는 보고서에는 볼륨 및 스토리지 VM 모두에 대한 최상위 보호 관계가 포함됩니다. 페이지 위쪽에 있는 컨트롤을 사용하면 특정 보기를 선택하고, 검색을 수행하여 특정 개체를 찾고, 필터를 만들어 적용하여 표시된 데이터 목록의 범위를 좁히고, 페이지에서 열을 추가/제거/재정렬하고, 페이지의 데이터를 .csv, .pdf, 또는 .xlsx 파일. 페이지를 사용자 지정한 후 결과를 사용자 정의 보기로 저장한 다음 이 데이터의 보고서를 정기적으로 생성 및 이메일로 전송할 수 있습니다. 기본적으로 * 관계 * 메뉴를 선택하면 데이터 센터에 있는 볼륨 및 스토리지 VM에 대한 보호 관계가 표시된 보고서에 포함됩니다. Filter * 옵션을 사용하면 볼륨 또는 스토리지 VM만 등 선택한 스토리지 시스템만 볼 수 있습니다. 동일한 보고서가 스토리지 페이지와 선택한 스토리지 엔티티에 대해서만 표시됩니다. 볼륨 또는 스토리지 VM 관계를 보려면 * 스토리지 * &gt; * 볼륨 * &gt; * 관계: 모든 관계 * 페이지에 액세스하거나 * 보호 * &gt; * 관계 * &gt; * 관계: 모든 관계 * 를 선택하고 * 필터 * 의 * 관계 객체 유형 * 옵션을 사용하여 볼륨 또는 스토리지 VM 데이터만 필터링합니다.</block>
   <block id="fcd4ecf1cf7bb8267ec59d4f89b505b1" category="list-text">* 중개자 *</block>
   <block id="496eb323c2ee5c388095071435b45af0" category="paragraph">중재자 상태를 표시합니다.</block>
-  <block id="6b186591bdb6b54c5178194cd438daf3" category="paragraph">클러스터에서 SnapMirror 비즈니스 연속성을 지원하지 않는 경우</block>
   <block id="6470ad126b37899e643afe35ff51f8fd" category="paragraph">구성되어 있지 않거나, 구성되어 있지만 대상 클러스터만 추가되고 소스 클러스터가 Unified Manager에 추가되지 않은 경우</block>
   <block id="26eeb2415026ecc2a99b19ae10c4e13e" category="list-text">중재자 IP 주소</block>
   <block id="a5a42e7a9482f606a51f46baffc94087" category="paragraph">구성되어 있고 소스 클러스터와 대상 클러스터가 Unified Manager에 모두 추가됩니다.</block>
@@ -11072,7 +11057,6 @@
   <block id="48815cc485f34516122d402c7691bcbc" category="section-title">SnapMirror 관계의 보호 상태를 봅니다</block>
   <block id="eebf9b70421de9e6316f48de3e2cef0b" category="list-text">지연 상태에 따라 RPO(복구 시점 목표) 지연을 경험한 SnapMirror 관계의 총 수</block>
   <block id="2cd111e77d7b5983398bdaaaee149c7b" category="list-text">각 유형의 SnapMirror 정책으로 보호되는 볼륨 수입니다.</block>
-  <block id="5c421974ea0511d51906133dd8756205" category="list-text">비동기 미러, 비동기 볼트, 비동기 MirrorVault, StricxtSync, SMBC(SnapMirror Business Continuity) 일관성 그룹 및 동기화와 같이 SnapMirror 관계 유형으로 보호되는 관계 수입니다.</block>
   <block id="43e5aa2d7191d2fad1b5eb6a2779c47c" category="list-text">건강하고 비정상적인 관계의 수.</block>
   <block id="2fb2c7d03a760408a3f8150c23df4876" category="list-text">볼륨 관계 카운트의 분할입니다. RPO 지연 시간 및 상태를 기준으로 차트를 전환할 수 있습니다.</block>
   <block id="63a0f94f271c2db3ea63bb2e1407963f" category="section-title">SnapMirror 관계에 대한 참고 사항을 나타냅니다</block>
@@ -11908,4 +11892,35 @@
   <block id="ceb9d7e61726cd2e35badf78afd8453a" category="paragraph">할당량 이메일 주소에 대한 규칙을 정의하고 이를 실행할 순서대로 입력해야 합니다. 예를 들어 abc@xyz.com 전자 메일 주소를 사용하여 abc에 대한 할당량 위반에 대한 알림을 받고 다른 모든 그룹에 대해 전자 메일 주소 dl-$group@$ domain을 사용하려면 규칙이 다음 순서로 나열되어야 합니다.</block>
   <block id="b3740ac32eb3afc08f5d73d7308fc75d" category="list-text">만약 ($user=='abc')이면 abc@xyz.com 입니다</block>
   <block id="76484226a58b4aaad54c923ee565c2de" category="list-text">IF($group== *) dl-$group@$domain</block>
+  <block id="4057b81effceded4a0d56ba83fa2bc4c" category="paragraph">AMQP Qpid 브로커</block>
+  <block id="09cc1306955a7d5b2ed367969d4e9d57" category="paragraph">TCP/IP를 선택합니다</block>
+  <block id="3fd4f2a86b42ebe6b3b976affb0cc116" category="paragraph">56072입니다</block>
+  <block id="a57499f599c00f53ae0461f15154ab23" category="paragraph">내부 메시지 통신에 사용됩니다.</block>
+  <block id="b8ac2ebe76541bcac8e63005436a105a" category="paragraph">TCP를 통한 WebSocket</block>
+  <block id="b86f29c888784d2245f887b509b5dd32" category="paragraph">56080</block>
+  <block id="794b0fbf4e314ba18f71dba00d68d9b8" category="paragraph">이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다.</block>
+  <block id="00595c0d01d488a33a068852a0c6b2b8" category="paragraph">56443입니다</block>
+  <block id="cd91ff9e0f252c06c8c6dc37f1c29ba7" category="paragraph">이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다. 이 포트를 통한 통신은 TLS 또는 SSL에서 제공하는 암호화를 지원합니다.</block>
+  <block id="d5ab8dc7ef67ca92e41d730982c5c602" category="paragraph">있습니다</block>
+  <block id="c566a5dbb0e92fc14cf27c5abc3316bd" category="paragraph">이 페이지에서 AMQP 관리 UI 인터페이스를 시작하는 데 사용됩니다.</block>
+  <block id="5c481563f3b57863c0a290b809a1e6ff" category="paragraph">이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다. 이 포트를 통한 통신은 TLS 또는 SSL에서 제공하는 암호화를 지원합니다.</block>
+  <block id="7c6fa12173c375a840189f157e3cf098" category="admonition">취약점 스캐너(예: Qualys)는 내부(Unified Manager 및 취약점 스캐너가 동일한 VM에 설치된 VM) 또는 외부 중 가상 시스템(VM)을 검사할 때 CPU 사용량이 높을 수 있습니다 (Unified Manager와 취약점 검사기가 두 서버에 설치되고 취약점 검사기가 Unified Manager가 설치된 VM을 검사하는 경우). 이 문제로 인해 VM이 응답하지 않게 되고 Unified Manager 서비스에 영향을 미치는 경우가 많습니다. 따라서 NetApp Unified Manager가 설치된 VM에서 취약점 검사기를 사용하지 않도록 설정하는 것이 좋습니다. 스캐너를 비활성화할 수 없는 경우 업무 시간이 아닌 시간에 VM을 스캔하고 스캔이 완료된 후 서비스를 다시 시작합니다.</block>
+  <block id="c3d15a1717019bd68103a42fb3ccc50c" category="paragraph">SnapMirror 활성 동기화 관계로 보호되는 볼륨의 경우 이 열에 볼륨의 일관성 그룹이 표시됩니다.</block>
+  <block id="800a82ff69e2f8716a21195c4646947e" category="paragraph">ONTAP 중재자 연결이 다시 설정되었으며 재동기화되어 SnapMirror 활성 동기화(snapmirorMediatorInQuorum)를 수행할 준비가 되었습니다.</block>
+  <block id="c0b79db5f258f0c991a383cbdbf001dd" category="section-title">SnapMirror 활성 동기화</block>
+  <block id="aa7fa8d22937f0168ab9aa9ac2f11f1e" category="paragraph">SnapMirror Active Sync 기능은 ONTAP 9.8 이상에서 사용할 수 있으며 이 기능을 사용하여 LUN을 사용하여 애플리케이션을 보호할 수 있으므로 재해 발생 시 애플리케이션이 투명하게 페일오버되도록 하여 비즈니스 연속성을 보장할 수 있습니다.</block>
+  <block id="aa3834427e0a44621b2f97d130d97f0e" category="paragraph">Unified Manager에서 클러스터 및 스토리지 가상 머신에서 사용 가능한 CG(Consistency Group)를 위한 동기식 SnapMirror 관계를 검색하고 모니터링할 수 있습니다. SnapMirror 액티브 동기화는 AFF 클러스터 또는 ASA(All SAN 어레이) 클러스터에서 지원됩니다. 운영 및 2차 클러스터는 AFF 또는 ASA이 가능합니다. SnapMirror 액티브 동기화는 iSCSI 또는 FCP LUN으로 애플리케이션을 보호합니다.</block>
+  <block id="43e6f02aa3159562e8d2c863b942c7ac" category="paragraph">SnapMirror 활성 동기화 관계로 보호되는 볼륨과 LUN을 보면 보호 관계, 볼륨 인벤토리의 일관성 그룹에 대한 통합 뷰를 볼 수 있고, 일관성 그룹 관계에 대한 보호 토폴로지를 볼 수 있으며, 최대 1년까지 일관성 그룹 관계에 대한 기간별 데이터를 볼 수 있습니다. 보고서를 다운로드할 수도 있습니다. 또한 정합성 보장 그룹 관계 요약, 정합성 보장 그룹 관계 검색 지원 및 정합성 보장 그룹에 의해 보호되는 볼륨에 대한 정보를 확인할 수 있습니다.</block>
+  <block id="74295afe091080605ebd13a7c5b13c16" category="inline-link-macro">SnapMirror Active Sync(이전의 SM-BC)용 ONTAP 9 문서</block>
+  <block id="4712d933ee439a4c6393014f4dabfd66" category="paragraph">SnapMirror 액티브 동기화에 대한 자세한 내용은 을 참조하십시오 <block ref="26496dd12886056779393da869786020" category="inline-link-macro-rx"></block>.</block>
+  <block id="c40044b752c941f30f770841b2eec4fe" category="list-text">비동기식 미러, 비동기식 볼트, 비동기식 MirrorVault, StricxtSync, SnapMirror 액티브 동기화 일관성 그룹 및 Sync와 같은 SnapMirror 관계 유형으로 보호되는 관계의 수입니다.</block>
+  <block id="66d02d4b9fa89d81026beec1263c3e7c" category="paragraph">모든 볼륨을 하나의 엔터티로 관리할 수 있도록 여러 볼륨을 포함하는 컨테이너인 일관성 그룹을 사용하여 보호 기능을 볼륨으로 확장할 수 있습니다. Unified Manager의 관계 페이지에서 SnapMirror 활성 동기화 일관성 그룹과 동기식 일관성 그룹 관계를 볼 수 있습니다.</block>
+  <block id="86e256d427f11c48ba32cc55c5e5ebe5" category="summary">SnapMirror 액티브 동기화로 보호되는 LUN의 통합 뷰</block>
+  <block id="6e91d63ec0b35d3854ade90b706d6b2e" category="paragraph">ONTAP 환경에서 에 SnapMirror 활성 동기화를 지원하는 경우
+LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 해당 LUN을 보고 모니터링할 수 있습니다.</block>
+  <block id="ef72865211ff0fce6e6d962bbeb49866" category="paragraph">SnapMirror 액티브 동기화는 SAN 환경에서 페일오버 중에 RTO(복구 시간 목표)가 0으로 보장됩니다. SnapMirror 액티브 동기화를 지원하는 일반 환경에서는 볼륨의 LUN이 일관성 그룹 관계로 보호됩니다.</block>
+  <block id="daf278f1f618b542e37f15b551577ad6" category="inline-link-macro">SnapMirror Active Sync(이전의 SM-BC)용 ONTAP 9 문서</block>
+  <block id="2e112a6ed41642ec6cb0dbac26f29548" category="paragraph">SnapMirror 활성 동기화에 대한 자세한 내용은 를 참조하십시오 <block ref="e7cb3673e0f365a4cb1a8a44c94d6d2b" category="inline-link-macro-rx"></block>.</block>
+  <block id="fcec3d8aa2186fbec2ebbc509e88c291" category="paragraph">클러스터가 SnapMirror 액티브 동기화를 지원하지 않는 경우</block>
+  <block id="f9c3a8b68e3ce1dccddf9f51467e0ed0" category="paragraph">사용자 지정 보기에서 노드 이름 링크를 클릭하면 해당 일관성 그룹의 볼륨이 SnapMirror 액티브 동기화 관계에 속하는 스토리지 개체에 대한 보호를 확인하고 확장할 수 있습니다.</block>
 </blocks>

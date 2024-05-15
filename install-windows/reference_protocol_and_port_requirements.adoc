@@ -101,6 +101,50 @@ MySQL
  a| 
 OnCommand 및 OnCommand Workflow Automation API Services에서 Unified Manager에 액세스할 수 있도록 설정하는 데 사용됩니다.
 
+
+
+ a| 
+AMQP Qpid 브로커
+ a| 
+TCP/IP를 선택합니다
+ a| 
+56072입니다
+ a| 
+내부 메시지 통신에 사용됩니다.
+
+
+
+ a| 
+AMQP Qpid 브로커
+ a| 
+TCP를 통한 WebSocket
+ a| 
+56080
+ a| 
+이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다.
+
+
+
+ a| 
+AMQP Qpid 브로커
+ a| 
+TCP를 통한 WebSocket
+ a| 
+56443입니다
+ a| 
+이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다. 이 포트를 통한 통신은 TLS 또는 SSL에서 제공하는 암호화를 지원합니다.
+
+
+
+ a| 
+AMQP Qpid 브로커
+ a| 
+HTTP
+ a| 
+있습니다
+ a| 
+이 페이지에서 AMQP 관리 UI 인터페이스를 시작하는 데 사용됩니다.
+
 |===
 [NOTE]
 ====
@@ -216,5 +260,38 @@ NTP
 123/UDP입니다
  a| 
 Unified Manager 서버의 시간을 외부 NTP 시간 서버와 동기화하는 데 사용됩니다. (VMware 시스템만 해당)
+
+
+
+ a| 
+AMQP Qpid 브로커
+ a| 
+TCP/IP를 선택합니다
+ a| 
+56072입니다
+ a| 
+내부 메시지 통신에 사용됩니다.
+
+
+
+ a| 
+AMQP Qpid 브로커
+ a| 
+TCP를 통한 WebSocket
+ a| 
+56080
+ a| 
+이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다.
+
+
+
+ a| 
+AMQP Qpid 브로커
+ a| 
+TCP를 통한 WebSocket
+ a| 
+56443입니다
+ a| 
+이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다. 이 포트를 통한 통신은 TLS 또는 SSL에서 제공하는 암호화를 지원합니다.
 
 |===

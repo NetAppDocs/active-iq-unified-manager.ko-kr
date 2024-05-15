@@ -1,8 +1,8 @@
 ---
 permalink: data-protection/view-lun-relationships.html 
 sidebar: sidebar 
-keywords: LUN, SM-BC, SnapMirror Business Continuity, Consistency Group, CG 
-summary: SM-BC로 보호되는 LUN의 통합 뷰 
+keywords: LUN, SnapMirror active sync, Consistency Group, CG 
+summary: SnapMirror 액티브 동기화로 보호되는 LUN의 통합 뷰 
 ---
 = 정합성 보장 그룹 관계에서 LUN 모니터링
 :allow-uri-read: 
@@ -11,15 +11,16 @@ summary: SM-BC로 보호되는 LUN의 통합 뷰
 
 
 [role="lead"]
-ONTAP 환경에서 LUN을 사용하여 애플리케이션을 보호하기 위해 SM-BC(SnapMirror 비즈니스 연속성)를 지원하는 경우 Active IQ Unified Manager에서 해당 LUN을 보고 모니터링할 수 있습니다.
+ONTAP 환경에서 에 SnapMirror 활성 동기화를 지원하는 경우
+LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 해당 LUN을 보고 모니터링할 수 있습니다.
 
-SM-BC는 SAN 환경의 페일오버 중에 RTO(복구 시간 목표)를 0으로 보장합니다. SM-BC를 지원하는 일반적인 구축 환경에서는 볼륨의 LUN이 정합성 보장 그룹 관계에 의해 보호됩니다.
+SnapMirror 액티브 동기화는 SAN 환경에서 페일오버 중에 RTO(복구 시간 목표)가 0으로 보장됩니다. SnapMirror 액티브 동기화를 지원하는 일반 환경에서는 볼륨의 LUN이 일관성 그룹 관계로 보호됩니다.
 
 이러한 운영 LUN과 보조 LUN은 복합 LUN이거나 UUID와 일련 번호가 같은 복제본 LUN 쌍입니다. 입출력 작업(읽기 및 쓰기 모두)은 이러한 복합 LUN의 소스 및 대상 사이트에서 멀티플렉싱되므로 투명성이 보장됩니다.
 
 복합 LUN을 보려면 정합성 보장 그룹 관계의 일부인 LUN이 포함된 운영 클러스터와 보조 클러스터를 Unified Manager에서 추가하고 검색해야 합니다. iSCSI 및 FCP LUN만 지원됩니다.
 
-SM-BC에 대한 자세한 내용은 를 참조하십시오 link:https://docs.netapp.com/us-en/ontap/smbc/index.html["SM-BC용 ONTAP 9 문서"].
+SnapMirror 활성 동기화에 대한 자세한 내용은 를 참조하십시오 link:https://docs.netapp.com/us-en/ontap/smbc/index.html["SnapMirror Active Sync(이전의 SM-BC)용 ONTAP 9 문서"].
 
 환경에서 복합 LUN을 보려면 다음 단계를 수행하십시오.
 

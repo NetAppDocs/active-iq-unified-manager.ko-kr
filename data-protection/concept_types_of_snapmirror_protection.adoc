@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/concept_types_of_snapmirror_protection.html 
 sidebar: sidebar 
-keywords: types, snapmirror, protection, consistency group, snapmirror business continuity, smbc, sm-bc 
+keywords: types, snapmirror, protection, consistency group, SnapMirror active sync 
 summary: 데이터 스토리지 토폴로지 구축에 따라 Unified Manager를 사용하여 다양한 유형의 SnapMirror 보호 관계를 구성할 수 있습니다. SnapMirror 보호의 모든 변형 기능은 페일오버 재해 복구 보호를 제공하지만 성능, 버전 유연성 및 다중 백업 복사본 보호에 있어 다른 기능을 제공합니다. 
 ---
 = SnapMirror 보호 유형입니다
@@ -72,14 +72,14 @@ SnapMirror 통합 복제를 사용하면 동일한 대상 볼륨에 재해 복�
 ====
 
 
-== SnapMirror Synchronous 비즈니스 연속성
+== SnapMirror 활성 동기화
 
-ONTAP 9.8 이상에서는 SnapMirror SM-BC(비즈니스 연속성) 기능을 사용할 수 있으며, 이 기능을 사용하여 LUN이 있는 애플리케이션을 보호할 수 있으므로 애플리케이션이 투명하게 페일오버할 수 있으므로 재해 발생 시 비즈니스 연속성을 보장할 수 있습니다.
+SnapMirror Active Sync 기능은 ONTAP 9.8 이상에서 사용할 수 있으며 이 기능을 사용하여 LUN을 사용하여 애플리케이션을 보호할 수 있으므로 재해 발생 시 애플리케이션이 투명하게 페일오버되도록 하여 비즈니스 연속성을 보장할 수 있습니다.
 
-Unified Manager에서 클러스터 및 스토리지 가상 머신에서 사용 가능한 CG(Consistency Group)를 위한 동기식 SnapMirror 관계를 검색하고 모니터링할 수 있습니다. SM-BC는 AFF 클러스터 또는 모든 ASA(SAN 어레이) 클러스터에서 지원되며, 운영 클러스터와 보조 클러스터는 AFF 또는 ASA가 될 수 있습니다. SM-BC는 iSCSI 또는 FCP LUN을 사용하여 애플리케이션을 보호합니다.
+Unified Manager에서 클러스터 및 스토리지 가상 머신에서 사용 가능한 CG(Consistency Group)를 위한 동기식 SnapMirror 관계를 검색하고 모니터링할 수 있습니다. SnapMirror 액티브 동기화는 AFF 클러스터 또는 ASA(All SAN 어레이) 클러스터에서 지원됩니다. 운영 및 2차 클러스터는 AFF 또는 ASA이 가능합니다. SnapMirror 액티브 동기화는 iSCSI 또는 FCP LUN으로 애플리케이션을 보호합니다.
 
-SM-BC 관계에 의해 보호되는 볼륨 및 LUN을 볼 때 보호 관계, 볼륨 인벤토리의 정합성 보장 그룹, 정합성 보장 그룹 관계의 보호 토폴로지 보기, 정합성 보장 그룹 관계에 대한 기간별 데이터 보기 등을 통합적으로 확인할 수 있습니다. 보고서를 다운로드할 수도 있습니다. 또한 정합성 보장 그룹 관계 요약, 정합성 보장 그룹 관계 검색 지원 및 정합성 보장 그룹에 의해 보호되는 볼륨에 대한 정보를 확인할 수 있습니다.
+SnapMirror 활성 동기화 관계로 보호되는 볼륨과 LUN을 보면 보호 관계, 볼륨 인벤토리의 일관성 그룹에 대한 통합 뷰를 볼 수 있고, 일관성 그룹 관계에 대한 보호 토폴로지를 볼 수 있으며, 최대 1년까지 일관성 그룹 관계에 대한 기간별 데이터를 볼 수 있습니다. 보고서를 다운로드할 수도 있습니다. 또한 정합성 보장 그룹 관계 요약, 정합성 보장 그룹 관계 검색 지원 및 정합성 보장 그룹에 의해 보호되는 볼륨에 대한 정보를 확인할 수 있습니다.
 
 관계 페이지에서 소스 및 대상 스토리지 객체와 정합성 보장 그룹에 의해 보호되는 해당 관계의 보호를 정렬, 필터링 및 확장할 수도 있습니다.
 
-SnapMirror Synchronous 비즈니스 연속성에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap/smbc/index.html["SM-BC용 ONTAP 9 문서"].
+SnapMirror 액티브 동기화에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/ontap/smbc/index.html["SnapMirror Active Sync(이전의 SM-BC)용 ONTAP 9 문서"].
