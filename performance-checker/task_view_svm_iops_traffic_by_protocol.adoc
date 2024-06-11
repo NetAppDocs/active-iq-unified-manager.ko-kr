@@ -19,7 +19,7 @@ summary: 성능/SVM 탐색기 페이지를 사용하여 SVM에 대한 자세한 
 * NFS 를 참조하십시오
 * FCP
 * iSCSI
-* NVMe를 참조하십시오
+* NVMe-FC를 지원합니다
 
 
 .단계

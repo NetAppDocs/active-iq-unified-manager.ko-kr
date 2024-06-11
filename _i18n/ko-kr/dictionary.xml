@@ -3054,7 +3054,6 @@
   <block id="1d1a594959ec615f56516f5d0f5e8ddb" category="list-text">NFS 를 참조하십시오</block>
   <block id="a7c815fafe60ae637d38216fa6300395" category="list-text">FCP</block>
   <block id="e4e1c13bb0b14f6cb7608cbecea948ef" category="list-text">iSCSI</block>
-  <block id="70d9e3c68d42d6ec42ab792e06c44357" category="list-text">NVMe를 참조하십시오</block>
   <block id="83d6279aff05f9fb65333ef455dcbbc3" category="list-text">선택한 SVM에 대한 * 성능/SVM 탐색기 * 페이지의 IOPS 차트에서 드롭다운 메뉴에서 * 프로토콜 * 을 선택합니다.</block>
   <block id="447706c449f59f43bf73830cfa98e1c2" category="paragraph">IOPS - 프로토콜 차트가 표시됩니다.</block>
   <block id="bd4b39dc1bb79b9a1bd07a73251e2579" category="list-text">특정 값을 보려면 커서를 차트 중 하나의 차트 영역으로 이동하여 팝업 창을 표시합니다.</block>
@@ -11971,4 +11970,5 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager 비디오</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager 블로그</block>
   <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">Active IQ Unified Manager 9.9 이전 버전에 대한 문서</block>
+  <block id="3ab5865f7b3fcc5851ae24144b15f370" category="list-text">NVMe-FC를 지원합니다</block>
 </blocks>
