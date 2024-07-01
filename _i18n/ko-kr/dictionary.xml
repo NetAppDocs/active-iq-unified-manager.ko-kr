@@ -1409,7 +1409,6 @@
   <block id="47bb143d7a3368c1527db57426ca08e2" category="list-text">서버에 대한 HTTPS 인증서를 다시 생성합니다.</block>
   <block id="4dd5d9e5f71def24c32fed75f03cad64" category="paragraph">'/opt/netapp/essentials/bin/cert.sh create'</block>
   <block id="8473e7d857ebdae7ad8557024a3c1cf9" category="list-text">네트워크 서비스를 다시 시작합니다.</block>
-  <block id="b3ca8da2a2327ebf4f97bafc6363e84d" category="paragraph">'Service network restart(서비스 네트워크 재시작)'</block>
   <block id="bd2b6ee9134bd55418f6638971d11a18" category="list-text">서비스가 다시 시작된 후 새 호스트 이름이 스스로 ping을 수행할 수 있는지 확인합니다.</block>
   <block id="4ce5888dbc17259a3375ffb15c2ce7a3" category="paragraph">'ping new_hostname'입니다</block>
   <block id="bdf2badbf9aee4e6a2355ea85ea2e904" category="paragraph">"ping nuhost"</block>
@@ -11971,4 +11970,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager 블로그</block>
   <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">Active IQ Unified Manager 9.9 이전 버전에 대한 문서</block>
   <block id="3ab5865f7b3fcc5851ae24144b15f370" category="list-text">NVMe-FC를 지원합니다</block>
+  <block id="db180f51718e113d9c8799523e66b6cc" category="paragraph"><block ref="84f8d8fcacc42af5df652e2ccc99304b" prefix="" category="inline-code"></block></block>
+  <block id="2ffae15ce7fc136fc840cd527bcfa491" category="list-text">클러스터 수준에서 Active IQ 인터페이스는 인증 방법 "cert"에 대한 두 개의 새 사용자 그룹 항목을 추가합니다.</block>
 </blocks>
