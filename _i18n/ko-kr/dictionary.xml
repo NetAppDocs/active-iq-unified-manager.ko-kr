@@ -356,7 +356,6 @@
   <block id="8717a81d4dc90139130ed5a3e6d56b94" category="list-text">MySQL 데이터 디렉토리용 50GB의 디스크 공간</block>
   <block id="118be0e1a3c862556b2a6426bdcd24de" category="paragraph">또한 Unified Manager의 두 번째 인스턴스를 설치하기 전에 Unified Manager의 단일 인스턴스에서 모니터링할 수 있는 노드 수에 제한이 있습니다. 자세한 내용은 _모범 사례 가이드_를 참조하십시오.</block>
   <block id="9650789293045a87cc14a47729b5ebfc" category="inline-link">기술 보고서 4621: Unified Manager 모범 사례 가이드</block>
-  <block id="badef135127b32313f0e0eebe283472f" category="paragraph"><block ref="badef135127b32313f0e0eebe283472f" category="inline-link-rx"></block></block>
   <block id="6605fc759866ab4c0dbffd94c7ca51ff" category="summary">Windows에서 Unified Manager를 다운로드하고 설치하는 일련의 단계를 이해하는 것이 중요합니다.</block>
   <block id="346162fec0924b3e715f450b30bfdbde" category="doc">Windows에 Unified Manager 설치</block>
   <block id="d8b2824dd58b8684d7afebae57a9ec15" category="doc">설치 프로세스 개요</block>
@@ -2669,7 +2668,6 @@
   <block id="68ae53130f456bd2456bb29985dbcab8" category="paragraph">ONTAP System Manager나 ONTAP 명령을 사용하여 Flash Cache가 설치되어 있는지, 설정되어 있지 않은 경우 사용하도록 설정할 수 있습니다. 다음 명령은 특정 노드에서 Flash Cache가 설정되었는지 여부를 나타냅니다. " * cluster::&gt; run local options flexscale.enable * "</block>
   <block id="4226c3da2a5d50e1c8abfdfbf9bd3780" category="paragraph">Flash Cache 및 Flash Cache 사용에 대한 자세한 내용은 다음 기술 보고서를 참조하십시오.</block>
   <block id="4d594fa378085e019a42ca73e740986c" category="inline-link">기술 보고서 3832: Flash Cache 모범 사례 가이드 를 참조하십시오</block>
-  <block id="e9f146d71f531c29c1d0c53c51f7c325" category="paragraph"><block ref="e9f146d71f531c29c1d0c53c51f7c325" category="inline-link-rx"></block></block>
   <block id="d6e5655513a6f8a12d56cb9ad8e864e6" category="summary">Unified Manager를 사용하면 MetroCluster 구성에서 클러스터 간 쓰기 처리량을 모니터링하여 쓰기 처리량이 많은 워크로드를 식별할 수 있습니다. 이러한 고성능 워크로드에 따라 로컬 클러스터의 다른 볼륨에 높은 I/O 응답 시간이 발생하는 경우 Unified Manager가 성능 이벤트를 트리거하여 사용자에게 알립니다.</block>
   <block id="2a3ed67f56b4d0718bea103e87a39b22" category="doc">MetroCluster 구성의 성능 모니터링</block>
   <block id="6e17ce3a1702178f4627a8d0eefc5a9f" category="paragraph">MetroCluster 구성의 로컬 클러스터가 데이터를 파트너 클러스터에 미러링하면 데이터가 NVRAM에 기록된 다음 ISL(Interswitch Link)을 통해 원격 애그리게이트로 전송됩니다. Unified Manager는 NVRAM을 분석하고, 높은 쓰기 처리량이 NVRAM을 지나치게 활용하여 NVRAM의 경합을 일으키는 워크로드를 파악합니다.</block>
@@ -3476,7 +3474,6 @@
   <block id="7c48a0120101491ea5a781058b5716de" category="doc">디스크를 추가하고 애그리게이트 레이아웃 재구성을 수행합니다</block>
   <block id="fdf3b7352c190d213c24db064ec3a78e" category="paragraph">이벤트 세부 정보 페이지에서 시스템 정의 임계값 이벤트를 수신하면 이벤트 설명 텍스트에 문제가 있는 애그리게이트의 이름이 나열됩니다. 이 애그리게이트에서 디스크를 추가하고 데이터를 재구성할 수 있습니다.</block>
   <block id="c993772a65e087ac68acfde3645c3287" category="inline-link">기술 보고서 3838: 스토리지 서브시스템 구성 가이드</block>
-  <block id="0379ced083df169219dc62cc5068b75c" category="paragraph"><block ref="0379ced083df169219dc62cc5068b75c" category="inline-link-rx"></block></block>
   <block id="effa6ec295d256166212c21ed1967250" category="summary">요약 페이지에는 이전 72시간 동안의 개체별 이벤트 및 성능에 대한 세부 정보가 포함된 카운터 차트가 표시됩니다. 이 데이터는 자동으로 새로 고쳐지지 않지만 마지막 페이지 로드 시점의 최신 데이터입니다. 요약 페이지의 차트는 더 자세히 살펴봐야 합니까?</block>
   <block id="84ca298df72ab058f684940ba6fc7883" category="paragraph">요약 페이지에는 이전 72시간 동안의 개체별 이벤트 및 성능에 대한 세부 정보가 포함된 카운터 차트가 표시됩니다. 이 데이터는 자동으로 새로 고쳐지지 않지만 마지막 페이지 로드 시점의 최신 데이터입니다. 요약 페이지의 차트는 "더 자세히 살펴봐야 합니까?"라는 질문에 답합니다</block>
   <block id="928a3ee10cac32e26a95e3b617e56177" category="section-title">차트 및 카운터 통계</block>
@@ -5823,7 +5820,6 @@
   <block id="5ae387dba42b22999d9b9380a601c0e5" category="doc">클러스터 보안 목표 관리</block>
   <block id="aa5ea9a79b8363872969fe3e4d5ce9b3" category="paragraph">Unified Manager는 ONTAP 9_에 대한_NetApp 보안 강화 가이드에 정의된 권장사항을 기반으로 ONTAP 클러스터, SVM(스토리지 가상 시스템), 볼륨이 얼마나 안전한지 식별하는 대시보드를 제공합니다.</block>
   <block id="e60416fe8f102037593aec660b785842" category="paragraph">보안 대시보드의 목표는 ONTAP 클러스터가 NetApp 권장 지침에 맞지 않는 영역을 보여서 이러한 잠재적 문제를 해결할 수 있도록 하는 것입니다. 대부분의 경우 ONTAP 시스템 관리자 또는 ONTAP CLI를 사용하여 문제를 해결할 수 있습니다. 조직에서 모든 권장 사항을 따르지 않을 수 있으므로 변경할 필요가 없는 경우도 있습니다.</block>
-  <block id="60443e5478cdf6c85aba4b527880b533" category="paragraph">를 참조하십시오<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> (TR-4569)을 참조하십시오.</block>
   <block id="349b5120a9ed5730c85dd33d0233bfa1" category="paragraph">Unified Manager는 보안 상태를 보고하는 것 외에도 보안 위반 사례가 있는 클러스터 또는 SVM을 위한 보안 이벤트도 생성합니다. 이벤트 관리 인벤토리 페이지에서 이러한 문제를 추적하고 이러한 이벤트에 대한 알림을 구성하여 새로운 보안 이벤트가 발생할 때 스토리지 관리자에게 알릴 수 있습니다.</block>
   <block id="877f5e27a442690f512bdd4fa77d8cb6" category="summary">Unified Manager를 사용하여 MetroCluster 구성에서 클러스터의 운영 상태 및 구성 요소를 확인할 수 있습니다. 클러스터가 Unified Manager에서 감지한 성능 이벤트에 참여한 경우 상태 를 통해 하드웨어 또는 소프트웨어 문제가 이벤트에 기여했는지 여부를 확인할 수 있습니다.</block>
   <block id="5e9e3cac8906fbac9ab062f3f912efc9" category="doc">MetroCluster 구성에서 클러스터 상태 확인</block>
@@ -5951,7 +5947,6 @@
   <block id="3a215c293d531341a13e54d1b4f767d8" category="list-text">피어링된 클러스터의 통신이 암호화되었는지 여부</block>
   <block id="34c28c126e19226f9ae33dc5640078bb" category="list-text">스토리지 VM에 감사 로그가 설정되었는지 여부</block>
   <block id="8083dc3f1ad1356d39b70d2189b04945" category="list-text">볼륨에 소프트웨어 또는 하드웨어 암호화가 활성화되어 있는지 여부</block>
-  <block id="eab70e6fe7e77946b94068e68a8ce442" category="paragraph">규정 준수 범주 및 에 대한 항목을 참조하십시오<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> 을 참조하십시오.</block>
   <block id="c59a5985bd2d618db813147ff21b648b" category="paragraph">Active IQ 플랫폼에서 보고된 업그레이드 이벤트도 보안 이벤트로 간주됩니다. 이러한 이벤트는 문제 해결을 위해 ONTAP 소프트웨어, 노드 펌웨어 또는 운영 체제 소프트웨어(보안 권장 사항)를 업그레이드해야 하는 문제를 식별합니다. 이러한 이벤트는 보안 패널에 표시되지 않지만 이벤트 관리 인벤토리 페이지에서 사용할 수 있습니다.</block>
   <block id="404a49c3ac5cc4520b6a583f148277f3" category="summary">모든 볼륨의 목록과 현재 암호화 상태를 볼 수 있으므로 볼륨의 데이터가 무단 사용자가 액세스하지 못하도록 적절하게 보호되는지 여부를 확인할 수 있습니다.</block>
   <block id="0829f5c1222300105abaa58f12e6038a" category="doc">모든 볼륨의 암호화 상태 보기</block>
@@ -6874,7 +6869,6 @@
   <block id="64bd5015546813c113a50d1d816a2fce" category="list-text">* 성능 *</block>
   <block id="28a28996e5e10ee62864b322cf2e8851" category="paragraph">성능 이벤트는 클러스터에서 리소스, 구성 또는 활동 상태에 대해 알림을 발생하므로, 모니터링되는 스토리지 개체의 데이터 스토리지 입력 또는 검색 속도에 악영향을 미칠 수 있습니다.</block>
   <block id="e28ab1dac11a8a6babec11d768ded66a" category="paragraph">보호 이벤트는 SnapMirror 관계, 대상 용량 문제, SnapVault 관계 문제 또는 보호 작업 관련 문제와 관련된 사고 또는 위험을 알려줍니다. 2차 볼륨 및 보호 관계를 호스팅하는 모든 ONTAP 오브젝트(특히 애그리게이트, 볼륨 및 SVM)는 보호 영향 영역에서 분류됩니다.</block>
-  <block id="a9518f09019b40e9f9d0808f91e32925" category="paragraph">보안 이벤트는 에 정의된 매개 변수를 기반으로 ONTAP 클러스터, SVM(스토리지 가상 머신) 및 볼륨의 보안 수준을 알려줍니다<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>.</block>
   <block id="26426dd05fca05471c34919c8d351e36" category="paragraph">또한 이 영역에는 Active IQ 플랫폼에서 보고된 업그레이드 이벤트가 포함됩니다.</block>
   <block id="2b20b1acb826c661aec4a054429ec346" category="summary">경고가 연결된 리소스, 이벤트, 스크립트 및 알림 옵션을 비롯한 알림 속성을 편집할 수 있습니다.</block>
   <block id="e1cb9d2a76067965ff5fb30158fd63a3" category="doc">알림 편집 대화 상자</block>
@@ -10902,7 +10896,6 @@
   <block id="38bf356bc057c1b138ed0aadbc422129" category="summary">보안 페이지에는 모든 클러스터 및 스토리지 VM에 대한 높은 수준의 보안 상태가 표시됩니다. 상세 클러스터 상태에는 클러스터 규정 준수, SVM 규정 준수, 볼륨 암호화 준수가 포함됩니다.</block>
   <block id="2dfcaeaf7d872d0b41ac1a7fad3f1bc0" category="doc">클러스터 및 스토리지 VM의 보안 상태 보기</block>
   <block id="363bd7c65ddeb743b3e567f3bb86d1f0" category="paragraph">Active IQ Unified Manager를 사용하면 환경의 스토리지 객체 보안 상태를 인터페이스의 여러 지점에서 확인할 수 있습니다. 정의된 매개 변수를 기반으로 정보 및 보고서를 수집 및 분석하고, 모니터링되는 클러스터와 스토리지 VM에서 의심스러운 동작 또는 승인되지 않은 시스템 변경을 감지할 수 있습니다.</block>
-  <block id="ac7c06182b625c627e480ce0c60ff4ed" category="paragraph">보안 권장 사항은 을 참조하십시오<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block></block>
   <block id="468b211c23c8f85e2679c3384b195d38" category="section-title">보안 페이지에서 개체 수준 보안 상태를 봅니다</block>
   <block id="78162355da23f5dd80cdec8e2b9e0d00" category="paragraph">시스템 관리자는 * 보안 * 페이지를 사용하여 데이터 센터 및 사이트 수준에서 ONTAP 클러스터 및 스토리지 VM의 보안 강도에 대한 가시성을 확보할 수 있습니다. 지원되는 객체는 클러스터, 스토리지 VM 및 볼륨입니다. 다음 단계를 수행하십시오.</block>
   <block id="3f9660f836b3463f167780161b6ee0d0" category="list-text">Security * 패널에서 오른쪽 화살표를 클릭합니다. 보안 페이지가 표시됩니다.</block>
@@ -11394,7 +11387,6 @@
   <block id="1668d6113f0198a5d71e61b06adea176" category="paragraph">을 참조하십시오 <block ref="647c20854538de241d685bd97fe45f7c" category="inline-link-macro-rx"></block>.</block>
   <block id="888f02aac9bcb8c6e63ecf7ecfd510f3" category="list-text">의 단계를 따릅니다 <block ref="4e49003bd707d086ed2473a592c4e5ad" category="inline-link-macro-rx"></block>.</block>
   <block id="5a4a0a33eb52faa90b4efd9ad5bb111c" category="list-text">또한 의 단계를 따릅니다 <block ref="3d325a30a3d625d98b2da43d85fdf8d6" category="inline-link-macro-rx"></block>.</block>
-  <block id="dd20f685a8b2510866a126106ce9cc1f" category="paragraph">또한 Unified Manager의 두 번째 인스턴스를 설치하기 전에 Unified Manager의 단일 인스턴스에서 모니터링할 수 있는 노드 수에 제한이 있습니다. 자세한 내용은 을 참조하십시오 <block ref="fb1ddd70760829cfad3621d150dc6027" category="inline-link-macro-rx"></block>.</block>
   <block id="7799421ecdfd8246db1f771c680ae1eb" category="paragraph">VMware vSphere 시스템의 Unified Manager OVA는 내부적으로 Debian OS 11(bullseye)을 실행합니다. 지원되는 ESXi 서버 버전에서 지원할 수 있는 가상 머신 하드웨어 버전에 대한 자세한 내용은 VMware 설명서를 참조하십시오.</block>
   <block id="b8c3cbdd8f4d15088d9f9f8a35495d56" category="paragraph">시스템 요구 사항을 검토해야 합니다. Unified Manager 가상 어플라이언스를 구축하기 전에 필요에 따라 변경하십시오.</block>
   <block id="c9e714997136f329f1dedb985dac518e" category="paragraph">검토 세부 정보 페이지에서 다음을 수행합니다.</block>
@@ -11531,7 +11523,6 @@
   <block id="b8abe9a6609bb3dbb02a8eb95689e52c" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="27f2a443d50f465254d755a8f399eae1" category="inline-link-macro-rx"></block>.</block>
   <block id="19d1717773a06d1e7fb84d9111f40f50" category="inline-link">ActiveIQ Unified Manager '시스템 권장 성능 서비스 레벨 할당'은 워크로드가 매우 가변적인 워크로드에 대해 적응하지 못합니다</block>
   <block id="e17ca1782763605169c7485c671a81aa" category="paragraph">또한 기술 자료(KB) 문서를 참조하십시오<block ref="6fff8171920b702fdfb821f2d039fddc" category="inline-link-rx"></block></block>
-  <block id="6cee015afd22a22d4079e89b208d5c0c" category="paragraph">규정 준수는 을 기준으로 합니다<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>. 패널 상단의 오른쪽 화살표를 클릭하여 보안 페이지의 모든 클러스터에 대한 보안 세부 정보를 봅니다. 자세한 내용은 을 참조하십시오<block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>.</block>
   <block id="ecab7fffe5d68c5da20608c5e8019c2d" category="paragraph">이 패널에는 데이터 센터의 단일 또는 모든 클러스터에 대한 데이터 보호 요약이 표시됩니다. 이 창에는 ONTAP에서 최근 24시간 동안 발생한 총 데이터 보호 이벤트 수, MetroCluster 이벤트 및 활성 이벤트 수가 표시됩니다. 각 이벤트의 링크를 클릭하면 이벤트 세부 정보 페이지로 이동합니다. 이벤트 관리 인벤토리 페이지에서 * 모두 보기 * 링크를 클릭하여 모든 활성 보호 이벤트를 볼 수 있습니다. 패널에 다음이 표시됩니다.</block>
   <block id="b0fb573143bfffbf957c4316c25a0eca" category="list-text">스냅샷 복사본으로 보호되는 데이터 센터의 클러스터 또는 모든 클러스터에 있는 볼륨 수</block>
   <block id="cb4e1388d92e1e3da0f3f4e85217a14b" category="list-text">SnapMirror 관계로 보호되는 데이터 센터의 클러스터 또는 모든 클러스터에 있는 볼륨 수 SnapMirror 관계의 경우 소스 클러스터의 볼륨 수가 고려됩니다.</block>
@@ -11662,7 +11653,6 @@
   <block id="8d6a739fdd6cb955643a976d6419979f" category="paragraph">서버는 Unified Manager 실행 전용으로 사용되어야 합니다. 서버에 다른 응용 프로그램을 설치할 수 없습니다. 회사 규정에 따라 Windows 시스템에 안티바이러스 소프트웨어가 설치되어 있을 수 있습니다. 설치 실패를 방지하려면 Unified Manager를 설치하기 전에 바이러스 백신 소프트웨어를 비활성화해야 합니다.</block>
   <block id="3bf946d0585ec5d059ceedfa02a8bb85" category="list-text">Unified Manager를 설치하기 전에 시스템에서 모든 바이러스 백신 소프트웨어를 비활성화해야 합니다. 설치가 완료된 후 바이러스 백신 검사에서 다음 경로를 수동으로 제외해야 합니다.</block>
   <block id="c4c82f53dda4c2a0257081e08f40a0c4" category="paragraph">시스템 요구 사항에 대한 자세한 내용은 를 참조하십시오 <block ref="b2295d63a540e99b9499865a292304a1" category="inline-link-macro-rx"></block> 및 <block ref="4eee31450bd5635de5fa851f8ec42512" category="inline-link-macro-rx"></block>.</block>
-  <block id="855dd9750d1782e907ace12bdc7c5003" category="paragraph"><block ref="855dd9750d1782e907ace12bdc7c5003" category="inline-link-rx"></block></block>
   <block id="e61baa5c67d7dd8dca5b3e09283635ed" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block></block>
   <block id="31c19d26868a7ff439c08ee8860902af" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block>.</block>
   <block id="7304b4de80b8634c046d0400082fea65" category="paragraph">HTTPS 인증서 페이지에서는 현재 보안 인증서를 보거나, 인증서 서명 요청을 다운로드하거나, 자체 서명된 새 HTTPS 인증서를 생성하거나, 새 HTTPS 인증서를 설치할 수 있습니다.</block>
@@ -11972,4 +11962,13 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="3ab5865f7b3fcc5851ae24144b15f370" category="list-text">NVMe-FC를 지원합니다</block>
   <block id="db180f51718e113d9c8799523e66b6cc" category="paragraph"><block ref="84f8d8fcacc42af5df652e2ccc99304b" prefix="" category="inline-code"></block></block>
   <block id="2ffae15ce7fc136fc840cd527bcfa491" category="list-text">클러스터 수준에서 Active IQ 인터페이스는 인증 방법 "cert"에 대한 두 개의 새 사용자 그룹 항목을 추가합니다.</block>
+  <block id="1af9d8b43c265c6a772871d91469520e" category="paragraph">보안 이벤트는 에 정의된 매개 변수를 기반으로 ONTAP 클러스터, 스토리지 가상 머신(SVM) 및 볼륨의 보안을 유지하는 방법을 사용자에게<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>알려줍니다.</block>
+  <block id="a5c178ca0adb1a0269f3bd998293dd38" category="paragraph"><block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>자세한 권장 사항 및 해결 방법은 (TR-4569)을 참조하십시오.</block>
+  <block id="672333e5623d0406e27edefd4a600c08" category="paragraph">자세한 내용은 규정 준수 범주 및 을<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="20dbca6ffc2afb63243f7244b8d18e68" category="paragraph">보안 권장 사항은 를 참조하십시오<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block></block>
+  <block id="ee26087a8b7ec790988603a3298c45f3" category="paragraph"><block ref="ee26087a8b7ec790988603a3298c45f3" category="inline-link-rx"></block></block>
+  <block id="b1ef1e646481ec8adc66cc5d2b2018ba" category="paragraph">또한 Unified Manager의 두 번째 인스턴스를 설치하기 전에 Unified Manager의 단일 인스턴스에서 모니터링할 수 있는 노드 수에 제한이 있습니다. 자세한 내용은 을 <block ref="30a299cd9b89fb73ae0b956f3afc43ad" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
+  <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
+  <block id="03d53e406aee01a758a051ceaf737e76" category="paragraph">규정 준수는 을<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>기반으로 합니다. 패널 상단의 오른쪽 화살표를 클릭하여 보안 페이지의 모든 클러스터에 대한 보안 세부 정보를 봅니다. 자세한 내용은 을 <block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>참조하십시오.</block>
 </blocks>

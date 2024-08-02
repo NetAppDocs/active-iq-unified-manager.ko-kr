@@ -35,7 +35,7 @@ summary: '이벤트는 6가지 영향 영역(가용성, 용량, 구성, 성능, 
 
 * * 보안 *
 +
-보안 이벤트는 에 정의된 매개 변수를 기반으로 ONTAP 클러스터, SVM(스토리지 가상 머신) 및 볼륨의 보안 수준을 알려줍니다 http://www.netapp.com/us/media/tr-4569.pdf["ONTAP 9에 대한 NetApp 보안 강화 가이드"].
+보안 이벤트는 에 정의된 매개 변수를 기반으로 ONTAP 클러스터, 스토리지 가상 머신(SVM) 및 볼륨의 보안을 유지하는 방법을 사용자에게 https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["ONTAP 9에 대한 NetApp 보안 강화 가이드"^]알려줍니다.
 
 +
 또한 이 영역에는 Active IQ 플랫폼에서 보고된 업그레이드 이벤트가 포함됩니다.
