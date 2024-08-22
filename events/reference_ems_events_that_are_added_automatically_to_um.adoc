@@ -196,7 +196,7 @@ objstore.host.unresolable을 선택합니다
 
 
  a| 
-클라우드 계층 간 클러스터 LIF가 다운되었습니다
+클라우드 계층 클러스터 간 네트워크 인터페이스가 다운되었습니다
  a| 
 objstore.interclusterlifDown
  a| 

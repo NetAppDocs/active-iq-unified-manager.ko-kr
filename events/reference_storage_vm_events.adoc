@@ -24,7 +24,7 @@ summary: '스토리지 VM 이벤트를 통해 SVM(스토리지 VM) 상태에 대
 
 
  a| 
-SVM CIFS 서비스 중단(문서 VserverCifsServiceStatusDown)
+스토리지 VM CIFS 서비스 중단(ocumEvtVserverCifsServiceStatusDown)
  a| 
 사고
  a| 
@@ -134,7 +134,7 @@ SVM
 
 
  a| 
-SVM NFS 서비스 중지(ocumEvtVserverNfsServiceStatusDown)
+스토리지 VM NFS 서비스 중단(ocumEvtVserverNfsServiceStatusDown)
  a| 
 사고
  a| 
@@ -178,7 +178,7 @@ SVM
 
 
  a| 
-SVM 중지됨(ocumvserverDown)
+스토리지 VM 중지됨(ocumEvtVserverDown)
  a| 
 위험입니다
  a| 

@@ -123,7 +123,7 @@ Cloud AWS IAMRoleNotFound * (ocumCloudAwsIamRoleNotFound)
 
 
  a| 
-클라우드 계층 간 클러스터 LIF 다운 * (ocumobstoreInterClusterLif다운)
+클라우드 계층 인터클러스터 네트워크 인터페이스 다운 * (ocumObjstoreInterClusterLifDown)
  a| 
 위험입니다
  a| 

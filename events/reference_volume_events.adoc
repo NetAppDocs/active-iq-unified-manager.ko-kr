@@ -595,7 +595,7 @@ QoS 볼륨 최대 IOPS/TB 경고 임계값 위반(문서 QosVolumeMaxIopsPerTbWa
 
 
  a| 
-볼륨 지연 시간 ms/op 중요 임계값 위반(VolumeLatencyIncident)
+볼륨 지연 중요 임계값 위반(ocumVolumeLatencyIncident)
  a| 
 사고
  a| 
@@ -606,7 +606,7 @@ QoS 볼륨 최대 IOPS/TB 경고 임계값 위반(문서 QosVolumeMaxIopsPerTbWa
 
 
  a| 
-볼륨 지연 시간 ms/op 경고 임계값 위반(VolumeLatencyWarning)
+볼륨 지연 경고 임계값 위반(ocumVolumeLatencyWarning)
  a| 
 위험입니다
  a| 
