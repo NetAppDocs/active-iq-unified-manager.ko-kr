@@ -11,7 +11,7 @@ summary: 이전에 Red Hat Enterprise Linux 7.x 시스템에 Unified Manager를 
 
 
 [role="lead"]
-이전에 Red Hat Enterprise Linux 7.x 시스템에 Unified Manager를 설치했으며 Red Hat Enterprise Linux 8.x로 업그레이드해야 하는 경우 이 항목에 나열된 절차 중 하나를 따라야 합니다. 두 경우 모두 Red Hat Enterprise Linux 7.x 시스템에서 Unified Manager 백업을 생성한 다음 Red Hat Enterprise Linux 8.x 시스템으로 백업을 복원해야 합니다. 지원되는 Red Hat Enterprise Linux 버전은 8.0에서 8.7입니다.
+이전에 Red Hat Enterprise Linux 7.x 시스템에 Unified Manager를 설치했으며 Red Hat Enterprise Linux 8.x로 업그레이드해야 하는 경우 이 항목에 나열된 절차 중 하나를 따라야 합니다. 두 경우 모두 Red Hat Enterprise Linux 7.x 시스템에서 Unified Manager 백업을 생성한 다음 Red Hat Enterprise Linux 8.x 시스템으로 백업을 복원해야 합니다. 지원되는 Red Hat Enterprise Linux 버전은 8.0에서 8.9입니다.
 
 아래 나열된 두 옵션의 차이점은 한 가지 경우에서 Unified Manager 복원을 새 8.x 서버로 수행하고 다른 경우에는 동일한 서버에서 복원 작업을 수행하고 있다는 것입니다.
 
