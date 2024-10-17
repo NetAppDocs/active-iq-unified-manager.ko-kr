@@ -11971,4 +11971,8 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="ad2d4575f8f305de83b3e406cdad115f" category="list-text">운영 체제: Red Hat Enterprise Linux 버전 7.x 및 8.9에서 8.8까지 또는 x86_64 아키텍처 기반의 CentOS 버전 7.x로, OS 설치 프로그램의 * Software Selection * 옵션에서 "GUI 기반 서버" 기본 환경을 사용하여 설치됩니다</block>
   <block id="0feb8d909617c698c7aa00be9205f4f1" category="list-text">x86_64 아키텍처 기반 Red Hat Enterprise Linux 버전 7.x 및 8.9에서 8.8까지.</block>
   <block id="d01c7fd00ba6c9452b308e1826f0d881" category="paragraph">이전에 Red Hat Enterprise Linux 7.x 시스템에 Unified Manager를 설치했으며 Red Hat Enterprise Linux 8.x로 업그레이드해야 하는 경우 이 항목에 나열된 절차 중 하나를 따라야 합니다. 두 경우 모두 Red Hat Enterprise Linux 7.x 시스템에서 Unified Manager 백업을 생성한 다음 Red Hat Enterprise Linux 8.x 시스템으로 백업을 복원해야 합니다. 지원되는 Red Hat Enterprise Linux 버전은 8.0에서 8.9입니다.</block>
+  <block id="5ecb6b24c169667ff1a176768115659e" category="inline-link-macro">Active IQ Unified Manager</block>
+  <block id="04bf06d7ddd618e01f3388a565561c94" category="paragraph"> 내용은 를 참조하십시오<block ref="08ef7b83d66900e05791163681900cc0" category="inline-link-macro-rx"></block>Active IQ Unified Manager REST API의 이점에 대한 추가 리소스 및 자세한.</block>
+  <block id="1d10af70fc531ee31e978a17395f4f8a" category="sidebar">MIB(Unified Manager 관리 정보 기반)</block>
+  <block id="cda417ab3ce8513849242e7fb90f668c" category="sidebar">Unified Manager 데이터베이스 스키마</block>
 </blocks>
