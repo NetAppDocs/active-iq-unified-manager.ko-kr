@@ -13,7 +13,7 @@ summary: 'Unified Manager를 설치하는 시스템에 EPEL(Enterprise Linux) �
 [role="lead"]
 Unified Manager를 설치하는 시스템에 EPEL(Enterprise Linux) 리포지토리용 추가 패키지에 대한 액세스 권한이 없는 경우, 설치를 성공적으로 수행하려면 리포지토리를 수동으로 다운로드하고 구성해야 합니다.
 
-EPEL 리포지토리는 시스템에 설치해야 하는 필수 타사 유틸리티에 대한 액세스를 제공합니다. Red Hat Enterprise Linux 또는 CentOS 시스템에 Unified Manager를 설치할 때 EPEL 리포지토리를 사용합니다.
+EPEL 리포지토리는 시스템에 설치해야 하는 필수 타사 유틸리티에 대한 액세스를 제공합니다. EPEL 리포지토리를 사용하여 Red Hat Enterprise Linux 시스템에 Unified Manager를 설치합니다.
 
 .단계
 . 설치를 위해 EPEL 리포지토리를 다운로드합니다. Red Hat Enterprise Linux 7의 경우 다음 위치에서 다운로드하십시오.

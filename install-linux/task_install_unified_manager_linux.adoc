@@ -2,7 +2,7 @@
 permalink: install-linux/task_install_unified_manager_linux.html 
 sidebar: sidebar 
 keywords: install, unified manager 
-summary: Unified Manager를 물리적 또는 가상 Red Hat Enterprise Linux 또는 CentOS 플랫폼에 설치할 수 있습니다. 
+summary: Unified Manager는 물리적 또는 가상 Red Hat Enterprise Linux 플랫폼에 설치할 수 있습니다. 
 ---
 = Unified Manager 설치 중
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Unified Manager를 물리적 또는 가상 Red Hat Enterprise Linux 또
 
 
 [role="lead"]
-Unified Manager를 물리적 또는 가상 Red Hat Enterprise Linux 또는 CentOS 플랫폼에 설치할 수 있습니다.
+Unified Manager는 물리적 또는 가상 Red Hat Enterprise Linux 플랫폼에 설치할 수 있습니다.
 
 * 필요한 것 *
 
@@ -28,7 +28,7 @@ Unified Manager를 물리적 또는 가상 Red Hat Enterprise Linux 또는 CentO
 * 터미널 에뮬레이션 소프트웨어에 scrollback이 활성화되어 있어야 합니다.
 
 
-Red Hat Enterprise Linux 또는 CentOS 시스템에는 필요한 지원 소프트웨어(Java, MySQL, 추가 유틸리티)의 모든 필수 버전이 설치되어 있거나, 필요한 소프트웨어 중 일부만 설치되어 있거나, 필요한 소프트웨어가 설치되지 않은 새로 설치된 시스템일 수 있습니다.
+Red Hat Enterprise Linux 시스템에는 필요한 지원 소프트웨어(Java, MySQL, 추가 유틸리티)의 모든 필수 버전이 설치되어 있거나, 필요한 소프트웨어 중 일부만 설치되어 있거나, 필요한 소프트웨어가 설치되지 않은 새로 설치된 시스템일 수 있습니다.
 
 .단계
 . Unified Manager를 설치할 서버에 로그인합니다.
@@ -131,7 +131,7 @@ GPG NOKEY 오류로 인해 설치가 실패하는 경우 를 사용합니다 `rp
 +
 [NOTE]
 ====
-다른 명령(예: rpm-ivh)을 사용하여 설치를 시도하지 마십시오. Red Hat Enterprise Linux 또는 CentOS 시스템에 Unified Manager를 성공적으로 설치하려면 모든 Unified Manager 파일과 관련 파일이 특정 순서로 특정 디렉토리 구조에 설치되어 있어야 합니다. 이 디렉토리 구조는 "yum install NetApp -um <version>.x86_64.rpm" 명령에 의해 자동으로 적용됩니다.
+다른 명령(예:)을 사용하여 설치를 시도하지 `rpm -ivh` 마십시오. Red Hat Enterprise Linux 시스템에 Unified Manager를 성공적으로 설치하려면 모든 Unified Manager 파일과 관련 파일이 특정한 순서로 명령을 통해 자동으로 강제 적용되는 특정 디렉토리 구조에 설치되어야 합니다. `yum install netapp-um<version>.x86_64.rpm`
 
 ====
 . 설치 메시지 직후에 표시되는 이메일 알림은 무시하십시오.

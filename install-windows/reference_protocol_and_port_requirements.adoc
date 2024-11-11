@@ -66,7 +66,7 @@ SSH/SFTP
  a| 
 22
  a| 
-Red Hat Enterprise Linux 또는 CentOS 명령줄에 액세스하고 지원 번들을 검색하는 데 사용됩니다.
+Red Hat Enterprise Linux 명령줄에 액세스하고 지원 번들을 검색하는 데 사용됩니다.
 
 
 

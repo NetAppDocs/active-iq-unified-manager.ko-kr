@@ -11,7 +11,7 @@ summary: Linux 플랫폼에서 설치 파일을 다운로드하여 실행하여 
 
 
 [role="lead"]
-Linux 플랫폼에서 설치 파일을 다운로드하여 실행하면 Unified Manager 9.12 또는 9.13에서 9.14로 업그레이드할 수 있습니다.
+Linux 플랫폼에서 설치 파일을 다운로드하여 실행하여 Unified Manager 9.13 또는 9.14에서 9.16으로 업그레이드할 수 있습니다.
 
 * 필요한 것 *
 
@@ -34,7 +34,7 @@ Linux 플랫폼에서 설치 파일을 다운로드하여 실행하면 Unified M
 
 
 .단계
-. 대상 Red Hat Enterprise Linux 또는 CentOS 서버에 로그인합니다.
+. 대상 Red Hat Enterprise Linux 서버에 로그인합니다.
 . 서버에 Unified Manager 번들을 다운로드합니다.
 +
 을 참조하십시오 link:task_download_unified_manager.html["Linux용 Unified Manager 다운로드 중"].

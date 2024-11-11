@@ -11,13 +11,13 @@ summary: Linux 플랫폼의 Unified Manager에 대한 빠른 시작 가이드
 
 
 [role="lead"]
-설치 패키지를 다운로드하여 물리적 또는 가상 Red Hat Enterprise Linux 또는 CentOS 플랫폼에 Unified Manager를 설치할 수 있습니다.
+설치 패키지를 다운로드하고 물리적 또는 가상 Red Hat Enterprise Linux 플랫폼에 Unified Manager를 설치할 수 있습니다.
 
 
 
 == 시스템 요구 사항
 
-* 운영 체제: Red Hat Enterprise Linux 버전 7.x 및 8.9에서 8.8까지 또는 x86_64 아키텍처 기반의 CentOS 버전 7.x로, OS 설치 프로그램의 * Software Selection * 옵션에서 "GUI 기반 서버" 기본 환경을 사용하여 설치됩니다
+* 운영 체제: x86_64 아키텍처 기반의 Red Hat Enterprise Linux 버전 8.x 및 9.4, OS 설치 프로그램의 * Software Selection * 옵션에서 "GUI 기반 서버" 기본 환경을 사용하여 설치됨
 * RAM: 12GB, CPU: 총 9572MHz
 * 사용 가능한 디스크 공간: '/opt/netapp/data' 디렉토리에 100GB, 루트 파티션에 50GB 디스크 공간이 있습니다. 별도로 마운트된 '/opt' 및 '/var/log' 디렉토리의 경우, '/opt'에 15GB가 있고, '/var/log'에 16GB가 있고, '/tmp'에 10GB의 여유 공간이 있는지 확인하십시오.
 
@@ -53,7 +53,7 @@ summary: Linux 플랫폼의 Unified Manager에 대한 빠른 시작 가이드
 
 === 리포지토리 구성을 확인합니다
 
-Red Hat Enterprise Linux 또는 CentOS 리포지토리를 구성하는 절차는 사이트에 따라 다릅니다. 설치 패키지에 포함된 "pre_install_check.sh" 스크립트를 사용하여 운영 체제의 구성을 확인할 수 있습니다. 시스템이 인터넷에 연결되어 있는 경우 Red Hat Enterprise Linux 또는 CentOS 리포지토리를 설정하는 지침이 자동으로 제공됩니다.
+Red Hat Enterprise Linux 리포지토리를 구성하는 절차는 사이트별로 다릅니다. 설치 패키지에 포함된 스크립트를 사용하여 운영 체제의 구성을 확인할 수 `pre_install_check.sh` 있습니다. 시스템이 인터넷에 연결되어 있는 경우 Red Hat Enterprise Linux 리포지토리 설정에 대한 지침이 자동으로 제공됩니다.
 
 '#sudo./pre_install_check.sh'
 
@@ -61,7 +61,7 @@ Red Hat Enterprise Linux 또는 CentOS 리포지토리를 구성하는 절차는
 
 === Unified Manager를 설치합니다
 
-Unified Manager는 'yum' 유틸리티를 사용하여 소프트웨어와 종속 소프트웨어를 설치합니다. Red Hat Enterprise Linux 또는 CentOS의 이미지가 다양하기 때문에 설치된 패키지는 이미지에 있는 소프트웨어에 따라 다릅니다. yum 유틸리티는 설치할 종속 소프트웨어 패키지를 결정합니다. 종속 소프트웨어 패키지에 대한 자세한 내용은 를 참조하십시오 link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Linux 소프트웨어 및 설치 요구 사항"].
+Unified Manager에서는 유틸리티를 사용하여 `yum` 소프트웨어와 종속 소프트웨어를 설치합니다. Red Hat Enterprise Linux의 이미지가 다양하기 때문에 설치된 패키지는 이미지에 있는 소프트웨어에 따라 다릅니다. 이 `yum` 유틸리티는 설치할 종속 소프트웨어 패키지를 결정합니다. 종속 소프트웨어 패키지에 대한 자세한 내용은 를 참조하십시오link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Linux 소프트웨어 및 설치 요구 사항"].
 
 Unified Manager를 설치하려면 설치 파일의 압축이 풀린 디렉토리에서 루트 사용자 또는 'SUDO'를 사용하여 다음 명령을 실행합니다.
 

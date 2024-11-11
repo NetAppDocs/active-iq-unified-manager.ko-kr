@@ -15,7 +15,7 @@ summary: 네트워크 구성 메뉴를 사용하여 네트워크 설정을 관�
 
 [NOTE]
 ====
-Unified Manager가 Red Hat Enterprise Linux, CentOS 또는 Microsoft Windows에 설치된 경우에는 이 메뉴를 사용할 수 없습니다.
+Unified Manager가 Red Hat Enterprise Linux 또는 Microsoft Windows에 설치된 경우에는 이 메뉴를 사용할 수 없습니다.
 
 ====
 다음 메뉴를 선택할 수 있습니다.

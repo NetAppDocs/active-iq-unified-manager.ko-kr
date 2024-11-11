@@ -17,7 +17,7 @@ Unified Manager 사용자 유형은 다음과 같습니다.
 
 * * 유지보수 사용자 *
 +
-Unified Manager의 초기 구성 중에 생성됩니다. 그러면 유지 보수 사용자가 추가 사용자를 생성하고 역할을 할당합니다. 유지보수 사용자는 유지보수 콘솔에 액세스할 수 있는 유일한 사용자입니다. Unified Manager를 Red Hat Enterprise Linux 또는 CentOS 시스템에 설치하면 유지 관리 사용자에게 사용자 이름 ""umadmin""이 지정됩니다.
+Unified Manager의 초기 구성 중에 생성됩니다. 그러면 유지 보수 사용자가 추가 사용자를 생성하고 역할을 할당합니다. 유지보수 사용자는 유지보수 콘솔에 액세스할 수 있는 유일한 사용자입니다. Unified Manager를 Red Hat Enterprise Linux 시스템에 설치하면 유지보수 사용자에게 ""umadmin""이라는 사용자 이름이 지정됩니다.
 
 * * 로컬 사용자 *
 +

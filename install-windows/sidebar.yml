@@ -45,6 +45,8 @@ entries:
     entries:
     - title: OpenJDK 업그레이드 중
       url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
+  - title: 타사 제품을 제거하는 중입니다
+    url: "/install-windows/task_uninstall_third_party_products.html"
   - title: Unified Manager를 다시 시작하는 중입니다
     url: "/install-windows/task_restart_unified_manager_win.html"
   - title: Unified Manager 제거 중
