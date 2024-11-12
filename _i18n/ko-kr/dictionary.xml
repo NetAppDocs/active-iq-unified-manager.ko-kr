@@ -11800,15 +11800,12 @@
   <block id="f98499a614ee3e46a1d64724ab7c8d2e" category="list-text">설치된 MySQL 버전이 MySQL 8.0.34 Community Edition보다 이전 버전인 경우 다음 명령을 입력하여 제거합니다.</block>
   <block id="80bdec6524a5d6db6b1fc5272cd81192" category="paragraph">Active IQ Unified Manager 가상 어플라이언스는 9.12 또는 9.13에서 9.14로 업그레이드할 수 있습니다.</block>
   <block id="c73b4673fd357d50ad7fe6b46f0de007" category="list-text">운영 체제: VMware ESXi 7.0 및 8.0</block>
-  <block id="6e6893b593d627add14e7a987c9dea2d" category="inline-link">Active IQ Unified Manager 9.14에 대한 고지 사항</block>
-  <block id="4b72586187e7bd694fd5d9d2189fcc3f" category="paragraph"><block ref="4b72586187e7bd694fd5d9d2189fcc3f" category="inline-link-rx"></block></block>
   <block id="3a44bb5359e8b73237753f7fe7d14cc2" category="paragraph">예를 들어, 설치된 버전이 Unified Manager 9.9이고 Unified Manager 9.14로 업그레이드하려면 일련의 업그레이드를 수행해야 합니다.</block>
   <block id="1e2075a18224b2ccd4cd9feb5cb36456" category="list-text">업그레이드 9.11 -&gt; 9.13</block>
   <block id="de77bda92bea07bb345ff4c0d56146c5" category="list-text">업그레이드 9.13 -&gt; 9.14</block>
   <block id="ab71876b04bdf2178a36a1f75c0b521f" category="admonition">Graphite 서버는 Unified Manager로부터 볼륨에 대한 성능 데이터를 수신하지 않습니다.</block>
   <block id="9f05e01be7e6790732b731bbb5ffe318" category="admonition">클러스터에서 ONTAP 9.14.1 버전 이상을 실행하는 경우에는 노드 루트 볼륨 모니터링 기능을 사용할 수 없습니다.</block>
   <block id="2bff5bcae094d4c1fca66b645c79b006" category="admonition">클러스터에서 ONTAP 9.14.1 버전 이상을 실행하는 경우 노드 루트 애그리게이트 모니터링 기능을 사용할 수 없습니다.</block>
-  <block id="72ad43fc7a8d740f98987759e25205fd" category="paragraph">자세한 내용은 를 참조하십시오<block ref="6bb46765ad444f2cca095cf3f36f15dd" category="inline-link-rx"></block>.</block>
   <block id="2466264a3b3e9cd0747d6419241007ef" category="paragraph">서버는 Unified Manager 실행 전용으로 사용되어야 합니다. 서버에 다른 응용 프로그램을 설치할 수 없습니다. 회사 규정으로 인해 Qualys와 같은 취약점 검사가 Linux 시스템에 설치될 수 있습니다. 설치가 실패하지 않도록 Unified Manager를 설치하기 전에 취약점 검사기를 비활성화해야 합니다.</block>
   <block id="d399c2619eb2015cdbc0feeecd5393c0" category="inline-link">ActiveIQ Unified Manager에서 외부에서 생성된 인증서를 설치하지 못했습니다</block>
   <block id="e27fc816983568847a34ee8cfa2a43ac" category="paragraph">인증서 설치에 실패한 경우 기술 자료(KB) 문서:
@@ -11968,7 +11965,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="b71bc857cc2265ac2904750b41b56a3f" category="paragraph">Unified Manager가 설치된 Red Hat Enterprise Linux 서버에 대한 루트 사용자 액세스 권한이 있어야 합니다.</block>
   <block id="03e62ce635e27d3eae3fc7eb1fdb7d43" category="paragraph">Linux 플랫폼에서 설치 파일을 다운로드하여 실행하여 Unified Manager 9.13 또는 9.14에서 9.16으로 업그레이드할 수 있습니다.</block>
   <block id="3066d6a2a21e06439438c95e8f0a78ab" category="list-text">대상 Red Hat Enterprise Linux 서버에 로그인합니다.</block>
-  <block id="1af6d75cb215145d2b721ba6d31196de" category="paragraph">릴리스 9.12 또는 9.13에서만 Active IQ Unified Manager를 릴리스 9.16로 업그레이드할 수 있습니다.</block>
   <block id="85e1cde38f7710ac3710a0ca4b341ad5" category="list-text">ASA R2 시스템을 제외한 모든 클러스터가 지원됩니다.</block>
   <block id="a6f8396e876411d4ce52d9a1c9c7726e" category="list-text">Unified Manager Windows 설치 파일 또는 zip 파일을 Windows 시스템의 대상 디렉토리에 다운로드합니다.</block>
   <block id="8f1edca040f984e1b9d6867249003ff5" category="list-text">필요한 경우 zip 파일의 압축을 풀고 설치 파일이 있는 디렉토리로 이동합니다.</block>
@@ -11989,4 +11985,8 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="9d8f72b258db1905ee26b8543db626af" category="paragraph">데이터 디렉토리에 용량을 추가하는 데 필요한 단계는 Unified Manager가 VMware ESXi 서버, Red Hat Linux 서버 또는 Microsoft Windows 서버에서 실행되는지 여부에 따라 다릅니다.</block>
   <block id="7a7c62cdb283859bf82dbc6d358c3473" category="sidebar">Active IQ Unified Manager(Unified Manager 및 이전의 OnCommand Unified Manager)를 사용하면 단일 인터페이스에서 ONTAP 스토리지 시스템의 상태 및 성능을 모니터링 및 관리할 수 있습니다. 이 설명서 라이브러리에는 버전 9.16에 대한 정보가 포함되어 있습니다.</block>
   <block id="5d0df7caff39f371f91e7b06354eb3b0" category="sidebar">Active IQ Unified Manager 9.16 문서</block>
+  <block id="d9f6c085dd395f22b9dc3195122f05fb" category="paragraph">릴리스 9.13 또는 9.14에서만 Active IQ Unified Manager를 릴리스 9.16로 업그레이드할 수 있습니다.</block>
+  <block id="91804ef74bc975f4a628c4e14934bd25" category="inline-link">Active IQ Unified Manager 9.16에 대한 고지 사항</block>
+  <block id="4312f256415ac9316c181d6509543043" category="paragraph"><block ref="4312f256415ac9316c181d6509543043" category="inline-link-rx"></block></block>
+  <block id="fba32ed5ef4b0254843c57fba4656cfe" category="paragraph">자세한 내용은 를<block ref="2392cb263ac956dff7e4bed674b7b943" category="inline-link-rx"></block>참조하십시오.</block>
 </blocks>
