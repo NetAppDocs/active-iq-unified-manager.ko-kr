@@ -1,7 +1,7 @@
 ---
 permalink: install-windows/reference_windows_software_and_installation_requirements.html 
 sidebar: sidebar 
-keywords: windows, software, installation, requirements, system 
+keywords: windows, software, installation, requirements, system, active iq unified manager 
 summary: Windows에 Unified Manager를 성공적으로 설치하려면 Unified Manager가 설치된 시스템이 소프트웨어 요구사항을 충족하는지 확인해야 합니다. 
 ---
 = Windows 소프트웨어 및 설치 요구 사항
@@ -47,10 +47,10 @@ NOTE: NetApp은 Microsoft SCCM(System Center Configuration Manager)과 같은 �
 다음 타사 패키지는 Unified Manager와 함께 번들로 제공됩니다. 타사 패키지가 시스템에 설치되어 있지 않은 경우, Unified Manager에서 이를 설치의 일부로 설치합니다.
 
 * Microsoft Visual C&#43;&#43; 2015 재배포 가능 패키지 버전 14.26.28720.3
-* Microsoft Visual C&#43;&#43; Visual Studio 2013 버전 12.0.40660.0용 재배포 가능 패키지
-* MySQL Community Edition 버전 8.0.34
-* 파이썬 3.11.6
-* OpenJDK 버전 11.0.20
+* Microsoft Visual C&#43;&#43; Visual Studio 2015 버전 14.26.28720.3용 재배포 가능 패키지
+* MySQL Community Edition 버전 8.0.37
+* 파이썬 3.12x
+* OpenJDK 버전 11.0.23
 * p7zip 버전 23.01 이상
 
 
