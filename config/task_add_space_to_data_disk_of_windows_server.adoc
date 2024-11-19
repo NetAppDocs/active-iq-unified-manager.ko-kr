@@ -13,8 +13,7 @@ summary: Unified Manager 데이터베이스의 디스크 공간을 늘려야 하
 [role="lead"]
 Unified Manager 데이터베이스의 디스크 공간을 늘려야 하는 경우 Unified Manager가 설치된 논리 드라이브에 용량을 추가할 수 있습니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 Windows 관리자 권한이 있어야 합니다.
 
 디스크 공간을 추가하기 전에 Unified Manager 데이터베이스를 백업하는 것이 좋습니다.

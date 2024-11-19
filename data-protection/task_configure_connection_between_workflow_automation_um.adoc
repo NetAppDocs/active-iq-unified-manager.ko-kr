@@ -13,13 +13,12 @@ summary: 'WFA(OnCommand Workflow Automation)와 Unified Manager 간에 보안 �
 [role="lead"]
 WFA(OnCommand Workflow Automation)와 Unified Manager 간에 보안 연결을 구성할 수 있습니다. Workflow Automation에 연결하면 SnapMirror 및 SnapVault 구성 워크플로우와 같은 보호 기능을 사용할 수 있으며 SnapMirror 관계를 관리하는 데 필요한 명령을 사용할 수 있습니다.
 
-* 필요한 것 *
-
-* Workflow Automation의 설치 버전은 5.1 이상이어야 합니다.
+.시작하기 전에
+* Workflow Automation의 설치 버전은 5.1.1P6 이상이어야 합니다.
 +
 [NOTE]
 ====
-WFA 5.1에는 "'Clustered Data ONTAP를 관리하기 위한 WFA 팩'이 포함되어 있으므로 NetApp Storage Automation Store에서 이 팩을 다운로드하여 이전에 필요한 WFA 서버에 별도로 설치할 필요가 없습니다.  https://automationstore.netapp.com/pack-list.shtml["ONTAP 관리를 위한 WFA 팩"]
+WFA 5.1.1P6에 "'Clustered Data ONTAP 관리를 위한 WFA 팩'이 포함되어 있으므로 NetAppStorage 자동화 스토어에서 이 팩을 다운로드하여 WFA 서버에 별도로 설치할 필요가 없습니다. https://automationstore.netapp.com/pack-list.shtml["ONTAP 관리를 위한 WFA 팩"]
 
 ====
 * WFA 및 Unified Manager 연결을 지원하려면 Unified Manager에서 생성한 데이터베이스 사용자의 이름이 있어야 합니다.

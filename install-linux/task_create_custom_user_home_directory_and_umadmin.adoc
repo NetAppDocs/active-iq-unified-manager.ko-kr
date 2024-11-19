@@ -13,8 +13,7 @@ summary: Unified Manager를 설치하기 전에 사용자 지정 홈 디렉터�
 [role="lead"]
 Unified Manager를 설치하기 전에 사용자 지정 홈 디렉터리를 만들고 사용자 고유의 umadmin 사용자 암호를 정의할 수 있습니다. 이 작업은 선택 사항이지만 일부 사이트에서는 Unified Manager 설치 기본 설정을 재정의할 수 있는 유연성을 필요로 할 수 있습니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 * 시스템은 에 설명된 요구 사항을 충족해야 합니다 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["하드웨어 시스템 요구 사항"].
 * Red Hat Enterprise Linux 시스템에 루트 사용자로 로그인할 수 있어야 합니다.
 

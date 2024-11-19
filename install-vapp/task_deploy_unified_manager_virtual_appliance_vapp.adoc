@@ -13,8 +13,7 @@ summary: 설치 파일을 다운로드한 후에는 Unified Manager를 가상 �
 [role="lead"]
 설치 파일을 다운로드한 후에는 Unified Manager를 가상 어플라이언스로 구축할 수 있습니다. vSphere Web Client를 사용하여 ESXi 서버에 가상 어플라이언스를 구축합니다. 가상 어플라이언스를 구축하면 가상 머신이 생성됩니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 시스템 요구 사항을 검토해야 합니다. Unified Manager 가상 어플라이언스를 구축하기 전에 필요에 따라 변경하십시오.
 
 을 참조하십시오 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["가상 인프라 요구 사항"].

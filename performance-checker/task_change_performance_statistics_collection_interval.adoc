@@ -13,8 +13,7 @@ summary: 성능 통계에 대한 기본 수집 간격은 5분입니다. 대규�
 [role="lead"]
 성능 통계에 대한 기본 수집 간격은 5분입니다. 대규모 클러스터의 컬렉션이 기본 시간 내에 마중되지 않으면 이 간격을 10 또는 15분으로 변경할 수 있습니다. 이 설정은 Unified Manager의 이 인스턴스가 모니터링하는 모든 클러스터의 통계 모음에 영향을 줍니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 Unified Manager 서버의 유지보수 콘솔에 로그인하려면 사용자 ID와 암호가 필요합니다.
 
 성능 통계 수집 시간이 정시에 마무리되지 않는 문제는 "Unable to s일관되게 collect from cluster <cluster_name>" 배너 메시지 또는 "data collection is too long long long on cluster <cluster_name>"으로 표시됩니다.

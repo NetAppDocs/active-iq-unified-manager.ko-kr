@@ -15,8 +15,7 @@ summary: 데이터를 미러링하는 동안 논리 연결의 전체 상태를 �
 
 Unified Manager는 시스템 상태 알림을 사용하여 MetroCluster 구성에서 구성 요소 및 연결 상태를 모니터링합니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 MetroCluster 구성의 로컬 클러스터와 원격 클러스터를 모두 Unified Manager에 추가해야 합니다
 
 

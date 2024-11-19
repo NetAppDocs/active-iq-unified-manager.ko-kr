@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html 
+permalink: install-linux/reference_red_hat_software_and_installation_requirements.html 
 sidebar: sidebar 
 keywords: linux software, installation requirements, system, authorization,  requirements 
 summary: Unified Manager를 설치하는 Linux 시스템에는 특정 버전의 운영 체제 및 지원 소프트웨어가 필요합니다. 
@@ -41,7 +41,7 @@ Unified Manager는 WildFly 웹 서버에 구축되어 있습니다. WildFly 26.1
 
 * MySQL Community Edition 버전 8.0.37(MySQL 리포지토리에서).
 * OpenJDK 버전 11.0.23(Red Hat Extra Enterprise Linux Server 리포지토리에서 제공)
-* Python 3.6.x
+* Python 3.9.x(Red Hat Extra Enterprise Linux Server 리포지토리에서 제공)
 * p7zip 버전 16.02 이상(Enterprise Linux용 Red Hat Extra Packages 리포지토리)
 
 

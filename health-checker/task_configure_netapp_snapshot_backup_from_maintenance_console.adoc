@@ -13,8 +13,7 @@ summary: 스냅샷 복사본을 사용하여 Active IQ Unified Manager 백업을
 [role="lead"]
 스냅샷 복사본을 사용하여 Active IQ Unified Manager 백업을 수행하려면 유지보수 콘솔에서 몇 가지 구성 단계를 수행해야 합니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 시스템에 대한 다음 세부 정보가 있어야 합니다.
 
 * 클러스터 IP 주소입니다

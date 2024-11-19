@@ -13,8 +13,7 @@ summary: 하나의 명령으로 Red Hat Enterprise Linux 호스트에서 Unified
 [role="lead"]
 하나의 명령으로 Red Hat Enterprise Linux 호스트에서 Unified Manager를 중지하고 제거할 수 있습니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 * Unified Manager를 제거할 서버에 대한 루트 사용자 액세스 권한이 있어야 합니다.
 * Linux 시스템에서 SELinux(Security-Enhanced Linux)를 비활성화해야 합니다. 을 사용하여 SELinux 런타임 모드를 ""허용""으로 변경합니다 `setenforce 0` 명령.
 * 소프트웨어를 제거하기 전에 모든 클러스터(데이터 소스)를 Unified Manager 서버에서 제거해야 합니다.

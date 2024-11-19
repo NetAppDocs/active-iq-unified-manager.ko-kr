@@ -13,8 +13,7 @@ summary: 'VM(가상 머신)의 성능을 확인하고 문제를 해결하려면 
 [role="lead"]
 VM(가상 머신)의 성능을 확인하고 문제를 해결하려면 관련 vCenter Server를 Active IQ Unified Manager 인스턴스에 추가해야 합니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 vCenter Server를 추가하거나 보기 전에 다음을 확인하십시오.
 
 * vCenter Server 이름을 알고 있습니다.

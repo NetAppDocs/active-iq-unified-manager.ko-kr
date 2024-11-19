@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/concept_upgrade_unified_manager_on_rhel_or_centos.html 
+permalink: install-linux/concept_upgrade_unified_manager_on_rhel.html 
 sidebar: sidebar 
 keywords: upgrade, unified manager, red hat enterprise, linux 
 summary: 새로운 버전의 소프트웨어를 사용할 수 있는 경우 Unified Manager를 업그레이드할 수 있습니다. 

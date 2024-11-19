@@ -13,8 +13,7 @@ summary: Unified Manager를 사용하면 성능 이벤트가 감지된 MetroClus
 [role="lead"]
 Unified Manager를 사용하면 성능 이벤트가 감지된 MetroCluster 구성에서 클러스터를 분석할 수 있습니다. 관련된 클러스터 이름, 이벤트 감지 시간 및 _bully_and_d피해자_작업 부하를 식별할 수 있습니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 * 운영자, 애플리케이션 관리자 또는 스토리지 관리자 역할이 있어야 합니다.
 * MetroCluster 구성에 대한 새로운 성능 이벤트, 확인된 이벤트 또는 사용되지 않는 성능 이벤트가 있어야 합니다.
 * MetroCluster 구성의 두 클러스터는 동일한 Unified Manager 인스턴스에서 모니터링해야 합니다.

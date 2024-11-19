@@ -15,7 +15,7 @@ entries:
   - title: 가상 인프라 및 하드웨어 시스템 요구 사항
     url: "/install-linux/concept_virtual_infrastructure_or_hardware_system_requirements.html"
   - title: Linux 소프트웨어 및 설치 요구 사항
-    url: "/install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html"
+    url: "/install-linux/reference_red_hat_software_and_installation_requirements.html"
   - title: 지원되는 브라우저
     url: "/install-linux/concept_browser_and_platform_requirements.html"
   - title: 프로토콜 및 포트 요구 사항
@@ -37,7 +37,7 @@ entries:
   - title: NFS 또는 CIFS 공유에 대한 SELinux 요구 사항
     url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
   - title: Linux 시스템에 Unified Manager 설치
-    url: "/install-linux/concept_install_unified_manager_on_rhel_or_centos.html"
+    url: "/install-linux/concept_install_unified_manager_on_rhel.html"
     entries:
     - title: 설치 전에 사용자 정의 사용자 홈 디렉토리 및 umadmin 암호를 생성합니다
       url: "/install-linux/task_create_custom_user_home_directory_and_umadmin.html"
@@ -49,15 +49,15 @@ entries:
       url: "/install-linux/reference_users_created_in_unified_manager.html"
     - title: JBoss 암호 변경
       url: "/install-linux/task_change_jboss_password.html"
-  - title: Red Hat Enterprise Linux 또는 CentOS에서 Unified Manager 업그레이드
-    url: "/install-linux/concept_upgrade_unified_manager_on_rhel_or_centos.html"
+  - title: Red Hat Enterprise Linux에서 Unified Manager 업그레이드
+    url: "/install-linux/concept_upgrade_unified_manager_on_rhel.html"
     entries:
     - title: Unified Manager 버전에 지원되는 업그레이드 경로
       url: "/include/upgrade-path.html"
     - title: Unified Manager 업그레이드
       url: "/install-linux/task_upgrade_unified_manager.html"
     - title: Red Hat Enterprise Linux 7.x에서 8.x로 호스트 OS 업그레이드
-      url: "/install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html"
+      url: "/install-linux/task_upgrade_host_os.html"
   - title: Unified Manager 설치 후 타사 제품 업그레이드
     url: "/install-linux/concept_upgrade_third_party_products_on_linux_um.html"
     entries:

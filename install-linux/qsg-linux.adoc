@@ -61,7 +61,7 @@ Red Hat Enterprise Linux 리포지토리를 구성하는 절차는 사이트별�
 
 === Unified Manager를 설치합니다
 
-Unified Manager에서는 유틸리티를 사용하여 `yum` 소프트웨어와 종속 소프트웨어를 설치합니다. Red Hat Enterprise Linux의 이미지가 다양하기 때문에 설치된 패키지는 이미지에 있는 소프트웨어에 따라 다릅니다. 이 `yum` 유틸리티는 설치할 종속 소프트웨어 패키지를 결정합니다. 종속 소프트웨어 패키지에 대한 자세한 내용은 를 참조하십시오link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Linux 소프트웨어 및 설치 요구 사항"].
+Unified Manager에서는 유틸리티를 사용하여 `yum` 소프트웨어와 종속 소프트웨어를 설치합니다. Red Hat Enterprise Linux의 이미지가 다양하기 때문에 설치된 패키지는 이미지에 있는 소프트웨어에 따라 다릅니다. 이 `yum` 유틸리티는 설치할 종속 소프트웨어 패키지를 결정합니다. 종속 소프트웨어 패키지에 대한 자세한 내용은 를 참조하십시오link:../install-linux/reference_red_hat_software_and_installation_requirements.html["Linux 소프트웨어 및 설치 요구 사항"].
 
 Unified Manager를 설치하려면 설치 파일의 압축이 풀린 디렉토리에서 루트 사용자 또는 'SUDO'를 사용하여 다음 명령을 실행합니다.
 

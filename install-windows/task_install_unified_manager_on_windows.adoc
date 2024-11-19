@@ -13,8 +13,7 @@ summary: Unified Manager를 설치하여 데이터 스토리지의 용량, 가�
 [role="lead"]
 Unified Manager를 설치하여 데이터 스토리지의 용량, 가용성, 성능 및 보호 문제를 모니터링하고 문제를 해결할 수 있습니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 * Unified Manager를 설치하려는 시스템은 시스템 및 소프트웨어 요구사항을 충족해야 합니다.
 +
 을 참조하십시오 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["하드웨어 시스템 요구 사항"].

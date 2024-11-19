@@ -13,8 +13,7 @@ summary: Windows에서 Unified Manager를 백업한 후 Snapshot 복사본을 �
 [role="lead"]
 Windows에서 Unified Manager를 백업한 후 Snapshot 복사본을 저장할 볼륨을 구성해야 합니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 클러스터, 스토리지 VM 및 볼륨은 다음 요구사항을 충족해야 합니다.
 
 * 클러스터 요구 사항:

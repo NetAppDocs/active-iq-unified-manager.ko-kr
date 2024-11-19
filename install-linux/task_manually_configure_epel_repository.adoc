@@ -16,15 +16,15 @@ Unified Manager를 설치하는 시스템에 EPEL(Enterprise Linux) 리포지토
 EPEL 리포지토리는 시스템에 설치해야 하는 필수 타사 유틸리티에 대한 액세스를 제공합니다. EPEL 리포지토리를 사용하여 Red Hat Enterprise Linux 시스템에 Unified Manager를 설치합니다.
 
 .단계
-. 설치를 위해 EPEL 리포지토리를 다운로드합니다. Red Hat Enterprise Linux 7의 경우 다음 위치에서 다운로드하십시오.
-+
-"+와우와 https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm+`[]
-
-+
-버전 8의 경우 다음에서 다운로드하십시오.
-
+. 설치를 위해 EPEL 리포지토리를 다운로드합니다. 버전 8의 경우 다음에서 다운로드하십시오.
 +
 "+와우와 https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm+`[]
+
++
+버전 9의 경우 다음에서 다운로드하십시오.
+
++
+`wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm`
 
 . EPEL 리포지토리 구성:
 +

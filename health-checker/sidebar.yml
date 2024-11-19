@@ -148,7 +148,7 @@ entries:
       - title: 데이터베이스 복원이란 무엇입니까
         url: "/health-checker/concept_what_database_restore_is.html"
       - title: Linux 시스템에서 MySQL 데이터베이스 백업을 복원합니다
-        url: "/health-checker/task_restore_mysql_db_on_linux_or_centos.html"
+        url: "/health-checker/task_restore_mysql_db_on_linux.html"
       - title: Windows에서 MySQL 데이터베이스 백업을 복원합니다
         url: "/health-checker/task_restore_mysql_database_backup_on_windows.html"
     - title: NetApp Snapshot을 사용한 백업 및 복원
@@ -183,7 +183,7 @@ entries:
     - title: Unified Manager의 필요 시 백업
       url: "/health-checker/concept_on_demand_backup_for_unified_manger.html"
     - title: Unified Manager 가상 어플라이언스를 Linux 시스템으로 마이그레이션
-      url: "/health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html"
+      url: "/health-checker/task_migrate_um_virtual_appliance_to_rhel_system.html"
   - title: 스크립트 관리
     url: "/health-checker/concept_manage_scripts.html"
     entries:

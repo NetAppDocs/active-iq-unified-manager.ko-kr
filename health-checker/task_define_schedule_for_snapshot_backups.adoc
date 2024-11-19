@@ -13,8 +13,7 @@ summary: Unified Manager UI를 사용하여 Unified Manager 스냅샷 복사본�
 [role="lead"]
 Unified Manager UI를 사용하여 Unified Manager 스냅샷 복사본이 생성되는 일정을 구성할 수 있습니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 * 운영자, 애플리케이션 관리자 또는 스토리지 관리자 역할이 있어야 합니다.
 * 스냅샷을 생성할 대상을 식별하려면 유지보수 콘솔에서 스냅샷 복사본을 생성하기 위한 설정을 구성해야 합니다.
 

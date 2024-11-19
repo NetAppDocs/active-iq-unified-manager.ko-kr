@@ -13,8 +13,7 @@ summary: 'NetApp Snapshot을 사용하여 Active IQ Unified Manager를 백업 �
 [role="lead"]
 NetApp Snapshot을 사용하여 Active IQ Unified Manager를 백업 및 복원하려면 Windows 호스트 시스템을 구성해야 합니다. Windows 호스트 시스템에서 Microsoft iSCSI 초기자를 시작하려면 검색 표시줄에 ""iSCSI""를 입력하고 * iSCSI 초기자 * 를 클릭합니다.
 
-* 필요한 것 *
-
+.시작하기 전에
 호스트 시스템에서 이전 구성을 정리해야 합니다.
 
 Windows를 새로 설치할 때 iSCSI 초기자를 시작하려고 하면 확인 메시지가 표시되고 확인 메시지가 표시되면 iSCSI 속성 대화 상자가 표시됩니다. 기존 Windows 설치인 경우 iSCSI 속성 대화 상자가 비활성이거나 연결을 시도하는 대상과 함께 표시됩니다. 따라서 Windows 호스트의 이전 구성이 모두 제거되었는지 확인해야 합니다.
