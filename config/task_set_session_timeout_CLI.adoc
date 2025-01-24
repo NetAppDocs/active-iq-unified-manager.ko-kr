@@ -1,0 +1,24 @@
+---
+permalink: config/task_set_session_timeout_CLI.html 
+sidebar: sidebar 
+keywords: session timeout, CLI, maximum 
+summary: CLI를 사용하여 Unified Manager의 최대 세션 시간 초과 값을 설정하면 특정 시간이 지나면 세션이 자동으로 종료됩니다. 
+---
+= CLI를 통해 세션 시간 초과를 설정합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+CLI를 사용하여 Unified Manager의 최대 세션 시간 초과 값을 설정하면 특정 시간이 지나면 세션이 자동으로 종료됩니다. 기본적으로 세션 시간 제한은 최대 값인 4,320분(72시간)으로 설정됩니다. 즉, Unified Manager에 로그인하여 활성 상태인 경우에도 72시간 후에 세션이 자동으로 종료됩니다.
+
+.이 작업에 대해
+애플리케이션 관리자 역할이 있어야 합니다.
+
+세션 시간 초과 설정은 로그인한 모든 사용자 세션에 영향을 줍니다.
+
+.단계
+. 명령을 입력하여 Unified Manager CLI에 `um cli login` 로그인합니다. 인증에 유효한 사용자 이름과 암호를 사용하십시오.
+. 세션 시간 초과 값을 수정하려면 를 `um option set max.session.timeout.value=<in mins>` 입력합니다.
+

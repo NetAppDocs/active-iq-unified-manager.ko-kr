@@ -32,8 +32,10 @@ entries:
       url: "/config/task_add_alerts.html"
   - title: 로컬 사용자 암호 변경
     url: "/config/task_change_local_user_password.html"
-  - title: 세션 비활성 시간 초과 설정
+  - title: 세션 비활성 시간 제한을 설정합니다
     url: "/config/task_set_session_inactivity_timeout.html"
+  - title: CLI를 통해 세션 시간 초과를 설정합니다
+    url: "/config/task_set_session_timeout_CLI.html"
   - title: Unified Manager 호스트 이름을 변경하는 중입니다
     url: "/config/concept_change_unified_manager_host_name.html"
     entries:

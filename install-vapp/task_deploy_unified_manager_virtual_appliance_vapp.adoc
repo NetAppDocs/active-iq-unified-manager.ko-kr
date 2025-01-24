@@ -55,12 +55,9 @@ Unified Manager 가상 어플라이언스에 대한 VMware High Availability가 
 
 +
 ** Publisher 섹션의 세부 정보를 확인합니다. Entrust Code Signing - OVCS2(신뢰할 수 있는 인증서) * 메시지는 다운로드한 의 무결성을 확인합니다 `OVA` 파일. + * Entrust Code Signing - OVCS2 (Invalid certificate) * 메시지가 표시되면 VMware vCenter Server를 7.0U3E 이상 버전으로 업그레이드합니다.
-
-
 +
 템플릿 사용자 지정 페이지에서 다음을 수행합니다.
 
-+
 ** DHCP 및 IPv4 주소 지정을 사용하는 경우 모든 필드를 비워 둡니다.
 ** DHCP 및 IPv6 주소 지정을 사용할 때 ""자동 IPv6 주소 지정 활성화"" 확인란을 선택하고 다른 모든 필드는 비워 둡니다.
 ** 정적 네트워크 구성을 사용하려면 이 페이지의 필드를 완성하면 배포 중에 이러한 설정이 적용됩니다. IP 주소가 배포된 호스트에 고유하고, 이미 사용 중이 아니며, 유효한 DNS 항목이 있는지 확인합니다.
