@@ -11993,5 +11993,5 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">이 작업에 대해</block>
   <block id="87f28bb3e003a131724329ce1f8b7e35" category="paragraph">세션 시간 초과 설정은 로그인한 모든 사용자 세션에 영향을 줍니다.</block>
   <block id="9a50289207c5c1a11d0959e0985b20cf" category="list-text">명령을 입력하여 Unified Manager CLI에<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block> 로그인합니다. 인증에 유효한 사용자 이름과 암호를 사용하십시오.</block>
-  <block id="7cf68cd50e40cef61b48f361084dfac2" category="list-text">세션 시간 초과 값을 수정하려면 를<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block> 입력합니다.</block>
+  <block id="d0613f9dacd2054b89ab7de88b10e711" category="list-text"><block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block>명령을 입력하여 세션 시간 초과 값을 수정합니다.</block>
 </blocks>
