@@ -91,7 +91,7 @@ Network Time Protocol의 약어입니다
  a| 
 OCSP
  a| 
-ONTAP에 OCSP(온라인 인증서 상태 프로토콜)로 구성되지 않은 응용 프로그램이 있는지 여부를 나타내므로 통신이 암호화되지 않습니다. 비준수 애플리케이션이 나열됩니다.
+9.14.1부터 Active IQ Unified Manager은 스토리지 가상 머신(SVM, 이전의 Vserver) 레벨에서 OCSP(온라인 인증서 상태 프로토콜) 상태 정보를 제공합니다. 즉, OCSP 검증이 SVM에 대한 모든 SSL/TLS 연결에 적용되며 이러한 연결에 사용된 인증서의 무결성과 유효성을 보장합니다.
  a| 
 활성화됨
  a| 
