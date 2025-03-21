@@ -50,7 +50,7 @@ NOTE: NetApp은 Microsoft SCCM(System Center Configuration Manager)과 같은 �
 * MySQL Community Edition 버전 8.0.37
 * 파이썬 3.12.4
 * OpenJDK 버전 11.0.23
-* p7zip 버전 23.01 이상
+* 7-zip 버전 23.01 이상
 
 
 [NOTE]
