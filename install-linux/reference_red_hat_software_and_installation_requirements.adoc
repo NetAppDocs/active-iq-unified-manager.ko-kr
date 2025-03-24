@@ -56,6 +56,8 @@ Unified Manager는 WildFly 웹 서버에 구축되어 있습니다. WildFly 26.1
 
 Linux 시스템에 Unified Manager를 설치하는 작업은 루트 사용자 또는 비루트 사용자가 'sudo' 명령을 사용하여 수행할 수 있습니다.
 
+또한 기본 Unified Manager 설치에는 디렉토리에 umadmin 사용자(기본 유지 관리 사용자)와 sudoers 파일  및 `ocie_sudoers`의 `/etc/sudoers.d/` JBoss 사용자가 (`ocum_sudoers`포함됩니다. 보안 정책 또는 보안 모니터링 도구로 인해 사용자 환경에서 이 콘텐츠를 제거하는 경우 해당 콘텐츠를 다시 추가해야 합니다. 일부 Unified Manager 작업에서는 sudo 권한이 필요하므로 sudoers 구성을 유지해야 합니다.
+
 
 
 == 설치 요구 사항
