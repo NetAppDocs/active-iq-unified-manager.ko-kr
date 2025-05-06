@@ -11778,8 +11778,6 @@
   <block id="2bff5bcae094d4c1fca66b645c79b006" category="admonition">클러스터에서 ONTAP 9.14.1 버전 이상을 실행하는 경우 노드 루트 애그리게이트 모니터링 기능을 사용할 수 없습니다.</block>
   <block id="2466264a3b3e9cd0747d6419241007ef" category="paragraph">서버는 Unified Manager 실행 전용으로 사용되어야 합니다. 서버에 다른 응용 프로그램을 설치할 수 없습니다. 회사 규정으로 인해 Qualys와 같은 취약점 검사가 Linux 시스템에 설치될 수 있습니다. 설치가 실패하지 않도록 Unified Manager를 설치하기 전에 취약점 검사기를 비활성화해야 합니다.</block>
   <block id="d399c2619eb2015cdbc0feeecd5393c0" category="inline-link">ActiveIQ Unified Manager에서 외부에서 생성된 인증서를 설치하지 못했습니다</block>
-  <block id="e27fc816983568847a34ee8cfa2a43ac" category="paragraph">인증서 설치에 실패한 경우 기술 자료(KB) 문서:
-<block ref="2bdca89ea81a55c90daea7f3fd7941fa" category="inline-link-rx"></block></block>
   <block id="ceb9d7e61726cd2e35badf78afd8453a" category="paragraph">할당량 이메일 주소에 대한 규칙을 정의하고 이를 실행할 순서대로 입력해야 합니다. 예를 들어 abc@xyz.com 전자 메일 주소를 사용하여 abc에 대한 할당량 위반에 대한 알림을 받고 다른 모든 그룹에 대해 전자 메일 주소 dl-$group@$ domain을 사용하려면 규칙이 다음 순서로 나열되어야 합니다.</block>
   <block id="b3740ac32eb3afc08f5d73d7308fc75d" category="list-text">만약 ($user=='abc')이면 abc@xyz.com 입니다</block>
   <block id="76484226a58b4aaad54c923ee565c2de" category="list-text">IF($group== *) dl-$group@$domain</block>
@@ -11995,4 +11993,5 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="3d937fc01fa5cc206639b1a0a897e80d" category="paragraph">9.14.1부터 Active IQ Unified Manager은 스토리지 가상 머신(SVM, 이전의 Vserver) 레벨에서 OCSP(온라인 인증서 상태 프로토콜) 상태 정보를 제공합니다. 즉, OCSP 검증이 SVM에 대한 모든 SSL/TLS 연결에 적용되며 이러한 연결에 사용된 인증서의 무결성과 유효성을 보장합니다.</block>
   <block id="af95c5c8b4d0fa2b905341b11918dede" category="list-text">7-zip 버전 23.01 이상</block>
   <block id="1ebcce8a1c4d802b8fe1f7f0994575b0" category="paragraph">또한 기본 Unified Manager 설치에는 디렉토리에 umadmin 사용자(기본 유지 관리 사용자)와 sudoers 파일  및<block ref="6a2e8f066e07f32cb6b210b2f264b86b" prefix=" " category="inline-code"></block>의<block ref="15160d21aa7f8cb0f751f17cf3a5cb0e" prefix=" " category="inline-code"></block> JBoss 사용자가 <block ref="e1308a99253f00dceab1f955b9bb8823" prefix="(" category="inline-code"></block>포함됩니다. 보안 정책 또는 보안 모니터링 도구로 인해 사용자 환경에서 이 콘텐츠를 제거하는 경우 해당 콘텐츠를 다시 추가해야 합니다. 일부 Unified Manager 작업에서는 sudo 권한이 필요하므로 sudoers 구성을 유지해야 합니다.</block>
+  <block id="6e01204c5266c6bad73448d8f8d5abc8" category="paragraph">인증서 설치에 실패한 경우 기술 자료(KB) 문서: <block ref="e2fe41d42a2d7397cc470302ef9f2a97" category="inline-link-rx"></block></block>
 </blocks>

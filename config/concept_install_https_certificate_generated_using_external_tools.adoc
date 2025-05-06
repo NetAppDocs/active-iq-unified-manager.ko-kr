@@ -117,5 +117,4 @@ Proc-Type: 4,ENCRYPTED
 <content here>
 -----END EC PRIVATE KEY-----
 ----
-인증서 설치에 실패한 경우 기술 자료(KB) 문서:
-https://kb.netapp.com/mgmt/AIQUM/IQUM_fails_to_install_externally_generated_certificate["ActiveIQ Unified Manager에서 외부에서 생성된 인증서를 설치하지 못했습니다"^]
+인증서 설치에 실패한 경우 기술 자료(KB) 문서: https://kb.netapp.com/mgmt/AIQUM/AIQUM_fails_to_install_externally_generated_certificate["ActiveIQ Unified Manager에서 외부에서 생성된 인증서를 설치하지 못했습니다"^]
