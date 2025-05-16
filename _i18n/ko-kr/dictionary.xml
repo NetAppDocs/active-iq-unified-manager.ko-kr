@@ -11994,4 +11994,7 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="af95c5c8b4d0fa2b905341b11918dede" category="list-text">7-zip 버전 23.01 이상</block>
   <block id="1ebcce8a1c4d802b8fe1f7f0994575b0" category="paragraph">또한 기본 Unified Manager 설치에는 디렉토리에 umadmin 사용자(기본 유지 관리 사용자)와 sudoers 파일  및<block ref="6a2e8f066e07f32cb6b210b2f264b86b" prefix=" " category="inline-code"></block>의<block ref="15160d21aa7f8cb0f751f17cf3a5cb0e" prefix=" " category="inline-code"></block> JBoss 사용자가 <block ref="e1308a99253f00dceab1f955b9bb8823" prefix="(" category="inline-code"></block>포함됩니다. 보안 정책 또는 보안 모니터링 도구로 인해 사용자 환경에서 이 콘텐츠를 제거하는 경우 해당 콘텐츠를 다시 추가해야 합니다. 일부 Unified Manager 작업에서는 sudo 권한이 필요하므로 sudoers 구성을 유지해야 합니다.</block>
   <block id="6e01204c5266c6bad73448d8f8d5abc8" category="paragraph">인증서 설치에 실패한 경우 기술 자료(KB) 문서: <block ref="e2fe41d42a2d7397cc470302ef9f2a97" category="inline-link-rx"></block></block>
+  <block id="57149177e572f9b5329f85c287861767" category="paragraph">Unified Manager에서 감사 로그를 원격 syslog 서버로 보내는 데 사용됩니다.</block>
+  <block id="a683cc8dbb0bb0e6b1793e6ba834ff32" category="inline-link">Active IQ Unified Manager 호스트에서 Java를 업데이트한 후 서비스가 시작되지 않습니다</block>
+  <block id="09baf90eb42ecfec3f212db12b09fe09" category="list-text">Unified Manager 호스트에 하나의 Java 버전만 설치해야 합니다. 그렇지 않으면 시스템에서 사용할 버전을 확인하지 못할 수 있습니다. 을<block ref="c8da8190d4ab26608407458b2e410255" category="inline-link-rx"></block>참조하십시오.</block>
 </blocks>
