@@ -165,3 +165,5 @@ entries:
     url: "/storage-mgmt/reference_user_not_found.html"
   - title: 다른 인증 서비스를 사용하여 LDAP를 추가하는 데 문제가 있습니다
     url: "/storage-mgmt/reference_issue_with_ldap_using_other_authentication_services.html"
+  - title: Windows 시스템의 NetApp Manageability SDK 로그 회전 문제
+    url: "/storage-mgmt/task_resolve_windows_log_rotation_issue.html"

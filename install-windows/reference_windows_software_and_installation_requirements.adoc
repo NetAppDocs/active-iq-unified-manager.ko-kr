@@ -47,9 +47,9 @@ NOTE: NetApp은 Microsoft SCCM(System Center Configuration Manager)과 같은 �
 다음 타사 패키지는 Unified Manager와 함께 번들로 제공됩니다. 타사 패키지가 시스템에 설치되어 있지 않은 경우, Unified Manager에서 이를 설치의 일부로 설치합니다.
 
 * Microsoft Visual C&#43;&#43; Visual Studio 2015 버전 14.26.28720.3용 재배포 가능 패키지
-* MySQL Community Edition 버전 8.0.37
+* MySQL Community Edition 버전 8.4.4
 * 파이썬 3.12.4
-* OpenJDK 버전 11.0.23
+* OpenJDK 버전 11.0.25
 * 7-zip 버전 23.01 이상
 
 
