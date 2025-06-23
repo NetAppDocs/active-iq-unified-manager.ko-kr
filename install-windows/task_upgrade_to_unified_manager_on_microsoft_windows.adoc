@@ -67,7 +67,7 @@ Unified Manager에 다음 메시지가 표시됩니다.
 This setup will perform an upgrade of Unified Manager. Do you want to continue?
 ----
 . 예 * 를 클릭한 후 * 다음 * 을 클릭합니다.
-. 설치 중에 설정된 MySQL8 루트 암호를 입력하고 * 다음 * 을 클릭합니다.
+. 설치 중에 설정된 MySQL84 루트 암호를 입력하고 * 다음 * 을 클릭합니다.
 . 지원되는 웹 브라우저의 새 창에서 웹 UI를 시작하고 로그인하여 Unified Manager의 업그레이드된 버전을 사용하십시오.
 . Windows 시스템에 안티바이러스 소프트웨어가 설치되어 있는 경우 업그레이드가 완료된 후 바이러스 백신 검사에서 다음 경로를 수동으로 제외해야 합니다.
 +
