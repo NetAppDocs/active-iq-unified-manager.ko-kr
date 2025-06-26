@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, change, performance, statistics, collection, interval 
 summary: 성능 통계에 대한 기본 수집 간격은 5분입니다. 대규모 클러스터의 컬렉션이 기본 시간 내에 마중되지 않으면 이 간격을 10 또는 15분으로 변경할 수 있습니다. 이 설정은 Unified Manager의 이 인스턴스가 모니터링하는 모든 클러스터의 통계 모음에 영향을 줍니다. 
 ---
-= 성능 통계 수집 주기 변경
+= 성능 통계 수집 간격 변경
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

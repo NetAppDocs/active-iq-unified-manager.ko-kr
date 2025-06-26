@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, qtrees, full 
 summary: 보고서를 작성하여 Qtree의 스토리지 용량 및 활용률을 분석하고 거의 가득 찬 qtree를 볼 수 있습니다. 
 ---
-= 거의 가득 찬 qtree를 볼 수 있도록 보고서 생성
+= 거의 가득 찬 Qtree를 보려면 보고서를 만드세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

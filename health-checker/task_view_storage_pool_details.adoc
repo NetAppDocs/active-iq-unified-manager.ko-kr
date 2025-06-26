@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage pool, details 
 summary: 스토리지 풀의 세부 정보를 보고 스토리지 풀 상태, 총 캐시 및 사용 가능한 캐시, 사용된 할당 및 사용 가능한 할당을 모니터링할 수 있습니다. 
 ---
-= 스토리지 풀 세부 정보 보기
+= 스토리지 풀 세부 정보를 봅니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

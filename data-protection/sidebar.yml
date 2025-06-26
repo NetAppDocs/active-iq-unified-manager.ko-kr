@@ -12,27 +12,27 @@ entries:
     entries:
     - title: Workflow Automation과 Unified Manager 간 연결 구성
       url: "/data-protection/task_configure_connection_between_workflow_automation_um.html"
-    - title: Workflow Automation에서 Unified Manager 데이터 소스 캐싱 검증
+    - title: Workflow Automation에서 Unified Manager 데이터 소스 캐싱 확인
       url: "/data-protection/task_verify_um_data_source_caching_in_workflow_automation.html"
     - title: OnCommand Workflow Automation를 재설치하거나 업그레이드하면 어떻게 됩니까
       url: "/data-protection/concept_what_happens_when_wfa_is_reinstalled_or_upgraded.html"
-    - title: Unified Manager에서 OnCommand Workflow Automation 설정을 제거하는 중입니다
+    - title: Unified Manager에서 OnCommand Workflow Automation 설정 제거
       url: "/data-protection/task_remove_workflow_automation.html"
-  - title: 보호 관계 페일오버 및 페일백 수행
+  - title: 보호 관계 장애 조치 및 장애 복구 수행
     url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     entries:
-    - title: 볼륨 상태 세부 정보 페이지에서 SnapMirror 관계 분리
+    - title: 볼륨 상태 세부 정보 페이지에서 SnapMirror 관계 해제
       url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
-    - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 반대로 설정합니다
+    - title: 볼륨 상태 세부 정보 페이지에서 역방향 보호 관계
       url: "/data-protection/task_reverse_protection_relationships_from_health_volume_details.html"
-    - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 제거합니다
+    - title: 볼륨 상태 세부 정보 페이지에서 보호 관계 제거
       url: "/data-protection/task_remove_protection_relationship_voldtls.html"
-    - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 재동기화합니다
+    - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 다시 동기화합니다.
       url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
   - title: 보호 작업 실패 해결
     url: "/data-protection/task_resolve_protection_job_failure.html"
     entries:
-    - title: 문제 식별 및 실패한 보호 작업에 대한 수정 조치 수행
+    - title: 문제를 식별하고 실패한 보호 작업에 대한 시정 조치를 수행합니다.
       url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
   - title: 지연 문제 해결
     url: "/data-protection/task_resolve_lag_issues.html"
@@ -43,73 +43,73 @@ entries:
     url: "/data-protection/view-protection-status.html"
   - title: 볼륨 보호 관계 보기
     url: "/data-protection/task_view_volume_protection_relationships.html"
-  - title: 정합성 보장 그룹 관계에서 LUN 모니터링
+  - title: 일관성 그룹 관계에서 LUN 모니터링
     url: "/data-protection/view-lun-relationships.html"
-  - title: All Volumes 보기에서 SnapVault 보호 관계 생성
+  - title: 모든 볼륨 보기에서 SnapVault 보호 관계 만들기
     url: "/data-protection/task_create_snapvault_protection_relationship.html"
-  - title: 볼륨 상태 세부 정보 페이지에서 SnapVault 보호 관계 생성
+  - title: 볼륨 상태 세부 정보 페이지에서 SnapVault 보호 관계를 만듭니다.
     url: "/data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html"
-  - title: All Volumes 보기에서 SnapMirror 보호 관계 생성
+  - title: 모든 볼륨 보기에서 SnapMirror 보호 관계를 만듭니다.
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volumes.html"
-  - title: 볼륨 상태 세부 정보 페이지에서 SnapMirror 보호 관계 생성
+  - title: 볼륨 상태 세부 정보 페이지에서 SnapMirror 보호 관계를 만듭니다.
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volume.html"
-  - title: 버전에 상관없이 유연하게 복제 가능한 SnapMirror 관계 생성
+  - title: 버전 유연한 복제를 통해 SnapMirror 관계 생성
     url: "/data-protection/task_create_snapmirror_relationship_with_version_flexible_replication.html"
-  - title: 버전에 상관없이 유연하게 복제 가능한 백업 옵션을 사용하여 SnapMirror 관계 생성
+  - title: 백업 옵션이 포함된 버전 유연한 복제를 통해 SnapMirror 관계를 생성합니다.
     url: "/data-protection/task_create_snapmirror_relationships_with_version_flexible_replication.html"
-  - title: 대상 효율성 설정을 구성하는 중입니다
+  - title: 목적지 효율성 설정 구성
     url: "/data-protection/task_configure_protection_destination_settings.html"
-  - title: SnapMirror 및 SnapVault 일정 생성
+  - title: SnapMirror 및 SnapVault 일정 만들기
     url: "/data-protection/task_create_snapmirror_and_snapvault_schedules.html"
-  - title: 계단식 또는 팬아웃 관계를 생성하여 기존 보호 관계로부터 보호를 확장합니다
+  - title: 기존 보호 관계에서 보호를 확장하기 위해 계단식 또는 팬아웃 관계를 만듭니다.
     url: "/data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html"
   - title: 볼륨 관계 페이지에서 보호 관계 편집
     url: "/data-protection/task_edit_protection_relationships_from_protection_volume.html"
   - title: 볼륨 상태 세부 정보 페이지에서 보호 관계 편집
     url: "/data-protection/task_edit_protection_relationships_from_health_volume.html"
-  - title: 전송 효율성을 최대화할 수 있도록 SnapMirror 정책 생성
+  - title: 전송 효율성을 극대화하기 위해 SnapMirror 정책을 만듭니다.
     url: "/data-protection/task_create_snapmirror_policy_to_maximize_transfer_efficiency.html"
-  - title: 전송 효율성을 극대화하기 위한 SnapVault 정책 생성
+  - title: 전송 효율성을 극대화하기 위해 SnapVault 정책을 만듭니다.
     url: "/data-protection/task_create_snapvault_policy_to_maximize_transfer_efficiency.html"
-  - title: 볼륨 관계 페이지에서 활성 데이터 보호 전송을 중단합니다
+  - title: 볼륨 관계 페이지에서 활성 데이터 보호 전송을 중단합니다.
     url: "/data-protection/task_abort_an_active_data_protection_transfer.html"
-  - title: 볼륨 상태 세부 정보 페이지에서 활성 데이터 보호 전송을 중단합니다
+  - title: 볼륨 상태 세부 정보 페이지에서 활성 데이터 보호 전송을 중단합니다.
     url: "/data-protection/task_abort_active_data_protection_transfer_from_health_volume.html"
-  - title: 볼륨 관계 페이지에서 보호 관계를 중지합니다
+  - title: 볼륨 관계 페이지에서 보호 관계를 중지합니다.
     url: "/data-protection/task_quiesce_protection_relationship_from_volume_relationships.html"
-  - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 중지합니다
+  - title: 볼륨 상태 세부 정보 페이지에서 보호 관계 중지
     url: "/data-protection/task_quiesce_protection_relationship_from_health_volume_details.html"
-  - title: 볼륨 관계 페이지에서 SnapMirror 관계 분리
+  - title: 볼륨 관계 페이지에서 SnapMirror 관계 해제
     url: "/data-protection/task_break_snapmirror_relationship.html"
-  - title: 볼륨 관계 페이지에서 보호 관계를 제거합니다
+  - title: 볼륨 관계 페이지에서 보호 관계 제거
     url: "/data-protection/task_remove_protection_relationship.html"
-  - title: 볼륨 관계 페이지에서 중지된 관계에서 예약된 전송을 다시 시작합니다
+  - title: 볼륨 관계 페이지에서 정지된 관계에 대한 예약된 전송을 재개합니다.
     url: "/data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html"
-  - title: 볼륨 상태 세부 정보 페이지에서 중지된 관계에서 예약된 전송을 재개합니다
+  - title: 볼륨 상태 세부 정보 페이지에서 정지된 관계에 대한 예약된 전송을 재개합니다.
     url: "/data-protection/task_resume_scheduled_transfers_voldtls_page.html"
   - title: 볼륨 관계 페이지에서 보호 관계를 초기화 또는 업데이트합니다
     url: "/data-protection/task_initialize_or_update_protection_relationships.html"
-  - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 초기화 또는 업데이트합니다
+  - title: 볼륨 상태 세부 정보 페이지에서 보호 관계 초기화 또는 업데이트
     url: "/data-protection/task_update_protection_voldtls_page.html"
-  - title: 볼륨 관계 페이지에서 보호 관계를 재동기화합니다
+  - title: 볼륨 관계 페이지에서 보호 관계를 다시 동기화합니다.
     url: "/data-protection/task_resynchronize_protection_relationships.html"
-  - title: 볼륨 관계 페이지에서 보호 관계를 반대로 설정합니다
+  - title: 볼륨 관계 페이지에서 역방향 보호 관계
     url: "/data-protection/task_reverse_protection_relationships.html"
-  - title: 볼륨 상태 세부 정보 페이지를 사용하여 데이터를 복원합니다
+  - title: 볼륨 상태 세부 정보 페이지를 사용하여 데이터 복원
     url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
   - title: 리소스 풀이란 무엇입니까
     url: "/data-protection/concept_what_resource_pools_are.html"
-  - title: 리소스 풀 생성
+  - title: 리소스 풀 만들기
     url: "/data-protection/task_create_resource_pools.html"
   - title: 리소스 풀 편집
     url: "/data-protection/task_edit_resource_pools.html"
   - title: 리소스 풀 인벤토리 보기
     url: "/data-protection/task_view_resource_pool_inventory.html"
-  - title: 리소스 풀 구성원을 추가하는 중입니다
+  - title: 리소스 풀 멤버 추가
     url: "/data-protection/task_add_resource_pool_members.html"
-  - title: 리소스 풀에서 애그리게이트를 제거합니다
+  - title: 리소스 풀에서 집계 제거
     url: "/data-protection/task_remove_aggregates_from_resource_pools.html"
-  - title: 리소스 풀을 삭제하는 중입니다
+  - title: 리소스 풀 삭제
     url: "/data-protection/task_delete_resource_pools.html"
   - title: 스토리지 VM 재해 복구 보호 관계 모니터링
     url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
@@ -126,13 +126,13 @@ entries:
     url: "/data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html"
   - title: 어떤 작업인지
     url: "/data-protection/concept_what_jobs_are.html"
-  - title: 작업 모니터링
+  - title: 작업을 모니터링합니다
     url: "/data-protection/task_monitor_jobs.html"
-  - title: 작업 세부 정보 보기
+  - title: 작업 세부 정보를 봅니다
     url: "/data-protection/task_view_job_details.html"
-  - title: 작업을 중단합니다
+  - title: 작업 중단
     url: "/data-protection/task_abort_jobs.html"
-  - title: 실패한 보호 작업을 다시 시도합니다
+  - title: 실패한 보호 작업을 다시 시도합니다.
     url: "/data-protection/task_retry_failed_protection_job.html"
   - title: 보호 관계 창 및 대화 상자에 대한 설명입니다
     url: "/data-protection/reference_description_of_protection_relationships_window.html"

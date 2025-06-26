@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, backup, snapshot copy, copies maintenance console 
 summary: 스냅샷 복사본을 사용하여 Active IQ Unified Manager 백업을 수행하려면 유지보수 콘솔에서 몇 가지 구성 단계를 수행해야 합니다. 
 ---
-= 유지보수 콘솔에서 Snapshot 복사본으로 백업을 구성합니다
+= 유지 관리 콘솔에서 스냅샷 복사로 백업 구성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

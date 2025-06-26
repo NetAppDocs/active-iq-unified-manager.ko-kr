@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, saml authentication, maintenance, console 
 summary: Unified Manager GUI에 액세스할 수 없는 경우 유지보수 콘솔에서 SAML 인증을 비활성화해야 할 수 있습니다. 이는 구성이 잘못되거나 IDP에 액세스할 수 없는 경우에 발생할 수 있습니다. 
 ---
-= 유지 관리 콘솔에서 SAML 인증을 사용하지 않도록 설정합니다
+= 유지 관리 콘솔에서 SAML 인증 비활성화
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

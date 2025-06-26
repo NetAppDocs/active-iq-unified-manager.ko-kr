@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, HA pairs, available, capacity 
 summary: '보고서를 생성하여 새 볼륨 및 LUN을 프로비저닝할 때 가장 용량이 큰 고가용성(HA) 쌍을 찾을 수 있습니다.' 
 ---
-= 보고서를 생성하여 사용 가능한 용량이 가장 많은 HA 쌍을 표시합니다
+= 가장 사용 가능한 용량을 가진 HA 쌍을 보려면 보고서를 만드세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

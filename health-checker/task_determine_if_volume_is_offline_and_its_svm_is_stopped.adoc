@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, svm, node 
 summary: 'Unified Manager 웹 UI를 사용하면 SVM의 루트 볼륨을 호스팅하는 노드로 인해 SVM(호스트 스토리지 가상 머신)이 중지되어 볼륨이 오프라인 상태가 될 가능성을 확인 또는 제거할 수 있습니다.' 
 ---
-= 노드가 다운되어 볼륨이 오프라인 상태가 되고 해당 SVM이 중지되는지 확인
+= 노드가 다운되어 볼륨이 오프라인 상태이고 해당 SVM이 중지되었는지 확인합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

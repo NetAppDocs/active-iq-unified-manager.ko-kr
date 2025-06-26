@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: update, saml, authentication, settings, unified manager, security, certificate, change 
 summary: Unified Manager 서버에 설치된 HTTPS 보안 인증서를 변경하려면 SAML 인증 구성 설정을 업데이트해야 합니다. 호스트 시스템의 이름을 바꾸거나 호스트 시스템에 새 IP 주소를 할당하거나 시스템에 대한 보안 인증서를 수동으로 변경하면 인증서가 업데이트됩니다. 
 ---
-= Unified Manager 보안 인증서 변경 후 SAML 인증 설정을 업데이트하는 중입니다
+= Unified Manager 보안 인증서 변경 후 SAML 인증 설정 업데이트
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

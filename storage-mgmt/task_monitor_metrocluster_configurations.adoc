@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, configurations 
 summary: MetroCluster 구성에서 연결 문제를 모니터링할 수 있습니다. 세부 정보에는 클러스터 내의 구성 요소 및 연결 상태와 MetroCluster 구성의 클러스터 간 연결 상태가 포함됩니다. 
 ---
-= MetroCluster 구성 모니터링
+= MetroCluster 구성을 모니터링합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -54,7 +54,7 @@ image::../media/node_switch_connectivity.gif[노드 스위치 연결 아이콘]
 
 MetroCluster 구성에서 연결 문제를 발견한 경우, System Manager에 로그인하거나 ONTAP CLI에 액세스하여 문제를 해결해야 합니다.
 
-클러스터 상태를 확인하는 방법에 대한 자세한 내용은 를 참조하십시오 link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determining-cluster-health-in-metrocluster-over-fc-configuration["FC를 통한 MetroCluster 구성의 클러스터 상태 확인"].
+클러스터 상태 확인에 대한 자세한 내용은 을 참조하십시오link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determine-cluster-health-in-metrocluster-over-fc-configuration["FC 구성을 통해 MetroCluster에서 클러스터 상태 확인"].
 
 
 
@@ -99,7 +99,7 @@ NOTE: IP 기반 MetroCluster 구성에만 * 클러스터 * 페이지에서 클�
 * 관련 정보 *
 
 * link:../health-checker/reference_health_cluster_details_page.html["클러스터/상태 세부 정보 페이지"]
-* 관계: MetroCluster * 보기에 대한 자세한 내용은 을 참조하십시오 link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 구성 모니터링"].
+* 관계:MetroCluster* 보기에 대한 자세한 내용은 을 참조하십시오link:../storage-mgmt/task_monitor_metrocluster_configurations.html["MetroCluster 구성을 모니터링합니다"].
 * 관계: 지난 1개월 전송 상태* 보기에 대한 자세한 내용은 을 참조하십시오 link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["관계: 최근 1개월 전송 상태 보기"].
 * 관계: 지난 1개월 전송 속도* 보기에 대한 자세한 내용은 을 참조하십시오 link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["관계: 최근 1개월 전송 속도 보기"].
 * 관계: 모든 관계 * 보기에 대한 자세한 내용은 을 참조하십시오 link:../data-protection/reference_relationship_all_relationships_view.html["관계: 모든 관계 보기"].

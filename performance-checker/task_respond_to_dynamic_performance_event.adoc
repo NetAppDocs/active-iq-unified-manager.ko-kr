@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, qos, policy, group, throttling 
 summary: 'Unified Manager를 사용하면 QoS(서비스 품질) 정책 그룹의 워크로드 처리량 제한(MB/s)으로 인해 발생하는 성능 이벤트를 조사할 수 있습니다. 임계치 조절을 통해 정책 그룹에 있는 볼륨 워크로드의 응답 시간(지연 시간)이 증가했습니다. 이벤트 정보를 사용하여 임계치 조절을 중지하기 위해 정책 그룹에 대한 새로운 제한이 필요한지 여부를 결정할 수 있습니다.' 
 ---
-= QoS 정책 그룹 임계치 조절로 인해 발생하는 동적 성능 이벤트에 대한 응답
+= QoS 정책 그룹 제한으로 인해 발생하는 동적 성능 이벤트에 대응
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

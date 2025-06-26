@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, ONTAP, APIs, proxy, access 
 summary: 게이트웨이 API를 사용하면 Active IQ Unified Manager 자격 증명을 사용하여 ONTAP REST API를 실행하고 스토리지 객체를 관리할 수 있습니다. 이러한 API는 Unified Manager 웹 UI에서 API 게이트웨이 기능을 사용하도록 설정한 경우 사용할 수 있습니다. 
 ---
-= 프록시 액세스를 통해 ONTAP API 액세스
+= 프록시 액세스를 통해 ONTAP API에 액세스
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -70,7 +70,7 @@ POST를 누릅니다
 |===
 
 
-== API 게이트웨이 터널링 이해
+== API Gateway 터널링 이해
 
 게이트웨이 API를 사용하면 Unified Manager를 통해 ONTAP 개체를 관리할 수 있습니다. Unified Manager는 클러스터 및 인증 세부 정보를 관리하고 요청을 ONTAP REST 끝점으로 리디렉션합니다. 게이트웨이 API는 URL과 Hypermedia를 API 게이트웨이 기본 URL을 사용하여 헤더 및 응답 본문의 HATEOAS(Engine of Application State) 링크로 변환합니다. 게이트웨이 API는 ONTAP REST URL을 추가하고 필요한 ONTAP REST 엔드포인트를 실행하는 프록시 기본 URL 역할을 합니다.
 

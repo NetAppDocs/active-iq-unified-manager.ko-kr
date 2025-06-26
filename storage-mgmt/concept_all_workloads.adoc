@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workloads, add, provision, storage, filter, analyze, performance, capacity, criteria 
 summary: 모든 워크로드 보기에는 데이터 센터의 클러스터에서 사용 가능한 모든 워크로드 목록이 표시됩니다. 
 ---
-= 워크로드 보기
+= 작업 부하 보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

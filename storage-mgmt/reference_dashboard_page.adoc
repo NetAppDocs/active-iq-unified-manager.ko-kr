@@ -26,7 +26,7 @@ summary: '대시보드 페이지에는 모니터링하는 클러스터의 높은
 
 == 관리 작업 패널
 
-Unified Manager에서 완벽하게 진단하고 한 가지 해결 방법을 제공할 수 있는 특정 문제가 있습니다. 사용 가능한 경우 이러한 해상도는 이 패널에 * Fix it * 또는 * Fix All * 버튼과 함께 표시됩니다. ONTAP System Manager 또는 ONTAP CLI를 사용하지 않고 Unified Manager에서 이러한 문제를 즉시 해결할 수 있습니다. 모든 문제를 보려면 참조 를 클릭합니다 link:concept_fix_ontap_issues_directly_from_unified_manager.html["Unified Manager에서 직접 ONTAP 문제 해결"] 를 참조하십시오.
+Unified Manager에서 완벽하게 진단하고 한 가지 해결 방법을 제공할 수 있는 특정 문제가 있습니다. 사용 가능한 경우 이러한 해상도는 이 패널에 * Fix it * 또는 * Fix All * 버튼과 함께 표시됩니다. ONTAP System Manager 또는 ONTAP CLI를 사용하지 않고 Unified Manager에서 이러한 문제를 즉시 해결할 수 있습니다. 모든 문제를 보려면 자세한 내용은 보기 를 link:concept_fix_ontap_issues_directly_from_unified_manager.html["Unified Manager에서 직접 ONTAP 문제 해결"]클릭하십시오.
 
 
 
@@ -120,6 +120,6 @@ link:../performance-checker/concept_sources_of_performance_events.html["성능 �
 
 link:../health-checker/concept_manage_cluster_security_objectives.html["클러스터 보안 목표 관리"]
 
-link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["성능 클러스터 랜딩 페이지에서 클러스터 성능을 모니터링합니다"]
+link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["성능 클러스터 랜딩 페이지에서 클러스터 성능을 모니터링합니다."]
 
 link:../performance-checker/concept_monitor_performance_using_object_performance.html["성능 인벤토리 페이지를 사용하여 성능 모니터링"]

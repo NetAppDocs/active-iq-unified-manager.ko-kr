@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, workloads 
 summary: 여기에 설명된 API는 스토리지 워크로드 보기, LUN 및 파일 공유 생성, 성능 서비스 수준 및 스토리지 효율성 정책 관리, 스토리지 작업 부하에 대한 정책 할당 등 스토리지 관리의 다양한 기능에 대해 다룹니다. 
 ---
-= API를 사용하여 워크로드 관리
+= API를 사용하여 작업 부하 관리
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

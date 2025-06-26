@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, cluster, storage, reports 
 summary: 이 섹션의 샘플 클러스터 스토리지 보고서는 스토리지 시스템 리소스를 모니터링하는 데 도움이 되도록 클러스터 용량에 대한 보고서를 생성하는 방법을 이해하는 데 도움이 되는 샘플입니다. 
 ---
-= 클러스터 스토리지 보고서 사용자 지정
+= 클러스터 스토리지 보고서 사용자 정의
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

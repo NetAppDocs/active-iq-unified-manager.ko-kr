@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: svm, association, page 
 summary: 스토리지 VM 연결 페이지에서는 소스 및 대상 스토리지 VM 간의 기존 스토리지 VM 연결을 볼 수 있습니다. 
 ---
-= 스토리지 VM 연결 이해
+= 저장소 VM 연결 이해
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

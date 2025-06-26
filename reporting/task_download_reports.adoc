@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, reports 
 summary: '보고서를 다운로드하여 로컬 또는 네트워크 드라이브에 CSV(쉼표로 구분된 값) 파일, Microsoft Excel(.xlsx) 파일 또는 PDF 파일로 저장할 수 있습니다. CSV 및 XLSX 파일은 Microsoft Excel과 같은 스프레드시트 응용 프로그램과 Adobe Acrobat과 같은 판독기로 열 수 있습니다.' 
 ---
-= 보고서를 다운로드하는 중입니다
+= 보고서 다운로드
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

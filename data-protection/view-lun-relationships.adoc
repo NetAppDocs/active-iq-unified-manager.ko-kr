@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: LUN, SnapMirror active sync, Consistency Group, CG 
 summary: SnapMirror 액티브 동기화로 보호되는 LUN의 통합 뷰 
 ---
-= 정합성 보장 그룹 관계에서 LUN 모니터링
+= 일관성 그룹 관계에서 LUN 모니터링
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

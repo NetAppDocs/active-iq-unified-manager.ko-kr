@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, page 
 summary: 볼륨 관계 페이지에서 새 보호 관계에 대한 초기 계획을 처음 전송할 수도 있고, 이미 초기화된 관계로 즉시 전송하기 위해 예정되지 않은 수동 증분 업데이트를 수행하려는 경우 관계를 업데이트할 수도 있습니다. 
 ---
-= 볼륨 관계 페이지에서 보호 관계를 초기화 또는 업데이트합니다
+= 볼륨 관계 페이지에서 보호 관계를 초기화하거나 업데이트합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -31,24 +31,24 @@ entries:
 - title: Unified Manager REST API
   url: "/api-automation/concept_um_apis_list_intro.html"
   entries:
-  - title: 데이터 센터의 스토리지 오브젝트 관리
+  - title: 데이터 센터의 스토리지 객체 관리
     url: "/api-automation/concept_data_center_apis.html"
-  - title: 프록시 액세스를 통해 ONTAP API 액세스
+  - title: 프록시 액세스를 통해 ONTAP API에 액세스
     url: "/api-automation/concept_gateway_apis.html"
   - title: 관리 작업을 수행합니다
     url: "/api-automation/concept_administration_apis.html"
   - title: 사용자 관리
     url: "/api-automation/concept_security_apis.html"
-  - title: 성능 메트릭 보기
+  - title: 성능 메트릭을 봅니다
     url: "/api-automation/concept_metrics_apis.html"
   - title: 작업 및 시스템 세부 정보 보기
     url: "/api-automation/concept_job_api.html"
-  - title: 이벤트 및 경고 관리
+  - title: 이벤트 및 알림을 관리합니다
     url: "/api-automation/concept_events_api.html"
   - title: 워크로드 관리
     url: "/api-automation/concept_manage_storage_workloads.html"
     entries:
-    - title: 스토리지 워크로드 보기
+    - title: 스토리지 워크로드를 봅니다
       url: "/api-automation/concept_view_workloads.html"
     - title: 액세스 엔드포인트 관리
       url: "/api-automation/concept_manage_access_endpoint.html"
@@ -58,16 +58,16 @@ entries:
       url: "/api-automation/concept_manage_fileshares_api.html"
     - title: LUN 관리
       url: "/api-automation/concept_manage_lun.html"
-    - title: 성능 서비스 수준 관리
+    - title: 성과 서비스 수준 관리
       url: "/api-automation/concept_manage_psl.html"
     - title: 스토리지 효율성 정책 관리
       url: "/api-automation/concept_manage_sep.html"
 - title: 스토리지 관리를 위한 공통 워크플로우
   url: "/api-automation/concept_workflow_intro.html"
   entries:
-  - title: 애그리게이트에서 공간 문제를 확인하는 중입니다
+  - title: 집계의 공간 문제 확인
     url: "/api-automation/concept_workflow_space_issue.html"
-  - title: 이벤트를 사용하여 스토리지 개체의 문제 확인
+  - title: 이벤트를 사용하여 스토리지 객체의 문제 확인
     url: "/api-automation/concept_events_workflows.html"
   - title: 게이트웨이 API를 사용하여 ONTAP 볼륨 문제 해결
     url: "/api-automation/concept_ontap_troubleshooting_workflow.html"
@@ -83,5 +83,5 @@ entries:
     - title: 스토리지 워크로드 수정
       url: "/api-automation/concept_modify_workloads_workflow.html"
       entries:
-      - title: CIFS를 지원하도록 NFS 파일 공유를 수정합니다
+      - title: CIFS를 지원하도록 NFS 파일 공유 수정
         url: "/api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html"

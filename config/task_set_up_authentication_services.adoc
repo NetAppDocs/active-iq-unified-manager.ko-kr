@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, authentication, services 
 summary: '인증 서비스를 사용하면 Unified Manager에 대한 액세스를 제공하기 전에 인증 서버에서 원격 사용자 또는 원격 그룹을 인증할 수 있습니다. 사전 정의된 인증 서비스(예: Active Directory 또는 OpenLDAP)를 사용하거나 고유한 인증 메커니즘을 구성하여 사용자를 인증할 수 있습니다.' 
 ---
-= 인증 서비스 설정 중
+= 인증 서비스 설정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

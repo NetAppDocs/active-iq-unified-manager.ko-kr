@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filtering, inventory, page, content 
 summary: Unified Manager에서 인벤토리 페이지 데이터를 필터링하여 특정 기준에 따라 데이터를 빠르게 찾을 수 있습니다. 필터링을 사용하면 Unified Manager 페이지의 콘텐츠 범위를 좁혀 원하는 결과만 표시할 수 있습니다. 따라서 관심 있는 데이터만 표시하는 매우 효율적인 방법이 제공됩니다. 
 ---
-= 재고 페이지 콘텐츠 필터링
+= 필터 인벤토리 페이지 콘텐츠
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

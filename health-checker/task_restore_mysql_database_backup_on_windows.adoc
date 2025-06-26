@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, windows, mysql, database, backup 
 summary: 데이터 손실 또는 데이터 손상이 발생할 경우 복원 기능을 사용하여 최소한의 손실로 Unified Manager를 이전의 안정적인 상태로 복원할 수 있습니다. Unified Manager 유지 관리 콘솔을 사용하여 Unified Manager MySQL 데이터베이스를 로컬 Windows 시스템 또는 원격 Windows 시스템으로 복원할 수 있습니다. 
 ---
-= Windows에서 MySQL 데이터베이스 백업을 복원합니다
+= Windows에서 MySQL 데이터베이스 백업 복원
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

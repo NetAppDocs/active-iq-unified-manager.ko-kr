@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, unified manager, recommendations, tier, data, cloud 
 summary: 'Performance: All Volumes(성능: 모든 볼륨) 보기에는 비활성(콜드) 상태인 볼륨에 저장된 사용자 데이터의 크기와 관련된 정보가 표시됩니다. 경우에 따라 Unified Manager에서 FabricPool 지원 애그리게이트의 클라우드 계층(클라우드 공급자 또는 StorageGRID)에 비활성 데이터를 계층화함으로써 이점을 얻을 수 있는 특정 볼륨을 식별합니다.' 
 ---
-= 데이터를 클라우드에 계층화하도록 Unified Manager의 권장 사항 이해
+= 클라우드에 데이터를 계층화하기 위한 Unified Manager 권장 사항을 이해하세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

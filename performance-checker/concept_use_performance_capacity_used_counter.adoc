@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, counter, manage, performance 
 summary: 일반적으로 조직은 사용량이 가장 많은 시간에 대한 수요를 지원하기 위해 추가 성능 용량을 예약하면서 리소스가 효율적으로 사용되도록 100퍼센트 미만의 성능 용량을 사용하여 운영하려고 합니다. 임계값 정책을 사용하여 고성능 용량 사용 값에 대한 알림이 전송되는 시기를 사용자 지정할 수 있습니다. 
 ---
-= 카운터를 사용하여 성능을 관리합니다
+= 성능 관리에 사용된 성능 용량 카운터를 사용합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

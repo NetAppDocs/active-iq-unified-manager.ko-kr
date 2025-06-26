@@ -30,26 +30,26 @@ entries:
     url: "/events/task_fix_issues_using_um_automatic_remediations.html"
   - title: Active IQ 이벤트 보고 활성화 및 비활성화
     url: "/events/task_enable_and_disable_active_iq_event_reporting.html"
-  - title: 새 Active IQ 규칙 파일을 업로드하는 중입니다
+  - title: 새로운 Active IQ 규칙 파일 업로드
     url: "/events/task_upload_new_active_iq_rules_file.html"
   - title: Active IQ 플랫폼 이벤트 생성 방법
     url: "/events/concept_how_active_iq_platform_events_are_generated.html"
   - title: Active IQ 플랫폼 이벤트 해결
     url: "/events/concept_resolve_active_iq_platform_events.html"
-  - title: 이벤트 보존 설정을 구성하는 중입니다
+  - title: 이벤트 보존 설정 구성
     url: "/events/task_configure_event_retention_settings.html"
   - title: Unified Manager의 유지 관리 기간은 얼마입니까
     url: "/events/concept_what_um_maintenance_window_is.html"
     entries:
-    - title: 클러스터 이벤트 알림을 사용하지 않도록 유지 관리 창을 예약하는 중입니다
+    - title: 클러스터 이벤트 알림을 비활성화하기 위한 유지 관리 기간 예약
       url: "/events/task_schedule_maintenance_window_to_disable_cluster_notifications.html"
-    - title: 예약된 유지 관리 창 변경 또는 취소
+    - title: 예약된 유지 관리 기간을 변경하거나 취소합니다.
       url: "/events/task_change_or_cancel_scheduled_maintenance_window.html"
-    - title: 유지보수 윈도우 중 발생한 이벤트 보기
+    - title: 유지 관리 기간 동안 발생한 이벤트 보기
       url: "/events/task_view_events_that_occurred_during_maintenance_window.html"
   - title: 호스트 시스템 리소스 이벤트 관리
     url: "/events/task_manage_host_system_resource_events.html"
-  - title: 이벤트에 대한 자세한 정보
+  - title: 이벤트에 대해 더 자세히 알아보세요
     url: "/events/concept_understand_more_about_events.html"
     entries:
     - title: 이벤트 상태 정의
@@ -153,31 +153,31 @@ entries:
       url: "/events/reference_event_setup_page.html"
     - title: 이벤트 비활성화 대화 상자
       url: "/events/reference_disable_events_dialog_box.html"
-- title: 알림 관리
+- title: 알림을 관리합니다
   url: "/events/concept_manage_alerts.html"
   entries:
   - title: 경고란 무엇입니까
     url: "/events/concept_what_alerts_are.html"
   - title: 경고 이메일에 포함된 정보
     url: "/events/concept_what_information_is_contained_in_an_alert_email.html"
-  - title: 알림 추가
+  - title: 알림을 추가합니다
     url: "/events/task_add_alerts.html"
     entries:
     - title: 알림 추가 지침
       url: "/events/concept_guidelines_for_adding_alerts.html"
   - title: 성능 이벤트에 대한 알림 추가
     url: "/events/task_add_alerts_for_performance_events.html"
-  - title: 알림 테스트 중
+  - title: 경고를 테스트합니다
     url: "/events/task_test_alerts.html"
-  - title: 해결된 이벤트 및 사용되지 않는 이벤트에 대한 알림을 설정 및 해제할 수 있습니다
+  - title: 해결됨 및 폐기됨 이벤트에 대한 알림 활성화 및 비활성화
     url: "/events/task_disable_alerts_for_resolved_and_obsolete_events.html"
-  - title: 알림 생성에서 재해 복구 대상 볼륨 제외
+  - title: 재해 복구 대상 볼륨을 경고 생성에서 제외합니다.
     url: "/events/task_exclude_disaster_recovery_destination_volumes_from_alerts.html"
-  - title: 경고 보기
+  - title: 알림을 봅니다
     url: "/events/task_view_alerts.html"
   - title: 알림 편집
     url: "/events/task_edit_alerts.html"
-  - title: 알림을 삭제하는 중입니다
+  - title: 알림 삭제
     url: "/events/task_delete_alerts.html"
   - title: 경고 창 및 대화 상자에 대한 설명입니다
     url: "/events/reference_description_of_health_alert_windows_and_dialog_boxes.html"
@@ -195,9 +195,9 @@ entries:
     url: "/events/concept_how_scripts_work_with_alerts.html"
   - title: 스크립트 추가
     url: "/events/task_add_scripts.html"
-  - title: 스크립트를 삭제하는 중입니다
+  - title: 스크립트 삭제
     url: "/events/task_delete_scripts.html"
-  - title: 스크립트 실행 테스트 중
+  - title: 테스트 스크립트 실행
     url: "/events/task_test_script_execution.html"
   - title: 지원되는 Unified Manager CLI 명령
     url: "/events/reference_supported_unified_manager_cli_commands.html"

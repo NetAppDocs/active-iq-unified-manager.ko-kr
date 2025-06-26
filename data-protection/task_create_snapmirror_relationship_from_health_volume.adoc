@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship,  volume, health details page 
 summary: 볼륨/상태 세부 정보 페이지를 사용하여 보호 목적으로 데이터 복제를 사용하도록 SnapMirror 관계를 만들 수 있습니다. SnapMirror 복제를 사용하면 소스의 데이터 손실 발생 시 대상 볼륨에서 데이터를 복원할 수 있습니다. 
 ---
-= 볼륨/상태 세부 정보 페이지에서 SnapMirror 보호 관계 생성
+= 볼륨/상태 세부 정보 페이지에서 SnapMirror 보호 관계를 만듭니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

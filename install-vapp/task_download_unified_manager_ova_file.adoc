@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, unified manager, installation, file 
 summary: NetApp Support 사이트에서 Unified Manager 설치 파일을 다운로드하여 Unified Manager를 가상 어플라이언스로 구축할 수 있습니다. 
 ---
-= Unified Manager 설치 파일을 다운로드하는 중입니다
+= Unified Manager 설치 파일을 다운로드하세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

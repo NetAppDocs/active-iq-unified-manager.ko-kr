@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: autosupport, messages, support bundles, technical support 
 summary: AutoSupport 페이지에서는 사전 정의된 요청 시 AutoSupport 메시지를 기술 지원 팀에 전송하여 운영 환경을 올바르게 운영하고 환경의 무결성을 유지할 수 있도록 지원합니다. AutoSupport는 기본적으로 활성화되어 있으며NetApp Active IQ의 이점을 누릴 수 있도록 비활성화되어서는 안 됩니다. 
 ---
-= 기술 지원 팀에 AutoSupport 메시지 및 지원 번들 보내기
+= AutoSupport 메시지와 지원 번들을 기술 지원팀에 보냅니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -36,7 +36,7 @@ Unified Manager 서버에 대한 진단 시스템 정보 및 세부 데이터를
 
 
 
-== Periodic AutoSupport 활성화
+== 주기적 AutoSupport 활성화
 
 정기적으로 문제 진단 및 해결을 위해 기술 지원 부서에 사전 정의된 특정 메시지를 보낼 수 있습니다. 이 기능은 기본적으로 활성화되어 있습니다. 비활성화된 경우 관리자 또는 유지 관리 사용자가 설정을 활성화할 수 있습니다.
 
@@ -72,7 +72,7 @@ Unified Manager 서버에 대한 진단 시스템 정보 및 세부 데이터를
 
 
 
-== HTTP 프록시 서버 설정 중
+== HTTP 프록시 서버 설정
 
 사용자 환경에서 Unified Manager 서버로부터 직접 액세스할 수 없는 경우 AutoSupport 콘텐츠를 지원하도록 인터넷 액세스를 제공하는 프록시를 지정할 수 있습니다. 이 섹션은 관리자 및 유지 보수 사용자만 사용할 수 있습니다.
 

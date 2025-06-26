@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, https, certificate, signing, request 
 summary: 서명할 인증 기관에 파일을 제공할 수 있도록 현재 HTTPS 보안 인증서에 대한 인증 서명 요청을 다운로드할 수 있습니다. CA 서명 인증서는 끼어들기 공격을 방지하고 자체 서명된 인증서보다 향상된 보안 보호를 제공합니다. 
 ---
-= HTTPS 인증서 서명 요청을 다운로드하는 중입니다
+= HTTPS 인증서 서명 요청 다운로드
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

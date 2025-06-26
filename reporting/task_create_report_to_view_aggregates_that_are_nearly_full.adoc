@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, full 
 summary: '보고서를 생성하여 80% 이상의 꽉 찬 애그리게이트를 강조 표시할 수 있습니다.' 
 ---
-= 80% 이상의 전체 애그리게이트를 볼 수 있는 보고서 생성
+= 80% 이상 채워진 집계를 보려면 보고서를 만드세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

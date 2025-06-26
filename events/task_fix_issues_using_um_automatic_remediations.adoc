@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix, issues, use, unified manager, automatic, remediations 
 summary: Unified Manager에서 철저히 진단하고 Fix it 버튼을 사용하여 단일 해결책을 제공할 수 있는 특정 이벤트가 있습니다. 사용 가능한 경우 이러한 해결 방법은 Dashboard, Event Details 페이지 및 왼쪽 탐색 메뉴의 Workload Analysis 선택 항목에 표시됩니다. 
 ---
-= Unified Manager 자동 조정을 사용하여 문제 해결
+= Unified Manager 자동 수정을 사용하여 문제 해결
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

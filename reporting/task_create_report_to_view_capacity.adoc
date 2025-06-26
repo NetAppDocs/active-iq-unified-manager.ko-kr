@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, capacity, table, chart 
 summary: 합계 및 묶은 세로 막대형 차트 형식을 사용하여 Excel 파일의 용량을 분석하는 보고서를 만들 수 있습니다. 
 ---
-= 집계 용량 테이블 및 차트를 보여 주는 보고서 생성
+= 집계 용량 표와 차트를 보여주는 보고서를 만듭니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

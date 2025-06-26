@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfers, day 
 summary: 보고서를 생성하여 매일 그룹화된 볼륨 전송을 볼 수 있습니다. 
 ---
-= 일별 그룹별 볼륨 전송을 보기 위한 보고서 생성
+= 일별로 그룹화된 볼륨 전송을 보려면 보고서를 만드세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

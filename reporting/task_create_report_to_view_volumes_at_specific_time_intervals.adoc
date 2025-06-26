@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfer, trends, specific, time intervals 
 summary: 특정 시간 간격으로 볼륨 전송 추세를 표시하는 보고서를 생성할 수 있습니다. 
 ---
-= 특정 시간 간격으로 볼륨 전송 추세를 볼 수 있는 보고서 생성
+= 특정 시간 간격의 볼륨 전송 추세를 보려면 보고서를 만드세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

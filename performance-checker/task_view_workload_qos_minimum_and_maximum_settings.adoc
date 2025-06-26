@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workload, qos, minimum, maximum, settings, performance, explorer 
 summary: '성능 탐색기 차트에서 볼륨 또는 LUN에 대한 ONTAP 정의 서비스 품질(QoS) 정책 설정을 볼 수 있습니다. 최대 처리량 설정은 경쟁 워크로드가 시스템 리소스에 미치는 영향을 제한합니다. 처리량 최소 설정은 중요 워크로드가 서로 경합하는 워크로드에 대한 요구 사항에 관계없이 최소 처리량 목표를 충족하도록 보장합니다.' 
 ---
-= Performance Explorer에서 워크로드 QoS 최소 및 최대 설정 보기
+= 성능 탐색기에서 작업 부하 QoS 최소 및 최대 설정 보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

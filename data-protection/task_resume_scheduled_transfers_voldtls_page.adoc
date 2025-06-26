@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resume schedule, transfers, quiesce, relationship,  volume, health details page 
 summary: 예약된 전송 발생을 중지하기 위해 관계를 중단한 후 볼륨/상태 세부 정보 페이지에서 Resume을 사용하여 소스 또는 운영 볼륨의 데이터가 보호되도록 예약된 전송을 다시 활성화할 수 있습니다. 체크포인트가 있는 경우 다음 예약된 전송 간격에 다시 시작됩니다. 
 ---
-= 볼륨/상태 세부 정보 페이지에서 중지된 관계에서 예약된 전송을 재개합니다
+= 볼륨/상태 세부 정보 페이지에서 정지된 관계에 대한 예약된 전송을 재개합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

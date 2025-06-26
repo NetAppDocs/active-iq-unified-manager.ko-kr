@@ -16,7 +16,7 @@ entries:
     entries:
     - title: 검색 프로세스의 작동 방식
       url: "/storage-mgmt/concept_how_discovery_process_works_tobe_rmvd.html"
-- title: 사용자 인터페이스 이해
+- title: 사용자 인터페이스를 이해하세요
   url: "/storage-mgmt/concept_understand_user_interface.html"
   entries:
   - title: 일반적인 창 레이아웃
@@ -25,27 +25,27 @@ entries:
     url: "/storage-mgmt/reference_window_layout_customization.html"
   - title: Unified Manager 도움말 사용
     url: "/storage-mgmt/task_use_unified_manager_help.html"
-  - title: 즐겨찾는 도움말 항목 북마크
+  - title: 즐겨찾는 도움말 항목을 북마크하세요
     url: "/storage-mgmt/task_bookmark_your_favorite_help_topics_onc.html"
-  - title: 스토리지 객체를 검색하는 중입니다
+  - title: 저장소 객체 검색
     url: "/storage-mgmt/task_search_for_storage_objects.html"
-  - title: 스토리지 데이터를 보고서로 내보내기
+  - title: 저장소 데이터를 보고서로 내보내기
     url: "/storage-mgmt/task_export_storage_data_as_reports.html"
-  - title: 재고 페이지 콘텐츠 필터링
+  - title: 필터 인벤토리 페이지 콘텐츠
     url: "/storage-mgmt/task_filter_inventory_page_content.html"
-  - title: 알림 표시에서 활성 이벤트 보기
+  - title: 알림 벨에서 활성 이벤트 보기
     url: "/storage-mgmt/task_view_active_events_from_notification_bell.html"
-- title: 대시보드에서 클러스터 모니터링 및 관리
+- title: 대시보드에서 클러스터를 모니터링하고 관리합니다.
   url: "/storage-mgmt/concept_monitor_and_manage_clusters_from_dashboard.html"
   entries:
   - title: 대시보드 페이지
     url: "/storage-mgmt/reference_dashboard_page.html"
-  - title: Unified Manager에서 직접 ONTAP 문제 해결 또는 관리
+  - title: Unified Manager에서 직접 ONTAP 문제를 수정하거나 관리합니다.
     url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
     entries:
     - title: Fix it 또는 Fix All 단추가 표시되면 어떤 옵션이 있는지 확인합니다
       url: "/storage-mgmt/concept_what_options_do_i_have_in_fix_it_button.html"
-    - title: 수정하도록 선택한 관리 작업의 상태를 봅니다
+    - title: 수정하기로 선택한 관리 작업의 상태를 확인하세요.
       url: "/storage-mgmt/task_view_status_of_management_actions_to_fix.html"
     - title: Unified Manager로 해결할 수 있는 문제
       url: "/storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html"
@@ -62,16 +62,16 @@ entries:
     url: "/storage-mgmt/task_add_clusters.html"
   - title: 클러스터 편집
     url: "/storage-mgmt/task_edit_clusters.html"
-  - title: 클러스터를 제거하는 중입니다
+  - title: 클러스터를 제거합니다
     url: "/storage-mgmt/task_remove_clusters.html"
   - title: 클러스터 재검색
     url: "/storage-mgmt/task_rediscover_clusters.html"
-- title: VMware 가상 인프라스트럭처 모니터링
+- title: VMware 가상 인프라 모니터링
   url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
   entries:
   - title: vCenter Server 보기 및 추가
     url: "/storage-mgmt/task_view_and_add_vcenter_servers.html"
-  - title: vCenter Server를 제거하는 중입니다
+  - title: vCenter Server 제거
     url: "/storage-mgmt/task_remove_vcenter_server.html"
   - title: 가상 머신 모니터링
     url: "/storage-mgmt/concept_monitor_vms.html"
@@ -83,15 +83,15 @@ entries:
   - title: 워크로드 개요
     url: "/storage-mgmt/concept_workloads_dashboard.html"
     entries:
-    - title: 워크로드 보기
+    - title: 작업 부하 보기
       url: "/storage-mgmt/concept_all_workloads.html"
-    - title: 작업 부하에 정책 할당
+    - title: 워크로드에 정책 할당
       url: "/storage-mgmt/concept_assign_policies_on_workloads.html"
-    - title: 파일 공유 볼륨 프로비저닝
+    - title: 파일 공유 볼륨 제공
       url: "/storage-mgmt/task_provision_fileshares.html"
     - title: LUN 프로비저닝
       url: "/storage-mgmt/task_provision_luns.html"
-  - title: 성능 서비스 수준 관리
+  - title: 성과 서비스 수준 관리
     url: "/storage-mgmt/concept_manage_performance_service_levels.html"
     entries:
     - title: 성능 서비스 수준 생성 및 편집
@@ -110,7 +110,7 @@ entries:
     url: "/storage-mgmt/reference_cluster_connectivity_status_definitions.html"
   - title: 데이터 미러링 상태 정의
     url: "/storage-mgmt/reference_data_mirroring_status_definitions.html"
-  - title: MetroCluster 구성 모니터링
+  - title: MetroCluster 구성을 모니터링합니다
     url: "/storage-mgmt/task_monitor_metrocluster_configurations.html"
   - title: MetroCluster 복제 모니터링
     url: "/storage-mgmt/task_monitor_metrocluster_replication.html"
@@ -121,13 +121,13 @@ entries:
     url: "/storage-mgmt/concept_what_quota_limits_are.html"
   - title: 사용자 및 사용자 그룹 할당량 보기
     url: "/storage-mgmt/task_view_user_and_user_group_quotas.html"
-  - title: 전자 메일 주소를 생성하는 규칙을 만듭니다
+  - title: 이메일 주소를 생성하는 규칙을 만듭니다.
     url: "/storage-mgmt/task_create_rules_to_generate_email_addresses.html"
-  - title: 사용자 및 사용자 그룹 할당량에 대한 e-메일 알림 형식을 생성합니다
+  - title: 사용자 및 사용자 그룹 할당량에 대한 이메일 알림 형식을 만듭니다.
     url: "/storage-mgmt/task_create_an_email_notification_format.html"
   - title: 사용자 및 그룹 할당량 이메일 주소 편집
     url: "/storage-mgmt/task_edit_user_and_group_quota_email_addresses.html"
-  - title: 할당량에 대한 자세한 정보
+  - title: 할당량에 대해 더 자세히 알아보세요
     url: "/storage-mgmt/concept_understand_more_about_quotas.html"
     entries:
     - title: 할당량 프로세스 개요
@@ -146,18 +146,18 @@ entries:
 - title: 문제 해결
   url: "/storage-mgmt/concept_troubleshooting.html"
   entries:
-  - title: Unified Manager 데이터베이스 디렉토리에 디스크 공간 추가
+  - title: Unified Manager 데이터베이스 디렉터리에 디스크 공간 추가
     url: "/storage-mgmt/concept_add_disk_space_to_um_database_directory.html"
     entries:
     - title: VMware 가상 머신의 데이터 디스크에 공간 추가
       url: "/storage-mgmt/task_add_space_to_data_disk_of_vmware.html"
-    - title: Linux 호스트의 데이터 디렉토리에 공간을 추가합니다
+    - title: Linux 호스트의 데이터 디렉토리에 공간 추가
       url: "/storage-mgmt/task_add_space_to_data_directory_of_um_linux_host.html"
     - title: Microsoft Windows 서버의 논리 드라이브에 공간 추가
       url: "/storage-mgmt/task_add_space_to_data_disk_of_microsoft_windows.html"
-  - title: 성능 통계 수집 주기 변경
+  - title: 성능 통계 수집 간격 변경
     url: "/storage-mgmt/task_change_performance_statistics_collection_interval.html"
-  - title: Unified Manager가 이벤트 및 성능 데이터를 유지하는 기간을 변경합니다
+  - title: Unified Manager가 이벤트 및 성능 데이터를 보관하는 기간 변경
     url: "/storage-mgmt/task_change_time_um_retains_event_performance_data.html"
   - title: 알 수 없는 인증 오류입니다
     url: "/storage-mgmt/reference_unknown_authentication_error.html"

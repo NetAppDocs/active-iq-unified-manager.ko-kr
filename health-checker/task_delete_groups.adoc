@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, groups 
 summary: 그룹이 더 이상 필요하지 않은 경우 Unified Manager에서 그룹을 삭제할 수 있습니다. 
 ---
-= 그룹을 삭제하는 중입니다
+= 그룹 삭제
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

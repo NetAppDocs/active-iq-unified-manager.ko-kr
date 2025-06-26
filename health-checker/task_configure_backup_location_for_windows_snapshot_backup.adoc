@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, backup, location, windows, snapshot copy, copies 
 summary: Windows에서 Unified Manager를 백업한 후 Snapshot 복사본을 저장할 볼륨을 구성해야 합니다. 
 ---
-= Windows의 백업 위치 구성
+= Windows용 백업 위치 구성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

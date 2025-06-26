@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, shark workloads, involved, dynamic, performance, event 
 summary: Unified Manager에서 경합 중인 스토리지 구성 요소에 대해 사용 시 가장 편차가 큰 워크로드를 식별할 수 있습니다. 이러한 워크로드를 식별하면 활용도가 낮은 클러스터로 이동해야 하는지 여부를 결정하는 데 도움이 됩니다. 
 ---
-= 동적 성능 이벤트와 관련된 shark 워크로드 식별
+= 동적 성능 이벤트에 관련된 상어 작업 부하 식별
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

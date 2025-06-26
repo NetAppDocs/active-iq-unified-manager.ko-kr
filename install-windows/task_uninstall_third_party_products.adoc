@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: MS Visual C++, python, uninstall, uninstalling, 9.16 
 summary: Python 및 Microsoft Visual C++를 포함한 타사 제품을 제거하는 방법. 
 ---
-= 타사 제품을 제거하는 중입니다
+= 타사 제품 제거
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ Unified Manager를 업그레이드한 후 Python 또는 Microsoft Visual C++ 201
 
 
 
-== Python을 제거하는 중입니다
+== 파이썬 제거
 
 .단계
 . 제어판 * 에서 * 프로그램 * > * 프로그램 및 기능 * 을 선택합니다.
@@ -25,7 +25,7 @@ Unified Manager를 업그레이드한 후 Python 또는 Microsoft Visual C++ 201
 
 
 
-== Microsoft Visual C++ 2013을 제거하는 중입니다
+== Microsoft Visual C++ 2013 제거
 
 .단계
 . 제어판 * 에서 * 프로그램 * > * 프로그램 및 기능 * 을 선택합니다.

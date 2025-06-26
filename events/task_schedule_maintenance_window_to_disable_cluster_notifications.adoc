@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, maintenance, window, disable, cluster, event, notifications 
 summary: 예를 들어, 클러스터를 업그레이드하거나 노드 중 하나를 이동하기 위해 클러스터에 대해 계획된 다운타임이 있는 경우 Unified Manager 유지보수 윈도우를 예약하여 해당 기간 동안 일반적으로 생성되는 이벤트 및 알림을 억제할 수 있습니다. 
 ---
-= 클러스터 이벤트 알림을 사용하지 않도록 유지 관리 창을 예약하는 중입니다
+= 클러스터 이벤트 알림을 비활성화하기 위한 유지 관리 기간 예약
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

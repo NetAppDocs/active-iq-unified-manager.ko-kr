@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, imported, reports 
 summary: 이전 릴리즈의 Unified Manager에서 생성 및 가져온 기존 보고서를 예약할 수 있습니다. 
 ---
-= 가져온 .rptdesign 보고서 예약
+= 가져온 .rptdesign 보고서 일정
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, thresholds, counter, charts, zoom, view 
 summary: Counter Charts Zoom View에서 임계값을 적용하면 성능 임계값 이벤트가 발생한 상황을 자세히 볼 수 있습니다. 이를 통해 임계값을 적용하거나 제거하고 결과를 즉시 볼 수 있으므로 문제 해결이 다음 단계가 되어야 하는지 여부를 결정할 때 도움이 될 수 있습니다. 
 ---
-= 카운터 차트 확대/축소 보기에서 성능 임계값 선택
+= 카운터 차트 확대 보기에서 성능 임계값 선택
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

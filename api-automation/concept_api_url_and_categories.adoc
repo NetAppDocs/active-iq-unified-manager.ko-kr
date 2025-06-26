@@ -16,7 +16,7 @@ Active IQ Unified Manager API를 사용하면 사용자 환경에서 스토리�
 
 
 
-== REST API에 직접 액세스하기 위한 URL을 생성하는 중입니다
+== REST API에 직접 액세스하기 위한 URL을 구성합니다.
 
 Python, C#, C{pp}, JavaScript 등 프로그래밍 언어를 통해 REST API에 직접 액세스할 수 있습니다. 기타 REST API에 액세스할 호스트 이름 또는 IP 주소와 URL을 형식으로 입력합니다
 
@@ -29,7 +29,7 @@ https://<hostname>/api+ 를 참조하십시오
 ====
 
 
-== 온라인 API 설명서 페이지 액세스
+== 온라인 API 문서 페이지에 접속하세요
 
 제품과 함께 제공되는 _API Documentation_reference 콘텐츠 페이지에 액세스하여 API 설명서를 표시하고 인터페이스(예: Swagger)에서 API 호출을 수동으로 실행할 수 있습니다. 이 설명서는 * 메뉴 모음 * > * 도움말 버튼 * > * API 문서 * 를 클릭하여 액세스할 수 있습니다
 

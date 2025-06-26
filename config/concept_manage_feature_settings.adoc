@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: uploading scripts, api gateway, slo or policy-based storage management, timeout, active iq platform events 
 summary: 기능 설정 페이지에서 Active IQ Unified Manager의 특정 기능을 활성화 및 비활성화할 수 있습니다. 여기에는 정책에 따라 스토리지 객체 생성 및 관리, API 게이트웨이 활성화, 알림 관리를 위한 스크립트 업로드, 비활성 시간에 따른 웹 UI 세션 시간 초과, Active IQ 플랫폼 이벤트 수신 비활성화 등이 포함됩니다. 
 ---
-= 기능 설정 관리
+= 기능 설정을 관리합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

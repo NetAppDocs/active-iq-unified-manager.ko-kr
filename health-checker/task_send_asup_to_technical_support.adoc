@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support bundle, web ui, maintenance console 
 summary: AutoSupport 메시지가 제공하는 것보다 더 자세한 진단 및 문제 해결이 필요한 문제의 경우 지원 번들을 보내야 합니다. Unified Manager 웹 UI 및 유지보수 콘솔을 사용하여 기술 지원 팀에 지원 번들을 보낼 수 있습니다. 
 ---
-= 웹 UI 및 유지 관리 콘솔을 통해 지원 번들 보내기
+= 웹 UI 및 유지 관리 콘솔을 통해 지원 번들을 보내세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, nested groups, remote, authentication 
 summary: 원격 인증이 활성화된 경우 그룹 구성원이 아닌 개별 사용자만 Unified Manager에 원격으로 인증할 수 있도록 중첩된 그룹 인증을 비활성화할 수 있습니다. Active Directory 인증 응답 시간을 향상시키려면 중첩된 그룹을 사용하지 않도록 설정할 수 있습니다. 
 ---
-= 원격 인증에서 중첩 그룹을 해제합니다
+= 원격 인증에서 중첩된 그룹 비활성화
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

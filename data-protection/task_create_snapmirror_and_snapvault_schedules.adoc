@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, snapvault, schedules 
 summary: 기본 또는 고급 SnapMirror 및 SnapVault 일정을 생성하여 데이터 변경 빈도에 따라 소스 또는 기본 볼륨에서 자동 데이터 보호 전송을 가능하게 할 수 있습니다. 
 ---
-= SnapMirror 및 SnapVault 일정 생성
+= SnapMirror 및 SnapVault 일정 만들기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance view 
 summary: 모든 스토리지 오브젝트 성능 뷰 
 ---
-= 모든 스토리지 객체에 대한 성능 인벤토리 페이지 보기
+= 모든 스토리지 개체에 대한 성능 인벤토리 페이지 보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

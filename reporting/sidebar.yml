@@ -14,35 +14,35 @@ entries:
       url: "/reporting/generaltask_um_rest_apis_that_can_be_used_for_reporting.html"
   - title: 보고서 이해
     url: "/reporting/concept_understand_reports.html"
-  - title: 보기 및 보고서 관계 이해
+  - title: 뷰와 보고서 관계 이해
     url: "/reporting/concept_understand_view_and_reports_relationship.html"
   - title: 보고서 유형
     url: "/reporting/reference_types_of_reports.html"
-  - title: 보고 제한 사항
+  - title: 보고서 제한 사항
     url: "/reporting/reference_reporting_limitations.html"
 - title: 보고서 작업
   url: "/reporting/concept_work_with_reports.html"
   entries:
   - title: 보고서 워크플로
     url: "/reporting/concept_report_work_flow.html"
-  - title: 빠른 시작 보고
+  - title: 빠른 시작 보고서
     url: "/reporting/task_report_quick_start.html"
-  - title: 예약된 보고서를 검색하는 중입니다
+  - title: 예약된 보고서 검색
     url: "/reporting/task_search_for_scheduled_report.html"
   - title: 보고서 사용자 정의
     url: "/reporting/concept_customize_reports.html"
     entries:
-    - title: 열 사용자 지정
+    - title: 열 사용자 정의
       url: "/reporting/task_customize_columns.html"
     - title: 데이터 필터링
       url: "/reporting/task_filter_data.html"
     - title: 데이터 정렬
       url: "/reporting/task_sort_data.html"
-    - title: 검색을 사용하여 보기를 구체화합니다
+    - title: 검색을 사용하여 보기를 구체화하세요
       url: "/reporting/task_search_to_refine_view.html"
-    - title: Excel을 사용하여 보고서를 사용자 지정합니다
+    - title: Excel을 사용하여 보고서를 사용자 지정하세요
       url: "/reporting/task_use_excel_to_customize_your_report.html"
-  - title: 보고서를 다운로드하는 중입니다
+  - title: 보고서 다운로드
     url: "/reporting/task_download_reports.html"
 - title: 보고서 예약
   url: "/reporting/concept_schedule_reports.html"
@@ -50,94 +50,94 @@ entries:
   - title: 보고서 예약
     url: "/reporting/task_schedule_report.html"
     entries:
-    - title: 가져온 .rptdesign 보고서 예약
+    - title: 가져온 .rptdesign 보고서 일정
       url: "/reporting/task_schedule_an_imported_report.html"
   - title: 보고서 일정 관리
     url: "/reporting/task_manage_report_schedules.html"
     entries:
     - title: 예약된 보고서 편집
       url: "/reporting/task_edit_scheduled_reports.html"
-    - title: 예약된 보고서를 삭제하는 중입니다
+    - title: 예약된 보고서 삭제
       url: "/reporting/task_delete_scheduled_reports.html"
 - title: 샘플 사용자 지정 보고서
   url: "/reporting/concept_sample_custom_reports.html"
   entries:
-  - title: 클러스터 스토리지 보고서 사용자 지정
+  - title: 클러스터 스토리지 보고서 사용자 정의
     url: "/reporting/concept_customize_cluster_storage_reports.html"
     entries:
-    - title: 클러스터 모델별 용량을 볼 수 있는 보고서 생성
+    - title: 클러스터 모델별 용량을 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_capacity_by_cluster_model.html"
-    - title: 보고서를 생성하여 할당되지 않은 LUN 용량이 가장 많은 클러스터를 식별합니다
+    - title: 가장 많은 할당되지 않은 LUN 용량을 가진 클러스터를 식별하기 위한 보고서를 만듭니다.
       url: "/reporting/task_create_report_to_identify_clusters_with_unallocated_capacity.html"
-    - title: 보고서를 생성하여 사용 가능한 용량이 가장 많은 HA 쌍을 표시합니다
+    - title: 가장 사용 가능한 용량을 가진 HA 쌍을 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_ha_pairs_with_most_available_capacity.html"
-    - title: 보고서를 생성하여 이전 버전의 ONTAP를 실행하는 노드를 봅니다
+    - title: 이전 버전의 ONTAP을 실행하는 노드를 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_view_nodes_running_older_versions_of_ontap.html"
-  - title: 애그리게이트 용량 보고서 사용자 지정
+  - title: 집계 용량 보고서 사용자 정의
     url: "/reporting/concept_customize_aggregate_capacity_reports.html"
     entries:
-    - title: 보고서를 생성하여 전체 용량에 도달한 애그리게이트를 확인합니다
+    - title: 전체 용량에 도달한 집계를 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html"
-    - title: 거의 가득 찬 집계를 보기 위한 보고서 생성
+    - title: 거의 가득 찬 집계를 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html"
-    - title: 초과 커밋된 집계를 보기 위한 보고서 생성
+    - title: 과도하게 약속된 집계를 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"
-  - title: 볼륨 용량 보고서 사용자 지정
+  - title: 볼륨 용량 보고서 사용자 정의
     url: "/reporting/concept_customize_volume_capacity_reports.html"
     entries:
-    - title: 보고서를 생성하여 스냅샷 자동 삭제 기능이 꺼진 전체 용량에 근접하는 볼륨을 식별합니다
+    - title: 스냅샷 자동 삭제가 꺼진 볼륨 중 전체 용량에 근접한 볼륨을 식별하기 위한 보고서를 만듭니다.
       url: "/reporting/task_create_report_to_identify_volumes_nearing_full_capacity.html"
-    - title: 씬 프로비저닝이 해제된 볼륨에서 사용하는 공간을 식별하는 보고서를 생성합니다
+    - title: 씬 프로비저닝이 비활성화된 볼륨에서 사용되는 공간을 식별하기 위한 보고서를 만듭니다.
       url: "/reporting/task_create_report_to_identify_space_with_thin_provisioning_disabled.html"
-    - title: 보고서를 생성하여 데이터를 클라우드 계층으로 이동해야 하는 FabricPool 애그리게이트에서 볼륨을 식별합니다
+    - title: FabricPool 집계에서 클라우드 계층으로 데이터를 이동해야 하는 볼륨을 식별하기 위한 보고서를 만듭니다.
       url: "/reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html"
-  - title: Qtree 용량 보고서 사용자 지정
+  - title: Qtree 용량 보고서 사용자 정의
     url: "/reporting/concept_customize_qtree_capacity_reports.html"
     entries:
-    - title: 거의 가득 찬 qtree를 볼 수 있도록 보고서 생성
+    - title: 거의 가득 찬 Qtree를 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html"
-  - title: NFS 공유 보고서 사용자 지정
+  - title: NFS 공유 보고서 사용자 정의
     url: "/reporting/concept_customize_nfs_share_reports.html"
     entries:
-    - title: 액세스할 수 없는 마운트 경로가 있는 볼륨을 보기 위한 보고서 생성
+    - title: 접근할 수 없는 마운트 경로가 있는 볼륨을 보려면 보고서를 만듭니다.
       url: "/reporting/task_create_report_to_view_volumes_with_an_inaccessible_junction_path.html"
-    - title: 기본 엑스포트 정책을 사용하는 볼륨을 보기 위한 보고서 생성
+    - title: 기본 내보내기 정책을 사용하는 볼륨을 보려면 보고서를 만듭니다.
       url: "/reporting/task_create_report_to_view_volumes_with_default_export_policy.html"
-  - title: 스토리지 VM 보고서 사용자 지정
+  - title: 스토리지 VM 보고서 사용자 정의
     url: "/reporting/concept_customize_svm_reports.html"
     entries:
-    - title: 보고서를 생성하여 최대 볼륨 제한에 도달한 스토리지 VM을 표시합니다
+    - title: 최대 볼륨 제한에 도달한 스토리지 VM을 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_svms_reaching_maximum_volume_limit.html"
-    - title: 중지된 스토리지 VM을 보기 위한 보고서 생성
+    - title: 중지된 스토리지 VM을 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_stopped_svms.html"
-  - title: 볼륨 관계 보고서 사용자 지정
+  - title: 볼륨 관계 보고서 사용자 정의
     url: "/reporting/concept_customize_volume_relationship_reports.html"
     entries:
-    - title: 실패 원인을 기준으로 볼륨 관계를 그룹화하는 보고서 생성
+    - title: 실패 소스별로 볼륨 관계를 그룹화하는 보고서를 만듭니다.
       url: "/reporting/task_create_report_volume_relationships_source_of_failure.html"
-    - title: 문제별로 볼륨 관계를 그룹화하는 보고서 생성
+    - title: 문제별로 볼륨 관계를 그룹화하는 보고서를 만듭니다.
       url: "/reporting/task_create_report_to_group_volume_relationships_by_issue.html"
-    - title: 특정 시간 간격으로 볼륨 전송 추세를 볼 수 있는 보고서 생성
+    - title: 특정 시간 간격의 볼륨 전송 추세를 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_volumes_at_specific_time_intervals.html"
-    - title: 실패한 볼륨 또는 성공한 볼륨 전송을 보기 위한 보고서 생성
+    - title: 실패하거나 성공한 볼륨 전송을 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_failed_or_successful_volume_transfers.html"
-    - title: 전송 크기에 따라 볼륨 전송을 보는 보고서 생성
+    - title: 전송 크기에 따라 볼륨 전송을 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_volume_transfers_based_on_transfer_size.html"
-    - title: 일별 그룹별 볼륨 전송을 보기 위한 보고서 생성
+    - title: 일별로 그룹화된 볼륨 전송을 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_volume_transfers_grouped_by_day.html"
-  - title: 볼륨 성능 보고서 사용자 지정
+  - title: 볼륨 성능 보고서 사용자 정의
     url: "/reporting/concept_customize_volume_performance_reports.html"
     entries:
-    - title: FabricPool이 지원되지 않는 aggregate에서 많은 양의 콜드 데이터가 있는 볼륨을 보기 위한 보고서 생성
+    - title: FabricPool이 활성화되지 않은 집계에서 많은 양의 콜드 데이터가 포함된 볼륨을 보려면 보고서를 만듭니다.
       url: "/reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html"
 - title: Microsoft Excel 보고서 예제
   url: "/reporting/concept_sample_microsoft_excel_reports.html"
   entries:
-  - title: 집계 용량 테이블 및 차트를 보여 주는 보고서 생성
+  - title: 집계 용량 표와 차트를 보여주는 보고서를 만듭니다.
     url: "/reporting/task_create_report_to_view_capacity.html"
-  - title: 총 용량 대 사용 가능한 용량 차트를 보여 주는 보고서 생성
+  - title: 총 용량 대비 사용 가능한 용량 차트를 보여주는 보고서를 만듭니다.
     url: "/reporting/task_create_report_to_view_aggregate_capacity_charts.html"
-  - title: 보고서를 생성하여 사용 가능한 볼륨 용량 차트를 표시합니다
+  - title: 사용 가능한 볼륨 용량 차트를 보려면 보고서를 만드세요.
     url: "/reporting/task_create_report_to_view_available_volume_capacity_charts.html"
-  - title: 보고서를 생성하여 사용 가능한 IOPS가 가장 높은 애그리게이트를 확인합니다
+  - title: 가장 많은 사용 가능한 IOPS를 포함하는 집계를 보려면 보고서를 만듭니다.
     url: "/reporting/task_create_report_to_view_aggregates_with_most_available_iops.html"

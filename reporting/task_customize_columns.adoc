@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, columns 
 summary: 표시/숨기기 를 사용하여 보고서에 사용할 열을 선택합니다. 재고 페이지의 열을 끌어서 다시 정렬합니다. 
 ---
-= 열 사용자 지정
+= 열 사용자 정의
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

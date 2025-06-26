@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, initial, setup, unified manager web ui 
 summary: Unified Manager를 사용하려면 먼저 NTP 서버, 유지보수 사용자 이메일 주소, SMTP 서버 호스트 및 ONTAP 클러스터 추가를 포함한 초기 설정 옵션을 구성해야 합니다. 
 ---
-= Unified Manager 웹 UI의 초기 설정 수행
+= Unified Manager 웹 UI의 초기 설정을 수행합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -27,7 +27,7 @@ summary: VMware vSphere 플랫폼의 Unified Manager에 대한 빠른 시작 가
 
 
 
-== Active IQ Unified Manager를 설치하는 중입니다
+== Active IQ Unified Manager를 설치합니다
 
 
 

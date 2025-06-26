@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, view, report, relationship 
 summary: 보기 및 인벤토리 페이지는 다운로드하거나 예약할 때 보고서가 됩니다. 
 ---
-= 보기 및 보고서 관계 이해
+= 뷰와 보고서 관계 이해
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

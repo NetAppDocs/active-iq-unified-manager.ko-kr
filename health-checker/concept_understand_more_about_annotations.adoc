@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, annotations 
 summary: 주석에 대한 개념을 이해하면 환경의 스토리지 오브젝트와 관련된 이벤트를 관리하는 데 도움이 됩니다. 
 ---
-= 주석에 대한 자세한 이해
+= 주석에 대해 더 자세히 알아보세요
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

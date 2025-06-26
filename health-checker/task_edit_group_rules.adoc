@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, group rules 
 summary: 그룹 규칙을 편집하여 조건 그룹 및 조건 그룹 내의 조건을 수정하여 특정 그룹에 스토리지 객체를 추가하거나 제거할 수 있습니다. 
 ---
-= 그룹 규칙 편집 중
+= 그룹 규칙 편집
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

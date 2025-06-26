@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, unified manager, upgrade file 
 summary: Unified Manager를 업그레이드하기 전에 NetApp Support 사이트에서 Unified Manager 업그레이드 파일을 다운로드하십시오. 
 ---
-= Unified Manager 업그레이드 파일을 다운로드하는 중입니다
+= Unified Manager 업그레이드 파일 다운로드
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

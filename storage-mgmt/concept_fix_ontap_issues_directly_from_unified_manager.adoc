@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix, ontap, issues, directly, unified manager, fix it, fix-it, remediation 
 summary: ONTAP System Manager 또는 ONTAP CLI를 사용하지 않고 Unified Manager 사용자 인터페이스에서 직접 특정 ONTAP 문제를 해결할 수 있습니다. “관리 작업” 옵션은 Unified Manager 이벤트를 트리거한 여러 ONTAP 문제에 대한 수정 사항을 제공합니다. 
 ---
-= Unified Manager에서 직접 ONTAP 문제 또는 기능 관리
+= Unified Manager에서 직접 ONTAP 문제 또는 기능을 관리하세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

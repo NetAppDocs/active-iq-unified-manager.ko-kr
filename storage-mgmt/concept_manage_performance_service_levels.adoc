@@ -33,7 +33,7 @@ Unified Manager에는 다음과 같은 유형의 PSL이 있습니다.
 ** 데이터베이스 데이터의 경우 매우 높음
 
 
-* * 사용자 정의 *: 사전 정의된 성능 서비스 수준이 요구 사항을 충족하지 않는 경우, 필요에 따라 새로운 PSL을 생성할 수 있습니다. 자세한 내용은 을 참조하십시오 link:../storage-mgmt/task_create_and_edit_psls.html["성능 서비스 수준 생성 및 편집"].
+* * 사용자 정의 *: 사전 정의된 성능 서비스 수준이 요구 사항을 충족하지 않는 경우, 필요에 따라 새로운 PSL을 생성할 수 있습니다. 자세한 내용은 을 link:../storage-mgmt/task_create_and_edit_psls.html["성능 서비스 수준 생성 및 편집"]참조하십시오.
 * 익스트림 * 그 이상 *: 익스트림 PSL은 IOP가 Extreme보다 높은 워크로드에 권장되는 시스템 권장 PSL입니다. 워크로드는 IOPS, 용량 및 지연 시간을 기준으로 내부적으로 분석되며, * Storage > 워크로드 > 모든 워크로드 * 화면에서 이러한 각 워크로드에 대해 Extreme PSL 이상을 사용하는 것이 좋습니다. 최적의 성능을 보장하기 위해 작업 부하에 PSL을 적용할 수 있습니다.
 +
 워크로드의 IOPS 매개 변수는 워크로드 동작에 따라 동적으로 생성되고, 'Beyond Extreme<number-(peak IOPS/TB)><number(expected IOPS/TB)>' 형식으로 Beyond Extreme PSL의 이름에 추가됩니다. 예를 들어, 시스템에서 최대 및 예상 IOP를 각각 106345 및 37929로 결정하는 경우, 해당 워크로드에 대해 생성되는 익스트림 PSL보다 더 높은 이름은 Extreme 106345 37929입니다. 시스템에서 이러한 PSL을 권장하지만 워크로드에 PSL을 할당할 때는 유형에 "사용자 정의"로 레이블이 지정됩니다.
@@ -42,11 +42,11 @@ Unified Manager에는 다음과 같은 유형의 PSL이 있습니다.
 
 
 
-== PSL을 할당하여 작업 부하 관리
+== PSL을 할당하여 작업 부하를 관리합니다.
 
 PSL은 * Policies * > * Performance Service Levels * 페이지에서, 그리고 스토리지 공급자 API를 사용하여 액세스할 수 있습니다. 스토리지 작업 부하를 개별적으로 관리할 필요가 없으며 PSL을 할당하여 스토리지 작업 부하를 관리하는 것이 편리합니다. 모든 수정 사항은 개별적으로 관리하는 대신 다른 PSL을 다시 할당하여 관리할 수도 있습니다. Unified Manager를 사용하면 내부 평가 및 권장사항을 기반으로 워크로드에 PSL을 할당할 수 있습니다.
 
-워크로드에 시스템 권장 PSL을 할당하는 방법에 대한 자세한 내용은 을 참조하십시오 link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assigning-system-recommended-psls-to-workloads["작업 부하에 시스템 권장 PSL 할당"]
+워크로드에 시스템 권장 PSL을 할당하는 방법에 대한 자세한 내용은 을 참조하십시오 link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assign-system-recommended-psls-to-workloads["작업 부하에 시스템 권장 PSL 할당"]
 
 성능 서비스 수준 페이지에는 사용 가능한 PSL 정책이 나열되며 이를 추가, 편집 및 삭제할 수 있습니다.
 

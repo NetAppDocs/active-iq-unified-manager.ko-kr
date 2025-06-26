@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, resource, pool, members 
 summary: 리소스 풀은 다수의 구성원 애그리게이트로 구성됩니다. 기존 리소스 풀에 애그리게이트를 추가하여 2차 볼륨 프로비저닝에 사용할 수 있는 공간 크기를 늘릴 수 있습니다. 
 ---
-= 리소스 풀 구성원을 추가하는 중입니다
+= 리소스 풀 멤버 추가
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

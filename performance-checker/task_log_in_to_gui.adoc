@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: log in, ui, unified manager 
 summary: 지원되는 웹 브라우저를 사용하여 Unified Manager UI에 로그인할 수 있습니다. 
 ---
-= UI에 로그인합니다
+= UI에 로그인
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
