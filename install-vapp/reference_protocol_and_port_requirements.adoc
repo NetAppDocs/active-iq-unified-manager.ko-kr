@@ -90,6 +90,50 @@ HTTPS
  a| 
 인증된 ONTAP 시스템에서 실시간 REST API 기반 EMS 이벤트에 액세스하는 데 사용됩니다.
 
+
+
+ a| 
+MySQL 데이터베이스
+ a| 
+MySQL
+ a| 
+3306
+ a| 
+OnCommand 및 OnCommand Workflow Automation API Services에서 Unified Manager에 액세스할 수 있도록 설정하는 데 사용됩니다.
+
+
+
+ a| 
+AMQP Qpid 브로커
+ a| 
+TCP/IP를 선택합니다
+ a| 
+56072입니다
+ a| 
+내부 메시지 통신에 사용됩니다.
+
+
+
+ a| 
+AMQP Qpid 브로커
+ a| 
+TCP를 통한 WebSocket
+ a| 
+56080
+ a| 
+이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다.
+
+
+
+ a| 
+AMQP Qpid 브로커
+ a| 
+TCP를 통한 WebSocket
+ a| 
+56443입니다
+ a| 
+이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다. 이 포트를 통한 통신은 TLS 또는 SSL이 제공하는 암호화를 지원합니다.
+
 |===
 [NOTE]
 ====
