@@ -17,7 +17,7 @@ summary: VMware vSphere 플랫폼의 Unified Manager에 대한 빠른 시작 가
 
 == 시스템 요구 사항
 
-* 운영 체제: VMware ESXi 7.0 및 8.0
+* 운영 체제: VMware ESXi 8.0
 * RAM: 12GB
 * CPU: 총 9572MHz
 * 사용 가능한 디스크 공간: 5GB(씬 프로비저닝), 152GB(일반 프로비저닝)

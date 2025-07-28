@@ -2,7 +2,7 @@
 permalink: install-vapp/reference_vmware_software_and_installation_requirements.html 
 sidebar: sidebar 
 keywords: vmware, software, installation, requirements 
-summary: Unified Manager를 설치하는 VMware vSphere 시스템에는 특정 버전의 운영 체제와 지원 소프트웨어가 필요합니다. 
+summary: Unified Manager를 설치하는 VMware vSphere 시스템에는 특정 버전의 운영 체제와 특정 버전의 지원 소프트웨어가 필요합니다. 
 ---
 = VMware 소프트웨어 및 설치 요구 사항
 :allow-uri-read: 
@@ -11,16 +11,13 @@ summary: Unified Manager를 설치하는 VMware vSphere 시스템에는 특정 �
 
 
 [role="lead"]
-Unified Manager를 설치하는 VMware vSphere 시스템에는 특정 버전의 운영 체제와 지원 소프트웨어가 필요합니다.
+Unified Manager를 설치하는 VMware vSphere 시스템에는 특정 버전의 운영 체제와 특정 버전의 지원 소프트웨어가 필요합니다.
 
 
 
 == 운영 체제 소프트웨어
 
-지원되는 VMware ESXi 버전은 다음과 같습니다.
-
-* ESXi 7.0 및 8.0
-
+지원되는 운영 체제는 VMware ESXi 8.0입니다.
 
 [NOTE]
 ====

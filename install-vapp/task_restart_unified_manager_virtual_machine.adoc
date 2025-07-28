@@ -18,13 +18,9 @@ summary: '유지보수 콘솔에서 Unified Manager 가상 머신(VM)을 다시 
 * 유지보수 사용자로 Unified Manager 유지보수 콘솔에 로그인해야 합니다.
 
 
-VMware * Restart Guest * 옵션을 사용하여 vSphere에서 가상 머신을 재시작할 수도 있습니다.
+VMware *게스트 다시 시작* 옵션을 사용하여 vSphere에서 가상 머신을 다시 시작할 수도 있습니다 .  https://developer.broadcom.com/powercli/latest/vmware.vimautomation.core/commands/restart-vmguest/["Broadcom의 VMware vSphere PowerCLI CMDLET 참조에 있는 Restart-VMGuest cmdlet입니다."^]
 
 .단계
 . 유지보수 콘솔에서 * 시스템 구성 * > * 가상 시스템 재부팅 * 을 선택합니다.
 . 브라우저에서 Unified Manager 웹 UI를 시작하고 로그인합니다.
 
-
-* 관련 정보 *
-
-https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html["VMware vSphere PowerCLI cmdlet 참조: 재시작 - VMGuest"]

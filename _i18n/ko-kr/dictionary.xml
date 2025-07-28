@@ -158,11 +158,8 @@
   <block id="1dbab26c4cc554e2d686240dce4e1c32" category="summary">유지보수 콘솔에서 Unified Manager 가상 머신(VM)을 다시 시작할 수 있습니다. 새 보안 인증서를 생성한 후 또는 VM에 문제가 있는 경우 VM을 다시 시작해야 합니다.</block>
   <block id="69ce6df093b147c7a25a04bf00305588" category="list-text">가상 어플라이언스의 전원이 켜져 있어야 합니다.</block>
   <block id="a7e118ba2e133d1563cd19a15fe2a116" category="list-text">유지보수 사용자로 Unified Manager 유지보수 콘솔에 로그인해야 합니다.</block>
-  <block id="e073e6fe06cef770bc889b346bc6998f" category="paragraph">VMware * Restart Guest * 옵션을 사용하여 vSphere에서 가상 머신을 재시작할 수도 있습니다.</block>
   <block id="b6398bd7f47d9122f52612a31a850312" category="list-text">유지보수 콘솔에서 * 시스템 구성 * &gt; * 가상 시스템 재부팅 * 을 선택합니다.</block>
   <block id="874e5f2c9cf179740df1c1b0a4b0a120" category="list-text">브라우저에서 Unified Manager 웹 UI를 시작하고 로그인합니다.</block>
-  <block id="2a3a1fb09f0975179216fde1cbd8dc57" category="inline-link">VMware vSphere PowerCLI cmdlet 참조: 재시작 - VMGuest</block>
-  <block id="89cc3af736280ef7a3e6fc0e835ec56a" category="paragraph"><block ref="89cc3af736280ef7a3e6fc0e835ec56a" category="inline-link-rx"></block></block>
   <block id="07b888beb5f74fad923ceb6fd324799b" category="summary">Unified Manager를 설치 및 구성하기 전에 환경에 대한 정보를 즉시 확인할 수 있어야 합니다. 워크시트에 정보를 기록할 수 있습니다.</block>
   <block id="cb2410506c9a867eca80a50038aae5bf" category="section-title">Unified Manager 설치 정보</block>
   <block id="714dcae8392f307ccef657a142546bae" category="paragraph">Unified Manager를 설치하는 데 필요한 세부 정보</block>
@@ -223,9 +220,7 @@
   <block id="057a4079cb4d04795b7140926e321d5c" category="list-text">시간대를 구성합니다.</block>
   <block id="4083994b5ab6b43931e9e9ee1cbd9052" category="list-text">Unified Manager 유지보수 사용자 이름과 암호를 입력합니다.</block>
   <block id="a5a2442d3e91661060d1752730494eec" category="paragraph">설치가 끝나면 Unified Manager 웹 UI에 연결할 정보가 표시됩니다.</block>
-  <block id="dbd6da6968cef7b169b16a1afe565d31" category="summary">Unified Manager를 설치하는 VMware vSphere 시스템에는 특정 버전의 운영 체제와 지원 소프트웨어가 필요합니다.</block>
   <block id="00b445c51af4d8484e4707ea89f09276" category="section-title">운영 체제 소프트웨어</block>
-  <block id="c1fb97df43f8780895ba7cc4ed9916c5" category="paragraph">지원되는 VMware ESXi 버전은 다음과 같습니다.</block>
   <block id="cc52616bf744b78f139542e4d55938e0" category="paragraph">지원되는 vSphere 버전은 다음과 같습니다.</block>
   <block id="0ad9e3bfb76fe781c444c61d823d6ca3" category="paragraph">지원되는 ESXi 버전의 전체 및 최신 목록은 상호 운용성 매트릭스 를 참조하십시오.</block>
   <block id="7347ac6635d17dff22f5422c2e91f0ac" category="inline-link">mysupport.netapp.com/matrix</block>
@@ -11146,7 +11141,6 @@
   <block id="604cb85803c2049ee36ec0f56a4b4122" category="paragraph">* 클러스터 인증서 *: 이 인증서는 ONTAP에서 소유합니다. 만료된 인증서가 있는 클러스터는 Unified Manager에 추가할 수 없으며, 인증서가 이미 만료된 경우 클러스터를 추가하기 전에 다시 생성해야 합니다. 인증서 생성에 대한 자세한 내용은 기술 자료(KB) 문서를 참조하십시오<block ref="efe1c9ee5157428eafcff62008773d6d" category="inline-link-rx"></block>.</block>
   <block id="2baed68e35271ff9049aae0aaa17514e" category="paragraph">클러스터 세부 정보를 저장한 후에는 클러스터의 상호 TLS 통신에 대한 인증서를 볼 수 있습니다.</block>
   <block id="71115803a7c16035111d8a488819a5de" category="paragraph">기본 MySQL 포트 3306에 대한 호스트 액세스를 제어합니다. 보안상의 이유로 Linux, Windows 및 VMware vSphere 시스템에 Unified Manager를 새로 설치하는 동안에만 이 포트를 통한 액세스가 localhost로 제한됩니다. 이 옵션을 사용하면 로컬 호스트 및 원격 호스트 간에 이 포트의 표시 여부를 전환할 수 있습니다. 즉, 사용자 환경에서 localhost만 사용하도록 설정된 경우 이 포트를 원격 호스트에서도 사용할 수 있도록 설정할 수 있습니다. 또는 모든 호스트에 대해 활성화된 경우 이 포트의 액세스를 localhost 전용으로 제한할 수 있습니다. 이전에 원격 호스트에서 액세스가 설정된 경우 구성은 업그레이드 시나리오에서 유지됩니다. 포트 표시 여부를 토글한 후 Windows 시스템의 방화벽 설정을 확인하고 MySQL 포트 3306에 대한 액세스를 제한하도록 설정이 구성된 경우 방화벽 설정을 비활성화해야 합니다.</block>
-  <block id="992457c87959064e1a1fd8702290dfc5" category="list-text">ESXi 7.0 및 8.0</block>
   <block id="fb0cd9631dee3f83386725234b971c75" category="list-text">VMware vCenter Server 7.0 및 8.0</block>
   <block id="633bb5b6eca1c435199c472c91160f36" category="paragraph">MySQL의 기본 포트 3306은 Windows 시스템에 Unified Manager를 설치하는 동안 localhost로 제한됩니다. 설치가 완료되면 방화벽에서 MySQL 포트 3306에 대한 액세스를 제한합니다. 이전 구성이 유지되는 업그레이드 시나리오에는 영향을 주지 않습니다. 이 구성은 수정할 수 있으며 을 사용하여 다른 호스트에서 연결을 사용할 수 있습니다<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> 옵션을 설정할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="7a82f5d486f644c03667de7815d5d25c" category="inline-link-macro-rx"></block>. HTTP 및 HTTPS 통신에 사용되는 포트(포트 80 및 443)는 Unified Manager 유지 관리 콘솔을 사용하여 변경할 수 있습니다. 자세한 내용은 을 참조하십시오 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>.</block>
   <block id="597398cc5b5523b459dfe2d0d9acd2e5" category="paragraph">볼륨 효율성 작업 오류(문서 볼륨효율성 OperationError)</block>
@@ -11276,7 +11270,6 @@
   <block id="ed2b47ce4d6fcfacbe77e96d5e7bf8fb" category="list-text">vCenter 제거 * 메시지 대화 상자에서 * 확인 * 을 클릭하여 제거 요청을 확인합니다.</block>
   <block id="adb5482d172346e58675bd3dae5bf089" category="list-text">웹 UI에서 클러스터를 추가할 수 있으며 인증서 기반 인증이 자동으로 활성화됩니다.</block>
   <block id="c237abf2822b92e4b37cfd364eb99eaf" category="list-text">Unified Manager CLI를 통해 클러스터를 추가할 수 있으며, 인증서 기반 인증은 기본적으로 사용되지 않습니다. Unified Manager CLI를 사용하여 클러스터를 추가하는 경우 Unified Manager UI를 사용하여 클러스터를 편집해야 합니다. 확인할 수 있습니다 <block ref="33f0770b98ea7c465f6e58d1466ad24f" category="inline-link-macro-rx"></block> 을 사용하여 Unified Manager CLI를 사용하여 클러스터를 추가합니다.</block>
-  <block id="c73b4673fd357d50ad7fe6b46f0de007" category="list-text">운영 체제: VMware ESXi 7.0 및 8.0</block>
   <block id="3a44bb5359e8b73237753f7fe7d14cc2" category="paragraph">예를 들어, 설치된 버전이 Unified Manager 9.9이고 Unified Manager 9.14로 업그레이드하려면 일련의 업그레이드를 수행해야 합니다.</block>
   <block id="1e2075a18224b2ccd4cd9feb5cb36456" category="list-text">업그레이드 9.11 -&gt; 9.13</block>
   <block id="de77bda92bea07bb345ff4c0d56146c5" category="list-text">업그레이드 9.13 -&gt; 9.14</block>
@@ -11297,8 +11290,6 @@
   <block id="794b0fbf4e314ba18f71dba00d68d9b8" category="paragraph">이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다.</block>
   <block id="00595c0d01d488a33a068852a0c6b2b8" category="paragraph">56443입니다</block>
   <block id="cd91ff9e0f252c06c8c6dc37f1c29ba7" category="paragraph">이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다. 이 포트를 통한 통신은 TLS 또는 SSL에서 제공하는 암호화를 지원합니다.</block>
-  <block id="d5ab8dc7ef67ca92e41d730982c5c602" category="paragraph">있습니다</block>
-  <block id="c566a5dbb0e92fc14cf27c5abc3316bd" category="paragraph">이 페이지에서 AMQP 관리 UI 인터페이스를 시작하는 데 사용됩니다.</block>
   <block id="5c481563f3b57863c0a290b809a1e6ff" category="paragraph">이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다. 이 포트를 통한 통신은 TLS 또는 SSL에서 제공하는 암호화를 지원합니다.</block>
   <block id="7c6fa12173c375a840189f157e3cf098" category="admonition">취약점 스캐너(예: Qualys)는 내부(Unified Manager 및 취약점 스캐너가 동일한 VM에 설치된 VM) 또는 외부 중 가상 시스템(VM)을 검사할 때 CPU 사용량이 높을 수 있습니다 (Unified Manager와 취약점 검사기가 두 서버에 설치되고 취약점 검사기가 Unified Manager가 설치된 VM을 검사하는 경우). 이 문제로 인해 VM이 응답하지 않게 되고 Unified Manager 서비스에 영향을 미치는 경우가 많습니다. 따라서 NetApp Unified Manager가 설치된 VM에서 취약점 검사기를 사용하지 않도록 설정하는 것이 좋습니다. 스캐너를 비활성화할 수 없는 경우 업무 시간이 아닌 시간에 VM을 스캔하고 스캔이 완료된 후 서비스를 다시 시작합니다.</block>
   <block id="c3d15a1717019bd68103a42fb3ccc50c" category="paragraph">SnapMirror 활성 동기화 관계로 보호되는 볼륨의 경우 이 열에 볼륨의 일관성 그룹이 표시됩니다.</block>
@@ -12067,4 +12058,10 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="b4ee4946f5a0d9d41aa0bd6a3d717e4b" category="sidebar">Unified Manager에서 직접 ONTAP 문제를 수정하거나 관리합니다.</block>
   <block id="545d96f4f0d0b5202dd1df85c81c6d09" category="paragraph">이 포트에서 ONTAP(클라우드 에이전트)로부터 받은 메시지를 수신하는 데 사용됩니다. 이 포트를 통한 통신은 TLS 또는 SSL이 제공하는 암호화를 지원합니다.</block>
   <block id="de7079b453dbd6e52c0ba80b1c38eae2" category="list-text">업그레이드 9.13 -&gt; 9.16</block>
+  <block id="6863825296946543c03f7677ae94e41c" category="list-text">운영 체제: VMware ESXi 8.0</block>
+  <block id="d381353a5c1648d3cc56488d652df409" category="summary">Unified Manager를 설치하는 VMware vSphere 시스템에는 특정 버전의 운영 체제와 특정 버전의 지원 소프트웨어가 필요합니다.</block>
+  <block id="94ff556e321c8409983ed2abadc3024e" category="paragraph">지원되는 운영 체제는 VMware ESXi 8.0입니다.</block>
+  <block id="bb65d6ae4d44bbfd4567a82b59ce222d" category="inline-link">Broadcom의 VMware vSphere PowerCLI CMDLET 참조에 있는 Restart-VMGuest cmdlet입니다.</block>
+  <block id="7681f55359343e6988de3e9f6957a814" category="paragraph">VMware *게스트 다시 시작* 옵션을 사용하여 vSphere에서 가상 머신을 다시 시작할 수도 있습니다 . <block ref="3b382a46b6e2c7a5212af2816922c4d0" category="inline-link-rx"></block></block>
+  <block id="342a7198ff8437c0b83702e716edd98f" category="list-text">클러스터는 ONTAP 버전 9.9 이상 소프트웨어를 실행해야 합니다.</block>
 </blocks>
