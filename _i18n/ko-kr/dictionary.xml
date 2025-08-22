@@ -12064,4 +12064,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="bb65d6ae4d44bbfd4567a82b59ce222d" category="inline-link">Broadcom의 VMware vSphere PowerCLI CMDLET 참조에 있는 Restart-VMGuest cmdlet입니다.</block>
   <block id="7681f55359343e6988de3e9f6957a814" category="paragraph">VMware *게스트 다시 시작* 옵션을 사용하여 vSphere에서 가상 머신을 다시 시작할 수도 있습니다 . <block ref="3b382a46b6e2c7a5212af2816922c4d0" category="inline-link-rx"></block></block>
   <block id="342a7198ff8437c0b83702e716edd98f" category="list-text">클러스터는 ONTAP 버전 9.9 이상 소프트웨어를 실행해야 합니다.</block>
+  <block id="46ddffc1618503c5b7bac4767df5963b" category="list-text">15일간의 성능 데이터를 수집하는 데는 CPU가 많이 사용됩니다.  NetApp 너무 많은 클러스터에서 동시에 데이터 연속성 수집 폴링이 실행되지 않도록 새 클러스터를 추가하는 작업을 단계적으로 수행할 것을 권장합니다.  또한, 데이터 연속성 수집 기간 동안 Unified Manager를 다시 시작하면 수집이 중단되고 누락된 기간의 성능 차트에 간격이 표시됩니다.</block>
+  <block id="40bbb8b87d3598ac9845a44abe43f38c" category="list-text">9.14.1 이상 버전의 ONTAP 클러스터를 추가하면 클라우드 에이전트 기능을 통해 통신이 이루어집니다.  ONTAP 읽기 전용 권한이 있는 내부 서비스 계정 사용자(예: clus-agent-xxxx)를 자동으로 생성합니다.  Unified Manager는 다음과 같은 경우 해당 클러스터에서 데이터 수집을 중지합니다.<block ref="45b8c9da551ea3a5a411451e7d91c303" prefix=" " category="inline-code"></block> 사용자가 삭제되었습니다.</block>
 </blocks>
