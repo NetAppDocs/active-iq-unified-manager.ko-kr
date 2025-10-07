@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/task_restore_data_use_health_volume_details_page.html 
 sidebar: sidebar 
-keywords: restore, data, volume, health details page 
+keywords: restore, data, volume, health details page, console 
 summary: 볼륨/상태 세부 정보 페이지의 복원 기능을 사용하여 스냅샷 복사본에서 덮어쓰기 또는 삭제된 파일, 디렉토리 또는 전체 볼륨을 복원할 수 있습니다. 
 ---
 = 볼륨 및 볼륨/상태 세부 정보 페이지를 사용하여 데이터 복원
@@ -57,7 +57,7 @@ NOTE: 다음 사항을 참고하십시오.
 +
 [NOTE]
 ====
-NDMP 오류가 있는 Cloud Volumes ONTAP HA 클러스터 간에 복구 작업이 실패할 경우 대상이 소스 시스템의 클러스터 관리 LIF와 통신할 수 있도록 타겟 클러스터에 명시적 AWS 경로를 추가해야 할 수 있습니다. BlueXP를 사용하여 이 구성 단계를 수행합니다.
+NDMP 오류로 인해 Cloud Volumes ONTAP HA 클러스터 간 복원 작업이 실패하는 경우 대상 클러스터에 명시적인 AWS 경로를 추가해야 할 수 있습니다. 그래야 대상이 소스 시스템의 클러스터 관리 LIF와 통신할 수 있습니다. NetApp 콘솔을 사용하여 이 구성 단계를 수행합니다.
 
 ====
 

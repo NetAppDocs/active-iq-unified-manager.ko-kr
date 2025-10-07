@@ -11049,7 +11049,6 @@
   <block id="c4f485c20e1538622ae57f3054175ddf" category="list-text">이름 테이블에서 복원해야 하는 디렉터리 이름을 선택합니다.</block>
   <block id="58c0234305a387b4aa60babbbd858295" category="paragraph">복원 프로세스가 시작됩니다. 백엔드에서 작업을 생성하여 복원 프로세스를 완료합니다.</block>
   <block id="aa2724776cabef1aaa6642e924be93b0" category="list-text">작업 진행률을 보려면 왼쪽 탐색 창에서 * 보호 &gt; 작업 * 으로 이동하여 작업 목록에서 복원 작업의 상태를 확인합니다.</block>
-  <block id="f19eba4a48c0d8762f03ea93717fbfea" category="paragraph">NDMP 오류가 있는 Cloud Volumes ONTAP HA 클러스터 간에 복구 작업이 실패할 경우 대상이 소스 시스템의 클러스터 관리 LIF와 통신할 수 있도록 타겟 클러스터에 명시적 AWS 경로를 추가해야 할 수 있습니다. BlueXP를 사용하여 이 구성 단계를 수행합니다.</block>
   <block id="ea6c1f22d406198faaad800a7f159a1f" category="list-text">Data Protection 패널 상단의 오른쪽 화살표를 클릭합니다. 데이터 보호 * 페이지가 표시됩니다.</block>
   <block id="fd9449f2b2bbd42c1f63613e3c929241" category="paragraph">데이터 센터에서 단일 또는 모든 클러스터를 선택했는지 여부에 따라 이 페이지는 스냅샷 복사본 또는 SnapMirror 정책으로 보호되는 볼륨의 데이터 보호 상태를 표시하고 보호되지 않은 볼륨의 수도 표시합니다.</block>
   <block id="5bad65f01f0a45625a80fce1fa855fa4" category="paragraph">개별 클러스터 * 목록에서 클러스터를 선택하면 해당 클러스터에 있는 보호된 볼륨의 스냅샷 보호 및 SnapMirror 관계 상태가 표시됩니다.</block>
@@ -12066,4 +12065,5 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="342a7198ff8437c0b83702e716edd98f" category="list-text">클러스터는 ONTAP 버전 9.9 이상 소프트웨어를 실행해야 합니다.</block>
   <block id="46ddffc1618503c5b7bac4767df5963b" category="list-text">15일간의 성능 데이터를 수집하는 데는 CPU가 많이 사용됩니다.  NetApp 너무 많은 클러스터에서 동시에 데이터 연속성 수집 폴링이 실행되지 않도록 새 클러스터를 추가하는 작업을 단계적으로 수행할 것을 권장합니다.  또한, 데이터 연속성 수집 기간 동안 Unified Manager를 다시 시작하면 수집이 중단되고 누락된 기간의 성능 차트에 간격이 표시됩니다.</block>
   <block id="40bbb8b87d3598ac9845a44abe43f38c" category="list-text">9.14.1 이상 버전의 ONTAP 클러스터를 추가하면 클라우드 에이전트 기능을 통해 통신이 이루어집니다.  ONTAP 읽기 전용 권한이 있는 내부 서비스 계정 사용자(예: clus-agent-xxxx)를 자동으로 생성합니다.  Unified Manager는 다음과 같은 경우 해당 클러스터에서 데이터 수집을 중지합니다.<block ref="45b8c9da551ea3a5a411451e7d91c303" prefix=" " category="inline-code"></block> 사용자가 삭제되었습니다.</block>
+  <block id="323f966c65a63cb769e4f899cb19451f" category="paragraph">NDMP 오류로 인해 Cloud Volumes ONTAP HA 클러스터 간 복원 작업이 실패하는 경우 대상 클러스터에 명시적인 AWS 경로를 추가해야 할 수 있습니다. 그래야 대상이 소스 시스템의 클러스터 관리 LIF와 통신할 수 있습니다. NetApp 콘솔을 사용하여 이 구성 단계를 수행합니다.</block>
 </blocks>
