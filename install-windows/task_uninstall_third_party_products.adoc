@@ -1,7 +1,7 @@
 ---
 permalink: install-windows/task_uninstall_third_party_products.html 
 sidebar: sidebar 
-keywords: MS Visual C++, python, uninstall, uninstalling, 9.16 
+keywords: MS Visual C++, python, uninstall, uninstalling, 9.18 
 summary: Python 및 Microsoft Visual C++를 포함한 타사 제품을 제거하는 방법. 
 ---
 = 타사 제품 제거
@@ -20,7 +20,7 @@ Unified Manager를 업그레이드한 후 Python 또는 Microsoft Visual C++ 201
 .단계
 . 제어판 * 에서 * 프로그램 * > * 프로그램 및 기능 * 을 선택합니다.
 . 프로그램 목록에서 Python을 선택합니다.
-. 이 프로그램 제거 * 를 선택합니다. 3.12를 제외한 모든 Python 버전을 제거합니다. Python 버전 3.12를 유지해야 합니다.
+. *이 프로그램 제거*를 선택하세요.  3.13.3을 제외한 모든 Python 버전을 제거하세요.  Python 버전 3.13.3을 유지하세요.
 
 
 

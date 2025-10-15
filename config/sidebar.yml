@@ -101,6 +101,8 @@ entries:
     url: "/config/task_change_ports_um_uses_for_http_and_https_protocols.html"
   - title: 네트워크 인터페이스 추가
     url: "/config/task_add_additional_network_interfaces.html"
+  - title: 클라이언트 인증서를 다시 생성합니다
+    url: "/config/task_regenerate_client_certificate.html"
   - title: Unified Manager 데이터베이스 디렉터리에 디스크 공간 추가
     url: "/config/concept_add_disk_space_to_um_database_directory.html"
     entries:

@@ -11,7 +11,7 @@ summary: Windows 플랫폼에서 설치 파일을 다운로드하여 실행하�
 
 
 [role="lead"]
-Windows 플랫폼에서 설치 파일을 다운로드하여 실행하면 Unified Manager 9.13 또는 9.14을 9.16로 업그레이드할 수 있습니다.
+Windows 플랫폼에서 설치 파일을 다운로드하여 실행하면 Unified Manager 9.14 또는 9.16을 9.18로 업그레이드할 수 있습니다.
 
 .시작하기 전에
 * Unified Manager를 업그레이드하는 시스템은 시스템 및 소프트웨어 요구사항을 충족해야 합니다.

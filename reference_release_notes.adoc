@@ -2,7 +2,7 @@
 permalink: reference_release_notes.html 
 sidebar: sidebar 
 keywords: release notes, active iq unified manager 
-summary: Active IQ Unified Manager 9.16의 새로운 기능, 제한 사항 및 알려진 문제에 대한 요약을 제공합니다. 
+summary: Active IQ Unified Manager 9.18의 새로운 기능, 제한 사항 및 알려진 문제에 대한 요약을 제공합니다. 
 ---
 = 릴리스 정보
 :allow-uri-read: 
@@ -11,6 +11,6 @@ summary: Active IQ Unified Manager 9.16의 새로운 기능, 제한 사항 및 �
 
 
 [role="lead"]
-Active IQ Unified Manager 9.16의 새로운 기능, 제한 사항 및 알려진 문제에 대한 요약을 제공합니다.
+Active IQ Unified Manager 9.18의 새로운 기능, 제한 사항 및 알려진 문제에 대한 요약을 제공합니다.
 
-자세한 내용은 를 https://library.netapp.com/ecm/ecm_download_file/ECMLP3330868["Active IQ Unified Manager 릴리즈 노트"]참조하십시오.
+자세한 내용은 다음을 참조하세요. https://library.netapp.com/ecm/ecm_download_file/ECMLP3362664["Active IQ Unified Manager 릴리즈 노트"] .

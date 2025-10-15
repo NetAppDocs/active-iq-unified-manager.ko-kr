@@ -19,7 +19,7 @@ Unified Manager를 설치하는 Linux 시스템에는 특정 버전의 운영 �
 
 Linux 시스템에는 다음 버전의 운영 체제와 지원 소프트웨어가 설치되어 있어야 합니다.
 
-* x86_64 아키텍처 기반 Red Hat Enterprise Linux 버전 8.x 및 9.4
+* x86_64 아키텍처를 기반으로 하는 Red Hat Enterprise Linux 버전 8.x 및 9.6.
 
 
 지원되는 Red Hat Enterprise Linux 버전의 전체 최신 목록은 상호 운용성 매트릭스 를 참조하십시오.
@@ -40,8 +40,8 @@ Unified Manager는 WildFly 웹 서버에 구축되어 있습니다. WildFly 26.1
 다음 타사 패키지는 필수이지만 Unified Manager에 포함되어 있지 않습니다. 이러한 패키지는 다음 섹션에서 설명한 대로 리포지토리를 구성한 경우 설치 중에 'yum' 설치 관리자에 의해 자동으로 설치됩니다.
 
 * MySQL Community Edition 버전 8.4.4(MySQL 저장소에서)
-* OpenJDK 버전 11.0.25(Red Hat Extra Enterprise Linux Server 리포지토리에서 제공)
-* Python 3.9.x(Red Hat Extra Enterprise Linux Server 리포지토리에서 제공)
+* OpenJDK 버전 17.0.14+6(Red Hat Extra Enterprise Linux 서버 저장소에서)
+* Python 3.12(Red Hat Extra Enterprise Linux 서버 저장소에서)
 * p7zip 버전 16.02 이상(Enterprise Linux용 Red Hat Extra Packages 리포지토리)
 
 
