@@ -37,7 +37,7 @@ MySQL 리포지토리는 시스템에 설치해야 하는 필수 MySQL 소프트
 
 
 
-Red Hat Enterprise Linux 8 시스템의 경우 AppStream 저장소에서 제공하는 java-17-openjdk, p7zip 및 기타 소프트웨어 패키지가 포함된 내부 저장소가 있는 경우 AppStream 저장소를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령을 실행하세요.
+Red Hat Enterprise Linux 8 시스템의 경우, AppStream 저장소에서 제공하는 java-17-openjdk, 7-zip 및 기타 소프트웨어 패키지가 포함된 내부 저장소가 있는 경우 AppStream 저장소를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령어를 실행하세요:
 
 [listing]
 ----

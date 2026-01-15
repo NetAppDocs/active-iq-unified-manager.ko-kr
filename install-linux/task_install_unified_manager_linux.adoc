@@ -46,19 +46,19 @@ OpenJDK 버전 17.0.14+6
 
 
  a| 
-MySQL 8.4.4 커뮤니티 에디션
+MySQL 8.4.7 커뮤니티 에디션
  a| 
 "rpm-qa|grep-i mysql"을 참조하십시오
 
 
 
  a| 
-p7zip 16.02
+7집
  a| 
-"rpm-qa|grep p7zip"
+`7zz -version`
 
 |===
-. 설치된 MySQL 버전이 MySQL 8.4.4 Community Edition보다 이전 버전인 경우 다음 명령을 입력하여 제거합니다.
+. 설치된 MySQL 버전이 MySQL 8.4.7 Community Edition보다 이전 버전인 경우 다음 명령을 입력하여 제거하세요.
 +
 "rpm -e <mysql_package_name>"를 입력합니다
 
@@ -87,7 +87,7 @@ Unified Manager에 필요한 '.rpm' 모듈의 압축이 대상 디렉토리에 �
 사전 설치 스크립트는 시스템에 유효한 Red Hat Enterprise Linux 서브스크립션이 있으며 필요한 소프트웨어 저장소에 대한 액세스 권한이 있는지 확인합니다. 스크립트에서 문제가 식별되면 Unified Manager를 설치하기 전에 문제를 해결해야 합니다.
 
 +
-Red Hat Enterprise Linux 8 시스템의 경우 AppStream 저장소에서 제공하는 JDK 17 - OpenJDK, p7zip 및 기타 소프트웨어 패키지가 포함된 내부 저장소가 있는 경우 AppStream 저장소를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령을 실행하세요.
+Red Hat Enterprise Linux 8 시스템에서 JDK 17 - OpenJDK, 7-zip 및 AppStream 저장소에서 제공하는 기타 소프트웨어 패키지가 포함된 내부 저장소가 있는 경우 AppStream 저장소를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령어를 실행하세요:
 
 +
 [listing]

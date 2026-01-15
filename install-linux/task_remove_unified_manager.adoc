@@ -27,11 +27,11 @@ summary: 하나의 명령으로 Red Hat Enterprise Linux 호스트에서 Unified
 "rpm -e NetApp -um"
 
 +
-이 단계에서는 관련된 모든 NetApp RPM 패키지를 제거합니다. Java, MySQL 및 p7zip 같은 필수 소프트웨어 모듈은 제거하지 않습니다.
+이 단계에서는 관련된 모든 NetApp RPM 패키지가 제거됩니다. Java, MySQL, 7zip 등의 필수 소프트웨어 모듈은 제거되지 않습니다.
 
-. * 선택 사항: * 필요한 경우 Java, MySQL 및 p7zip 같은 지원 소프트웨어 모듈을 제거합니다.
+. *선택 사항:* 해당되는 경우 Java, MySQL, 7zip 등의 지원 소프트웨어 모듈을 제거합니다.
 +
-rpm -e p7zip mysql -community -client mysql -community -server mysql -common mysql -community -libs java -x. y
+`rpm -e mysql-community-client mysql-community-server mysql-community-common mysql-community-libs java-x.y`
 
 
 

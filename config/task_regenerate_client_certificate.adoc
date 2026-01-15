@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: client certificate, regenerate, validity, maintenance console 
 summary: 유지 관리 콘솔을 사용하여 Unified Manager 클라이언트 인증서를 다시 생성할 수 있습니다. 
 ---
-= 클라이언트 인증서를 다시 생성합니다
+= Unified Manager 클라이언트 인증서를 다시 생성합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -21,3 +21,5 @@ summary: 유지 관리 콘솔을 사용하여 Unified Manager 클라이언트 �
 . 인증서가 다시 생성된 후 Unified Manager 서비스를 다시 시작하여 변경 사항을 적용합니다.
 . 업데이트된 인증서를 확인하려면 ONTAP 에 로그인하세요.  클라이언트 인증서 상태와 유효성 상태를 확인합니다.
 
+
+*관련 정보*  https://docs.netapp.com/us-en/ontap/authentication/manage-certificates-sm-task.html["System Manager를 사용하여 ONTAP 인증서 관리"^]

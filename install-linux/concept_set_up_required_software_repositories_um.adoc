@@ -2,13 +2,13 @@
 permalink: install-linux/concept_set_up_required_software_repositories_um.html 
 sidebar: sidebar 
 keywords: set up, required, software, repositories 
-summary: 설치 프로그램이 필요한 모든 소프트웨어 종속성을 액세스하고 설치할 수 있도록 시스템에 특정 저장소에 대한 액세스 권한이 있어야 합니다. 
+summary: 설치 프로그램이 필요한 모든 소프트웨어 종속성을 설치하려면 시스템이 특정 저장소 및 패키지에 접근할 수 있어야 합니다. 
 ---
-= 필요한 소프트웨어 저장소 설정
+= Unified Manager에 필요한 소프트웨어를 설치하세요.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-설치 프로그램이 필요한 모든 소프트웨어 종속성을 액세스하고 설치할 수 있도록 시스템에 특정 저장소에 대한 액세스 권한이 있어야 합니다.
+설치 프로그램이 필요한 모든 소프트웨어 종속성을 설치하려면 시스템이 특정 저장소 및 패키지에 접근할 수 있어야 합니다.

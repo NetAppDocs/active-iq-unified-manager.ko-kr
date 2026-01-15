@@ -27,13 +27,15 @@ entries:
   entries:
   - title: 설치 프로세스 개요
     url: "/install-linux/concept_overview_of_installation_process_on_red_hat.html"
-  - title: 필요한 소프트웨어 저장소 설정
+  - title: 필요한 소프트웨어를 설치하세요
     url: "/install-linux/concept_set_up_required_software_repositories_um.html"
     entries:
     - title: EPEL 저장소를 수동으로 구성합니다.
       url: "/install-linux/task_manually_configure_epel_repository.html"
     - title: MySQL 저장소를 수동으로 구성합니다
       url: "/install-linux/task_manually_configure_mysql_repository.html"
+    - title: 7-zip 소프트웨어 패키지를 구성합니다.
+      url: "/install-linux/task_configure_7zip_package.html"
   - title: NFS 또는 CIFS 공유에 대한 SELinux 요구 사항
     url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
   - title: Linux 시스템에 Unified Manager를 설치합니다

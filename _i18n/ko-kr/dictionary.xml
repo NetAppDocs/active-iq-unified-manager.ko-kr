@@ -2041,7 +2041,6 @@
   <block id="909c968a39678b79ac526625c5d2d634" category="paragraph">이 메시지는 다음과 유사합니다.</block>
   <block id="a1829ad08a395f5bd291b0c7562b2a29" category="summary">Linux 시스템에 설치된 경우 Unified Manager에서 JRE와 같은 타사 제품을 업그레이드할 수 있습니다.</block>
   <block id="1c07aad8c135f1160c0e64c5a58afc4c" category="paragraph">Unified Manager가 Linux 시스템에 이미 설치되어 있는 경우 JRE와 같은 타사 제품을 업그레이드할 수 있습니다.</block>
-  <block id="f9ec3a034f84a9fd8183effde4332a5c" category="image-alt">rhel에 플로우를 설치합니다</block>
   <block id="91620c9192c298e8ee9b2d03e913b8e1" category="summary">Unified Manager를 설치하는 시스템에 MySQL Community Edition 저장소에 대한 액세스 권한이 없는 경우, 설치를 성공적으로 수행하려면 리포지토리를 수동으로 다운로드하여 구성해야 합니다.</block>
   <block id="0bf58a07f9c4162d16eb1d2a403f0d41" category="doc">MySQL 리포지토리를 수동으로 구성합니다</block>
   <block id="1280efb9a67a71e035f91cd7b1662539" category="paragraph">MySQL 리포지토리는 시스템에 설치해야 하는 필수 MySQL 소프트웨어에 대한 액세스를 제공합니다.</block>
@@ -2083,9 +2082,6 @@
   <block id="2d2e49557d138f6d4b83fc5fc6f0f807" category="list-text">Unified Manager를 제거할 서버에 루트 사용자로 로그인합니다.</block>
   <block id="8f4432edf3215369a9b366b08a0e80f1" category="list-text">서버에서 Unified Manager를 중지하고 제거합니다.</block>
   <block id="92293bf5efcb21ac9b8873fb38c0d536" category="paragraph">"rpm -e NetApp -um"</block>
-  <block id="4d55dfc0876750b5ffe6e60061566609" category="paragraph">이 단계에서는 관련된 모든 NetApp RPM 패키지를 제거합니다. Java, MySQL 및 p7zip 같은 필수 소프트웨어 모듈은 제거하지 않습니다.</block>
-  <block id="e5dbc5a1e11d941b151de8ab8fa95686" category="list-text">* 선택 사항: * 필요한 경우 Java, MySQL 및 p7zip 같은 지원 소프트웨어 모듈을 제거합니다.</block>
-  <block id="be712dac487b0060ebc7a7d4ea36b896" category="paragraph">rpm -e p7zip mysql -community -client mysql -community -server mysql -common mysql -community -libs java -x. y</block>
   <block id="4ccc693abf0d23c0d512da6d155ea5e9" category="paragraph">이 작업이 완료되면 소프트웨어가 제거됩니다. 제거 후 "/opt/netapp/data" 디렉토리의 모든 데이터가 "/opt/netapp/data/backup" 폴더로 이동됩니다. Unified Manager를 제거하면 Java 및 MySQL 패키지도 제거됩니다. 단, 시스템의 다른 애플리케이션에서 패키지가 필요하고 사용되지 않습니다. 그러나 MySQL 데이터는 삭제되지 않습니다.</block>
   <block id="6f9f1b5c2fa88af2785b93e04da47b9e" category="list-text">디렉토리 '/opt/netapp/Essentials/bin'에서 NetApp에서 제공한 password.sh' 스크립트에 액세스할 수 있어야 합니다.</block>
   <block id="236571f300975da5f97e30c8eaa910d2" category="list-text">시스템에서 루트 사용자로 로그인합니다.</block>
@@ -2136,8 +2132,6 @@
   <block id="fc6a57067ea7fdf362320a9b8f280942" category="cell">명령을 사용하여 소프트웨어 및 버전을 확인합니다</block>
   <block id="d349bda8382351b9fe435583c56eca3b" category="paragraph">자바 버전</block>
   <block id="ebf01eb8c517f12e8cecc2a481529448" category="paragraph">"rpm-qa|grep-i mysql"을 참조하십시오</block>
-  <block id="a795b555665b99a19e8172dcea1db7f8" category="paragraph">p7zip 16.02</block>
-  <block id="a7257213829973c5c49764d7424d2afc" category="paragraph">"rpm-qa|grep p7zip"</block>
   <block id="13403dd457b6243a3c87fe19d5c61014" category="paragraph">"rpm -e &lt;mysql_package_name&gt;"를 입력합니다</block>
   <block id="de62e757ceb412d713be5a4d33f999bc" category="paragraph">종속성 오류가 발생하면 구성 요소를 제거하려면 '--nodeps' 옵션을 추가해야 합니다.</block>
   <block id="3d07560c3dc428c1a0c49eb9c78954c3" category="list-text">설치 '.zip' 파일을 다운로드한 디렉토리로 이동하여 Unified Manager 번들을 확장합니다.</block>
@@ -2158,7 +2152,6 @@
   <block id="bd83ea599d4b1bc4b0405111a4f0e137" category="summary">Unified Manager를 설치하는 Linux 시스템에는 특정 버전의 운영 체제 및 지원 소프트웨어가 필요합니다.</block>
   <block id="dbbb4ab63646c15ff10f8545fb7cdfb6" category="paragraph">Linux 시스템에는 다음 버전의 운영 체제와 지원 소프트웨어가 설치되어 있어야 합니다.</block>
   <block id="7357f7d7e3e2aa8fbcd5222429988b84" category="paragraph">다음 타사 패키지는 필수이지만 Unified Manager에 포함되어 있지 않습니다. 이러한 패키지는 다음 섹션에서 설명한 대로 리포지토리를 구성한 경우 설치 중에 'yum' 설치 관리자에 의해 자동으로 설치됩니다.</block>
-  <block id="d1e7aabda60322abe75bf0db2ca50764" category="list-text">p7zip 버전 16.02 이상(Enterprise Linux용 Red Hat Extra Packages 리포지토리)</block>
   <block id="78381976b37490cec80cd2fe2b00d51a" category="paragraph">타사 소프트웨어를 업그레이드하기 전에 Unified Manager를 실행 중인 인스턴스를 종료해야 합니다. 타사 소프트웨어 설치가 완료되면 Unified Manager를 다시 시작할 수 있습니다.</block>
   <block id="c30f25a04cc49fee8fee2b51222074ae" category="section-title">사용자 인증 요구 사항</block>
   <block id="1d30f5af628840472be4ef70e300d02d" category="paragraph">Linux 시스템에 Unified Manager를 설치하는 작업은 루트 사용자 또는 비루트 사용자가 'sudo' 명령을 사용하여 수행할 수 있습니다.</block>
@@ -2173,7 +2166,6 @@
   <block id="e86f63ff81e3af881b1e4cbf8cc2cd90" category="paragraph">`#firewall-cmd--zone=public--add-port=443/tcp--permanent;firewall-cmd--reload'</block>
   <block id="fcb44727e7951e5c22a7ca707be2c6c9" category="paragraph">'#sudo yum install firewalld'</block>
   <block id="615d60cd0b0e0b83c91ab7aafde0f763" category="paragraph">명령을 실행하기 전에 IT 부서에 문의하여 보안 정책에 다른 절차가 필요한지 확인하십시오.</block>
-  <block id="4b9d5e4986edb2a9d0749936a3c5a16a" category="summary">설치 프로그램이 필요한 모든 소프트웨어 종속성을 액세스하고 설치할 수 있도록 시스템에 특정 저장소에 대한 액세스 권한이 있어야 합니다.</block>
   <block id="afb2834760e724121eecb8022425be26" category="summary">필터링을 사용하면 그리드에서 더 작고 잘 정의된 개체 하위 집합을 표시할 수 있습니다. 예를 들어, 그리드에 볼륨이 25개 있는 경우 필터링을 사용하면 처리량이 90Mbps 미만이거나 지연 시간이 1ms/op보다 큰 볼륨만 볼 수 있습니다.</block>
   <block id="72648a38a9ef5ec7a9866f0d9b6beebc" category="doc">필터링을 적용하여 그리드의 상관 오브젝트 목록을 줄입니다</block>
   <block id="4b3bd2f148816999ac7c26736a4d21f4" category="summary">특정 개체에 빠르게 액세스하려면 메뉴 모음 맨 위에 있는 모든 스토리지 개체 검색 필드를 사용합니다. 모든 개체에 대해 이 전역 검색 방법을 사용하면 유형별로 특정 개체를 빠르게 찾을 수 있습니다. 검색 결과는 스토리지 객체 유형별로 정렬되며 드롭다운 메뉴를 사용하여 필터링할 수 있습니다. 유효한 검색에는 3자 이상의 문자가 포함되어야 합니다.</block>
@@ -11452,19 +11444,13 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="57149177e572f9b5329f85c287861767" category="paragraph">Unified Manager에서 감사 로그를 원격 syslog 서버로 보내는 데 사용됩니다.</block>
   <block id="a683cc8dbb0bb0e6b1793e6ba834ff32" category="inline-link">Active IQ Unified Manager 호스트에서 Java를 업데이트한 후 서비스가 시작되지 않습니다</block>
   <block id="09baf90eb42ecfec3f212db12b09fe09" category="list-text">Unified Manager 호스트에 하나의 Java 버전만 설치해야 합니다. 그렇지 않으면 시스템에서 사용할 버전을 확인하지 못할 수 있습니다. 을<block ref="c8da8190d4ab26608407458b2e410255" category="inline-link-rx"></block>참조하십시오.</block>
-  <block id="3e0906413eedf8b016028a08671c72cf" category="list-text">MySQL Community Edition 버전 8.4.4(MySQL 저장소에서)</block>
   <block id="c6e03671790b21aa5876d21988481dc1" category="doc">JBoss 비밀번호 변경</block>
-  <block id="bd4a61bec4ddf1fbfa9ff823fe338a7f" category="paragraph">MySQL 8.4.4 커뮤니티 에디션</block>
-  <block id="e0b87bd877fb05ad9598493d9e9618f7" category="list-text">설치된 MySQL 버전이 MySQL 8.4.4 Community Edition보다 이전 버전인 경우 다음 명령을 입력하여 제거합니다.</block>
   <block id="892bed2d06f89704c4604de031dae65b" category="paragraph">rpm --가져오기 <block ref="0f882f512220ee48fb3a2d37bf184d7b" category="inline-link-rx"></block></block>
   <block id="649100e0f61e7b197f0fa124dfd04ad0" category="doc">MySQL 저장소를 수동으로 구성합니다</block>
   <block id="7364abf9a3cfe2b121a7cea83050498f" category="paragraph"><block ref="e4721391d8c98496e77286760a370cbd" prefix="" category="inline-code"></block></block>
   <block id="a241a6b1d78a908e027ae227ba4afac8" category="paragraph"><block ref="ab96ce67a2bc362f79a7dc9a5d898d60" prefix="" category="inline-code"></block></block>
   <block id="ae96596167d0d8d8e2ef4039fbef6053" category="paragraph"><block ref="2cc661b5745d2b0218deba4ff43b2854" prefix="" category="inline-code"></block></block>
-  <block id="9ab7720d6cb446ae235fa693146b2a7f" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.4 이전인 경우 Unified Manager 업그레이드 프로세스에서 MySQL을 8.4.4로 자동 업그레이드합니다.</block>
   <block id="8cfa73f7b5a63cd662382021f2aaef95" category="paragraph">VMware vSphere 시스템의 Unified Manager OVA는 내부적으로 Debian OS 12(bookworm)를 실행합니다. 지원되는 ESXi 서버 버전에서 지원할 수 있는 가상 머신 하드웨어 버전에 대한 자세한 내용은 VMware 설명서를 참조하십시오.</block>
-  <block id="46f31bcfb93fcb60053430763035aa12" category="list-text">MySQL Community Edition 버전 8.4.4</block>
-  <block id="cd50fb2ed09ac3c33e778054edb9cc6a" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.4 이전인 경우 Unified Manager 업그레이드 프로세스에서 MySQL을 8.4.4로 자동 업그레이드합니다. MySQL 이전 버전의 독립 실행형 업그레이드를 8.4.4로 실행하면 안 됩니다.</block>
   <block id="0d36f8c0424fdbfdd6f9a12cbba4ee8d" category="summary">문제 해결: 로그 회전 문제를 해결하려면 다음 단계를 따르세요.</block>
   <block id="a8bfd2afda4e15a2a1e73c27bdc332e8" category="doc">Windows 시스템의 NetApp Manageability SDK 로그 회전 문제</block>
   <block id="5aeab31ef19d5a368133d1cbd8bd66be" category="paragraph">Windows 운영 체제에서 Unified Manager에 ONTAPI API 기반 클러스터를 추가한 후 <block ref="dbc60675af8648f05c2a3d903b31f558" prefix=" " category="inline-code"></block> 파일 크기가 커져서 10MB 크기 제한을 초과합니다.</block>
@@ -11548,7 +11534,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="950c932fbfaf16c880b9e3159698ec46" category="doc">Linux 시스템에서 umadmin 비밀번호 변경</block>
   <block id="a3e7325bdc8802d2b97616abd100af4b" category="doc">Unified Manager 가상 어플라이언스 호스트 이름 변경</block>
   <block id="82bc72116c72c5f85d83649146b03942" category="doc">감사 로그 구성</block>
-  <block id="2b7e49b4350106b0d5c726624daba76c" category="paragraph">원격 로깅을 활성화하려면 * 원격 로깅 사용 * 을 선택해야 합니다. /// 2025-6-11, OTHERDOC-133</block>
   <block id="fe3124ca1009da3f18337e7bbf1d954a" category="doc">Unified Manager를 구성하여 알림 알림을 보냅니다.</block>
   <block id="98abf53c0218d7ca977c214d35e15ff6" category="doc">데이터베이스 사용자 생성</block>
   <block id="f44fbeb51f975c8f5b5f1f3cacce95b0" category="doc">인증 서버 삭제</block>
@@ -11755,7 +11740,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="0b6c920f47b112f0004be65d480c5f89" category="doc">저장소 VM 목록 및 세부 정보 보기</block>
   <block id="3a54c48731287149929ccba8046ed457" category="doc">볼륨 목록 및 세부 정보 보기</block>
   <block id="1c76f6f3be155bbb404ddc93da5ed6b1" category="doc">Unified Manager 소프트웨어 설치, 업그레이드 및 제거</block>
-  <block id="03f88644651c7265a75ee9d17c5192e4" category="doc">필요한 소프트웨어 저장소 설정</block>
   <block id="a60cb8b157602423cec8d20b7e790c1b" category="doc">Unified Manager 설치 후 타사 제품 업그레이드</block>
   <block id="f671b8cc8bc68a8083599cb63cfca3dc" category="doc">Red Hat Enterprise Linux에서 Unified Manager 업그레이드</block>
   <block id="eceb68056a5242b04d79baae7a08bb3b" category="section-title">Active IQ Unified Manager를 설치합니다</block>
@@ -12051,10 +12035,7 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="53379802a4d81e82337b2c52ccf2deb3" category="list-text">9.14 또는 9.16 -&gt; 9.18로 업그레이드</block>
   <block id="6787fe3d88502c7e30ca4888c36420e1" category="list-text">x86_64 아키텍처를 기반으로 하는 Red Hat Enterprise Linux 버전 8.x 및 9.6.</block>
   <block id="074a139785c8177508b3b6c1771be1b9" category="list-text">OpenJDK 버전 17.0.14+6(Red Hat Extra Enterprise Linux 서버 저장소에서)</block>
-  <block id="948c8178d91f242a451ca7273fc88d8c" category="list-text">Python 3.12(Red Hat Extra Enterprise Linux 서버 저장소에서)</block>
   <block id="effd4488452f14b70bc4664d81f2c4cf" category="paragraph">OpenJDK 버전 17.0.14+6</block>
-  <block id="8256b84d74aa30fc3663195b5024bed9" category="paragraph">Red Hat Enterprise Linux 8 시스템의 경우 AppStream 저장소에서 제공하는 JDK 17 - OpenJDK, p7zip 및 기타 소프트웨어 패키지가 포함된 내부 저장소가 있는 경우 AppStream 저장소를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령을 실행하세요.</block>
-  <block id="5c9461ab22e592eab1219f858610847e" category="paragraph">Red Hat Enterprise Linux 8 시스템의 경우 AppStream 저장소에서 제공하는 java-17-openjdk, p7zip 및 기타 소프트웨어 패키지가 포함된 내부 저장소가 있는 경우 AppStream 저장소를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령을 실행하세요.</block>
   <block id="b052ad2f2a24341b706280b74b01f4cf" category="paragraph">Linux 플랫폼에서 설치 파일을 다운로드하여 실행하면 Unified Manager 9.14 또는 9.16에서 9.18로 업그레이드할 수 있습니다.</block>
   <block id="21965413ff0ccad2726549ebe4781cf5" category="paragraph">Active IQ Unified Manager 릴리스 9.14 또는 9.16에서만 릴리스 9.18로 업그레이드할 수 있습니다.</block>
   <block id="7e473733141d48a79308def35ea0692d" category="paragraph">Active IQ Unified Manager 가상 어플라이언스를 릴리스 9.14 또는 9.16에서 9.18로 업그레이드할 수 있습니다.</block>
@@ -12078,4 +12059,50 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="8cf21208b286d8f7b61877ce31cfeacd" category="paragraph">또한 Unified Manager의 두 번째 인스턴스를 설치하기 전에 Unified Manager의 단일 인스턴스가 모니터링할 수 있는 노드 수에는 제한이 있습니다. 노드 제한, CPU 및 메모리 권장 사항은 다음을 참조하십시오. <block ref="2eee8552956d66b159af233732000339" category="inline-link-macro-rx"></block>.</block>
   <block id="72473e7783768c475b1bae8307882647" category="paragraph">또한 Unified Manager의 두 번째 인스턴스를 설치하기 전에 Unified Manager의 단일 인스턴스가 모니터링할 수 있는 노드 수에는 제한이 있습니다. 노드 제한, CPU 및 메모리 권장 사항은 다음을 참조하십시오.<block ref="8175e2f559de1060f0bed41c5845504d" category="inline-link-rx"></block>.</block>
   <block id="89b5277f8d4fd00ec520a15062f36ee4" category="list-text">참고로, 스토리지 가상 머신(SVM) 또는 클러스터를 알림 리소스에 추가하는 경우 하위 개체는 자동으로 추가되지 않습니다. 예를 들어, 클러스터를 경고의 리소스에 추가하더라도 경고에 노드나 LUN이 자동으로 추가되지는 않습니다.</block>
+  <block id="72351f5aa135c1d7ffc7c5b47be4a6d2" category="doc">Unified Manager 감사 로그 구성</block>
+  <block id="aca31ed102e613948a8b22994dddc430" category="paragraph">원격 로깅을 활성화하려면 *원격 로깅 활성화*를 선택하십시오.</block>
+  <block id="cb76e5d36c6cc17b94dee092ff59b087" category="doc">Unified Manager 클라이언트 인증서를 다시 생성합니다.</block>
+  <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">System Manager를 사용하여 ONTAP 인증서 관리</block>
+  <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*관련 정보* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
+  <block id="3e4eb743748e538f59a50a73d5f8b602" category="doc">Unified Manager 세션 비활성 시간 제한을 설정합니다.</block>
+  <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">RHEL 2026에 Flow 설치</block>
+  <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">설치 프로그램이 필요한 모든 소프트웨어 종속성을 설치하려면 시스템이 특정 저장소 및 패키지에 접근할 수 있어야 합니다.</block>
+  <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">Unified Manager에 필요한 소프트웨어를 설치하세요.</block>
+  <block id="9ca50ce4ceb954680a475273fb837226" category="list-text">MySQL Community Edition 버전 8.4.7(MySQL 저장소에서)</block>
+  <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (Red Hat Extra Enterprise Linux Server 저장소에서 가져옴)</block>
+  <block id="bff93131b836db7dbfe3c0ef47a3bdfb" category="inline-link-macro">7-zip 소프트웨어 패키지를 구성합니다.</block>
+  <block id="461c8ff1de784c3f512e2bab8a2bb39d" category="list-text">7zip 버전 7z2301-linux-x64. 더 자세한 정보를 보려면 다음을 참조하세요. <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
+  <block id="e015944bfff042d3f68ba5273a29764f" category="summary">Red Hat Enterprise Linux(RHEL) 시스템에 Unified Manager를 성공적으로 설치하려면 시스템에 7-zip 패키지에 대한 접근 권한이 설정되어 있어야 합니다.</block>
+  <block id="85dda2f348fcdccc0aaeab4cbe8f599f" category="doc">Unified Manager용 7-zip 소프트웨어 패키지를 구성합니다.</block>
+  <block id="f4545e72494a629211274696dc51101a" category="paragraph">Red Hat Enterprise Linux 시스템에 Unified Manager를 성공적으로 설치하려면 시스템에 7-zip 소프트웨어 패키지에 대한 접근 권한이 설정되어 있어야 합니다. 네트워크 접속이 가능하고 7-zip URL이 방화벽에 의해 차단되지 않은 경우, 7-zip은 설치 또는 업그레이드 과정 중에 자동으로 시스템에 다운로드됩니다. NetApp 자동 다운로드 방식을 권장합니다.</block>
+  <block id="69e854a4bf0030976395f03271128807" category="paragraph">Unified Manager가 7-zip 소프트웨어 패키지를 자동으로 다운로드할 수 있도록 방화벽에서 다음 URL이 차단 해제되어 있는지 확인하십시오.<block ref="149f97a3106ff103273136be2377c5c5" prefix=" " category="inline-code"></block></block>
+  <block id="37c1dac21aa18b5553076dd69c0d4f88" category="paragraph">또는 7-zip을 미리 설치할 수도 있습니다.</block>
+  <block id="dad151810e18734c54fd2f0e00f48c91" category="section-title">7-zip 패키지를 미리 설치하세요.</block>
+  <block id="4893fd0ca34d784ae71835c4e0223807" category="paragraph">7-zip은 수동으로 다운로드하거나 함께 제공되는 스크립트를 사용하여 미리 설치할 수 있습니다. 다음 두 가지 방법 중 하나를 선택하십시오.</block>
+  <block id="6cc776293d96324d6f1a61ae6a739d54" category="section-title">함께 제공되는 스크립트를 사용하여 다운로드하세요.</block>
+  <block id="3e35624a3e4eef29b898f6e604523b20" category="list-text">실행하세요<block ref="d2ff91d1eda2e6d2a3670a78f9c369d2" prefix=" " category="inline-code"></block> Unified Manager 압축 파일에 포함된 스크립트입니다.</block>
+  <block id="b5a21d29e8eead4e58d13826ea7cd73b" category="section-title">수동으로 다운로드</block>
+  <block id="d9dc731703437706cbe8aa4307fd2a27" category="paragraph">7-zip 패키지는 반드시 공식 웹사이트에서만 다운로드하세요.</block>
+  <block id="7d42e6eade30679ccf2871c8cdd42d82" category="list-text">공식 사이트에서 7-zip 패키지(버전 23.01)를 다운로드하세요.</block>
+  <block id="c54bd88d3ce8cde15bb13de5d7938001" category="paragraph"><block ref="149f97a3106ff103273136be2377c5c5" prefix="" category="inline-code"></block></block>
+  <block id="11386e8eb4c06ded373ad806362fd87f" category="list-text">해당 파일을 RHEL 가상 머신에 복사하십시오.</block>
+  <block id="8546a6ff2e10ec778904583e758315c0" category="list-text">압축 파일을 해제하세요:</block>
+  <block id="5ef71a99412d7fdd7718e1339dc9af67" category="list-text">이동하세요<block ref="4af58bcd3997fcf30a03d97e4cac2156" prefix=" " category="inline-code"></block> 파일을<block ref="2a4b26260ce1651934b15eaf5a82d57f" prefix=" " category="inline-code"></block> 예배 규칙서:</block>
+  <block id="f36c9656dfe6d8b4341b27eee5cba4cd" category="list-text">실행 권한을 설정하세요:</block>
+  <block id="9c0f95d6de9186b24cce94c1c19ad0bb" category="section-title">설치를 확인하십시오</block>
+  <block id="d0eba9fa9af1130797e7b097e86e1cf9" category="paragraph">7-zip 패키지가 시스템에 성공적으로 설치되었는지 확인하십시오.</block>
+  <block id="3d96d3e1fe880ce5fb91ceb1a04daf8f" category="paragraph">MySQL 8.4.7 커뮤니티 에디션</block>
+  <block id="7942c3cbff858fefeeae13af0754ce91" category="paragraph">7집</block>
+  <block id="bd4785a5ccc39256a5803dad4bd14553" category="paragraph"><block ref="e3b6ff30090579304f8b0ef931234002" prefix="" category="inline-code"></block></block>
+  <block id="230ac9fdbbe8b31d21322b2382325f25" category="list-text">설치된 MySQL 버전이 MySQL 8.4.7 Community Edition보다 이전 버전인 경우 다음 명령을 입력하여 제거하세요.</block>
+  <block id="9e8e56b6decd77cb1c6c67922d0ea568" category="paragraph">Red Hat Enterprise Linux 8 시스템에서 JDK 17 - OpenJDK, 7-zip 및 AppStream 저장소에서 제공하는 기타 소프트웨어 패키지가 포함된 내부 저장소가 있는 경우 AppStream 저장소를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령어를 실행하세요:</block>
+  <block id="dc2549c9552cf4727398a4c12030d976" category="paragraph">Red Hat Enterprise Linux 8 시스템의 경우, AppStream 저장소에서 제공하는 java-17-openjdk, 7-zip 및 기타 소프트웨어 패키지가 포함된 내부 저장소가 있는 경우 AppStream 저장소를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령어를 실행하세요:</block>
+  <block id="85a7833c7b3c47e46293fd6b5df674cf" category="paragraph">이 단계에서는 관련된 모든 NetApp RPM 패키지가 제거됩니다. Java, MySQL, 7zip 등의 필수 소프트웨어 모듈은 제거되지 않습니다.</block>
+  <block id="95570f21954a110ac5842214143555f2" category="list-text">*선택 사항:* 해당되는 경우 Java, MySQL, 7zip 등의 지원 소프트웨어 모듈을 제거합니다.</block>
+  <block id="9be3489c55784ee9bb690eb74a862d91" category="paragraph"><block ref="4b4071a6e6d8cc80744e78638c7ce679" prefix="" category="inline-code"></block></block>
+  <block id="54b48a732c6188d2bcadf3f1d35f5767" category="list-text">Unified Manager를 업그레이드하기 전에 7-zip을 올바른 버전으로 설치하거나 업그레이드해야 합니다. 보다 <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
+  <block id="7efa98bf218af7d91336f05884607943" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.7 이전인 경우 Unified Manager 업그레이드 프로세스는 자동으로 MySQL을 8.4.7로 업그레이드합니다.</block>
+  <block id="1e4ae16efa77dcf7b5345478d2ccb141" category="list-text">MySQL 커뮤니티 에디션 버전 8.4.7</block>
+  <block id="7e32873dbcea7d787665ade5210a7e5e" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.7 이전인 경우 Unified Manager 업그레이드 프로세스는 자동으로 MySQL을 8.4.7로 업그레이드합니다. 이전 버전의 MySQL을 8.4.7로 독립 실행형 업그레이드를 실행해서는 안 됩니다.</block>
+  <block id="3fdc1149ca052bb0caeb62195f6366e2" category="sidebar">필요한 소프트웨어를 설치하세요</block>
 </blocks>

@@ -33,7 +33,7 @@ Unified Manager 9.5부터 OpenJDK는 설치 패키지에 제공되어 자동으�
 업그레이드를 시작하기 전에 시스템에 Microsoft .NET 4.5.2 이상이 설치되어 있는지 확인하십시오.
 
 ====
-* MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.4 이전인 경우 Unified Manager 업그레이드 프로세스에서 MySQL을 8.4.4로 자동 업그레이드합니다. MySQL 이전 버전의 독립 실행형 업그레이드를 8.4.4로 실행하면 안 됩니다.
+* MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.7 이전인 경우 Unified Manager 업그레이드 프로세스는 자동으로 MySQL을 8.4.7로 업그레이드합니다. 이전 버전의 MySQL을 8.4.7로 독립 실행형 업그레이드를 실행해서는 안 됩니다.
 * ASA R2 시스템을 제외한 모든 클러스터가 지원됩니다.
 * Windows 관리자 권한이 있어야 합니다. 사용자 이름이 느낌표 ""!""로 시작하지 않는지 확인합니다. 설치를 실행 중인 사용자의 이름이 ""!"(으로)로 시작하는 경우 Unified Manager 설치가 실패할 수 있습니다.
 * NetApp Support 사이트에 로그인하려면 유효한 자격 증명이 있어야 합니다.
