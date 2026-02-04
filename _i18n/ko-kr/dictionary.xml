@@ -12105,4 +12105,13 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="1e4ae16efa77dcf7b5345478d2ccb141" category="list-text">MySQL 커뮤니티 에디션 버전 8.4.7</block>
   <block id="7e32873dbcea7d787665ade5210a7e5e" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.7 이전인 경우 Unified Manager 업그레이드 프로세스는 자동으로 MySQL을 8.4.7로 업그레이드합니다. 이전 버전의 MySQL을 8.4.7로 독립 실행형 업그레이드를 실행해서는 안 됩니다.</block>
   <block id="3fdc1149ca052bb0caeb62195f6366e2" category="sidebar">필요한 소프트웨어를 설치하세요</block>
+  <block id="ef7e8c761b3774b5f1be9fac2702eee1" category="list-text">다음 시나리오에서는 스냅샷에서 디렉터리 또는 볼륨을 복원할 수 없습니다.</block>
+  <block id="1682df86d53dde8a42b648d552487863" category="list-text">*예, 모든 스냅샷 복사본 보존* 옵션이 선택되어 있습니다.</block>
+  <block id="6737224bf6ac1c0fa305a05c30cf30ae" category="list-text">LDAP 계정을 사용하여 클러스터를 모니터링하고 있습니다.</block>
+  <block id="5c41c459cb69f39c6ee999eecd9a022b" category="list-text">도메인 사용자로 로그인하셨습니다.</block>
+  <block id="0b5a178a62e7dfff5f75538a04745433" category="list-text">귀하의 계정은 SAML 인증으로 구성되어 있습니다.</block>
+  <block id="d31f432ad0e4242b6b670e30b3081931" category="list-text">NDMP 프로토콜을 사용하고 있습니다.</block>
+  <block id="2aa02eda0e86d78eb7e7937d93415606" category="inline-link">'SVM-scope' 모드에서 NDMP 인증을 구성하는 방법</block>
+  <block id="10c63a870bc95c46a742e43842ec8048" category="paragraph">자세한 내용은 기술 자료 문서<block ref="b3c8348c93a87962cb210001996297e2" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="8da4b54a11c14f3b7f3fc9138371f1c0" category="list-text">NTFS 파일 스트림은 복원할 수 없습니다.</block>
 </blocks>
