@@ -91,7 +91,7 @@ Performance:All 애그리게이트 뷰에는 Unified Manager 인스턴스에서 
 ** HDD(FabricPool). HDD와 클라우드 계층 결합
 ** VMDisk(SDS): 가상 머신 내의 가상 디스크
 ** VMDisk(FabricPool). 가상 디스크와 클라우드 계층을 결합합니다
-** LUN(FlexArray)
+** LUN을 클릭합니다
 
 
 * Inactive Data Reporting(비활성 데이터 보고): 이 집계에서 비활성 데이터 보고 기능을 활성화 또는 비활성화할지 여부를 나타냅니다. 이 애그리게이트의 볼륨을 활성화하면 Performance:All Volumes 뷰에 콜드 데이터의 양이 표시됩니다. ONTAP 버전이 비활성 데이터 보고를 지원하지 않는 경우 이 필드의 값은 "N/A"입니다.
