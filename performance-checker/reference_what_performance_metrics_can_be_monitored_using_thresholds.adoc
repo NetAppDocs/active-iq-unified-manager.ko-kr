@@ -15,6 +15,7 @@ IOPS 및 MB/s와 같은 일부 일반적인 성능 카운터는 모든 스토리
 
 
 
+[[available-performance-counters]]
 == 사용 가능한 성능 카운터
 
 |===

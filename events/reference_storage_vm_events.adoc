@@ -17,6 +17,7 @@ summary: '스토리지 VM 이벤트를 통해 SVM(스토리지 VM) 상태에 대
 
 
 
+[[impact-area-availability]]
 == 영향 영역: 가용성
 
 |===
@@ -255,6 +256,7 @@ SVM
 |===
 
 
+[[impact-area-configuration]]
 == 충격 영역: 구성
 
 |===
@@ -295,6 +297,7 @@ SVM
 |===
 
 
+[[impact-area-performance]]
 == 충격 영역: 성능
 
 |===
@@ -368,6 +371,7 @@ SVM
 |===
 
 
+[[impact-area-security]]
 == 충격 영역: 보안
 
 |===

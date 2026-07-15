@@ -15,6 +15,7 @@ summary: 볼륨 이동 상태 이벤트는 볼륨 이동 상태를 알려서 잠
 
 
 
+[[impact-area-capacity]]
 == 충격 영역: 용량
 
 |===

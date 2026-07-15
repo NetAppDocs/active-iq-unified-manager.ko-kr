@@ -28,6 +28,7 @@ API에 대한 curl 명령, 예제, 요청 및 응답은 Swagger API 인터페이
 ====
 
 
+[[apis-for-storage-objects-in-your-data-center]]
 == 데이터 센터의 스토리지 오브젝트를 위한 API
 
 [cols="3*"]
@@ -203,6 +204,7 @@ NOTE: 참고 사항:
 
 
 
+[[apis-for-network-elements-in-your-data-center]]
 == 데이터 센터의 네트워크 요소를 위한 API입니다
 
 데이터 센터 범주의 다음 API는 작업 환경의 포트 및 네트워크 인터페이스, 특히 FC 포트, FC 인터페이스, 이더넷 포트 및 IP 인터페이스에 대한 정보를 검색합니다.

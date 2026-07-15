@@ -90,6 +90,7 @@ https://fully_qualified_domain_name/
 
 
 
+[[additional-steps-to-perform-for-missing-packages]]
 == 누락된 패키지에 대해 수행할 추가 단계입니다
 
 업그레이드 중 사이트에서 누락된 패키지가 발견되거나 시스템이 인터넷에 연결되어 있지 않거나 Red Hat Enterprise Linux 리포지토리를 사용하지 않는 경우 다음 단계를 수행하여 필요한 패키지가 있는지 확인하고 패키지를 다운로드하십시오.

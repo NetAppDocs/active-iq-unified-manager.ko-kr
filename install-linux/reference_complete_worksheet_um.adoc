@@ -15,6 +15,7 @@ Unified Manager를 설치 및 구성하기 전에 환경에 대한 정보를 즉
 
 
 
+[[unified-manager-installation-information]]
 == Unified Manager 설치 정보
 
 Unified Manager를 설치하는 데 필요한 세부 정보
@@ -79,6 +80,7 @@ Unified Manager를 설치하는 데 필요한 세부 정보
 |===
 
 
+[[unified-manager-configuration-information]]
 == Unified Manager 구성 정보
 
 설치 후 Unified Manager를 구성하기 위한 세부 정보 일부 값은 구성에 따라 선택 사항입니다.
@@ -174,6 +176,7 @@ SNMP 포트
 |===
 
 
+[[cluster-information]]
 == 클러스터 정보
 
 Unified Manager를 사용하여 관리하는 스토리지 시스템의 세부 정보입니다.

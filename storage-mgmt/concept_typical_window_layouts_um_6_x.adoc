@@ -17,12 +17,14 @@ summary: 일반적인 창 레이아웃을 이해하면 Active IQ Unified Manager
 
 
 
+[[object-list-window-layout]]
 == 개체 목록 창 레이아웃
 
 image::../media/object_list.png[개체 목록]
 
 
 
+[[object-details-window-layout]]
 == 개체 세부 정보 창 레이아웃
 
 image::../media/object_details.gif[개체 세부 정보]

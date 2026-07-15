@@ -57,6 +57,7 @@ Unified Manager에서 볼륨, 클러스터 또는 SVM(스토리지 가상 머신
 
 
 
+[[example-of-creating-an-annotation-rule]]
 == 주석 규칙 작성 예제
 
 Add Annotation Rule(주석 규칙 추가) 대화 상자에서 다음 단계를 수행하여 조건 구성 및 조건 그룹 추가를 비롯한 주석 규칙을 생성합니다.

@@ -15,6 +15,7 @@ LUN 이벤트는 잠재적 문제를 모니터링할 수 있도록 LUN 상태에
 
 
 
+[[impact-area-availability]]
 == 영향 영역: 가용성
 
 별표(*)는 Unified Manager 이벤트로 변환된 EMS 이벤트를 나타냅니다.
@@ -112,6 +113,7 @@ LUN을 클릭합니다
 |===
 
 
+[[impact-area-capacity]]
 == 충격 영역: 용량
 
 |===
@@ -130,6 +132,7 @@ LUN 스냅샷 복사본을 위한 공간 부족(Documents LunSnapshotNotPosable)
 |===
 
 
+[[impact-area-configuration]]
 == 충격 영역: 구성
 
 |===
@@ -148,6 +151,7 @@ LUN을 클릭합니다
 |===
 
 
+[[impact-area-performance]]
 == 충격 영역: 성능
 
 |===

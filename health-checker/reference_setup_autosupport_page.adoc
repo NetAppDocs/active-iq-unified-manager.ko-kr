@@ -22,6 +22,7 @@ Unified Manager 서버에 대한 진단 시스템 정보 및 세부 데이터를
 ====
 
 
+[[send-on-demand-autosupport-messages]]
 == 주문형 AutoSupport 메시지 보내기
 
 주문형 메시지를 생성하여 기술 지원 부서 또는 지정된 이메일 수신자 또는 두 사람에게 보낼 수 있습니다.
@@ -36,6 +37,7 @@ Unified Manager 서버에 대한 진단 시스템 정보 및 세부 데이터를
 
 
 
+[[enable-periodic-autosupport]]
 == 주기적 AutoSupport 활성화
 
 정기적으로 문제 진단 및 해결을 위해 기술 지원 부서에 사전 정의된 특정 메시지를 보낼 수 있습니다. 이 기능은 기본적으로 활성화되어 있습니다. 비활성화된 경우 관리자 또는 유지 관리 사용자가 설정을 활성화할 수 있습니다.
@@ -49,6 +51,7 @@ Unified Manager 서버에 대한 진단 시스템 정보 및 세부 데이터를
 
 
 
+[[upload-on-demand-support-bundle]]
 == 주문형 지원 번들 업로드
 
 문제 해결 요구사항에 따라 지원 번들을 생성하고 기술 지원 팀에 보낼 수 있습니다. Unified Manager에서는 가장 최근에 생성된 2개의 지원 번들만 저장합니다. 이전 지원 번들은 시스템에서 삭제됩니다.
@@ -72,6 +75,7 @@ Unified Manager 서버에 대한 진단 시스템 정보 및 세부 데이터를
 
 
 
+[[set-up-http-proxy-server]]
 == HTTP 프록시 서버 설정
 
 사용자 환경에서 Unified Manager 서버로부터 직접 액세스할 수 없는 경우 AutoSupport 콘텐츠를 지원하도록 인터넷 액세스를 제공하는 프록시를 지정할 수 있습니다. 이 섹션은 관리자 및 유지 보수 사용자만 사용할 수 있습니다.

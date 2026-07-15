@@ -15,6 +15,7 @@ summary: 스토리지 쉘프 이벤트는 스토리지 쉘프가 비정상적인
 
 
 
+[[impact-area-availability]]
 == 영향 영역: 가용성
 
 |===

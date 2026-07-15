@@ -15,6 +15,7 @@ Unified Manager를 설치하는 VMware vSphere 시스템에는 특정 버전의 
 
 
 
+[[operating-system-software]]
 == 운영 체제 소프트웨어
 
 지원되는 운영 체제는 VMware ESXi 8.0입니다.
@@ -37,6 +38,7 @@ VMware ESXi 서버 시간은 가상 어플라이언스가 올바르게 작동할
 
 
 
+[[installation-requirements]]
 == 설치 요구 사항
 
 Unified Manager 가상 어플라이언스에 대한 VMware High Availability가 지원됩니다.

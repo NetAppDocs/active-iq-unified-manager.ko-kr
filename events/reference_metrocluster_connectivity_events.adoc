@@ -15,12 +15,14 @@ summary: 연결 이벤트는 잠재적 문제를 모니터링할 수 있도록 M
 
 
 
+[[events-common-in-both-configurations]]
 == 두 구성 모두에서 공통되는 이벤트입니다
 
 이러한 연결 이벤트는 FC 기반 MetroCluster 및 IP 기반 MetroCluster 구성에서 모두 공통입니다.
 
 
 
+[[impact-area-availability]]
 === 영향 영역: 가용성
 
 |===
@@ -72,12 +74,14 @@ MetroCluster 관계
 |===
 
 
+[[metrocluster-over-fc-configuration]]
 == FC를 통한 MetroCluster 구성
 
 이러한 이벤트는 FC를 통한 MetroCluster 구성과 관련이 있습니다.
 
 
 
+[[impact-area-availability]]
 === 영향 영역: 가용성
 
 |===
@@ -217,12 +221,14 @@ MetroCluster 스위치 브리지 연결
 |===
 
 
+[[metrocluster-over-ip-configuration]]
 == IP를 통한 MetroCluster 구성
 
 이러한 이벤트는 IP를 통한 MetroCluster 구성과 관련이 있습니다.
 
 
 
+[[impact-area-availability]]
 === 영향 영역: 가용성
 
 |===

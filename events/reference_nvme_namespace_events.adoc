@@ -17,6 +17,7 @@ NVMe 네임스페이스 이벤트는 잠재적 문제를 모니터링할 수 있
 
 
 
+[[impact-area-availability]]
 == 영향 영역: 가용성
 
 |===
@@ -68,6 +69,7 @@ NVMeNS Destroy * (nvmeNamespaceDestroy)
 |===
 
 
+[[impact-area-performance]]
 == 충격 영역: 성능
 
 |===

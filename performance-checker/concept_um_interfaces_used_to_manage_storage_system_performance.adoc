@@ -17,6 +17,7 @@ Unified Manager의 보호 기능을 사용하려면 WFA(OnCommand Workflow Autom
 
 
 
+[[unified-manager-web-ui]]
 == Unified Manager 웹 UI
 
 관리자는 Unified Manager 웹 UI를 사용하여 데이터 스토리지 용량, 가용성 및 보호와 관련된 클러스터 문제를 모니터링하고 해결할 수 있습니다.
@@ -25,6 +26,7 @@ Unified Manager의 보호 기능을 사용하려면 WFA(OnCommand Workflow Autom
 
 
 
+[[maintenance-console]]
 == 유지보수 콘솔
 
 관리자는 Unified Manager 유지보수 콘솔을 사용하여 Unified Manager 서버 자체와 관련된 운영 체제 문제, 버전 업그레이드 문제, 사용자 액세스 문제, 네트워크 문제를 모니터링, 진단, 해결할 수 있습니다. Unified Manager 웹 UI를 사용할 수 없는 경우에는 유지보수 콘솔만 Unified Manager에 액세스할 수 있습니다.

@@ -22,6 +22,7 @@ summary: 자체 서명 또는 CA 서명된 인증서를 설치할 수 있으며 
 
 
 
+[[format-for-loading-a-certificate-with-an-ec-key-pair]]
 == EC 키 쌍을 사용하여 인증서를 로드하는 형식입니다
 
 허용되는 곡선은 프리메256v1, 에코384r1입니다. 외부에서 생성된 EC 쌍이 있는 인증서 샘플:
@@ -49,6 +50,7 @@ summary: 자체 서명 또는 CA 서명된 인증서를 설치할 수 있으며 
 ----
 
 
+[[format-for-loading-a-certificate-with-an-rsa-key-pair]]
 == RSA 키 쌍을 사용하여 인증서를 로드하는 형식입니다
 
 호스트 인증서에 속하는 RSA 키 쌍에 허용되는 키 크기는 2048, 3072 및 4096입니다. 외부에서 생성된 * RSA 키 쌍이 포함된 인증서 *:
@@ -75,6 +77,7 @@ summary: 자체 서명 또는 CA 서명된 인증서를 설치할 수 있으며 
 
 
 
+[[checks-while-uploading-externally-generated-certificates]]
 == 외부에서 생성된 인증서를 업로드하는 동안 확인합니다
 
 시스템은 외부 툴을 사용하여 생성된 인증서를 업로드하는 동안 검사를 수행합니다. 확인 중 하나라도 실패하면 인증서가 거부됩니다. 또한 제품 내에서 CSR에서 생성된 인증서 및 외부 도구를 사용하여 생성된 인증서에 대한 유효성 검사가 포함되어 있습니다.

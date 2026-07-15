@@ -15,6 +15,7 @@ summary: 관리 스테이션 이벤트는 Unified Manager가 설치된 서버의
 
 
 
+[[impact-area-configuration]]
 == 충격 영역: 구성
 
 |===
@@ -154,6 +155,7 @@ Syslog 서버 구성이 변경되었습니다
 |===
 
 
+[[impact-area-performance]]
 == 충격 영역: 성능
 
 |===

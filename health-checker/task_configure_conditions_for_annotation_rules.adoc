@@ -27,6 +27,7 @@ summary: 하나 이상의 조건을 구성하여 Unified Manager가 스토리지
 
 
 
+[[example-of-configuring-a-condition-for-an-annotation-rule]]
 == 주석 규칙 조건 구성의 예
 
 개체 이름에 "svm_data"가 포함된 SVM 객체 유형의 조건을 고려하십시오.

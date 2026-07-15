@@ -15,6 +15,7 @@ summary: 재동기화 대화 상자를 사용하면 이전에 중단된 SnapMirr
 
 
 
+[[resynchronization-options-tab]]
 == 재동기화 옵션 탭
 
 재동기화 옵션 탭에서는 재동기화하려는 보호 관계에 대한 전송 우선 순위 및 최대 전송 속도를 설정할 수 있습니다.
@@ -31,6 +32,7 @@ summary: 재동기화 대화 상자를 사용하면 이전에 중단된 SnapMirr
 
 
 
+[[source-snapshot-copies-tab]]
 == 소스 Snapshot 복사본 탭
 
 소스 스냅샷 복사본 탭에는 기본 전송에 사용되는 소스 스냅샷 복사본에 대한 다음 정보가 표시됩니다.
@@ -55,6 +57,7 @@ summary: 재동기화 대화 상자를 사용하면 이전에 중단된 SnapMirr
 
 
 
+[[command-buttons]]
 == 명령 버튼
 
 * * 제출 *

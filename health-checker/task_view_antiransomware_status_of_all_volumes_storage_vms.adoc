@@ -20,6 +20,7 @@ summary: 모든 볼륨 및 스토리지 VM 목록과 현재 안티 랜섬웨어 
 
 
 
+[[view-security-details-of-all-volumes-with-anti-ransomware-detection]]
 == 랜섬웨어 방지 감지를 사용하여 모든 볼륨의 보안 세부 정보를 봅니다
 
 .단계
@@ -33,6 +34,7 @@ NOTE: 오프라인 볼륨, 제한된 볼륨, SnapLock 볼륨, FlexGroup 볼륨, 
 
 
 
+[[view-security-details-of-all-storage-vms-with-anti-ransomware-detection]]
 == 랜섬웨어 방지 감지를 사용하여 모든 스토리지 VM의 보안 세부 정보를 봅니다
 
 .단계

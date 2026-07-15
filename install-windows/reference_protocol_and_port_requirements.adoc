@@ -15,6 +15,7 @@ summary: 필요한 포트와 프로토콜을 사용하면 Unified Manager 서버
 
 
 
+[[connections-to-the-unified-manager-server]]
 == Unified Manager 서버에 대한 연결
 
 일반적으로 기본 포트는 항상 사용되므로 Unified Manager 웹 UI에 연결할 때 포트 번호를 지정할 필요가 없습니다. 예를 들어, Unified Manager가 항상 기본 포트에서 실행하려고 하므로 "+https://<host>:443+` 대신 "+https://<host>+` 를 입력할 수 있습니다.
@@ -142,6 +143,7 @@ MySQL의 기본 포트 3306은 Windows 시스템에 Unified Manager를 설치하
 ====
 
 
+[[connections-from-the-unified-manager-server]]
 == Unified Manager 서버와의 연결입니다
 
 Unified Manager Server와 관리되는 스토리지 시스템, 서버 및 기타 구성 요소 간의 통신을 활성화하는 포트를 열도록 방화벽을 구성해야 합니다. 포트가 열려 있지 않으면 통신이 실패합니다.

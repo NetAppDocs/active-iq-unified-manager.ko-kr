@@ -19,6 +19,7 @@ vCenter Server의 데이터 저장소에 매핑된 스토리지 VM 재해 복구
 
 
 
+[[view-datastores-in-metrocluster-configuration]]
 == MetroCluster 구성에서 데이터 저장소 보기
 
 MetroCluster 구성에서 데이터 저장소를 보기 전에 다음 사전 요구 사항을 확인하십시오.
@@ -40,6 +41,7 @@ https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]
 
 
 
+[[view-datastores-in-storage-vm-disaster-recovery-configuration]]
 == 스토리지 VM 재해 복구 구성의 데이터 저장소 보기
 
 스토리지 VM 재해 복구 구성에서 데이터 저장소를 보기 전에 다음 사전 요구 사항을 확인하십시오.
@@ -75,6 +77,7 @@ https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 문서 센터"]
 
 
 
+[[unsupported-scenarios]]
 == 지원되지 않는 시나리오입니다
 
 * MetroCluster 구성의 경우 다음과 같은 제한 사항에 유의하십시오.

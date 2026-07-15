@@ -20,6 +20,7 @@ MetroCluster 구성의 로컬 클러스터와 원격 클러스터를 모두 Unif
 
 
 
+[[view-replication-for-metrocluster-over-ip-configurations]]
 == IP 구성을 통한 MetroCluster에 대한 복제 보기
 
 MetroCluster over IP 구성의 경우 Unified Manager의 왼쪽 탐색 창에서 다음 뷰에서 IP를 통해 MetroCluster로 보호되는 클러스터의 토폴로지 피킹 뷰(topology peeking view)에 데이터 복제 상태가 표시됩니다.
@@ -32,6 +33,7 @@ MetroCluster over IP 구성의 경우 Unified Manager의 왼쪽 탐색 창에서
 
 
 
+[[view-replication-for-metrocluster-over-fc-configurations]]
 == FC 구성을 통한 MetroCluster에 대한 복제 보기
 
 다음 단계에 따라 MetroCluster over FC 구성의 데이터 복제에 문제가 있는지 확인합니다.
