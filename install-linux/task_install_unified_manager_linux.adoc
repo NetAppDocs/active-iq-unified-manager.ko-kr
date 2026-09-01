@@ -46,7 +46,7 @@ OpenJDK 버전 17.0.14+6
 
 
  a| 
-MySQL 8.4.7 커뮤니티 에디션
+MySQL 8.4.10 Community Edition
  a| 
 "rpm-qa|grep-i mysql"을 참조하십시오
 
@@ -58,7 +58,7 @@ MySQL 8.4.7 커뮤니티 에디션
 `7zz -version`
 
 |===
-. 설치된 MySQL 버전이 MySQL 8.4.7 Community Edition보다 이전 버전인 경우 다음 명령을 입력하여 제거하세요.
+. 설치된 MySQL 버전이 MySQL 8.4.10 Community Edition 이전 버전인 경우, 다음 명령을 입력하여 제거하십시오.
 +
 "rpm -e <mysql_package_name>"를 입력합니다
 

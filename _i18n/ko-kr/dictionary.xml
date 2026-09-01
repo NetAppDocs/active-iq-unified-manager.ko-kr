@@ -11231,7 +11231,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="863843d0337c17ec7301aee27dad4298" category="paragraph">릴리스 제품군 내에서 OpenJDK 릴리스를 업데이트할 수 있습니다. 예를 들어 OpenJDK 11.0.16에서 OpenJDK 11.0.18로 업그레이드할 수 있지만 OpenJDK 11에서 OpenJDK 12로 직접 업데이트할 수는 없습니다.</block>
   <block id="aa2b11ad1dd4cd77a6434da6fa1398a2" category="list-text">결과로 생성된 디렉토리와 파일을 복사합니다<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> 디렉터리(예:<block ref="20ea71c4664ee137228518ed973e20e3" prefix=" " category="inline-code"></block> Java가 설치된 위치로 이동합니다. 예:<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
-  <block id="b39eb8b293aab19c862c53f0897b4ab2" category="paragraph">Unified Manager는 WildFly 웹 서버에 구축되어 있습니다. WildFly 26.1.3은 Unified Manager와 함께 번들로 제공되며 구성됩니다.</block>
   <block id="cda5e923848265fa933cb0a9b4e6bbd4" category="summary">Active IQ Unified Manager 인스턴스가 더 이상 필요하지 않을 때 vCenter Server를 제거할 수 있습니다.</block>
   <block id="376e03ef3aadcc01297e928d6cef623c" category="paragraph">Active IQ Unified Manager 인스턴스에서 vCenter Server를 제거할 수 있습니다. 예를 들어 vCenter Server 검색이 실패하거나 더 이상 필요하지 않은 경우 vCenter Server를 제거할 수 있습니다.</block>
   <block id="ea11a696566494f3e2f7f7bfc07d792d" category="paragraph">vCenter Server를 제거하면 해당 vCenter에 호스팅된 모든 VM(가상 머신)과 해당 구성 데이터도 삭제됩니다. vCenter Server가 제거되면 연결된 객체 및 기록 데이터와 함께 더 이상 모니터링되지 않습니다. 이러한 변경 사항은 vCenter 및 가상 머신 인벤토리 페이지에 반영됩니다.</block>
@@ -11404,7 +11403,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="33e8b626195d8e65e8a07472d5254939" category="list-text">ASA R2 시스템을 제외한 모든 클러스터가 지원됩니다.</block>
   <block id="d2dc935b8c37a6fe50f8b17f0fb9d07d" category="list-text">Unified Manager Windows 설치 파일 또는 zip 파일을 Windows 시스템의 대상 디렉토리에 다운로드합니다. 필요한 경우 zip 파일의 압축을 풀고 설치 파일이 있는 디렉토리로 이동합니다. 마우스 오른쪽 단추를 클릭하고 Unified Manager 설치 관리자 실행 파일(.exe) 파일을 관리자로 실행합니다.</block>
   <block id="9d8f72b258db1905ee26b8543db626af" category="paragraph">데이터 디렉토리에 용량을 추가하는 데 필요한 단계는 Unified Manager가 VMware ESXi 서버, Red Hat Linux 서버 또는 Microsoft Windows 서버에서 실행되는지 여부에 따라 다릅니다.</block>
-  <block id="54ff3f05b478604e2dbd1f521328559d" category="list-text">Microsoft Visual C&amp;#43;&amp;#43; Visual Studio 2015 버전 14.26.28720.3용 재배포 가능 패키지</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">* 시작하기 전에</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">Workflow Automation의 설치 버전은 5.1.1P6 이상이어야 합니다.</block>
@@ -12028,7 +12026,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="21965413ff0ccad2726549ebe4781cf5" category="paragraph">Active IQ Unified Manager 릴리스 9.14 또는 9.16에서만 릴리스 9.18로 업그레이드할 수 있습니다.</block>
   <block id="7e473733141d48a79308def35ea0692d" category="paragraph">Active IQ Unified Manager 가상 어플라이언스를 릴리스 9.14 또는 9.16에서 9.18로 업그레이드할 수 있습니다.</block>
   <block id="8cd86d5cc1d7f96f096a4fd291bb6b49" category="list-text">파이썬 3.13.3</block>
-  <block id="bf5c4735a7e8e52a987541b7e8480ae8" category="list-text">7-zip 버전 24.09 이상</block>
   <block id="9326ef08a2cce5f24e4147815b8da2ec" category="list-text">*이 프로그램 제거*를 선택하세요.  3.13.3을 제외한 모든 Python 버전을 제거하세요.  Python 버전 3.13.3을 유지하세요.</block>
   <block id="b81c3af237acc4744b6e92fee57771e0" category="inline-link-macro">Oracle Java SE 17 아카이브 다운로드 페이지</block>
   <block id="885b083e37169e9e86b9244a1e9616e4" category="paragraph">예를 들어, 다운로드<block ref="e8f39d9e2a4ab6624a21e71fb252a9a9" prefix=" " category="inline-code"></block> 파일에서<block ref="d88dbe6bf412b9681e16c6a0a4b735ac" category="inline-link-macro-rx"></block> .</block>
@@ -12053,7 +12050,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">RHEL 2026에 Flow 설치</block>
   <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">설치 프로그램이 필요한 모든 소프트웨어 종속성을 설치하려면 시스템이 특정 저장소 및 패키지에 접근할 수 있어야 합니다.</block>
   <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">Unified Manager에 필요한 소프트웨어를 설치하세요.</block>
-  <block id="9ca50ce4ceb954680a475273fb837226" category="list-text">MySQL Community Edition 버전 8.4.7(MySQL 저장소에서)</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (Red Hat Extra Enterprise Linux Server 저장소에서 가져옴)</block>
   <block id="bff93131b836db7dbfe3c0ef47a3bdfb" category="inline-link-macro">7-zip 소프트웨어 패키지를 구성합니다.</block>
   <block id="461c8ff1de784c3f512e2bab8a2bb39d" category="list-text">7zip 버전 7z2301-linux-x64. 더 자세한 정보를 보려면 다음을 참조하세요. <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
@@ -12076,19 +12072,14 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="f36c9656dfe6d8b4341b27eee5cba4cd" category="list-text">실행 권한을 설정하세요:</block>
   <block id="9c0f95d6de9186b24cce94c1c19ad0bb" category="section-title">설치를 확인하십시오</block>
   <block id="d0eba9fa9af1130797e7b097e86e1cf9" category="paragraph">7-zip 패키지가 시스템에 성공적으로 설치되었는지 확인하십시오.</block>
-  <block id="3d96d3e1fe880ce5fb91ceb1a04daf8f" category="paragraph">MySQL 8.4.7 커뮤니티 에디션</block>
   <block id="7942c3cbff858fefeeae13af0754ce91" category="paragraph">7집</block>
   <block id="bd4785a5ccc39256a5803dad4bd14553" category="paragraph"><block ref="e3b6ff30090579304f8b0ef931234002" prefix="" category="inline-code"></block></block>
-  <block id="230ac9fdbbe8b31d21322b2382325f25" category="list-text">설치된 MySQL 버전이 MySQL 8.4.7 Community Edition보다 이전 버전인 경우 다음 명령을 입력하여 제거하세요.</block>
   <block id="9e8e56b6decd77cb1c6c67922d0ea568" category="paragraph">Red Hat Enterprise Linux 8 시스템에서 JDK 17 - OpenJDK, 7-zip 및 AppStream 저장소에서 제공하는 기타 소프트웨어 패키지가 포함된 내부 저장소가 있는 경우 AppStream 저장소를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령어를 실행하세요:</block>
   <block id="dc2549c9552cf4727398a4c12030d976" category="paragraph">Red Hat Enterprise Linux 8 시스템의 경우, AppStream 저장소에서 제공하는 java-17-openjdk, 7-zip 및 기타 소프트웨어 패키지가 포함된 내부 저장소가 있는 경우 AppStream 저장소를 비활성화하고 MySQL Community Server를 설치해야 합니다. 다음 명령어를 실행하세요:</block>
   <block id="85a7833c7b3c47e46293fd6b5df674cf" category="paragraph">이 단계에서는 관련된 모든 NetApp RPM 패키지가 제거됩니다. Java, MySQL, 7zip 등의 필수 소프트웨어 모듈은 제거되지 않습니다.</block>
   <block id="95570f21954a110ac5842214143555f2" category="list-text">*선택 사항:* 해당되는 경우 Java, MySQL, 7zip 등의 지원 소프트웨어 모듈을 제거합니다.</block>
   <block id="9be3489c55784ee9bb690eb74a862d91" category="paragraph"><block ref="4b4071a6e6d8cc80744e78638c7ce679" prefix="" category="inline-code"></block></block>
   <block id="54b48a732c6188d2bcadf3f1d35f5767" category="list-text">Unified Manager를 업그레이드하기 전에 7-zip을 올바른 버전으로 설치하거나 업그레이드해야 합니다. 보다 <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
-  <block id="7efa98bf218af7d91336f05884607943" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.7 이전인 경우 Unified Manager 업그레이드 프로세스는 자동으로 MySQL을 8.4.7로 업그레이드합니다.</block>
-  <block id="1e4ae16efa77dcf7b5345478d2ccb141" category="list-text">MySQL 커뮤니티 에디션 버전 8.4.7</block>
-  <block id="7e32873dbcea7d787665ade5210a7e5e" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.7 이전인 경우 Unified Manager 업그레이드 프로세스는 자동으로 MySQL을 8.4.7로 업그레이드합니다. 이전 버전의 MySQL을 8.4.7로 독립 실행형 업그레이드를 실행해서는 안 됩니다.</block>
   <block id="3fdc1149ca052bb0caeb62195f6366e2" category="sidebar">필요한 소프트웨어를 설치하세요</block>
   <block id="ef7e8c761b3774b5f1be9fac2702eee1" category="list-text">다음 시나리오에서는 스냅샷에서 디렉터리 또는 볼륨을 복원할 수 없습니다.</block>
   <block id="1682df86d53dde8a42b648d552487863" category="list-text">*예, 모든 스냅샷 복사본 보존* 옵션이 선택되어 있습니다.</block>
@@ -12113,4 +12104,14 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="a6824bb8a91547b80941460f296740e6" category="paragraph">또한 Unified Manager의 두 번째 인스턴스를 설치하기 전에 단일 Unified Manager 인스턴스가 모니터링할 수 있는 노드 수에는 제한이 있습니다. 노드 제한, CPU 및 메모리 권장 사항은 <block ref="d981367ba2af9a1ad0ffd7e97f42a3c3" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="10fcd7df2705cd02d708b0d542e4de06" category="paragraph">또한 Unified Manager의 두 번째 인스턴스를 설치하기 전에 단일 Unified Manager 인스턴스가 모니터링할 수 있는 노드 수에는 제한이 있습니다. 노드 제한, CPU 및 메모리 권장 사항에 대한 자세한 내용은 <block ref="104d951f677faee57cc0f1a91faece05" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
   <block id="0cfb3eeec6906f18db7d4afb307803d7" category="paragraph">또한 Unified Manager의 두 번째 인스턴스를 설치하기 전에 단일 Unified Manager 인스턴스가 모니터링할 수 있는 노드 수에는 제한이 있습니다. 노드 제한, CPU 및 메모리 권장 사항에 대한 자세한 내용은<block ref="6876c7da67397aff652dc3a6ccdbcf26" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="18fbc72e34f6db6cc2a91021a22f6685" category="paragraph">Unified Manager는 WildFly 웹 서버에 배포됩니다. WildFly 27.0.1.Final은 Unified Manager와 함께 번들로 제공되며 구성됩니다.</block>
+  <block id="b4f0bab6ced5839d1e92ed79131b11a2" category="list-text">MySQL Community Edition 버전 8.4.10 (MySQL 저장소에서 다운로드)</block>
+  <block id="b615c4e0b0d7c85d2dee3a6fd975b521" category="paragraph">MySQL 8.4.10 Community Edition</block>
+  <block id="97393a61ddf5f5207980a27b12ed3e8a" category="list-text">설치된 MySQL 버전이 MySQL 8.4.10 Community Edition 이전 버전인 경우, 다음 명령을 입력하여 제거하십시오.</block>
+  <block id="bcdcfd5bc4aef222651ee23de0c085ab" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.10 이전 버전인 경우 Unified Manager 업그레이드 프로세스에서 MySQL을 자동으로 8.4.10으로 업그레이드합니다.</block>
+  <block id="c76f3bc063be89828b42e514a84a8002" category="list-text">Microsoft Visual C++ Redistributable Packages for Visual Studio 2015 버전 14.29.30133.0</block>
+  <block id="1e908f9a2431bb5d3c2c424f38255dfb" category="list-text">MySQL Community Edition 버전 8.4.10</block>
+  <block id="6c400d4faf41f7de8a4c911b51918555" category="list-text">OpenJDK 버전 17.0.15+6</block>
+  <block id="d99d6f4a4a2deff3d04c76cf2a1ab80a" category="list-text">7-zip 버전 25.01 이상</block>
+  <block id="0906e47b7d8a1a05c090ca9c48a976c3" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.10 이전 버전인 경우 Unified Manager 업그레이드 프로세스에서 MySQL을 자동으로 8.4.10으로 업그레이드합니다. 이전 버전의 MySQL을 8.4.10으로 업그레이드하는 독립 실행형 업그레이드 프로세스를 실행해서는 안 됩니다.</block>
 </blocks>

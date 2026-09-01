@@ -48,11 +48,11 @@ NOTE: NetApp은 Microsoft SCCM(System Center Configuration Manager)과 같은 �
 
 다음 타사 패키지는 Unified Manager와 함께 번들로 제공됩니다. 타사 패키지가 시스템에 설치되어 있지 않은 경우, Unified Manager에서 이를 설치의 일부로 설치합니다.
 
-* Microsoft Visual C&#43;&#43; Visual Studio 2015 버전 14.26.28720.3용 재배포 가능 패키지
-* MySQL 커뮤니티 에디션 버전 8.4.7
+* Microsoft Visual C++ Redistributable Packages for Visual Studio 2015 버전 14.29.30133.0
+* MySQL Community Edition 버전 8.4.10
 * 파이썬 3.13.3
-* OpenJDK 버전 17.0.14+6
-* 7-zip 버전 24.09 이상
+* OpenJDK 버전 17.0.15+6
+* 7-zip 버전 25.01 이상
 
 
 [NOTE]
@@ -67,7 +67,7 @@ MySQL이 사전 설치된 경우 다음 사항을 확인해야 합니다.
 * 서비스 이름은 "`MYSQL84`"입니다.
 
 
-Unified Manager는 WildFly 웹 서버에 구축되어 있습니다. WildFly 26.1.3은 Unified Manager와 함께 번들로 제공되며 구성됩니다.
+Unified Manager는 WildFly 웹 서버에 배포됩니다. WildFly 27.0.1.Final은 Unified Manager와 함께 번들로 제공되며 구성됩니다.
 
 [NOTE]
 ====
