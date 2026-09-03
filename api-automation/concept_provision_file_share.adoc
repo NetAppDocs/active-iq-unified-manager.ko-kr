@@ -15,7 +15,7 @@ Active IQ Unified Manager의 일부로 제공되는 프로비저닝 API를 사�
 
 다음 다이어그램은 파일 공유 프로비저닝 워크플로우의 각 단계를 보여 줍니다. CIFS 공유와 NFS 파일 공유를 모두 프로비저닝합니다.
 
-image::../media/create_fileshares.gif[파일 표시 작성]
+image::../media/create_fileshares.gif[SVM 설정부터 공유 생성까지 CIFS 및 NFS 파일 공유 프로비저닝 워크플로를 보여주는 다이어그램]
 
 [NOTE]
 ====

@@ -15,7 +15,7 @@ Active IQ Unified Manager의 일부로 제공되는 프로비저닝 API를 사�
 
 다음 다이어그램에서는 LUN 프로비저닝 워크플로우의 단계를 보여 줍니다.
 
-image::../media/create_luns.gif[LUN을 생성합니다]
+image::../media/create_luns.gif[스토리지 VM, 서비스 레벨 및 igroup 단계를 포함하여 LUN 생성 워크플로를 보여주는 다이어그램]
 
 [NOTE]
 ====

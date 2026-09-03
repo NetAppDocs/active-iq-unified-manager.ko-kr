@@ -28,7 +28,7 @@ summary: 게이트웨이 API는 ONTAP API를 호출하여 ONTAP 스토리지 객
 ====
 다음 다이어그램은 ONTAP 볼륨 용량 사용 문제를 해결하기 위한 워크플로의 각 단계를 보여줍니다.
 
-image::../media/api_gateway_ontap_workflow.gif[API 게이트웨이 ONTAP 워크플로]
+image::../media/api_gateway_ontap_workflow.gif[Unified Manager 및 ONTAP API 단계를 보여주는 다이어그램으로, 볼륨 용량 경고 문제를 해결하기 위한 것입니다.]
 
 워크플로우에서 Unified Manager와 ONTAP REST API의 호출 포인트를 모두 지원합니다.
 

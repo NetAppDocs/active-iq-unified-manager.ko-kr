@@ -20,11 +20,11 @@ summary: 일반적인 창 레이아웃을 이해하면 Active IQ Unified Manager
 [[object-list-window-layout]]
 == 개체 목록 창 레이아웃
 
-image::../media/object_list.png[개체 목록]
+image::../media/object_list.png[레이블이 지정된 탐색, 검색, 필터 및 보고서 컨트롤이 있는 Active IQ Unified Manager 오브젝트 목록 창의 스크린샷]
 
 
 
 [[object-details-window-layout]]
 == 개체 세부 정보 창 레이아웃
 
-image::../media/object_details.gif[개체 세부 정보]
+image::../media/object_details.gif[탭, 용량 세부 정보, 관련 오브젝트, 기록 및 이벤트가 있는 Active IQ Unified Manager 볼륨 세부 정보 창을 보여주는 스크린샷]

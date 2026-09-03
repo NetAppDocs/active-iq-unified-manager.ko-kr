@@ -13,4 +13,4 @@ summary: 구성 워크플로우에서 Unified Manager를 사용하기 전에 수
 [role="lead"]
 구성 워크플로우에서 Unified Manager를 사용하기 전에 수행해야 하는 작업에 대해 설명합니다.
 
-image::../media/post_install_flow.png[설치 후 흐름]
+image::../media/post_install_flow.png[Unified Manager 초기 구성 워크플로 및 관리 설정 작업을 보여주는 다이어그램]

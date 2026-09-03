@@ -13,4 +13,4 @@ summary: 보고서 워크플로우를 설명하는 결정 트리 구조.
 [role="lead"]
 보고서 워크플로우를 설명하는 결정 트리 구조.
 
-image::../media/reports_view_workflow.png[보고서 보기 워크플로]
+image::../media/reports_view_workflow.png[보고서 보기, 사용자 지정, 업로드 및 다운로드에 대한 의사 결정 트리 워크플로를 보여주는 다이어그램]

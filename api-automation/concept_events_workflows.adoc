@@ -15,7 +15,7 @@ summary: 데이터 센터의 스토리지 객체가 임계값을 넘어가면 �
 
 이 워크플로우에서는 볼륨의 예를 리소스 객체로 사용합니다. '이벤트' API를 사용하여 볼륨과 관련된 이벤트 목록을 검색하고 해당 볼륨에 대한 중요 문제를 분석한 다음 수정 조치를 수행하여 문제를 해결할 수 있습니다.
 
-image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[스토리지 객체 흐름도의 이벤트 관련 문제 처리]
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[이벤트 목록 작성부터 시정 조치, 최종 결과까지의 볼륨 이벤트 분석을 보여주는 흐름도]
 
 개선 단계를 수행하기 전에 볼륨의 문제를 확인하려면 다음 단계를 수행하십시오.
 

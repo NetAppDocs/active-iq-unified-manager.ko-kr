@@ -25,4 +25,4 @@ Unified Manager에서 동일한 클러스터 구성 요소에 대해 같은 이�
 
 이 워크플로는 다음 다이어그램에 표시됩니다.
 
-image::../media/um_perf_threshold_event_flow.gif[UM perf 임계값 이벤트 흐름입니다]
+image::../media/um_perf_threshold_event_flow.gif[카운터 수집부터 이메일 알림까지의 임계값 이벤트 처리 과정을 보여주는 다이어그램]

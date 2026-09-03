@@ -15,4 +15,4 @@ summary: 설치 워크플로우에서 Unified Manager를 사용하기 전에 수
 
 이 섹션에서는 아래 워크플로에 표시된 각 항목에 대해 설명합니다.
 
-image::../media/overall_um_install_flow.png[전체 누적 설치 유량]
+image::../media/overall_um_install_flow.png[Unified Manager 설치, 초기 설정 및 관리 설정 워크플로를 보여주는 다이어그램]

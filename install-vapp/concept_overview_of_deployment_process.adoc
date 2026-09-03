@@ -13,4 +13,4 @@ summary: 구축 워크플로우에서는 Unified Manager를 사용하기 전에 
 [role="lead"]
 구축 워크플로우에서는 Unified Manager를 사용하기 전에 수행해야 하는 작업에 대해 설명합니다.
 
-image::../media/deployment_sequence_oc_6_0.gif[배포 시퀀스 OC 6 0]
+image::../media/deployment_sequence_oc_6_0.gif[Unified Manager 배포 필수 조건, 어플라이언스 배포 및 초기 구성 단계를 보여주는 다이어그램]

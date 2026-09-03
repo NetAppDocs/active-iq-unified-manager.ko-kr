@@ -2,7 +2,6 @@
 <blocks>
   <block id="2216048a705ad9a52409473a75b4d6ad" category="summary">구축 워크플로우에서는 Unified Manager를 사용하기 전에 수행해야 하는 작업에 대해 설명합니다.</block>
   <block id="aa6d1a2e27b6e5456d746d62b1002336" category="doc">배포 프로세스 개요</block>
-  <block id="726763bf5aecf665420de6eeab308805" category="image-alt">배포 시퀀스 OC 6 0</block>
   <block id="c200239369f7ea49229003f057ad8769" category="summary">NetApp Support 사이트에서 Unified Manager 설치 파일을 다운로드하여 Unified Manager를 가상 어플라이언스로 구축할 수 있습니다.</block>
   <block id="89ceb9ec1fb3db99ae27c6381019e506" category="paragraph">NetApp Support 사이트에 대한 로그인 자격 증명이 있어야 합니다.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
@@ -86,7 +85,6 @@
   <block id="e9b70b01b68936d5229a5051e4a06db4" category="paragraph">Unified Manager는 클러스터 정보를 수집하고, 데이터를 데이터베이스에 저장하고, 데이터를 분석하여 클러스터 문제가 있는지 확인합니다.</block>
   <block id="8c9d08852e8e1febedc693013a4f0f93" category="summary">설치 워크플로우에서 Unified Manager를 사용하기 전에 수행해야 하는 작업에 대해 설명합니다.</block>
   <block id="bed7b91a2df8076097fedfb7b87f92e7" category="doc">설치 순서 개요</block>
-  <block id="322f88fdb47136f0505af3e29d2c5649" category="image-alt">전체 누적 설치 유량</block>
   <block id="d16ae8eb65ccb46e0447b8be8b175718" category="summary">Unified Manager를 업그레이드하기 전에 NetApp Support 사이트에서 Unified Manager 업그레이드 파일을 다운로드하십시오.</block>
   <block id="597c0e5c115c9bb0c0f62a9e44702378" category="paragraph">NetApp Support 사이트에 대한 로그인 자격 증명이 있어야 합니다.</block>
   <block id="095c62d1c07057b85fae432c92eadc7e" category="list-text">NetApp Support 사이트 에 로그인합니다.</block>
@@ -335,7 +333,6 @@
   <block id="8717a81d4dc90139130ed5a3e6d56b94" category="list-text">MySQL 데이터 디렉토리용 50GB의 디스크 공간</block>
   <block id="6605fc759866ab4c0dbffd94c7ca51ff" category="summary">Windows에서 Unified Manager를 다운로드하고 설치하는 일련의 단계를 이해하는 것이 중요합니다.</block>
   <block id="d8b2824dd58b8684d7afebae57a9ec15" category="doc">설치 프로세스 개요</block>
-  <block id="3c5dd4e02fb7c5614c57b78a81e01819" category="image-alt">Windows에 설치 흐름</block>
   <block id="6934506078026f313f5366d7d0899031" category="summary">Unified Manager 소프트웨어를 설치하거나, 최신 버전의 소프트웨어로 업그레이드하거나, Unified Manager 애플리케이션을 제거할 수 있습니다.</block>
   <block id="635dbe5a53fa671dc53b3dfff7d6f296" category="summary">Unified Manager를 설치하여 데이터 스토리지의 용량, 가용성, 성능 및 보호 문제를 모니터링하고 문제를 해결할 수 있습니다.</block>
   <block id="736f549b511feffbd0e554a9a748a1db" category="list-text">Unified Manager를 설치하려는 시스템은 시스템 및 소프트웨어 요구사항을 충족해야 합니다.</block>
@@ -883,7 +880,6 @@
   <block id="47511b5c048d1b8994bccea2b564fe73" category="paragraph">보고서에 표시된 결과에 따라 특정 볼륨에서 씬 프로비저닝을 활성화할 수 있습니다.</block>
   <block id="ed48b981e2bb947abc52be3e3b172706" category="summary">보고서 워크플로우를 설명하는 결정 트리 구조.</block>
   <block id="784fca41cf2612fc0bc6eb124a244bd2" category="doc">보고서 워크플로</block>
-  <block id="78c9a95829a3975e642126c077b652b2" category="image-alt">보고서 보기 워크플로</block>
   <block id="1b209a610ad395670a50fbd872028eba" category="summary">스냅샷 자동 삭제 기능을 비활성화한 상태에서 전체 용량에 거의 도달한 볼륨 목록이 포함된 보고서를 생성할 수 있습니다. 이 결과를 통해 스냅샷 자동 삭제 기능을 구성할 볼륨을 식별할 수 있습니다.</block>
   <block id="40297d7e8489bd971e6bc51bab1305da" category="list-text">"스냅샷 자동 삭제" 및 "Days to Full" 열을 "Available Data Capacity" 열 근처에 끌어다 놓습니다.</block>
   <block id="72701fbe43107196eb838a141342f9a9" category="list-text">필터 아이콘을 클릭하고 다음 두 개의 필터를 추가한 다음 * 필터 적용 * 을 클릭합니다.</block>
@@ -1888,7 +1884,6 @@
   <block id="081aad09b163af228b77c97e10a98363" category="paragraph">원격 인증 활성화, 인증 서비스 설정 및 인증 서버 추가에 대한 자세한 내용은 * Unified Manager에서 경고 알림을 보내도록 구성 * 의 이전 섹션을 참조하십시오.</block>
   <block id="17468e66f6f6fa8f16ad4f7b18e16de5" category="summary">구성 워크플로우에서 Unified Manager를 사용하기 전에 수행해야 하는 작업에 대해 설명합니다.</block>
   <block id="4803eca8e03e70fa406180caf3f66361" category="doc">구성 시퀀스의 개요</block>
-  <block id="ca4d378a679606b42fbb1eeeb71eb25e" category="image-alt">설치 후 흐름</block>
   <block id="9fb396846659bd39922910d77dc643e2" category="summary">관리 서버가 인증 서버와 통신할 수 있는지 확인하기 위해 인증 서버 구성을 검증할 수 있습니다. 인증 서버에서 원격 사용자 또는 원격 그룹을 검색하고 구성된 설정을 사용하여 인증하여 구성을 확인할 수 있습니다.</block>
   <block id="a6b270f04ed8ccf95e0a5d2a9fac38f9" category="list-text">Unified Manager 서버가 원격 사용자 또는 원격 그룹을 인증할 수 있도록 원격 인증을 설정하고 인증 서비스를 구성해야 합니다.</block>
   <block id="081e2793de63c535c0bc8c110c003be3" category="list-text">관리 서버가 이러한 서버에서 원격 사용자 또는 원격 그룹을 검색하고 인증할 수 있도록 인증 서버를 추가해야 합니다.</block>
@@ -3372,7 +3367,6 @@
   <block id="cdf293ee43f03915a3f7f1de53213e71" category="list-text">SNMP 트랩을 트랩 수신기로 보낼 수 있습니다.</block>
   <block id="2c19ee2f43897bbfea72b8dc73f92e0c" category="list-text">작업을 수행하기 위해 사용자 지정 스크립트를 실행할 수 있습니다.</block>
   <block id="330d4432442808d2f6e07aef3daa80da" category="paragraph">이 워크플로는 다음 다이어그램에 표시됩니다.</block>
-  <block id="bc4368d495f9c35aae14c797a81d5c9e" category="image-alt">UM perf 임계값 이벤트 흐름입니다</block>
   <block id="bef6c7fd830b03c8b9c9a8f9b68850e0" category="summary">"성능 보장" 프로그램에 가입한 볼륨 및 LUN을 확인하여 지연 시간이 보장된 수준을 초과하지 않았는지 확인할 수 있습니다.</block>
   <block id="30c4630dce99c397da6071a66891ec62" category="paragraph">"성능 보장" 프로그램에 가입한 볼륨 및 LUN을 확인하여 지연 시간이 보장된 수준을 초과하지 않았는지 확인할 수 있습니다.</block>
   <block id="99f97965369014ea922a0eb042c11a53" category="paragraph">지연 시간 성능 보장은 작동 당 밀리초를 초과해서는 안 됩니다. 기본 5분 성능 수집 기간이 아닌 시간당 평균을 기반으로 합니다.</block>
@@ -5743,7 +5737,6 @@
   <block id="9e0ca761831fb0f0dabbfe885a87d055" category="doc">MySQL 데이터베이스 덤프를 사용하여 백업 및 복원</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">데이터베이스 덤프 백업은 백업 디렉토리의 단일 파일과 데이터베이스 저장소 디렉토리에 있는 하나 이상의 파일로 구성됩니다. 백업 디렉토리의 파일은 백업을 다시 생성하는 데 필요한 데이터베이스 저장소 디렉토리에 있는 파일에 대한 포인터만 포함하므로 매우 작습니다.</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">데이터베이스 백업을 처음 생성할 때 단일 파일이 백업 디렉토리에 생성되고 전체 백업 파일이 데이터베이스 저장소 디렉터리에 생성됩니다. 다음에 백업을 생성할 때 백업 디렉토리에 단일 파일이 생성되고 전체 백업 파일과의 차이가 포함된 증분 백업 파일이 데이터베이스 저장소 디렉토리에 생성됩니다. 다음 그림과 같이 최대 보존 설정까지 추가 백업을 생성하면 이 프로세스가 계속됩니다.</block>
-  <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">데이터베이스 백업</block>
   <block id="efbe49949ffa2f8a16f02f4ea7adc56a" category="paragraph">이 두 디렉토리에 있는 백업 파일의 이름을 바꾸거나 제거하지 마십시오. 그렇지 않으면 이후의 복원 작업이 실패합니다.</block>
   <block id="cb923ec5ab7e1a642e7b3ba98abfc4f1" category="paragraph">백업 파일을 로컬 시스템에 쓰는 경우 전체 복원이 필요한 시스템 문제가 있는 경우 사용할 수 있도록 백업 파일을 원격 위치에 복사하는 프로세스를 시작해야 합니다.</block>
   <block id="c48f8fd51b32d584ba11d9662e34349b" category="paragraph">백업 작업을 시작하기 전에 Active IQ Unified Manager는 무결성 검사를 수행하여 필요한 모든 백업 파일 및 백업 디렉토리가 존재하고 쓰기 가능한지 확인합니다. 또한 백업 파일을 생성할 수 있는 충분한 공간이 시스템에 있는지 확인합니다.</block>
@@ -9219,10 +9212,8 @@
   <block id="c513bb45e58fc45e3ec83dab5da7da36" category="list-text">VMDK: 가상 디스크에 대한 스토리지 공간을 제공하는 데이터 저장소의 가상 머신 디스크입니다. 각 가상 디스크에 해당하는 VMDK가 있습니다.</block>
   <block id="56ebd08e1cbf3f9df816c1f70ba60dff" category="paragraph">이러한 객체는 VM 토폴로지 뷰로 표시됩니다.</block>
   <block id="8a07986e324a4a34c7cfeb47a2736741" category="paragraph">* ONTAP * 기반 VMware 가상화</block>
-  <block id="e8509cc177acaa157f47a7b0164d3a1f" category="image-alt">VM 배포</block>
   <block id="375aae8872c43ab2f8538114dccc92c7" category="paragraph">* 사용자 워크플로 *</block>
   <block id="f85ada8d3fc041341df44b187b48d4f1" category="paragraph">다음 다이어그램에서는 VM 토폴로지 뷰를 사용하는 일반적인 사용 사례를 보여 줍니다.</block>
-  <block id="33e759e1731579239486744935dbb489" category="image-alt">VM 워크플로</block>
   <block id="ab54009fea66778938a808305a2f0e4d" category="section-title">지원되지 않는 것은 무엇입니까</block>
   <block id="71ea79c55d09192e3c60b68484e514d5" category="list-text">ONTAP 외부에 있고 vCenter Server 인스턴스에 매핑된 데이터 저장소는 Unified Manager에서 지원되지 않습니다. 이러한 데이터 저장소에 가상 디스크가 있는 VM도 지원되지 않습니다.</block>
   <block id="56036578c66036279dbd8f75e9437dc3" category="list-text">여러 LUN에 걸쳐 있는 데이터 저장소는 지원되지 않습니다.</block>
@@ -9382,9 +9373,7 @@
   <block id="998b0f0721a85f1887ad21211d13755d" category="doc">일반적인 창 레이아웃</block>
   <block id="f5d0d6012440752411c07b7aee29cd3d" category="paragraph">모든 창에 다음 다이어그램의 모든 요소가 포함되는 것은 아닙니다.</block>
   <block id="16faa1bfdfc3c23fd9c85afc8d128775" category="section-title">개체 목록 창 레이아웃</block>
-  <block id="6eaa6c9903ef182946f5bf66eee73304" category="image-alt">개체 목록</block>
   <block id="4138fb3a63b46db04d955eab74245d6d" category="section-title">개체 세부 정보 창 레이아웃</block>
-  <block id="7ce88d49c4ef0cb2d159967d47029a6e" category="image-alt">개체 세부 정보</block>
   <block id="9a12660614e4e9c1fc248f889c104160" category="summary">사용자 할당량 제한은 Unified Manager 서버가 사용자의 공간 사용량이 제한에 도달했는지 또는 사용자의 할당량에 의해 설정된 제한에 도달했는지 여부를 평가하는 데 사용하는 값입니다. 소프트 제한값을 초과하거나 하드 제한값에 도달하면 Unified Manager 서버가 사용자 할당량 이벤트를 생성합니다.</block>
   <block id="c67de2b5ac1de4817d5f241d48105232" category="doc">할당량 제한이란 무엇입니까</block>
   <block id="4b995024a54807dca91028c7051b29b2" category="paragraph">사용자 할당량 제한이란 Unified Manager 서버가 사용자의 공간 사용량이 제한에 도달했는지 또는 사용자의 할당량에 의해 설정된 한도에 도달했는지 여부를 평가하는 데 사용하는 값입니다. 소프트 제한값을 초과하거나 하드 제한값에 도달하면 Unified Manager 서버가 사용자 할당량 이벤트를 생성합니다.</block>
@@ -9667,7 +9656,6 @@
   <block id="3e0d371dd6a28821e66400a80ae3293e" category="paragraph">애그리게이트를 위한 데이터 센터 API는 사용 가능한 공간 및 사용된 공간에 대한 관련 정보를 검색하고 공간 절약 효율성 설정을 검색합니다. 또한 지정된 속성을 기반으로 검색된 정보를 필터링할 수 있습니다.</block>
   <block id="b9264bc886fe551515446d6838f25b9a" category="paragraph">자동 크기 조정 모드를 사용하는 환경에 볼륨이 있는지 여부를 확인하는 한 가지 방법은 Aggregate의 공간 부족을 확인하는 것입니다. 그런 다음 과도하게 사용되는 볼륨을 식별하고 수정 조치를 수행해야 합니다.</block>
   <block id="cc41b5742653a83710790622472b075b" category="paragraph">다음 순서도는 자동 크기 조정 모드가 활성화된 볼륨에 대한 정보를 검색하는 프로세스를 보여 줍니다.</block>
-  <block id="ad39018ca13824e28f2f9a2cce72cc67" category="image-alt">공간 활용률</block>
   <block id="4813b0ff95088b1a2c693a9318f0938d" category="paragraph">이 플로우에서는 클러스터가 ONTAP에서 이미 생성되어 Unified Manager에 추가되었다고 가정합니다.</block>
   <block id="fc534cd4a3c07959344fdc4231e736c7" category="list-text">값을 모르는 경우 클러스터 키를 얻습니다.</block>
   <block id="d4d66a02daefdb2f70ff2507a78fd5ec" category="paragraph">데이터 센터</block>
@@ -9981,7 +9969,6 @@
   <block id="a724824e30a799c8ab8ad6d07591372f" category="summary">Active IQ Unified Manager의 일부로 제공되는 프로비저닝 API를 사용하여 SVM(스토리지 가상 머신)에서 CIFS 공유 및 NFS 파일 공유를 프로비저닝할 수 있습니다. 이 프로비저닝 워크플로에서는 파일 공유를 생성하기 전에 SVM의 키, 성능 서비스 수준 및 스토리지 효율성 정책을 검색하는 단계에 대해 자세히 설명합니다.</block>
   <block id="f2ccc9d1761d3b100ebf0fcbd617c176" category="doc">CIFS 및 NFS 파일 공유를 프로비저닝합니다</block>
   <block id="3e1dc833276a15580a0b71db58bdd106" category="paragraph">다음 다이어그램은 파일 공유 프로비저닝 워크플로우의 각 단계를 보여 줍니다. CIFS 공유와 NFS 파일 공유를 모두 프로비저닝합니다.</block>
-  <block id="a05f62bb5424e0dbdce8b06a07661d97" category="image-alt">파일 표시 작성</block>
   <block id="0ee7a846dbd3fbb321e0498c8fec35e0" category="list-text">ONTAP 클러스터가 Unified Manager에 추가되고 클러스터 키가 확보되었습니다.</block>
   <block id="8e7dd4aa06ca40063b5d0e3de192e4d5" category="list-text">SVM이 클러스터에 생성되었습니다.</block>
   <block id="f66e00fc3aa4ab94defa328373e381e8" category="list-text">SVM은 CIFS 및 NFS 서비스를 지원합니다. SVM이 필요한 서비스를 지원하지 않으면 파일 공유 프로비저닝이 실패할 수 있습니다.</block>
@@ -10068,7 +10055,6 @@
   <block id="0f95c121d7dad838526a7f651b857814" category="list-text">귀하는 애플리케이션 관리자입니다.</block>
   <block id="82860026803af0cdcc831f5f5030ae00" category="list-text">REST API 작업을 실행하려는 클러스터는 ONTAP 9.5 이상에서 지원되며 HTTPS를 통해 Unified Manager에 추가됩니다.</block>
   <block id="98c896958cb9f708964fcc3c7173e78d" category="paragraph">다음 다이어그램은 ONTAP 볼륨 용량 사용 문제를 해결하기 위한 워크플로의 각 단계를 보여줍니다.</block>
-  <block id="3a4d571f6dbcd3bcf57d5650a8d35570" category="image-alt">API 게이트웨이 ONTAP 워크플로</block>
   <block id="76b26371e1f301a312db4d2d46c9befe" category="paragraph">워크플로우에서 Unified Manager와 ONTAP REST API의 호출 포인트를 모두 지원합니다.</block>
   <block id="015fada14012e66a3870b9ed0e2d6370" category="list-text">볼륨 용량 사용률을 알리는 이벤트의 볼륨 이름을 기록합니다.</block>
   <block id="2217533b12d59ed2edfb6646b767c321" category="list-text">name 매개 변수의 값으로 볼륨 이름을 사용하여 다음 Unified Manager API를 실행하여 볼륨을 쿼리합니다.</block>
@@ -10268,7 +10254,6 @@
   <block id="9f59891ed7805b3befef9ff1ec1a490c" category="summary">데이터 센터의 스토리지 객체가 임계값을 넘어가면 해당 이벤트에 대한 알림을 받습니다. 이 알림을 사용하여 문제를 분석하고 이벤트 API를 사용하여 수정 조치를 취할 수 있습니다.</block>
   <block id="841c51f97743193567036063bf854b04" category="paragraph">데이터 센터의 스토리지 객체가 임계값을 넘어가면 해당 이벤트에 대한 알림을 받습니다. 이 알림을 통해 문제를 분석하고 "이벤트" API를 사용하여 수정 조치를 취할 수 있습니다.</block>
   <block id="97018b0a09f5dff8883bbaab1edaacde" category="paragraph">이 워크플로우에서는 볼륨의 예를 리소스 객체로 사용합니다. '이벤트' API를 사용하여 볼륨과 관련된 이벤트 목록을 검색하고 해당 볼륨에 대한 중요 문제를 분석한 다음 수정 조치를 수행하여 문제를 해결할 수 있습니다.</block>
-  <block id="48d9352b608ff2804faa4c081f2c725c" category="image-alt">스토리지 객체 흐름도의 이벤트 관련 문제 처리</block>
   <block id="730bf6325271b1c0c231fa74b6b0fe8a" category="paragraph">개선 단계를 수행하기 전에 볼륨의 문제를 확인하려면 다음 단계를 수행하십시오.</block>
   <block id="ba7662ee18a758af81108e87e6f415fd" category="list-text">데이터 센터의 볼륨에 대한 중요 Active IQ Unified Manager 이벤트 알림을 분석합니다.</block>
   <block id="83ca799bd3583d43b47bea0c99beee9a" category="list-text">/management-server/events API:" * resource_type":"volume *""" * severity":"critical *""에서 다음 매개 변수를 사용하여 볼륨에 대한 모든 이벤트를 쿼리합니다</block>
@@ -10277,7 +10262,6 @@
   <block id="e250f74163b24c45cf377bef0c1d6167" category="list-text">Unified Manager REST API 또는 웹 UI를 사용하여 필요한 작업을 수행하여 문제를 해결할 수 있습니다.</block>
   <block id="c20a54ace8febd13915bab7ed9c22b2b" category="summary">Active IQ Unified Manager의 일부로 제공되는 프로비저닝 API를 사용하여 SVM(스토리지 가상 머신)에서 LUN을 프로비저닝할 수 있습니다. 이 프로비저닝 워크플로에서는 LUN을 생성하기 전에 SVM의 키, 성능 서비스 수준 및 스토리지 효율성 정책을 검색하는 단계에 대해 자세히 설명합니다.</block>
   <block id="95ce53c30b31cee49bc8d6de45470e16" category="paragraph">다음 다이어그램에서는 LUN 프로비저닝 워크플로우의 단계를 보여 줍니다.</block>
-  <block id="eb6c9e70579153da1799b8b5852bc08a" category="image-alt">LUN을 생성합니다</block>
   <block id="ef1400db90d4de5f78f6366f581fba2a" category="paragraph">이 워크플로우에서는 ONTAP 클러스터가 Unified Manager에 추가되었으며 클러스터 키를 얻었다고 가정합니다. 또한 이 워크플로우에서는 SVM이 클러스터에 이미 생성되어 있다고 가정합니다.</block>
   <block id="f51de5616e6ee7f9e60c306178f36de1" category="list-text">lun을 생성할 SVM용 SVM 키를 확인하십시오. 자세한 내용은 _Verifying SVM on clusters_workflow 항목을 참조하십시오.</block>
   <block id="e5aab0148907d8f1db63d8d841d558c0" category="list-text">필요한 경우 다음 API를 실행하고 응답에서 키를 검색하여 LUN에 적용할 스토리지 효율성 정책에 대한 스토리지 효율성 정책 키를 가져옵니다.</block>
@@ -12047,7 +12031,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">System Manager를 사용하여 ONTAP 인증서 관리</block>
   <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*관련 정보* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
   <block id="3e4eb743748e538f59a50a73d5f8b602" category="doc">Unified Manager 세션 비활성 시간 제한을 설정합니다.</block>
-  <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">RHEL 2026에 Flow 설치</block>
   <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">설치 프로그램이 필요한 모든 소프트웨어 종속성을 설치하려면 시스템이 특정 저장소 및 패키지에 접근할 수 있어야 합니다.</block>
   <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">Unified Manager에 필요한 소프트웨어를 설치하세요.</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (Red Hat Extra Enterprise Linux Server 저장소에서 가져옴)</block>
@@ -12114,4 +12097,21 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="6c400d4faf41f7de8a4c911b51918555" category="list-text">OpenJDK 버전 17.0.15+6</block>
   <block id="d99d6f4a4a2deff3d04c76cf2a1ab80a" category="list-text">7-zip 버전 25.01 이상</block>
   <block id="0906e47b7d8a1a05c090ca9c48a976c3" category="list-text">MySQL Community Edition은 Unified Manager 업그레이드 중에 자동으로 업그레이드됩니다. 시스템에 설치된 MySQL 버전이 8.4.10 이전 버전인 경우 Unified Manager 업그레이드 프로세스에서 MySQL을 자동으로 8.4.10으로 업그레이드합니다. 이전 버전의 MySQL을 8.4.10으로 업그레이드하는 독립 실행형 업그레이드 프로세스를 실행해서는 안 됩니다.</block>
+  <block id="1cc30bff2b84e7dbb26c93008946368f" category="image-alt">이벤트 목록 작성부터 시정 조치, 최종 결과까지의 볼륨 이벤트 분석을 보여주는 흐름도</block>
+  <block id="d98ce8622bc7c722fcaa50d67a9cc960" category="image-alt">Unified Manager 및 ONTAP API 단계를 보여주는 다이어그램으로, 볼륨 용량 경고 문제를 해결하기 위한 것입니다.</block>
+  <block id="7ac0c5f50fb7cdf3dbaf55523a74903e" category="image-alt">SVM 설정부터 공유 생성까지 CIFS 및 NFS 파일 공유 프로비저닝 워크플로를 보여주는 다이어그램</block>
+  <block id="b9754edcea8e7458a4fc4b43059bdbef" category="image-alt">스토리지 VM, 서비스 레벨 및 igroup 단계를 포함하여 LUN 생성 워크플로를 보여주는 다이어그램</block>
+  <block id="f62942f0e6b5f47ad12ab0f0a5f5a152" category="image-alt">클러스터 애그리게이트에서 자동 크기 조정 모드가 활성화된 과다 사용 볼륨을 식별하기 위한 순서도</block>
+  <block id="94d1891c253fd9543379f72f98b66db2" category="image-alt">Unified Manager 초기 구성 워크플로 및 관리 설정 작업을 보여주는 다이어그램</block>
+  <block id="164f08e4aee5d801ac4725f2a6956d02" category="image-alt">카운터 수집부터 이메일 알림까지의 임계값 이벤트 처리 과정을 보여주는 다이어그램</block>
+  <block id="2300be0d474b8db24490f2217835c7d6" category="image-alt">데이터베이스 저장소의 전체 백업 파일과 증분 백업 파일을 가리키는 세 개의 백업 디렉터리 파일을 보여주는 다이어그램</block>
+  <block id="124e47082818e619d401d9bdfe8d24ff" category="image-alt">Red Hat Linux에서 필수 조건, Unified Manager 설치 및 초기 구성 워크플로를 보여주는 다이어그램</block>
+  <block id="ef63b242e03a7363693688e53654ba1a" category="image-alt">Unified Manager 설치, 초기 설정 및 관리 설정 워크플로를 보여주는 다이어그램</block>
+  <block id="9e937dd680d7be51e4bfb7fcebb49a52" category="image-alt">Unified Manager 배포 필수 조건, 어플라이언스 배포 및 초기 구성 단계를 보여주는 다이어그램</block>
+  <block id="611e3261f759280b352d61fb660a297c" category="image-alt">필수 조건, Unified Manager 설치 및 초기 구성 워크플로 단계를 보여주는 다이어그램</block>
+  <block id="a4f4483ccd93f8d27cc242331a618d06" category="image-alt">보고서 보기, 사용자 지정, 업로드 및 다운로드에 대한 의사 결정 트리 워크플로를 보여주는 다이어그램</block>
+  <block id="76bf2fdea1570becb5b97b7df5f76c5a" category="image-alt">VMware 호스트, VM, 데이터스토어, VMDK, IP 네트워크 및 스토리지 연결을 보여주는 다이어그램</block>
+  <block id="e1f09e41d18a2f354b0f54a78d35a0c0" category="image-alt">컴퓨팅, 네트워크 및 스토리지 계층 전반에 걸쳐 VM 애플리케이션 지연 시간을 찾는 워크플로를 보여주는 다이어그램</block>
+  <block id="090c8104c89a24e16b32214c066c6f21" category="image-alt">레이블이 지정된 탐색, 검색, 필터 및 보고서 컨트롤이 있는 Active IQ Unified Manager 오브젝트 목록 창의 스크린샷</block>
+  <block id="fd5189ced6c908af40fee28d211b4c0a" category="image-alt">탭, 용량 세부 정보, 관련 오브젝트, 기록 및 이벤트가 있는 Active IQ Unified Manager 볼륨 세부 정보 창을 보여주는 스크린샷</block>
 </blocks>
