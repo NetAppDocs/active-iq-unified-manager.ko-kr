@@ -12114,4 +12114,5 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="e1f09e41d18a2f354b0f54a78d35a0c0" category="image-alt">컴퓨팅, 네트워크 및 스토리지 계층 전반에 걸쳐 VM 애플리케이션 지연 시간을 찾는 워크플로를 보여주는 다이어그램</block>
   <block id="090c8104c89a24e16b32214c066c6f21" category="image-alt">레이블이 지정된 탐색, 검색, 필터 및 보고서 컨트롤이 있는 Active IQ Unified Manager 오브젝트 목록 창의 스크린샷</block>
   <block id="fd5189ced6c908af40fee28d211b4c0a" category="image-alt">탭, 용량 세부 정보, 관련 오브젝트, 기록 및 이벤트가 있는 Active IQ Unified Manager 볼륨 세부 정보 창을 보여주는 스크린샷</block>
+  <block id="ebe5a1b0891ca6dea431768b7ab00971" category="paragraph">클러스터를 사용 중지하기 전에 Unified Manager에서 클러스터를 제거해야 합니다. 클러스터 제거를 시도할 때 클러스터가 이미 오프라인 상태이거나 연결할 수 없는 경우 Unified Manager는 클러스터와 통신하여 애플리케이션 레코드 및 구성된 이벤트 관리 시스템(EMS) 구독을 제거할 수 없습니다. 이로 인해 제거 프로세스가 실패하거나 완료되기 전에 응답하지 않게 됩니다.</block>
 </blocks>
