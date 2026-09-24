@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: introduction, active iq unified manager, throughput, Mbps, Kbps, GiB, TiB, logical capacity, PiB, Capacity measurement units 
 summary: 용량 측정 단위는 물리적 용량과 논리적 용량입니다 
 ---
-= Active IQ Unified Manager 상태 모니터링 소개
+= Active IQ Unified Manager의 상태 모니터링에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

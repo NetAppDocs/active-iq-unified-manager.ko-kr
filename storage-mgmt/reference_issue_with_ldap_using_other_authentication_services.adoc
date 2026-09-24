@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: issue, addi, ldap, use, other, authentication, services 
 summary: '문제 해결: 다른 인증 서비스를 사용하여 LDAP를 추가하는 데 문제가 있습니다' 
 ---
-= 다른 인증 서비스를 사용하여 LDAP를 추가하는 데 문제가 있습니다
+= Active IQ Unified Manager에서 기타 인증 서비스를 사용하여 LDAP를 추가함으로써 발생하는 문제 해결
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

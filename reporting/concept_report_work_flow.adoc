@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: report, workflow 
 summary: 보고서 워크플로우를 설명하는 결정 트리 구조. 
 ---
-= 보고서 워크플로
+= Active IQ Unified Manager의 보고서 워크플로우 이해
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enabling, flash cache, node, improve, workload, performance 
 summary: 클러스터의 각 노드에서 Flash Cache ™ 지능형 데이터 캐싱을 활성화하여 워크로드 성능을 높일 수 있습니다. 
 ---
-= 노드에서 Flash Cache를 사용하도록 설정하여 워크로드 성능을 향상하는 방법
+= Active IQ Unified Manager에서 노드에 Flash Cache를 활성화하여 워크로드 성능을 향상합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

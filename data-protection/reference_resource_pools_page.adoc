@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resource, pools, page 
 summary: 리소스 풀 페이지에는 기존 리소스 풀과 해당 구성원이 표시되며, 이를 통해 용량 할당을 위해 리소스 풀을 생성, 모니터링 및 관리할 수 있습니다. 
 ---
-= 리소스 풀 페이지를 참조하십시오
+= Active IQ Unified Manager의 리소스 풀 페이지에 대해 알아보기
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

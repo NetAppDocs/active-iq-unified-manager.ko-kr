@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: audience, api, rest 
 summary: 이 섹션은 REST API를 통해 Active IQ Unified Manager 소프트웨어와 상호 작용하는 응용 프로그램을 만드는 개발자를 위한 것입니다. 
 ---
-= 이 콘텐츠의 대상
+= Active IQ Unified Manager REST API의 예상 사용자를 파악합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

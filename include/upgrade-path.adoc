@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported upgrade path, upgrade path, n-2, which versions can be upgraded 
 summary: 지원되는 업그레이드 경로입니다 
 ---
-= Unified Manager 버전에 지원되는 업그레이드 경로
+= Active IQ Unified Manager 버전의 지원되는 업그레이드 경로를 사용합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

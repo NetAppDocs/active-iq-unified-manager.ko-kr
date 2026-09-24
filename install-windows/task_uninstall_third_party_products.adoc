@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: MS Visual C++, python, uninstall, uninstalling, 9.18 
 summary: Python 및 Microsoft Visual C++를 포함한 타사 제품을 제거하는 방법. 
 ---
-= 타사 제품 제거
+= Active IQ Unified Manager에서 타사 제품 제거
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

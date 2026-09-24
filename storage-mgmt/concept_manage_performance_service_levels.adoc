@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance service level, PSL, User-defined, system-defined PSL, bursty, Database PSL, extreme PSL, beyond extreme PSL 
 summary: 성능 서비스 수준 계산 및 관리 
 ---
-= 성능 서비스 레벨
+= Active IQ Unified Manager에서 성능 서비스 수준 관리
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

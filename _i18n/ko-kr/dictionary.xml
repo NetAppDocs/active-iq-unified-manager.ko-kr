@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="2216048a705ad9a52409473a75b4d6ad" category="summary">구축 워크플로우에서는 Unified Manager를 사용하기 전에 수행해야 하는 작업에 대해 설명합니다.</block>
-  <block id="aa6d1a2e27b6e5456d746d62b1002336" category="doc">배포 프로세스 개요</block>
   <block id="c200239369f7ea49229003f057ad8769" category="summary">NetApp Support 사이트에서 Unified Manager 설치 파일을 다운로드하여 Unified Manager를 가상 어플라이언스로 구축할 수 있습니다.</block>
   <block id="89ceb9ec1fb3db99ae27c6381019e506" category="paragraph">NetApp Support 사이트에 대한 로그인 자격 증명이 있어야 합니다.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
@@ -430,7 +429,6 @@
   <block id="32f4e1038b4549da08da982f44dd8d0b" category="list-text">예 * 를 클릭한 후 * 다음 * 을 클릭합니다.</block>
   <block id="ed656b4cd67ab83186099ee9d974a826" category="paragraph">Unified Manager의 자동 업그레이드를 수행하려면 'ActiveIQUnifiedManager-&lt;version\&gt;.exe/s/v "MySQL_PASSWORD=&lt;PASSWORD&gt;/qn/l * v &lt;system_drive&gt;:\install.log" 명령을 실행합니다</block>
   <block id="a5c4a2efcdcb095ac76dbf214e41d635" category="summary">Linux 플랫폼의 Unified Manager에 대한 빠른 시작 가이드</block>
-  <block id="69b2ae16273665eaebb99a26650649b5" category="doc">Windows 설치를 위한 빠른 시작 지침</block>
   <block id="ce144bc93be4300e9c20965d4a541b93" category="list-text">사용 가능한 디스크 공간: 설치 디렉토리를 위한 100GB 디스크 공간, MySQL 데이터 디렉토리를 위한 50GB의 디스크 공간</block>
   <block id="fe477fb8f5012f10b95318c29b24ba27" category="list-text">'ActiveIQUnifiedManager-&lt;version&gt;.exe' 설치 패키지를 다운로드합니다.</block>
   <block id="9fa35674a7d450b5af2cb972df71de22" category="list-text">설치 파일을 대상 시스템의 디렉토리에 복사합니다.</block>
@@ -479,7 +477,6 @@
   <block id="e14516b1db6f88e6f6dd546cb99596e7" category="paragraph">Active IQ Unified Manager 9.8부터 Microsoft ® Excel 형식으로 보기를 다운로드하여 사용자 지정할 수 있습니다. 복잡한 정렬, 계층화된 필터, 피벗 테이블 및 차트와 같은 고급 Excel 기능을 사용할 수 있습니다. 결과 Excel 보고서에 만족하면 보고서를 예약 및 공유할 때마다 사용할 Excel 파일을 업로드할 수 있습니다.</block>
   <block id="553f1f53507b65b26956fd98b539625c" category="paragraph">기본 제공 보기 또는 사용자 지정 보기를 예약할 수 있습니다. CSV, PDF 또는 XSLX 중 어떤 파일 형식을 보낼 것인지 선택할 수 있습니다. 보고서를 처음 예약하는 경우 보고서를 다운로드하여 받는 사람이 볼 수 있는 보고서를 볼 수 있는 유일한 받는 사람으로 지정할 수 있습니다.</block>
   <block id="374d16eab5d07fd490374fedc2009a74" category="summary">새로운 Active IQ Unified Manager 보고 기능에는 몇 가지 제한 사항이 있습니다.</block>
-  <block id="d5d12063acbd8f7901cd90a27af00e9d" category="doc">보고 제한 사항</block>
   <block id="7cd735b5b6e279f356e750754d2846b8" category="section-title">이전 버전의 Unified Manager의 기존 보고서</block>
   <block id="c6633c17fbbd65bb881484db33f99a4b" category="paragraph">Unified Manager 9.5 이전 릴리즈에서는 생성 및 가져온 기존 보고서의 일정과 받는 사람(예: .rptdesign 파일)만 편집할 수 있습니다. Unified Manager 9.5 이전 버전에서 제공된 표준 보고서를 사용자 지정한 경우 이러한 사용자 지정 보고서는 새 보고 도구로 가져오지 않습니다.</block>
   <block id="7885e05a7c3c5241961f1154935220f6" category="paragraph">rptdesign 파일에서 가져온 기존 보고서를 편집해야 하는 경우 다음 중 하나를 수행하고 가져온 보고서를 제거합니다.</block>
@@ -495,7 +492,6 @@
   <block id="a3505cf502380b9c83cd9cc0fb0946e9" category="section-title">첨부 파일 보고</block>
   <block id="7cf7e2cc66f59ca8f6195a59a8e70c31" category="paragraph">보고서는 이메일 본문에 보낼 수 없습니다. 대신 보고서는 PDF, Excel 또는 CSV 첨부 파일로만 전송됩니다.</block>
   <block id="42f8eacf7a2963f1ac7c958c3892bf10" category="summary">원하는 보기가 있으면 검색 필드를 사용하여 보고서에 포함할 결과에 초점을 맞춰 결과를 더 구체화할 수 있습니다.</block>
-  <block id="629c94683661ce341a4a38f456b95f84" category="doc">검색을 사용하여 보기를 구체화합니다</block>
   <block id="d52eacf8f04b905b3a08eebfd3ae3f61" category="list-text">보고서의 기반으로 사용할 사용자 지정 보기 또는 기본 보기를 엽니다.</block>
   <block id="aebf2b9d60fb3c00726e22658a590e15" category="list-text">검색 필드에 입력하여 보기에 나열된 데이터를 구체화합니다. 표시된 열에 부분 데이터를 입력할 수 있습니다. 예를 들어 이름에 "US_East"가 포함된 노드를 검색하려면 전체 노드 목록을 구체화할 수 있습니다.</block>
   <block id="a2966637ab3bfb9f4131f30fe38648ea" category="paragraph">검색 결과는 사용자 정의 보기에 저장되고 결과 예약된 보고서에 사용됩니다.</block>
@@ -683,7 +679,6 @@
   <block id="8d0b890f087fd070ae72f3b0af2dd298" category="list-text">뷰를 "'가장 할당되지 않은 LUN 용량'과 같이 보기의 표시 내용을 반영하는 특정 이름으로 저장하고 확인 표시(<block ref="084f5fd11ecd9791c3a6678c5f224e6b" category="inline-image-macro-rx" type="image"></block>)를 클릭합니다.</block>
   <block id="74838b35f054903d5eb2c067657a0e1d" category="paragraph">보고서에 표시된 결과에 따라 클러스터의 할당되지 않은 LUN 용량을 사용할 수도 있습니다.</block>
   <block id="a851ab9cfb1890b7e36549fd2c25029a" category="summary">보기 탐색 및 보고서 예약을 경험할 수 있는 샘플 사용자 지정 보고서를 만듭니다. 이 빠른 시작 보고서에서는 상당히 많은 양의 비활성(콜드) 데이터가 있으므로 클라우드 계층으로 이동할 수 있는 볼륨 목록을 찾습니다. Performance:All Volumes 보기를 열고, 필터와 열을 사용하여 보기를 사용자 지정하고, 사용자 지정 보기를 보고서로 저장하고, 보고서를 일주일에 한 번 공유하도록 예약합니다.</block>
-  <block id="727efc9c83fd159f58fd341a72df8a7c" category="doc">빠른 시작 보고</block>
   <block id="956e209686ab5454d4bc0ade595bdc83" category="paragraph">다음 단계를 수행하십시오.</block>
   <block id="eef4fcd4176bf4995666654967d7425e" category="list-text">기본 보기를 엽니다</block>
   <block id="1b05ab9416d359c41ca539a2b6ba4caf" category="list-text">데이터를 필터링하고 정렬하여 열을 사용자 지정합니다</block>
@@ -1374,7 +1369,6 @@
   <block id="e1be13acaafb4cf484ebbe0cb95550de" category="paragraph">Active Directory 사용자의 인증에 오랜 시간이 걸리거나 시간이 걸리는 경우 인증 서버가 응답하는 데 시간이 오래 걸릴 수 있습니다. Unified Manager에서 중첩된 그룹에 대한 지원을 사용하지 않도록 설정하면 인증 시간이 줄어들 수 있습니다.</block>
   <block id="34441451ee67cb8f60c7c5fca67d0d02" category="paragraph">인증 서버에 대해 보안 연결 사용 옵션을 선택하면 Unified Manager는 SSL(Secure Sockets Layer) 프로토콜을 사용하여 인증 서버와 통신합니다.</block>
   <block id="5d6ed3fbb93aa1b187d73eb179f646d7" category="list-text">* 선택 사항: * 인증 서버를 추가하고 인증을 테스트합니다.</block>
-  <block id="1d467de9c1a432c4082c112c24ec03f0" category="summary">RBAC(역할 기반 액세스 제어)에서는 Active IQ Unified Manager 서버의 다양한 기능과 리소스에 액세스할 수 있는 사용자를 제어하는 기능을 제공합니다.</block>
   <block id="2c6bc67c55ca1b8f948ebbd441af2d3b" category="doc">RBAC란 무엇입니까</block>
   <block id="0534f6b4f1e3e58e952a77101ec3b24f" category="summary">Unified Manager 유지보수 콘솔을 사용하면 Unified Manager 시스템의 설정을 유지하고 문제 발생을 방지하기 위해 필요한 모든 변경을 수행할 수 있습니다.</block>
   <block id="f8d8318057fda335fbb06ff88c1867ec" category="doc">유지보수 콘솔에서 제공하는 기능은 무엇입니까</block>
@@ -1957,7 +1951,6 @@
   <block id="85e5337526581fb6ec27787f46c2d3e9" category="list-text">umadmin 암호 정의:</block>
   <block id="4dc987e613a07a7a130afb37e45ff256" category="paragraph">umadmin 사용자의 새 암호 문자열을 입력하라는 메시지가 표시됩니다.</block>
   <block id="2c7746eead78411f8aa9e94584d6243a" category="paragraph">Unified Manager를 설치한 후에는 umadmin 사용자 로그인 셸을 지정해야 합니다.</block>
-  <block id="38e6765f489199cbac8d654040013a22" category="doc">Linux 설치를 위한 빠른 시작 지침</block>
   <block id="480c2974456cfdab733c75db7656f977" category="list-text">RAM: 12GB, CPU: 총 9572MHz</block>
   <block id="dd6993bbff983390c9accd8acbf1ed57" category="list-text">사용 가능한 디스크 공간: '/opt/netapp/data' 디렉토리에 100GB, 루트 파티션에 50GB 디스크 공간이 있습니다. 별도로 마운트된 '/opt' 및 '/var/log' 디렉토리의 경우, '/opt'에 15GB가 있고, '/var/log'에 16GB가 있고, '/tmp'에 10GB의 여유 공간이 있는지 확인하십시오.</block>
   <block id="5b2ce921bf2eb800e2901c4f436230d9" category="paragraph">시스템 요구 사항에 대한 자세한 내용과 보안 사이트에 제품을 설치하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="510d66df11f8e08701d0e806aec8f2c4" category="inline-link-macro-rx"></block> 및 <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>.</block>
@@ -2084,7 +2077,6 @@
   <block id="73ffe737211f5ff4cd62982d866f8615" category="list-text">메시지가 표시되면 새 JBoss 암호를 입력한 다음 다시 입력하여 확인합니다.</block>
   <block id="2e6e9ec7457223979bb0db546829bab5" category="list-text">스크립트가 완료되면 다음 명령을 표시된 순서대로 입력하여 Unified Manager 서비스를 시작합니다.</block>
   <block id="440eb40eb8cf6c5d06e6de7d9d2db8c0" category="summary">NAS 또는 SAN 장치에 /opt/NetApp 또는 /opt/NetApp/데이터를 마운트하고 SELinux를 사용하도록 설정한 경우 다음 사항을 고려해야 합니다.</block>
-  <block id="8c60b39d035602485d7a07ef3aa2f5f0" category="doc">NFS 및 CIFS 공유에 대한 SELinux 요구 사항</block>
   <block id="a8d633f5ac5e3ef0835f41c9ff4cf88a" category="paragraph">NAS 또는 SAN 장치에 '/opt/netapp' 또는 '/opt/netapp/data'를 마운트하고 SELinux를 활성화한 경우 몇 가지 고려 사항을 염두에 두어야 합니다.</block>
   <block id="9232b4a27714526a3cf1b7c7b220f85c" category="paragraph">루트 파일 시스템이 아닌 다른 곳에서 '/opt/netapp' 또는 '/opt/netapp/data'를 마운트하고 사용자 환경에서 SELinux를 활성화한 경우 마운트된 디렉토리에 대한 올바른 컨텍스트를 설정해야 합니다. 사용자 환경의 해당 시나리오에 대해 올바른 SELinux 컨텍스트를 설정하고 확인하려면 다음 단계를 수행하십시오.</block>
   <block id="03f5a7e715f5da0b6afc76be7747611f" category="paragraph">시스템에 '/opt/netapp/data'를 마운트하고 SELinux가 'Enforcing'으로 설정된 경우, 데이터베이스 파일 위치의 기본 컨텍스트 요소인 '/opt/netapp/data'에 대한 SELinux context type이 'mysqld_db_t'로 설정되어 있는지 확인하십시오.</block>
@@ -2484,7 +2476,6 @@
   <block id="c024f4679b1db785b652c25a8e0e599a" category="list-text">구성 및 설정 페이지</block>
   <block id="a30acb2b6ef379c6de79d7264fa0e588" category="list-text">이벤트 페이지</block>
   <block id="9dffbb199bd48e23b134c6990180176f" category="summary">성능 개체의 인벤토리 페이지에는 개체 인벤토리 데이터 콘텐츠를 세밀하게 조정하는 데 도움이 되는 도구가 포함되어 있으므로 특정 데이터를 빠르고 쉽게 찾을 수 있습니다.</block>
-  <block id="8810aba5b6775620ef9a919d5c564b0c" category="doc">성능 재고 페이지 콘텐츠 구체화</block>
   <block id="c67a8cb08c45fbf35544377154e19ce1" category="paragraph">성능 개체 인벤토리 페이지에 포함된 정보는 대개 여러 페이지에 걸쳐 매우 광범위할 수 있습니다. 이러한 종류의 포괄적인 데이터는 성능 모니터링, 추적 및 개선에 뛰어나지만 특정 데이터를 찾으려면 원하는 데이터를 빠르게 찾을 수 있는 도구가 필요합니다. 따라서 성능 개체 인벤토리 페이지에는 검색, 정렬 및 필터링 기능이 포함되어 있습니다. 또한 검색 및 필터링이 함께 작동하여 결과를 더욱 좁힐 수 있습니다.</block>
   <block id="e3e95a85fd025a8e0e285e2561159bbe" category="summary">워크로드 분석기 페이지에는 작업 부하에 영향을 줄 수 있는 현재 이벤트에 대한 정보, 이벤트를 발생시키는 문제를 잠재적으로 해결할 수 있는 권장 사항, 성능 및 용량 기록 분석을 위한 차트가 표시됩니다.</block>
   <block id="b5fb18da7c3398568bbe73fbf858fe6c" category="doc">워크로드 분석기가 표시하는 데이터는 무엇입니까</block>
@@ -5725,7 +5716,6 @@
   <block id="73fa85facde3ed16e002ddf65b57ce8d" category="list-text">각 클러스터의 사용자를 인증하는 데 사용되는 인증 메커니즘을 보려면 * 클러스터 보안 * 카드를 확인하십시오.</block>
   <block id="643e29f4dc97809b8c5f77414378cd8b" category="paragraph">시스템에 액세스하는 일부 사용자가 안전하지 않은 방법을 사용하거나 NetApp에서 권장하지 않는 방법을 사용하는 경우, 이 방법을 사용하지 않도록 설정할 수 있습니다.</block>
   <block id="aab48123e19f96b4938a6aa960c608a9" category="summary">Unified Manager는 주기적인 API 쿼리 및 데이터 수집 엔진을 사용하여 클러스터에서 데이터를 수집합니다. Unified Manager 데이터베이스에 클러스터를 추가하면 가용성 및 용량 위험에 대한 클러스터를 모니터링하고 관리할 수 있습니다.</block>
-  <block id="7b950edee5af6ab02284ce2a8b5d7848" category="doc">클러스터 및 클러스터 객체 상태 관리 및 모니터링</block>
   <block id="e8f92a0e23f8478dd299eacf52206ac9" category="summary">AutoSupport 메시지에서 제공하는 것보다 문제에 더 자세한 진단 및 문제 해결 정보가 필요한 경우 기술 지원 팀에 지원 번들을 보낼 수 있습니다.</block>
   <block id="4413c99fda7a6de0340eda65d8eb3e26" category="paragraph">기술 지원 팀에 지원 번들을 보내려면 지원 번들에 액세스할 수 있어야 합니다.</block>
   <block id="ada5db09ef74902e7c6b01cdffbc710d" category="paragraph">기술 지원 웹 사이트를 통해 생성된 케이스 번호가 있어야 합니다.</block>
@@ -5898,7 +5888,6 @@
   <block id="4729d326b6c00fd0c13eec5cd4c0a1ce" category="list-text">Alert Setup * 페이지에서 추가하거나 수정한 알림을 선택한 다음 * Test * 를 클릭합니다.</block>
   <block id="7aa8b87d62302826efd92b4d5ff9f109" category="paragraph">스크립트는 ""-test" 인수를 사용하여 실행되며 알림을 만들 때 지정된 e-메일 주소로 알림 알림이 전송됩니다.</block>
   <block id="efdb16254f5069676286e910b5a4b798" category="summary">스토리지 VM/상태 세부 정보 페이지를 사용하여 상태, 용량, 구성, 데이터 정책, 논리 인터페이스(LIF), LUN, qtree, 사용자, 사용자 그룹 할당량 및 보호 세부 정보 또한 스토리지 VM에 대한 관련 개체 및 관련 경고에 대한 정보도 볼 수 있습니다.</block>
-  <block id="a7fea1c7b3a5c74253b83e5564d7e3be" category="doc">스토리지 VM/상태 세부 정보 페이지</block>
   <block id="01df14660230e93beb172e6aa6e592d1" category="paragraph">데이터 스토리지 VM만 모니터링할 수 있습니다.</block>
   <block id="0163d621f50d2abf7b8446329f0d1c49" category="paragraph">명령 버튼을 사용하여 선택한 스토리지 VM에 대해 다음 작업을 수행할 수 있습니다.</block>
   <block id="478c1f141db52408185af8691e4e3a67" category="paragraph">스토리지 VM/성능 세부 정보 페이지로 이동할 수 있습니다.</block>
@@ -8165,7 +8154,6 @@
   <block id="5e34c0b18e5e922d968e69195afc3c23" category="paragraph">중단된 전송을 다시 시작하지 않도록 지정합니다.</block>
   <block id="deb0107688cf5265bb48d22766884578" category="paragraph">선택 사항을 적용하고 보호 프로세스를 시작합니다.</block>
   <block id="d8b6e42886f0856a407632d66f7532bb" category="summary">Initialize/Update 대화 상자를 사용하면 새 보호 관계에 대해 초기 계획을 처음 전송할 수도 있고, 이미 초기화된 상태에서 수동으로 예정되지 않은 증분 업데이트를 수행하려는 경우 관계를 업데이트할 수도 있습니다.</block>
-  <block id="2d3430cf6c10379572f10ab5fbd6c154" category="doc">초기화/업데이트 대화 상자</block>
   <block id="cd4ef495511831b70047b87dd5871307" category="section-title">전송 옵션 탭</block>
   <block id="20bea56687545e045f684ccd4683ae5d" category="paragraph">전송 옵션 탭에서는 전송의 초기화 우선 순위를 변경하고 전송 중에 사용되는 대역폭을 변경할 수 있습니다.</block>
   <block id="8fccfa9f88bdb1cef81b6fc39aa2b3ee" category="paragraph">전송이 실행되는 우선 순위입니다. 보통 또는 낮음을 선택할 수 있습니다. 낮은 전송 우선 순위를 지정하는 정책보다 먼저 일반 전송 우선 순위를 지정하는 정책과의 관계. 기본적으로 보통이 선택되어 있습니다.</block>
@@ -10391,7 +10379,6 @@
   <block id="2fdd5dc5585243c3197c271994fd12c9" category="paragraph">클러스터가 중재자를 지원하지만 중재자가 구성되지 않은 경우에 표시됩니다.</block>
   <block id="d64c1cefb3e1d5cdfa216f6d3407ec17" category="paragraph">클러스터가 중재자를 지원하고 중재자가 구성된 경우 표시됩니다. 중재자 상태는 색상으로 표시됩니다. 녹색 색은 중재자 상태에 도달할 수 있음을 나타냅니다. 빨간색은 중재자 상태에 도달할 수 없음을 나타냅니다.</block>
   <block id="e915243d2d9237ec496fdc596ffdf04a" category="summary">모든 볼륨 및 스토리지 VM 목록과 현재 안티 랜섬웨어 상태를 볼 수 있으므로 볼륨의 데이터가 랜섬웨어 공격으로부터 적절히 보호되는지 확인할 수 있습니다.</block>
-  <block id="7c2c886acbcd2892de2344c60378626c" category="doc">모든 볼륨 및 스토리지 VM의 랜섬웨어 방지 상태 보기</block>
   <block id="b7fb2bac588b5767cf6c705188c389c3" category="paragraph">모든 볼륨 및 스토리지 VM(SVM)의 목록과 현재 안티 랜섬웨어 상태를 볼 수 있으므로 볼륨 및 SVM의 데이터가 랜섬웨어 공격으로부터 적절히 보호되는지 확인할 수 있습니다.</block>
   <block id="a921172c77574003a53c4e7d463e4a78" category="inline-link-macro">ONTAP: 랜섬웨어 방지 지원</block>
   <block id="72e5e5991e9c7a2e51d3ba91ca2a8e1d" category="paragraph">다양한 안티 랜섬웨어 상태에 대한 자세한 내용은 를 참조하십시오 <block ref="ebbc50671d350b612b279b18dc92d3ce" category="inline-link-macro-rx"></block>.</block>
@@ -10403,10 +10390,8 @@
   <block id="9b1365de5b07fbb66019457a4c7fb6a5" category="list-text">보기 &gt; 보안 &gt; 랜섬웨어 방지 * 를 선택합니다. 랜섬웨어 방지 상태가 표시된 SVM 목록이 표시됩니다.</block>
   <block id="3dcc0199352a1721fd1f864e772d652e" category="admonition">랜섬웨어 방지 모니터링은 NAS 프로토콜이 활성화되지 않은 스토리지 VM에서 지원되지 않습니다.</block>
   <block id="55d42c07c7a3bf8612627277cc3d1372" category="paragraph">이 제품에 사용된 타사 저작권 및 라이센스에 대한 정보입니다.</block>
-  <block id="50e0f11482fceefc2d65544335ead398" category="doc">워크로드 관리를 위한 API 워크플로우</block>
   <block id="686de7649ff29618b2533b83f236c1f9" category="doc">API를 사용하여 LUN 프로비저닝</block>
   <block id="dae4b302d39d8710b93f2ab7e79ad44c" category="paragraph">== LUN 생성 또는 매핑에서 장애가 발생한 경우 문제 해결 단계</block>
-  <block id="d5931491b56d1cc70bbacab3848ce5e3" category="doc">스토리지 관리를 위한 공통 API 워크플로우</block>
   <block id="a04ca9649d91705a1631f7dedd600667" category="doc">API를 사용하여 CIFS 및 NFS 파일 공유 프로비저닝</block>
   <block id="ec6d62e34bf5aa5be0613a5f0bf48d90" category="paragraph">최소, 최대, 95번째 백분위수 및 특정 기간 동안의 평균 성능 값과 같은 누적 카운터는 읽기, 쓰기, 합계 및 기타 카운터 등의 단일 개체에 대해 검색됩니다.</block>
   <block id="c72068f0f4cfcce2af4ad5f5ca198d95" category="paragraph">동일한 형식의 모든 개체에 대해 집계된 단일 값이 표시됩니다.</block>
@@ -10935,7 +10920,6 @@
   <block id="f3a3ba6315ffe945284468adf0d70e57" category="list-text">컨트롤러 업그레이드에 대한 자세한 내용은 를 참조하십시오<block ref="5aea59f6c408d6812ccf363148f7d96e" category="inline-link-rx"></block> 및<block ref="92569a3a5e80106df6e9bfa0cf9d981b" category="inline-link-rx"></block></block>
   <block id="c234383a2ee370f2866e7b0538f73c5c" category="paragraph">Unified Manager를 사용하여 IP 또는 FC를 통한 MetroCluster 구성에서 클러스터의 상태를 검토할 수 있습니다. 상태 및 이벤트는 워크로드의 성능에 영향을 줄 수 있는 하드웨어 또는 소프트웨어 문제가 있는지 여부를 파악하는 데 도움이 됩니다.</block>
   <block id="2d26fd882893484db7e6cd100b13fc3e" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="26a8a225752f213766fd5d0fca11ffd1" category="inline-link-macro-rx"></block></block>
-  <block id="cdfca02373cd4eba37b347e9cdaab218" category="doc">FC를 통한 MetroCluster 구성에 대한 클러스터 연결 상태 정의</block>
   <block id="45a153fd0ead31ffde063c1f449b0d5b" category="paragraph">FC를 통한 MetroCluster 구성의 클러스터 간 접속은 Optimal(최적), Impacted(영향) 또는 Down(중단) 상태 중 하나일 수 있습니다. 연결 상태를 이해하면 MetroCluster 구성을 효과적으로 관리할 수 있습니다.</block>
   <block id="00a0d3827fe90016d54a587539a1bb1f" category="paragraph"><block ref="3ea411a881e8de6734ab1f259a5102ce" prefix="" category="inline-code"></block></block>
   <block id="4362f5216aa639e277a607d43eeb7c0e" category="list-text">IF(<block ref="f5cf604cc3fc0506a38ac7f811bc28e1" prefix=" " category="inline-code"></block>)를 클릭합니다<block ref="72befa6fad669a7ab741c15923504039" prefix=" " category="inline-code"></block></block>
@@ -10986,7 +10970,6 @@
   <block id="ca9cbf7c4e946ef48d8af2ea8d0f799f" category="inline-link-macro">상호 TLS 통신용 인증서</block>
   <block id="ca51b5eb394408fc66c7ff276f2d388f" category="paragraph">자동 조정을 사용하여 관리할 수 있는 ONTAP 문제 및 기능에 대한 자세한 내용은 을 참조하십시오 <block ref="69bb48d7285fcc4963176b1e083f2e69" category="inline-link-macro-rx"></block>.</block>
   <block id="81694560ce6841f5b6e22f6feb54db33" category="list-text">vCenter Server에 데이터 저장소를 추가하는 동안 호스트의 IP 주소 또는 FQDN(정규화된 도메인 이름)을 모두 사용할 수 있습니다. FQDN을 추가하는 경우 Unified Manager 서버에서 도메인 이름을 확인할 수 있는지 확인합니다. 예를 들어, Linux 설치의 경우 도메인 이름이 에 추가되었는지 확인합니다<block ref="f0b96341c66fa0d1b2202f74a027bbda" prefix=" " category="inline-code"></block> 파일.</block>
-  <block id="6563d638462424749f5ee4cc590d2849" category="doc">FC를 통한 MetroCluster의 데이터 미러링 상태 정의</block>
   <block id="f0e3981cfdbf71181aa6b1e4fb47e9cc" category="paragraph">FC 기반 MetroCluster 구성은 데이터 미러링을 제공하며 전체 사이트를 사용할 수 없게 될 경우 페일오버를 시작할 수 있는 추가적인 기능을 제공합니다. FC를 통한 MetroCluster 구성의 클러스터 간 데이터 미러링 상태는 정상 또는 미러링을 사용할 수 없음이 될 수 있습니다. 상태를 이해하면 MetroCluster 구성을 효과적으로 관리할 수 있습니다.</block>
   <block id="e8758725a8a19f259ad3d888980dce5c" category="paragraph">Unified Manager 웹 UI에서 MetroCluster 구성에 대한 모니터링 지원을 통해 FC 및 IP 구성을 통해 MetroCluster의 연결 문제를 확인할 수 있습니다. 연결 문제를 조기에 발견할 경우 MetroCluster 구성을 효과적으로 관리할 수 있습니다.</block>
   <block id="9ec26db79eb1cb03722ca1be8a38ede3" category="paragraph">MetroCluster over IP 구성의 경우 Unified Manager의 왼쪽 탐색 창에서 다음 뷰에서 IP를 통해 MetroCluster로 보호되는 클러스터의 토폴로지 피킹 뷰(topology peeking view)에 데이터 복제 상태가 표시됩니다.</block>
@@ -11069,7 +11052,6 @@
   <block id="7304b4de80b8634c046d0400082fea65" category="paragraph">HTTPS 인증서 페이지에서는 현재 보안 인증서를 보거나, 인증서 서명 요청을 다운로드하거나, 자체 서명된 새 HTTPS 인증서를 생성하거나, 새 HTTPS 인증서를 설치할 수 있습니다.</block>
   <block id="898314a24a9c4668cfc6ef1288f61096" category="paragraph">자체 서명된 새 HTTPS 인증서를 생성하지 않은 경우 이 페이지에 나타나는 인증서는 설치 중에 생성된 인증서입니다.</block>
   <block id="cff84697c1aa7f822135adc1f1e8d209" category="paragraph">현재 보안 인증서를 대체하는 자체 서명된 새 HTTPS 인증서를 생성할 수 있습니다. 새 인증서는 Unified Manager를 다시 시작한 후에 적용됩니다.</block>
-  <block id="6e9d444f5a98d00ae31eff389dc819fa" category="doc">VMware 설치를 위한 빠른 시작 지침</block>
   <block id="d92bb0fdb003a277ed75c5c3745b9f31" category="paragraph">를 다운로드할 수 있습니다<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 루트 인증서가 포함된 파일, a<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> 파일, 및<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> Unified Manager를 가상 어플라이언스로 구축하여 파일 및 구축</block>
   <block id="ceede60a933cbfe9cb6ef21f0b1f0e00" category="summary">Windows 플랫폼의 Unified Manager에 대한 빠른 시작 가이드</block>
   <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">설치 패키지를 다운로드하고 Unified Manager를 설치하여 데이터 스토리지 용량, 가용성, 성능 및 보호 문제를 모니터링하고 문제를 해결할 수 있습니다.</block>
@@ -11431,12 +11413,9 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="ba4a3eda92613705933538adb5a397dd" category="list-text">Unified Manager를 시작합니다.</block>
   <block id="ce2dd12c3d92be4f64774b3618022463" category="list-text">서비스 이름은 "`MYSQL84`"입니다.</block>
   <block id="c954aa3da908a18730111db3143d3c49" category="list-text">설치 중에 설정된 MySQL84 루트 암호를 입력하고 * 다음 * 을 클릭합니다.</block>
-  <block id="c88d802310924042da26b7dc49a8cb60" category="doc">API를 사용하여 관리 작업 수행</block>
   <block id="464c8bcc4d97fa6b1e0e6a541f48af9e" category="section-title">REST API에 직접 액세스하기 위한 URL을 구성합니다.</block>
   <block id="037a311bcc05279db266c85a597f23ba" category="section-title">온라인 API 문서 페이지에 접속하세요</block>
   <block id="6b58c1940f3237f8b68aff9dee0612c0" category="section-title">API 요청과 연결된 작업 객체를 쿼리합니다</block>
-  <block id="161ac84513801bb11aa8cd9ac463ca04" category="doc">API를 사용하여 데이터 센터의 스토리지 객체를 관리합니다.</block>
-  <block id="1ec68978e38a311b4c5119fe8a13688d" category="doc">API를 사용하여 이벤트 및 알림 관리</block>
   <block id="38263a28ce7341901e4c14482d893025" category="section-title">이벤트 보기 및 수정</block>
   <block id="394d507cce41d6ae3633fc43f6715634" category="inline-link-macro">이벤트 관리</block>
   <block id="6abb3025099e03dc81e219a31cd2d8ea" category="paragraph">이벤트에 대한 자세한 내용은 를 참조하십시오<block ref="c0f3f78c9dfa509920adca3905a0ba53" category="inline-link-macro-rx"></block>.</block>
@@ -11444,7 +11423,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="d1944becba685cf8683fb918bd55a951" category="paragraph">알림에 대한 자세한 내용은 을 참조하십시오<block ref="ff05cde0ec41fde9b33c0e5302e3a935" category="inline-link-macro-rx"></block>.</block>
   <block id="3a3e30f8426f78f1290bc68b262b49f2" category="section-title">스크립트 관리</block>
   <block id="1e98553b8d12285682ae1fb3e2c366cb" category="paragraph">스크립트에 대한 자세한 내용은 을 <block ref="3945877c4ec08006fadc171d5a251e0e" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="2d31ed7726d128ea586332cbed2276d7" category="doc">이벤트 API를 사용하여 스토리지 객체의 문제 확인</block>
   <block id="2c5dc21619b8de9598f14d50791916dd" category="doc">프록시 액세스를 통해 ONTAP API에 액세스</block>
   <block id="73c192b67631c10f77958c794a98d11d" category="section-title">API Gateway 터널링 이해</block>
   <block id="d219de65b88e9201ccad4ef41f2cafef" category="section-title">API 범위 설정</block>
@@ -11452,26 +11430,10 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="64b3bd0b8a0807be8c5ffdf7b40cff45" category="doc">작업 및 시스템 세부 정보 보기</block>
   <block id="101bb72177f0b4d9b3a7b75496ed79c0" category="section-title">채용공고 보기</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="section-title">시스템 세부 정보를 봅니다</block>
-  <block id="57cc8635a0fcce8d264484f9da371401" category="doc">API를 사용하여 액세스 엔드포인트 관리</block>
-  <block id="6562276d73b7f273655405c2a5453a6b" category="doc">API를 사용하여 Active Directory 매핑 관리</block>
-  <block id="d555c43805161100feef7c63d785ffa0" category="doc">API를 사용하여 파일 공유 관리</block>
-  <block id="816f3b75e34bc9e9a73d94ce7273dd0c" category="doc">API를 사용하여 LUN 관리</block>
-  <block id="7f16de609341548b404477d1a3815abd" category="doc">API를 사용하여 성능 서비스 수준 관리</block>
   <block id="680b188a51dbbad844ca6e31d75d030b" category="section-title">성능 서비스 수준에 따른 집계 기능 보기</block>
-  <block id="db5087d195e767720be74746808b6cf1" category="doc">API를 사용하여 스토리지 효율성 정책 관리</block>
-  <block id="efb4367167e975f8b66a2a121a91dce9" category="doc">API를 사용하여 작업 부하 관리</block>
-  <block id="e61e0b42ebdd7aa35a39351efb7120d5" category="doc">API를 사용하여 성능 지표 보기</block>
-  <block id="698d031c9a8cc54be851ea496f652623" category="doc">API를 사용하여 스토리지 워크로드 수정</block>
   <block id="f8d72eb0765a9f62f8da0b763604cdc8" category="section-title">LUN 업데이트</block>
   <block id="bbf3a49de72d1439b95b03f6798655ef" category="doc">게이트웨이 API를 사용하여 ONTAP 볼륨 문제 해결</block>
-  <block id="220ba431ab3d1192e22cff41695cc5fd" category="doc">API를 사용하여 CIFS 및 NFS 파일 공유 제공</block>
-  <block id="1c03629b04d10313bfbcb527873feee2" category="doc">API를 사용하여 LUN 프로비저닝</block>
-  <block id="16a52ccccf2589f560f7afd4a571635a" category="doc">API를 사용하여 사용자 관리</block>
-  <block id="e8ae62b658e2a108164f21a25108fb3f" category="doc">API를 사용하여 클러스터의 SVM 확인</block>
-  <block id="fd589e1d1bf048ec482646f9a10748e5" category="doc">API를 사용하여 스토리지 워크로드 보기</block>
   <block id="811d71286df166f702ec9b42c249d145" category="section-title">워크플로에 사용되는 API 호출을 이해합니다</block>
-  <block id="6dbfbe66745d2d568fb9ce41e88f7495" category="doc">API를 사용하여 집계의 공간 문제 확인</block>
-  <block id="7c3dfb1bb93c44b824c4a9ca4225e80c" category="doc">CIFS를 지원하기 위해 API를 사용하여 NFS 파일 공유 수정</block>
   <block id="f5c2d52b832b2a72b551d655cc884a9c" category="doc">Active IQ 포털 이벤트 활성화</block>
   <block id="d9bd212e1bb22d9b77c8a3861e388a32" category="doc">Unified Manager 데이터베이스 디렉터리에 디스크 공간 추가</block>
   <block id="fd9e3f6441163bf55c9bca463fc87a43" category="doc">API 게이트웨이 활성화</block>
@@ -11480,7 +11442,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="4668334e508872a873be214dc202a481" category="doc">Active IQ Unified Manager 구성</block>
   <block id="95e89360c8dbb80f117511e57eb9e3f4" category="doc">비활성 시간 초과 지정</block>
   <block id="aa416dbc0c9945193f419fe89278e3de" category="doc">외부 도구를 사용하여 생성된 HTTPS 인증서 설치</block>
-  <block id="7fe88786a4568b96e6e0e474fdd3c415" category="doc">로그인 배너 추가</block>
   <block id="a20bb6e4f43b144b1671541fc1a7488a" category="doc">인증 관리</block>
   <block id="6ed8e3ff3326396dff95bdea4e2b288c" category="doc">SAML 인증 설정 관리</block>
   <block id="2371424eba381b8fb39ac37404483e34" category="doc">보안 인증서를 관리합니다</block>
@@ -11517,7 +11478,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="4c643577b37624473c0b5d897c621f4c" category="doc">정책 기반 스토리지 관리 활성화 및 비활성화</block>
   <block id="ccd6a110d89fe5b24673c8ed4f637cce" category="doc">감사 로그의 원격 로깅 활성화</block>
   <block id="bec16219366d2631eb9ed04aecabc005" category="doc">SAML 인증을 활성화합니다</block>
-  <block id="6bedc532d99a22751fdd4ef79c2e07c1" category="doc">HTTPS 보안 인증서 생성</block>
   <block id="aa33a77d7af633b8cda0701df543ba97" category="doc">CA 서명 및 반환된 HTTPS 인증서 설치</block>
   <block id="f147155bc57d9c3287f2ec096cde8fdd" category="doc">Unified Manager 웹 UI의 초기 설정을 수행합니다.</block>
   <block id="72247e3fb3313483083b8e7b1164ffc7" category="doc">인증 서비스 설정</block>
@@ -11526,56 +11486,38 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="278411c750d8f9d4484ba67a0128a37a" category="doc">유지 관리 콘솔을 사용하세요</block>
   <block id="041203ce7f3899ce1e4f9a043d2863b1" category="doc">HTTPS 보안 인증서 보기</block>
   <block id="4bc7766d599f3ab0ce24ad6cb0df9539" category="doc">사용자 보기</block>
-  <block id="7ba8c15d32f79808ac7211708dc7bc74" category="doc">보호 관계 생성, 모니터링 및 문제 해결</block>
   <block id="4e0ab6f9ce72da684080639c5a65367f" category="doc">보호 관계 관리 및 모니터링</block>
   <block id="7817150a9ff0e05d9196c53ea6d726bb" category="doc">스토리지 VM 재해 복구 보호 관계 모니터링</block>
-  <block id="3a696f8e4276c84dfb5d3471353d7268" category="doc">저장소 VM 연결 이해</block>
-  <block id="fc174c66f3949123c90afc7961f20b7b" category="doc">볼륨/상태 세부 정보 페이지에서 활성 데이터 보호 전송을 중단합니다.</block>
   <block id="9a58cb33c46bd67b10dbfe9baa4d7e70" category="doc">볼륨 관계 페이지에서 활성 데이터 보호 전송을 중단합니다.</block>
   <block id="048ae5982bff88aa72590b4dbc5aa989" category="doc">작업 중단</block>
   <block id="e2d25e3306e5479b67f889447b4c8008" category="doc">리소스 풀 멤버 추가</block>
   <block id="0c6440ede420e82875c0fe332e2079c3" category="doc">볼륨 관계 페이지에서 SnapMirror 관계 해제</block>
-  <block id="9e4d169d8ed25035c351922e958c3e64" category="doc">볼륨/상태 세부 정보 페이지에서 SnapMirror 관계 해제</block>
   <block id="782282617ebbce1c0fc69532c6c8a806" category="doc">Workflow Automation과 Unified Manager 간 연결 구성</block>
   <block id="1da2127f21378c9fed51fbc6671ba42d" category="doc">목적지 효율성 설정 구성</block>
   <block id="6f67073f4427617b66ef1fb5577f6478" category="doc">기존 보호 관계에서 보호를 확장하기 위해 계단식 또는 팬아웃 관계를 만듭니다.</block>
   <block id="12d721fa5368f91b7b21ee13cecda899" category="doc">리소스 풀 만들기</block>
   <block id="a37feef3ae04f5c7cbdf4194003b62ba" category="doc">SnapMirror 및 SnapVault 일정 만들기</block>
   <block id="fc816b05a98a9cde75a7d2623a5ad3fa" category="doc">전송 효율성을 극대화하기 위해 SnapMirror 정책을 만듭니다.</block>
-  <block id="5369e195dd2da4d4c03865f9b4e87e7f" category="doc">볼륨/상태 세부 정보 페이지에서 SnapMirror 보호 관계를 만듭니다.</block>
-  <block id="059eecaffbba542bb222e4e7d9770774" category="doc">Health: 모든 볼륨 보기에서 SnapMirror 보호 관계를 만듭니다.</block>
   <block id="8dcd37791437211d690afc83013ca2ac" category="doc">버전 유연한 복제를 통해 SnapMirror 관계 생성</block>
   <block id="2b3d15bf9f1c1e9f371bdbb19b988e32" category="doc">백업 옵션이 포함된 버전 유연한 복제를 통해 SnapMirror 관계를 생성합니다.</block>
   <block id="766c2a0d1e6bb86c0af16afe5283b42b" category="doc">전송 효율성을 극대화하기 위해 SnapVault 정책을 만듭니다.</block>
-  <block id="4cf5dc70b2da82674a758074ef066492" category="doc">Health: 모든 볼륨 보기에서 SnapVault 보호 관계를 만듭니다.</block>
-  <block id="6c23b696f9dae5b4a74db41425ad1941" category="doc">볼륨/상태 세부 정보 페이지에서 SnapVault 보호 관계를 만듭니다.</block>
   <block id="c192c70e94d335d4fec11b212cec1d7c" category="doc">리소스 풀 삭제</block>
-  <block id="ac68e005dad584f80756e40f3c8ee881" category="doc">볼륨/상태 세부 정보 페이지에서 보호 관계 편집</block>
   <block id="7f354b0bf4ec737b20df3bed9f0e66ad" category="doc">볼륨 관계 페이지에서 보호 관계 편집</block>
   <block id="fdcdbc6fa4aad04e40cb9e6d1e791d00" category="doc">리소스 풀 편집</block>
-  <block id="c17c826b0e2e0f75aeec4f33674aae04" category="doc">문제를 식별하고 실패한 보호 작업에 대한 시정 조치를 수행합니다.</block>
-  <block id="1acf91041e368234b9767e6321a4aeab" category="doc">볼륨 관계 페이지에서 보호 관계를 초기화하거나 업데이트합니다.</block>
   <block id="4639d0e2e2909a747265c2f704128bca" category="doc">작업을 모니터링합니다</block>
   <block id="412c70342c0f8c0370a95fe3ffd6aada" category="doc">관계 페이지를 사용하여 스토리지 VM 모니터링</block>
   <block id="da9f00396e4a51999db9c4998c3e8837" category="doc">보호 관계 장애 조치 및 장애 복구 수행</block>
-  <block id="b98f036bb1b26f0c9ba20adf8bd60759" category="doc">볼륨/상태 세부 정보 페이지에서 보호 관계 중지</block>
   <block id="4cfb16f4ffdbace9feab1e21feaa3018" category="doc">볼륨 관계 페이지에서 보호 관계를 중지합니다.</block>
   <block id="4f106114f5cf3f0af6332ad069d31706" category="doc">리소스 풀에서 집계 제거</block>
   <block id="bdca4c3904d4f025a74a80da8e907967" category="doc">볼륨 관계 페이지에서 보호 관계 제거</block>
-  <block id="83795bb70b8ced1bf0214ad058bd0735" category="doc">볼륨/상태 세부 정보 페이지에서 보호 관계 제거</block>
   <block id="ea83580b7d2699297cf63c158e610086" category="doc">Unified Manager에서 OnCommand Workflow Automation 설정 제거</block>
   <block id="c686294e33f9c9ee0d43a373612ec429" category="doc">지연 문제 해결</block>
   <block id="566880194f083ac437b3ef244cdea542" category="doc">보호 작업 실패 해결</block>
-  <block id="d8412cee76046f96e32246dc67645a8a" category="doc">볼륨 및 볼륨/상태 세부 정보 페이지를 사용하여 데이터 복원</block>
   <block id="2500a8c431850ff9519a4af449454377" category="doc">볼륨 관계 페이지에서 정지된 관계에 대한 예약된 전송을 재개합니다.</block>
-  <block id="37249d428523ef8e7d1726e5497cbd9d" category="doc">볼륨/상태 세부 정보 페이지에서 정지된 관계에 대한 예약된 전송을 재개합니다.</block>
   <block id="aa22e26937bcd808c11aaed21c7223a2" category="doc">볼륨 관계 페이지에서 보호 관계를 다시 동기화합니다.</block>
-  <block id="7d63e1fb3ad8387dd82179afbf741b81" category="doc">볼륨/상태 세부 정보 페이지에서 보호 관계 재동기화</block>
   <block id="ebb8f779e7ed423461b77646ecb91d68" category="doc">실패한 보호 작업을 다시 시도합니다.</block>
   <block id="5ddae61cfb5255584059693784d89f43" category="doc">볼륨 관계 페이지에서 역방향 보호 관계</block>
-  <block id="64abd551a3f79c0ea52091278c439d08" category="doc">볼륨/상태 세부 정보 페이지에서 역방향 보호 관계</block>
   <block id="9a88d74907cdcd728b4c30df81712e1c" category="doc">Unified Manager에서 보호 관계 설정</block>
-  <block id="e3d4795950382c935dcaa4e4cdff7984" category="doc">볼륨/상태 세부 정보 페이지에서 보호 관계를 초기화하거나 업데이트합니다.</block>
   <block id="24f7310ad31cb694d59f5c3bbdada503" category="doc">Workflow Automation에서 Unified Manager 데이터 소스 캐싱 확인</block>
   <block id="ec7d92235d0dc6e0acfa017dfe7f1dbd" category="doc">작업 세부 정보를 봅니다</block>
   <block id="0ee908bc1d5ffbef058ececb47b552d6" category="doc">스토리지 VM 페이지에서 보호 관계 보기</block>
@@ -11599,10 +11541,8 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="052802bf01724d178f782683f47ef3ce" category="doc">알림 편집</block>
   <block id="d9c266508708ddff4f0fbf17a60d1ff6" category="doc">Active IQ 이벤트 보고 활성화 및 비활성화</block>
   <block id="d89dafa8f3904eba71639a8192ef7286" category="doc">재해 복구 대상 볼륨을 경고 생성에서 제외합니다.</block>
-  <block id="13ad74a0e0abb2ccd14e7c0398a42b6f" category="doc">Unified Manager 자동 수정을 사용하여 문제 해결</block>
   <block id="2ff1e10762e13347b0e2ab1f8f31ef8a" category="doc">호스트 시스템 리소스 이벤트 관리</block>
   <block id="a6e27da0af54653e4b56d54895689ae0" category="doc">클러스터 이벤트 알림을 비활성화하기 위한 유지 관리 기간 예약</block>
-  <block id="b5ac721eef447f2c9dadc12f4344b2c5" category="doc">ONTAP EMS 이벤트 구독하기</block>
   <block id="1a990f5d1c13071a14da39e12358a7d9" category="doc">경고를 테스트합니다</block>
   <block id="4b11c5a13c801a8e0fe6c41ef13d1f87" category="doc">테스트 스크립트 실행</block>
   <block id="6946512a9a6a7f606ce68ad9de409469" category="doc">새로운 Active IQ 규칙 파일 업로드</block>
@@ -11631,7 +11571,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="38a70899b496cb8ff9211e6dda93b08e" category="section-title">주문형 지원 번들 업로드</block>
   <block id="db640ddee1f72e31b1c4cad3db31cdad" category="section-title">HTTP 프록시 서버 설정</block>
   <block id="186f18968bdcfb073f2148f397333939" category="doc">보안 이벤트에 대한 알림 추가</block>
-  <block id="7e4baf40283e5503466b36fc9e40d36c" category="doc">동적으로 주석 추가</block>
   <block id="e4483f896e9d43b1460e7b0dd224353b" category="doc">개별 저장소 객체에 수동으로 주석 추가</block>
   <block id="c3a3c643de3a41b4be90f160e90b6c92" category="doc">그룹 작업 추가</block>
   <block id="ebbc8024d6e3027c45f93495b17e5814" category="doc">그룹 규칙 추가</block>
@@ -11673,7 +11612,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="f131b21e8e0d011fa49ad94a641507c0" category="doc">개별 볼륨 상태 임계값 설정 편집</block>
   <block id="b607dce58afdbf4fdd5bc6f939c41e73" category="doc">지원 번들을 생성하고 업로드합니다.</block>
   <block id="3658416cd97c7673eeb5f11d1c08a0a5" category="doc">계약 갱신을 위한 하드웨어 인벤토리 보고서 생성</block>
-  <block id="19fea0107ece324be610296c94829848" category="doc">Unified Manager 가상 어플라이언스를 Linux 시스템으로 마이그레이션</block>
   <block id="0c037b40d394632e7bc09fc7de801365" category="doc">스토리지 장애 조치 상호 연결 링크가 다운된 경우 시정 조치를 수행합니다.</block>
   <block id="1015ad7e53ddd6eceb233d1b239fee9f" category="doc">볼륨 오프라인 조건에 대한 진단 작업 수행</block>
   <block id="032b7c9be27bd45ae71fc749a2afbf38" category="doc">전체 볼륨에 대해 제안된 시정 조치를 수행합니다.</block>
@@ -11696,8 +11634,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="37c6bc247580228ae479e91df577d411" category="doc">모든 활성 보안 이벤트 보기</block>
   <block id="aa3a466749e7289cff4b6b9b86e73668" category="doc">주석 목록 및 세부 정보 보기</block>
   <block id="1b991093b7a359a451ae9b7d218529f0" category="doc">클러스터 목록 및 세부 정보 보기</block>
-  <block id="463fcd04a6e1d96700d9306d57c52bec" category="doc">클러스터 및 스토리지 VM의 보안 상태 보기</block>
-  <block id="bf31252c8114bca55bbaea17ee76761d" category="doc">SMB/CIFS 주식에 대한 세부 정보 보기</block>
   <block id="0ce22385009ce9369913596357e6e111" category="doc">NFS 공유에 대한 세부 정보 보기</block>
   <block id="501777f5d41b13b834ae2290c5104075" category="doc">모든 볼륨의 암호화 상태 보기</block>
   <block id="829dc3893fbfe0db837bd5a4d95dae79" category="doc">FabricPool 용량 정보 보기</block>
@@ -11724,7 +11660,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="6f8fc1a732f8e9c0ecc7a373fe3963dd" category="section-title">SELinux 컨텍스트를 구성합니다. <block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 마운트되어 있으며 <block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 별도로 마운트되지 않습니다</block>
   <block id="49b0dc9fabe00e7c4b4f8c862e5ff8e2" category="doc">호스트 OS를 Red Hat Enterprise Linux 7.x에서 8.x로 업그레이드합니다.</block>
   <block id="795088718d6b8600befb107d6935420d" category="doc">Linux에서 OpenJDK 업그레이드</block>
-  <block id="988520e8a20d3e54853b0aa9bc06383d" category="doc">Unified Manager 배포</block>
   <block id="d4ed213e48bb59049f918071485f048b" category="doc">Unified Manager 업그레이드 파일 다운로드</block>
   <block id="ab97f40bd594544f850a5adb2e63dbc2" category="doc">Unified Manager 설치 파일을 다운로드하세요</block>
   <block id="a47ece29cefaaefed25faaaf7fe4d3ad" category="doc">Unified Manager 가상 어플라이언스 업그레이드</block>
@@ -11750,12 +11685,10 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="6697910a5988a01d20809f4dcc798556" category="doc">대시보드에서 클러스터 성능 모니터링</block>
   <block id="5d18145e0e05f161f3e1e98db4f152b6" category="doc">성능 인벤토리 페이지를 사용하여 성능 모니터링</block>
   <block id="e0e59de52e913d5646d302d54d5a14f8" category="doc">성능 탐색기 페이지를 사용하여 성능 모니터링</block>
-  <block id="594a4db135639c7fde0065b7d401df8f" category="doc">Unified Manager GUI에서 성능 워크플로 탐색</block>
   <block id="b2488fac35b98eec6768b7446cbe8b6d" category="doc">저장소 객체 검색</block>
   <block id="3723369e76ebdea459a19b9b2b5dbd85" category="doc">Unified Manager 서버와 외부 데이터 공급자 간의 연결 설정</block>
   <block id="95ca3a85df3d1b2e9afe59e749b68128" category="doc">Unified Manager에서 성능 데이터를 수신하도록 Graphite를 설정합니다.</block>
   <block id="5bc7268e10d1da9e6517927fc4d717c0" category="doc">워크로드 분석기를 사용하여 워크로드 문제 해결</block>
-  <block id="31c0246ec18e47b42a68c5ad83462d84" category="doc">카운터 차트 이해하기</block>
   <block id="c4640b4664ce74b8bd8cbab43db77e94" category="doc">정의된 블록 크기가 있는 적응형 QoS 정책의 이벤트를 이해합니다.</block>
   <block id="7c73dc1adcc2306de5ccd74626719947" category="doc">성능 클러스터 랜딩 페이지 이해</block>
   <block id="9f552d26df094f60cd6e058eba7af78a" category="doc">성능 이벤트 및 알림 이해</block>
@@ -11847,7 +11780,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="8d2f37e6ac92e0ed66e30786d85cdef3" category="doc">스냅샷 자동 삭제가 꺼진 볼륨 중 전체 용량에 근접한 볼륨을 식별하기 위한 보고서를 만듭니다.</block>
   <block id="3aa288501382fefd7e1f3ae9f69059ec" category="doc">총 용량 대비 사용 가능한 용량 차트를 보여주는 보고서를 만듭니다.</block>
   <block id="95f867922ec550b946495fc45ea106c5" category="doc">전체 용량에 도달한 집계를 보려면 보고서를 만드세요.</block>
-  <block id="1470cc59f5f49693a0e27b48f9d9c898" category="doc">80% 이상 채워진 집계를 보려면 보고서를 만드세요.</block>
   <block id="8294c47f8bce67beff0373ef90563775" category="doc">과도하게 약속된 집계를 보려면 보고서를 만드세요.</block>
   <block id="57756939039c77f1de5bcc2d1a1f63ae" category="doc">가장 많은 사용 가능한 IOPS를 포함하는 집계를 보려면 보고서를 만듭니다.</block>
   <block id="c56924b882e7437001e430b989925b0e" category="doc">사용 가능한 볼륨 용량 차트를 보려면 보고서를 만드세요.</block>
@@ -11882,7 +11814,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="88b57aee405c091b7a1f2996084fcd3e" category="section-title">단일 작업 부하에 정책 할당</block>
   <block id="bfc2a260274bb0816924a717db06a346" category="section-title">여러 스토리지 워크로드에 정책 할당</block>
   <block id="0a557ce394e16501ebc1d56b12eb5158" category="section-title">작업 부하에 시스템 권장 PSL 할당</block>
-  <block id="07252ce62a36a2f8933f6f4140963044" category="doc">Unified Manager에서 직접 ONTAP 문제 또는 기능을 관리하세요.</block>
   <block id="554b6980724f63126d7b320e7fa17f03" category="doc">MetroCluster 구성 관리 및 모니터링</block>
   <block id="0d9029e785d6af991e53b31b279e9aa4" category="doc">클러스터 관리</block>
   <block id="3b9c157ee8a5301c8064fc56189c32a8" category="inline-link-macro">성능 서비스 수준 생성 및 편집</block>
@@ -11913,7 +11844,6 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="660f9b7acf572dc427717e2b7e0c6c8f" category="doc">즐겨찾는 도움말 항목을 북마크하세요</block>
   <block id="698b109c35203be17afc19a47377329d" category="doc">Unified Manager가 이벤트 및 성능 데이터를 보관하는 기간 변경</block>
   <block id="094bdf834b6c62ab59a28b295dcb58ba" category="doc">사용자 및 사용자 그룹 할당량에 대한 이메일 알림 형식을 만듭니다.</block>
-  <block id="3b3a40692717f8ed005f772072b9029d" category="doc">성능 서비스 수준 생성 및 편집</block>
   <block id="3ebbe434cc9a0267d2863042afe8b016" category="doc">스토리지 효율성 정책 생성 및 편집</block>
   <block id="efc52a9aae4ea049c06fd1c64dcffa69" category="doc">이메일 주소를 생성하는 규칙을 만듭니다.</block>
   <block id="bed88cb53acbbdb612f7951337010250" category="doc">클러스터 편집</block>
@@ -11927,13 +11857,11 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="e966de8644c0634031b3732d9d7172f4" category="section-title">FC 구성을 통한 MetroCluster에 대한 복제 보기</block>
   <block id="7cacdc514c5568ee6de8aa9e11ebdf07" category="doc">파일 공유 볼륨 제공</block>
   <block id="5cd0e6ae4694b84102b9df3c52d21ad3" category="doc">LUN 프로비저닝</block>
-  <block id="1d0192777aff2fb008bc8e0bdbf0829b" category="doc">클러스터 재발견</block>
   <block id="f253fdd547a6f5e0e05bbdb671ae8b24" category="doc">클러스터를 제거합니다</block>
   <block id="f4bd4a97771e88918f21c2788fb2a8dc" category="doc">vCenter Server 제거</block>
   <block id="6f083f218c5414e801b9cef7f567293b" category="doc">Unified Manager 도움말 사용</block>
   <block id="24943f00d14574a8e13c4a3b3118115e" category="doc">알림 벨에서 활성 이벤트 보기</block>
   <block id="ba0cc63a1ecb931f4210b50eab228328" category="doc">vCenter Server 보기 및 추가</block>
-  <block id="5c101da7062b6773f25d635a839bddd0" category="doc">모니터링되는 클러스터 목록 보기</block>
   <block id="5792689c1b5326c3d5b4df2091174b4f" category="doc">수정하기로 선택한 관리 작업의 상태를 확인하세요.</block>
   <block id="867a6d6f587d174dedaa9daa2df11935" category="doc">사용자 및 사용자 그룹 할당량 보기</block>
   <block id="91963bd27928c6f636a10f0ab3ff2e8a" category="sidebar">데이터 센터의 스토리지 객체 관리</block>
@@ -12025,19 +11953,14 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="469228004487fcc667bf369582833cc1" category="paragraph">12GB</block>
   <block id="7cf49a8cab90d5b1dc8bb6168b8e25f4" category="inline-link-macro">통합 관리자 모범 사례 가이드</block>
   <block id="89b5277f8d4fd00ec520a15062f36ee4" category="list-text">참고로, 스토리지 가상 머신(SVM) 또는 클러스터를 알림 리소스에 추가하는 경우 하위 개체는 자동으로 추가되지 않습니다. 예를 들어, 클러스터를 경고의 리소스에 추가하더라도 경고에 노드나 LUN이 자동으로 추가되지는 않습니다.</block>
-  <block id="72351f5aa135c1d7ffc7c5b47be4a6d2" category="doc">Unified Manager 감사 로그 구성</block>
   <block id="aca31ed102e613948a8b22994dddc430" category="paragraph">원격 로깅을 활성화하려면 *원격 로깅 활성화*를 선택하십시오.</block>
-  <block id="cb76e5d36c6cc17b94dee092ff59b087" category="doc">Unified Manager 클라이언트 인증서를 다시 생성합니다.</block>
   <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">System Manager를 사용하여 ONTAP 인증서 관리</block>
   <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*관련 정보* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
-  <block id="3e4eb743748e538f59a50a73d5f8b602" category="doc">Unified Manager 세션 비활성 시간 제한을 설정합니다.</block>
   <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">설치 프로그램이 필요한 모든 소프트웨어 종속성을 설치하려면 시스템이 특정 저장소 및 패키지에 접근할 수 있어야 합니다.</block>
-  <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">Unified Manager에 필요한 소프트웨어를 설치하세요.</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (Red Hat Extra Enterprise Linux Server 저장소에서 가져옴)</block>
   <block id="bff93131b836db7dbfe3c0ef47a3bdfb" category="inline-link-macro">7-zip 소프트웨어 패키지를 구성합니다.</block>
   <block id="461c8ff1de784c3f512e2bab8a2bb39d" category="list-text">7zip 버전 7z2301-linux-x64. 더 자세한 정보를 보려면 다음을 참조하세요. <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
   <block id="e015944bfff042d3f68ba5273a29764f" category="summary">Red Hat Enterprise Linux(RHEL) 시스템에 Unified Manager를 성공적으로 설치하려면 시스템에 7-zip 패키지에 대한 접근 권한이 설정되어 있어야 합니다.</block>
-  <block id="85dda2f348fcdccc0aaeab4cbe8f599f" category="doc">Unified Manager용 7-zip 소프트웨어 패키지를 구성합니다.</block>
   <block id="f4545e72494a629211274696dc51101a" category="paragraph">Red Hat Enterprise Linux 시스템에 Unified Manager를 성공적으로 설치하려면 시스템에 7-zip 소프트웨어 패키지에 대한 접근 권한이 설정되어 있어야 합니다. 네트워크 접속이 가능하고 7-zip URL이 방화벽에 의해 차단되지 않은 경우, 7-zip은 설치 또는 업그레이드 과정 중에 자동으로 시스템에 다운로드됩니다. NetApp 자동 다운로드 방식을 권장합니다.</block>
   <block id="69e854a4bf0030976395f03271128807" category="paragraph">Unified Manager가 7-zip 소프트웨어 패키지를 자동으로 다운로드할 수 있도록 방화벽에서 다음 URL이 차단 해제되어 있는지 확인하십시오.<block ref="149f97a3106ff103273136be2377c5c5" prefix=" " category="inline-code"></block></block>
   <block id="37c1dac21aa18b5553076dd69c0d4f88" category="paragraph">또는 7-zip을 미리 설치할 수도 있습니다.</block>
@@ -12115,4 +12038,792 @@ LUN을 사용하여 애플리케이션 보호 Active IQ Unified Manager에서 �
   <block id="090c8104c89a24e16b32214c066c6f21" category="image-alt">레이블이 지정된 탐색, 검색, 필터 및 보고서 컨트롤이 있는 Active IQ Unified Manager 오브젝트 목록 창의 스크린샷</block>
   <block id="fd5189ced6c908af40fee28d211b4c0a" category="image-alt">탭, 용량 세부 정보, 관련 오브젝트, 기록 및 이벤트가 있는 Active IQ Unified Manager 볼륨 세부 정보 창을 보여주는 스크린샷</block>
   <block id="ebe5a1b0891ca6dea431768b7ab00971" category="paragraph">클러스터를 사용 중지하기 전에 Unified Manager에서 클러스터를 제거해야 합니다. 클러스터 제거를 시도할 때 클러스터가 이미 오프라인 상태이거나 연결할 수 없는 경우 Unified Manager는 클러스터와 통신하여 애플리케이션 레코드 및 구성된 이벤트 관리 시스템(EMS) 구독을 제거할 수 없습니다. 이로 인해 제거 프로세스가 실패하거나 완료되기 전에 응답하지 않게 됩니다.</block>
+  <block id="3ea17c1538b1f44c0f52b8c09186a726" category="doc">Active IQ Unified Manager에서 API를 사용하여 관리 작업 수행</block>
+  <block id="4b5806cca253e51c914ae320638931fc" category="doc">Active IQ Unified Manager에서 시스템 로그로 문제 해결</block>
+  <block id="6a498df8ce18a9ee07ee9a16fc816256" category="doc">Active IQ Unified Manager API 액세스 및 범주 관리</block>
+  <block id="f9cd1307b5347e1707177baa6b154877" category="doc">Active IQ Unified Manager가 비동기 처리를 위해 작업 오브젝트를 사용하는 방식 이해</block>
+  <block id="1a8ea23f81b7a5d9b145553c73fbd5b8" category="doc">Active IQ Unified Manager에서 API를 사용하여 데이터 센터의 스토리지 오브젝트 관리</block>
+  <block id="60d4914cf48073b0cb926300ed377fbc" category="doc">Active IQ Unified Manager에서 API를 사용하여 이벤트 및 알림 관리</block>
+  <block id="72fa88163eabd2de6cbce45b5f7cbe8c" category="doc">Active IQ Unified Manager 이벤트 API를 사용하여 스토리지 오브젝트 문제를 파악합니다.</block>
+  <block id="a82c6f27bf47651fd1b9f605f673fbd9" category="doc">Active IQ Unified Manager에서 프록시 액세스를 통해 ONTAP API에 액세스합니다</block>
+  <block id="f3c90f468ee814df39d332b01c1b121d" category="doc">Active IQ Unified Manager의 Hello API 서버 샘플 프로그램에 대해 알아보기</block>
+  <block id="f46283e5d6996e4e933c256e2c3db114" category="doc">Active IQ Unified Manager에서 API를 사용하여 작업 및 시스템 세부 정보 보기</block>
+  <block id="be7b44fdf6b82a0c627383cf30fa1b4f" category="doc">Active IQ Unified Manager에서 API를 사용하여 액세스 엔드포인트 관리</block>
+  <block id="557a0531caa33494d53e52fc09cdd447" category="doc">Active IQ Unified Manager에서 API를 사용하여 Active Directory 매핑 관리</block>
+  <block id="bdf344746318dc546e61e6e732058b87" category="doc">Active IQ Unified Manager에서 API를 사용하여 파일 공유 관리</block>
+  <block id="330c586e3cf6ca7b792e71451b347f2a" category="doc">Active IQ Unified Manager에서 API를 사용하여 LUN 관리</block>
+  <block id="0b498f4c86114a8d86a6f294c6ef88d8" category="doc">Active IQ Unified Manager에서 API를 사용하여 성능 서비스 수준 관리</block>
+  <block id="5c06dfd47a373f2720f9daf65f49abe2" category="doc">Active IQ Unified Manager에서 API를 사용하여 스토리지 효율성 정책 관리</block>
+  <block id="9a059cf8542681c45f3c9ac092b3c338" category="doc">Active IQ Unified Manager에서 스토리지 관리 API 검토</block>
+  <block id="a644bbf08605085bd8a5cdf376974b43" category="doc">Active IQ Unified Manager에서 API를 사용하여 성능 메트릭 보기</block>
+  <block id="f5ca4c100a8f248f6e3ecdf56fa6c763" category="doc">Active IQ Unified Manager에서 API를 사용하여 스토리지 워크로드 수정</block>
+  <block id="7830205b499fe991f7bdb91955ce0f75" category="doc">Active IQ Unified Manager 게이트웨이 API를 사용하여 ONTAP 볼륨 문제 해결</block>
+  <block id="5c6eb92044bd0057745dd84bc3b08d7c" category="doc">Active IQ Unified Manager API를 사용하여 CIFS 및 NFS 파일 공유를 프로비저닝합니다.</block>
+  <block id="ad0e5e3c52c989e20ea3365933732406" category="doc">Active IQ Unified Manager API를 사용하여 LUN 프로비저닝</block>
+  <block id="bb40a4b31b72f40f6c82fee523b86852" category="doc">Active IQ Unified Manager에서 스토리지 워크로드 프로비저닝 및 수정</block>
+  <block id="fc40282dc082fd53da66e047d4105c85" category="doc">Active IQ Unified Manager에서 REST API 액세스 및 인증</block>
+  <block id="2d8f4fd16ff30ca28ab4dbd07b593f74" category="doc">Active IQ Unified Manager의 API 버전 번호 이해</block>
+  <block id="615ed386d0411e2ef37ec51d466dff81" category="doc">Active IQ Unified Manager에서 제공되는 REST 서비스 이해</block>
+  <block id="46f2f1971c436713f6580a41c1988c7d" category="doc">API를 사용하여 Active IQ Unified Manager에서 사용자 관리</block>
+  <block id="939c5f21f82ae6cbe7e51522cea3bb4a" category="doc">Active IQ Unified Manager의 ONTAP 스토리지 리소스 모델 이해</block>
+  <block id="ae1bb6753eb812403d07bd37fa91df30" category="doc">Active IQ Unified Manager REST API의 범주 이해</block>
+  <block id="17eb7d72c58262eecad0c6f0e58511ef" category="doc">Active IQ Unified Manager API를 사용하여 ONTAP 클러스터의 SVM 검증</block>
+  <block id="0203b12eba4f372f1f775ff3064209de" category="doc">Active IQ Unified Manager에서 API를 사용하여 스토리지 워크로드 보기</block>
+  <block id="dcb0aa6f593347ef9a58b6e5326971bc" category="doc">Active IQ Unified Manager의 스토리지 관리를 위한 일반적인 API 워크플로우 이해</block>
+  <block id="9ecfed039a767bc63208d9ead3a8213d" category="doc">Active IQ Unified Manager API를 사용하여 애그리게이트의 공간 문제 파악</block>
+  <block id="ae8525699bf06f5dcc8470407995cd22" category="doc">Active IQ Unified Manager HTTP 상태 코드에 대해 알아보기</block>
+  <block id="5af4fa4cfb67903d2efc98b2165ed38f" category="doc">Active IQ Unified Manager REST API의 예상 사용자를 파악합니다.</block>
+  <block id="2ab116ca781f9a9c3e2587e718d5fb8e" category="doc">Active IQ Unified Manager API 사용에 대한 권장 사례를 따르십시오.</block>
+  <block id="e70714bd7a1e1b0adf7f5c83748d338d" category="doc">Active IQ Unified Manager API를 사용하여 CIFS를 지원하도록 NFS 파일 공유 수정</block>
+  <block id="ba994fd6a3c508b9c210a00fbb3e646a" category="doc">Active IQ Unified Manager에서 Active IQ 포털 이벤트 활성화</block>
+  <block id="12101b017804ed04d867cd0157e06d10" category="doc">Active IQ Unified Manager 데이터베이스 디렉터리에 디스크 공간 추가</block>
+  <block id="c0ed2c8ab6a460c2375f5e5d58499a05" category="doc">Active IQ Unified Manager의 API Gateway 기능에 대해 알아보기</block>
+  <block id="ac955911d0f754875f74ac112c0af065" category="doc">Active IQ Unified Manager의 감사 로그에 대해 알아보기</block>
+  <block id="fba6c91bf794e0babdca90d6471a67ae" category="doc">Active IQ Unified Manager에서 Active Directory 또는 OpenLDAP으로 인증</block>
+  <block id="3866df1bac2cb128b41bd561b97075da" category="doc">Active IQ Unified Manager 호스트 이름 변경</block>
+  <block id="d4b960c3535e282ce85c82f9cc6f047f" category="doc">Active IQ Unified Manager 백업 구성</block>
+  <block id="2bd8e128d8a1eac920d0b22bbca6a870" category="doc">Active IQ Unified Manager 구성에 대해 알아보기</block>
+  <block id="14078dbe09a0d583317c9c30b6b63570" category="doc">Active IQ Unified Manager에서 비활성 시간 초과 지정</block>
+  <block id="08259ebdba5f5ec23d9d6695c4725e72" category="doc">Active IQ Unified Manager에서 외부 툴을 사용하여 생성된 HTTPS 인증서에 대해 알아보세요.</block>
+  <block id="cfd76692c8b8c940c44afcfdd099124b" category="doc">Active IQ Unified Manager에 로그인 배너 추가</block>
+  <block id="0b6fac564afd567fa9448a8c6f4bd328" category="doc">Active IQ Unified Manager의 유지보수 콘솔 메뉴에 대해 알아보기</block>
+  <block id="d766961b8d7212f0954f55e7583c3ea0" category="doc">Active IQ Unified Manager에서 인증 활성화</block>
+  <block id="451c801bdeef9faaddcefd06f5389075" category="doc">Active IQ Unified Manager의 기능 설정에 대해 알아보기</block>
+  <block id="50b8767678de7956c07fa9c9981816e4" category="doc">Active IQ Unified Manager에서 SAML 인증 활성화</block>
+  <block id="2a089b11e833e1ed82120292ee5336a2" category="doc">Active IQ Unified Manager에서 보안 인증서 관리</block>
+  <block id="48727c7a2750c4a628441c22d22e7f21" category="doc">Active IQ Unified Manager에서 사용자 액세스 관리</block>
+  <block id="558ee5aab1d6df4968febb66facbc08d" category="doc">Active IQ Unified Manager의 구성 순서에 대해 알아보기</block>
+  <block id="2c86b375c0a3b46d1d47cfae003613ba" category="doc">Active IQ Unified Manager의 HTTPS 인증서 페이지를 사용합니다</block>
+  <block id="e7deaf81d671947add80b5ea992be64c" category="doc">Active IQ Unified Manager에서 정책 기반 스토리지 관리 활성화</block>
+  <block id="907cbda05a1be185a20eebfd42797da5" category="doc">Active IQ Unified Manager에서 규정 준수를 위한 보안 설정 활성화 및 비활성화</block>
+  <block id="41d9b7b6bb12ab79120100210e89d450" category="doc">Active IQ Unified Manager의 진단 사용자 기능</block>
+  <block id="6be1b93ac3b6f80069f0f669c524c0f9" category="doc">Active IQ Unified Manager의 유지 관리 콘솔에 대해 알아보기</block>
+  <block id="1b1ccdbb25121ab3a54cbf73b383edc5" category="doc">Active IQ Unified Manager의 유지 관리 사용자에 대해 알아보십시오</block>
+  <block id="6d9d6f51d953a33201e19ec9047f78cc" category="doc">Active IQ Unified Manager의 역할 기반 액세스 제어에 대해 알아보기</block>
+  <block id="a5cd7b85ba74c866197623130e20eef5" category="paragraph">RBAC(역할 기반 액세스 제어)는 Active IQ Unified Manager 서버의 다양한 기능 및 리소스에 대한 액세스 권한을 제어할 수 있는 기능을 제공합니다. RBAC를 통해 관리자는 역할을 정의하여 사용자 그룹을 관리할 수 있습니다. 특정 기능에 대한 액세스를 특정 관리자로 제한해야 하는 경우 해당 관리자 계정을 설정해야 합니다. 관리자가 볼 수 있는 정보와 수행할 수 있는 작업을 제한하려면 생성한 관리자 계정에 역할을 적용해야 합니다.</block>
+  <block id="165c203f50b1aebd6a9a6eaf630a758c" category="doc">Active IQ Unified Manager의 추가 유지 관리 콘솔 메뉴 옵션에 대해 알아보기</block>
+  <block id="52580103d219255023760ea06154001d" category="doc">Active IQ Unified Manager의 사용자 역할에 대해 알아보기</block>
+  <block id="ccf295863d6f02aba93953a4e7399762" category="doc">Active IQ Unified Manager의 사용자 유형에 대해 알아보기</block>
+  <block id="90110a471ab68c56a1ce77290b4a9e7d" category="doc">Active IQ Unified Manager의 HTTPS 인증서 페이지에 대해 알아보기</block>
+  <block id="d4b389e3d47e636778637ca43f68fca5" category="doc">Active IQ Unified Manager에서 ID 공급자 사용</block>
+  <block id="b3e995a5e501598465e2fc95532e0ce1" category="doc">Active IQ Unified Manager의 네트워크 구성 메뉴</block>
+  <block id="3a74b727c03579fe4b6bafaf10e04dde" category="doc">Active IQ Unified Manager에서 HTTPS 인증서 재생성 대화 상자</block>
+  <block id="ce4da7f8f890859946a6754fe9221071" category="doc">Active IQ Unified Manager의 원격 인증 페이지 사용</block>
+  <block id="ce0839f2de5c70571d1b51b1be81e687" category="doc">Active IQ Unified Manager의 SAML 인증 페이지를 사용합니다</block>
+  <block id="acc98da31b9b47ad35dfc0bd7d17048b" category="doc">Active IQ Unified Manager의 Support and Diagnostics 메뉴를 사용합니다</block>
+  <block id="694ae542a0f0d617e72250a26149a2fa" category="doc">Active IQ Unified Manager에서 시스템 구성 메뉴 사용</block>
+  <block id="563bc08449e6abfc4d04022972d1bc7a" category="doc">Active IQ Unified Manager의 사용자 역할 및 기능에 대해 알아보기</block>
+  <block id="2592754161d13f6abe1293ad13c9ee63" category="doc">Active IQ Unified Manager에서 유지보수 콘솔에 액세스합니다</block>
+  <block id="b9f6113c3374d6e7e1da7268990243a3" category="doc">Active IQ Unified Manager에서 vSphere VM 콘솔을 사용하여 유지 관리 콘솔에 액세스합니다</block>
+  <block id="b80b79445102bca8e5d4c7c24b929292" category="doc">Active IQ Unified Manager에서 웹 UI에 액세스합니다</block>
+  <block id="81995afeeb67565a03d67d5a9631d59c" category="doc">Active IQ Unified Manager에 네트워크 인터페이스 추가</block>
+  <block id="154acdd6932346215da39222627c5b4f" category="doc">Active IQ Unified Manager에서 알림 추가</block>
+  <block id="318824da9543dd578a1126faf2fbf16a" category="doc">Active IQ Unified Manager에 인증 서버 추가</block>
+  <block id="f3dd2cc78c0c55ff9cb6bf300362c111" category="doc">Active IQ Unified Manager에 클러스터 추가</block>
+  <block id="f277e7a3284b88e104ec628a0539c6ad" category="doc">Linux 호스트의 데이터 디렉토리에 공간 추가 Active IQ Unified Manager</block>
+  <block id="c2af2f7f2efe8d913b7bfb32f7518367" category="doc">Active IQ Unified Manager의 VMware 가상 머신에서 데이터 디스크에 공간 추가</block>
+  <block id="ba49fff3984a4fef8d2f43ff6736e80d" category="doc">Active IQ Unified Manager에서 Windows 서버의 논리 드라이브에 공간 추가</block>
+  <block id="de15ae06772d0bf247695724c9068643" category="doc">Active IQ Unified Manager에서 사용자 추가</block>
+  <block id="ccbbd24c9fdfc6bec64f8337588e2a56" category="doc">Active IQ Unified Manager에서 SAML 인증 ID 공급자 변경</block>
+  <block id="6ac2ef7ac18dac99a89d8baa636f45b1" category="doc">Active IQ Unified Manager에서 로컬 사용자 암호 변경</block>
+  <block id="6de960f3b2cbf16565ad76519fe7df40" category="doc">Windows의 Active IQ Unified Manager에서 유지 관리 사용자 암호 변경</block>
+  <block id="9af9dc0a8bea886ed46356571f49df9a" category="doc">Active IQ Unified Manager에서 HTTP 및 HTTPS 프로토콜에 사용하는 포트 변경</block>
+  <block id="5ae03f28725ddee49395da71cc3e1abe" category="doc">Linux 시스템에서 Active IQ Unified Manager 호스트 이름 변경</block>
+  <block id="e1b1e5cefa5b31de07b367201ccd9997" category="doc">Linux 시스템에서 Active IQ Unified Manager umadmin 암호 변경</block>
+  <block id="2b20c27429f8d59ea861ec92c2b964b0" category="doc">Active IQ Unified Manager 가상 어플라이언스 호스트 이름 변경</block>
+  <block id="2c7686b00c57bb0204a3d1d8589faa92" category="doc">Active IQ Unified Manager 감사 로그 구성</block>
+  <block id="d348e5b30c23d8545732092133350714" category="doc">Active IQ Unified Manager에서 이벤트 알림 설정 구성</block>
+  <block id="c8e0b05786efe80fbf573e9bf40f222c" category="doc">Active IQ Unified Manager에서 알림 알림을 보내도록 구성합니다.</block>
+  <block id="5d1c3504cc054a879d0fc1637a89d4bd" category="doc">Active IQ Unified Manager에서 데이터베이스 사용자 생성</block>
+  <block id="727dd5b1858cbe779b252fd93afbe3a2" category="doc">Active IQ Unified Manager에서 인증 서버 삭제</block>
+  <block id="afb6e67fd1fbf2904b38e20c65ab0df9" category="doc">Active IQ Unified Manager에서 사용자 또는 그룹 삭제</block>
+  <block id="1cf6e4470c08d0db0fd9d21241294e88" category="doc">Active IQ Unified Manager의 원격 인증에서 중첩 그룹 비활성화</block>
+  <block id="0418ec320356cfb35d2bf8d026f2dd8d" category="doc">Active IQ Unified Manager 유지 관리 콘솔에서 SAML 인증 비활성화</block>
+  <block id="9de00c9bb3a7abe61deb8b3377389520" category="doc">Active IQ Unified Manager에서 SAML 인증 비활성화</block>
+  <block id="3d532fd5e0c8248881b0dd11163e0577" category="doc">Active IQ Unified Manager에서 HTTPS 인증서 서명 요청 다운로드</block>
+  <block id="6c24b3a1ce6b1bcdf4d98c5f01cec38f" category="doc">Active IQ Unified Manager에서 인증 서버 편집</block>
+  <block id="d96d8c8c0de3925fbdea9f2a046a3e54" category="doc">Active IQ Unified Manager에서 사용자 설정 편집</block>
+  <block id="d89f706579c15149a1963803d5b3280e" category="doc">Active IQ Unified Manager에서 스크립트 업로드 활성화 및 비활성화</block>
+  <block id="f1fd3ff5c726790678c346d7715914e9" category="doc">Active IQ Unified Manager에서 정책 기반 스토리지 관리 활성화 및 비활성화</block>
+  <block id="21fd6cd6006aab1be74df0860bf42a3c" category="doc">Active IQ Unified Manager에서 원격 인증 활성화</block>
+  <block id="f8b33643ad377fe1aa1afc9ca7c76b70" category="doc">Active IQ Unified Manager에서 감사 로그의 원격 로깅 활성화</block>
+  <block id="1ab25ba509a80076636aad1178ef1a8c" category="doc">Active IQ Unified Manager에서 HTTPS 보안 인증서 생성</block>
+  <block id="2b2a8369f22181841473c7b344d76501" category="doc">Active IQ Unified Manager에 CA 서명 HTTPS 인증서를 설치합니다</block>
+  <block id="fe0c98310d009e83a97335017e7aba27" category="doc">Active IQ Unified Manager 웹 UI의 초기 설정을 수행하십시오.</block>
+  <block id="cf39f5da73ea6e0ed1a0d5030fbe4348" category="doc">Active IQ Unified Manager에서 클라이언트 인증서 재생성</block>
+  <block id="34a95d2cf507775726c41933ab9c7e46" category="doc">Active IQ Unified Manager 가상 머신을 다시 시작합니다</block>
+  <block id="1df2a6cddeeb9e1cb73c77d3c4e357c1" category="doc">Active IQ Unified Manager에서 세션 비활성 시간 초과 설정</block>
+  <block id="48ae3b08cac7f0ce9483048889330743" category="doc">Active IQ Unified Manager에서 CLI를 사용하여 세션 시간 초과 설정</block>
+  <block id="51ff887fb67bda640687e68b9f3c4503" category="doc">Active IQ Unified Manager에서 인증 서비스 설정</block>
+  <block id="5be4051030888384dbc3b78f9e4b7cc4" category="doc">Active IQ Unified Manager에서 인증 서버 구성 테스트</block>
+  <block id="e21f8f9712496e6a7a862bb5f56f8d60" category="doc">Active IQ Unified Manager 보안 인증서 변경 후 SAML 인증 설정 업데이트</block>
+  <block id="4cf1d09e6179d1b0482a3dc0081eae1a" category="doc">Active IQ Unified Manager 유지 관리 콘솔을 사용하십시오.</block>
+  <block id="6bbd6c7f32c6c75ae8472c88ce5bf10b" category="doc">Active IQ Unified Manager에서 HTTPS 보안 인증서 보기</block>
+  <block id="563dc82c461ed282a00b25f24bc03e88" category="doc">Active IQ Unified Manager에서 사용자 보기</block>
+  <block id="3bcb978335c18b8b9ecdebdf58ca591d" category="doc">Active IQ Unified Manager에서 보호 관계 생성 및 모니터링에 대해 알아보기</block>
+  <block id="dadae39cf2e4b77c99c5ab121ed94783" category="doc">Active IQ Unified Manager에서 보호 관계 관리 및 모니터링에 대해 알아보기</block>
+  <block id="8a0f63a220aa3141a819b5bbb950e9ae" category="doc">Active IQ Unified Manager의 스토리지 VM 재해 복구 관계에 대해 알아보십시오</block>
+  <block id="624153d2d07564649b89911b7d0fb8fb" category="doc">Active IQ Unified Manager에서 스토리지 서비스를 지원하기 위한 SVM 및 리소스 풀 요구사항</block>
+  <block id="3016a16be7f6108c73c7f84b1588f7f7" category="doc">Active IQ Unified Manager의 SnapMirror 보호 유형</block>
+  <block id="7cf981fb386e46536accc6f04e887369" category="doc">OnCommand Workflow Automation을 재설치 또는 업그레이드하면 Active IQ Unified Manager에 미치는 영향</block>
+  <block id="90d277e95deb51f98c801a90d1b8e8c1" category="doc">Active IQ Unified Manager의 작업에 대해 알아보기</block>
+  <block id="2032295cda560944e3c6098141a78b8e" category="doc">Active IQ Unified Manager의 리소스 풀에 대해 알아보십시오</block>
+  <block id="2079e69935064d3e9ecbdb784f5a5c15" category="doc">Active IQ Unified Manager에서 고급 대상 설정 대화 상자 사용</block>
+  <block id="4f228e0397d137ef35bb6d4a1f5b8064" category="doc">Active IQ Unified Manager에서 고급 보조 설정 대화 상자 사용</block>
+  <block id="ac83f8fef40a7cb0053b9d9a22976b01" category="doc">Active IQ Unified Manager에서 애그리게이트 대화 상자 사용</block>
+  <block id="4d537416aa52fd0f99f2239516d86f3d" category="doc">Active IQ Unified Manager에서 디렉토리 찾아보기 대화 상자 사용</block>
+  <block id="cd691146e00478c47d33f1b8b7ab5d44" category="doc">Active IQ Unified Manager에서 보호 구성 대화 상자 사용</block>
+  <block id="724a8827f936e7ddabbd425edb58090c" category="doc">Active IQ Unified Manager에서 리소스 풀 생성 대화 상자 사용</block>
+  <block id="9fa792e3b79be2fbea6fdfe88122f38d" category="doc">Active IQ Unified Manager에서 일정 생성 대화 상자 사용</block>
+  <block id="849fe714f8ca4df92ca2cfad09c3ef38" category="doc">Active IQ Unified Manager에서 SnapMirror 정책 생성 대화 상자 사용</block>
+  <block id="db382d7ddacc47f6972cddcfb1078f97" category="doc">Active IQ Unified Manager에서 SnapVault 정책 생성 대화 상자 사용</block>
+  <block id="169641426cee7744eb86f9c31b73748f" category="doc">Active IQ Unified Manager에서 보호 세부 정보 관리</block>
+  <block id="3047bb9d929d2a0870f2f2ccaa5b09f2" category="doc">Active IQ Unified Manager에서 보호 관계 편집</block>
+  <block id="6c070986f112b7db3c4dedc38aa8e06b" category="doc">Active IQ Unified Manager에서 리소스 풀 편집 대화 상자 사용</block>
+  <block id="ac2f8bac1ed026f36e92c53a8f34b913" category="doc">Active IQ Unified Manager에서 Initialize/Update 대화 상자 사용</block>
+  <block id="ed2bcee1ddc15e00415fb9e6723e18c5" category="doc">Active IQ Unified Manager의 작업 세부 정보 페이지에 대해 알아보기</block>
+  <block id="e49c9d0264bd2aacd47103f7f4e8681f" category="doc">Active IQ Unified Manager의 작업 페이지에 대해 알아보기</block>
+  <block id="88a4b2556acb1074a824eafc95fa0c77" category="doc">Active IQ Unified Manager에서 스토리지 VM 연결 관리</block>
+  <block id="3d07b1ff057260f92d4a2a6408fcb905" category="doc">관계 표시: Active IQ Unified Manager의 모든 관계 보기</block>
+  <block id="e1291856079a5237e929392442bf4713" category="doc">Active IQ Unified Manager에서 관계: 지난 1개월 전송 속도 보기를 표시합니다</block>
+  <block id="d09305d23132eb02b237fedfa8ffa8a4" category="doc">Active IQ Unified Manager에서 지난 1개월 전송 상태 보기 표시</block>
+  <block id="3771225f779792af950b6e46aebb5e7f" category="doc">Active IQ Unified Manager의 리소스 풀 페이지에 대해 알아보기</block>
+  <block id="92d99585f6182309ebeed4500b853b2c" category="doc">Active IQ Unified Manager의 복원 대화 상자 사용</block>
+  <block id="c21f0614c5f4842157e8c8a14be2b483" category="doc">Active IQ Unified Manager에서 재동기화 대화 상자 사용</block>
+  <block id="91a61192a05a97350dca7bb2709c6efd" category="doc">Active IQ Unified Manager에서 역방향 재동기화</block>
+  <block id="55aee2f360709fddb358f8409769c67a" category="doc">Active IQ Unified Manager에서 소스 스냅샷 복사본 선택 대화 상자 사용</block>
+  <block id="338e23c4cf3bbda9cbe7ba2995aef778" category="doc">Active IQ Unified Manager의 볼륨/상태 세부 정보 페이지에서 전송 중단</block>
+  <block id="fcef18a1dd03bb6113302d604736ce14" category="doc">Active IQ Unified Manager의 볼륨 관계 페이지에서 전송 중단</block>
+  <block id="ba3b708d35bea54636777e70916189f2" category="doc">Active IQ Unified Manager에서 작업 중단</block>
+  <block id="f24961d3f9a0cfeb2356667e6404be65" category="doc">Active IQ Unified Manager에서 리소스 풀 구성원 추가</block>
+  <block id="01ab9c06d40392af589d3062d88afba4" category="doc">Active IQ Unified Manager 볼륨 관계 페이지에서 SnapMirror 관계 해제</block>
+  <block id="ee8491e7c5938afddc7777a9b3f349aa" category="doc">Active IQ Unified Manager 볼륨/상태 페이지에서 SnapMirror 보호 관계 해제</block>
+  <block id="b0422be47cbe70960b7b5c99a1037f18" category="doc">Workflow Automation와 Active IQ Unified Manager 간의 연결 구성</block>
+  <block id="ba14af3dbd5b8954579233af02e231c4" category="doc">Active IQ Unified Manager에서 대상 효율성 설정 구성</block>
+  <block id="2c2fd2e52361e2085d5b373e37c9f60a" category="doc">Active IQ Unified Manager에서 캐스케이드 또는 팬아웃 관계를 사용하여 보호 확장</block>
+  <block id="91774748a4b48d05e44072275a6bd680" category="doc">Active IQ Unified Manager에서 리소스 풀 생성</block>
+  <block id="9cddb8b9da323419abad4749a6843d0e" category="doc">Active IQ Unified Manager에서 SnapMirror 및 SnapVault 일정 생성</block>
+  <block id="52d1dedfd0f03f32f74193431f9ad193" category="doc">Active IQ Unified Manager에서 전송 효율성을 극대화하기 위한 SnapMirror 정책 생성</block>
+  <block id="1f8b644a3bd0f557c78dfa529c950029" category="doc">Active IQ Unified Manager의 볼륨 상태 세부 정보 페이지에서 SnapMirror 관계 생성</block>
+  <block id="703f59e984fb8a54af83ce6bc83c9fc8" category="doc">Active IQ Unified Manager의 상태: 모든 볼륨 보기에서 SnapMirror 관계 생성</block>
+  <block id="5cb48742a6a7346305787beda0f1489c" category="doc">Active IQ Unified Manager에서 버전 유연한 복제를 사용하여 SnapMirror 관계 생성</block>
+  <block id="aaf8cc626a3c8c6ad5a7b95fb354574c" category="doc">Active IQ Unified Manager에서 버전 유연한 복제 및 백 옵션 기능을 사용하여 SnapMirror 관계 생성</block>
+  <block id="aaa3604bb380ea6473950c2624d441dd" category="doc">Active IQ Unified Manager에서 전송 효율성을 극대화하기 위해 SnapVault 정책을 생성합니다</block>
+  <block id="8e59cc4e2757ef8e95aee3f114537afa" category="doc">Active IQ Unified Manager의 Health: All Volumes 뷰에서 SnapVault 관계를 생성합니다.</block>
+  <block id="2fe59b25b6c6b63aea2956b25eea32c8" category="doc">Active IQ Unified Manager의 Volume/Health 세부 정보 페이지에서 SnapVault 보호 관계를 생성합니다.</block>
+  <block id="db457cc64fa16bf4f25ea60ab145518e" category="doc">Active IQ Unified Manager에서 리소스 풀 삭제</block>
+  <block id="39c5a14e567c2efe1d1ef2821c22097e" category="doc">Active IQ Unified Manager의 볼륨/상태 세부 정보 페이지에서 보호 관계 편집</block>
+  <block id="bc0382b0378bc0a9aa3fc9baeb08e1e6" category="doc">Active IQ Unified Manager의 볼륨 관계 페이지에서 보호 관계 편집</block>
+  <block id="96e252f5155c3adf0d8c038581f91205" category="doc">Active IQ Unified Manager에서 리소스 풀 편집</block>
+  <block id="c345689735d10af8bb7b469c49a3d21d" category="doc">Active IQ Unified Manager에서 실패한 보호 작업의 문제를 식별하고 수정 조치를 수행합니다</block>
+  <block id="7c5820b2be98095ce2107e259517b837" category="doc">Active IQ Unified Manager의 볼륨 관계 페이지에서 보호 관계 초기화 또는 업데이트</block>
+  <block id="d9faecaaf4102c87c82804d0ed9f7d40" category="doc">Active IQ Unified Manager에서 작업 모니터링</block>
+  <block id="189e73a453fb48f4c4da10e4cc5311f9" category="doc">Active IQ Unified Manager의 관계 페이지를 사용하여 스토리지 VM 모니터링</block>
+  <block id="6a2725cbc1ae7a05f409b46750e20729" category="doc">Active IQ Unified Manager에서 보호 관계 페일오버 및 페일백 수행</block>
+  <block id="0dcd741b9b6af9d14ce63818e9d6f73b" category="doc">Active IQ Unified Manager의 볼륨/상태 세부 정보 페이지에서 보호 관계 중지</block>
+  <block id="865c5bc6ccbb324dbb6d3d48b9f65286" category="doc">Active IQ Unified Manager의 Volume Relationships 페이지에서 보호 관계 중지</block>
+  <block id="34dc97e2216ab0eb59c0b498c1ab1184" category="doc">Active IQ Unified Manager의 리소스 풀에서 애그리게이트 제거</block>
+  <block id="3f389dea63edf2ee1225419a184f31ad" category="doc">Active IQ Unified Manager의 볼륨 관계 페이지에서 보호 관계 제거</block>
+  <block id="83641dbb7721af25438e579ca29865e2" category="doc">Active IQ Unified Manager의 볼륨/상태 세부 정보 페이지에서 보호 관계 제거</block>
+  <block id="a8c7fce87b2d952e98423b1ec4fa95b9" category="doc">Active IQ Unified Manager에서 OnCommand Workflow Automation 설정 제거</block>
+  <block id="44728f0347ae697e3f20ae2f693b2875" category="doc">Active IQ Unified Manager에서 지연 문제 해결</block>
+  <block id="e5f2793cd90802c2e7bd7dff9f94eb95" category="doc">Active IQ Unified Manager에서 보호 작업 실패 해결</block>
+  <block id="f9ce130ef6438f6b95e117435cfc588b" category="doc">Active IQ Unified Manager의 볼륨 및 볼륨/상태 세부 정보 페이지를 사용하여 데이터를 복원합니다</block>
+  <block id="c0539864a4910a49b8346e129f87fde6" category="doc">Active IQ Unified Manager의 볼륨 관계 페이지에서 일시 중지된 관계에 대한 예약된 전송 재개</block>
+  <block id="b87168b1b343726bc82d58594fb399f1" category="doc">Active IQ Unified Manager의 볼륨/상태 세부 정보 페이지에서 일시 중지된 관계의 전송 재개</block>
+  <block id="5a41fde0e67f902e38d45f488b40a164" category="doc">Active IQ Unified Manager의 볼륨 관계 페이지에서 보호 관계 재동기화</block>
+  <block id="85e870d6d9e24a1e907cc1bc5aa6a0d5" category="doc">Active IQ Unified Manager의 볼륨/상태 세부 정보 페이지에서 보호 관계 재동기화</block>
+  <block id="67d679336a20937a168216c9001f7d13" category="doc">Active IQ Unified Manager에서 실패한 보호 작업 재시도</block>
+  <block id="e10b181f5ff5e0c8c155b470ae8eda6a" category="doc">Active IQ Unified Manager의 볼륨 관계 페이지에서 보호 관계 반전</block>
+  <block id="fa537acdb2471fa911f44f6e2f296709" category="doc">Active IQ Unified Manager의 볼륨/상태 세부 정보 페이지에서 보호 관계 역방향 설정</block>
+  <block id="3c010d4645459a8aec38941346cbb660" category="doc">Active IQ Unified Manager에서 보호 관계 설정</block>
+  <block id="460121191cfe209a2875a70187dc6fe0" category="doc">Active IQ Unified Manager의 볼륨/상태 세부 정보 페이지에서 보호 관계 초기화 또는 업데이트</block>
+  <block id="3836dee5660154b7a5624bea6808e387" category="doc">Workflow Automation에서 Active IQ Unified Manager 데이터 소스 캐싱을 확인합니다.</block>
+  <block id="1b61724ffae0632579f99e7120e037ca" category="doc">Active IQ Unified Manager에서 작업 세부 정보 보기</block>
+  <block id="4e37cbdf03995f31c5aa9f3fe6122237" category="doc">Active IQ Unified Manager의 스토리지 VM 페이지에서 보호 관계 보기</block>
+  <block id="0fb1fd81ce895a799d2dff72eecb641c" category="doc">Active IQ Unified Manager에서 리소스 풀 인벤토리 보기</block>
+  <block id="99bbec9d4f938192df83d3f20e3fb35c" category="doc">Active IQ Unified Manager에서 보호 상태를 기반으로 스토리지 VM 보기</block>
+  <block id="40d0bf790a5a7994e152459e9710299c" category="doc">Active IQ Unified Manager에서 볼륨 보호 관계 보기</block>
+  <block id="4d4ac2b4ee63a3404546dd9c4da92d95" category="doc">Active IQ Unified Manager에서 Consistency Group LUN 관계 모니터링</block>
+  <block id="ac707d2e360777e6ac21fa4b6a36586b" category="doc">Active IQ Unified Manager에서 볼륨 보호 상태 보기</block>
+  <block id="e281cb321f83badd61286a50bbbdb234" category="doc">Active IQ Unified Manager에서 감지된 구성 변경 사항</block>
+  <block id="be8617ed11f04420c3ec6774c250deba" category="doc">Active IQ Unified Manager의 이벤트 상태</block>
+  <block id="029661e04d334fe2885ec286a70d6953" category="doc">Active IQ Unified Manager에서 알림 추가 지침</block>
+  <block id="734185b4de7d4c8058a1cc7bb6135756" category="doc">Active IQ Unified Manager가 Active IQ 플랫폼 이벤트를 생성하는 방법</block>
+  <block id="3ad72e22b2aa226c488e08b09f84eb60" category="doc">Active IQ Unified Manager 오브젝트 상태를 계산하는 방법</block>
+  <block id="179241ab3d77f843e02aacd28af58262" category="doc">Active IQ Unified Manager에서 스크립트가 경고와 함께 작동하는 방식</block>
+  <block id="8708fa0602cb9410b5053bc0952546bf" category="doc">Active IQ Unified Manager의 알림에 대해 알아보기</block>
+  <block id="2296b637f2700435bbe84fcb15b77099" category="doc">Active IQ Unified Manager에서 이벤트 관리</block>
+  <block id="c1a5dcbb60e58e0bc5350f268c42aac0" category="doc">Active IQ Unified Manager에서 스크립트 관리</block>
+  <block id="b333e15de726f713da53980f8698e761" category="doc">Active IQ Unified Manager에서 Active IQ 플랫폼 이벤트 해결</block>
+  <block id="7380fe530aa4a3c60b08eea18a7b9cbe" category="doc">Active IQ Unified Manager의 이벤트에 대해 알아보기</block>
+  <block id="8799da4bf2e5c7d532706bb0479fdc04" category="doc">Active IQ Unified Manager의 Active IQ 플랫폼 이벤트에 대해 알아보기</block>
+  <block id="59640a06895a14dcd0c3404af1730cce" category="doc">Active IQ Unified Manager의 Event Management System 이벤트에 대해 알아보기</block>
+  <block id="634b81b6afc922e6282b1ed930a2b7bb" category="doc">Active IQ Unified Manager가 수신된 이벤트를 처리하는 방식 이해</block>
+  <block id="03064f52e07248f2e09595708912ef8c" category="doc">Active IQ Unified Manager 알림 이메일에 포함된 정보</block>
+  <block id="41f422d33523779ffb5ef91926cfb8ff" category="doc">Active IQ Unified Manager 유지보수 윈도우에 대해 알아보기</block>
+  <block id="5830961009a7993a8612c940421c8559" category="doc">Active IQ Unified Manager의 알림 추가 대화 상자에 대해 알아보기</block>
+  <block id="efa5e4e1e07b6529b5db9e71083ab674" category="doc">Active IQ Unified Manager의 스크립트 추가 대화 상자</block>
+  <block id="d86361c0052e2101783e6ea47423149f" category="doc">Active IQ Unified Manager의 애그리게이트 이벤트에 대해 알아보기</block>
+  <block id="43c0f4b3b78d8880151170adeb214030" category="doc">Active IQ Unified Manager의 경고 설정 페이지에 대해 알아보기</block>
+  <block id="b41f150b2b6d0a00d86f67c565042ab8" category="doc">Active IQ Unified Manager의 클러스터 이벤트에 대해 알아보기</block>
+  <block id="34c23c37f8eaec38e466855e150ffe72" category="doc">Active IQ Unified Manager의 이벤트 영향 영역에 대해 알아보기</block>
+  <block id="90c45bf252894e0465b702350a71363e" category="doc">Active IQ Unified Manager의 이벤트 영향 수준에 대해 알아보기</block>
+  <block id="4b212a54e1505d0bf1de75a2b826095f" category="doc">Active IQ Unified Manager의 이벤트 심각도 유형에 대해 알아보기</block>
+  <block id="ab26ab1b7c87a0ecd16cad94074afb4b" category="doc">Active IQ Unified Manager의 이벤트 창 및 대화 상자에 대해 알아보기</block>
+  <block id="5f933d494c6b0841e39f2069e2836477" category="doc">Active IQ Unified Manager에서 경고 추가 대화 상자 사용</block>
+  <block id="575c0756d35068e0ac115f8ce68e098f" category="doc">Active IQ Unified Manager의 스크립트 창 및 대화 상자</block>
+  <block id="aa692ee1b95eaeca447a0afe773bc89e" category="doc">Active IQ Unified Manager에서 이벤트 대화 상자 비활성화</block>
+  <block id="8f1bc362aa989ade0ecb39b550d06342" category="doc">Active IQ Unified Manager의 디스크 이벤트에 대해 알아보기</block>
+  <block id="f80b43d65e919dbba43109c92a2b8165" category="doc">Active IQ Unified Manager의 동적 성능 이벤트에 대해 알아보기</block>
+  <block id="485314bcb5bdfe54a4d7e3c07349dfd4" category="doc">Active IQ Unified Manager에서 알림 속성 편집</block>
+  <block id="0215bd017af062d547b69d57c2d1dad4" category="doc">Active IQ Unified Manager에 자동으로 추가되는 EMS 이벤트</block>
+  <block id="7d4c55848eb384e6ac9567d17deb76eb" category="doc">Active IQ Unified Manager의 인클로저 이벤트에 대해 알아보십시오</block>
+  <block id="9870e66a3bf73a8f0007b6e1e60df616" category="doc">Active IQ Unified Manager의 이벤트 세부 정보 페이지에 대해 알아보기</block>
+  <block id="2c47b425b660d2e17c04c21c96f1371c" category="doc">Active IQ Unified Manager의 이벤트 관리 인벤토리 페이지에 대해 알아보십시오</block>
+  <block id="a8483d9031f3b4d140535a14674cd532" category="doc">Active IQ Unified Manager의 이벤트 설정 페이지에 대해 알아보기</block>
+  <block id="e4f17a0bc5c9a1c6f9a2f45fe737935e" category="doc">Active IQ Unified Manager의 팬 이벤트에 대해 알아보기</block>
+  <block id="04be133590fe5d67226aca41258e1399" category="doc">Active IQ Unified Manager의 플래시 카드 이벤트에 대해 알아보십시오</block>
+  <block id="8fed2de29b392fb571b49232c42b564b" category="doc">Active IQ Unified Manager의 inode 이벤트에 대해 알아보기</block>
+  <block id="2c8a42f7aeadd3708c694d7f0b7e41ab" category="doc">Active IQ Unified Manager의 이벤트 목록에 대해 알아보기</block>
+  <block id="088f543a0d07f03fdf74dd6c7e4487db" category="doc">Active IQ Unified Manager의 네트워크 인터페이스 이벤트</block>
+  <block id="b6241628a873b3fef00f6ae8f9c3ad07" category="doc">Active IQ Unified Manager의 LUN 이벤트에 대해 알아보기</block>
+  <block id="22534d0a95a4459662f56e1f2b090a85" category="doc">Active IQ Unified Manager의 스크립트 페이지에 대해 알아보기</block>
+  <block id="f50549ff3c43bf4a7cee2d243e5a2406" category="doc">Active IQ Unified Manager의 관리 스테이션 이벤트에 대해 알아보기</block>
+  <block id="6f3e0d786296fe6d1b25b4d3a033185d" category="doc">Active IQ Unified Manager의 MetroCluster 브리지 이벤트에 대해 알아보기</block>
+  <block id="f96ddc2b37327c6e8e1891ced4dd571b" category="doc">Active IQ Unified Manager의 MetroCluster 연결 이벤트에 대해 알아보기</block>
+  <block id="4f189a4a458052500c57ece76ca1a088" category="doc">Active IQ Unified Manager의 MetroCluster 스위치 이벤트에 대해 알아보기</block>
+  <block id="458b4334c5b06f11d1efdbe2f2bdc9d3" category="doc">Active IQ Unified Manager의 노드 이벤트에 대해 알아보기</block>
+  <block id="60720d558f74f880234b97616835eb4b" category="doc">Active IQ Unified Manager의 알림 페이지에 대해 알아보기</block>
+  <block id="2565a96a1e5d326dc23f0500f42a37d6" category="doc">Active IQ Unified Manager의 NVMe 네임스페이스 이벤트에 대해 알아보십시오</block>
+  <block id="f62599de156d8f6b5f296cb1d53f5137" category="doc">Active IQ Unified Manager의 NVRAM 배터리 이벤트에 대해 알아보기</block>
+  <block id="5aafb37137ee5af527c569ba06b31db7" category="doc">Active IQ Unified Manager의 포트 이벤트에 대해 알아보십시오</block>
+  <block id="d483e9886079debe5a528675b7fc9add" category="doc">Active IQ Unified Manager의 전원 공급 장치 이벤트에 대해 알아보기</block>
+  <block id="ec57b55467a0a59e0127d8001e652e85" category="doc">Active IQ Unified Manager의 보호 이벤트에 대해 알아보기</block>
+  <block id="d9bb8e4cb7ee6476baa9e66b53ba7247" category="doc">Active IQ Unified Manager의 Qtree 이벤트에 대해 알아보기</block>
+  <block id="0da565184328cb1f77321e547683af73" category="doc">Active IQ Unified Manager의 서비스 프로세서 이벤트에 대해 알아보십시오</block>
+  <block id="e1f368b76083f2d7fd2b823350c23cce" category="doc">Active IQ Unified Manager의 비동기식 미러 및 볼트 관계 이벤트에 대해 알아보십시오</block>
+  <block id="59dea28c7b7b67909519804be34e19df" category="doc">Active IQ Unified Manager의 SnapMirror 관계 이벤트에 대해 알아봅니다</block>
+  <block id="eba29eace4291488b95ef011b511fa23" category="doc">Active IQ Unified Manager의 스냅샷 이벤트에 대해 알아보기</block>
+  <block id="cc4d08cf69e390a3dae05d0c82fa676a" category="doc">Active IQ Unified Manager의 SnapVault 관계 이벤트에 대해 알아보기</block>
+  <block id="a9001cec28a3516b872f4ad21afeee8a" category="doc">Active IQ Unified Manager의 스토리지 페일오버 설정 이벤트에 대해 알아보십시오</block>
+  <block id="add4f4631797b2d1b8bd33ded6e59bfd" category="doc">Active IQ Unified Manager의 스토리지 서비스 이벤트에 대해 알아보기</block>
+  <block id="a37a510d8ac5f0575ab25f31fce829e1" category="doc">Active IQ Unified Manager의 스토리지 쉘프 이벤트에 대해 알아보기</block>
+  <block id="42d71efdff555711a2ce728b98a592c3" category="doc">Active IQ Unified Manager의 스토리지 VM 이벤트에 대해 알아보십시오</block>
+  <block id="bfe707dce9d98ec48f71c8c6d3a000e1" category="doc">지원되는 Active IQ Unified Manager CLI 명령에 대해 알아보기</block>
+  <block id="45a1593063d39d09742cefeef27d7781" category="doc">Active IQ Unified Manager의 사용자 및 그룹 할당량 이벤트에 대해 알아보기</block>
+  <block id="59a3020eb6040a001206d108389a2ffc" category="doc">Active IQ Unified Manager의 볼륨 이벤트에 대해 알아보기</block>
+  <block id="0d30c488fad3fc8789add99539cd9159" category="doc">Active IQ Unified Manager의 볼륨 이동 상태 이벤트에 대해 알아보기</block>
+  <block id="32bc671cbc3dd628557fe3ba056af783" category="doc">Active IQ Unified Manager의 이벤트 정보 섹션에 대해 알아보기</block>
+  <block id="c4f08a61138e373101f87f1d826db361" category="doc">Active IQ Unified Manager의 권장 조치에 대해 알아보십시오</block>
+  <block id="36349d5f63daf0be6004a624e7c72776" category="doc">Active IQ Unified Manager의 시스템 진단에 대해 알아보기</block>
+  <block id="fb04977f605b951a1767c43c4514c1d9" category="doc">Active IQ Unified Manager에서 이벤트 확인 및 해결</block>
+  <block id="970c6b8e3128bb9f6c3bdaa1b0b7f1d4" category="doc">Active IQ Unified Manager에서 성능 이벤트에 대한 알림 추가</block>
+  <block id="c16c62943820e26ad472cf3007f8deaf" category="doc">Active IQ Unified Manager에서 스크립트 추가</block>
+  <block id="b8217f924bd8ec49fe49c1e84598161b" category="doc">Active IQ Unified Manager에서 특정 사용자에게 이벤트 할당</block>
+  <block id="9f3d53df1f3c1937fd889fc847d9da2b" category="doc">Active IQ Unified Manager에서 예약된 유지보수 윈도우 변경 또는 취소</block>
+  <block id="b3be4e8ca2855f05d187206693e09310" category="doc">Active IQ Unified Manager에서 이벤트 보존 설정 구성</block>
+  <block id="92e380e8e4196ad2279af9e885c6e415" category="doc">Active IQ Unified Manager에서 알림 삭제</block>
+  <block id="abdf5801b77d52ff6028468978043a4e" category="doc">Active IQ Unified Manager에서 스크립트 삭제</block>
+  <block id="330ec26e447af8a78a32c0f50cef4095" category="doc">Active IQ Unified Manager에서 해결됨 및 사용되지 않음 이벤트에 대한 경고를 비활성화합니다</block>
+  <block id="eaa194b3c36147a722d568acc97701e3" category="doc">Active IQ Unified Manager에서 원치 않는 이벤트 비활성화</block>
+  <block id="93c684c3106c4f756d7138ca6c3d68ae" category="doc">Active IQ Unified Manager에서 알림 편집</block>
+  <block id="d63138fa0c2153f00c1f8e0e1f3419d9" category="doc">Active IQ Unified Manager에서 Active IQ 이벤트 보고 활성화 및 비활성화</block>
+  <block id="49412f17092e8e86b3994c93b2b8d0fa" category="doc">Active IQ Unified Manager에서 재해 복구 대상 볼륨이 알림을 생성하지 않도록 제외합니다</block>
+  <block id="e75dbdcbf203814f299882bd3f916dc3" category="doc">Active IQ Unified Manager에서 자동 수정을 사용하여 문제 해결</block>
+  <block id="69358d540570641f5c40d820d4b1112e" category="doc">Active IQ Unified Manager에서 호스트 시스템 리소스 이벤트 관리</block>
+  <block id="f3d6d63bb3629325dff3b5dc450aa539" category="doc">Active IQ Unified Manager에서 클러스터 이벤트 알림을 비활성화하기 위한 유지보수 윈도우 예약</block>
+  <block id="4a44ac6ffec89a4970d69c2f030e9b9e" category="doc">Active IQ Unified Manager에서 ONTAP EMS 이벤트 구독</block>
+  <block id="74e83e831e04b8eedec0f123c3e74a36" category="doc">Active IQ Unified Manager에서 알림 테스트</block>
+  <block id="5650273041822c9e98522d5dd242cd1c" category="doc">Active IQ Unified Manager에서 테스트 스크립트 실행</block>
+  <block id="322a4ababd26274d1d2c42ef34019f90" category="doc">Active IQ Unified Manager에서 새 Active IQ 규칙 파일 업로드</block>
+  <block id="eb1f73e6ecda445f562bc126121370dd" category="doc">Active IQ Unified Manager에서 알림 보기</block>
+  <block id="1ece76afabcb7e27631dc66265c4719b" category="doc">Active IQ Unified Manager에서 이벤트 세부 정보 보기</block>
+  <block id="e1b168c6510d28b2c4b053376c93d994" category="doc">Active IQ Unified Manager에서 유지보수 윈도우 중에 생성된 이벤트 보기</block>
+  <block id="0c7d77aea69d29f66d76ce0c9553a7c9" category="doc">Active IQ Unified Manager에서 할당되지 않은 이벤트 보기</block>
+  <block id="dca7b8a249f9d1b24f0f8ea5ab77b75b" category="doc">가상 어플라이언스의 Active IQ Unified Manager 백업 및 복원</block>
+  <block id="c0f0a0965309a63a2094324dc7fc3055" category="doc">Active IQ Unified Manager에서 MySQL 데이터베이스 덤프를 사용하여 백업 및 복원</block>
+  <block id="6563a95ed0fffad7d8eae3f392fa6321" category="doc">Active IQ Unified Manager에서 NetApp 스냅샷을 사용하여 백업 및 복원</block>
+  <block id="cff96b81141bfc96ec531b0073888881" category="doc">Active IQ Unified Manager에서 클러스터 구성 요소 경합 이해</block>
+  <block id="7749bd9ef860d6adda812d59180b1e09" category="doc">Active IQ Unified Manager 상태 점검 워크플로 및 작업을 이해합니다.</block>
+  <block id="5b79ae315e757d203236a621bfd18947" category="doc">Active IQ Unified Manager에서 Linux의 백업 구성</block>
+  <block id="ab35cfd2d93f519bdb13dd1e2d6812f3" category="doc">Active IQ Unified Manager에서 Windows 백업 구성</block>
+  <block id="cdc6725f88b90beac9cac22c9ff9735b" category="doc">Active IQ Unified Manager에서 데이터베이스 덤프 백업 설정 구성</block>
+  <block id="2482c346baf1f75cde171f54b3f11c4a" category="doc">Active IQ Unified Manager에서 주석 규칙이 작동하는 방식 이해</block>
+  <block id="fcb51162bfbb5aec25e93225a185f855" category="doc">Active IQ Unified Manager의 스토리지 오브젝트에 대한 그룹 작업 작동 방식 이해</block>
+  <block id="2418b961ebed8eed367a63a3ec284fe3" category="doc">Active IQ Unified Manager의 그룹에 대한 그룹 규칙 작동 방식 이해</block>
+  <block id="2e72ad14631e2caf5b07909ea85abed0" category="doc">Active IQ Unified Manager에서 스크립트가 경고와 함께 작동하는 방식 이해</block>
+  <block id="89a616f7484da49d84dca63cd4d66c5c" category="doc">Active IQ Unified Manager 상태 모니터링에 대해 알아보기</block>
+  <block id="34365a3fc2592f8661e0d62c079ae279" category="doc">Active IQ Unified Manager에서 클러스터 및 클러스터 오브젝트 상태 관리 및 모니터링</block>
+  <block id="0159ce6672a34849d014c2082de48324" category="doc">Active IQ Unified Manager에서 그룹 관리 및 모니터링</block>
+  <block id="1037bb811299fc9906b73b483b648356" category="doc">Active IQ Unified Manager에서 백업 및 복원 작업 관리</block>
+  <block id="a36ebd8dc7a0eb4835a4040512b0c7f8" category="doc">Active IQ Unified Manager에서 클러스터 보안 목표 관리</block>
+  <block id="b2daa139f28a8c8365e223ad0c8337b9" category="doc">Active IQ Unified Manager에서 상태 임계값 관리</block>
+  <block id="c615801ec0d6c9a409b2fbe6674de211" category="doc">Active IQ Unified Manager에서 데이터 가용성 모니터링 및 문제 해결</block>
+  <block id="e21b50c8660a5c3d3f811548c4ff796b" category="doc">Active IQ Unified Manager의 온디맨드 백업 이해</block>
+  <block id="62230696acb222f720425104f2541ce5" category="doc">Active IQ Unified Manager에서 주석을 사용하여 스토리지 오브젝트의 우선순위 지정</block>
+  <block id="58031992f1245bf5dd129d9a6e61fe5a" category="doc">Active IQ Unified Manager 워크플로에 공통적으로 사용되는 정보를 이해합니다.</block>
+  <block id="149002f2bdeea05fc44c2e2e71e44f15" category="doc">Active IQ Unified Manager 인터페이스를 사용하여 스토리지 시스템 상태를 관리합니다.</block>
+  <block id="6d4709b82b6a7ea08249e040bb227a3c" category="doc">Active IQ Unified Manager에서 노드 루트 애그리게이트의 이벤트 및 임계값 이해</block>
+  <block id="1e08671b677f06498a000132381254c3" category="doc">Active IQ Unified Manager에서 클러스터 모니터링 이해</block>
+  <block id="bdb4862b66b36dc266a10b739e854c57" category="doc">Active IQ Unified Manager의 그룹 이해</block>
+  <block id="d53836e00b387c148a8e2a0918cee1f1" category="doc">Active IQ Unified Manager의 주석 이해</block>
+  <block id="586267483960638c992f99b0f72660c3" category="doc">Active IQ Unified Manager에서 노드 루트 볼륨 이해</block>
+  <block id="6e2a3ac514199a3d8f025c8490388210" category="doc">Active IQ Unified Manager에서 ONTAP 클러스터의 쿼럼 및 엡실론 이해</block>
+  <block id="f6a30972e73c1bbcb35774eac544ede5" category="doc">Active IQ Unified Manager 상태 모니터링 기능 이해하기</block>
+  <block id="cc21fba3631d7eecdc59c6bbcffc4524" category="doc">Active IQ Unified Manager의 주석에 대해 알아보기</block>
+  <block id="0fe45f66d2b2f9417457cad73f82768d" category="doc">Active IQ Unified Manager의 데이터베이스 복원에 대해 알아보기</block>
+  <block id="33b7b1f3e9de2aa162ef892525de7cb6" category="doc">Active IQ Unified Manager에서 클러스터 및 SVM 규정 준수 상태에 대해 알아보기</block>
+  <block id="1014873d089cb86b441d6b6ee97363b3" category="doc">Active IQ Unified Manager의 그룹에 대해 알아보기</block>
+  <block id="92c7eae20c6567dbdb68a3612441dbd9" category="doc">Active IQ Unified Manager 보안 기준을 평가하는 방법을 이해하십시오.</block>
+  <block id="f5f8b43a37fc2ab50af31b5d9280d739" category="doc">Active IQ Unified Manager의 스토리지 용량 상태 임계값에 대해 알아보십시오</block>
+  <block id="656218edd6d1dbcc262fd742b7a4d102" category="doc">Active IQ Unified Manager의 클러스터 규정 준수 범주 이해</block>
+  <block id="1bd100832f018627b1171e5714274af9" category="doc">Active IQ Unified Manager에서 백업 및 복원을 위한 ONTAP 클러스터 구성</block>
+  <block id="4a4f44aaab567ab88daaf5f9629d4c49" category="doc">Active IQ Unified Manager의 클러스터 오브젝트 창 및 대화 상자 이해</block>
+  <block id="a948350c095a0a1c0ad6d9c0d1114465" category="doc">Active IQ Unified Manager의 사전 정의된 주석 값 이해</block>
+  <block id="83935b8b8b95fa524246d8b71afba49c" category="doc">Active IQ Unified Manager에서 애그리게이트/상태 세부 정보 페이지 보기</block>
+  <block id="f01e2a06d59085aa7919b33f6e19259f" category="doc">Active IQ Unified Manager에서 클러스터/상태 세부 정보 페이지 보기</block>
+  <block id="e0772b71bd2fba9541d994e17594a406" category="doc">Active IQ Unified Manager에서 스토리지 VM/상태 세부 정보 페이지 보기</block>
+  <block id="0922dec0c33d83b0f0abccacbe97439e" category="doc">Active IQ Unified Manager에서 볼륨/상태 세부 정보 페이지를 봅니다</block>
+  <block id="77391ae689ffe6b8b42503bc4cbad825" category="doc">Active IQ Unified Manager에서 보안 이벤트 보기</block>
+  <block id="1227149740fe7b3e113f63e7b4081b06" category="doc">AutoSupport 메시지를 Active IQ Unified Manager의 기술 지원에 전송합니다</block>
+  <block id="756b327a9d47fd04276c69c08d8637a1" category="doc">Active IQ Unified Manager에서 스토리지 VM 규정 준수 범주 이해</block>
+  <block id="7d6767f9e18b2947b30bd6548b7bcf6f" category="doc">Active IQ Unified Manager에서 볼륨 규정 준수 범주 이해</block>
+  <block id="324d82506181b6bfcf8fd6839f2e32cd" category="doc">Active IQ Unified Manager의 보안 이벤트에 대한 알림 추가</block>
+  <block id="a68181a0af51061228839175fd21e8e4" category="doc">Active IQ Unified Manager에서 동적으로 주석 추가</block>
+  <block id="c32134b239d83ce220371ba27448728c" category="doc">Active IQ Unified Manager에서 개별 스토리지 오브젝트에 수동으로 주석 추가</block>
+  <block id="0b3b7bb3a3a203b0aee1218d609ea3b2" category="doc">Active IQ Unified Manager에서 그룹 작업 추가</block>
+  <block id="08f1096581b655bb1bca07dbd40842a1" category="doc">Active IQ Unified Manager에서 그룹 규칙 추가</block>
+  <block id="7a95d7e427ba6bc00cdf572b5c5161de" category="doc">Active IQ Unified Manager에서 그룹 추가</block>
+  <block id="621606fb4bb8a7ad5d64e9f25f1ea877" category="doc">Active IQ Unified Manager에서 주석에 값 추가</block>
+  <block id="ac991750094f891aff59e09d92a39766" category="doc">Active IQ Unified Manager에서 Snapshot 복사본의 재확보 가능한 공간 계산</block>
+  <block id="1d9ce96cf6e47c119d5d5cf4cd2faade" category="doc">Active IQ Unified Manager에서 MetroCluster 구성의 클러스터 상태를 확인합니다</block>
+  <block id="225bfeea7cb615b9d3e287cb82b120b8" category="doc">Windows에서 Active IQ Unified Manager의 백업 위치 구성</block>
+  <block id="de733c8b29072c79126cc47127fe2684" category="doc">Active IQ Unified Manager에서 주석 규칙의 조건 구성</block>
+  <block id="5863784f82070f3f1e97e02470f54002" category="doc">Active IQ Unified Manager에서 전체 애그리게이트 상태 임계값 구성</block>
+  <block id="c7e134f5012c9b287cab9365c41fbf63" category="doc">Active IQ Unified Manager에서 글로벌 상태 임계값 설정 구성</block>
+  <block id="4956fa5af81a672992182b42e3fac999" category="doc">Active IQ Unified Manager에서 전역 qtree 상태 임계값 구성</block>
+  <block id="eae9adb6b5eb3daad4fb1fba36119fa7" category="doc">Active IQ Unified Manager에서 전역 볼륨 상태 임계값 구성</block>
+  <block id="964e2b9c2cc6d0ef82daedde45f265cb" category="doc">Active IQ Unified Manager에서 관리되지 않는 보호 관계에 대한 지연 임계값 구성</block>
+  <block id="1ed730d1a7869352c1557ebdd1c64f0a" category="doc">Active IQ Unified Manager의 유지보수 콘솔에서 Snapshot 백업 구성</block>
+  <block id="e54f3715809b98e310186b5e90e7b9b8" category="doc">Active IQ Unified Manager의 그룹에 대한 볼륨 상태 임계값 구성</block>
+  <block id="0ac3ec4a0d6d3876fd2ab9750fd060ff" category="doc">Active IQ Unified Manager에서 Windows 호스트 머신 구성</block>
+  <block id="f97a335b7256fac2183afa648710c721" category="doc">Active IQ Unified Manager에서 주석 규칙 생성</block>
+  <block id="8f141206afd2c4cf9de794ecc552baf1" category="doc">Active IQ Unified Manager에서 스냅샷 복사본 위치 구성</block>
+  <block id="d0950c5d13aaffdf69941ac7cfc4bb7b" category="doc">Active IQ Unified Manager에서 Linux 및 Windows에 대한 백업 일정 정의</block>
+  <block id="249f295a74fda79346809408f2c78764" category="doc">Active IQ Unified Manager에서 주석 규칙 삭제</block>
+  <block id="3baae7972f2d0aa469930232425a933f" category="doc">Active IQ Unified Manager에서 주석 삭제</block>
+  <block id="787db7bc5acc3df971f82e6726ef0007" category="doc">Active IQ Unified Manager에서 그룹 작업 삭제</block>
+  <block id="e5d296e499592b209f3bd7846ad37ae4" category="doc">Active IQ Unified Manager에서 그룹 규칙 삭제</block>
+  <block id="a30af39f7dd841490cfa0a9acf477e30" category="doc">Active IQ Unified Manager에서 그룹 삭제</block>
+  <block id="5df57bc890966b017ac9570fdd026728" category="doc">Active IQ Unified Manager에서 스냅샷 복사본 삭제</block>
+  <block id="03f0d70e2cdf3ae0edec25677309564b" category="doc">Active IQ Unified Manager에서 주석의 값 삭제</block>
+  <block id="b6afb1f28d835a9f337c69a9ae004f9f" category="doc">Active IQ Unified Manager에서 SVM이 중지되어 볼륨이 오프라인 상태인지 확인합니다</block>
+  <block id="04fcbae8cf5b79f29bf78129faed0243" category="doc">Active IQ Unified Manager에서 디스크 장애로 인해 볼륨이 오프라인 상태인지 확인합니다</block>
+  <block id="4bf682c90c9f329f768bb2d964c9d087" category="doc">Active IQ Unified Manager에서 호스트 노드가 다운되어 볼륨이 오프라인 상태인지 확인합니다</block>
+  <block id="cd7d4522575cefd6322b1ea4cdb92c73" category="doc">Active IQ Unified Manager에서 특정 보안 이벤트 비활성화</block>
+  <block id="94b122e12300be6f2b3901adab510912" category="doc">Active IQ Unified Manager에서 주석 규칙 편집</block>
+  <block id="e3505853ff09ee1e05971610394c6ec5" category="doc">Active IQ Unified Manager에서 그룹 작업 편집</block>
+  <block id="a1cdb49a891c198fb9dbd9355939d55d" category="doc">Active IQ Unified Manager에서 그룹 규칙 편집</block>
+  <block id="2e46b2f532771d0ab03ce55c41b5c89f" category="doc">Active IQ Unified Manager에서 그룹 편집</block>
+  <block id="e7983f4731f24366b17a33ec8a318706" category="doc">Active IQ Unified Manager에서 개별 애그리게이트 상태 임계값 설정 편집</block>
+  <block id="8383f508a1744a4974d2685b31ebf61d" category="doc">Active IQ Unified Manager에서 개별 qtree 상태 임계값 설정 편집</block>
+  <block id="d0a0346d6b6f25507c35472c3f1bd1f4" category="doc">Active IQ Unified Manager에서 개별 볼륨 상태 임계값 설정 편집</block>
+  <block id="66051fddd649889b0512c5f3ae547544" category="doc">Active IQ Unified Manager에서 지원 번들 생성 및 업로드</block>
+  <block id="26961d8c7d91b8777ee70e2abcffe3d5" category="doc">Active IQ Unified Manager에서 계약 갱신을 위한 하드웨어 인벤토리 보고서 생성</block>
+  <block id="91347e6303b31f53bec181948d53ea06" category="doc">Active IQ Unified Manager 가상 어플라이언스를 Linux 시스템으로 마이그레이션</block>
+  <block id="f0287342bc19e83afdeabdc1e390a9ea" category="doc">Active IQ Unified Manager에서 스토리지 페일오버 인터커넥트 링크 장애에 대한 수정 조치를 수행합니다</block>
+  <block id="c83231931f72f4e63f2e1dfba00d96a8" category="doc">Active IQ Unified Manager에서 볼륨 오프라인 상태에 대한 진단 작업 수행</block>
+  <block id="b1ada1aed9dbd5a60314a56ca0641aca" category="doc">Active IQ Unified Manager에서 가득 찬 볼륨에 대해 권장되는 수정 조치 수행</block>
+  <block id="224e579b5b9306e31a89d9b52da14deb" category="doc">Active IQ Unified Manager에서 주석 규칙 재정렬</block>
+  <block id="42c2ae7880d4e36c7d6af93b0f6c86b3" category="doc">Active IQ Unified Manager에서 그룹 작업 순서 변경</block>
+  <block id="52f4a7af80e679947c6413784e1c5d34" category="doc">Active IQ Unified Manager에서 용량 문제 해결</block>
+  <block id="2cbbf733022e402ce4d2daca0f616ebe" category="doc">Active IQ Unified Manager에서 스토리지 페일오버 인터커넥트 링크 다운 상태를 검색하고 해결합니다</block>
+  <block id="c69329043c621490547b08bc83440745" category="doc">Active IQ Unified Manager에서 볼륨 오프라인 문제 해결</block>
+  <block id="4acc2a7a5a1a6d457c20faa2ac645f85" category="doc">Windows의 Active IQ Unified Manager에서 MySQL 데이터베이스 백업 복원</block>
+  <block id="3a067c96f05406a34c52db937b002b6d" category="doc">Linux 시스템에서 Active IQ Unified Manager의 MySQL 데이터베이스 백업 복원</block>
+  <block id="adf62a187235c47a83fe0c53837abc04" category="doc">스냅샷 복사본을 사용하여 Active IQ Unified Manager 복원</block>
+  <block id="ad2b3ddb65cdc68b58fa0f5df308a808" category="doc">Active IQ Unified Manager에서 UNIX 또는 Linux 클라이언트를 사용하여 지원 번들 검색</block>
+  <block id="a2e8ae73e43ddf40ec61095f905c6271" category="doc">Active IQ Unified Manager에서 Windows 클라이언트를 사용하여 지원 번들 검색</block>
+  <block id="6f16618b83a2407186f62c26e10ef6e1" category="doc">Active IQ Unified Manager의 웹 UI 및 유지 관리 콘솔을 통해 지원 번들 보내기</block>
+  <block id="e7c77cea33621c20b54e3cb37a039bd4" category="doc">Active IQ Unified Manager에서 기술 지원으로 지원 번들 보내기</block>
+  <block id="acba33b94325eeadff7a4dde8e3f367b" category="doc">Active IQ Unified Manager에서 스냅샷 복사본의 대상 위치를 지정합니다</block>
+  <block id="9f90115f89909c25d857cd8a4c5a54fd" category="doc">Active IQ Unified Manager에서 Windows의 스냅샷 복사본 대상 위치를 지정합니다</block>
+  <block id="e8bc836b193b30b424a780c45c753b87" category="doc">Active IQ Unified Manager에서 백업 유형을 수정합니다</block>
+  <block id="8fb5dd30ff400b9ca0a064d9bd190d3e" category="doc">Active IQ Unified Manager에서 애그리게이트 목록 및 세부 정보 보기</block>
+  <block id="5d4b532605c1f422545395590759a971" category="doc">Active IQ Unified Manager에서 모든 활성 보안 이벤트 보기</block>
+  <block id="b2e14527ce38a4fb5965448c65f39457" category="doc">Active IQ Unified Manager에서 주석 목록 및 세부 정보 보기</block>
+  <block id="90be72e6e40cc3e783ae5e155b44adee" category="doc">Active IQ Unified Manager에서 모든 볼륨 및 스토리지 VM의 랜섬웨어 방지 상태를 봅니다</block>
+  <block id="1133a1ca1a87447a149ab6b599056138" category="doc">Active IQ Unified Manager에서 클러스터 목록 및 세부 정보 보기</block>
+  <block id="32e797f37f9555689993743f17b83675" category="doc">Active IQ Unified Manager에서 클러스터 및 스토리지 VM의 보안 상태를 봅니다</block>
+  <block id="c6aee0296fbdcf8523e9c8146e002cce" category="doc">Active IQ Unified Manager에서 SMB/CIFS 공유에 대한 세부 정보 보기</block>
+  <block id="875a861bb25b1685588bd5486c4331e8" category="doc">Active IQ Unified Manager에서 NFS 공유에 대한 세부 정보 보기</block>
+  <block id="1c96acc754d99b38e2a25af3a5c1128f" category="doc">Active IQ Unified Manager에서 모든 볼륨의 암호화 상태 보기</block>
+  <block id="edf6869b6ad1a8b6da7bf784d1cb1684" category="doc">Active IQ Unified Manager에서 FabricPool 용량 정보 보기</block>
+  <block id="bb026ebb89a43ebd8e11ee7e370ad64c" category="doc">Active IQ Unified Manager에서 모든 SAN 어레이 클러스터의 상태 및 용량 상태를 봅니다</block>
+  <block id="4fab3b3226e296fe236757a0a5d13e82" category="doc">Active IQ Unified Manager의 모든 클러스터에서 클러스터가 사용자 인증을 관리하는 방법을 확인합니다</block>
+  <block id="fd879967a692c2dd4c97716b525ac863" category="doc">Active IQ Unified Manager에서 스냅샷 복사본 목록 보기</block>
+  <block id="9f1eae52194848c85641cd309064a430" category="doc">Active IQ Unified Manager에서 노드 목록 및 세부 정보 보기</block>
+  <block id="6a64dec1a3035166ef46d884904a8e8e" category="doc">Active IQ Unified Manager에서 소프트웨어 또는 펌웨어 업데이트가 필요할 수 있는 보안 이벤트 보기</block>
+  <block id="6a39e2d7de4b2124d1fc87f465ab0e18" category="doc">Active IQ Unified Manager에서 스토리지 풀 세부 정보 보기</block>
+  <block id="a085ce184a2a918db492c9f693b1e796" category="doc">Active IQ Unified Manager에서 스토리지 VM 목록 및 세부 정보 보기</block>
+  <block id="e8efcc1ee69032b712ac7ee4ab110086" category="doc">Active IQ Unified Manager에서 볼륨 목록 및 세부 정보 보기</block>
+  <block id="879a0713cfae0b7ba1b8964f6808ddc9" category="doc">Active IQ Unified Manager 버전의 지원되는 업그레이드 경로를 사용합니다</block>
+  <block id="7cce07ca0323e998f6bd8bbb12d77087" category="doc">Active IQ Unified Manager에 지원되는 브라우저 사용</block>
+  <block id="a5d30961a7f2071bd48571cbaa2c9cf2" category="doc">Linux 시스템에 Active IQ Unified Manager를 설치합니다</block>
+  <block id="c689e7b64152a1bba97fb2edd20c845e" category="doc">Active IQ Unified Manager 소프트웨어 설치, 업그레이드 및 제거</block>
+  <block id="64e88b614a54ea3b3f6898a073ae7acb" category="doc">Active IQ Unified Manager에 대해 알아보기</block>
+  <block id="565af86c01ad7ce14e46d75f939591e7" category="doc">Red Hat Enterprise Linux에서 Active IQ Unified Manager 설치 순서 이해</block>
+  <block id="3a18b8c6562abe629867a6e413ec1477" category="doc">Active IQ Unified Manager 설치 순서 보기</block>
+  <block id="4897bd68f064fb7b102341961c09bd7f" category="doc">Active IQ Unified Manager 설치 요구 사항 이해</block>
+  <block id="4b50d92781c98c22737903c30847e6ed" category="doc">Active IQ Unified Manager에 필요한 소프트웨어 설정</block>
+  <block id="172a418384d967aaecffb2c44fc739e4" category="doc">Active IQ Unified Manager 설치 후 타사 제품 업그레이드</block>
+  <block id="8bd4e35fc17333bce0ee595d12386ee2" category="doc">Red Hat Enterprise Linux에서 Active IQ Unified Manager 업그레이드</block>
+  <block id="f8bc942d8e727d6d6670386379507631" category="doc">Active IQ Unified Manager의 가상 인프라 및 하드웨어 요구 사항 이해</block>
+  <block id="7f235b54afb78cbed9bc9e24235f4f71" category="doc">Active IQ Unified Manager 서버의 기능을 이해하십시오.</block>
+  <block id="46e632900ecd7deecfcf67a41cd74ebf" category="doc">Linux에서 Active IQ Unified Manager 시작하기</block>
+  <block id="c7e59b7cf16e21ad25de561ff8fc8e4f" category="doc">Active IQ Unified Manager에서 워크시트를 작성하십시오</block>
+  <block id="2a02130f091f38af2f44b4d07dd1cf61" category="doc">Active IQ Unified Manager의 프로토콜 및 포트 요구 사항에 대해 알아보십시오</block>
+  <block id="d7106b05b330c205db3c5ac519ec0582" category="doc">Active IQ Unified Manager의 Linux 소프트웨어 및 설치 요구 사항에 대해 알아보십시오</block>
+  <block id="83bb49b663ac74d35a1faba91ab08029" category="doc">Active IQ Unified Manager 설치 중에 생성된 사용자에 대해 알아보기</block>
+  <block id="2e1d1fffadc008e18a3de94768eff3a0" category="doc">Active IQ Unified Manager에서 JBoss 암호 변경</block>
+  <block id="daa09162d16dedd91460f500feff28b3" category="doc">Active IQ Unified Manager에서 7-zip 소프트웨어 패키지 구성</block>
+  <block id="38b88b2254e074c090cf02069d6faf3c" category="doc">Active IQ Unified Manager를 설치하기 전에 사용자 지정 홈 디렉토리 및 umadmin 암호를 생성합니다</block>
+  <block id="4ca924ae7cc6fd47acad0a57275100ec" category="doc">Active IQ Unified Manager 다운로드</block>
+  <block id="139e09fe7cfcc448bcc373a18c752ba0" category="doc">Red Hat Enterprise Linux에 Active IQ Unified Manager 설치</block>
+  <block id="f78a4d459835a2235317f9435663fe18" category="doc">Active IQ Unified Manager의 EPEL 리포지토리를 구성합니다</block>
+  <block id="43de53d45ca8c9f7b9b2fd36fb3f0fc3" category="doc">Active IQ Unified Manager용 MySQL 리포지토리를 구성합니다</block>
+  <block id="d1b55b76dd38549ade30face8800cbf0" category="doc">Active IQ Unified Manager의 사용자 지정 umadmin 사용자 및 유지 관리 그룹 제거</block>
+  <block id="b1dc85e6db450f645bd7528496115214" category="doc">Active IQ Unified Manager 제거</block>
+  <block id="248d964dab95d93924ce5b96ecedca1c" category="doc">Active IQ Unified Manager 재시작</block>
+  <block id="e966e7e2f6e8ceb4c59d41aeadbcc6aa" category="doc">Active IQ Unified Manager에서 NFS 및 CIFS 공유에 대한 SELinux 구성</block>
+  <block id="7c7b00443310c91719029b319f7c77a4" category="doc">Active IQ Unified Manager용 Red Hat Enterprise Linux 호스트 OS 업그레이드</block>
+  <block id="6507e665e3c4245b259fd2237fcdccef" category="doc">Linux에서 Active IQ Unified Manager용 OpenJDK 업그레이드</block>
+  <block id="c1295643d064d27a35919741f1aa93c9" category="doc">Active IQ Unified Manager 업그레이드</block>
+  <block id="0a2d88856e7a2fc6bc8d9a9e31aec4d7" category="doc">Active IQ Unified Manager에서 지원되는 브라우저 사용</block>
+  <block id="6bca007fd8ccffe3e8e3086281a83f72" category="doc">VMware vSphere에서 Active IQ Unified Manager 설치, 업그레이드 및 제거</block>
+  <block id="8879e221bc3f347e63525f5e75c0d012" category="doc">Active IQ Unified Manager 배포 프로세스에 대해 알아보기</block>
+  <block id="ef99d4f18bc9777708d1a4c274c52396" category="doc">Active IQ Unified Manager 설치 순서에 대해 알아보기</block>
+  <block id="7beb9b0b3c4e52647e5a15193fbb8fe1" category="doc">서버가 Active IQ Unified Manager 설치 요구 사항을 충족하는지 확인하십시오.</block>
+  <block id="e1c3b0ebff72334e69bfc35c2f31e50e" category="doc">Active IQ Unified Manager의 가상 인프라 및 하드웨어 요구 사항에 대해 알아보십시오</block>
+  <block id="faf7dd5fc6b979775fbb549f98f84940" category="doc">Active IQ Unified Manager 서버의 기능에 대해 알아보십시오.</block>
+  <block id="f1f9f7db2384ce0360dbea28c38f6350" category="doc">VMware vSphere에서 Active IQ Unified Manager 시작하기</block>
+  <block id="886e53b183085178c531d9d6132afe96" category="doc">Active IQ Unified Manager의 프로토콜 및 포트 요구 사항에 대해 알아보십시오</block>
+  <block id="8c0ebba32311b9be27f52b1f9092eff4" category="doc">Active IQ Unified Manager를 위한 VMware 소프트웨어 및 설치 요구 사항에 대해 알아보십시오</block>
+  <block id="9ca1752bf5f1164cdf1c508c8d9c7df4" category="doc">Active IQ Unified Manager 배포</block>
+  <block id="57a9ff48b56ec1c51b365e92d6651b79" category="doc">Active IQ Unified Manager 가상 어플라이언스를 배포합니다.</block>
+  <block id="ec19206397313f84703d4f98f5be700d" category="doc">Active IQ Unified Manager 업그레이드 파일을 다운로드하십시오.</block>
+  <block id="9d32ac6d8ee847d14fab16e2a10b341d" category="doc">Active IQ Unified Manager 설치 파일을 다운로드하십시오.</block>
+  <block id="cc77e24b6f260cf7ddcd28daf135a655" category="doc">Active IQ Unified Manager 가상 어플라이언스 업그레이드</block>
+  <block id="689a0a809890e4f06a3f2f27c7722ad1" category="doc">Windows에 Active IQ Unified Manager 설치</block>
+  <block id="9800b55c7f64a671a6160345b5ecb269" category="doc">Windows에서 Active IQ Unified Manager 설치 과정에 대해 알아보십시오.</block>
+  <block id="bba4856fdf90510b39be9e0488778f65" category="doc">Active IQ Unified Manager 설치 순서에 대해 알아보기</block>
+  <block id="735b7e9565dccc507895314a5c0a2e07" category="doc">Windows의 Active IQ Unified Manager에서 타사 제품 업그레이드</block>
+  <block id="8bd39caafe9a827d785deb8008f51350" category="doc">Windows에서 Active IQ Unified Manager 시작하기</block>
+  <block id="edc7b894c75446f09b7cce8cf12f94fa" category="doc">Active IQ Unified Manager의 프로토콜 및 포트 요구 사항 이해</block>
+  <block id="c32650c8edf4d95b81c2378f20d5b35a" category="doc">Active IQ Unified Manager의 Windows 소프트웨어 및 설치 요구 사항 이해</block>
+  <block id="a7ddb054eb7ee96e14afe0233039e61e" category="doc">Windows의 Active IQ Unified Manager에서 JBoss 암호 변경</block>
+  <block id="1a1837fe1913525ee9d0743b58010bdc" category="doc">Windows에서 Active IQ Unified Manager 다시 시작</block>
+  <block id="2bec68b7cfde32d58e67df2bf70239f5" category="doc">Active IQ Unified Manager 의 무인 설치 수행</block>
+  <block id="4a359950181ef27ab4574de250e300c2" category="doc">Active IQ Unified Manager에서 타사 제품 제거</block>
+  <block id="29678b15c49ba9877507352a71be7d1a" category="doc">Active IQ Unified Manager 제거</block>
+  <block id="20eee7cff8b018a09ce903c0a9b68e99" category="doc">Windows에서 Active IQ Unified Manager용 OpenJDK 업그레이드</block>
+  <block id="2d470e0697f33054caac6c37268ec3a7" category="doc">Windows에서 Active IQ Unified Manager 업그레이드</block>
+  <block id="36a074491d06735281a17c85150aef53" category="doc">Active IQ Unified Manager에서 디스크 추가가 애그리게이트 레이아웃에 미치는 영향 이해</block>
+  <block id="2655989eedee16badf04b25c42f83dd6" category="doc">Active IQ Unified Manager에서 디스크 추가가 데이터 재할당에 미치는 영향 이해</block>
+  <block id="c10bc4e93adad9fca2f391eb8340b88c" category="doc">Active IQ Unified Manager에서 동적 성능 임계값의 이벤트 분석</block>
+  <block id="dbe14a9259f05806d7870da247d9668f" category="doc">Active IQ Unified Manager의 시스템 정의 성능 임계값에서 이벤트 분석</block>
+  <block id="0d4a48a4a273856c1738e1d54895c5c2" category="doc">Active IQ Unified Manager에서 사용자 정의 성능 임계값의 이벤트 분석</block>
+  <block id="e46b83414b595d91926a20775e0db6d6" category="doc">Active IQ Unified Manager에서 성능 이벤트 분석</block>
+  <block id="ae91fc47409873cc918dc737e82c09e4" category="doc">Active IQ Unified Manager 그리드에서 상관 관계가 있는 개체 필터링</block>
+  <block id="064442db971e74eeac00071b2a21f609" category="doc">클라이언트 또는 네트워크 문제가 Active IQ Unified Manager의 성능에 미치는 영향 이해</block>
+  <block id="3aa3572f2eff1cba81cf632c61dbe27b" category="doc">Active IQ Unified Manager에서 클러스터 구성 요소 및 경합 이해</block>
+  <block id="b5aa32378757808077c1a68c79ae046e" category="doc">Active IQ Unified Manager에서 클러스터 구성 및 성능 데이터 보기</block>
+  <block id="bbb41b5b2367dea6020f4cc8d0b8907a" category="doc">Active IQ Unified Manager에서 감지된 구성 변경 사항 모니터링</block>
+  <block id="7b33ea6f34dde9a6383784155c20f6e9" category="doc">Active IQ Unified Manager에서 데이터 수집 및 워크로드 성능 모니터링</block>
+  <block id="306d9d7d9c2af20acf252eca74ab0631" category="doc">Active IQ Unified Manager의 오브젝트 랜딩 페이지 구성 요소 검토</block>
+  <block id="385d504d542459cb3bb55db7c334657d" category="doc">Active IQ Unified Manager의 Performance Explorer 페이지를 검토합니다</block>
+  <block id="e9f61f3281fb7ad42aca593c21530ae4" category="doc">Active IQ Unified Manager에서 지연 시간이 예상 범위 내에 있는지 확인합니다</block>
+  <block id="9153a01b97578aaad768544ac6abc74b" category="doc">Active IQ Unified Manager의 카운터 차트에서 확대/축소 보기에 대해 알아보기</block>
+  <block id="8d6d1540b463679eea88484634494938" category="doc">Active IQ Unified Manager에서 성능 이벤트 조사</block>
+  <block id="9a22a40179b23491fd725a9ca1284309" category="doc">Active IQ Unified Manager의 그래픽 인터페이스 및 탐색 경로 살펴보기</block>
+  <block id="6151e0d3ea3d95067032328054b4a218" category="doc">Active IQ Unified Manager에서 클러스터 작업이 워크로드 레이턴시에 미치는 영향을 평가합니다</block>
+  <block id="1664e3a2367f9d883cf1f06929372ac3" category="doc">Active IQ Unified Manager의 스토리지 애그리게이트에서 Flash Pool을 활성화하여 워크로드 성능 향상</block>
+  <block id="4f78795b585fbd0d85d59f17b181a994" category="doc">Active IQ Unified Manager를 사용하여 처리량 차트에서 QoS 정책 보기</block>
+  <block id="cacd263ab0b66106a1503e7df6cce554" category="doc">Active IQ Unified Manager에서 스토리지 QoS로 워크로드 처리량 제어</block>
+  <block id="eceab69f990d74121a3a1be7d77672cc" category="doc">Active IQ Unified Manager가 이벤트의 성능 영향을 판단하는 방법 이해</block>
+  <block id="639100640cdc34b3814bb88c98522df2" category="doc">워크로드 지연 시간을 사용하여 Active IQ Unified Manager의 성능 문제를 파악합니다</block>
+  <block id="0dfd947b2b7b27558a43ca3b99ee1a81" category="doc">Active IQ Unified Manager에서 사용자 정의 성능 임계값 정책 사용</block>
+  <block id="dff243ed7496b3918d078c753bae9121" category="doc">Active IQ Unified Manager의 성능 모니터링에 대해 알아보기</block>
+  <block id="669a6a7e5bc45c00f525b2b08584e277" category="doc">Active IQ Unified Manager에서 성능 임계값 관리</block>
+  <block id="34a2c3e496df15e976a1d4edbd4d2e63" category="doc">Active IQ Unified Manager에서 성능 용량 및 사용 가능한 IOPS 관리</block>
+  <block id="52c745d97178607e0130cc3b2f06d3b7" category="doc">Active IQ Unified Manager의 QoS 정책 그룹 정보를 사용하여 성능 관리</block>
+  <block id="f97e5a4588d697308e0ed7152d07d2de" category="doc">Active IQ Unified Manager에서 MetroCluster 구성 상태 확인</block>
+  <block id="a9854ef6fc9341a5d3f1628a9ef69794" category="doc">Active IQ Unified Manager에서 MetroCluster 구성 확인</block>
+  <block id="9c5f7acfa99261c2d178c315a2534567" category="doc">Active IQ Unified Manager에서 클러스터 오브젝트 탐색 모니터링</block>
+  <block id="b58a76964d838c1e14e377cc1f9df9a4" category="doc">Active IQ Unified Manager의 Performance Cluster Landing 페이지에서 클러스터 성능 모니터링</block>
+  <block id="e5010bf79d74a3fcd4aae28f6d2aa667" category="doc">Active IQ Unified Manager의 대시보드에서 클러스터 성능 모니터링</block>
+  <block id="b8c8adc479793804f4e654d3d2013f39" category="doc">Active IQ Unified Manager에서 클러스터 성능 탐색 모니터링</block>
+  <block id="91cc9fb5e3f1c1668eb7356b6fd48b17" category="doc">Active IQ Unified Manager의 성능 인벤토리 페이지를 사용하여 오브젝트 성능 모니터링</block>
+  <block id="4d69aabee6bc22816f766839cfdcca21" category="doc">Active IQ Unified Manager의 성능 탐색기 페이지를 사용하여 성능 모니터링</block>
+  <block id="f02f9fabfc5497c4be95d1757d1f7ada" category="doc">Active IQ Unified Manager에서 성능 향상을 위해 LIF 이동</block>
+  <block id="a20ed5c79c806749d1cd922c3f272bdd" category="doc">Active IQ Unified Manager GUI에서 성능 워크플로우를 탐색합니다.</block>
+  <block id="926158cf34822934adc8a7101fd69d33" category="doc">Active IQ Unified Manager에서 클라이언트측 설정을 조정하여 워크로드 성능을 향상시킵니다</block>
+  <block id="75f0fad0ac733759ea98cb44bc4954e0" category="doc">Active IQ Unified Manager에서 사용된 성능 용량 임계값 구성</block>
+  <block id="cea3869c5b9ad62d02e42957a56e1087" category="doc">Active IQ Unified Manager를 사용하여 MetroCluster 성능 이벤트를 분석하십시오</block>
+  <block id="23e91360e409d8e7eadd4b669d21a44c" category="doc">Active IQ Unified Manager를 사용하여 MetroCluster 성능 모니터링</block>
+  <block id="d9c86392777621b2aee294f9b6cfa209" category="doc">Active IQ Unified Manager에서 오브젝트 이동 시 임계값 정책 관리</block>
+  <block id="6924992aab9d03ec492391262797da3f" category="doc">Active IQ Unified Manager에서 성능 인벤토리 페이지 콘텐츠 구체화</block>
+  <block id="bdd822b8ab83e41d1ef81f2435207e8a" category="doc">Active IQ Unified Manager에서 비활성 볼륨 및 LUN 제거</block>
+  <block id="ac0c1a25bf37c625a2ed6cc8ae93a7ea" category="doc">Active IQ Unified Manager에서 구성 변경이 워크로드 성능에 미치는 영향을 평가합니다</block>
+  <block id="972a544a7b519f9ff3383e6d1ee929eb" category="doc">Active IQ Unified Manager의 성능 이벤트에서 워크로드 역할 식별</block>
+  <block id="4ffb026e144c50ba1d9caff3b0dd3ead" category="doc">Active IQ Unified Manager에서 사용량이 적은 시간에 스토리지 효율성 작업을 예약합니다</block>
+  <block id="f7453a59a478fd6e0a1743ae92b1e3b8" category="doc">Active IQ Unified Manager에서 스토리지 오브젝트 검색</block>
+  <block id="34dbad24cbad2dd7c22cb2b1c161c8a1" category="doc">Active IQ Unified Manager 와 외부 데이터 공급자 간의 연결을 설정합니다.</block>
+  <block id="08ababf9f614032810d8411aef0f2fcc" category="doc">Graphite가 Active IQ Unified Manager에서 성능 데이터를 수신하도록 설정합니다</block>
+  <block id="d503819d7268d7bed41ad63d9b693066" category="doc">Active IQ Unified Manager에서 성능 이벤트의 소스 식별</block>
+  <block id="c72169d21b3ab79ea4419a57f8140bbc" category="doc">Active IQ Unified Manager의 워크로드 분석기를 사용하여 워크로드 문제를 해결합니다</block>
+  <block id="d1a294c897a78bcbd28c0e387fabb163" category="doc">Active IQ Unified Manager로 워크로드 유형 모니터링</block>
+  <block id="ef936c23b8ff6c292f4ba9a4fc453f2e" category="doc">Active IQ Unified Manager 인터페이스를 사용하여 스토리지 시스템 성능을 관리합니다.</block>
+  <block id="7860f69f2adad8d32d5617b3797cd725" category="doc">Active IQ Unified Manager에서 카운터 차트 이해</block>
+  <block id="2a7fc93c4171e123689b4b08c1c1038b" category="doc">Active IQ Unified Manager에서 정의된 블록 크기를 사용하는 적응형 QoS 이벤트 이해</block>
+  <block id="187a664dd7d941deda70fab5d952a2bf" category="doc">Active IQ Unified Manager의 Performance Cluster Landing 페이지 이해</block>
+  <block id="b6f8b998df0ce2a019417f111fcad524" category="doc">Active IQ Unified Manager의 성능 이벤트 및 알림 이해</block>
+  <block id="21ca51315b2cad091d274c12e5fb16e1" category="doc">Active IQ Unified Manager 대시보드의 성능 패널을 검토합니다.</block>
+  <block id="85f5d54ca8e869c065cdf171c3ca9491" category="doc">Active IQ Unified Manager에서 성능 모니터링을 위해 루트 오브젝트 사용</block>
+  <block id="7647ff5ebf14db4a7c37e5ee82aa8607" category="doc">클라우드로 데이터를 계층화하기 위한 Active IQ Unified Manager 권장 사항 검토</block>
+  <block id="ee70b9d848b7838324edaa8a759f0876" category="doc">Active IQ Unified Manager 성능 모니터링 기능 살펴보기</block>
+  <block id="5f0b7b90d65e77be8a6f3be94fc688a5" category="doc">Active IQ Unified Manager의 Performance/Node Failover Planning 페이지에서 수정 조치 결정</block>
+  <block id="88d4c9c5f5c16100e5a0493651607432" category="doc">Active IQ Unified Manager에서 사용된 성능 용량 카운터 사용</block>
+  <block id="77db2eb148dab424b1a584c2eb6ec6d5" category="doc">Active IQ Unified Manager에서 QoS 정책 설정을 사용하여 노드 워크로드의 우선 순위를 지정합니다</block>
+  <block id="5d7c48ac44ac432ff9021cd5138d3c71" category="doc">Active IQ Unified Manager에서 노드 페일오버 계획을 위한 임계값 정책 생성</block>
+  <block id="903f1194bc96d36a7a1c095b773377a7" category="doc">Active IQ Unified Manager에서 QoS 정책 그룹 내의 고활동 볼륨 분석</block>
+  <block id="2d91eaec9455d93a801d1005f6e06798" category="doc">Active IQ Unified Manager에서 노드 및 애그리게이트에 사용 가능한 IOPS 값 보기</block>
+  <block id="4adc58f8c5554c35b1e4b59f7d6e61e6" category="doc">Active IQ Unified Manager에서 노드 및 애그리게이트 성능 용량 사용 값 보기</block>
+  <block id="6df12db50bff38f38d37201e0f68c165" category="doc">Active IQ Unified Manager에서 사용 가능한 IOPS 이해</block>
+  <block id="b9d2d8da24989408da15c6e122181a27" category="doc">Active IQ Unified Manager의 데이터 연속성 수집 주기 이해</block>
+  <block id="cca2e115c5b44d315b06e504aeabda1b" category="doc">Active IQ Unified Manager가 예상 성능 범위를 계산하는 방법 이해</block>
+  <block id="9c91f26e28f7879be80621b481e55a0b" category="doc">Active IQ Unified Manager에서 위반된 성능 임계값 정책에 대응합니다</block>
+  <block id="b10a156b2f367dab1efd9bcf0c301a24" category="doc">Active IQ Unified Manager의 성능 임계값 정책 변경 사항 이해</block>
+  <block id="7031d4021db4ecca8057bfba75883ead" category="doc">Active IQ Unified Manager의 경고 이메일에서 정보 검토</block>
+  <block id="f16cef0cb77a3af48511b8c97acd7386" category="doc">Active IQ Unified Manager에서 사용된 성능 용량 카운터 이해</block>
+  <block id="4f6bb8ab62d916ff4817249699d1d03c" category="doc">Active IQ Unified Manager의 성능 이벤트에 대해 알아보기</block>
+  <block id="52153433ebdbc48bc1f998d207359ec7" category="doc">Active IQ Unified Manager의 스토리지 효율성 이해</block>
+  <block id="aff4befffeaf769bcd60955b13670fac" category="doc">Active IQ Unified Manager에서 수집된 데이터 및 이벤트의 타임스탬프에 대해 알아보십시오</block>
+  <block id="37a61ac5473c08e7fae4273b7e29c9b5" category="doc">Active IQ Unified Manager에서 사용된 성능 용량 값 사용</block>
+  <block id="cdcb0f21944a8841e7a06cc9725a0f82" category="doc">Active IQ Unified Manager에서 워크로드 분석기를 사용해야 하는 경우 이해</block>
+  <block id="e800870d1beb5873b5e8a0966e136f1c" category="doc">Active IQ Unified Manager의 모든 스토리지 오브젝트에 대한 성능 인벤토리 페이지 보기</block>
+  <block id="04187cbbd63fb9c1261eac6fdb61b7eb" category="doc">Active IQ Unified Manager에서 클러스터 성능 이벤트 창 검토</block>
+  <block id="5e3a1a8e70f5b7f6bd5c4a89e14b4825" category="doc">Active IQ Unified Manager의 Performance Cluster Summary 페이지를 검토합니다</block>
+  <block id="7d823263426418ce22b6e7b4317deada" category="doc">Active IQ Unified Manager의 Performance/Node Failover Planning 페이지 구성 요소 검토</block>
+  <block id="901ab9cd5ee5fdec7bf9e0b12d827c15" category="doc">Active IQ Unified Manager에서 노드에 Flash Cache를 활성화하여 워크로드 성능을 향상합니다</block>
+  <block id="7c32d42d288182fd435dee365335fdd4" category="doc">Active IQ Unified Manager에서 성능 분석을 위한 지연 시간 예측 사용</block>
+  <block id="08104ab308aff4bb4bd3910d6cc3b53b" category="doc">Active IQ Unified Manager에서 관리 오브젝트 창 검토</block>
+  <block id="a81e4ca7c24eba7749fcf3565e54c011" category="doc">Active IQ Unified Manager에서 성능 클러스터 랜딩 페이지 검토</block>
+  <block id="a0cdb27c7986f98c42a7f84fe90b849f" category="doc">Active IQ Unified Manager에서 성능 배너 메시지 해석</block>
+  <block id="66182d13029c40b5f79ab617d26da41b" category="doc">Active IQ Unified Manager 성능 데이터를 외부 서버로 전송</block>
+  <block id="841a56fd81da4f6e1d620d6ad2e6896c" category="doc">Active IQ Unified Manager에서 성능 이벤트 및 알림 분석</block>
+  <block id="23a5d835762354019bddbf0b54229f1b" category="doc">Active IQ Unified Manager에서 심각도별로 성능 이벤트 우선 순위 지정</block>
+  <block id="02d36d3635b3dc8abe71e72e6b3795f4" category="doc">Active IQ Unified Manager에서 성능 이벤트 해결</block>
+  <block id="cf7ad27f471bcecaafb605bcdf04c90c" category="doc">Active IQ Unified Manager에서 성능 요약 페이지를 검토합니다</block>
+  <block id="ad866725349ebb487987d8c32a46f04a" category="doc">Active IQ Unified Manager에서 최고 성능 페이지 보기</block>
+  <block id="e6f70fae7fea51a14ebd286c91282136" category="doc">Active IQ Unified Manager의 성능 카운터 차트 유형 이해</block>
+  <block id="f8646ae431c544628ed40315794ae555" category="doc">Active IQ Unified Manager의 시스템 정의 성능 임계값 정책 이해</block>
+  <block id="308e1f13f154bf7cfbf012680123fe40" category="doc">Active IQ Unified Manager에서 노드 페일오버 계획 페이지 사용</block>
+  <block id="55f186accc39e5db16e8e90a11a6ef0a" category="doc">Active IQ Unified Manager의 워크로드 분석기 데이터 이해</block>
+  <block id="0e383c5212754e48d72be1f0232ab504" category="doc">Active IQ Unified Manager에서 조합 임계값 정책 오브젝트 및 카운터 이해</block>
+  <block id="31b58da67c98912dddd5423b92c5d8de" category="doc">Active IQ Unified Manager에서 임계값을 사용하여 추적되는 성능 카운터 이해</block>
+  <block id="3f90ee5ffd5087e0818b79393cf23738" category="doc">Active IQ Unified Manager의 워크로드 성능 측정값 이해</block>
+  <block id="01b80978860fecaf1103280fb36cd177" category="doc">Active IQ Unified Manager에서 원격 클러스터의 MetroCluster 성능 이벤트 분석</block>
+  <block id="e38ffec261a387bbc73dd7586ad8bfd9" category="doc">Active IQ Unified Manager에서 클러스터의 MetroCluster 성능 이벤트 분석</block>
+  <block id="57d104adf3a2694de3468b9cd5f4409d" category="doc">Active IQ Unified Manager의 스토리지 오브젝트에 성능 임계값 정책 할당</block>
+  <block id="f0cd1fe659830bc4ff3c6f373a7f2c87" category="doc">Active IQ Unified Manager에서 카운터 차트 포커스를 더 짧은 기간으로 변경합니다</block>
+  <block id="86b0f56fe6bba5aa444941394ff7da37" category="doc">Active IQ Unified Manager에서 성능 통계 수집 간격 변경</block>
+  <block id="34adf26b84eef03802ca684f0e43bd9d" category="doc">Active IQ Unified Manager 와 외부 데이터 공급자 간의 연결을 구성합니다.</block>
+  <block id="bcd4f08d3ffc904d1909a402a56a72fa" category="doc">Active IQ Unified Manager에서 사용자 정의 성능 임계값 정책 생성</block>
+  <block id="392cc617f798513e470284337d625464" category="doc">Active IQ Unified Manager에서 비교 그래프를 위한 상관 오브젝트 정의</block>
+  <block id="b2b74ccba041dbbe53eb0897d3c10e2e" category="doc">Active IQ Unified Manager에서 카운터 차트 확대/축소 보기 표시</block>
+  <block id="9c3183199fa59674a052771efb20eb86" category="doc">Active IQ Unified Manager에서 성능 이벤트에 대한 정보를 표시합니다</block>
+  <block id="0aacb190f5546503eed974019e59bc7e" category="doc">Active IQ Unified Manager에서 사용자 정의 성능 임계값 정책 편집</block>
+  <block id="934325a7a2ffb69c34b17a2b8dd54d3a" category="doc">Active IQ Unified Manager에서 카운터 차트 창 확장</block>
+  <block id="824a11b9bc7869c526d33afea778e6fa" category="doc">Active IQ Unified Manager에서 인벤토리 페이지 콘텐츠 필터링</block>
+  <block id="7eb23f03095787b82213a129c8298537" category="doc">Active IQ Unified Manager의 오브젝트 인벤토리 성능 페이지에서 데이터 필터링</block>
+  <block id="ccbe82a3d28eba994b3a6264ab1641cc" category="doc">Active IQ Unified Manager의 동적 성능 이벤트에서 불량 워크로드 식별</block>
+  <block id="2a595928956962c3bad4a13a43311b77" category="doc">Active IQ Unified Manager의 동적 성능 이벤트에서 상어 워크로드 식별</block>
+  <block id="924ad5d3544421146596c8cbdd1765e8" category="doc">Active IQ Unified Manager의 동적 성능 이벤트에서 피해자 워크로드 식별</block>
+  <block id="ecae132ea51fd905798dca7c40898388" category="doc">Active IQ Unified Manager UI에 로그인합니다.</block>
+  <block id="a634bafcf8919790e43143975a039aef" category="doc">Active IQ Unified Manager에서 다른 노드의 애그리게이트로 워크로드 이동</block>
+  <block id="c0242dc07d716f05c29feabe2915cd07" category="doc">Active IQ Unified Manager에서 다른 HA 쌍의 다른 노드로 워크로드 이동</block>
+  <block id="993943c54742231d549823ab7daafbc1" category="doc">Active IQ Unified Manager에서 다른 애그리게이트로 워크로드 이동</block>
+  <block id="8ceff9a37433711c2101ad6772c03ef3" category="doc">Active IQ Unified Manager에서 워크로드를 다른 노드로 이동합니다</block>
+  <block id="3c6e43821375ccdffe487522d4d2d65e" category="doc">Active IQ Unified Manager에서 다른 HA 쌍의 노드로 워크로드 이동</block>
+  <block id="411f69452647682b4c6dcf71ba78ccb6" category="doc">Active IQ Unified Manager의 스토리지 오브젝트에서 성능 임계값 정책 제거</block>
+  <block id="1b963d79d88bc10002f28d28bf28e482" category="doc">Active IQ Unified Manager에서 클러스터 불균형 성능 이벤트에 응답합니다</block>
+  <block id="73f4a3a480eb1e094038b572ae87b319" category="doc">Active IQ Unified Manager에서 동적 QoS 제한 이벤트에 응답합니다</block>
+  <block id="61f1c548d050e766a413526b786b32f0" category="doc">Active IQ Unified Manager에서 디스크 장애로 인한 성능 이벤트에 대응</block>
+  <block id="9518ee0f796c9bc7d6a97644c05e0352" category="doc">Active IQ Unified Manager에서 HA 테이크오버로 인한 성능 이벤트에 대응</block>
+  <block id="374ee7df0e1b36409d8f067d9f44e758" category="doc">Active IQ Unified Manager에서 노드 리소스 과다 사용 이벤트에 응답합니다</block>
+  <block id="bb3fa68150c92c55a06c07c1fdc45c1a" category="doc">Active IQ Unified Manager에서 시스템 정의 성능 임계값 이벤트에 응답합니다</block>
+  <block id="d97cd6cdc9a61f34c6a9a27687fe2db7" category="doc">Active IQ Unified Manager에서 QoS 정책 그룹 성능 이벤트에 대응합니다</block>
+  <block id="ec79b956c7fa2d24c006c71cf44ef841" category="doc">Active IQ Unified Manager에서 사용자 정의 성능 임계값 이벤트에 응답합니다</block>
+  <block id="96ae280ada6c7850a0115cab9637a704" category="doc">Active IQ Unified Manager의 오브젝트 인벤토리 성능 페이지에서 검색</block>
+  <block id="e8cd62ba9bdb8e8ad4e15c56af5d6bd3" category="doc">Active IQ Unified Manager에 표시할 성능 차트를 선택합니다</block>
+  <block id="6d2ff75f2a580acbcb24e578925bc38f" category="doc">Active IQ Unified Manager의 카운터 차트 확대/축소 보기에서 성능 임계값 선택</block>
+  <block id="3c1dd6f4b668ac645d431c447a8c5e8f" category="doc">Active IQ Unified Manager에서 사전 정의된 시간 범위 선택</block>
+  <block id="5fcb5463593df7929013b3b23229732a" category="doc">Active IQ Unified Manager의 오브젝트 인벤토리 성능 페이지에서 데이터 정렬</block>
+  <block id="176ec4723c6908cc2b2f0e16dc94b138" category="doc">Active IQ Unified Manager에서 상관 개체의 시간 범위 지정</block>
+  <block id="a0e2a3eadc5bbd968932fe0130061f2c" category="doc">Active IQ Unified Manager에서 사용자 지정 시간 범위 지정</block>
+  <block id="33709089a45fd65d3397bdfc3b057aba" category="doc">Active IQ Unified Manager의 확대/축소 보기에서 시간 범위 지정</block>
+  <block id="db8487cfeb606ccbfbf21b2299af1fdd" category="doc">Active IQ Unified Manager에서 페일오버 계획에 사용된 성능 용량 분석 차트 사용</block>
+  <block id="34b1b254eec23e991f947d0cefbb41b7" category="doc">Active IQ Unified Manager에서 워크로드 분석기 사용</block>
+  <block id="931854971bc368249ea228fb45a3efad" category="doc">Active IQ Unified Manager의 모든 클러스터에서 사용 가능한 QoS 정책 그룹 보기</block>
+  <block id="7380749501882b96142c24f51a2ffc34" category="doc">Active IQ Unified Manager 이벤트 타임라인에서 이벤트 세부 정보 보기</block>
+  <block id="6402e0510299e80a41f4ea3e773571fc" category="doc">Active IQ Unified Manager에서 로컬 워크로드를 기반으로 노드 IOPS 보기</block>
+  <block id="36b18aa1d9cbcbe5763c70ed37e1f2d5" category="doc">Active IQ Unified Manager에서 성능 용량 카운터 차트 보기</block>
+  <block id="1c838cb97da30232d74e6648a07f665d" category="doc">Active IQ Unified Manager에서 동일한 QoS 정책 그룹 내의 볼륨 또는 LUN 비교</block>
+  <block id="84373c94b38fdd61f69074c51f93e05d" category="doc">Active IQ Unified Manager에서 All SAN Array 클러스터의 성능 보기</block>
+  <block id="7c3150445fa3093d9647ae207fdc5ae9" category="doc">Active IQ Unified Manager에서 성능 임계값 정책 보기</block>
+  <block id="b28829e25511ab6c0e390f7750fdc0ed" category="doc">Active IQ Unified Manager에서 볼륨 또는 LUN의 QoS 정책 그룹 설정 보기</block>
+  <block id="a88a21dd066ce64d946bfe2e5dda13c3" category="doc">Active IQ Unified Manager에서 프로토콜별 SVM IOPS 트래픽 보기</block>
+  <block id="e21b0335bf2ad5b1d78b02ddf831410f" category="doc">Active IQ Unified Manager에서 볼륨 및 LUN 지연 시간 차트를 보고 성능 보장을 확인합니다</block>
+  <block id="bc3a009bc74523eb2a9469da844049b2" category="doc">Active IQ Unified Manager에서 클러스터 구성 요소별 볼륨 지연 시간 보기</block>
+  <block id="1e9b378280fabbdb24c0b4cf2870a4a5" category="doc">Active IQ Unified Manager에서 동일한 QoS 정책 그룹 내의 볼륨 또는 LUN 보기</block>
+  <block id="4c53b1d20e3e17d5c553822382225466" category="doc">Active IQ Unified Manager에서 워크로드 QoS 최소 및 최대 설정 보기</block>
+  <block id="9d2a37adaf61ff87e59e0f07495ca089" category="doc">Active IQ Unified Manager 릴리스 정보</block>
+  <block id="42295b8fd789480238bc0645425e0a86" category="doc">Active IQ Unified Manager에서 애그리게이트 용량 보고서 사용자 지정</block>
+  <block id="4d23b38954c463594278f59636a32c2d" category="doc">Active IQ Unified Manager에서 클러스터 스토리지 보고서 사용자 지정</block>
+  <block id="d7ff0f638484cd6f82c4396b32c481a8" category="doc">Active IQ Unified Manager에서 NFS 공유 보고서 사용자 지정</block>
+  <block id="84dadb73d2d74cb436944bdaac2ae82a" category="doc">Active IQ Unified Manager에서 Qtree 용량 보고서 사용자 지정</block>
+  <block id="bc1c66d2139e3188d1e2286e7101b5fb" category="doc">Active IQ Unified Manager에서 보고서 사용자 지정</block>
+  <block id="73c4f931a734e9431ea93439c3c89b62" category="doc">Active IQ Unified Manager에서 스토리지 VM 보고서 사용자 지정</block>
+  <block id="2ca85616768242ee5f27995f7be28a3d" category="doc">Active IQ Unified Manager에서 볼륨 용량 보고서 사용자 지정</block>
+  <block id="0110261dba06c9a5c92b8df83c955b00" category="doc">Active IQ Unified Manager에서 볼륨 성능 보고서 사용자 지정</block>
+  <block id="d4d70344cc35f77918160b0d1cdd05b2" category="doc">Active IQ Unified Manager에서 볼륨 관계 보고서 사용자 지정</block>
+  <block id="066b83339f158e15fc03b82bb3af4966" category="doc">Active IQ Unified Manager에서 보고 기능에 액세스하는 세 가지 방법 살펴보기</block>
+  <block id="1076abf58c242329455d30cb451e97a2" category="doc">Active IQ Unified Manager의 보고서 워크플로우 이해</block>
+  <block id="d262b8f023695a4cd367a48c1c176207" category="doc">Active IQ Unified Manager의 샘플 사용자 지정 보고서 이해</block>
+  <block id="71fbb9faad301a241bfb550c49f3b9e8" category="doc">Active IQ Unified Manager의 샘플 Microsoft Excel 보고서 이해</block>
+  <block id="1e31ec5ffb35b4e6493fa0a1d57a15c2" category="doc">Active IQ Unified Manager에서 보고서 예약</block>
+  <block id="c049b48ee9d0ce855d1948642d87dca7" category="doc">Active IQ Unified Manager의 보고서 이해</block>
+  <block id="214a61e544aca57b18945ca52f2e07a0" category="doc">Active IQ Unified Manager에서 뷰와 보고서 관계 이해</block>
+  <block id="b4c02ae9bdb9ff4e238ad974b750f25a" category="doc">Active IQ Unified Manager에서 사용자 지정 보고를 위한 데이터베이스 액세스</block>
+  <block id="73b1ac0a25ca974072b51efe291ffe18" category="doc">Active IQ Unified Manager 보고 기능에 대해 알아보세요.</block>
+  <block id="4266ef197fbc2b59e1541d0613f78189" category="doc">Active IQ Unified Manager에서 보고서 작업</block>
+  <block id="d8ae7f271e865d9b72fe89f322ae70f7" category="doc">Active IQ Unified Manager REST API를 사용하여 보고합니다.</block>
+  <block id="873516a3ea19b608e6af836d619c65dc" category="doc">Active IQ Unified Manager의 보고 제한 사항 이해</block>
+  <block id="2f6a9104b0d4bd30ca815ed6b1dcab42" category="doc">Active IQ Unified Manager의 보고서 유형에 대해 알아보십시오</block>
+  <block id="4d77becc69bc5622f056ac86dd037330" category="doc">Active IQ Unified Manager에서 FabricPool이 아닌 애그리게이트에서 콜드 데이터가 많은 볼륨을 식별하는 보고서를 생성합니다.</block>
+  <block id="f0577de9d40ca8b2a5820eb8cc4e2844" category="doc">Active IQ Unified Manager에서 문제별로 볼륨 관계를 그룹화하는 보고서 생성</block>
+  <block id="ae9d658df830168f1c73c60c12983807" category="doc">Active IQ Unified Manager에서 할당되지 않은 LUN 용량이 있는 클러스터를 식별합니다</block>
+  <block id="92ef6a725fbcf52a11a7f2f14437042e" category="doc">Active IQ Unified Manager에서 씬 프로비저닝이 비활성화된 볼륨 식별</block>
+  <block id="a4cb01627ffa87f7455905ce5f5eb644" category="doc">Active IQ Unified Manager에서 스냅샷 자동 삭제가 비활성화된 상태로 용량 한계에 근접한 볼륨 식별</block>
+  <block id="13e3a72ed3ee4601050aa8afab6c1186" category="doc">Active IQ Unified Manager에서 총 애그리게이트 용량 대 사용 가능한 용량 차트 표시</block>
+  <block id="a96e2780bd3de617148924286d999c14" category="doc">Active IQ Unified Manager에서 전체 용량에 도달하는 애그리게이트를 보기 위한 보고서 생성</block>
+  <block id="080e58bd386d21e6085cfebb18b1dda4" category="doc">Active IQ Unified Manager에서 80% 이상 가득 찬 애그리게이트를 보는 보고서 생성</block>
+  <block id="63b02999a93396196ca0a8e2085a22a1" category="doc">Active IQ Unified Manager에서 초과 커밋된 애그리게이트를 보기 위한 보고서 생성</block>
+  <block id="58c3f02c1ce47f96f2f8b5d4a282e6fa" category="doc">Active IQ Unified Manager에서 사용 가능한 IOPS가 가장 많은 애그리게이트를 보기 위한 보고서를 생성합니다</block>
+  <block id="5dbfc63872d6c81c3a01ece6786babe9" category="doc">Active IQ Unified Manager에서 사용 가능한 볼륨 용량 차트를 보기 위한 보고서 만들기</block>
+  <block id="028177e231e3da8e7d78bc58db3fdb04" category="doc">Active IQ Unified Manager에서 애그리게이트 용량 테이블 및 차트를 표시하는 보고서 생성</block>
+  <block id="22cba691d6077b47a7f66c8363978e6e" category="doc">Active IQ Unified Manager에서 클러스터 모델별 용량을 보기 위한 보고서 생성</block>
+  <block id="bddb775f5c690a3113f68f44e710bf9b" category="doc">Active IQ Unified Manager에서 실패하거나 성공한 볼륨 전송을 보기 위한 보고서 만들기</block>
+  <block id="e84cf2e90712a7c8a00ca702ae4ef974" category="doc">Active IQ Unified Manager에서 사용 가능한 용량이 가장 많은 HA 쌍을 보기 위한 보고서 생성</block>
+  <block id="bcd606ecee6fca7af619bfae7c7bc267" category="doc">Active IQ Unified Manager에서 거의 꽉 찬 qtree를 보는 보고서 만들기</block>
+  <block id="afa8f8ce62b758ee7cccf7fb2ee08af5" category="doc">Active IQ Unified Manager에서 중지된 스토리지 VM을 보기 위한 보고서 생성</block>
+  <block id="d9619dee7e601eb322637867edd0a9bd" category="doc">Active IQ Unified Manager에서 최대 볼륨 제한에 도달하는 스토리지 VM을 보기 위한 보고서 생성</block>
+  <block id="002bb26271b2de0bbaa04ae649ea46e7" category="doc">Active IQ Unified Manager에서 전송 크기를 기준으로 볼륨 전송을 보는 보고서 만들기</block>
+  <block id="c20cc2d81e07c807e86db40085bc1233" category="doc">Active IQ Unified Manager에서 일별로 그룹화된 볼륨 전송을 보기 위한 보고서 생성</block>
+  <block id="b7f2c31eaef1fc8650bf45e66a5107d2" category="doc">Active IQ Unified Manager에서 시간 간격별 볼륨 전송 추세를 보기 위한 보고서를 생성합니다</block>
+  <block id="8ecfc53976e3d12380063154053131cb" category="doc">Active IQ Unified Manager에서 액세스할 수 없는 마운트 경로가 있는 볼륨을 보기 위한 보고서를 생성합니다</block>
+  <block id="0d17370e50c72826ceab79d22d08db62" category="doc">Active IQ Unified Manager에서 기본 엑스포트 정책을 사용하는 볼륨을 보는 보고서 생성</block>
+  <block id="df1bc24606115db244e016b075c61362" category="doc">Active IQ Unified Manager에서 이전 버전의 ONTAP를 실행하는 노드를 보는 보고서 생성</block>
+  <block id="9eb9d986506bff04a9a4c0a7523f74da" category="doc">Active IQ Unified Manager에서 장애 원인별로 볼륨 관계를 그룹화하는 보고서 생성</block>
+  <block id="601be396562cf3559d6c246ee13969ae" category="doc">Active IQ Unified Manager에서 클라우드 계층으로 데이터를 이동해야 하는 볼륨을 식별합니다</block>
+  <block id="9e2e175fd98a9c190580770be22209c5" category="doc">Active IQ Unified Manager의 보고서에서 열 사용자 지정</block>
+  <block id="95554c344483783421a19e4cf70fc5f9" category="doc">Active IQ Unified Manager에서 예약된 보고서 삭제</block>
+  <block id="f5be60457701863e3cc7b0966bc5159f" category="doc">Active IQ Unified Manager에서 보고서 다운로드</block>
+  <block id="eec6654671979fdca77214bf3ca80870" category="doc">Active IQ Unified Manager에서 예약된 보고서 편집</block>
+  <block id="27d4b0838d3035a78b3902bd2ebad1ca" category="doc">Active IQ Unified Manager에서 데이터 필터링</block>
+  <block id="7e70bbc8b07be6bcb5564f9f260b1c0c" category="doc">Active IQ Unified Manager에서 보고서 일정 관리</block>
+  <block id="76b0a9fcd0ca15c6e13191e5c9515046" category="doc">Active IQ Unified Manager에서 보고 시작하기</block>
+  <block id="4751afdcaa607a5203171ccb4ade3bc0" category="doc">Active IQ Unified Manager에서 가져온 .rptdesign 보고서 예약</block>
+  <block id="d98844e944333b5f98632d0c4e566fbe" category="doc">Active IQ Unified Manager에서 보고서 예약</block>
+  <block id="72b2926900910c1b6f6bc45ec1c297af" category="doc">Active IQ Unified Manager에서 예약된 보고서 검색</block>
+  <block id="9d5bfbb78c0da46313b42936327daf48" category="doc">Active IQ Unified Manager에서 검색하여 보기를 구체화합니다</block>
+  <block id="93d35f01776d23bb163ff7fca5078cd1" category="doc">Active IQ Unified Manager에서 데이터 정렬</block>
+  <block id="535d39333a06208b208543a37b1251f4" category="doc">Active IQ Unified Manager에서 Excel을 사용하여 보고서 사용자 지정</block>
+  <block id="22eaa61abfa7e8c46eba3ba539c5b1dc" category="doc">Active IQ Unified Manager의 할당량에 대해 알아보기</block>
+  <block id="c90f16bd594c11b7ba128e9370ce9017" category="doc">Active IQ Unified Manager의 데이터베이스 디렉토리에 디스크 공간 추가</block>
+  <block id="ab77032c12b32ff21c18c847b2e9703e" category="doc">Active IQ Unified Manager에서 워크로드 보기</block>
+  <block id="6bbcf47610490c44ed595792ad198369" category="doc">Active IQ Unified Manager에서 워크로드에 정책 할당</block>
+  <block id="7ca01b1ac376706b273a4cf788375a30" category="doc">Active IQ Unified Manager에서 직접 ONTAP 문제 또는 기능 관리</block>
+  <block id="30e67b48ee82967d2556bdb312fc7819" category="doc">Active IQ Unified Manager에서 클러스터 검색 프로세스가 작동하는 방식에 대해 알아보십시오</block>
+  <block id="2ba128b2fec458400febbe2160eb1614" category="doc">Active IQ Unified Manager의 상태 모니터링에 대해 알아보기</block>
+  <block id="077819aa397f2ae293340d1c685b8c24" category="doc">Active IQ Unified Manager에서 MetroCluster 구성 관리 및 모니터링</block>
+  <block id="edf26b4c45fd428e701e46dac013d52d" category="doc">Active IQ Unified Manager에서 ONTAP 클러스터 관리</block>
+  <block id="4ec8078e44bf0dfb5ebd52d97a0d9091" category="doc">Active IQ Unified Manager에서 성능 서비스 수준 관리</block>
+  <block id="23cfca5ba97b2ec7a677b275ed531d9b" category="doc">Active IQ Unified Manager에서 사용자 및 그룹 할당량 관리</block>
+  <block id="2e9726d3e65c8a02f6082a16361c03b8" category="doc">Active IQ Unified Manager에서 스토리지 효율성 정책 관리</block>
+  <block id="c5b583f7ee012ce588a7d1c9d5032976" category="doc">재해 복구 설정에서 Active IQ Unified Manager를 사용하여 가상 인프라 가시성 보기</block>
+  <block id="45894598593972b28181aaa1f369bc08" category="doc">Active IQ Unified Manager의 대시보드에서 클러스터 모니터링 및 관리</block>
+  <block id="7adcae494f173c95b91f64f2817711c1" category="doc">Active IQ Unified Manager가 가상 머신을 모니터링하는 방법 이해</block>
+  <block id="d19a98246636e5e8ef0837a76f5870dd" category="doc">Active IQ Unified Manager가 VMware 가상 인프라를 모니터링하는 방법 이해</block>
+  <block id="14e53d4357f09223ab6158cfbdeaeada" category="doc">Active IQ Unified Manager에서 스크립트로 관리 작업 재정의</block>
+  <block id="5138d9f16d5f659c8aea0ba65666730c" category="doc">Active IQ Unified Manager 할당량 프로세스에 대해 알아보기</block>
+  <block id="fb6db5f9b3abbb6c7f81a8fb30ab01be" category="doc">Active IQ Unified Manager에서 워크로드 프로비저닝 및 관리</block>
+  <block id="178c2dd6c0a5ba758b908d4a61687988" category="doc">Active IQ Unified Manager 문제 해결</block>
+  <block id="e858d547a9b0048c79dc8e5d6acf97c1" category="doc">Active IQ Unified Manager의 일반적인 창 레이아웃</block>
+  <block id="c98ad2a500751b972c5c3cfdc828fd7e" category="doc">Active IQ Unified Manager 사용자 인터페이스에 대해 알아보기</block>
+  <block id="1be5a81f0301b52049c18615ebd14ace" category="doc">Active IQ Unified Manager REST API 사용</block>
+  <block id="a3a6a62f80ee3fd6419e337fdd906d69" category="doc">Active IQ Unified Manager에서 전환 및 스위치백 중 볼륨 동작에 대해 알아보십시오</block>
+  <block id="b80d5bb6515d4e1a74a2084f180c6c30" category="doc">Active IQ Unified Manager의 Fix It 및 Fix All 버튼 옵션에 대해 알아보기</block>
+  <block id="4bad1ab7140fd6fd102c1c1166277db9" category="doc">Active IQ Unified Manager의 할당량 제한에 대해 알아보기</block>
+  <block id="7def7a5f166e0252fb8fbc02a1420c0e" category="doc">Active IQ Unified Manager 서버에 대해 알아보기</block>
+  <block id="edc89202ed7986f7a22a820fed80de2a" category="doc">Active IQ Unified Manager의 워크로드 대시보드에 대해 알아보기</block>
+  <block id="ed12ba324ef44f7bf50ed84fdb6a2844" category="doc">Active IQ Unified Manager에서 FC 구성을 통한 MetroCluster의 클러스터 연결 이해</block>
+  <block id="d247494d499c05ad124487eb774c7ef1" category="doc">Active IQ Unified Manager 대시보드 페이지에 대해 알아보십시오.</block>
+  <block id="bdc965ceaa5cba12db48a8b2afc55ae2" category="doc">Active IQ Unified Manager에서 FC 데이터 미러링을 통한 MetroCluster에 대해 알아보기</block>
+  <block id="b3ded01d47a8a149eec89d813e2cadd7" category="doc">Active IQ Unified Manager에서 할당량 대화 상자 사용</block>
+  <block id="264bb116784d0193025e21bf6b4e478d" category="doc">Active IQ Unified Manager의 이메일 알림 형식 페이지에 대해 알아보십시오</block>
+  <block id="68bfd33f48919a8fe1815e8831e787f2" category="doc">Active IQ Unified Manager에서 기타 인증 서비스를 사용하여 LDAP를 추가함으로써 발생하는 문제 해결</block>
+  <block id="2276264465e10866d2739d825f5e8735" category="doc">Active IQ Unified Manager의 할당량 이메일 주소 규칙에 대해 알아보기</block>
+  <block id="2313c7b75047b7789b00c39828e2c718" category="doc">Active IQ Unified Manager에서 알 수 없는 인증 오류 해결</block>
+  <block id="00a3993ddee2565431662708ce48c894" category="doc">Active IQ Unified Manager에서 사용자를 찾을 수 없음 오류 해결</block>
+  <block id="d76b60cfa960ff09d55b66117e815ffa" category="doc">Active IQ Unified Manager가 해결할 수 있는 ONTAP 문제에 대해 알아보십시오.</block>
+  <block id="2620cd4bc4dd77df42defa94f67d6999" category="doc">Active IQ Unified Manager에서 창 레이아웃 사용자 지정</block>
+  <block id="a051b303e0a73995e39b3e2044fd7d23" category="doc">Active IQ Unified Manager의 Linux 호스트 데이터 디렉토리에 공간 추가</block>
+  <block id="069d5a5f8aa0f4a984281d75895d8231" category="doc">Active IQ Unified Manager에서 Microsoft Windows 서버의 논리 드라이브에 공간 추가</block>
+  <block id="6cfc690da70b5ff4b5ba9d399e598094" category="doc">Active IQ Unified Manager의 VMware 가상 머신 데이터 디스크에 공간 추가</block>
+  <block id="96b51b53de194849c218b373a2fd41ec" category="doc">Active IQ Unified Manager에서 즐겨찾는 도움말 항목을 책갈피로 지정합니다</block>
+  <block id="a6bea78f7d73ec49b70c0df8a999f880" category="doc">Active IQ Unified Manager 이벤트 및 성능 데이터를 보존하는 기간을 변경합니다.</block>
+  <block id="7a6b68da9f117b0fda32ffce0bd97101" category="doc">Active IQ Unified Manager에서 사용자 및 사용자 그룹 할당량에 대한 이메일 알림 형식 만들기</block>
+  <block id="8952fc7058cbba11fdd255075ab28dd5" category="doc">Active IQ Unified Manager에서 성능 서비스 수준 생성 및 편집</block>
+  <block id="4d6b3f3adfdabbe8813876d3c392639d" category="doc">Active IQ Unified Manager에서 스토리지 효율성 정책 생성 및 편집</block>
+  <block id="e88f74b706c7d0798e69f5f9c6a283aa" category="doc">Active IQ Unified Manager에서 이메일 주소를 생성하는 규칙 만들기</block>
+  <block id="b99fcdb6142976951743f4c0cd4b39e0" category="doc">Active IQ Unified Manager에서 클러스터 설정 편집</block>
+  <block id="a620c46611cf446a192da4e765e2732c" category="doc">Active IQ Unified Manager에서 사용자 및 그룹 할당량 이메일 주소 편집</block>
+  <block id="9ee19423c27219bc341ff5b6da860c74" category="doc">Active IQ Unified Manager에서 스토리지 데이터를 보고서로 내보내기</block>
+  <block id="70d3119422693d67ad130e75e803970e" category="doc">Active IQ Unified Manager에서 MetroCluster 구성 모니터링</block>
+  <block id="eb86f759a0031f1efd4b4d92a4ba3d63" category="doc">Active IQ Unified Manager에서 MetroCluster 복제 모니터링</block>
+  <block id="6dbadc12101ce98dc0fd7400667f62ad" category="doc">Active IQ Unified Manager에서 파일 공유 볼륨 프로비저닝</block>
+  <block id="5699fab6059f11334468b9644776aee1" category="doc">Active IQ Unified Manager에서 LUN 프로비저닝</block>
+  <block id="2bff085f20e81596dedf324bc9a9611e" category="doc">Active IQ Unified Manager에서 클러스터 재검색</block>
+  <block id="e6a1470bc5415cfd42893ea2c0c18c42" category="doc">Active IQ Unified Manager에서 클러스터 제거</block>
+  <block id="877d60d18a5918663c242ab429c57a49" category="doc">Active IQ Unified Manager에서 vCenter Server 제거</block>
+  <block id="fa0ee68056cce15283b335c795232350" category="doc">Active IQ Unified Manager에서 NetApp Manageability SDK 로그 순환 문제 해결</block>
+  <block id="2970c8dd44babc82fece561d1c0586f8" category="doc">Active IQ Unified Manager 도움말 사용</block>
+  <block id="4a670817104b60411d4cbafebced2e78" category="doc">Active IQ Unified Manager의 알림 벨에서 활성 이벤트 보기</block>
+  <block id="1f0158130464c96c3bd24c9c2721066d" category="doc">Active IQ Unified Manager에서 vCenter Server 보기 및 추가</block>
+  <block id="6b595466f74ad88d1d58cbb1f9e708c5" category="doc">Active IQ Unified Manager에서 모니터링하는 클러스터 목록 보기</block>
+  <block id="5e6418081a0b5941600e9b0a5179af0c" category="doc">Active IQ Unified Manager에서 수정할 관리 작업의 상태를 봅니다</block>
+  <block id="e740cf549cb335bcf4bf6c09eccb40c2" category="doc">Active IQ Unified Manager에서 사용자 및 사용자 그룹 할당량 보기</block>
+  <block id="019fe78946f68f8c5b4bb33746f61a56" category="sidebar">Unified Manager 설치 순서에 대해 알아보기</block>
+  <block id="334380400ec14d1604ddbc3bd15556eb" category="sidebar">Unified Manager를 위한 가상 인프라 및 하드웨어 요구 사항</block>
+  <block id="2b63cdea2aec6916e3bace1722f8dbe8" category="sidebar">Unified Manager용 VMware 소프트웨어 및 설치 요구 사항</block>
+  <block id="290d0bb56ef962a5a99f5681261af104" category="sidebar">Unified Manager에서 지원하는 브라우저</block>
+  <block id="f9ead9babe0e6989688654f4ed345f24" category="sidebar">Unified Manager의 프로토콜 및 포트 요구 사항</block>
+  <block id="9e456fc45ea01c2976f68e3c3314b43f" category="sidebar">Unified Manager 설치 워크시트</block>
+  <block id="f87bee89e654488fdd4c91e61e906b7b" category="sidebar">VMware vSphere에서 Unified Manager 설치, 업그레이드 및 제거</block>
+  <block id="e2759540dff477e9074a50116daa1200" category="sidebar">Unified Manager 배포 프로세스에 대해 알아봅니다.</block>
+  <block id="693cd77d8b73573c6a24bb3a3e66378a" category="sidebar">Unified Manager 가상 어플라이언스 배포 워크플로</block>
+  <block id="2c3b3d06e66cca95f441e028f5e75e98" category="sidebar">Unified Manager 가상 어플라이언스 업그레이드 워크플로</block>
 </blocks>

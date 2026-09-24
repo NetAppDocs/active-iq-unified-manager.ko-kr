@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, data, external, server 
 summary: Unified Manager는 모니터링 하는 모든 클러스터에서 다양한 성능 데이터를 수집합니다. 특정 데이터 그룹을 외부 서버로 보낼 수 있습니다. 
 ---
-= 외부 서버로 보낼 수 있는 성능 데이터
+= Active IQ Unified Manager 성능 데이터를 외부 서버로 전송
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

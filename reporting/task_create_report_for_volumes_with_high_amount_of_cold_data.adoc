@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify 
 summary: 비 FabricPool 애그리게이트에 많은 양의 콜드 데이터가 포함된 볼륨을 표시하는 보고서를 생성할 수 있습니다. 이렇게 하면 FabricPool aggregate로 이동해야 하는 볼륨을 식별하는 데 도움이 될 수 있습니다. 
 ---
-= FabricPool이 활성화되지 않은 집계에서 많은 양의 콜드 데이터가 포함된 볼륨을 보려면 보고서를 만듭니다.
+= Active IQ Unified Manager에서 FabricPool이 아닌 애그리게이트에서 콜드 데이터가 많은 볼륨을 식별하는 보고서를 생성합니다.
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

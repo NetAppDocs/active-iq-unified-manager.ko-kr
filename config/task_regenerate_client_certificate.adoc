@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: client certificate, regenerate, validity, maintenance console 
 summary: 유지 관리 콘솔을 사용하여 Unified Manager 클라이언트 인증서를 다시 생성할 수 있습니다. 
 ---
-= Unified Manager 클라이언트 인증서를 다시 생성합니다.
+= Active IQ Unified Manager에서 클라이언트 인증서 재생성
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

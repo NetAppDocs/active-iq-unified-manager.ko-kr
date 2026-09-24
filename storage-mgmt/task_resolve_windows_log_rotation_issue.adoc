@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: windows, log rotation issue, Netapp Manageability SDK 
 summary: '문제 해결: 로그 회전 문제를 해결하려면 다음 단계를 따르세요.' 
 ---
-= Windows 시스템의 NetApp Manageability SDK 로그 회전 문제
+= Active IQ Unified Manager에서 NetApp Manageability SDK 로그 순환 문제 해결
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
