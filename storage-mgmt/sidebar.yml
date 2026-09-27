@@ -3,8 +3,9 @@ section: storage-mgmt
 title: 스토리지 모니터링 및 관리
 entries:
 - title: Active IQ Unified Manager 소개
-  url: "/storage-mgmt/concept_introduction_to_unified_manager.html"
   entries:
+  - title: Active IQ Unified Manager에 대해 알아보기
+    url: "/storage-mgmt/concept_introduction_to_unified_manager.html"
   - title: Active IQ Unified Manager 상태 모니터링 소개
     url: "/storage-mgmt/concept_introduction_to_unified_manager_health_monitoring.html"
   - title: Active IQ Unified Manager 성능 모니터링 소개
@@ -12,13 +13,15 @@ entries:
   - title: Unified Manager REST API 사용
     url: "/storage-mgmt/concept_use_unified_manager_rest_apis_ocum.html"
   - title: Unified Manager 서버의 기능
-    url: "/storage-mgmt/concept_what_unified_manager_server_does.html"
     entries:
+    - title: Unified Manager 서버에 대해 알아보기
+      url: "/storage-mgmt/concept_what_unified_manager_server_does.html"
     - title: 검색 프로세스의 작동 방식
       url: "/storage-mgmt/concept_how_discovery_process_works_tobe_rmvd.html"
 - title: 사용자 인터페이스를 이해하세요
-  url: "/storage-mgmt/concept_understand_user_interface.html"
   entries:
+  - title: 사용자 인터페이스에 대해 알아보기
+    url: "/storage-mgmt/concept_understand_user_interface.html"
   - title: 일반적인 창 레이아웃
     url: "/storage-mgmt/concept_typical_window_layouts_um_6_x.html"
   - title: 창 레이아웃 사용자 정의
@@ -36,13 +39,15 @@ entries:
   - title: 알림 벨에서 활성 이벤트 보기
     url: "/storage-mgmt/task_view_active_events_from_notification_bell.html"
 - title: 대시보드에서 클러스터를 모니터링하고 관리합니다.
-  url: "/storage-mgmt/concept_monitor_and_manage_clusters_from_dashboard.html"
   entries:
+  - title: 대시보드 패널
+    url: "/storage-mgmt/concept_monitor_and_manage_clusters_from_dashboard.html"
   - title: 대시보드 페이지
     url: "/storage-mgmt/reference_dashboard_page.html"
   - title: Unified Manager에서 직접 ONTAP 문제를 수정하거나 관리합니다.
-    url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
     entries:
+    - title: ONTAP 문제 및 기능 관리
+      url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
     - title: Fix it 또는 Fix All 단추가 표시되면 어떤 옵션이 있는지 확인합니다
       url: "/storage-mgmt/concept_what_options_do_i_have_in_fix_it_button.html"
     - title: 수정하기로 선택한 관리 작업의 상태를 확인하세요.
@@ -52,7 +57,6 @@ entries:
     - title: 스크립트를 통해 관리 작업 재정의
       url: "/storage-mgmt/concept_override_management_actions_through_scripts.html"
 - title: 클러스터 관리
-  url: "/storage-mgmt/concept_manage_clusters.html"
   entries:
   - title: 클러스터 검색 프로세스의 작동 방식
     url: "/storage-mgmt/concept_how_discovery_process_works.html"
@@ -67,8 +71,9 @@ entries:
   - title: 클러스터 재검색
     url: "/storage-mgmt/task_rediscover_clusters.html"
 - title: VMware 가상 인프라 모니터링
-  url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
   entries:
+  - title: VMware 가상 인프라 모니터링에 대해 알아보세요.
+    url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
   - title: vCenter Server 보기 및 추가
     url: "/storage-mgmt/task_view_and_add_vcenter_servers.html"
   - title: vCenter Server 제거
@@ -78,11 +83,13 @@ entries:
   - title: 재해 복구 설정에서 가상 인프라 보기
     url: "/storage-mgmt/concept_mcc_svmdr_vmawareness.html"
 - title: 워크로드 프로비저닝 및 관리
-  url: "/storage-mgmt/concept_provision_and_manage_workloads.html"
   entries:
+  - title: 워크로드 프로비저닝 및 관리에 대해 알아보기
+    url: "/storage-mgmt/concept_provision_and_manage_workloads.html"
   - title: 워크로드 개요
-    url: "/storage-mgmt/concept_workloads_dashboard.html"
     entries:
+    - title: 워크로드 대시보드에 대해 알아보기
+      url: "/storage-mgmt/concept_workloads_dashboard.html"
     - title: 작업 부하 보기
       url: "/storage-mgmt/concept_all_workloads.html"
     - title: 워크로드에 정책 할당
@@ -92,17 +99,18 @@ entries:
     - title: LUN 프로비저닝
       url: "/storage-mgmt/task_provision_luns.html"
   - title: 성과 서비스 수준 관리
-    url: "/storage-mgmt/concept_manage_performance_service_levels.html"
     entries:
+    - title: 성능 서비스 수준에 대해 알아보기
+      url: "/storage-mgmt/concept_manage_performance_service_levels.html"
     - title: 성능 서비스 수준 생성 및 편집
       url: "/storage-mgmt/task_create_and_edit_psls.html"
   - title: 스토리지 효율성 정책 관리
-    url: "/storage-mgmt/concept_manage_storage_efficiency_policies.html"
     entries:
+    - title: 스토리지 효율성 정책에 대해 알아보기
+      url: "/storage-mgmt/concept_manage_storage_efficiency_policies.html"
     - title: 스토리지 효율성 정책 생성 및 편집
       url: "/storage-mgmt/task_create_and_edit_seps.html"
 - title: MetroCluster 구성 관리 및 모니터링
-  url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
   entries:
   - title: 스위치오버 및 스위치백 중 볼륨 동작
     url: "/storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html"
@@ -115,7 +123,6 @@ entries:
   - title: MetroCluster 복제 모니터링
     url: "/storage-mgmt/task_monitor_metrocluster_replication.html"
 - title: 할당량 관리
-  url: "/storage-mgmt/concept_manage_quotas.html"
   entries:
   - title: 할당량 제한이란 무엇입니까
     url: "/storage-mgmt/concept_what_quota_limits_are.html"
@@ -128,7 +135,6 @@ entries:
   - title: 사용자 및 그룹 할당량 이메일 주소 편집
     url: "/storage-mgmt/task_edit_user_and_group_quota_email_addresses.html"
   - title: 할당량에 대해 더 자세히 알아보세요
-    url: "/storage-mgmt/concept_understand_more_about_quotas.html"
     entries:
     - title: 할당량 프로세스 개요
       url: "/storage-mgmt/concept_overview_of_quota_process_um_6_1.html"
@@ -137,18 +143,19 @@ entries:
     - title: 할당량을 사용하는 이유
       url: "/storage-mgmt/concept_why_you_use_quotas.html"
   - title: 할당량 대화 상자에 대한 설명입니다
-    url: "/storage-mgmt/reference_description_of_quotas_dialog_boxes.html"
     entries:
+    - title: 할당량 대화 상자 사용
+      url: "/storage-mgmt/reference_description_of_quotas_dialog_boxes.html"
     - title: 이메일 알림 형식 페이지
       url: "/storage-mgmt/reference_email_notification_format_page.html"
     - title: 사용자 및 그룹 할당량 이메일 주소 생성 규칙 페이지
       url: "/storage-mgmt/reference_rules_to_generate_user_and_group_quota.html"
 - title: 문제 해결
-  url: "/storage-mgmt/concept_troubleshooting.html"
   entries:
   - title: Unified Manager 데이터베이스 디렉터리에 디스크 공간 추가
-    url: "/storage-mgmt/concept_add_disk_space_to_um_database_directory.html"
     entries:
+    - title: 데이터베이스 디렉터리에 디스크 공간을 추가하는 방법에 대해 알아보기
+      url: "/storage-mgmt/concept_add_disk_space_to_um_database_directory.html"
     - title: VMware 가상 머신의 데이터 디스크에 공간 추가
       url: "/storage-mgmt/task_add_space_to_data_disk_of_vmware.html"
     - title: Linux 호스트의 데이터 디렉토리에 공간 추가

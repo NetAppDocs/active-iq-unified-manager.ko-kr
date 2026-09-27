@@ -27,7 +27,7 @@ Red Hat Enterprise Linux 8.x 소프트웨어를 설치할 수 있는 예비 시�
 
 . Red Hat Enterprise Linux 8.x 시스템에서 기존 Red Hat Enterprise Linux 7.x 시스템에 있는 것과 동일한 버전의 Unified Manager 소프트웨어를 설치합니다.
 +
-을 link:concept_install_unified_manager_on_rhel.html["Linux에 Unified Manager 설치"]참조하십시오.
+link:task_install_unified_manager_linux.html["Linux에 Unified Manager 설치"]을 참조하십시오.
 
 +
 설치가 완료되면 UI를 실행하거나 클러스터, 사용자 또는 인증 설정을 구성하지 마십시오. 백업 파일은 복원 프로세스 중에 이 정보를 채웁니다.
@@ -56,7 +56,7 @@ Red Hat Enterprise Linux 8.x 소프트웨어를 설치할 수 있는 예비 시�
 
 . Red Hat Enterprise Linux 8.x 시스템에서 Red Hat Enterprise Linux 7.x 시스템에 있는 것과 동일한 버전의 Unified Manager 소프트웨어를 설치합니다.
 +
-을 link:concept_install_unified_manager_on_rhel.html["Linux에 Unified Manager 설치"]참조하십시오.
+link:task_install_unified_manager_linux.html["Linux에 Unified Manager 설치"]을 참조하십시오.
 
 +
 설치가 완료되면 UI를 실행하거나 클러스터, 사용자 또는 인증 설정을 구성하지 마십시오. 백업 파일은 복원 프로세스 중에 이 정보를 채웁니다.

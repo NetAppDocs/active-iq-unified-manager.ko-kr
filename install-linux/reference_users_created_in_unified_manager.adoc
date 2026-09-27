@@ -2,7 +2,7 @@
 permalink: install-linux/reference_users_created_in_unified_manager.html 
 sidebar: sidebar 
 keywords: users, created, unified manager, installation 
-summary: Red Hat Enterprise Linux에 Unified Manager를 설치하면 Unified Manager와 타사 유틸리티인 umadmin, JBoss 및 MySQL이 Unified Manager를 생성합니다. 
+summary: Red Hat Enterprise Linux에 Unified Manager를 설치하면 umadmin, jboss 및 mysql 사용자가 생성됩니다. 
 ---
 = Active IQ Unified Manager 설치 중에 생성된 사용자에 대해 알아보기
 :allow-uri-read: 

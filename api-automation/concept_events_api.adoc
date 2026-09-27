@@ -24,7 +24,7 @@ Unified Manager는 ONTAP에서 Unified Manager가 모니터링 및 관리하는 
 
 이 API에 대한 패치 작업을 실행하여 이벤트에 대한 해결 워크플로우를 활성화할 수 있습니다. 본인 또는 다른 사용자에게 이벤트를 할당하고 이벤트 수신을 확인할 수 있습니다. 리소스에 대한 단계를 수행하여 이벤트를 트리거한 문제를 해결할 때 이 API를 사용하여 이벤트를 Resolved로 표시할 수 있습니다.
 
-이벤트에 대한 자세한 내용은 를 참조하십시오link:../events/concept_manage_events.html["이벤트 관리"].
+이벤트에 대한 자세한 내용은 link:../events/concept_what_active_iq_platform_events_are.html["Active IQ 플랫폼 이벤트에 대해 알아보십시오."]을 참조하십시오.
 
 [cols="4*"]
 |===
@@ -59,7 +59,7 @@ Unified Manager는 ONTAP에서 Unified Manager가 모니터링 및 관리하는 
 
 이벤트는 자동으로 연속적으로 생성됩니다. Unified Manager는 이벤트가 특정 필터 조건을 충족할 경우에만 알림을 생성합니다. 알림을 생성할 이벤트를 선택할 수 있습니다. '/management-server/alerts' API를 사용하면 특정 심각도 유형의 특정 이벤트 또는 이벤트가 발생할 때 알림을 자동으로 보내도록 알림을 구성할 수 있습니다.
 
-알림에 대한 자세한 내용은 을 참조하십시오link:../events/concept_manage_alerts.html["알림을 관리합니다"].
+알림에 대한 자세한 내용은 link:../events/concept_what_alerts_are.html["알림에 대해 알아보기"]을 참조하십시오.
 
 [cols="4*"]
 |===

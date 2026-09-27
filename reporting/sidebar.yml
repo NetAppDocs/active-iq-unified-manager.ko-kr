@@ -3,11 +3,13 @@ section: reporting
 title: 사용자 정의 보고서를 생성합니다
 entries:
 - title: Unified Manager 보고
-  url: "/reporting/concept_unified_manager_reporting.html"
   entries:
+  - title: Unified Manager 보고 기능에 대해 알아보십시오.
+    url: "/reporting/concept_unified_manager_reporting.html"
   - title: 보고서 생성을 위한 액세스 포인트
-    url: "/reporting/concept_report_access_points.html"
     entries:
+    - title: 보고 기능에 액세스하는 방법 살펴보기
+      url: "/reporting/concept_report_access_points.html"
     - title: 맞춤형 보고를 위해 액세스할 수 있는 Unified Manager 데이터베이스
       url: "/reporting/concept_unified_manager_databases_accessible_for_reporting.html"
     - title: 보고에 사용할 수 있는 Unified Manager REST API
@@ -21,7 +23,6 @@ entries:
   - title: 보고서 제한 사항
     url: "/reporting/reference_reporting_limitations.html"
 - title: 보고서 작업
-  url: "/reporting/concept_work_with_reports.html"
   entries:
   - title: 보고서 워크플로
     url: "/reporting/concept_report_work_flow.html"
@@ -30,8 +31,9 @@ entries:
   - title: 예약된 보고서 검색
     url: "/reporting/task_search_for_scheduled_report.html"
   - title: 보고서 사용자 정의
-    url: "/reporting/concept_customize_reports.html"
     entries:
+    - title: 보고서 사용자 지정에 대해 알아보기
+      url: "/reporting/concept_customize_reports.html"
     - title: 열 사용자 정의
       url: "/reporting/task_customize_columns.html"
     - title: 데이터 필터링
@@ -45,25 +47,28 @@ entries:
   - title: 보고서 다운로드
     url: "/reporting/task_download_reports.html"
 - title: 보고서 예약
-  url: "/reporting/concept_schedule_reports.html"
   entries:
+  - title: 보고서 예약에 대해 알아보기
+    url: "/reporting/concept_schedule_reports.html"
   - title: 보고서 예약
-    url: "/reporting/task_schedule_report.html"
     entries:
+    - title: 보고서 일정 생성
+      url: "/reporting/task_schedule_report.html"
     - title: 가져온 .rptdesign 보고서 일정
       url: "/reporting/task_schedule_an_imported_report.html"
   - title: 보고서 일정 관리
-    url: "/reporting/task_manage_report_schedules.html"
     entries:
+    - title: 보고서 일정 보기, 편집 및 삭제
+      url: "/reporting/task_manage_report_schedules.html"
     - title: 예약된 보고서 편집
       url: "/reporting/task_edit_scheduled_reports.html"
     - title: 예약된 보고서 삭제
       url: "/reporting/task_delete_scheduled_reports.html"
 - title: 샘플 사용자 지정 보고서
-  url: "/reporting/concept_sample_custom_reports.html"
   entries:
+  - title: 샘플 사용자 정의 보고서 이해
+    url: "/reporting/concept_sample_custom_reports.html"
   - title: 클러스터 스토리지 보고서 사용자 정의
-    url: "/reporting/concept_customize_cluster_storage_reports.html"
     entries:
     - title: 클러스터 모델별 용량을 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_capacity_by_cluster_model.html"
@@ -74,7 +79,6 @@ entries:
     - title: 이전 버전의 ONTAP을 실행하는 노드를 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_view_nodes_running_older_versions_of_ontap.html"
   - title: 집계 용량 보고서 사용자 정의
-    url: "/reporting/concept_customize_aggregate_capacity_reports.html"
     entries:
     - title: 전체 용량에 도달한 집계를 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html"
@@ -83,7 +87,6 @@ entries:
     - title: 과도하게 약속된 집계를 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"
   - title: 볼륨 용량 보고서 사용자 정의
-    url: "/reporting/concept_customize_volume_capacity_reports.html"
     entries:
     - title: 스냅샷 자동 삭제가 꺼진 볼륨 중 전체 용량에 근접한 볼륨을 식별하기 위한 보고서를 만듭니다.
       url: "/reporting/task_create_report_to_identify_volumes_nearing_full_capacity.html"
@@ -92,27 +95,29 @@ entries:
     - title: FabricPool 집계에서 클라우드 계층으로 데이터를 이동해야 하는 볼륨을 식별하기 위한 보고서를 만듭니다.
       url: "/reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html"
   - title: Qtree 용량 보고서 사용자 정의
-    url: "/reporting/concept_customize_qtree_capacity_reports.html"
     entries:
     - title: 거의 가득 찬 Qtree를 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html"
   - title: NFS 공유 보고서 사용자 정의
-    url: "/reporting/concept_customize_nfs_share_reports.html"
     entries:
+    - title: NFS 공유 보고서 사용자 지정에 대해 알아보기
+      url: "/reporting/concept_customize_nfs_share_reports.html"
     - title: 접근할 수 없는 마운트 경로가 있는 볼륨을 보려면 보고서를 만듭니다.
       url: "/reporting/task_create_report_to_view_volumes_with_an_inaccessible_junction_path.html"
     - title: 기본 내보내기 정책을 사용하는 볼륨을 보려면 보고서를 만듭니다.
       url: "/reporting/task_create_report_to_view_volumes_with_default_export_policy.html"
   - title: 스토리지 VM 보고서 사용자 정의
-    url: "/reporting/concept_customize_svm_reports.html"
     entries:
+    - title: 스토리지 VM 보고서 사용자 지정에 대해 알아보기
+      url: "/reporting/concept_customize_svm_reports.html"
     - title: 최대 볼륨 제한에 도달한 스토리지 VM을 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_svms_reaching_maximum_volume_limit.html"
     - title: 중지된 스토리지 VM을 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_stopped_svms.html"
   - title: 볼륨 관계 보고서 사용자 정의
-    url: "/reporting/concept_customize_volume_relationship_reports.html"
     entries:
+    - title: 볼륨 관계 보고서 사용자 지정에 대해 알아보기
+      url: "/reporting/concept_customize_volume_relationship_reports.html"
     - title: 실패 소스별로 볼륨 관계를 그룹화하는 보고서를 만듭니다.
       url: "/reporting/task_create_report_volume_relationships_source_of_failure.html"
     - title: 문제별로 볼륨 관계를 그룹화하는 보고서를 만듭니다.
@@ -126,13 +131,13 @@ entries:
     - title: 일별로 그룹화된 볼륨 전송을 보려면 보고서를 만드세요.
       url: "/reporting/task_create_report_to_view_volume_transfers_grouped_by_day.html"
   - title: 볼륨 성능 보고서 사용자 정의
-    url: "/reporting/concept_customize_volume_performance_reports.html"
     entries:
     - title: FabricPool이 활성화되지 않은 집계에서 많은 양의 콜드 데이터가 포함된 볼륨을 보려면 보고서를 만듭니다.
       url: "/reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html"
 - title: Microsoft Excel 보고서 예제
-  url: "/reporting/concept_sample_microsoft_excel_reports.html"
   entries:
+  - title: Microsoft Excel 샘플 보고서 이해
+    url: "/reporting/concept_sample_microsoft_excel_reports.html"
   - title: 집계 용량 표와 차트를 보여주는 보고서를 만듭니다.
     url: "/reporting/task_create_report_to_view_capacity.html"
   - title: 총 용량 대비 사용 가능한 용량 차트를 보여주는 보고서를 만듭니다.

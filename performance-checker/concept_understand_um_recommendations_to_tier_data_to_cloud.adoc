@@ -2,7 +2,7 @@
 permalink: performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html 
 sidebar: sidebar 
 keywords: understand, unified manager, recommendations, tier, data, cloud 
-summary: 'Performance: All Volumes(성능: 모든 볼륨) 보기에는 비활성(콜드) 상태인 볼륨에 저장된 사용자 데이터의 크기와 관련된 정보가 표시됩니다. 경우에 따라 Unified Manager에서 FabricPool 지원 애그리게이트의 클라우드 계층(클라우드 공급자 또는 StorageGRID)에 비활성 데이터를 계층화함으로써 이점을 얻을 수 있는 특정 볼륨을 식별합니다.' 
+summary: '성능 페이지의 모든 볼륨 보기에는 비활성(콜드) 데이터 크기가 표시되며 FabricPool 클라우드 계층으로 계층화하면 이점을 얻을 수 있는 볼륨이 식별됩니다.' 
 ---
 = 클라우드로 데이터를 계층화하기 위한 Active IQ Unified Manager 권장 사항 검토
 :allow-uri-read: 

@@ -32,8 +32,6 @@ indexpage:
       url: "/config/concept_configure_unified_manager.html"
     - title: 기능 설정을 관리합니다
       url: "/config/concept_manage_feature_settings.html"
-    - title: 역할 기반 액세스 관리
-      url: "/config/concept_manage_user_access.html"
   - title: 성능 모니터링
     links:
     - title: 성능 임계값
@@ -56,10 +54,6 @@ indexpage:
       url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
     - title: MetroCluster 구성
       url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
-    - title: 클러스터 및 클러스터 오브젝트 상태
-      url: "/health-checker/concept_manage_and_monitor_clusters_and_cluster_object_health.html"
-    - title: 상태 임계값입니다
-      url: "/health-checker/concept_manage_health_thresholds.html"
     - title: AutoSupport 메시지 및 지원 번들을 보냅니다
       url: "/health-checker/task_send_asup_to_technical_support.html"
   - title: 데이터 보호 모니터링
@@ -100,8 +94,6 @@ indexpage:
       url: "/events/concept_what_happens_when_an_event_is_received.html"
     - title: Active IQ 플랫폼 이벤트입니다
       url: "/events/concept_how_active_iq_platform_events_are_generated.html"
-    - title: 이벤트 및 심각도 유형
-      url: "/events/reference_list_of_events_and_severity_types.html"
     - title: 문제 해결 이벤트
       url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
     - title: 자동 교정

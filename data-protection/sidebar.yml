@@ -3,13 +3,13 @@ section: data-protection
 title: 데이터 보호 및 복원
 entries:
 - title: 보호 관계 생성 및 문제 해결
-  url: "/data-protection/concept_create_and_monitor_protection_relationships.html"
   entries:
   - title: SnapMirror 보호 유형입니다
     url: "/data-protection/concept_types_of_snapmirror_protection.html"
   - title: Unified Manager에서 보호 관계 설정
-    url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
     entries:
+    - title: 보호 관계 설정에 대해 알아보기
+      url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
     - title: Workflow Automation과 Unified Manager 간 연결 구성
       url: "/data-protection/task_configure_connection_between_workflow_automation_um.html"
     - title: Workflow Automation에서 Unified Manager 데이터 소스 캐싱 확인
@@ -19,8 +19,9 @@ entries:
     - title: Unified Manager에서 OnCommand Workflow Automation 설정 제거
       url: "/data-protection/task_remove_workflow_automation.html"
   - title: 보호 관계 장애 조치 및 장애 복구 수행
-    url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     entries:
+    - title: 페일오버 및 페일백에 대해 알아보십시오.
+      url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     - title: 볼륨 상태 세부 정보 페이지에서 SnapMirror 관계 해제
       url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
     - title: 볼륨 상태 세부 정보 페이지에서 역방향 보호 관계
@@ -30,15 +31,17 @@ entries:
     - title: 볼륨 상태 세부 정보 페이지에서 보호 관계를 다시 동기화합니다.
       url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
   - title: 보호 작업 실패 해결
-    url: "/data-protection/task_resolve_protection_job_failure.html"
     entries:
+    - title: 보호 작업 실패를 해결하는 방법을 알아보십시오.
+      url: "/data-protection/task_resolve_protection_job_failure.html"
     - title: 문제를 식별하고 실패한 보호 작업에 대한 시정 조치를 수행합니다.
       url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
   - title: 지연 문제 해결
     url: "/data-protection/task_resolve_lag_issues.html"
 - title: 보호 관계 관리 및 모니터링
-  url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
   entries:
+  - title: 보호 관계 관리 및 모니터링에 대해 알아보기
+    url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
   - title: 볼륨 보호 상태 보기
     url: "/data-protection/view-protection-status.html"
   - title: 볼륨 보호 관계 보기
@@ -112,8 +115,9 @@ entries:
   - title: 리소스 풀 삭제
     url: "/data-protection/task_delete_resource_pools.html"
   - title: 스토리지 VM 재해 복구 보호 관계 모니터링
-    url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
     entries:
+    - title: 스토리지 VM 재해 복구 관계에 대해 알아보십시오.
+      url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
     - title: 관계 페이지를 사용하여 스토리지 VM 모니터링
       url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
     - title: 스토리지 VM 페이지에서 보호 관계 보기
@@ -135,7 +139,6 @@ entries:
   - title: 실패한 보호 작업을 다시 시도합니다.
     url: "/data-protection/task_retry_failed_protection_job.html"
   - title: 보호 관계 창 및 대화 상자에 대한 설명입니다
-    url: "/data-protection/reference_description_of_protection_relationships_window.html"
     entries:
     - title: 리소스 풀 페이지를 참조하십시오
       url: "/data-protection/reference_resource_pools_page.html"

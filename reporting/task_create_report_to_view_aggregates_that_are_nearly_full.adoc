@@ -2,7 +2,7 @@
 permalink: reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html 
 sidebar: sidebar 
 keywords: create, report, view, aggregates, full 
-summary: '보고서를 생성하여 80% 이상의 꽉 찬 애그리게이트를 강조 표시할 수 있습니다.' 
+summary: '80% 이상 가득 찬 애그리게이트를 강조하는 보고서를 작성합니다.' 
 ---
 = Active IQ Unified Manager에서 80% 이상 가득 찬 애그리게이트를 보는 보고서 생성
 :allow-uri-read: 

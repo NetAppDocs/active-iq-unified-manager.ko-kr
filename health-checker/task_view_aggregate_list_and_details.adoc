@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_aggregate_list_and_details.html 
 sidebar: sidebar 
 keywords: view, aggregate list, details 
-summary: '상태: 모든 집계 보기에서 집계 인벤토리를 모니터링할 수 있습니다. Capacity:All 애그리게이트 보기에서는 모든 클러스터에서 애그리게이트의 용량 및 활용률에 대한 정보를 볼 수 있습니다.' 
+summary: 상태 페이지의 모든 애그리게이트 보기를 사용하여 애그리게이트 인벤토리를 모니터링하고, 용량 페이지의 모든 애그리게이트 보기를 사용하여 용량 및 활용률 세부 정보를 확인하십시오. 
 ---
 = Active IQ Unified Manager에서 애그리게이트 목록 및 세부 정보 보기
 :allow-uri-read: 
@@ -37,5 +37,5 @@ summary: '상태: 모든 집계 보기에서 집계 인벤토리를 모니터링
 
 * link:../health-checker/reference_health_aggregate_details_page.html["집계/상태 세부 정보 페이지"]
 * link:../performance-checker/performance-view-all.html#performance-all-aggregates-view["성능: 모든 애그리게이트 보기"]
-* link:../reporting/concept_customize_aggregate_capacity_reports.html["애그리게이트 용량 보고서 사용자 지정"]
+* link:../reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html["Active IQ Unified Manager에서 전체 용량에 도달하는 애그리게이트를 보기 위한 보고서 생성"]
 
